@@ -43,13 +43,13 @@
 body {
   background-color: var(--color-space-black);
   color: #e2e8f0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   overflow-x: hidden;
   selection-background-color: rgba(0, 240, 255, 0.3);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", var(--font-heading);
   letter-spacing: -0.02em;
 }
 
