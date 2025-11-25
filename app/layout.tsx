@@ -1,6 +1,6 @@
 export const metadata = { 
-  title: 'GitHub Docs 完全マニュアル',
-  description: '初心者でも分かるGitHubの使い方を、ECサイト形式で学ぶマニュアルサイト' 
+  title: 'Café Culture - コーヒーが紡ぐ、心温まる物語',
+  description: '一杯のコーヒーから始まる素敵な時間。全国のカフェ文化を探求し、あなただけの居場所を見つける旅へ。' 
 };
 import './globals.css';
 import { Header } from './components/navigation/Header';

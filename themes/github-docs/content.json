@@ -1,32 +1,32 @@
 {
   "site": {
-    "name": "Code Voyage",
-    "tagline": "Mastering GitHub: A Developer's Journey",
-    "description": "単なるツールではない。開発者の人生を変える「物語」としてのGitHub完全ガイド。",
+    "name": "Café Culture",
+    "tagline": "コーヒーが紡ぐ、心温まる物語",
+    "description": "一杯のコーヒーから始まる素敵な時間。全国のカフェ文化を探求し、あなただけの居場所を見つける旅へ。",
     "logo": {
-      "text": "CodeVoyage",
-      "icon": "github"
+      "text": "CaféCulture",
+      "icon": "coffee"
     }
   },
   "navigation": [
     { "label": "Home", "href": "/" },
-    { "label": "The Journey", "href": "/docs" },
+    { "label": "カフェ探訪", "href": "/docs" },
     { "label": "Blog", "href": "/blog" },
-    { "label": "Showcase", "href": "/features" },
-    { "label": "Join Us", "href": "/contact", "variant": "primary" }
+    { "label": "特集", "href": "/features" },
+    { "label": "お問い合わせ", "href": "/contact", "variant": "primary" }
   ],
   "pages": {
     "home": {
       "hero": {
         "type": "cinematic",
-        "title": "コードが世界を\n繋ぐとき",
-        "subtitle": "The Moment Code Connects the World",
-        "description": "一人の開発者が、世界中の何百万という才能と繋がる場所。GitHubは単なるバージョン管理ツールではありません。それは、あなたのアイデアを永遠に残すための「箱舟」です。",
-        "bgImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+        "title": "香りが紡ぐ\n至福の時間",
+        "subtitle": "Where Every Sip Tells a Story",
+        "description": "朝の一杯から始まる、あなただけの物語。カフェは単なる飲食店ではありません。それは、日常から離れ、自分と向き合う「聖域」です。",
+        "bgImage": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
         "overlay": "dark",
         "actions": [
-          { "label": "物語を始める", "href": "/docs/getting-started", "variant": "primary" },
-          { "label": "機能を探求する", "href": "/features", "variant": "secondary" }
+          { "label": "カフェを探す", "href": "/docs/getting-started", "variant": "primary" },
+          { "label": "特集を見る", "href": "/features", "variant": "secondary" }
         ]
       },
       "sections": [
@@ -35,370 +35,244 @@
           "type": "split-feature",
           "layout": "image-right",
           "chapter": "Chapter 01",
-          "title": "始まりの場所",
-          "subtitle": "The Awakening",
-          "description": "すべての偉大なプロジェクトは、たった一つの「git init」から始まります。あなたのローカル環境という小さな庭から、無限に広がるオープンソースの大海原へ。最初のコミットは、未来への宣言です。",
-          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop",
+          "title": "一杯の魔法",
+          "subtitle": "The First Sip",
+          "description": "バリスタが丁寧に淹れる一杯には、豆の産地、焙煎、抽出温度、すべての工程への愛情が詰まっています。その香りを嗅いだ瞬間、日常のストレスは消え去り、新しいインスピレーションが湧いてきます。",
+          "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
           "stats": [
-            { "value": "100M+", "label": "Repositories" },
-            { "value": "40M+", "label": "Developers" }
+            { "value": "500+", "label": "厳選カフェ" },
+            { "value": "10万+", "label": "レビュー" }
           ],
-          "link": { "text": "リポジトリ作成の物語を読む", "href": "/docs/getting-started" }
+          "link": { "text": "コーヒーの基礎を学ぶ", "href": "/docs/getting-started" }
         },
         {
           "id": "chapter-2",
           "type": "split-feature",
           "layout": "image-left",
           "chapter": "Chapter 02",
-          "title": "交差する運命",
-          "subtitle": "The Conflict & Resolution",
-          "description": "チーム開発は順風満帆ではありません。「コンフリクト」は避けて通れない試練。しかし、それを乗り越え、互いのコードをマージした瞬間、1+1は無限大になります。Pull Requestは、コードに対するラブレターなのです。",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
+          "title": "居心地の探求",
+          "subtitle": "The Perfect Ambiance",
+          "description": "照明の温かさ、BGMの選曲、椅子の座り心地。良いカフェとは、五感すべてで「ここにいたい」と思わせてくれる空間です。作業に集中したい日も、友人と語り合いたい日も、あなたにぴったりの場所がきっと見つかります。",
+          "image": "https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
           "quote": {
-            "text": "コンフリクトを恐れるな。それはチームが成長している証なのだから。",
-            "author": "Senior Engineer"
+            "text": "良いカフェは、家でも職場でもない「第三の場所」になる。",
+            "author": "カフェ評論家"
           },
-          "link": { "text": "協調開発の極意を知る", "href": "/docs/collaboration" }
+          "link": { "text": "雰囲気で選ぶカフェガイド", "href": "/docs/atmosphere" }
         },
         {
           "id": "showcase",
           "type": "grid-gallery",
-          "title": "進化する開発体験",
-          "subtitle": "Automation & Beyond",
-          "description": "GitHub Actionsによる自動化、CopilotによるAI支援。テクノロジーはあなたの開発体験を次なる次元へと押し上げます。",
+          "title": "コーヒースタイル",
+          "subtitle": "Your Coffee, Your Way",
+          "description": "ドリップ、エスプレッソ、サイフォン。コーヒーには無限のスタイルがあります。あなたの好みにぴったりの一杯を見つけましょう。",
           "items": [
             {
-              "title": "GitHub Actions",
-              "description": "CI/CDパイプラインを数行のYAMLで。",
-              "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=2088&auto=format&fit=crop",
-              "href": "/docs/actions"
+              "title": "ハンドドリップ",
+              "description": "繊細な味わいを楽しむ、究極の手仕事。",
+              "image": "https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+              "href": "/docs/hand-drip"
             },
             {
-              "title": "GitHub Copilot",
-              "description": "AIペアプログラマーと共に。",
-              "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
-              "href": "/docs/copilot"
+              "title": "エスプレッソ",
+              "description": "凝縮された旨味と香りのエッセンス。",
+              "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+              "href": "/docs/espresso"
             },
             {
-              "title": "Security",
-              "description": "堅牢なセキュリティを標準装備。",
-              "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop",
-              "href": "/docs/security"
+              "title": "ラテアート",
+              "description": "視覚でも楽しむ、バリスタの芸術。",
+              "image": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+              "href": "/docs/latte-art"
             }
           ]
         },
         {
           "id": "testimonials",
           "type": "testimonials",
-          "title": "開発者たちの声",
+          "title": "カフェ愛好家の声",
           "items": [
             {
-              "content": "GitHubなくして、現代のソフトウェア開発は語れない。それは空気のような存在だ。",
-              "author": "Sarah Jenkins",
-              "role": "Tech Lead at Vercel",
-              "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
+              "content": "毎朝の一杯が、私の一日を決める。ここで紹介されたカフェは、どこも期待を超えてくれました。",
+              "author": "佐藤 美咲",
+              "role": "フリーランスデザイナー",
+              "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150"
             },
             {
-              "content": "オープンソースへの貢献が、私のキャリアを劇的に変えました。",
-              "author": "Kenji Tanaka",
-              "role": "OSS Contributor",
-              "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+              "content": "リモートワークの拠点探しに最適。電源やWi-Fi情報まで載っているのが嬉しい。",
+              "author": "田中 健太",
+              "role": "ITエンジニア",
+              "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150"
             }
           ]
         },
         {
           "id": "cta",
           "type": "cta-fullscreen",
-          "title": "さあ、旅に出よう",
-          "description": "あなたのコードが世界を変える瞬間を、私たちは待っています。",
-          "bgImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop",
-          "action": { "label": "Start Your Journey", "href": "/docs/getting-started" }
+          "title": "あなたの一杯を見つけよう",
+          "description": "全国500店以上のカフェから、運命の出会いが待っています。",
+          "bgImage": "https://images.pexels.com/photos/1813466/pexels-photo-1813466.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+          "action": { "label": "カフェ探しを始める", "href": "/docs/getting-started" }
         }
       ]
     },
     "docs": [
       {
         "slug": "getting-started",
-        "title": "始まりの場所：GitHub入門",
-        "subtitle": "Chapter 01 - The Awakening",
-        "description": "アカウント作成から初めてのコミットまで。あなたの開発者としての旅はここから始まります。",
-        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop",
-        "content": "## 序章\n\nまだ見ぬ世界への扉を開くときが来ました。GitHubは単なるツールではありません。それは世界中の開発者が知恵を共有し、未来を紡ぐための巨大な図書館であり、工房であり、広場なのです。\n\n> 「プログラミングとは、コンピュータに命令することではない。未来の自分、あるいは仲間に向けて物語を綴ることだ。」\n\n### 1. アカウントの作成\n\nまずは自分自身のアイデンティティを確立しましょう。GitHubのアカウントは、エンジニアにとっての名刺代わりになります。\n\n1. [github.com](https://github.com) にアクセスします。\n2. **Sign up** ボタンをクリックし、あなたのメールアドレスを入力します。\n3. ユニークなユーザー名を決めます。これはあなたの開発者としての「名前」になります。世界中で唯一無二の名前を選んでください。\n4. 強力なパスワードを設定し、二要素認証（2FA）も必ず有効にしましょう。あなたのコードは資産です。\n\n### 2. 最初のプロジェクト「Hello, World」\n\n「Hello, World」\n\nそれはプログラマーにとって特別な言葉です。さあ、ローカル環境でリポジトリを作成し、世界に向けて挨拶をしましょう。\n\n```bash\n# プロジェクトフォルダを作成\nmkdir my-first-voyage\ncd my-first-voyage\n\n# Gitリポジトリとして初期化\ngit init\n\n# 最初のファイルを作成\necho \"# My First Voyage\" > README.md\n\n# 変更をステージング\ngit add README.md\n\n# 歴史に刻む（コミット）\ngit commit -m \"Initial commit: The journey begins\"\n```\n\nこれで、あなたのローカル環境に最初の足跡が刻まれました。\n\n### 3. 次のステップ\n\nこのままでは、あなたのコードはまだあなたのPCの中にしかありません。次のチャプターでは、このリポジトリをGitHubという広大な宇宙へ送り出す方法を学びます。",
-        "related": ["setup-git", "repository-basics"]
+        "title": "カフェ巡りの始め方",
+        "subtitle": "Chapter 01 - The Beginning",
+        "description": "初めてのカフェ巡り。何から始めればいいのかわからない方へ、基本のガイドをお届けします。",
+        "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## カフェ巡りへようこそ\n\nコーヒー一杯から始まる小さな冒険。カフェ巡りは、新しい味覚との出会いであり、素敵な空間の発見であり、自分だけの時間を見つける旅です。\n\n> 「良いカフェとは、コーヒーが美味しいだけではない。そこにいる時間が心地よいのだ。」\n\n### 1. 自分の好みを知る\n\nまずは自分がどんなコーヒーが好きか、どんな空間で過ごしたいかを考えてみましょう。\n\n- **味の好み**: 酸味が好き？苦味が好き？ミルク入り派？\n- **空間の好み**: 静かに本を読みたい？友人とおしゃべりしたい？\n- **目的**: 作業に集中したい？リラックスしたい？\n\n### 2. 近所のカフェから始める\n\n遠くの有名店に行く前に、まずは歩いて行ける範囲のカフェを開拓しましょう。意外な名店が見つかるかもしれません。\n\n### 3. 記録をつける\n\n訪れたカフェの感想を簡単にメモしておくと、後で振り返る楽しみが増えます。\n\n- 店名と場所\n- 飲んだもの\n- 雰囲気\n- また来たいか\n\n### 次のステップ\n\n基本がわかったら、次はコーヒーの抽出方法について学んでみましょう。味の違いがわかると、カフェ巡りがもっと楽しくなります。",
+        "related": ["coffee-basics", "atmosphere"]
       },
       {
-        "slug": "setup-git",
-        "title": "Gitのセットアップ",
-        "subtitle": "Chapter 01 - The Tools",
-        "description": "ローカル環境にGitをインストールし、GitHubと接続するための初期設定を行います。",
-        "image": "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=2070&auto=format&fit=crop",
-        "content": "## 武器を手に取る\n\n冒険に出るには装備が必要です。開発者にとっての剣、それが **Git** です。Linuxカーネル開発のためにリーナス・トーバルズによって生み出されたこのツールは、今や世界中の開発の標準となっています。\n\n### Gitのインストール\n\nお使いのOSに合わせてインストールしてください。\n\n#### macOS\n\nHomebrewを使用するのが最も簡単です。\n\n```bash\nbrew install git\n```\n\n#### Windows\n\n[Git for Windows](https://gitforwindows.org/) からインストーラーをダウンロードして実行してください。インストール中、多くのオプションが表示されますが、基本的にはデフォルトのままで構いません。\n\n#### Linux (Ubuntu/Debian)\n\n```bash\nsudo apt update\nsudo apt install git\n```\n\n### あなた自身を定義する\n\nGitは「誰が」変更を行ったかを記録します。これは責任の所在を明らかにするだけでなく、チーム内での信頼の証でもあります。\n\n```bash\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@email.com\"\n```\n\n> **Note**: ここで設定するメールアドレスは、GitHubに登録したものと同じものを使用してください。そうすることで、GitHub上のプロフィールとコミットが正しく紐付けられます。\n\n### デフォルトブランチの設定\n\nかつては `master` が主流でしたが、現在は `main` を使用するのが標準的です。\n\n```bash\ngit config --global init.defaultBranch main\n```\n\n準備は整いました。あなたの剣は研ぎ澄まされています。",
-        "related": ["getting-started", "repository-basics"]
+        "slug": "coffee-basics",
+        "title": "コーヒーの基礎知識",
+        "subtitle": "Chapter 01 - The Beans",
+        "description": "産地、焙煎、抽出。美味しいコーヒーを理解するための基本を学びましょう。",
+        "image": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## コーヒー豆の世界\n\nコーヒーは「豆」と呼ばれていますが、実はコーヒーチェリーという果実の種子です。その産地や品種、加工方法によって、驚くほど味わいが変わります。\n\n### 主要な産地\n\n#### エチオピア\nコーヒー発祥の地。フルーティーで華やかな香りが特徴。\n\n#### ブラジル\n世界最大の生産国。バランスが良く、ナッツのような風味。\n\n#### コロンビア\nまろやかな酸味と甘み。日本人に人気の味わい。\n\n### 焙煎度合い\n\n- **浅煎り（ライトロースト）**: 酸味が強く、フルーティー\n- **中煎り（ミディアムロースト）**: バランスが良い\n- **深煎り（ダークロースト）**: 苦味とコク、スモーキー\n\n### 新鮮さの重要性\n\n焙煎から2週間以内が最も美味しい期間と言われています。カフェで豆を購入する際は、焙煎日をチェックしましょう。",
+        "related": ["getting-started", "hand-drip"]
       },
       {
-        "slug": "repository-basics",
-        "title": "リポジトリの基礎",
-        "subtitle": "Chapter 01 - The Box",
-        "description": "PublicとPrivateの違い、README、.gitignore、LICENSEなど、リポジトリを構成する要素について。",
-        "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=2088&auto=format&fit=crop",
-        "content": "## 知識の箱舟\n\nリポジトリ（Repository）とは、単なるファイル置き場ではありません。それはプロジェクトの歴史、現在、そして未来のすべてが詰まった「箱舟」です。\n\n### 公開設定：Public vs Private\n\nリポジトリを作成する際、最も重要な決断の一つが公開設定です。\n\n- **Public（公開）**: \n  - 世界中の誰もがあなたのコードを見ることができます。\n  - オープンソース活動や、ポートフォリオとして最適です。\n  - **注意**: パスワードやAPIキーなどの機密情報を決して含めないでください。\n\n- **Private（非公開）**:\n  - あなたと、あなたが招待したメンバーだけが見ることができます。\n  - 仕事のプロジェクトや、個人的な実験に適しています。\n  - 現在はGitHubの無料プランでも無制限に作成できます。\n\n### リポジトリの三種の神器\n\n良いリポジトリには、必ず以下の3つのファイルが含まれています。\n\n#### 1. README.md\n\nプロジェクトの「顔」であり「説明書」です。Markdown形式で記述します。\n- このプロジェクトは何をするものか？\n- どうやってインストールするか？\n- どうやって使うか？\n\nこれらが書かれていないリポジトリは、地図のない迷宮のようなものです。\n\n#### 2. .gitignore\n\nGitの管理対象から**除外**するファイルを指定します。OSの一時ファイル（`.DS_Store`）や、依存パッケージ（`node_modules`）、ビルド成果物などを記述します。\n\n例:\n```gitignore\n# dependencies\n/node_modules\n\n# production\n/build\n\n# misc\n.DS_Store\n.env\n```\n\n#### 3. LICENSE\n\nあなたのコードを他人がどう利用してよいかを定めた法的文書です。MIT, Apache, GPLなどが一般的です。これがないと、法的には「誰も利用できない」状態になってしまいます。OSSとして公開する場合は必須です。",
-        "related": ["commit-and-push", "branching"]
+        "slug": "atmosphere",
+        "title": "雰囲気で選ぶカフェ",
+        "subtitle": "Chapter 01 - The Space",
+        "description": "作業向き、読書向き、デート向き。目的別のカフェの選び方をご紹介します。",
+        "image": "https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## 空間がコーヒーを完成させる\n\n同じコーヒーでも、飲む場所によって味わいが変わる気がしませんか？カフェの雰囲気は、体験全体を左右する重要な要素です。\n\n### 作業に集中したい時\n\n- 電源とWi-Fiが使える\n- 適度な雑音（静かすぎると落ち着かない人も）\n- 長居しても居心地が悪くない\n\n### 読書を楽しみたい時\n\n- 自然光が入る窓際の席\n- 柔らかなBGM\n- ゆったりしたソファ席\n\n### 友人と語らいたい時\n\n- 会話しやすいテーブル配置\n- 周りを気にせず話せる空間\n- 美味しいフードメニュー\n\n### デートで使いたい時\n\n- おしゃれな内装\n- 写真映えするメニュー\n- 少し暗めの落ち着いた照明\n\n目的に合ったカフェを選ぶことで、過ごす時間の質が格段に上がります。",
+        "related": ["getting-started", "tokyo-cafes"]
       },
       {
-        "slug": "commit-and-push",
-        "title": "コミットとプッシュ",
-        "subtitle": "Chapter 02 - The History",
-        "description": "変更を記録し、世界と共有する。Gitの基本サイクルをマスターします。",
-        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
-        "content": "## 歴史を紡ぐ\n\nプログラミングとは、試行錯誤の連続です。Gitはその試行錯誤の過程を、美しい歴史として保存します。\n\n### The Git Cycle\n\nGitの作業フローは、大きく3つのエリアを行き来します。\n\n1. **Working Directory**: あなたが今、エディタで編集している場所。\n2. **Staging Area (Index)**: 次のコミットに含める変更を選ぶ場所。\n3. **Repository**: 変更が永久に記録される場所。\n\n### ステップバイステップ\n\n#### 1. 変更を加える\n\nファイルを編集し、保存します。`git status` コマンドで、どのファイルが変更されたか確認できます。\n\n```bash\ngit status\n```\n\n#### 2. ステージング (git add)\n\n変更をステージングエリアに乗せます。「この変更を次の歴史の1ページにするぞ」という宣言です。\n\n```bash\ngit add .\n# または特定のファイルだけ\ngit add main.ts\n```\n\n#### 3. コミット (git commit)\n\nステージングされた変更を、メッセージと共に記録します。\n\n```bash\ngit commit -m \"feat: ログイン機能を追加\"\n```\n\n> **Good Commit Message**:\n> - 1行目は要約（50文字以内推奨）\n> - 命令形を使う（\"Added feature\" ではなく \"Add feature\"）\n> - 具体的に何をしたか、なぜしたかを記述する\n\n#### 4. プッシュ (git push)\n\nローカルで積み上げた歴史を、GitHubという共有の場所へ同期します。\n\n```bash\ngit push origin main\n```\n\nこれで、あなたの変更は世界の反対側にいる開発者にも届くようになりました。",
-        "related": ["branching", "fork-and-clone"]
+        "slug": "hand-drip",
+        "title": "ハンドドリップの魅力",
+        "subtitle": "Chapter 02 - The Craft",
+        "description": "一杯一杯丁寧に淹れるハンドドリップ。その魅力と基本的な淹れ方を解説します。",
+        "image": "https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## 手仕事の温もり\n\nハンドドリップは、最もシンプルで最も奥深い抽出方法です。お湯を注ぐ速度、温度、時間によって味が変わる、まさに一期一会のコーヒー体験です。\n\n### 基本の道具\n\n1. **ドリッパー**: ハリオV60、カリタ、メリタなど\n2. **ペーパーフィルター**: ドリッパーに合ったもの\n3. **サーバー**: 抽出したコーヒーを受ける容器\n4. **ケトル**: 細口が注ぎやすい\n5. **スケール**: 豆とお湯の量を正確に\n\n### 基本の淹れ方\n\n1. お湯を沸かし、90℃程度に冷ます\n2. フィルターをセットし、粉を入れる（中挽き15g）\n3. 少量のお湯で蒸らす（30秒）\n4. ゆっくり円を描くようにお湯を注ぐ\n5. 目安は2分半〜3分で240ml\n\n### カフェで楽しむポイント\n\n「シングルオリジン」や「本日のハンドドリップ」があるカフェは、品質にこだわっている証拠。バリスタに産地や味の特徴を聞いてみましょう。",
+        "related": ["coffee-basics", "espresso"]
       },
       {
-        "slug": "branching",
-        "title": "ブランチの魔法",
-        "subtitle": "Chapter 02 - Parallel Worlds",
-        "description": "本番環境を壊さずに新機能を試す。並行世界を作り出すブランチ機能。",
-        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop",
-        "content": "## 並行世界の創造\n\nもし、失敗を恐れずに実験ができたら？もし、本番環境に影響を与えずに大規模な改修ができたら？\n\nGitの **Branch（ブランチ）** 機能は、それを可能にします。メインのタイムライン（mainブランチ）から分岐し、パラレルワールドを作り出すのです。\n\n### なぜブランチを使うのか？\n\n- **安全性の確保**: 開発中の不安定なコードが、安定したmainブランチに混ざるのを防ぎます。\n- **並行開発**: チームメンバーAはデザイン修正、Bはバグ修正、Cは新機能開発。それぞれのブランチで同時に作業が進められます。\n- **コンテキストの切り替え**: 「あ、急ぎのバグ修正が入った！」という時も、現在の作業をブランチに残したまま、別の作業に切り替えられます。\n\n### 基本コマンド\n\n#### ブランチの作成と切り替え\n\n```bash\n# feature/user-auth というブランチを作成し、そこへ移動\ngit checkout -b feature/user-auth\n```\n\n#### 作業とコミット\n\nこのブランチで行うコミットは、mainブランチには影響しません。自由に実験しましょう。\n\n```bash\ngit add .\ngit commit -m \"feat: 認証ロジックの実装\"\n```\n\n#### メインに戻る\n\n```bash\ngit checkout main\n```\n\n#### マージ（統合）\n\n実験が成功したら、その結果をメインの世界に取り込みます。\n\n```bash\ngit merge feature/user-auth\n```\n\nしかし、現代のGitHub開発においては、ローカルで直接マージすることは稀です。代わりに **Pull Request** を使います。",
-        "related": ["pull-requests", "collaboration"]
+        "slug": "espresso",
+        "title": "エスプレッソの世界",
+        "subtitle": "Chapter 02 - The Essence",
+        "description": "小さなカップに凝縮された濃厚な風味。エスプレッソベースのドリンクについて解説します。",
+        "image": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## 凝縮された美味しさ\n\nエスプレッソは、高圧でお湯を豆に通して抽出する方法です。25〜30ml の少量に、コーヒーの旨味がギュッと詰まっています。\n\n### エスプレッソの特徴\n\n- **クレマ**: 表面の黄金色の泡。新鮮な証拠\n- **ボディ**: 濃厚でシロップのような質感\n- **アロマ**: 香りが凝縮されている\n\n### 定番のエスプレッソドリンク\n\n| ドリンク | 構成 |\n|---------|------|\n| エスプレッソ | エスプレッソのみ |\n| アメリカーノ | エスプレッソ + お湯 |\n| カフェラテ | エスプレッソ + スチームミルク |\n| カプチーノ | エスプレッソ + ミルク + フォーム |\n| カフェモカ | エスプレッソ + チョコ + ミルク |\n\n### 注文のコツ\n\n「ダブルショットで」「ミルク多めで」など、自分好みにカスタマイズできるお店も多いです。遠慮せず相談してみましょう。",
+        "related": ["hand-drip", "latte-art"]
       },
       {
-        "slug": "fork-and-clone",
-        "title": "フォークとクローン",
-        "subtitle": "Chapter 02 - Copy & Paste",
-        "description": "他人のプロジェクトを自分のものに。OSS貢献への第一歩。",
-        "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=2088&auto=format&fit=crop",
-        "content": "## 巨人の肩に乗る\n\nオープンソースの美しさは、誰かの成果を基に、さらに素晴らしいものを作れることです。\n\n### Fork（フォーク）\n\nGitHub上のリポジトリ右上の「Fork」ボタン。これを押すと、オリジナルのリポジトリがあなたのアカウントにコピーされます。\n\nこれは単なるコピーではありません。「このプロジェクトに貢献したい」「自分用にカスタマイズしたい」という意思表示です。フォークしたリポジトリのオーナーはあなたであり、自由にコードを書き換えることができます。\n\n### Clone（クローン）\n\nGitHub上のリポジトリ（自分のものでも、他人のものでも）を、あなたのローカルPCにダウンロードする操作です。\n\n```bash\n# HTTPSでクローン\ngit clone https://github.com/your-username/awesome-project.git\n\n# ディレクトリ移動\ncd awesome-project\n```\n\n### Upstream（上流）との同期\n\nフォーク元のオリジナルのリポジトリ（Upstream）が更新された場合、あなたのフォークも更新したくなるでしょう。\n\n```bash\n# リモートの追加（最初の一回だけ）\ngit remote add upstream https://github.com/original-owner/awesome-project.git\n\n# 上流の変更を取得してマージ\ngit fetch upstream\ngit merge upstream/main\n```\n\nこれで、常に最新の状態を保ちながら開発を続けることができます。",
-        "related": ["pull-requests", "collaboration"]
+        "slug": "latte-art",
+        "title": "ラテアートの楽しみ方",
+        "subtitle": "Chapter 02 - The Art",
+        "description": "ハートやリーフ、スワン。バリスタが描くラテアートの世界を紹介します。",
+        "image": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## 飲むアート\n\nラテアートは、エスプレッソにスチームミルクを注ぐ際に、表面に模様を描く技術です。見た目の美しさだけでなく、ミルクの質感の証でもあります。\n\n### 代表的なデザイン\n\n- **ハート**: 最も基本的なデザイン\n- **リーフ（ロゼッタ）**: 木の葉のような模様\n- **スワン**: 白鳥を描いた高度なデザイン\n- **チューリップ**: 重ねて描く花のデザイン\n\n### 美しいラテアートの条件\n\n1. 適切な温度でスチームされたミルク\n2. 細かく均一なフォーム（マイクロフォーム）\n3. 熟練したバリスタの技術\n\n### 写真を撮るコツ\n\n- 真上から撮る\n- 自然光で撮影\n- 背景はシンプルに\n\nラテアートが美しいカフェは、ミルクの扱いにこだわっている証拠。味も期待できます。",
+        "related": ["espresso", "tokyo-cafes"]
       },
       {
-        "slug": "collaboration",
-        "title": "交差する運命：チーム開発",
-        "subtitle": "Chapter 03 - The Conflict",
-        "description": "一人では到達できない高みへ。チーム開発のルールとマナー。",
-        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
-        "content": "## 1 + 1 > 2\n\nチーム開発は、個人のスキルの足し算ではありません。相互作用による掛け算です。\n\n### コミュニケーションとしてのコード\n\nコードを書くとき、コンピュータに向けて書くだけでなく、「これを読む未来のチームメイト」に向けて書いてください。変数名、コメント、ディレクトリ構造。すべてがメッセージです。\n\n### コンフリクト（衝突）\n\n同じファイルの同じ行を、二人が同時に編集してしまったらどうなるでしょう？Gitは混乱し、「Conflict」が発生します。\n\n多くの初心者はこれを恐れます。画面に現れる `<<<<<<< HEAD` といった記号にパニックになります。\n\nしかし、恐れる必要はありません。コンフリクトは、チームが活発に動いている証拠です。\n\n#### コンフリクトの解消\n\n1. エディタで該当ファイルを開く。\n2. `<<<<<<<` (自分の変更) と `>>>>>>>` (相手の変更) の間を確認する。\n3. どちらを採用するか、あるいは両方を組み合わせて書き直すかを決める。\n4. マーカー（記号）を削除し、保存する。\n5. `git add` して `git commit` する。\n\nこれで、二つの運命は一つに統合されました。",
-        "related": ["pull-requests", "code-review"]
+        "slug": "tokyo-cafes",
+        "title": "東京のおすすめカフェ",
+        "subtitle": "Chapter 03 - The Guide",
+        "description": "渋谷、表参道、下北沢。東京の人気エリア別おすすめカフェガイド。",
+        "image": "https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## 東京カフェマップ\n\n東京には個性豊かなカフェが無数に存在します。エリア別に、ぜひ訪れてほしいおすすめ店をご紹介します。\n\n### 渋谷エリア\n\nトレンドの発信地。新しいスタイルのカフェが次々とオープンします。\n\n- 若者向けのおしゃれな店\n- 夜遅くまで営業している店が多い\n- Wi-Fi完備の作業向けカフェも\n\n### 表参道・青山エリア\n\n洗練された大人の空間。特別な日にぴったりです。\n\n- 高品質なスペシャルティコーヒー\n- インテリアにこだわった店\n- 少し値段は高めだが価値あり\n\n### 下北沢エリア\n\n個性派カフェの宝庫。古着屋巡りと一緒に楽しめます。\n\n- 古民家をリノベーションした店\n- オーナーのこだわりが詰まった空間\n- リーズナブルな価格帯\n\n### 清澄白河エリア\n\nコーヒーの聖地。サードウェーブの名店が集結しています。\n\n- 焙煎所併設のロースタリー\n- 豆の個性を楽しめる\n- コーヒー好きなら必訪",
+        "related": ["atmosphere", "work-cafes"]
       },
       {
-        "slug": "pull-requests",
-        "title": "Pull Request (PR)",
-        "subtitle": "Chapter 03 - The Proposal",
-        "description": "変更の取り込みを依頼する。コードレビューの舞台。",
-        "image": "https://images.unsplash.com/photo-1605152276897-4f618f831968?q=80&w=2070&auto=format&fit=crop",
-        "content": "## コードへのラブレター\n\nPull Request（プルリクエスト、通称PR）は、GitHub開発の核心です。「私の書いたコードを、あなたのプロジェクトに取り込んで（Pullして）くれませんか？」という依頼です。\n\n### PRの解剖学\n\n優れたPRには以下の要素が含まれています。\n\n1. **明確なタイトル**: 何が変わるのか一目でわかる。\n2. **詳細な説明 (Description)**:\n   - **Why**: なぜこの変更が必要なのか？（関連するIssueへのリンク）\n   - **What**: 何をしたのか？\n   - **How**: 技術的なアプローチや注意点。\n3. **スクリーンショット/動画**: UIの変更がある場合は必須です。百聞は一見に如かず。\n4. **チェックリスト**: テストはしたか？ドキュメントは更新したか？\n\n### 議論の場\n\nPRは単なるマージ依頼ではありません。コードベースのその行について、特定のトピックについて議論するためのフォーラムです。\n\nコード行ごとにコメントをつけ、提案し、修正する。このサイクルを通じて、コードの品質は劇的に向上します。",
-        "related": ["code-review", "merge-strategies"]
+        "slug": "work-cafes",
+        "title": "作業がはかどるカフェ",
+        "subtitle": "Chapter 03 - The Workspace",
+        "description": "電源・Wi-Fi完備、長居OK。リモートワークに最適なカフェの特徴と探し方。",
+        "image": "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## カフェで働くという選択\n\nリモートワークが当たり前になった今、カフェは「第二のオフィス」として重要な存在になっています。\n\n### 作業向けカフェの条件\n\n- **電源**: 席の近くにコンセントがある\n- **Wi-Fi**: 安定した速度の無料Wi-Fi\n- **座り心地**: 長時間座っても疲れない椅子\n- **雰囲気**: 集中を妨げない適度な静けさ\n- **長居OK**: 時間制限がない、または緩い\n\n### 作業時のマナー\n\n1. 混雑時は長居を控える\n2. 定期的に追加注文をする\n3. 通話は控えめに\n4. 席を取りすぎない\n\n### おすすめの時間帯\n\n平日の午前中や14時〜17時は比較的空いていることが多いです。朝カフェから始めると、一日のリズムが整います。\n\n### 代替案\n\n混雑時は、コワーキングスペース併設のカフェや、カフェ利用可能なシェアオフィスも検討してみましょう。",
+        "related": ["tokyo-cafes", "cafe-etiquette"]
       },
       {
-        "slug": "code-review",
-        "title": "コードレビュー",
-        "subtitle": "Chapter 03 - The Quality",
-        "description": "品質を高め、知識を共有する。単なる指摘ではなく、成長の機会。",
-        "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop",
-        "content": "## レビュアーの心得\n\nコードレビューは「間違い探し」ではありません。チーム全体の知識を底上げし、より良いプロダクトを作るための協力活動です。\n\n- **コードを批判し、人を批判しない**: 「君の実装はダメだ」ではなく「この実装だとメモリ効率が懸念される」と言いましょう。\n- **対案を提示する**: 否定するだけなら誰でもできます。「こうするのはどうだろう？」という建設的な提案が価値を生みます。\n- **良い点は褒める**: 素晴らしいロジック、綺麗な命名を見つけたら、積極的に「LGTM (Looks Good To Me)」や「Nice!」と伝えましょう。褒められて嬉しくないエンジニアはいません。\n\n## レビューされる側の心得\n\n- **指摘に感謝する**: 誰かが時間を割いてあなたのコードを読んでくれたことに感謝しましょう。\n- **防御的にならない**: 指摘はあなたへの攻撃ではありません。コードを良くするためのアドバイスです。\n- **議論を楽しむ**: 技術的な議論は、エンジニアとして成長する最大のチャンスです。",
-        "related": ["merge-strategies", "issues"]
-      },
-      {
-        "slug": "merge-strategies",
-        "title": "マージ戦略",
-        "subtitle": "Chapter 03 - Integration",
-        "description": "Merge commit, Squash, Rebase。プロジェクトに適した統合方法。",
-        "image": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?q=80&w=2068&auto=format&fit=crop",
-        "content": "## 3つのマージ方法\n\nGitHubでは、PRをマージする際に3つのオプションがあります。\n\n### 1. Create a merge commit\n\n全てのコミット履歴を残し、さらにマージしたという事実を表すコミットを作成します。\n- **Pros**: 歴史が完全に保存される。\n- **Cons**: 「typo修正」のような細かいコミットで履歴が汚れる可能性がある。\n\n### 2. Squash and merge\n\nPRに含まれる複数のコミットを、1つのコミットに圧縮（Squash）してマージします。\n- **Pros**: mainブランチの履歴が非常に綺麗になる（1機能 = 1コミット）。\n- **Cons**: 作業途中の詳細な経緯は失われる。\n\n### 3. Rebase and merge\n\nコミットを一つずつmainブランチの先頭に付け直します（Rebase）。マージコミットは作られません。\n- **Pros**: 歴史が一直線になり、美しい。\n- **Cons**: コンフリクト解消が複雑になる場合がある。\n\n### どれを選ぶべきか？\n\n多くのモダンな開発チームでは、**Squash merging** が好まれます。機能単位で履歴が管理され、リバート（取り消し）もしやすいためです。",
-        "related": ["issues", "projects"]
-      },
-      {
-        "slug": "issues",
-        "title": "Issues活用術",
-        "subtitle": "Chapter 04 - Management",
-        "description": "バグ報告、機能要望、タスク管理。プロジェクトの課題を管理する。",
-        "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop",
-        "content": "## Issueのライフサイクル\n\nIssue（イシュー）は、解決すべき課題です。\n\nOpen -> Discussion -> Working -> Resolved -> Closed\n\n## ラベルとマイルストーン\n\n課題を分類し、期限を設定することで管理しやすくします。",
-        "related": ["projects", "discussions"]
-      },
-      {
-        "slug": "projects",
-        "title": "GitHub Projects",
-        "subtitle": "Chapter 04 - The Roadmap",
-        "description": "カンバン、リスト、タイムライン。プロジェクトの進捗を可視化する。",
-        "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop",
-        "content": "## タスク管理の進化系\n\nIssueやPRをプロジェクトボードに追加し、ステータスを管理できます。スプレッドシートのようなビューも利用可能です。",
-        "related": ["wiki", "insights"]
-      },
-      {
-        "slug": "wiki",
-        "title": "Wikiドキュメント",
-        "subtitle": "Chapter 04 - Knowledge Base",
-        "description": "長文のドキュメントや仕様書を管理するための専用スペース。",
-        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop",
-        "content": "## いつWikiを使うべきか\n\nREADMEに書ききれない詳細な仕様、APIドキュメント、チームのオンボーディング資料などに適しています。",
-        "related": ["insights", "settings"]
-      },
-      {
-        "slug": "insights",
-        "title": "Insightsと分析",
-        "subtitle": "Chapter 04 - Analytics",
-        "description": "貢献度、依存関係、トラフィック。プロジェクトの健康状態を分析する。",
-        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-        "content": "## Pulse\n\n最近の活動状況（マージされたPR、クローズされたIssue）を一目で確認できます。",
-        "related": ["settings", "actions"]
-      },
-      {
-        "slug": "settings",
-        "title": "リポジトリ設定",
-        "subtitle": "Chapter 04 - Configuration",
-        "description": "権限管理、ブランチ保護ルール、Webhooksなど、リポジトリの挙動を制御する。",
-        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
-        "content": "## Branch Protection Rules\n\nmainブランチへの直接プッシュを禁止し、必ずPRとレビューを経由するように強制する重要な設定です。",
-        "related": ["actions", "actions-practice"]
-      },
-      {
-        "slug": "actions",
-        "title": "魔法の杖：GitHub Actions",
-        "subtitle": "Chapter 05 - Automation",
-        "description": "CI/CDパイプラインの構築。テスト、ビルド、デプロイを自動化する。",
-        "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=2088&auto=format&fit=crop",
-        "content": "## 自動化という魔法\n\nテスト、ビルド、デプロイ。開発には繰り返しの作業がつきものです。GitHub Actions は、それらを自動化する「魔法の杖」です。\n\n## ワークフローの定義\n\n`.github/workflows` ディレクトリにYAMLファイルを配置します。",
-        "related": ["actions-practice", "packages"]
-      },
-      {
-        "slug": "actions-practice",
-        "title": "Actions実践パターン",
-        "subtitle": "Chapter 05 - Recipes",
-        "description": "Lintチェック、ユニットテスト、自動リリースなど、よく使うワークフローの例。",
-        "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?q=80&w=2000&auto=format&fit=crop",
-        "content": "## 定番レシピ\n\n- **Lint & Test**: PR作成時にコード品質をチェック\n- **Release**: タグ作成時にリリースノートを生成し、アーティファクトを添付\n- **Deploy**: mainマージ時に本番環境へデプロイ",
-        "related": ["packages", "pages"]
-      },
-      {
-        "slug": "packages",
-        "title": "GitHub Packages",
-        "subtitle": "Chapter 05 - Distribution",
-        "description": "npm, Docker, MavenなどのパッケージレジストリとしてGitHubを利用する。",
-        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop",
-        "content": "## コードの近くにパッケージを\n\nソースコードと同じ場所でパッケージを管理・公開できます。権限管理もGitHubのアカウントと統合されています。",
-        "related": ["pages", "copilot"]
-      },
-      {
-        "slug": "pages",
-        "title": "GitHub Pages",
-        "subtitle": "Chapter 05 - Hosting",
-        "description": "静的サイトホスティング。ドキュメントやポートフォリオを無料で公開。",
-        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop",
-        "content": "## 誰でもWebサイトを\n\nリポジトリ内のHTMLファイルを直接公開できます。JekyllやNext.jsなどのSSGとも相性抜群です。",
-        "related": ["copilot", "security"]
-      },
-      {
-        "slug": "copilot",
-        "title": "未来の相棒：GitHub Copilot",
-        "subtitle": "Chapter 06 - The AI",
-        "description": "AIと共にコードを書く。GitHub Copilotの使い方と、開発効率を劇的に向上させる方法。",
-        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
-        "content": "## AIペアプログラマー\n\nGitHub Copilotは、あなたのコーディングを支援するAIパートナーです。コメントからコードを生成したり、テストを自動作成したりできます。",
-        "related": ["security", "dependabot"]
-      },
-      {
-        "slug": "security",
-        "title": "鉄壁の守り：Advanced Security",
-        "subtitle": "Chapter 06 - The Shield",
-        "description": "脆弱性を未然に防ぐ。Code Scanning、Secret Scanningによるセキュリティ対策。",
-        "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop",
-        "content": "## セキュリティシフトレフト\n\n開発プロセスの早い段階でセキュリティリスクを検出し、修正することが重要です。",
-        "related": ["dependabot", "secret-scanning"]
-      },
-      {
-        "slug": "dependabot",
-        "title": "Dependabot",
-        "subtitle": "Chapter 06 - Maintenance",
-        "description": "依存関係の更新を自動化。セキュリティパッチを自動で適用する。",
-        "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?q=80&w=2074&auto=format&fit=crop",
-        "content": "## 依存関係の番人\n\npackage.jsonなどを監視し、新しいバージョンや脆弱性修正版が出ると自動でPRを作成してくれます。",
-        "related": ["secret-scanning", "getting-started"]
-      },
-      {
-        "slug": "secret-scanning",
-        "title": "Secret Scanning",
-        "subtitle": "Chapter 06 - Prevention",
-        "description": "APIキーなどの機密情報が誤ってコミットされるのを防ぐ。",
-        "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1470&auto=format&fit=crop",
-        "content": "## 事故を防ぐ\n\nリポジトリにプッシュされたコンテンツをスキャンし、既知のシークレットパターン（AWSキーなど）を検出して警告します。",
-        "related": ["getting-started", "setup-git"]
+        "slug": "cafe-etiquette",
+        "title": "カフェのマナー",
+        "subtitle": "Chapter 03 - The Etiquette",
+        "description": "知っておきたいカフェでの過ごし方。スタッフや他のお客様への配慮について。",
+        "image": "https://images.pexels.com/photos/887723/pexels-photo-887723.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+        "content": "## 心地よい空間を守るために\n\nカフェは公共の空間です。自分も、周りのお客様も、スタッフも、みんなが心地よく過ごせるためのマナーを意識しましょう。\n\n### 基本のマナー\n\n- **注文**: 席に着く前に注文する店もあります\n- **支払い**: 後払いか先払いか確認\n- **片付け**: セルフサービスの店では食器を返却\n\n### 混雑時の配慮\n\n- ランチタイムや休日は長居を控える\n- 一人で大きなテーブルを占領しない\n- 追加注文をして売上に貢献する\n\n### 静かに過ごす\n\n- 電話は外で\n- パソコンのタイプ音は控えめに\n- 打ち合わせは個室のある店で\n\n### 写真撮影\n\n- 他のお客様が写り込まないよう注意\n- フラッシュは使わない\n- 店によっては撮影禁止の場合も\n\n### 感謝の気持ち\n\n「ごちそうさまでした」の一言が、お互いを幸せにします。",
+        "related": ["work-cafes", "getting-started"]
       }
     ],
     "features": {
-      "title": "Built for the Future",
-      "description": "Experience the next generation of development tools. Designed for speed, security, and scalability.",
+      "title": "カフェ文化を深く知る",
+      "description": "コーヒーの知識から、空間デザイン、持続可能性まで。カフェ文化の奥深さを探求します。",
       "hero": {
-        "title": "Built for the <span class=\"text-gradient-purple\">Future</span>",
-        "subtitle": "System Capabilities",
-        "description": "Experience the next generation of development tools. Designed for speed, security, and scalability.",
-        "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?q=80&w=2000&auto=format&fit=crop"
+        "title": "<span class=\"text-gradient-purple\">カフェ文化</span>を深く知る",
+        "subtitle": "Coffee Culture Deep Dive",
+        "description": "コーヒーの知識から、空間デザイン、持続可能性まで。カフェ文化の奥深さを探求します。",
+        "image": "https://images.pexels.com/photos/1813466/pexels-photo-1813466.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280"
       },
       "items": [
         {
-          "title": "Instant Deploy",
-          "description": "Push to git, and your site is live. No complex configuration required.",
-          "icon": "zap",
-          "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=2000&auto=format&fit=crop"
+          "title": "スペシャルティコーヒー",
+          "description": "産地から抽出まで、品質にこだわった一杯を。",
+          "icon": "coffee",
+          "image": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280"
         },
         {
-          "title": "Enterprise Security",
-          "description": "Bank-grade security built into every layer of the platform.",
-          "icon": "shield",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2000&auto=format&fit=crop"
+          "title": "カフェインテリア",
+          "description": "居心地の良さを生み出す空間デザインの秘密。",
+          "icon": "home",
+          "image": "https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280"
         },
         {
-          "title": "AI Powered",
-          "description": "Built-in AI agents optimize your workflow automatically.",
-          "icon": "cpu",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop"
+          "title": "サステナブルコーヒー",
+          "description": "環境に配慮した、持続可能なコーヒー文化へ。",
+          "icon": "leaf",
+          "image": "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280"
         }
       ]
     },
     "blog": {
-      "title": "Stories from the Voyage",
-      "description": "技術の最前線で戦う開発者たちの物語。",
+      "title": "カフェにまつわる物語",
+      "description": "バリスタのストーリー、新店舗情報、コーヒートレンドなど。",
       "posts": [
         {
-          "slug": "future-of-coding",
-          "title": "コーディングの未来: AIとの共創",
-          "excerpt": "GitHub Copilotが変える開発体験。私たちはもはや「コードを書く」だけの存在ではありません。",
+          "slug": "third-wave-coffee",
+          "title": "サードウェーブコーヒーとは何か",
+          "excerpt": "ファーストウェーブ、セカンドウェーブを経て、今私たちが体験している「第三の波」について解説します。",
           "date": "2024.05.15",
           "readTime": "5 min",
-          "category": "Thought",
-          "author": "GitHub Team",
-          "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2000&auto=format&fit=crop",
-          "content": "## AIペアプログラマーの台頭\n\nプログラミングの歴史において、これほど大きなパラダイムシフトはありませんでした。GitHub Copilotは、開発者が「何を」作りたいかに集中できるようにし、「どう」書くかの負担を軽減します。\n\n## 創造性への回帰\n\nボイラープレートコードを書く時間は終わりを告げようとしています。人間はより創造的な、アーキテクチャの設計やユーザー体験の向上に時間を使えるようになるのです。"
+          "category": "知識",
+          "author": "Coffee Editor",
+          "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+          "content": "## コーヒー文化の進化\n\nサードウェーブコーヒーとは、コーヒーを「農産物」として捉え、産地や品種、生産者にまで注目する動きです。\n\n### ファーストウェーブ（〜1960年代）\n\nインスタントコーヒーの普及。手軽さが求められた時代。\n\n### セカンドウェーブ（1970年代〜）\n\nスターバックスに代表される、エスプレッソドリンクの普及。「カフェラテ」が一般的に。\n\n### サードウェーブ（2000年代〜）\n\n単一農園の豆（シングルオリジン）、浅煎り、ハンドドリップへの回帰。コーヒーをワインのように楽しむ文化。\n\n清澄白河のBlue Bottle Coffee日本上陸（2015年）が、日本でのサードウェーブ普及のきっかけとなりました。"
         },
         {
-          "slug": "team-velocity",
-          "title": "チームベロシティを最大化する",
-          "excerpt": "コンフリクトを恐れず、高速にイテレーションを回すためのGitHub活用術。",
+          "slug": "morning-routine",
+          "title": "朝カフェのすすめ",
+          "excerpt": "一日の始まりをカフェで。朝活としてのカフェ習慣が人生を変える理由。",
           "date": "2024.05.10",
-          "readTime": "8 min",
-          "category": "Engineering",
-          "author": "DevOps Lead",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2000&auto=format&fit=crop",
-          "content": "## 速度と品質の両立\n\n「速く動く」ことと「壊さない」ことはトレードオフだと思われがちです。しかし、適切なCI/CDパイプラインとレビュー文化があれば、この2つは両立します。"
+          "readTime": "4 min",
+          "category": "ライフスタイル",
+          "author": "Lifestyle Writer",
+          "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+          "content": "## 朝の一杯が変える一日\n\n朝、家を出て、お気に入りのカフェでコーヒーを飲む。たったそれだけのことが、一日の質を劇的に変えることがあります。\n\n### 朝カフェのメリット\n\n- 通勤前の自分時間を確保できる\n- 決まったルーティンが心を安定させる\n- 適度なカフェインで頭がシャキッとする\n- 「ご褒美」があるから早起きできる\n\n早起きして、誰にも邪魔されない時間を過ごす。それは自分への投資です。"
         },
         {
-          "slug": "security-first",
-          "title": "セキュリティ・ファーストの思想",
-          "excerpt": "開発サイクルの左側にセキュリティをシフトする。脆弱性とは無縁の世界へ。",
+          "slug": "sustainable-coffee",
+          "title": "サステナブルなコーヒーを選ぶ",
+          "excerpt": "フェアトレード、オーガニック、レインフォレスト認証。持続可能なコーヒー選びのポイント。",
           "date": "2024.05.01",
           "readTime": "6 min",
-          "category": "Security",
-          "author": "Security Engineer",
-          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2000&auto=format&fit=crop",
-          "content": "## 攻撃者の先を行く\n\n脆弱性が発見されてからパッチを当てるのでは遅すぎます。GitHub Advanced Securityは、コードが書かれたその瞬間に脆弱性を検出し、修正を提案します。"
+          "category": "サステナビリティ",
+          "author": "Sustainability Team",
+          "image": "https://images.pexels.com/photos/1459339/pexels-photo-1459339.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280",
+          "content": "## コーヒーと環境問題\n\n私たちが楽しむ一杯のコーヒーの裏側には、環境問題や生産者の労働環境の課題があります。\n\n### 認証マークを知る\n\n- **フェアトレード**: 公正な価格での取引を保証\n- **オーガニック**: 化学肥料・農薬を使わない栽培\n- **レインフォレストアライアンス**: 森林保護と労働環境の改善\n\n認証マークのあるコーヒーを選ぶことは、生産者と地球への応援になります。\n\n一杯のコーヒーを選ぶとき、「どこから来たのか」「誰が作ったのか」を想像してみてください。"
         }
       ]
     },
     "contact": {
-      "title": "Let's Build <br /><span class=\"text-gradient-cyan\">Something Great</span>",
-      "description": "Ready to start your journey? Get in touch.",
-      "email": "hello@codevoyage.dev",
-      "office": "123 Innovation Drive, Tech City"
+      "title": "お問い合わせ<br /><span class=\"text-gradient-cyan\">Contact Us</span>",
+      "description": "カフェ掲載のご依頼、コラボレーションのご相談など、お気軽にどうぞ。",
+      "email": "hello@cafe-culture.jp",
+      "office": "東京都渋谷区神南1-2-3 カフェビル 4F"
     }
   }
 }
