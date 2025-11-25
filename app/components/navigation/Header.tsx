@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CoffeeIcon } from '../icons';
+import { RocketIcon } from '../icons';
 
 // Note: Ideally this would be fetched from content.json as well, 
 // but for client component interactivity, we'll keep the structure similar 
@@ -13,16 +13,16 @@ import { CoffeeIcon } from '../icons';
 const navigation = [
   { name: 'Home', href: '/' },
   { 
-    name: 'カフェ探訪', 
+    name: 'Journey', 
     href: '/docs',
     submenu: [
-      { name: 'カフェ巡りの始め方', href: '/docs/getting-started' },
-      { name: 'コーヒーの基礎知識', href: '/docs/coffee-basics' },
-      { name: '雰囲気で選ぶカフェ', href: '/docs/atmosphere' },
+      { name: 'Getting Started', href: '/docs/getting-started' },
+      { name: 'Collaboration', href: '/docs/collaboration' },
+      { name: 'Automation', href: '/docs/actions' },
     ]
   },
   { name: 'Blog', href: '/blog' },
-  { name: '特集', href: '/features' },
+  { name: 'Showcase', href: '/features' },
 ];
 
 export function Header() {
@@ -48,8 +48,8 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <CoffeeIcon className="w-6 h-6 text-primary-500 group-hover:scale-110 transition-transform" />
-            <span className="text-xl font-bold text-white tracking-tight">Café Culture</span>
+            <RocketIcon className="w-6 h-6 text-primary-500 group-hover:scale-110 transition-transform" />
+            <span className="text-xl font-bold text-white tracking-tight">Code Voyage</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -90,7 +90,7 @@ export function Header() {
             
             <Link href="/contact">
                <button className="px-6 py-2 rounded-full bg-primary-600 hover:bg-primary-500 text-white text-sm font-bold transition-colors shadow-lg shadow-primary-900/20">
-                 お問い合わせ
+                 Join Us
                </button>
             </Link>
           </div>

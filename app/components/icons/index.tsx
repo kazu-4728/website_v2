@@ -117,11 +117,3 @@ export function LayersIcon({ className = 'w-6 h-6' }: { className?: string }) {
     </svg>
   );
 }
-
-export function CoffeeIcon({ className = 'w-6 h-6' }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h1a4 4 0 110 8h-1M3 8h14v9a4 4 0 01-4 4H7a4 4 0 01-4-4V8zM6 2v2M10 2v2M14 2v2" />
-    </svg>
-  );
-}

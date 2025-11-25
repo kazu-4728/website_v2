@@ -1,27 +1,26 @@
 /**
- * Café Culture テーマ設定
- * 温かみのあるコーヒーブラウンを基調としたカフェテーマ
+ * GitHub Docs テーマ設定
  */
 
 export const theme = {
-  name: 'cafe-culture',
+  name: 'github-docs',
   
   colors: {
-    primary: '#c4a574',
-    primaryDark: '#a88b5a',
-    accent: '#d4a574',
+    primary: '#ff8a3d',
+    primaryDark: '#ff6b35',
+    accent: '#f59e0b',
     background: {
-      start: '#1a1512',
-      end: '#2d2520',
+      start: '#0b0f14',
+      end: '#1a1f2e',
     },
     text: {
-      primary: '#f5f0eb',
-      secondary: '#c9bfb3',
-      muted: '#8c7b6b',
+      primary: '#e4e4e7',
+      secondary: '#94a3b8',
+      muted: '#64748b',
     },
     card: {
-      background: 'rgba(35, 28, 24, 0.8)',
-      border: 'rgba(100, 85, 70, 0.4)',
+      background: 'rgba(15, 23, 42, 0.7)',
+      border: 'rgba(51, 65, 85, 0.5)',
     },
   },
 
