@@ -161,16 +161,13 @@ export async function loadContent(): Promise<ContentConfig> {
   const themeName = process.env.NEXT_PUBLIC_THEME || 'github-docs';
   
   try {
-    // Static import for default theme to ensure it is bundled by Webpack/Next.js
-    // For other themes, we could use dynamic import, but for now we default to github-docs
+    // Static import for themes to ensure they are bundled by Webpack/Next.js
     let contentModule;
     
-    if (themeName === 'stripe') {
-        // Dynamic import for other themes if they exist
-        // contentModule = await import(`../../themes/stripe/content.json`);
-        // Fallback for now as stripe theme json might not exist fully populated
-        contentModule = await import('../../themes/github-docs/content.json');
+    if (themeName === 'portfolio') {
+        contentModule = await import('../../themes/portfolio/content.json');
     } else {
+        // Default to github-docs theme
         contentModule = await import('../../themes/github-docs/content.json');
     }
 

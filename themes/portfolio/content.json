@@ -1,0 +1,198 @@
+{
+  "site": {
+    "name": "Creative Portfolio",
+    "tagline": "Design Meets Innovation",
+    "description": "クリエイター・デザイナーのためのポートフォリオテンプレート。あなたの作品を美しく展示します。",
+    "logo": {
+      "text": "Portfolio",
+      "icon": "palette"
+    }
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "Works", "href": "/docs" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "About", "href": "/features" },
+    { "label": "Contact", "href": "/contact", "variant": "primary" }
+  ],
+  "pages": {
+    "home": {
+      "hero": {
+        "type": "cinematic",
+        "title": "創造力で\n世界を変える",
+        "subtitle": "Transform the World with Creativity",
+        "description": "デザイン、コード、アイデア。すべてを融合させ、新しい価値を生み出す。ここはあなたのクリエイティブな旅の始まりです。",
+        "bgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2032&auto=format&fit=crop",
+        "overlay": "dark",
+        "actions": [
+          { "label": "作品を見る", "href": "/docs", "variant": "primary" },
+          { "label": "お問い合わせ", "href": "/contact", "variant": "secondary" }
+        ]
+      },
+      "sections": [
+        {
+          "id": "about",
+          "type": "split-feature",
+          "layout": "image-right",
+          "chapter": "About",
+          "title": "クリエイティブな視点",
+          "subtitle": "Creative Vision",
+          "description": "10年以上のデザイン経験を持つクリエイター。ブランディング、UIデザイン、Webアプリケーション開発まで、幅広い領域でクライアントの課題を解決してきました。",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2070&auto=format&fit=crop",
+          "stats": [
+            { "value": "50+", "label": "Projects" },
+            { "value": "10+", "label": "Years Experience" }
+          ],
+          "link": { "text": "詳しく見る", "href": "/features" }
+        },
+        {
+          "id": "works",
+          "type": "grid-gallery",
+          "title": "Selected Works",
+          "subtitle": "Featured Projects",
+          "description": "厳選されたプロジェクトをご紹介します。",
+          "items": [
+            {
+              "title": "Brand Identity",
+              "description": "スタートアップ企業のブランドアイデンティティ設計",
+              "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop",
+              "href": "/docs/brand-identity"
+            },
+            {
+              "title": "Web Application",
+              "description": "モダンなSaaS管理ダッシュボード",
+              "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+              "href": "/docs/web-app"
+            },
+            {
+              "title": "Mobile App",
+              "description": "ヘルスケアアプリのUI/UXデザイン",
+              "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop",
+              "href": "/docs/mobile-app"
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "title": "クライアントの声",
+          "items": [
+            {
+              "content": "デザインの品質が期待を大幅に上回りました。プロジェクトの進め方もスムーズで、また依頼したいです。",
+              "author": "田中 太郎",
+              "role": "CEO at TechStartup",
+              "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop"
+            },
+            {
+              "content": "ユーザー体験を深く理解し、細部まで考え抜かれたデザインでした。",
+              "author": "Emily Chen",
+              "role": "Product Manager",
+              "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
+            }
+          ]
+        },
+        {
+          "id": "cta",
+          "type": "cta-fullscreen",
+          "title": "一緒に何かを創りませんか？",
+          "description": "あなたのアイデアを形にするお手伝いをします。",
+          "bgImage": "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2029&auto=format&fit=crop",
+          "action": { "label": "お問い合わせ", "href": "/contact" }
+        }
+      ]
+    },
+    "docs": [
+      {
+        "slug": "brand-identity",
+        "title": "Brand Identity Project",
+        "subtitle": "Case Study 01",
+        "description": "スタートアップ企業のブランドアイデンティティを一から設計したプロジェクト。",
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop",
+        "content": "## プロジェクト概要\n\n新興テクノロジー企業のブランドアイデンティティを構築するプロジェクトです。\n\n### 課題\n\n- 競合との差別化\n- ターゲット顧客への訴求力向上\n- 一貫したブランドイメージの確立\n\n### ソリューション\n\n1. **ロゴデザイン**: シンプルで記憶に残るロゴマーク\n2. **カラーパレット**: 信頼性と革新性を表現する色彩設計\n3. **タイポグラフィ**: ブランドパーソナリティを反映したフォント選定\n4. **ブランドガイドライン**: 一貫した使用を保証するドキュメント作成\n\n### 成果\n\n- ブランド認知度が150%向上\n- 顧客からのポジティブフィードバック増加",
+        "related": ["web-app", "mobile-app"]
+      },
+      {
+        "slug": "web-app",
+        "title": "SaaS Dashboard",
+        "subtitle": "Case Study 02",
+        "description": "複雑なデータを直感的に可視化するSaaSダッシュボードのデザイン。",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+        "content": "## プロジェクト概要\n\nB2B SaaS企業の管理ダッシュボードをリデザインするプロジェクトです。\n\n### 課題\n\n- 既存UIの複雑さによるユーザー離脱\n- データ可視化の不足\n- モバイル対応の欠如\n\n### アプローチ\n\n1. **ユーザーリサーチ**: 実際のユーザーへのインタビュー実施\n2. **情報設計**: 重要な情報へのアクセスを最適化\n3. **プロトタイピング**: Figmaでインタラクティブプロトタイプ作成\n4. **レスポンシブデザイン**: モバイルファーストアプローチ\n\n### 成果\n\n- ユーザー滞在時間が40%増加\n- サポート問い合わせが30%削減",
+        "related": ["brand-identity", "mobile-app"]
+      },
+      {
+        "slug": "mobile-app",
+        "title": "Healthcare App",
+        "subtitle": "Case Study 03",
+        "description": "健康管理をより身近にするモバイルアプリのUI/UXデザイン。",
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop",
+        "content": "## プロジェクト概要\n\n健康管理アプリの新規開発プロジェクトにおけるUI/UXデザインを担当しました。\n\n### 課題\n\n- ヘルスケアアプリ特有のアクセシビリティ要件\n- 幅広い年齢層への対応\n- 毎日使いたくなるUX設計\n\n### デザインプロセス\n\n1. **競合分析**: 既存アプリの強み・弱みを分析\n2. **ペルソナ設計**: ターゲットユーザー像の明確化\n3. **ワイヤーフレーム**: 低忠実度プロトタイプでの検証\n4. **UIデザイン**: 親しみやすいビジュアルデザイン\n5. **ユーザーテスト**: 実機でのユーザビリティテスト\n\n### 成果\n\n- App Store評価4.8を獲得\n- 月間アクティブユーザー10万人突破",
+        "related": ["brand-identity", "web-app"]
+      }
+    ],
+    "blog": {
+      "title": "Creative Blog",
+      "description": "デザイン、クリエイティブ、テクノロジーについての考察",
+      "posts": [
+        {
+          "slug": "design-thinking",
+          "title": "デザイン思考で問題を解決する",
+          "excerpt": "デザイン思考は単なるデザイン手法ではありません。ビジネス課題を創造的に解決するためのフレームワークです。",
+          "content": "## デザイン思考とは\n\nデザイン思考（Design Thinking）は、人間中心のアプローチで問題を解決するための方法論です。\n\n### 5つのステップ\n\n1. **共感（Empathize）**: ユーザーを深く理解する\n2. **問題定義（Define）**: 真の課題を明確にする\n3. **アイデア創出（Ideate）**: 多くのアイデアを生み出す\n4. **プロトタイプ（Prototype）**: 素早く形にする\n5. **テスト（Test）**: ユーザーからフィードバックを得る\n\nこのプロセスを繰り返すことで、より良いソリューションに近づいていきます。",
+          "date": "2025-01-15",
+          "author": "Creative Team",
+          "category": "Design",
+          "readTime": "5 min",
+          "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+          "slug": "color-psychology",
+          "title": "色彩心理学：デザインにおける色の力",
+          "excerpt": "色は単なる装飾ではありません。感情を動かし、行動を促す強力なツールです。",
+          "content": "## 色が与える心理的影響\n\n色は私たちの感情や行動に大きな影響を与えます。\n\n### 主要な色と心理効果\n\n- **青**: 信頼、安定、プロフェッショナリズム\n- **赤**: 情熱、緊急性、エネルギー\n- **緑**: 成長、健康、自然\n- **黄**: 楽観、創造性、注意喚起\n- **紫**: 高級感、創造性、神秘\n\nブランドの価値観や目標に合った色を選ぶことが重要です。",
+          "date": "2025-01-10",
+          "author": "Creative Team",
+          "category": "Design",
+          "readTime": "4 min",
+          "image": "https://images.unsplash.com/photo-1502691876148-a84978e59af8?q=80&w=2070&auto=format&fit=crop"
+        }
+      ]
+    },
+    "features": {
+      "title": "About",
+      "description": "クリエイターとしての私について",
+      "hero": {
+        "title": "Creating with Purpose",
+        "subtitle": "目的を持ってデザインする",
+        "description": "10年以上にわたり、デザインとテクノロジーの交差点で活動してきました。",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2070&auto=format&fit=crop"
+      },
+      "items": [
+        {
+          "title": "UI/UX Design",
+          "description": "ユーザー中心のインターフェースデザイン",
+          "icon": "palette",
+          "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
+        },
+        {
+          "title": "Brand Strategy",
+          "description": "ブランドアイデンティティの構築",
+          "icon": "target",
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+          "title": "Web Development",
+          "description": "モダンなWebアプリケーション開発",
+          "icon": "code",
+          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop"
+        }
+      ]
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "プロジェクトのご相談やお見積もりのご依頼はこちらから",
+      "email": "hello@example.com",
+      "office": "Tokyo, Japan"
+    }
+  }
+}
