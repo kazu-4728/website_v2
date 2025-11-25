@@ -1,6 +1,6 @@
 # 🚀 Code Voyage
 
-[![Deploy to GitHub Pages](https://github.com/kazu-4728/web-site/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/web-site/actions)
+[![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Topics](https://img.shields.io/badge/Topics-23-blue)
 ![Posts](https://img.shields.io/badge/Posts-3-purple)
@@ -10,9 +10,9 @@
 
 ## 🌐 ライブデモ
 
-**🔗 [https://kazu-4728.github.io/web-site/](https://kazu-4728.github.io/web-site/)**
+**🔗 [https://kazu-4728.github.io/website_v2/](https://kazu-4728.github.io/website_v2/)**
 
-最新のデプロイ状況: [GitHub Actions](https://github.com/kazu-4728/web-site/actions)
+最新のデプロイ状況: [GitHub Actions](https://github.com/kazu-4728/website_v2/actions)
 
 ---
 
@@ -96,8 +96,8 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/kazu-4728/web-site.git
-cd web-site
+git clone https://github.com/kazu-4728/website_v2.git
+cd website_v2
 
 # 依存関係をインストール
 npm install
@@ -178,4 +178,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/11/24 10:40:40*
+*最終更新: 2025/11/25 12:43:05*
