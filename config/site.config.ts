@@ -20,19 +20,20 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'GitHub Docs 完全マニュアル',
-  description: '初心者でも分かるGitHubの使い方を学ぶ',
+  name: '関東温泉紀行',
+  description: '関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。',
   url: process.env.NEXT_PUBLIC_BASE_PATH || '',
   ogImage: '/images/og-image.png',
-  theme: 'github-docs',
+  theme: 'onsen-kanto',
   author: {
     name: 'Your Name',
     url: 'https://github.com/kazu-4728',
   },
   nav: [
     { title: 'ホーム', href: '/' },
-    { title: 'ガイド', href: '/guides/' },
-    { title: '参考資料', href: '/sources/' },
-    { title: 'FAQ', href: '/faq/' },
+    { title: '温泉ガイド', href: '/docs' },
+    { title: '特集記事', href: '/blog' },
+    { title: 'おすすめプラン', href: '/features' },
+    { title: 'お問い合わせ', href: '/contact' },
   ],
 };

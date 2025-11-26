@@ -10,7 +10,7 @@ const path = require('path');
 
 const appDir = path.join(__dirname, '../app');
 const themesDir = path.join(__dirname, '../themes');
-const themeName = process.env.NEXT_PUBLIC_THEME || 'github-docs';
+const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto';
 const contentPath = path.join(themesDir, themeName, 'content.json');
 
 const errors = [];

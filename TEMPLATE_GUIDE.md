@@ -3,6 +3,12 @@
 このドキュメントは、**Code Voyage** テンプレートを使用して、新しいマニュアルサイトやドキュメントサイトを作成するためのガイドです。
 非エンジニアの方や、AIエージェントと共に作業する方向けに書かれています。
 
+## 🎯 現在のデフォルトテーマ
+
+このリポジトリは**「関東温泉紀行（onsen-kanto）」**テーマがデフォルトとして設定されています。
+
+関東エリアの名湯・秘湯を紹介する温泉ガイドサイトとしてすぐに利用できます。
+
 ## 🌟 このテンプレートのコンセプト
 
 このテンプレートは**「JSON駆動 (JSON-Driven)」**という仕組みで作られています。
@@ -22,17 +28,56 @@
 ├── .github/            # 自動化の設定（触らなくてOK）
 ├── app/                # サイトのプログラム（触らなくてOK）
 ├── themes/             # ★ ここが作業場所です！
-│   └── github-docs/
-│       └── content.json  <-- ★ これが「原稿」です
+│   ├── onsen-kanto/    # ★ デフォルトテーマ（関東温泉紀行）
+│   │   └── content.json
+│   └── github-docs/    # GitHub学習サイトテーマ
+│       └── content.json
 ├── scripts/            # 便利な道具箱
 └── README.md           # 自動で作られる表紙
 ```
+
+## 🔄 テーマの切り替え方法
+
+別のテーマに切り替えたい場合は、以下の手順で変更できます：
+
+### 方法1: 環境変数で切り替える（推奨）
+
+1. プロジェクトルートに `.env.local` ファイルを作成します。
+2. 以下のように `NEXT_PUBLIC_THEME` を設定します：
+
+```bash
+# 関東温泉テーマ（デフォルト）
+NEXT_PUBLIC_THEME=onsen-kanto
+
+# または GitHub Docs テーマ
+NEXT_PUBLIC_THEME=github-docs
+```
+
+3. 開発サーバーを再起動すると、テーマが切り替わります。
+
+### 方法2: コードを直接変更する
+
+1. `app/lib/content.ts` を開きます。
+2. `loadContent` 関数内のデフォルトテーマを変更します：
+
+```typescript
+const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto'; // ← ここを変更
+```
+
+3. 必要に応じて `config/site.config.ts` のサイト名・説明も更新します。
+
+### 利用可能なテーマ
+
+| テーマ名 | 説明 | content.json パス |
+|---------|------|------------------|
+| `onsen-kanto` | 関東温泉ガイド（デフォルト） | `themes/onsen-kanto/content.json` |
+| `github-docs` | GitHub学習サイト | `themes/github-docs/content.json` |
 
 ## 🤖 AIエージェントへの指示の出し方
 
 もしあなたがChatGPTやCursorなどのAIに修正を依頼するときは、このように伝えてください。
 
-> 「サイトの内容を変えたいときは、`app` フォルダのコードではなく、必ず `themes/github-docs/content.json` を編集してね。」
+> 「サイトの内容を変えたいときは、`app` フォルダのコードではなく、必ず `themes/onsen-kanto/content.json` を編集してね。」
 
 これが最も重要なルールです。
 
