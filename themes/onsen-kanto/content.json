@@ -10,8 +10,37 @@
   },
   "navigation": [
     { "label": "ホーム", "href": "/" },
-    { "label": "温泉ガイド", "href": "/docs" },
-    { "label": "特集記事", "href": "/blog" },
+    { 
+      "label": "温泉ガイド", 
+      "href": "/docs",
+      "submenu": [
+        { "label": "箱根温泉郷", "href": "/docs/hakone" },
+        { "label": "草津温泉", "href": "/docs/kusatsu" },
+        { "label": "鬼怒川温泉", "href": "/docs/kinugawa" },
+        { "label": "伊香保温泉", "href": "/docs/ikaho" },
+        { "label": "那須温泉郷", "href": "/docs/nasu" },
+        { "label": "水上温泉郷", "href": "/docs/minakami" },
+        { "label": "四万温泉", "href": "/docs/shima" },
+        { "label": "日光湯元温泉", "href": "/docs/nikko" },
+        { "label": "塩原温泉郷", "href": "/docs/shiobara" },
+        { "label": "熱海温泉", "href": "/docs/atami" },
+        { "label": "伊東温泉", "href": "/docs/ito" },
+        { "label": "修善寺温泉", "href": "/docs/shuzenji" },
+        { "label": "下田温泉", "href": "/docs/shimoda" },
+        { "label": "湯河原温泉", "href": "/docs/yugawara" },
+        { "label": "奥多摩温泉", "href": "/docs/okutama" },
+        { "label": "秩父温泉", "href": "/docs/chichibu" }
+      ]
+    },
+    { 
+      "label": "特集記事", 
+      "href": "/blog",
+      "submenu": [
+        { "label": "温泉マナー10選", "href": "/blog/onsen-manner" },
+        { "label": "泉質別・効能ガイド", "href": "/blog/onsen-effects" },
+        { "label": "四季の温泉", "href": "/blog/seasonal-onsen" }
+      ]
+    },
     { "label": "おすすめプラン", "href": "/features" },
     { "label": "お問い合わせ", "href": "/contact", "variant": "primary" }
   ],
