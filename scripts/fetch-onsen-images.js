@@ -14,6 +14,10 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
+// 設定
+const API_DELAY_MS = 500; // API制限対策のための待機時間（ミリ秒）
+const MIN_IMAGE_WIDTH = 800; // 最低画像幅（ピクセル）
+
 // 温泉地と検索クエリのマッピング
 const onsenSearchQueries = {
   'hakone': '箱根温泉',
@@ -118,7 +122,7 @@ async function main() {
       let foundImage = null;
       for (const title of titles) {
         const info = await getImageInfo(title);
-        if (info && info.width >= 800) { // 最低幅800px
+        if (info && info.width >= MIN_IMAGE_WIDTH) {
           foundImage = info;
           break;
         }
@@ -133,7 +137,7 @@ async function main() {
       }
       
       // API制限対策のため少し待機
-      await new Promise(resolve => setTimeout(resolve, 500));
+      await new Promise(resolve => setTimeout(resolve, API_DELAY_MS));
       
     } catch (error) {
       console.log(`❌ エラー: ${error.message}`);
@@ -142,7 +146,7 @@ async function main() {
   }
   
   console.log('\n📋 取得結果:');
-  console.log('=' .repeat(60));
+  console.log('='.repeat(60));
   
   let foundCount = 0;
   for (const [slug, url] of Object.entries(results)) {

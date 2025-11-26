@@ -59,6 +59,10 @@ export function Header({ navigation = defaultNavigation, site = defaultSite }: H
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
 
+  // フィルタリングを一度だけ行う
+  const regularNavItems = navigation.filter(item => item.variant !== 'primary');
+  const primaryNavItems = navigation.filter(item => item.variant === 'primary');
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -83,7 +87,7 @@ export function Header({ navigation = defaultNavigation, site = defaultSite }: H
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            {navigation.filter(item => item.variant !== 'primary').map((item) => (
+            {regularNavItems.map((item) => (
               <div key={item.label} className="relative group">
                 {item.submenu ? (
                   <>
@@ -118,7 +122,7 @@ export function Header({ navigation = defaultNavigation, site = defaultSite }: H
             ))}
             
             {/* Primary CTA Button */}
-            {navigation.filter(item => item.variant === 'primary').map((item) => (
+            {primaryNavItems.map((item) => (
               <Link key={item.label} href={item.href}>
                 <button className="px-6 py-2 rounded-full bg-primary-600 hover:bg-primary-500 text-white text-sm font-bold transition-colors shadow-lg shadow-primary-900/20">
                   {item.label}
