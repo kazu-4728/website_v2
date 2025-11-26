@@ -4,6 +4,16 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+    inputs:
+      theme:
+        description: 'デプロイするサイトテーマを選択'
+        required: true
+        default: 'onsen-kanto'
+        type: choice
+        options:
+          - onsen-kanto
+          - github-docs
+          - portfolio
 
 permissions:
   contents: read
@@ -19,6 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
+      NEXT_PUBLIC_THEME: ${{ github.event.inputs.theme || 'onsen-kanto' }}
       SKIP_CHECK: "true"
     steps:
       - name: Checkout
@@ -38,6 +49,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Display selected theme
+        run: echo "🎨 Building with theme: $NEXT_PUBLIC_THEME"
 
       - name: Build Next.js static export
         run: npm run build
