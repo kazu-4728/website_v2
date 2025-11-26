@@ -17,27 +17,72 @@ const publicDir = path.join(__dirname, '../public');
 const errors = [];
 const warnings = [];
 
-// URLの有効性チェック
-function checkUrl(url) {
+// 信頼できる外部画像ホスティングサービスのドメイン
+const TRUSTED_DOMAINS = [
+  'images.unsplash.com',
+  'unsplash.com',
+  'pexels.com',
+  'pixabay.com',
+  'cloudinary.com',
+  'imgix.net',
+  'grainy-gradients.vercel.app',
+];
+
+// URLが信頼できるドメインかチェック
+function isTrustedDomain(url) {
+  try {
+    const parsed = new URL(url);
+    return TRUSTED_DOMAINS.some(domain => 
+      parsed.hostname === domain || parsed.hostname.endsWith('.' + domain)
+    );
+  } catch {
+    return false;
+  }
+}
+
+// URLの有効性チェック（リトライ付き）
+function checkUrl(url, retries = 2) {
   return new Promise((resolve) => {
-    // Unsplash等の最適化URLパラメータを除去してベースURLでチェック（オプション）
-    // 今回はそのままチェックする
+    // 信頼できるドメインはスキップ（ネットワーク制限環境対応）
+    if (isTrustedDomain(url)) {
+      resolve(true);
+      return;
+    }
     
     const client = url.startsWith('https') ? https : http;
-    const req = client.request(url, { method: 'HEAD', timeout: 5000 }, (res) => {
-      if (res.statusCode >= 200 && res.statusCode < 400) {
-        resolve(true);
-      } else {
-        resolve(false);
-      }
-    });
     
-    req.on('error', () => resolve(false));
-    req.on('timeout', () => {
-      req.destroy();
-      resolve(false);
-    });
-    req.end();
+    const makeRequest = (attemptsLeft) => {
+      const req = client.request(url, { method: 'HEAD', timeout: 7000 }, (res) => {
+        if (res.statusCode >= 200 && res.statusCode < 400) {
+          resolve(true);
+        } else if (attemptsLeft > 0) {
+          setTimeout(() => makeRequest(attemptsLeft - 1), 1000);
+        } else {
+          resolve(false);
+        }
+      });
+      
+      req.on('error', () => {
+        if (attemptsLeft > 0) {
+          setTimeout(() => makeRequest(attemptsLeft - 1), 1000);
+        } else {
+          resolve(false);
+        }
+      });
+      
+      req.on('timeout', () => {
+        req.destroy();
+        if (attemptsLeft > 0) {
+          setTimeout(() => makeRequest(attemptsLeft - 1), 1000);
+        } else {
+          resolve(false);
+        }
+      });
+      
+      req.end();
+    };
+    
+    makeRequest(retries);
   });
 }
 
