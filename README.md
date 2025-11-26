@@ -1,12 +1,12 @@
-# 🚀 Code Voyage
+# 🚀 関東温泉紀行
 
 [![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Topics](https://img.shields.io/badge/Topics-23-blue)
+![Topics](https://img.shields.io/badge/Topics-21-blue)
 ![Posts](https://img.shields.io/badge/Posts-3-purple)
 ![Status](https://img.shields.io/badge/Status-Live-green)
 
-> **単なるツールではない。開発者の人生を変える「物語」としてのGitHub完全ガイド。** - Powered by Next.js 15 & Cinematic UI
+> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 15 & Cinematic UI
 
 ## 🌐 ライブデモ
 
@@ -20,37 +20,35 @@
 
 このサイトの構造は `content.json` から自動生成されています。
 
-- [Home](/)
-- [The Journey](/docs)
-  - [始まりの場所：GitHub入門](/docs/getting-started)
-  - [Gitのセットアップ](/docs/setup-git)
-  - [リポジトリの基礎](/docs/repository-basics)
-  - [コミットとプッシュ](/docs/commit-and-push)
-  - [ブランチの魔法](/docs/branching)
-  - [フォークとクローン](/docs/fork-and-clone)
-  - [交差する運命：チーム開発](/docs/collaboration)
-  - [Pull Request (PR)](/docs/pull-requests)
-  - [コードレビュー](/docs/code-review)
-  - [マージ戦略](/docs/merge-strategies)
-  - [Issues活用術](/docs/issues)
-  - [GitHub Projects](/docs/projects)
-  - [Wikiドキュメント](/docs/wiki)
-  - [Insightsと分析](/docs/insights)
-  - [リポジトリ設定](/docs/settings)
-  - [魔法の杖：GitHub Actions](/docs/actions)
-  - [Actions実践パターン](/docs/actions-practice)
-  - [GitHub Packages](/docs/packages)
-  - [GitHub Pages](/docs/pages)
-  - [未来の相棒：GitHub Copilot](/docs/copilot)
-  - [鉄壁の守り：Advanced Security](/docs/security)
-  - [Dependabot](/docs/dependabot)
-  - [Secret Scanning](/docs/secret-scanning)
-- [Blog](/blog)
-  - [コーディングの未来: AIとの共創](/blog/future-of-coding)
-  - [チームベロシティを最大化する](/blog/team-velocity)
-  - [セキュリティ・ファーストの思想](/blog/security-first)
-- [Showcase](/features)
-- [Join Us](/contact)
+- [ホーム](/)
+- [温泉ガイド](/docs)
+  - [箱根温泉郷完全ガイド](/docs/hakone)
+  - [箱根湯本エリア](/docs/hakone-yunohana)
+  - [強羅エリア](/docs/hakone-gora)
+  - [仙石原エリア](/docs/hakone-sengokuhara)
+  - [草津温泉完全ガイド](/docs/kusatsu)
+  - [湯畑エリア](/docs/kusatsu-yubatake)
+  - [西の河原エリア](/docs/kusatsu-sainokawara)
+  - [鬼怒川温泉完全ガイド](/docs/kinugawa)
+  - [伊香保温泉完全ガイド](/docs/ikaho)
+  - [那須温泉郷完全ガイド](/docs/nasu)
+  - [水上温泉郷完全ガイド](/docs/minakami)
+  - [四万温泉完全ガイド](/docs/shima)
+  - [日光湯元温泉ガイド](/docs/nikko)
+  - [塩原温泉郷完全ガイド](/docs/shiobara)
+  - [熱海温泉完全ガイド](/docs/atami)
+  - [伊東温泉完全ガイド](/docs/ito)
+  - [修善寺温泉完全ガイド](/docs/shuzenji)
+  - [下田温泉ガイド](/docs/shimoda)
+  - [湯河原温泉ガイド](/docs/yugawara)
+  - [奥多摩温泉ガイド](/docs/okutama)
+  - [秩父温泉ガイド](/docs/chichibu)
+- [特集記事](/blog)
+  - [知っておきたい温泉マナー10選](/blog/onsen-manner)
+  - [泉質別・温泉の効能ガイド](/blog/onsen-effects)
+  - [四季で楽しむ関東の温泉](/blog/seasonal-onsen)
+- [おすすめプラン](/features)
+- [お問い合わせ](/contact)
 
 
 ---
@@ -79,9 +77,9 @@
 
 ## 📊 プロジェクト統計
 
-- **ドキュメント数**: 23 Chapters
+- **ドキュメント数**: 21 Chapters
 - **ブログ記事数**: 3 Stories
-- **総ページ数**: 約 31 ページ
+- **総ページ数**: 約 29 ページ
 - **依存パッケージ**: 7 個
 
 ---
@@ -113,7 +111,11 @@ npm run dev
 
 ### コンテンツの編集
 
-`themes/github-docs/content.json` を編集するだけで、サイトの内容が即座に反映されます。
+現在のデフォルトテーマは `onsen-kanto`（関東温泉紀行）です。
+`themes/onsen-kanto/content.json` を編集するだけで、サイトの内容が即座に反映されます。
+
+テーマを切り替えるには、`.env.local` ファイルで `NEXT_PUBLIC_THEME` を設定してください。
+詳細は [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) を参照してください。
 
 ```json
 {
@@ -155,8 +157,10 @@ web-site/
 │   ├── docs/           # ドキュメントページ (動的生成)
 │   └── page.tsx        # エントリポイント
 ├── themes/             # テーマ定義
-│   └── github-docs/    # デフォルトテーマ
-│       └── content.json # コンテンツのすべて
+│   ├── onsen-kanto/    # ★ デフォルトテーマ（関東温泉紀行）
+│   │   └── content.json
+│   └── github-docs/    # GitHub学習サイトテーマ
+│       └── content.json
 ├── scripts/            # チェック・生成スクリプト
 └── README.md               # このファイル (自動生成)
 ```
@@ -178,4 +182,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/11/26 7:07:35*
+*最終更新: 2025/11/26 12:26:22*

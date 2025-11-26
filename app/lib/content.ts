@@ -158,17 +158,24 @@ let cachedContent: ContentConfig | null = null;
 export async function loadContent(): Promise<ContentConfig> {
   if (cachedContent) return cachedContent;
 
-  const themeName = process.env.NEXT_PUBLIC_THEME || 'github-docs';
+  const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto';
   
   try {
     // Static import for themes to ensure they are bundled by Webpack/Next.js
+    // When adding a new theme, add a new case to load it
     let contentModule;
     
-    if (themeName === 'onsen-kanto') {
+    switch (themeName) {
+      case 'onsen-kanto':
         contentModule = await import('../../themes/onsen-kanto/content.json');
-    } else {
-        // Default to github-docs theme
+        break;
+      case 'github-docs':
         contentModule = await import('../../themes/github-docs/content.json');
+        break;
+      default:
+        // Fall back to onsen-kanto theme if theme not found
+        console.warn(`Theme "${themeName}" not found, falling back to onsen-kanto`);
+        contentModule = await import('../../themes/onsen-kanto/content.json');
     }
 
     cachedContent = contentModule.default as ContentConfig;

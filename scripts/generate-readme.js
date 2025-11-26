@@ -19,7 +19,7 @@ function loadConfig() {
     }
     
     // JSONテーマファイルを読み込み
-    const themeName = process.env.NEXT_PUBLIC_THEME || 'github-docs';
+    const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto';
     const contentPath = path.join(__dirname, `../themes/${themeName}/content.json`);
     
     let content = {};
@@ -177,7 +177,11 @@ npm run dev
 
 ### コンテンツの編集
 
-\`themes/github-docs/content.json\` を編集するだけで、サイトの内容が即座に反映されます。
+現在のデフォルトテーマは \`onsen-kanto\`（関東温泉紀行）です。
+\`themes/onsen-kanto/content.json\` を編集するだけで、サイトの内容が即座に反映されます。
+
+テーマを切り替えるには、\`.env.local\` ファイルで \`NEXT_PUBLIC_THEME\` を設定してください。
+詳細は [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) を参照してください。
 
 \`\`\`json
 {
@@ -219,8 +223,10 @@ web-site/
 │   ├── docs/           # ドキュメントページ (動的生成)
 │   └── page.tsx        # エントリポイント
 ├── themes/             # テーマ定義
-│   └── github-docs/    # デフォルトテーマ
-│       └── content.json # コンテンツのすべて
+│   ├── onsen-kanto/    # ★ デフォルトテーマ（関東温泉紀行）
+│   │   └── content.json
+│   └── github-docs/    # GitHub学習サイトテーマ
+│       └── content.json
 ├── scripts/            # チェック・生成スクリプト
 └── README.md               # このファイル (自動生成)
 \`\`\`
