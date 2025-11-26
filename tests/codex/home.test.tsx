@@ -7,7 +7,7 @@ describe('Homepage', () => {
     const PageComponent = await Page();
     render(PageComponent);
     // テキストが複数のspanに分かれているので、部分一致でテスト
-    const heading = screen.getByRole('heading', { name: /心と体を.*癒す旅へ/s });
+    const heading = screen.getByRole('heading', { name: /心と体を\s*癒す旅へ/ });
     expect(heading).toBeInTheDocument();
   });
   
