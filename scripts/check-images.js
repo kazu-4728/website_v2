@@ -32,7 +32,9 @@ const TRUSTED_DOMAINS = [
 function isTrustedDomain(url) {
   try {
     const parsed = new URL(url);
-    return TRUSTED_DOMAINS.some(domain => parsed.hostname.includes(domain));
+    return TRUSTED_DOMAINS.some(domain => 
+      parsed.hostname === domain || parsed.hostname.endsWith('.' + domain)
+    );
   } catch {
     return false;
   }
@@ -50,7 +52,7 @@ function checkUrl(url, retries = 2) {
     const client = url.startsWith('https') ? https : http;
     
     const makeRequest = (attemptsLeft) => {
-      const req = client.request(url, { method: 'HEAD', timeout: 10000 }, (res) => {
+      const req = client.request(url, { method: 'HEAD', timeout: 7000 }, (res) => {
         if (res.statusCode >= 200 && res.statusCode < 400) {
           resolve(true);
         } else if (attemptsLeft > 0) {
