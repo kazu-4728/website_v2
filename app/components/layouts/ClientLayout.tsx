@@ -29,7 +29,7 @@ export function ClientLayout({ children, navigation, site }: ClientLayoutProps) 
   return (
     <>
       <Header navigation={navigation} site={site} />
-      <main className="pt-16">{children}</main>
+      <main className="pt-16 relative z-0">{children}</main>
     </>
   );
 }
