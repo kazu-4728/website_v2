@@ -143,65 +143,6 @@ npm run check:links   # 内部リンク切れチェック
 
 ---
 
-## 🚀 デプロイ
-
-### 自動デプロイ
-
-`main` ブランチにプッシュすると、GitHub Actions により自動でサイトがデプロイされます。
-
-### 手動デプロイ（テーマ選択）
-
-異なるテーマでデプロイしたい場合は、GitHub Actions から手動でワークフローを実行できます。
-
-1. **Actions タブを開く**
-   - https://github.com/kazu-4728/website_v2/actions
-
-2. **ワークフローを選択**
-   - 左メニューから「Deploy to GitHub Pages」を選択
-
-3. **「Run workflow」をクリック**
-   - 右側の「Run workflow」ボタンをクリック
-
-4. **テーマを選択**
-   - ドロップダウンメニューから以下のテーマを選択できます：
-     - `onsen-kanto` - 関東温泉紀行（デフォルト）
-     - `github-docs` - GitHub学習サイト
-     - `portfolio` - ポートフォリオサイト
-
-5. **「Run workflow」で実行**
-   - 緑色のボタンをクリックしてデプロイを開始
-
-### 温泉地画像の取得
-
-実際の温泉地の画像を Wikimedia Commons から取得するスクリプトも用意しています。
-
-```bash
-# 画像を検索して結果を表示
-node scripts/fetch-onsen-images.js
-
-# content.json を直接更新
-node scripts/fetch-onsen-images.js --update
-```
-
----
-
-## 📝 変更履歴
-
-### v2.1.0 (2025-11-26)
-
-**新機能・改善**
-- ✅ サイトタイトルを `content.json` から動的に取得するよう改善
-- ✅ ハンバーガーメニューが `content.json` のナビゲーション設定を反映するよう修正
-- ✅ GitHub Actions ワークフローにテーマ選択機能を追加
-- ✅ 温泉地の実際の画像を取得するスクリプト (`fetch-onsen-images.js`) を追加
-- ✅ `ClientLayout` コンポーネントによるサーバー/クライアント分離の実現
-
-**修正されたバグ**
-- タイトルがハードコード（「GitHub Docs 完全マニュアル」）のまま変更されていなかった問題
-- ハンバーガーメニューが機能していなかった問題
-
----
-
 ## 📁 プロジェクト構造
 
 ```
@@ -241,4 +182,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/11/26 12:56:15*
+*最終更新: 2025/11/27 1:42:21*
