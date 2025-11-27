@@ -23,7 +23,7 @@
   --color-secondary-glow: rgba(188, 19, 254, 0.5);
 
   /* Typography */
-  --font-heading: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, sans-serif;
+  --font-heading: "Inter Tight", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
   /* Animations */
@@ -43,7 +43,7 @@
 body {
   background-color: var(--color-space-black);
   color: #e2e8f0;
-  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   selection-background-color: rgba(0, 240, 255, 0.3);
 }
