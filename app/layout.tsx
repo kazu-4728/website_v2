@@ -1,24 +1,16 @@
+export const metadata = { 
+  title: 'GitHub Docs 完全マニュアル',
+  description: '初心者でも分かるGitHubの使い方を、ECサイト形式で学ぶマニュアルサイト' 
+};
 import './globals.css';
-import { loadContent } from './lib/content';
-import { ClientLayout } from './components/layouts/ClientLayout';
+import { Header } from './components/navigation/Header';
 
-export async function generateMetadata() {
-  const content = await loadContent();
-  return {
-    title: content.site.name,
-    description: content.site.description,
-  };
-}
-
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const content = await loadContent();
-  
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
       <body>
-        <ClientLayout navigation={content.navigation} site={content.site}>
-          {children}
-        </ClientLayout>
+        <Header />
+        <main className="pt-16">{children}</main>
       </body>
     </html>
   );

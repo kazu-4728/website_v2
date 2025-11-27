@@ -9,13 +9,13 @@ interface Props {
 
 export function CtaFullscreen({ data }: Props) {
   return (
-    <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center text-center overflow-hidden z-0">
-      <div className="absolute inset-0 -z-10 pointer-events-none">
+    <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center text-center overflow-hidden">
+      <div className="absolute inset-0">
         <Image
           src={data.bgImage}
           alt="CTA Background"
           fill
-          className="object-cover pointer-events-none"
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-primary-900/80 mix-blend-multiply" />
         <div className="absolute inset-0 bg-black/40" />
