@@ -22,8 +22,8 @@
   --color-primary-glow: rgba(0, 240, 255, 0.5);
   --color-secondary-glow: rgba(188, 19, 254, 0.5);
 
-  /* Typography - 日本語フォントを含めたフォールバック */
-  --font-heading: "Inter Tight", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", system-ui, -apple-system, sans-serif;
+  /* Typography */
+  --font-heading: "Inter Tight", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
   /* Animations */
@@ -43,7 +43,7 @@
 body {
   background-color: var(--color-space-black);
   color: #e2e8f0;
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", system-ui, -apple-system, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   selection-background-color: rgba(0, 240, 255, 0.3);
 }
