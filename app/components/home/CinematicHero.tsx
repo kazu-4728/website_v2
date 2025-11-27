@@ -19,14 +19,14 @@ interface HeroProps {
 
 export function CinematicHero({ data }: HeroProps) {
   return (
-    <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden z-0">
+    <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax Effect (simulated with fixed for now) */}
-      <div className="absolute inset-0 -z-10 pointer-events-none">
+      <div className="absolute inset-0 z-0">
         <Image
           src={data.bgImage}
           alt="Hero Background"
           fill
-          className="object-cover pointer-events-none"
+          className="object-cover"
           priority
           quality={90}
         />

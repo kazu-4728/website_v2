@@ -70,7 +70,7 @@ export function SplitFeature({ data }: Props) {
           </div>
 
           {/* Image Side */}
-          <div className="flex-1 relative w-full aspect-[4/5] lg:aspect-square pointer-events-none">
+          <div className="flex-1 relative w-full aspect-[4/5] lg:aspect-square">
             <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl shadow-primary-900/20">
               <Image
                 src={data.image}
