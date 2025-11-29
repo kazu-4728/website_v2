@@ -3,29 +3,24 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { RocketIcon } from '../icons';
+import { getIconComponent } from '../icons';
 
-// Note: Ideally this would be fetched from content.json as well, 
-// but for client component interactivity, we'll keep the structure similar 
-// to what was loaded, or pass props from a server component.
-// For now, let's define a safe fallback navigation that matches content.json's intent.
+interface NavigationItem {
+  label: string;
+  href: string;
+  variant?: 'primary' | 'secondary';
+  submenu?: Array<{ label: string; href: string }>;
+}
 
-const navigation = [
-  { name: 'Home', href: '/' },
-  { 
-    name: 'Journey', 
-    href: '/docs',
-    submenu: [
-      { name: 'Getting Started', href: '/docs/getting-started' },
-      { name: 'Collaboration', href: '/docs/collaboration' },
-      { name: 'Automation', href: '/docs/actions' },
-    ]
-  },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Showcase', href: '/features' },
-];
+interface HeaderProps {
+  logo: {
+    text: string;
+    icon: string;
+  };
+  navigation: NavigationItem[];
+}
 
-export function Header() {
+export function Header({ logo, navigation }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -38,6 +33,12 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const LogoIcon = getIconComponent(logo.icon);
+
+  // 通常のナビゲーション項目とCTAボタンを分離
+  const regularNavItems = navigation.filter(item => item.variant !== 'primary');
+  const ctaItem = navigation.find(item => item.variant === 'primary');
+
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -48,29 +49,29 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <RocketIcon className="w-6 h-6 text-primary-500 group-hover:scale-110 transition-transform" />
-            <span className="text-xl font-bold text-white tracking-tight">Code Voyage</span>
+            <LogoIcon className="w-6 h-6 text-primary-500 group-hover:scale-110 transition-transform" />
+            <span className="text-xl font-bold text-white tracking-tight">{logo.text}</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            {navigation.map((item) => (
-              <div key={item.name} className="relative group">
+            {regularNavItems.map((item) => (
+              <div key={item.label} className="relative group">
                 {item.submenu ? (
                   <>
                     <button className="text-gray-300 hover:text-white transition-colors flex items-center gap-1 text-sm font-medium uppercase tracking-wider">
-                      {item.name} 
+                      {item.label} 
                       <span className="text-xs opacity-50 group-hover:rotate-180 transition-transform">▼</span>
                     </button>
                     <div className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
                       <div className="bg-black/90 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl p-2 overflow-hidden">
                         {item.submenu.map((subitem) => (
                           <Link
-                            key={subitem.name}
+                            key={subitem.label}
                             href={subitem.href}
                             className="block px-4 py-3 rounded-lg text-gray-400 hover:text-white hover:bg-white/5 transition-all text-sm"
                           >
-                            {subitem.name}
+                            {subitem.label}
                           </Link>
                         ))}
                       </div>
@@ -81,18 +82,20 @@ export function Header() {
                     href={item.href}
                     className="text-gray-300 hover:text-white transition-colors text-sm font-medium uppercase tracking-wider relative group"
                   >
-                    {item.name}
+                    {item.label}
                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary-500 group-hover:w-full transition-all duration-300" />
                   </Link>
                 )}
               </div>
             ))}
             
-            <Link href="/contact">
-               <button className="px-6 py-2 rounded-full bg-primary-600 hover:bg-primary-500 text-white text-sm font-bold transition-colors shadow-lg shadow-primary-900/20">
-                 Join Us
-               </button>
-            </Link>
+            {ctaItem && (
+              <Link href={ctaItem.href}>
+                <button className="px-6 py-2 rounded-full bg-primary-600 hover:bg-primary-500 text-white text-sm font-bold transition-colors shadow-lg shadow-primary-900/20">
+                  {ctaItem.label}
+                </button>
+              </Link>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -130,18 +133,18 @@ export function Header() {
           >
             <div className="px-4 py-8 space-y-4">
               {navigation.map((item) => (
-                <div key={item.name}>
+                <div key={item.label}>
                   {item.submenu ? (
                     <>
                       <button
-                        onClick={() => setOpenSubmenu(openSubmenu === item.name ? null : item.name)}
+                        onClick={() => setOpenSubmenu(openSubmenu === item.label ? null : item.label)}
                         className="w-full text-left px-4 py-4 text-2xl font-light text-white border-b border-white/5 flex items-center justify-between"
                       >
-                        {item.name}
-                        <span className={`transition-transform ${openSubmenu === item.name ? 'rotate-180' : ''} text-sm`}>▼</span>
+                        {item.label}
+                        <span className={`transition-transform ${openSubmenu === item.label ? 'rotate-180' : ''} text-sm`}>▼</span>
                       </button>
                       <AnimatePresence>
-                        {openSubmenu === item.name && (
+                        {openSubmenu === item.label && (
                           <motion.div
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: 'auto', opacity: 1 }}
@@ -150,12 +153,12 @@ export function Header() {
                           >
                             {item.submenu.map((subitem) => (
                               <Link
-                                key={subitem.name}
+                                key={subitem.label}
                                 href={subitem.href}
                                 onClick={() => setMobileMenuOpen(false)}
                                 className="block px-8 py-4 text-lg text-gray-400 hover:text-white hover:bg-white/5 transition-all"
                               >
-                                {subitem.name}
+                                {subitem.label}
                               </Link>
                             ))}
                           </motion.div>
@@ -166,9 +169,11 @@ export function Header() {
                     <Link
                       href={item.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className="block px-4 py-4 text-2xl font-light text-white border-b border-white/5 hover:pl-6 transition-all"
+                      className={`block px-4 py-4 text-2xl font-light text-white border-b border-white/5 hover:pl-6 transition-all ${
+                        item.variant === 'primary' ? 'bg-primary-600/20 rounded-lg' : ''
+                      }`}
                     >
-                      {item.name}
+                      {item.label}
                     </Link>
                   )}
                 </div>
