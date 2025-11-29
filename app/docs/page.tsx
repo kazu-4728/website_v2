@@ -16,11 +16,10 @@ export default async function DocsIndexPage() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-            The Journey
+            温泉ガイド
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Explore the chapters of your development story. 
-            From your first commit to automating the world.
+            関東エリアの名湯・秘湯を徹底ガイド。各温泉地の特徴、効能、アクセス情報から、おすすめの宿泊施設まで、温泉旅行に役立つ情報を網羅しています。
           </p>
         </div>
       </section>
@@ -62,7 +61,7 @@ export default async function DocsIndexPage() {
                   </p>
                   
                   <div className="flex items-center text-white font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                    Read Chapter
+                    詳しく見る
                     <ArrowRightIcon className="ml-2 w-5 h-5 text-primary-500" />
                   </div>
                 </div>
@@ -73,7 +72,7 @@ export default async function DocsIndexPage() {
 
         {docs.length === 0 && (
           <div className="text-center text-gray-500 py-12">
-            No documentation pages found.
+            温泉ガイドが見つかりませんでした。
           </div>
         )}
       </section>
