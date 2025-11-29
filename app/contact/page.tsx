@@ -22,7 +22,7 @@ export default async function ContactPage() {
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none" />
           
           <div className="relative z-10">
-            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">Contact Us</p>
+            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">お問い合わせ</p>
             <h1 
               className="text-5xl lg:text-7xl font-bold text-white mb-8 tracking-tighter leading-tight"
               dangerouslySetInnerHTML={{ __html: contactData.title }}
@@ -56,34 +56,34 @@ export default async function ContactPage() {
         <div className="lg:w-1/2 bg-black p-12 lg:p-24 flex flex-col justify-center">
           <form className="space-y-8 max-w-md w-full mx-auto">
             <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">Name</label>
+              <label className="text-sm font-mono text-gray-500 uppercase">お名前</label>
               <input 
                 type="text" 
                 className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder="John Doe"
+                placeholder="山田 太郎"
               />
             </div>
             
             <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">Email</label>
+              <label className="text-sm font-mono text-gray-500 uppercase">メールアドレス</label>
               <input 
                 type="email" 
                 className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder="john@example.com"
+                placeholder="example@email.com"
               />
             </div>
             
             <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">Message</label>
+              <label className="text-sm font-mono text-gray-500 uppercase">メッセージ</label>
               <textarea 
                 rows={4}
                 className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder="Tell us about your project..."
+                placeholder="お問い合わせ内容をご記入ください..."
               />
             </div>
             
             <Button variant="primary" size="lg" className="w-full justify-center btn-neon">
-              Send Message <ArrowRightIcon className="ml-2 w-5 h-5" />
+              送信する <ArrowRightIcon className="ml-2 w-5 h-5" />
             </Button>
           </form>
         </div>
