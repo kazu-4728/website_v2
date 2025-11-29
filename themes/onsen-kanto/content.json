@@ -6,11 +6,23 @@
     "logo": {
       "text": "温泉紀行",
       "icon": "flame"
+    },
+    "metadata": {
+      "title": "関東温泉紀行 | 名湯・秘湯を巡る旅",
+      "description": "関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。"
     }
   },
   "navigation": [
     { "label": "ホーム", "href": "/" },
-    { "label": "温泉ガイド", "href": "/docs" },
+    { 
+      "label": "温泉ガイド", 
+      "href": "/docs",
+      "submenu": [
+        { "label": "箱根温泉", "href": "/docs/hakone" },
+        { "label": "草津温泉", "href": "/docs/kusatsu" },
+        { "label": "鬼怒川温泉", "href": "/docs/kinugawa" }
+      ]
+    },
     { "label": "特集記事", "href": "/blog" },
     { "label": "おすすめプラン", "href": "/features" },
     { "label": "お問い合わせ", "href": "/contact", "variant": "primary" }
