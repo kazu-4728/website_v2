@@ -51,7 +51,7 @@ export default async function DocPage({ params }: Props) {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <Link href="/docs" className="inline-flex items-center text-primary-400 mb-8 hover:text-primary-300 transition-colors">
             <ArrowLeftIcon className="w-4 h-4 mr-2" />
-            Back to Journey
+            温泉ガイド一覧に戻る
           </Link>
           
           {page.subtitle && (
@@ -98,7 +98,7 @@ export default async function DocPage({ params }: Props) {
             <div className="mt-16 flex flex-col md:flex-row justify-between gap-8">
               {prevDoc ? (
                  <Link href={`/docs/${prevDoc.slug}`} className="group flex-1">
-                   <div className="text-sm text-gray-500 mb-2 uppercase tracking-widest">Previous Chapter</div>
+                   <div className="text-sm text-gray-500 mb-2 uppercase tracking-widest">前の温泉地</div>
                    <div className="card-glass p-6 rounded-xl group-hover:bg-white/5 transition-colors flex items-center gap-4">
                      <ArrowLeftIcon className="w-5 h-5 text-primary-500 group-hover:-translate-x-1 transition-transform" />
                      <div>
@@ -110,7 +110,7 @@ export default async function DocPage({ params }: Props) {
 
               {nextDoc ? (
                  <Link href={`/docs/${nextDoc.slug}`} className="group flex-1 text-right">
-                   <div className="text-sm text-gray-500 mb-2 uppercase tracking-widest">Next Chapter</div>
+                   <div className="text-sm text-gray-500 mb-2 uppercase tracking-widest">次の温泉地</div>
                    <div className="card-glass p-6 rounded-xl group-hover:bg-white/5 transition-colors flex items-center justify-end gap-4">
                      <div>
                        <div className="text-white font-bold text-lg">{nextDoc.title}</div>
