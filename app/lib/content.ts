@@ -14,6 +14,10 @@ export interface ContentConfig {
       text: string;
       icon: string;
     };
+    metadata: {
+      title: string;
+      description: string;
+    };
   };
   navigation: Array<{
     label: string;
@@ -227,7 +231,11 @@ const fallbackContent: ContentConfig = {
     name: "Error Loading Theme",
     tagline: "Configuration Error",
     description: "Please check your theme configuration.",
-    logo: { text: "Error", icon: "alert" }
+    logo: { text: "Error", icon: "alert" },
+    metadata: {
+      title: "Error Loading Theme",
+      description: "Please check your theme configuration."
+    }
   },
   navigation: [],
   pages: {
