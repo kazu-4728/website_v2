@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { Button } from '../ui/Button';
 import { ArrowRightIcon } from 'lucide-react';
 import { SplitFeatureSection } from '../../lib/content';
+import { ImageCredit } from '../ui/ImageCredit';
+import { getImageMetadata } from '../../lib/images';
 
 interface Props {
   data: SplitFeatureSection;
@@ -10,6 +12,10 @@ interface Props {
 
 export function SplitFeature({ data }: Props) {
   const isRight = data.layout === 'image-right';
+  
+  // 画像のメタデータを取得（著作権情報）
+  // セクションIDから画像のメタデータを取得
+  const imageMetadata = getImageMetadata('sections', data.id);
 
   return (
     <section className="relative py-24 md:py-32 overflow-hidden bg-dark-950">
@@ -79,6 +85,8 @@ export function SplitFeature({ data }: Props) {
                 className="object-cover hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent opacity-60" />
+              {/* 画像のクレジット表示 */}
+              <ImageCredit metadata={imageMetadata} position="bottom-right" />
             </div>
             
             {/* Decorative Element */}

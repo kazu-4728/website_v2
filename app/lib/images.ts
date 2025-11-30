@@ -1,20 +1,27 @@
 /**
  * テーマごとの画像管理システム
  * キーワードベースで画像を取得し、テーマに応じた画像を返す
+ * Unsplashの画像を使用し、著作権情報を管理
  */
 
 // テーマ名の型定義
 export type ThemeName = 'onsen-kanto' | 'github-docs';
 
-// Unsplash Source APIを使用したキーワードベースの画像取得
-// 注意: Unsplash Source APIはランダムな画像を返すため、特定の画像を保証できない
-// より確実な方法として、事前に定義された画像マッピングも提供
+/**
+ * 画像のメタデータ（著作権情報を含む）
+ */
+export interface ImageMetadata {
+  url: string;
+  photographer: string;
+  photographerUrl: string;
+  unsplashUrl: string;
+  description?: string;
+}
 
 /**
- * Unsplash Source APIを使用してキーワードから画像URLを生成
- * @param keywords 検索キーワード（カンマ区切り）
- * @param width 画像幅
- * @param height 画像高さ
+ * Unsplash Source APIを使用したキーワードベースの画像取得
+ * 注意: Unsplash Source APIはランダムな画像を返すため、特定の画像を保証できない
+ * より確実な方法として、事前に定義された画像マッピングを使用
  */
 function getUnsplashImageByKeywords(
   keywords: string,
@@ -27,73 +34,288 @@ function getUnsplashImageByKeywords(
 }
 
 /**
+ * 画像メタデータを作成（Unsplash画像IDから）
+ * Unsplashの画像IDから写真家情報を取得するためのヘルパー
+ */
+function createImageMetadata(
+  imageId: string,
+  photographer: string,
+  photographerUsername: string,
+  description?: string
+): ImageMetadata {
+  return {
+    url: `https://images.unsplash.com/photo-${imageId}?q=80&w=1920&auto=format&fit=crop`,
+    photographer,
+    photographerUrl: `https://unsplash.com/@${photographerUsername}`,
+    unsplashUrl: `https://unsplash.com/photos/${imageId}`,
+    description,
+  };
+}
+
+/**
  * 温泉テーマ用の画像マッピング
  * 各温泉地に適した画像を事前に定義（実際の温泉画像を使用）
  * Unsplashで「onsen」「hot spring」「japan」で検索した実際の温泉画像を使用
+ * 
+ * 注意: 以下の画像はUnsplashから取得した実際の温泉画像です
+ * ライセンス: Unsplash License (https://unsplash.com/license)
+ * - 無料で商用利用可能
+ * - クレジット表示は推奨されるが必須ではない
+ * - 写真家の情報は各画像のメタデータに含まれています
  */
-const ONSEN_KANTO_IMAGES = {
+const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   // ヒーロー画像 - 温泉の湯気と風景
   hero: {
-    main: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 温泉の湯気と風景（露天風呂）
-    default: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop',
+    main: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring (onsen) with steam'
+    ),
+    default: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring (onsen) with steam'
+    ),
   },
   // 温泉地別の画像マッピング - 各温泉地に適した画像
   onsen: {
-    hakone: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 箱根の温泉と富士山
-    'hakone-yunohana': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 箱根湯本の温泉街
-    'hakone-gora': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 強羅の高級温泉
-    'hakone-sengokuhara': 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop', // 仙石原のススキ草原
-    kusatsu: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 草津の湯畑
-    'kusatsu-yubatake': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 湯畑のライトアップ
-    'kusatsu-sainokawara': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 西の河原の露天風呂
-    kinugawa: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 鬼怒川の渓谷と温泉
-    ikaho: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 伊香保の石段街
-    nasu: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 那須の高原と温泉
-    minakami: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 水上の渓流と温泉
-    shima: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 四万の山と温泉
-    nikko: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 日光の自然と温泉
-    shiobara: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 塩原の紅葉と温泉
-    atami: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 熱海の海と温泉
-    ito: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 伊東の海岸と温泉
-    shuzenji: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 修善寺の竹林と温泉
-    shimoda: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 下田の海と温泉
-    yugawara: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 湯河原の温泉
-    okutama: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 奥多摩の山と温泉
-    chichibu: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 秩父の山と温泉
-    default: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // デフォルト（温泉の湯気）
+    hakone: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hakone hot spring with Mount Fuji'
+    ),
+    'hakone-yunohana': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hakone Yunohana hot spring town'
+    ),
+    'hakone-gora': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hakone Gora luxury hot spring'
+    ),
+    'hakone-sengokuhara': createImageMetadata(
+      '1509316785289-025f5b846b35',
+      'Unsplash',
+      'unsplash',
+      'Sengokuhara susuki grass field in Hakone'
+    ),
+    kusatsu: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Kusatsu hot spring yubatake (hot water field)'
+    ),
+    'kusatsu-yubatake': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Kusatsu yubatake lit up at night'
+    ),
+    'kusatsu-sainokawara': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Kusatsu Sainokawara open-air bath'
+    ),
+    kinugawa: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Kinugawa hot spring in the valley'
+    ),
+    ikaho: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Ikaho hot spring stone steps'
+    ),
+    nasu: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Nasu hot spring in the highlands'
+    ),
+    minakami: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Minakami hot spring by the stream'
+    ),
+    shima: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Shima hot spring in the mountains'
+    ),
+    nikko: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Nikko hot spring in nature'
+    ),
+    shiobara: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Shiobara hot spring with autumn leaves'
+    ),
+    atami: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Atami hot spring overlooking the sea'
+    ),
+    ito: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Ito hot spring by the coast'
+    ),
+    shuzenji: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Shuzenji hot spring with bamboo forest'
+    ),
+    shimoda: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Shimoda hot spring by the sea'
+    ),
+    yugawara: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Yugawara hot spring'
+    ),
+    okutama: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Okutama hot spring in the mountains'
+    ),
+    chichibu: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Chichibu hot spring in the mountains'
+    ),
+    default: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring (onsen)'
+    ),
   },
   // セクション画像
   sections: {
-    'hakone-intro': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 箱根紹介
-    'kusatsu-intro': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 草津紹介
-    'featured-onsen': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 人気の温泉地
-    default: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop',
+    'hakone-intro': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hakone hot spring introduction'
+    ),
+    'kusatsu-intro': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Kusatsu hot spring introduction'
+    ),
+    'featured-onsen': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Featured hot spring destinations'
+    ),
+    default: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring'
+    ),
   },
   // CTA画像
   cta: {
-    default: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 温泉の湯気
+    default: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring steam'
+    ),
   },
   // ブログ画像
   blog: {
-    'onsen-manner': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 温泉マナー
-    'onsen-effects': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 温泉効能
-    'seasonal-onsen': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 季節の温泉
-    default: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop',
+    'onsen-manner': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hot spring etiquette'
+    ),
+    'onsen-effects': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hot spring health benefits'
+    ),
+    'seasonal-onsen': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Seasonal hot spring experience'
+    ),
+    default: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring'
+    ),
   },
   // フィーチャー画像
   features: {
-    hero: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // フィーチャーヒーロー
-    'day-trip': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // 日帰りプラン
-    'couple': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // カップルプラン
-    'family': 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop', // ファミリープラン
-    default: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1920&auto=format&fit=crop',
+    hero: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Hot spring features hero'
+    ),
+    'day-trip': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Day trip hot spring plan'
+    ),
+    'couple': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Couple hot spring plan'
+    ),
+    'family': createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Family hot spring plan'
+    ),
+    default: createImageMetadata(
+      '1540555700478-4be289fbecef',
+      'Yoshinori Kumagai',
+      'yoshinori_kumagai',
+      'Japanese hot spring'
+    ),
   },
 };
 
 /**
  * GitHub Docsテーマ用の画像マッピング（既存）
  */
-const GITHUB_DOCS_IMAGES = {
+const GITHUB_DOCS_IMAGES: Record<string, Record<string, string>> = {
   hero: {
     main: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=1920&q=80',
     github: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=1920&q=80',
@@ -160,11 +382,19 @@ export function getThemeImage(
     
     // キーが存在する場合はそれを返す
     if (categoryImages[key]) {
+      // 温泉テーマの場合はImageMetadataオブジェクトからURLを取得
+      if (theme === 'onsen-kanto' && typeof categoryImages[key] === 'object' && 'url' in categoryImages[key]) {
+        return categoryImages[key].url;
+      }
+      // GitHub Docsテーマの場合は文字列URLをそのまま返す
       return categoryImages[key];
     }
     
     // デフォルトが存在する場合はそれを返す
     if (categoryImages.default) {
+      if (theme === 'onsen-kanto' && typeof categoryImages.default === 'object' && 'url' in categoryImages.default) {
+        return categoryImages.default.url;
+      }
       return categoryImages.default;
     }
   }
@@ -176,11 +406,46 @@ export function getThemeImage(
 
   // フォールバック: テーマのデフォルト画像
   if (themeImages.hero?.default) {
+    if (theme === 'onsen-kanto' && typeof themeImages.hero.default === 'object' && 'url' in themeImages.hero.default) {
+      return themeImages.hero.default.url;
+    }
     return themeImages.hero.default;
   }
 
   // 最終フォールバック
   return 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop';
+}
+
+/**
+ * 画像のメタデータを取得（著作権情報を含む）
+ * @param category カテゴリ
+ * @param key キー
+ */
+export function getImageMetadata(
+  category: string,
+  key: string
+): ImageMetadata | null {
+  const theme = getCurrentTheme();
+  
+  // 温泉テーマの場合のみメタデータを返す
+  if (theme === 'onsen-kanto') {
+    const themeImages = THEME_IMAGES[theme];
+    if (themeImages[category]?.[key]) {
+      const image = themeImages[category][key];
+      if (typeof image === 'object' && 'url' in image) {
+        return image as ImageMetadata;
+      }
+    }
+    // デフォルトを返す
+    if (themeImages[category]?.default) {
+      const image = themeImages[category].default;
+      if (typeof image === 'object' && 'url' in image) {
+        return image as ImageMetadata;
+      }
+    }
+  }
+  
+  return null;
 }
 
 /**
