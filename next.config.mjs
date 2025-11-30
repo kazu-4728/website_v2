@@ -6,7 +6,7 @@ export default {
   basePath: base,
   assetPrefix: base,
   images: { 
-    unoptimized: false,
+    unoptimized: true, // GitHub Pagesの静的エクスポートでは画像最適化は使用できない
     remotePatterns: [
       {
         protocol: 'https',
