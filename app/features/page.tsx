@@ -2,7 +2,7 @@ import { loadContent } from '../lib/content';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../components/ui/Button';
-import { ZapIcon, ShieldIcon, CpuIcon } from 'lucide-react';
+import { ZapIcon, ShieldIcon, CpuIcon, ArrowLeftIcon } from 'lucide-react';
 
 // Icon mapper
 const iconMap: Record<string, React.ReactNode> = {
@@ -25,6 +25,14 @@ export default async function FeaturesPage() {
 
   return (
     <main className="bg-dark-950 min-h-screen">
+      {/* Back Link */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
+        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
+          <ArrowLeftIcon className="w-4 h-4 mr-2" />
+          ホームに戻る
+        </Link>
+      </div>
+
       {/* Cinematic Hero */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">

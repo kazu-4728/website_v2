@@ -67,6 +67,18 @@ export function Header({ logo, navigation }: HeaderProps) {
     }
   }, [mobileMenuOpen]);
 
+  // メニューが開いているときにbodyのスクロールを無効化
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
   const LogoIcon = getIconComponent(logo.icon);
 
   // 通常のナビゲーション項目とCTAボタンを分離
@@ -166,7 +178,7 @@ export function Header({ logo, navigation }: HeaderProps) {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={closeMenu}
-              className="lg:hidden fixed inset-0 bg-black/50 z-[90]"
+              className="lg:hidden fixed inset-0 bg-black/50 z-[100]"
             />
             {/* メニュー本体 */}
             <motion.div
@@ -175,7 +187,7 @@ export function Header({ logo, navigation }: HeaderProps) {
               exit={{ opacity: 0, x: '-100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               style={{ top: `${headerHeight}px` }}
-              className="lg:hidden fixed left-0 right-0 bottom-0 bg-black/95 backdrop-blur-xl border-t border-white/10 overflow-y-auto z-[100]"
+              className="lg:hidden fixed left-0 right-0 bottom-0 bg-black/95 backdrop-blur-xl border-t border-white/10 overflow-y-auto z-[110]"
             >
             <div className="px-4 py-8 space-y-4">
               {navigation.map((item) => (
@@ -189,12 +201,13 @@ export function Header({ logo, navigation }: HeaderProps) {
                         {item.label}
                         <span className={`transition-transform ${openSubmenu === item.label ? 'rotate-180' : ''} text-sm`}>▼</span>
                       </button>
-                      <AnimatePresence>
+                      <AnimatePresence mode="wait">
                         {openSubmenu === item.label && (
                           <motion.div
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: 'auto', opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.3 }}
                             className="bg-white/5 overflow-hidden"
                           >
                             {item.submenu.map((subitem) => (

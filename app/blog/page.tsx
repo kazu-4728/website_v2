@@ -1,7 +1,7 @@
 import { loadContent } from '../lib/content';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRightIcon, CalendarIcon, ClockIcon } from 'lucide-react';
+import { ArrowRightIcon, CalendarIcon, ClockIcon, ArrowLeftIcon } from 'lucide-react';
 
 export default async function BlogPage() {
   const content = await loadContent();
@@ -26,6 +26,14 @@ export default async function BlogPage() {
 
   return (
     <main className="bg-dark-950 min-h-screen pt-24 pb-20">
+      {/* Back Link */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
+          <ArrowLeftIcon className="w-4 h-4 mr-2" />
+          ホームに戻る
+        </Link>
+      </div>
+
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tighter">

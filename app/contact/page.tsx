@@ -1,6 +1,7 @@
 import { loadContent } from '../lib/content';
 import { Button } from '../components/ui/Button';
-import { MailIcon, MapPinIcon, ArrowRightIcon } from 'lucide-react';
+import { MailIcon, MapPinIcon, ArrowRightIcon, ArrowLeftIcon } from 'lucide-react';
+import Link from 'next/link';
 
 export default async function ContactPage() {
   const content = await loadContent();
@@ -16,6 +17,14 @@ export default async function ContactPage() {
 
   return (
     <main className="bg-dark-950 min-h-screen flex flex-col">
+      {/* Back Link */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8 w-full">
+        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
+          <ArrowLeftIcon className="w-4 h-4 mr-2" />
+          ホームに戻る
+        </Link>
+      </div>
+
       <div className="flex-1 flex flex-col lg:flex-row">
         {/* Left: Info */}
         <div className="lg:w-1/2 bg-dark-900 p-12 lg:p-24 flex flex-col justify-center relative overflow-hidden">
