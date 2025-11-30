@@ -6,6 +6,27 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "title": "File:Ashinoyu onsen - Hakone.jpg"
   },
+  "hakone-yunohana": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
+    "author": "Michael Casim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "title": "File:季の湯 雪月花 箱根強羅温泉 Apr 2, 2015.jpg"
+  },
+  "hakone-gora": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
+    "author": "Michael Casim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "title": "File:季の湯 雪月花 箱根強羅温泉 Apr 2, 2015.jpg"
+  },
+  "hakone-sengokuhara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Gezicht_op_de_warmwaterbronnen_van_Dogashima_Dogashima_hot_spring%2C_Hakone_%28titel_op_object%29%2C_RP-F-2001-7-1557E-24.jpg",
+    "author": "Rijksmuseum",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "title": "File:Gezicht op de warmwaterbronnen van Dogashima Dogashima hot spring, Hakone (titel op object), RP-F-2001-7-1557E-24.jpg"
+  },
   "kusatsu": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
     "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
@@ -20,6 +41,20 @@
     "licenseUrl": "",
     "title": "File:Kusatsu Onsen Yubatake in Taisho era.jpg"
   },
+  "kusatsu-sainokawara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/%E8%8F%B1%E9%87%8E%E6%B8%A9%E6%B3%89%E5%B8%B8%E7%9B%A4%E9%A4%A8%E3%81%AE%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Komoro_no_kaze\" title=\"User:Komoro no kaze\">Komoro no kaze</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Fallback: File:菱野温泉常盤館の露天風呂.jpg (used for kusatsu-sainokawara)"
+  },
+  "kinugawa": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jranar\" title=\"User:Jranar\">くろふね</a>",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "title": "File:鬼怒川温泉20250719-P1070976.jpg"
+  },
   "ikaho": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Qurren\" title=\"User:Qurren\">Qurren</a>",
@@ -27,11 +62,88 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "title": "File:Ikaho Onsen Stone Steps.jpg"
   },
+  "nasu": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Nasuonsen_1380years.gif",
+    "author": "Wiki100",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "File:Nasuonsen 1380years.gif"
+  },
+  "minakami": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Yujyuku_Onsen_Gunma_01.jpg",
+    "author": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "title": "File:Yujyuku Onsen Gunma 01.jpg"
+  },
+  "shima": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Komoro_no_kaze\" title=\"User:Komoro no kaze\">Komoro no kaze</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:四万温泉積善館のトンネル.jpg"
+  },
   "nikko": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
     "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "title": "File:200801 Nikko Yumoto Onsen Nikko Tochigi pref Japan04s3.jpg"
+  },
+  "shiobara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Fukuwata_Onsen_Rock_Spa.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Miyuki_Meinaka\" title=\"User:Miyuki Meinaka\">Miyuki Meinaka</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:Fukuwata Onsen Rock Spa.jpg"
+  },
+  "atami": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tanker_hauling_hot_spring_water%2C_Manyo_Club_-_Jan_14%2C_2007.jpg",
+    "author": "m-louis .®",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "title": "File:Tanker hauling hot spring water, Manyo Club - Jan 14, 2007.jpg"
+  },
+  "ito": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%E8%B5%A4%E6%B2%A2%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89_%282859927084%29.jpg",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/30423256@N03\">fujitariuji</a> from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "title": "File:赤沢日帰り温泉 (2859927084).jpg"
+  },
+  "shuzenji": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/De_warme_bronnen_van_Shuzenji_Shuzenji_onsen_%28titel_op_object%29%2C_RP-P-1968-277.jpg",
+    "author": "Rijksmuseum",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "title": "File:De warme bronnen van Shuzenji Shuzenji onsen (titel op object), RP-P-1968-277.jpg"
+  },
+  "shimoda": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shimoda_Onsen_Center_Shirasagi-kan.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:STA3816\" class=\"mw-userlink\" title=\"User:STA3816\">STA3816</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:Shimoda Onsen Center Shirasagi-kan.jpg"
+  },
+  "yugawara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kanagawa-Hot_Spring_Water_Splashing_Festival-xl.jpg",
+    "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "title": "File:Kanagawa-Hot Spring Water Splashing Festival-xl.jpg"
+  },
+  "okutama": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/%E8%8F%B1%E9%87%8E%E6%B8%A9%E6%B3%89%E5%B8%B8%E7%9B%A4%E9%A4%A8%E3%81%AE%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Komoro_no_kaze\" title=\"User:Komoro no kaze\">Komoro no kaze</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Fallback: File:菱野温泉常盤館の露天風呂.jpg (used for okutama)"
+  },
+  "chichibu": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Asturio_Cantabrio\" title=\"User:Asturio Cantabrio\">Asturio Cantabrio</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:Seibu-Chichibu Ekimae Onsen ac (4).jpg"
   }
 }

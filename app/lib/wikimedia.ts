@@ -148,19 +148,83 @@ export async function getOnsenImageFromWikimedia(
 }
 
 /**
- * キャッシュ付きで画像を取得（ビルド時に使用）
- * 実際の実装では、ビルド時に画像を取得して静的ファイルに保存することを推奨
+ * 事前に取得した画像データを読み込む（ビルド時に使用）
+ * scripts/fetch-wikimedia-images.jsで取得した画像データを使用
  */
-const imageCache: Record<string, ImageMetadata | null> = {};
+let cachedImageData: Record<string, {
+  url: string;
+  author: string;
+  license: string;
+  licenseUrl: string;
+  title: string;
+}> | null = null;
 
+async function loadCachedImageData(): Promise<Record<string, {
+  url: string;
+  author: string;
+  license: string;
+  licenseUrl: string;
+  title: string;
+}>> {
+  if (cachedImageData) {
+    return cachedImageData;
+  }
+
+  try {
+    // ビルド時にdata/wikimedia-images.jsonを読み込む
+    const fs = await import('fs');
+    const path = await import('path');
+    const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
+    
+    if (fs.existsSync(jsonPath)) {
+      const fileContent = fs.readFileSync(jsonPath, 'utf-8');
+      cachedImageData = JSON.parse(fileContent);
+      return cachedImageData!;
+    }
+  } catch (error) {
+    console.warn('Failed to load cached Wikimedia images:', error);
+  }
+
+  return {};
+}
+
+/**
+ * キャッシュ付きで画像を取得（ビルド時に使用）
+ * 事前に取得したwikimedia-images.jsonから読み込む
+ */
 export async function getCachedOnsenImage(
   onsenName: string
 ): Promise<ImageMetadata | null> {
-  if (imageCache[onsenName]) {
-    return imageCache[onsenName];
+  const imageData = await loadCachedImageData();
+  const cachedImage = imageData[onsenName];
+
+  if (cachedImage) {
+    // パブリックドメインかどうかを判定
+    const isPublicDomain = 
+      cachedImage.license.toLowerCase().includes('public domain') ||
+      cachedImage.license.toLowerCase().includes('pd-') ||
+      cachedImage.license.toLowerCase().includes('cc0');
+
+    // HTMLタグを除去してauthor名を取得
+    const authorMatch = cachedImage.author.match(/>([^<]+)</);
+    const authorName = authorMatch ? authorMatch[1] : cachedImage.author.replace(/<[^>]*>/g, '').trim();
+
+    return {
+      url: cachedImage.url,
+      photographer: authorName || 'Unknown',
+      photographerUrl: cachedImage.author.includes('User:') ? 
+        `https://commons.wikimedia.org/wiki/${cachedImage.author.match(/User:[^"<]+/)?.[0] || ''}` : 
+        undefined,
+      source: 'wikimedia',
+      sourceUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(cachedImage.title.replace(/^File:/, ''))}`,
+      license: cachedImage.license,
+      licenseUrl: cachedImage.licenseUrl || undefined,
+      description: `${onsenName} hot spring`,
+      // パブリックドメインの場合はクレジット表示を省略可能
+      ...(isPublicDomain && { skipCredit: true }),
+    };
   }
 
-  const image = await getOnsenImageFromWikimedia(onsenName);
-  imageCache[onsenName] = image;
-  return image;
+  // キャッシュにない場合は、APIから取得を試みる（フォールバック）
+  return await getOnsenImageFromWikimedia(onsenName);
 }
