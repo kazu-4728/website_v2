@@ -18,9 +18,9 @@ const onsenSearchTerms = {
   ],
   'hakone-yunohana': [
     'Hakone Yunohana Onsen 箱根湯本 温泉',
-    'Yunohana Onsen Hakone',
-    '箱根湯本温泉',
-    'Hakone Onsen'
+    'Yunohana Onsen Hakone 湯本',
+    '箱根湯本温泉 湯本',
+    'Hakone Yunohana Onsen japan'
   ],
   'hakone-gora': [
     'Hakone Gora Onsen 強羅 温泉 露天風呂',
@@ -30,9 +30,9 @@ const onsenSearchTerms = {
   ],
   'hakone-sengokuhara': [
     'Hakone Sengokuhara Onsen 仙石原 温泉',
-    'Sengokuhara Onsen',
-    '仙石原温泉',
-    'Hakone Onsen'
+    'Sengokuhara Onsen Hakone 仙石原',
+    '仙石原温泉 箱根',
+    'Hakone Sengokuhara Onsen japan'
   ],
   kusatsu: [
     'Kusatsu Onsen Yubatake 草津温泉 湯畑',
@@ -47,10 +47,10 @@ const onsenSearchTerms = {
     'Kusatsu Onsen'
   ],
   'kusatsu-sainokawara': [
-    'Kusatsu Sainokawara Onsen 西の河原 露天風呂',
-    'Sainokawara Onsen Kusatsu',
-    '西の河原露天風呂',
-    'Kusatsu Onsen rotenburo'
+    'Kusatsu Sainokawara Onsen 草津 西の河原 露天風呂',
+    'Sainokawara Onsen Kusatsu 草津温泉',
+    '草津西の河原露天風呂',
+    'Kusatsu Sainokawara rotenburo'
   ],
   kinugawa: [
     'Kinugawa Onsen 鬼怒川温泉 露天風呂',
@@ -72,9 +72,9 @@ const onsenSearchTerms = {
   ],
   minakami: [
     'Minakami Onsen 水上温泉 露天風呂',
-    'Minakami hot spring',
-    '水上温泉',
-    'Minakami Onsen japan'
+    'Minakami Onsen Gunma 水上温泉',
+    '水上温泉 群馬',
+    'Minakami Onsen japan Gunma'
   ],
   shima: [
     'Shima Onsen 四万温泉 露天風呂',
@@ -96,9 +96,9 @@ const onsenSearchTerms = {
   ],
   atami: [
     'Atami Onsen 熱海温泉 露天風呂',
-    'Atami hot spring',
-    '熱海温泉',
-    'Atami Onsen japan'
+    'Atami Onsen hot spring 熱海',
+    '熱海温泉 温泉',
+    'Atami Onsen japan hot spring'
   ],
   ito: [
     'Ito Onsen 伊東温泉 露天風呂',
@@ -126,9 +126,9 @@ const onsenSearchTerms = {
   ],
   okutama: [
     'Okutama Onsen 奥多摩温泉 露天風呂',
-    'Okutama hot spring',
-    '奥多摩温泉',
-    'Okutama Onsen japan'
+    'Okutama Onsen Tokyo 奥多摩',
+    '奥多摩温泉 東京',
+    'Okutama Onsen japan Tokyo'
   ],
   chichibu: [
     'Chichibu Onsen 秩父温泉 露天風呂',
@@ -298,16 +298,32 @@ async function searchWikimediaImages(searchTerm) {
 
       // タイトルに「onsen」「hot spring」「温泉」「露天風呂」「rotemburo」が含まれる画像を優先
       const titleLower = page.title.toLowerCase();
+      const searchTermLower = searchTerm.toLowerCase();
+      
+      // 検索キーワードに含まれる場所名をチェック
+      const locationKeywords = [
+        'hakone', '箱根', 'yunohana', '湯本', 'gora', '強羅', 'sengokuhara', '仙石原',
+        'kusatsu', '草津', 'yubatake', '湯畑', 'sainokawara', '西の河原',
+        'kinugawa', '鬼怒川', 'ikaho', '伊香保', 'nasu', '那須',
+        'minakami', '水上', 'shima', '四万', 'nikko', '日光', 'yumoto', '湯元',
+        'shiobara', '塩原', 'atami', '熱海', 'ito', '伊東',
+        'shuzenji', '修善寺', 'shimoda', '下田', 'yugawara', '湯河原',
+        'okutama', '奥多摩', 'chichibu', '秩父'
+      ];
+      const hasLocationInTitle = locationKeywords.some(keyword => titleLower.includes(keyword.toLowerCase()));
+      
       const isOnsenRelated = 
-        titleLower.includes('onsen') ||
+        (titleLower.includes('onsen') ||
         titleLower.includes('hot spring') ||
         titleLower.includes('温泉') ||
         titleLower.includes('露天風呂') ||
         titleLower.includes('rotemburo') ||
+        titleLower.includes('rotenburo') ||
         titleLower.includes('yubatake') ||
         titleLower.includes('湯畑') ||
-        titleLower.includes('rotemburo') ||
-        titleLower.includes('rotenburo');
+        titleLower.includes('warm spring') ||
+        titleLower.includes('warmwaterbronnen')) &&
+        hasLocationInTitle; // 場所名も含まれていることを確認
 
       // 画像ファイルの拡張子を確認
       const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
@@ -323,7 +339,9 @@ async function searchWikimediaImages(searchTerm) {
         'railway', 'railroad', 'train', 'station', '駅',
         'city', 'town', '市', '町', 'street', '道路',
         'bust', 'statue', '銅像', 'monument', '記念碑',
-        '.pdf', '.doc', '.xls', '.ppt' // ドキュメントファイル
+        '.pdf', '.doc', '.xls', '.ppt', // ドキュメントファイル
+        'tanker', 'hauling', 'vehicle', 'truck', // 車両関連
+        'raccoon', 'animal', 'wildlife' // 動物関連
       ];
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
 
@@ -401,7 +419,8 @@ async function searchFallbackOnsenImage() {
       // 動物や不適切な画像を除外
       const excludeKeywords = [
         'raccoon', 'animal', 'wildlife', 'tree', 'forest',
-        'アライグマ', '動物', '野生', '森', '木'
+        'アライグマ', '動物', '野生', '森', '木',
+        '入之波', 'hishino', '菱野', '赤沢' // 特定の場所名を除外
       ];
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
       
