@@ -8,31 +8,156 @@
 const fs = require('fs');
 const path = require('path');
 
-// 各温泉地の検索キーワード（より具体的に温泉画像を検索）
+// 各温泉地の検索キーワード（複数の検索パターンを定義）
 const onsenSearchTerms = {
-  hakone: 'Hakone Onsen hot spring 温泉',
-  'hakone-yunohana': 'Hakone Yunohana Onsen 箱根湯本 温泉',
-  'hakone-gora': 'Hakone Gora Onsen 強羅 温泉 露天風呂',
-  'hakone-sengokuhara': 'Hakone Sengokuhara Onsen 仙石原 温泉',
-  kusatsu: 'Kusatsu Onsen Yubatake 草津温泉 湯畑',
-  'kusatsu-yubatake': 'Kusatsu Yubatake 草津 湯畑 温泉',
-  'kusatsu-sainokawara': 'Kusatsu Sainokawara Onsen 西の河原 露天風呂',
-  kinugawa: 'Kinugawa Onsen 鬼怒川温泉 露天風呂',
-  ikaho: 'Ikaho Onsen 伊香保温泉 石段',
-  nasu: 'Nasu Onsen 那須温泉 露天風呂',
-  minakami: 'Minakami Onsen 水上温泉 露天風呂',
-  shima: 'Shima Onsen 四万温泉 露天風呂',
-  nikko: 'Nikko Yumoto Onsen 日光湯元温泉',
-  shiobara: 'Shiobara Onsen 塩原温泉 露天風呂',
-  atami: 'Atami Onsen 熱海温泉 露天風呂',
-  ito: 'Ito Onsen 伊東温泉 露天風呂',
-  shuzenji: 'Shuzenji Onsen 修善寺温泉 露天風呂',
-  shimoda: 'Shimoda Onsen 下田温泉 露天風呂',
-  yugawara: 'Yugawara Onsen 湯河原温泉 露天風呂',
-  okutama: 'Okutama Onsen 奥多摩温泉 露天風呂',
-  chichibu: 'Chichibu Onsen 秩父温泉 露天風呂',
+  hakone: [
+    'Hakone Onsen hot spring 温泉',
+    'Hakone Onsen 箱根温泉',
+    'Hakone hot spring japan',
+    '箱根温泉 露天風呂'
+  ],
+  'hakone-yunohana': [
+    'Hakone Yunohana Onsen 箱根湯本 温泉',
+    'Yunohana Onsen Hakone',
+    '箱根湯本温泉',
+    'Hakone Onsen'
+  ],
+  'hakone-gora': [
+    'Hakone Gora Onsen 強羅 温泉 露天風呂',
+    'Gora Onsen Hakone',
+    '強羅温泉',
+    'Hakone Onsen rotenburo'
+  ],
+  'hakone-sengokuhara': [
+    'Hakone Sengokuhara Onsen 仙石原 温泉',
+    'Sengokuhara Onsen',
+    '仙石原温泉',
+    'Hakone Onsen'
+  ],
+  kusatsu: [
+    'Kusatsu Onsen Yubatake 草津温泉 湯畑',
+    'Kusatsu Yubatake 草津 湯畑',
+    '草津温泉',
+    'Kusatsu hot spring japan'
+  ],
+  'kusatsu-yubatake': [
+    'Kusatsu Yubatake 草津 湯畑 温泉',
+    'Kusatsu Yubatake',
+    '草津湯畑',
+    'Kusatsu Onsen'
+  ],
+  'kusatsu-sainokawara': [
+    'Kusatsu Sainokawara Onsen 西の河原 露天風呂',
+    'Sainokawara Onsen Kusatsu',
+    '西の河原露天風呂',
+    'Kusatsu Onsen rotenburo'
+  ],
+  kinugawa: [
+    'Kinugawa Onsen 鬼怒川温泉 露天風呂',
+    'Kinugawa hot spring',
+    '鬼怒川温泉',
+    'Kinugawa Onsen japan'
+  ],
+  ikaho: [
+    'Ikaho Onsen 伊香保温泉 石段',
+    'Ikaho Onsen stone steps',
+    '伊香保温泉',
+    'Ikaho hot spring'
+  ],
+  nasu: [
+    'Nasu Onsen 那須温泉 露天風呂',
+    'Nasu hot spring',
+    '那須温泉',
+    'Nasu Onsen japan'
+  ],
+  minakami: [
+    'Minakami Onsen 水上温泉 露天風呂',
+    'Minakami hot spring',
+    '水上温泉',
+    'Minakami Onsen japan'
+  ],
+  shima: [
+    'Shima Onsen 四万温泉 露天風呂',
+    'Shima hot spring',
+    '四万温泉',
+    'Shima Onsen japan'
+  ],
+  nikko: [
+    'Nikko Yumoto Onsen 日光湯元温泉',
+    'Nikko Yumoto hot spring',
+    '日光湯元温泉',
+    'Nikko Onsen'
+  ],
+  shiobara: [
+    'Shiobara Onsen 塩原温泉 露天風呂',
+    'Shiobara hot spring',
+    '塩原温泉',
+    'Shiobara Onsen japan'
+  ],
+  atami: [
+    'Atami Onsen 熱海温泉 露天風呂',
+    'Atami hot spring',
+    '熱海温泉',
+    'Atami Onsen japan'
+  ],
+  ito: [
+    'Ito Onsen 伊東温泉 露天風呂',
+    'Ito hot spring',
+    '伊東温泉',
+    'Ito Onsen japan'
+  ],
+  shuzenji: [
+    'Shuzenji Onsen 修善寺温泉 露天風呂',
+    'Shuzenji hot spring',
+    '修善寺温泉',
+    'Shuzenji Onsen japan'
+  ],
+  shimoda: [
+    'Shimoda Onsen 下田温泉 露天風呂',
+    'Shimoda hot spring',
+    '下田温泉',
+    'Shimoda Onsen japan'
+  ],
+  yugawara: [
+    'Yugawara Onsen 湯河原温泉 露天風呂',
+    'Yugawara hot spring',
+    '湯河原温泉',
+    'Yugawara Onsen japan'
+  ],
+  okutama: [
+    'Okutama Onsen 奥多摩温泉 露天風呂',
+    'Okutama hot spring',
+    '奥多摩温泉',
+    'Okutama Onsen japan'
+  ],
+  chichibu: [
+    'Chichibu Onsen 秩父温泉 露天風呂',
+    'Chichibu hot spring',
+    '秩父温泉',
+    'Chichibu Onsen japan'
+  ],
 };
 
+/**
+ * 複数の検索キーワードで画像を検索
+ * @param searchTerms 検索キーワードの配列
+ */
+async function searchWikimediaImagesWithMultipleTerms(searchTerms) {
+  // 各検索キーワードを順番に試す
+  for (const searchTerm of searchTerms) {
+    const result = await searchWikimediaImages(searchTerm);
+    if (result) {
+      return result;
+    }
+    // API制限を避けるため、少し待機
+    await new Promise(resolve => setTimeout(resolve, 300));
+  }
+  return null;
+}
+
+/**
+ * 単一の検索キーワードで画像を検索
+ */
 async function searchWikimediaImages(searchTerm) {
   try {
     // まず通常の検索を試す
@@ -45,28 +170,78 @@ async function searchWikimediaImages(searchTerm) {
       `srlimit=20&` +
       `origin=*`;
 
-    let response = await fetch(apiUrl);
-    let data = await response.json();
+    let response = await fetch(apiUrl, {
+      headers: {
+        'User-Agent': 'OnsenImageFetcher/1.0 (https://github.com/kazu-4728/website_v2)',
+      },
+    });
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const text = await response.text();
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch (error) {
+      // HTMLが返された場合（エラーページなど）
+      if (text.includes('<!DOCTYPE')) {
+        return null;
+      }
+      throw error;
+    }
 
     // 検索結果が少ない場合は、カテゴリ検索も試す
     if (!data.query?.search || data.query.search.length < 5) {
       // カテゴリ検索を試す（例: "Category:Hakone Onsen"）
-      const categorySearch = searchTerm.replace(/Onsen|温泉/g, '').trim() + ' Onsen';
-      apiUrl = `https://commons.wikimedia.org/w/api.php?` +
-        `action=query&` +
-        `format=json&` +
-        `list=categorymembers&` +
-        `cmtitle=Category:${encodeURIComponent(categorySearch)}&` +
-        `cmnamespace=6&` +
-        `cmlimit=20&` +
-        `origin=*`;
+      const categoryTerms = [
+        searchTerm.replace(/Onsen|温泉|hot spring/gi, '').trim() + ' Onsen',
+        searchTerm.replace(/Onsen|温泉|hot spring/gi, '').trim() + ' 温泉',
+        'Hot springs in Japan',
+        'Onsen in Japan'
+      ];
       
-      response = await fetch(apiUrl);
-      data = await response.json();
-      
-      if (data.query?.categorymembers) {
-        // カテゴリメンバーを検索結果形式に変換
-        data.query.search = data.query.categorymembers.map((item) => ({ title: item.title }));
+      for (const categoryTerm of categoryTerms) {
+        try {
+          apiUrl = `https://commons.wikimedia.org/w/api.php?` +
+            `action=query&` +
+            `format=json&` +
+            `list=categorymembers&` +
+            `cmtitle=Category:${encodeURIComponent(categoryTerm)}&` +
+            `cmnamespace=6&` +
+            `cmlimit=20&` +
+            `origin=*`;
+          
+          response = await fetch(apiUrl, {
+            headers: {
+              'User-Agent': 'OnsenImageFetcher/1.0 (https://github.com/kazu-4728/website_v2)',
+            },
+          });
+          
+          if (!response.ok) {
+            continue;
+          }
+          
+          const categoryText = await response.text();
+          try {
+            data = JSON.parse(categoryText);
+          } catch (error) {
+            if (categoryText.includes('<!DOCTYPE')) {
+              continue;
+            }
+            throw error;
+          }
+          
+          if (data.query?.categorymembers && data.query.categorymembers.length > 0) {
+            // カテゴリメンバーを検索結果形式に変換
+            data.query.search = data.query.categorymembers.map((item) => ({ title: item.title }));
+            break;
+          }
+        } catch (error) {
+          // カテゴリが見つからない場合は次を試す
+          continue;
+        }
       }
     }
 
@@ -83,8 +258,26 @@ async function searchWikimediaImages(searchTerm) {
       `iiprop=url|extmetadata&` +
       `origin=*`;
 
-    const infoResponse = await fetch(imageInfoUrl);
-    const infoData = await infoResponse.json();
+    const infoResponse = await fetch(imageInfoUrl, {
+      headers: {
+        'User-Agent': 'OnsenImageFetcher/1.0 (https://github.com/kazu-4728/website_v2)',
+      },
+    });
+    
+    if (!infoResponse.ok) {
+      return null;
+    }
+    
+    const infoText = await infoResponse.text();
+    let infoData;
+    try {
+      infoData = JSON.parse(infoText);
+    } catch (error) {
+      if (infoText.includes('<!DOCTYPE')) {
+        return null;
+      }
+      throw error;
+    }
 
     const pages = infoData.query?.pages || {};
     
@@ -116,11 +309,21 @@ async function searchWikimediaImages(searchTerm) {
         titleLower.includes('rotemburo') ||
         titleLower.includes('rotenburo');
 
+      // 画像ファイルの拡張子を確認
+      const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
+      const isImageFile = imageExtensions.some(ext => titleLower.endsWith(ext));
+      
+      // PDFやその他のファイルを除外
+      if (!isImageFile) {
+        continue;
+      }
+      
       // 除外するキーワード（鉄道、駅、市街地など）
       const excludeKeywords = [
         'railway', 'railroad', 'train', 'station', '駅',
         'city', 'town', '市', '町', 'street', '道路',
-        'bust', 'statue', '銅像', 'monument', '記念碑'
+        'bust', 'statue', '銅像', 'monument', '記念碑',
+        '.pdf', '.doc', '.xls', '.ppt' // ドキュメントファイル
       ];
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
 
@@ -166,14 +369,62 @@ async function searchWikimediaImages(searchTerm) {
   }
 }
 
+/**
+ * フォールバック画像を検索（一般的な温泉画像）
+ * より厳格なフィルタリングで適切な温泉画像のみを取得
+ */
+async function searchFallbackOnsenImage() {
+  const fallbackTerms = [
+    'Japanese onsen hot spring 日本の温泉 露天風呂',
+    'Onsen japan 温泉 露天風呂',
+    'Hot spring japan rotenburo',
+    'Japanese hot spring rotenburo 露天風呂',
+    'Onsen rotenburo japan',
+    'Hot spring bath japan'
+  ];
+  
+  for (const term of fallbackTerms) {
+    const result = await searchWikimediaImages(term);
+    if (result) {
+      // フォールバック画像も温泉関連であることを確認
+      const titleLower = result.title.toLowerCase();
+      const isOnsenRelated = 
+        titleLower.includes('onsen') ||
+        titleLower.includes('hot spring') ||
+        titleLower.includes('温泉') ||
+        titleLower.includes('露天風呂') ||
+        titleLower.includes('rotemburo') ||
+        titleLower.includes('rotenburo') ||
+        titleLower.includes('yubatake') ||
+        titleLower.includes('湯畑');
+      
+      // 動物や不適切な画像を除外
+      const excludeKeywords = [
+        'raccoon', 'animal', 'wildlife', 'tree', 'forest',
+        'アライグマ', '動物', '野生', '森', '木'
+      ];
+      const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
+      
+      if (isOnsenRelated && !shouldExclude) {
+        return result;
+      }
+    }
+    await new Promise(resolve => setTimeout(resolve, 300));
+  }
+  return null;
+}
+
 async function fetchAllImages() {
   console.log('Fetching images from Wikimedia Commons...\n');
   
   const results = {};
+  let fallbackImage = null;
   
-  for (const [onsenName, searchTerm] of Object.entries(onsenSearchTerms)) {
+  for (const [onsenName, searchTerms] of Object.entries(onsenSearchTerms)) {
     console.log(`Fetching image for ${onsenName}...`);
-    const image = await searchWikimediaImages(searchTerm);
+    
+    // 複数の検索キーワードで試す
+    const image = await searchWikimediaImagesWithMultipleTerms(searchTerms);
     
     if (image) {
       results[onsenName] = image;
@@ -181,7 +432,27 @@ async function fetchAllImages() {
       console.log(`    License: ${image.license}`);
       console.log(`    Author: ${image.author}\n`);
     } else {
-      console.log(`  ✗ No suitable image found\n`);
+      console.log(`  ✗ No suitable image found`);
+      
+      // フォールバック画像を取得（初回のみ）
+      if (!fallbackImage) {
+        console.log(`  🔍 Searching for fallback onsen image...`);
+        fallbackImage = await searchFallbackOnsenImage();
+        if (fallbackImage) {
+          console.log(`  ✓ Found fallback: ${fallbackImage.title}\n`);
+        }
+      }
+      
+      // フォールバック画像を使用
+      if (fallbackImage) {
+        results[onsenName] = {
+          ...fallbackImage,
+          title: `Fallback: ${fallbackImage.title} (used for ${onsenName})`,
+        };
+        console.log(`  ⚠ Using fallback image\n`);
+      } else {
+        console.log(`  ✗ No fallback image available\n`);
+      }
     }
     
     // API制限を避けるため、少し待機
