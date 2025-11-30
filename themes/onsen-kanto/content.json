@@ -34,7 +34,7 @@
         "title": "心と体を\n癒す旅へ",
         "subtitle": "Healing Journey to Kanto's Finest Hot Springs",
         "description": "都心からわずか数時間。関東エリアには、古くから人々を癒してきた名湯が点在しています。四季折々の自然と共に、極上の湯浴みをお楽しみください。",
-        "bgImage": "https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=2574&auto=format&fit=crop",
+        "bgImage": { "key": "main", "keywords": "onsen,hot spring,japan,steam" },
         "overlay": "dark",
         "actions": [
           { "label": "温泉を探す", "href": "/docs/hakone", "variant": "primary" },
@@ -50,7 +50,7 @@
           "title": "箱根温泉郷",
           "subtitle": "Hakone Onsen",
           "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を持ち、芦ノ湖や大涌谷など観光スポットも豊富。都心から90分でアクセス可能な癒しの楽園です。",
-          "image": "https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=2574&auto=format&fit=crop",
+          "image": { "key": "hakone-intro", "keywords": "hakone,onsen,japan,mount fuji" },
           "stats": [
             { "value": "17", "label": "温泉エリア" },
             { "value": "20+", "label": "泉質の種類" }
@@ -65,7 +65,7 @@
           "title": "草津温泉",
           "subtitle": "Kusatsu Onsen",
           "description": "「恋の病以外なんでも治す」と言われる日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と、強酸性の殺菌力で知られています。湯畑を中心とした温泉街の風情も格別です。",
-          "image": "https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=2574&auto=format&fit=crop",
+          "image": { "key": "kusatsu", "keywords": "kusatsu,onsen,japan,yubatake" },
           "quote": {
             "text": "草津よいとこ一度はおいで。お湯の中にも花が咲くよ。",
             "author": "草津節"
@@ -123,7 +123,7 @@
           "type": "cta-fullscreen",
           "title": "極上の湯旅へ",
           "description": "日常から離れ、心と体を解放する旅に出かけませんか。",
-          "bgImage": "https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=2574&auto=format&fit=crop",
+          "bgImage": { "key": "default", "keywords": "onsen,hot spring,japan,steam" },
           "action": { "label": "温泉ガイドを見る", "href": "/docs/hakone" }
         }
       ]
