@@ -421,11 +421,19 @@ function resolveImageUrl(
       return optimizeImageUrl(image);
     }
     // キーの場合は解決
+    // 温泉カテゴリの場合は、getOnsenImage()を使用してwikimedia-images.jsonから取得
+    if (category === 'onsen') {
+      return optimizeImageUrl(getOnsenImage(image));
+    }
     const url = getThemeImage(category, image, defaultKeywords);
     return optimizeImageUrl(url);
   }
 
   // フォールバック
+  // 温泉カテゴリの場合は、getOnsenImage()を使用
+  if (category === 'onsen') {
+    return optimizeImageUrl(getOnsenImage(key));
+  }
   const url = getThemeImage(category, key, defaultKeywords);
   return optimizeImageUrl(url);
 }

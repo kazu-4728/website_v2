@@ -484,6 +484,26 @@ export function getImageMetadata(
  * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
  */
 export function getOnsenImage(onsenSlug: string): string {
+  // まず、data/wikimedia-images.jsonから画像を取得を試みる
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
+    
+    if (fs.existsSync(jsonPath)) {
+      const imageData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+      const cachedImage = imageData[onsenSlug];
+      
+      if (cachedImage?.url) {
+        return cachedImage.url;
+      }
+    }
+  } catch (error) {
+    // エラーが発生した場合はフォールバックを使用
+    console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
+  }
+  
+  // フォールバック: 事前定義された画像を使用
   return getThemeImage('onsen', onsenSlug, `onsen,${onsenSlug},japan`);
 }
 
