@@ -101,10 +101,11 @@ const onsenSearchTerms = {
     'Atami Onsen japan hot spring'
   ],
   ito: [
-    'Ito Onsen 伊東温泉 露天風呂',
-    'Ito hot spring',
-    '伊東温泉',
-    'Ito Onsen japan'
+    'Ito Onsen 伊東温泉 露天風呂 温泉',
+    'Ito hot spring onsen 伊東',
+    '伊東温泉 温泉',
+    'Ito Onsen japan hot spring',
+    'Ito Onsen rotenburo 露天風呂'
   ],
   shuzenji: [
     'Shuzenji Onsen 修善寺温泉 露天風呂',
@@ -356,7 +357,8 @@ async function searchWikimediaImages(searchTerm) {
         'raccoon', 'animal', 'wildlife', // 動物関連
         'entrance', 'gate', 'door', '入口', '門', // 入口関連（温泉そのものではない）
         'bridge', '橋', 'upstream', 'downstream', // 橋や川の上流・下流（温泉そのものではない）
-        'post office', '郵便局', 'hospital', '病院', 'center', 'センター' // 施設（温泉そのものではない）
+        'post office', '郵便局', 'hospital', '病院', 'center', 'センター', // 施設（温泉そのものではない）
+        'pond', '池', 'postcard', '絵葉書', 'card', 'はがき' // 池や絵葉書（温泉そのものではない）
       ];
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
 
