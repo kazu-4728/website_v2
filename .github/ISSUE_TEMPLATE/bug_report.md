@@ -1,38 +1,42 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: バグ報告
+about: バグを報告する
+title: '[バグ] '
+labels: 'bug'
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 🐛 バグの概要
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '...'
-3. Scroll down to '...'
-4. See error
+<!-- バグの概要を簡潔に記述してください -->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 🔗 関連ドキュメント
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!-- 関連するドキュメントをリンクしてください -->
+- [ ] [`docs/FUTURE_TASKS.md`](../../docs/FUTURE_TASKS.md) を確認しました
+- [ ] 関連するドキュメントを確認しました
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 📝 再現手順
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+<!-- バグを再現する手順を記述してください -->
+1. 
+2. 
+3. 
 
-**Additional context**
-Add any other context about the problem here.
+## 🎯 期待される動作
+
+<!-- 期待される動作を記述してください -->
+
+## 📸 スクリーンショット
+
+<!-- 可能であればスクリーンショットを添付してください -->
+
+## 🔍 環境情報
+
+- OS: 
+- ブラウザ: 
+- バージョン: 
+
+## 📎 参考資料
+
+<!-- 参考になる資料があればリンクしてください -->
