@@ -5,5 +5,19 @@ export default {
   trailingSlash: true,
   basePath: base,
   assetPrefix: base,
-  images: { unoptimized: true },
+  images: { 
+    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+        pathname: '/wikipedia/commons/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '/**',
+      },
+    ],
+  },
 };

@@ -322,8 +322,20 @@ async function searchWikimediaImages(searchTerm) {
         titleLower.includes('yubatake') ||
         titleLower.includes('湯畑') ||
         titleLower.includes('warm spring') ||
-        titleLower.includes('warmwaterbronnen')) &&
-        hasLocationInTitle; // 場所名も含まれていることを確認
+        titleLower.includes('warmwaterbronnen') ||
+        titleLower.includes('湯') ||
+        titleLower.includes('風呂') ||
+        titleLower.includes('浴場') ||
+        titleLower.includes('源泉')) &&
+        hasLocationInTitle && // 場所名も含まれていることを確認
+        !titleLower.includes('entrance') && // 入口は除外
+        !titleLower.includes('gate') && // 門は除外
+        !titleLower.includes('bridge') && // 橋は除外
+        !titleLower.includes('post office') && // 郵便局は除外
+        !titleLower.includes('hospital') && // 病院は除外
+        !titleLower.includes('center') && // センターは除外
+        !titleLower.includes('upstream') && // 上流は除外
+        !titleLower.includes('downstream'); // 下流は除外
 
       // 画像ファイルの拡張子を確認
       const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
@@ -334,14 +346,17 @@ async function searchWikimediaImages(searchTerm) {
         continue;
       }
       
-      // 除外するキーワード（鉄道、駅、市街地など）
+      // 除外するキーワード（鉄道、駅、市街地、入口、橋など）
       const excludeKeywords = [
         'railway', 'railroad', 'train', 'station', '駅',
         'city', 'town', '市', '町', 'street', '道路',
         'bust', 'statue', '銅像', 'monument', '記念碑',
         '.pdf', '.doc', '.xls', '.ppt', // ドキュメントファイル
         'tanker', 'hauling', 'vehicle', 'truck', // 車両関連
-        'raccoon', 'animal', 'wildlife' // 動物関連
+        'raccoon', 'animal', 'wildlife', // 動物関連
+        'entrance', 'gate', 'door', '入口', '門', // 入口関連（温泉そのものではない）
+        'bridge', '橋', 'upstream', 'downstream', // 橋や川の上流・下流（温泉そのものではない）
+        'post office', '郵便局', 'hospital', '病院', 'center', 'センター' // 施設（温泉そのものではない）
       ];
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
 
