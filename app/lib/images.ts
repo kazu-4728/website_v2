@@ -491,7 +491,13 @@ export function getOnsenImage(onsenSlug: string): string {
     const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
     
     if (fs.existsSync(jsonPath)) {
-      const imageData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+      const fileContent = fs.readFileSync(jsonPath, 'utf-8');
+      // 空のファイルや不完全なJSONをチェック
+      if (!fileContent || fileContent.trim().length === 0) {
+        throw new Error('Empty file');
+      }
+      
+      const imageData = JSON.parse(fileContent);
       const cachedImage = imageData[onsenSlug];
       
       if (cachedImage?.url) {
@@ -500,7 +506,10 @@ export function getOnsenImage(onsenSlug: string): string {
     }
   } catch (error) {
     // エラーが発生した場合はフォールバックを使用
-    console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
+    // ビルド時にはエラーを出力しない（静かにフォールバック）
+    if (process.env.NODE_ENV !== 'production' || process.env.SKIP_CHECK !== 'true') {
+      console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
+    }
   }
   
   // フォールバック: 事前定義された画像を使用
