@@ -39,9 +39,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch Wikimedia images
-        run: node scripts/fetch-wikimedia-images.js
-
       - name: Build Next.js static export
         run: npm run build
 
