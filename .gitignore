@@ -103,3 +103,4 @@ core
 *.core
 core
 *.core
+.env.local
