@@ -151,33 +151,19 @@ web-site/
 │   └── workflows/          # CI/CD設定
 ├── app/
 │   ├── components/     # UIコンポーネント (Cinematic UI)
-│   │   ├── navigation/ # ナビゲーション（Header.tsx）
 │   │   ├── home/       # ホーム専用コンポーネント
 │   │   └── ui/         # 汎用パーツ
 │   ├── lib/            # コンテンツローダー (JSON処理)
-│   │   └── content.ts  # ⭐ コンテンツ読み込みロジック
 │   ├── docs/           # ドキュメントページ (動的生成)
-│   ├── layout.tsx       # ⭐ ルートレイアウト
 │   └── page.tsx        # エントリポイント
 ├── themes/             # テーマ定義
-│   └── onsen-kanto/    # ★ デフォルトテーマ（関東温泉紀行）
-│       └── content.json # ⭐ 唯一のコンテンツソース
-├── docs/               # ドキュメント（整理済み）
-│   ├── architecture/   # アーキテクチャ設計
-│   ├── development/    # 開発ドキュメント
-│   └── deployment/     # デプロイ関連
+│   ├── onsen-kanto/    # ★ デフォルトテーマ（関東温泉紀行）
+│   │   └── content.json
+│   └── github-docs/    # GitHub学習サイトテーマ
+│       └── content.json
 ├── scripts/            # チェック・生成スクリプト
-└── README.md           # このファイル (自動生成)
+└── README.md               # このファイル (自動生成)
 ```
-
-## 📚 ドキュメント
-
-詳細なドキュメントは `/docs` ディレクトリに整理されています：
-
-- **クイックスタート**: `/docs/QUICK_START.md`
-- **マスターアーキテクチャ**: `/docs/architecture/MASTER_ARCHITECTURE.md`
-- **開発ドキュメント**: `/docs/development/`
-- **デプロイ関連**: `/docs/deployment/`
 
 ---
 
@@ -196,4 +182,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/11/30 9:04:44*
+*最終更新: 2025/11/30 9:44:02*
