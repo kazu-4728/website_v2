@@ -8,50 +8,73 @@
 const fs = require('fs');
 const path = require('path');
 
-// 各温泉地の検索キーワード
+// 各温泉地の検索キーワード（より具体的に温泉画像を検索）
 const onsenSearchTerms = {
-  hakone: 'Hakone Onsen',
-  'hakone-yunohana': 'Hakone Yunohana Onsen',
-  'hakone-gora': 'Hakone Gora Onsen',
-  'hakone-sengokuhara': 'Hakone Sengokuhara',
-  kusatsu: 'Kusatsu Onsen Yubatake',
-  'kusatsu-yubatake': 'Kusatsu Yubatake',
-  'kusatsu-sainokawara': 'Kusatsu Sainokawara',
-  kinugawa: 'Kinugawa Onsen',
-  ikaho: 'Ikaho Onsen',
-  nasu: 'Nasu Onsen',
-  minakami: 'Minakami Onsen',
-  shima: 'Shima Onsen',
-  nikko: 'Nikko Yumoto Onsen',
-  shiobara: 'Shiobara Onsen',
-  atami: 'Atami Onsen',
-  ito: 'Ito Onsen',
-  shuzenji: 'Shuzenji Onsen',
-  shimoda: 'Shimoda Onsen',
-  yugawara: 'Yugawara Onsen',
-  okutama: 'Okutama Onsen',
-  chichibu: 'Chichibu Onsen',
+  hakone: 'Hakone Onsen hot spring 温泉',
+  'hakone-yunohana': 'Hakone Yunohana Onsen 箱根湯本 温泉',
+  'hakone-gora': 'Hakone Gora Onsen 強羅 温泉 露天風呂',
+  'hakone-sengokuhara': 'Hakone Sengokuhara Onsen 仙石原 温泉',
+  kusatsu: 'Kusatsu Onsen Yubatake 草津温泉 湯畑',
+  'kusatsu-yubatake': 'Kusatsu Yubatake 草津 湯畑 温泉',
+  'kusatsu-sainokawara': 'Kusatsu Sainokawara Onsen 西の河原 露天風呂',
+  kinugawa: 'Kinugawa Onsen 鬼怒川温泉 露天風呂',
+  ikaho: 'Ikaho Onsen 伊香保温泉 石段',
+  nasu: 'Nasu Onsen 那須温泉 露天風呂',
+  minakami: 'Minakami Onsen 水上温泉 露天風呂',
+  shima: 'Shima Onsen 四万温泉 露天風呂',
+  nikko: 'Nikko Yumoto Onsen 日光湯元温泉',
+  shiobara: 'Shiobara Onsen 塩原温泉 露天風呂',
+  atami: 'Atami Onsen 熱海温泉 露天風呂',
+  ito: 'Ito Onsen 伊東温泉 露天風呂',
+  shuzenji: 'Shuzenji Onsen 修善寺温泉 露天風呂',
+  shimoda: 'Shimoda Onsen 下田温泉 露天風呂',
+  yugawara: 'Yugawara Onsen 湯河原温泉 露天風呂',
+  okutama: 'Okutama Onsen 奥多摩温泉 露天風呂',
+  chichibu: 'Chichibu Onsen 秩父温泉 露天風呂',
 };
 
 async function searchWikimediaImages(searchTerm) {
   try {
-    const apiUrl = `https://commons.wikimedia.org/w/api.php?` +
+    // まず通常の検索を試す
+    let apiUrl = `https://commons.wikimedia.org/w/api.php?` +
       `action=query&` +
       `format=json&` +
       `list=search&` +
       `srsearch=${encodeURIComponent(searchTerm)}&` +
       `srnamespace=6&` +
-      `srlimit=5&` +
+      `srlimit=20&` +
       `origin=*`;
 
-    const response = await fetch(apiUrl);
-    const data = await response.json();
+    let response = await fetch(apiUrl);
+    let data = await response.json();
 
-    if (!data.query?.search) {
+    // 検索結果が少ない場合は、カテゴリ検索も試す
+    if (!data.query?.search || data.query.search.length < 5) {
+      // カテゴリ検索を試す（例: "Category:Hakone Onsen"）
+      const categorySearch = searchTerm.replace(/Onsen|温泉/g, '').trim() + ' Onsen';
+      apiUrl = `https://commons.wikimedia.org/w/api.php?` +
+        `action=query&` +
+        `format=json&` +
+        `list=categorymembers&` +
+        `cmtitle=Category:${encodeURIComponent(categorySearch)}&` +
+        `cmnamespace=6&` +
+        `cmlimit=20&` +
+        `origin=*`;
+      
+      response = await fetch(apiUrl);
+      data = await response.json();
+      
+      if (data.query?.categorymembers) {
+        // カテゴリメンバーを検索結果形式に変換
+        data.query.search = data.query.categorymembers.map((item) => ({ title: item.title }));
+      }
+    }
+
+    if (!data.query?.search || data.query.search.length === 0) {
       return null;
     }
 
-    const imageTitles = data.query.search.map(item => item.title);
+    const imageTitles = data.query.search.map((item: any) => item.title);
     const imageInfoUrl = `https://commons.wikimedia.org/w/api.php?` +
       `action=query&` +
       `format=json&` +
@@ -65,6 +88,10 @@ async function searchWikimediaImages(searchTerm) {
 
     const pages = infoData.query?.pages || {};
     
+    // 温泉関連の画像を優先的に探す
+    let onsenImage = null;
+    let fallbackImage = null;
+
     for (const pageId in pages) {
       const page = pages[pageId];
       const imageInfo = page.imageinfo?.[0];
@@ -76,20 +103,62 @@ async function searchWikimediaImages(searchTerm) {
       const licenseUrl = extMetadata.LicenseUrl?.value || '';
       const author = extMetadata.Artist?.value || extMetadata.Creator?.value || 'Unknown';
 
+      // タイトルに「onsen」「hot spring」「温泉」「露天風呂」「rotemburo」が含まれる画像を優先
+      const titleLower = page.title.toLowerCase();
+      const isOnsenRelated = 
+        titleLower.includes('onsen') ||
+        titleLower.includes('hot spring') ||
+        titleLower.includes('温泉') ||
+        titleLower.includes('露天風呂') ||
+        titleLower.includes('rotemburo') ||
+        titleLower.includes('yubatake') ||
+        titleLower.includes('湯畑') ||
+        titleLower.includes('rotemburo') ||
+        titleLower.includes('rotenburo');
+
+      // 除外するキーワード（鉄道、駅、市街地など）
+      const excludeKeywords = [
+        'railway', 'railroad', 'train', 'station', '駅',
+        'city', 'town', '市', '町', 'street', '道路',
+        'bust', 'statue', '銅像', 'monument', '記念碑'
+      ];
+      const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
+
       // CCライセンスまたはパブリックドメインの画像を優先
-      if (license.toLowerCase().includes('cc') || 
+      if (!shouldExclude && 
+          (license.toLowerCase().includes('cc') || 
           license.toLowerCase().includes('public domain') ||
-          license.toLowerCase().includes('pd-')) {
-        return {
+          license.toLowerCase().includes('pd-'))) {
+        const imageData = {
           url: imageInfo.url,
           author,
           license,
           licenseUrl,
           title: page.title,
         };
+
+        // 温泉関連の画像を優先
+        if (isOnsenRelated) {
+          onsenImage = imageData;
+        } else if (!fallbackImage) {
+          // フォールバック画像（温泉関連でないが、除外キーワードも含まない）
+          fallbackImage = imageData;
+        }
       }
     }
 
+    // 温泉関連の画像を優先的に返す
+    // 見つからない場合は、フォールバック画像も使用（除外キーワードを含まない限り）
+    if (onsenImage) {
+      return onsenImage;
+    }
+    
+    // フォールバック画像がある場合は使用
+    if (fallbackImage) {
+      console.warn(`  ⚠ Using fallback image (not explicitly onsen-related): ${fallbackImage.title}`);
+      return fallbackImage;
+    }
+    
     return null;
   } catch (error) {
     console.error(`Error fetching image for ${searchTerm}:`, error);
