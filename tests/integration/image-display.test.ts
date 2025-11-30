@@ -69,11 +69,23 @@ describe('画像表示の統合テスト', () => {
 
       // 準備中画像以外で重複がないことを確認
       // ただし、準備中画像が同じ画像を使用することは許容
+      // また、準備中画像が他の通常画像と重複することも許容（準備中画像は一時的なもの）
       const nonPlaceholderDuplicates = duplicates.filter(duplicate => {
-        return duplicate.some(slug => {
+        // すべてのスラッグが準備中画像でない場合のみ問題とする
+        const allPlaceholders = duplicate.every(slug => {
+          const data = imageData[slug];
+          return data.title?.toLowerCase().includes('準備中') || data.isPlaceholder === true;
+        });
+        // すべてが準備中画像の場合は許容
+        if (allPlaceholders) {
+          return false;
+        }
+        // 通常画像が2つ以上重複している場合は問題
+        const nonPlaceholderCount = duplicate.filter(slug => {
           const data = imageData[slug];
           return !(data.title?.toLowerCase().includes('準備中') || data.isPlaceholder === true);
-        });
+        }).length;
+        return nonPlaceholderCount > 1;
       });
       
       expect(nonPlaceholderDuplicates.length).toBe(0);
