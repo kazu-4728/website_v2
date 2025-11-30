@@ -1,6 +1,8 @@
 import { getDocPage, getAllDocSlugs, loadContent } from '../../lib/content';
 import { MarkdownRenderer } from '../../components/ui/MarkdownRenderer';
 import { TableOfContents } from '../../components/ui/TableOfContents';
+import { ImageCredit } from '../../components/ui/ImageCredit';
+import { getImageMetadata } from '../../lib/images';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../../components/ui/Button';
@@ -33,6 +35,9 @@ export default async function DocPage({ params }: Props) {
     notFound();
   }
 
+  // 画像のメタデータを取得（著作権情報）
+  const imageMetadata = getImageMetadata('onsen', slug);
+
   return (
     <main className="bg-dark-950 min-h-screen pb-24">
       {/* Hero Header */}
@@ -46,6 +51,8 @@ export default async function DocPage({ params }: Props) {
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/60 to-dark-950/30" />
+          {/* 画像のクレジット表示 */}
+          <ImageCredit metadata={imageMetadata} position="bottom-right" />
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

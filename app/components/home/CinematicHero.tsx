@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../ui/Button';
 import { ArrowRightIcon } from 'lucide-react';
+import { ImageCredit } from '../ui/ImageCredit';
+import { getImageMetadata } from '../../lib/images';
 
 interface HeroProps {
   data: {
@@ -18,6 +20,9 @@ interface HeroProps {
 }
 
 export function CinematicHero({ data }: HeroProps) {
+  // 画像のメタデータを取得（著作権情報）
+  const imageMetadata = getImageMetadata('hero', 'main');
+
   return (
     <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax Effect (simulated with fixed for now) */}
@@ -31,6 +36,8 @@ export function CinematicHero({ data }: HeroProps) {
           quality={90}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
+        {/* 画像のクレジット表示 */}
+        <ImageCredit metadata={imageMetadata} position="bottom-right" />
       </div>
 
       {/* Content */}
