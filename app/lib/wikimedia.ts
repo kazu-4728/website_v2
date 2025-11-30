@@ -157,6 +157,7 @@ let cachedImageData: Record<string, {
   license: string;
   licenseUrl: string;
   title: string;
+  isPlaceholder?: boolean;
 }> | null = null;
 
 async function loadCachedImageData(): Promise<Record<string, {
@@ -165,6 +166,7 @@ async function loadCachedImageData(): Promise<Record<string, {
   license: string;
   licenseUrl: string;
   title: string;
+  isPlaceholder?: boolean;
 }>> {
   if (cachedImageData) {
     return cachedImageData;
@@ -199,6 +201,11 @@ export async function getCachedOnsenImage(
   const cachedImage = imageData[onsenName];
 
   if (cachedImage) {
+    // プレースホルダー（準備中）画像かどうかを判定
+    const isPlaceholder = cachedImage.title?.toLowerCase().includes('準備中') || 
+                          cachedImage.title?.toLowerCase().includes('取得中') ||
+                          cachedImage.isPlaceholder === true;
+
     // パブリックドメインかどうかを判定
     const isPublicDomain = 
       cachedImage.license.toLowerCase().includes('public domain') ||
@@ -219,9 +226,9 @@ export async function getCachedOnsenImage(
       sourceUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(cachedImage.title.replace(/^File:/, ''))}`,
       license: cachedImage.license,
       licenseUrl: cachedImage.licenseUrl || undefined,
-      description: `${onsenName} hot spring`,
-      // パブリックドメインの場合はクレジット表示を省略可能
-      ...(isPublicDomain && { skipCredit: true }),
+      description: isPlaceholder ? `${onsenName} hot spring (準備中)` : `${onsenName} hot spring`,
+      // パブリックドメインまたはプレースホルダーの場合はクレジット表示を省略可能
+      ...((isPublicDomain || isPlaceholder) && { skipCredit: true }),
     };
   }
 
