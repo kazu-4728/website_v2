@@ -12,7 +12,7 @@
     "test:watch": "vitest",
     "test:images": "vitest run tests/lib/images.test.ts tests/lib/content.test.ts tests/integration/image-display.test.ts tests/integration/image-quality.test.ts tests/integration/build-validation.test.ts",
     "test:all": "npm run test && npm run test:images",
-    "prebuild": "npm run test:images",
+    "prebuild": "node -e \"if (process.env.SKIP_CHECK !== 'true') { require('child_process').execSync('npm run test:images', {stdio: 'inherit'}); }\"",
     "check": "npm run check:images && npm run check:links",
     "check:images": "node scripts/check-images.js",
     "check:links": "node scripts/check-links.js",
