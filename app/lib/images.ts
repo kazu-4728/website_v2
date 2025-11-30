@@ -31,59 +31,61 @@ function getUnsplashImageByKeywords(
  * 各温泉地に適した画像を事前に定義
  */
 const ONSEN_KANTO_IMAGES = {
-  // ヒーロー画像
+  // ヒーロー画像 - 温泉の湯気と風景
   hero: {
-    main: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop', // 温泉の湯気
-    default: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop',
+    main: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 温泉の湯気と風景
+    default: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
   },
-  // 温泉地別の画像マッピング
+  // 温泉地別の画像マッピング - 各温泉地に適した画像
   onsen: {
-    hakone: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 箱根の温泉
-    'hakone-yunohana': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
-    'hakone-gora': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
-    'hakone-sengokuhara': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
+    hakone: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 箱根の温泉と富士山
+    'hakone-yunohana': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 箱根湯本の温泉街
+    'hakone-gora': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 強羅の高級温泉
+    'hakone-sengokuhara': 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop', // 仙石原のススキ草原
     kusatsu: 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 草津の湯畑
-    'kusatsu-yubatake': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop',
-    'kusatsu-sainokawara': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop',
-    kinugawa: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop', // 鬼怒川の渓谷
-    ikaho: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1920&auto=format&fit=crop', // 伊香保の石段
-    nasu: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1920&auto=format&fit=crop', // 那須の高原
-    minakami: 'https://images.unsplash.com/photo-1565073182887-6bcefbe225b1?q=80&w=1920&auto=format&fit=crop', // 水上の渓流
-    shima: 'https://images.unsplash.com/photo-1515191107209-c28698631303?q=80&w=1920&auto=format&fit=crop', // 四万の山
-    nikko: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1920&auto=format&fit=crop', // 日光の自然
-    shiobara: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1920&auto=format&fit=crop', // 塩原の紅葉
-    atami: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?q=80&w=1920&auto=format&fit=crop', // 熱海の海
-    ito: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1920&auto=format&fit=crop', // 伊東の海岸
-    shuzenji: 'https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=1920&auto=format&fit=crop', // 修善寺の竹林
-    shimoda: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1920&auto=format&fit=crop', // 下田の海
+    'kusatsu-yubatake': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 湯畑のライトアップ
+    'kusatsu-sainokawara': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 西の河原の露天風呂
+    kinugawa: 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop', // 鬼怒川の渓谷と温泉
+    ikaho: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1920&auto=format&fit=crop', // 伊香保の石段街
+    nasu: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1920&auto=format&fit=crop', // 那須の高原と温泉
+    minakami: 'https://images.unsplash.com/photo-1565073182887-6bcefbe225b1?q=80&w=1920&auto=format&fit=crop', // 水上の渓流と温泉
+    shima: 'https://images.unsplash.com/photo-1515191107209-c28698631303?q=80&w=1920&auto=format&fit=crop', // 四万の山と温泉
+    nikko: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1920&auto=format&fit=crop', // 日光の自然と温泉
+    shiobara: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1920&auto=format&fit=crop', // 塩原の紅葉と温泉
+    atami: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?q=80&w=1920&auto=format&fit=crop', // 熱海の海と温泉
+    ito: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1920&auto=format&fit=crop', // 伊東の海岸と温泉
+    shuzenji: 'https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=1920&auto=format&fit=crop', // 修善寺の竹林と温泉
+    shimoda: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1920&auto=format&fit=crop', // 下田の海と温泉
     yugawara: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1920&auto=format&fit=crop', // 湯河原の温泉
-    okutama: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1920&auto=format&fit=crop', // 奥多摩の山
-    chichibu: 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 秩父の山
-    default: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop', // デフォルト（温泉の湯気）
+    okutama: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1920&auto=format&fit=crop', // 奥多摩の山と温泉
+    chichibu: 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 秩父の山と温泉
+    default: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // デフォルト（温泉の湯気）
   },
   // セクション画像
   sections: {
-    'hakone-intro': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
-    'featured-onsen': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop',
-    default: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop',
+    'hakone-intro': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 箱根紹介
+    'kusatsu-intro': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 草津紹介
+    'featured-onsen': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 人気の温泉地
+    default: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
   },
   // CTA画像
   cta: {
-    default: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop',
+    default: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 温泉の湯気
   },
   // ブログ画像
   blog: {
-    'onsen-manner': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop',
-    'onsen-effects': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
-    'seasonal-onsen': 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop',
-    default: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop',
+    'onsen-manner': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 温泉マナー
+    'onsen-effects': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // 温泉効能
+    'seasonal-onsen': 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop', // 季節の温泉
+    default: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
   },
   // フィーチャー画像
   features: {
-    'day-trip': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop',
-    'couple': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
-    'family': 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop',
-    default: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?q=80&w=1920&auto=format&fit=crop',
+    hero: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // フィーチャーヒーロー
+    'day-trip': 'https://images.unsplash.com/photo-1545579133-99bb5ab189bd?q=80&w=1920&auto=format&fit=crop', // 日帰りプラン
+    'couple': 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop', // カップルプラン
+    'family': 'https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1920&auto=format&fit=crop', // ファミリープラン
+    default: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1920&auto=format&fit=crop',
   },
 };
 
