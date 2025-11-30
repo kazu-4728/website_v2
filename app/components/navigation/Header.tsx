@@ -58,12 +58,20 @@ export function Header({ logo, navigation }: HeaderProps) {
     if (mobileMenuOpen) {
       const handleClickOutside = (e: MouseEvent) => {
         const target = e.target as HTMLElement;
-        if (!target.closest('header')) {
+        const menu = document.querySelector('[data-mobile-menu]');
+        const button = document.querySelector('[data-mobile-button]');
+        if (menu && !menu.contains(target) && button && !button.contains(target)) {
           closeMenu();
         }
       };
-      document.addEventListener('click', handleClickOutside);
-      return () => document.removeEventListener('click', handleClickOutside);
+      // 少し遅延を入れて、メニューが開いた直後のクリックを無視
+      const timeout = setTimeout(() => {
+        document.addEventListener('click', handleClickOutside, true);
+      }, 100);
+      return () => {
+        clearTimeout(timeout);
+        document.removeEventListener('click', handleClickOutside, true);
+      };
     }
   }, [mobileMenuOpen]);
 
@@ -146,9 +154,11 @@ export function Header({ logo, navigation }: HeaderProps) {
 
           {/* Mobile Menu Button */}
           <button
+            data-mobile-button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 rounded-lg text-white hover:bg-white/5 transition-colors"
+            className="lg:hidden p-2 rounded-lg text-white hover:bg-white/5 transition-colors z-[120] relative"
             aria-label="Menu"
+            aria-expanded={mobileMenuOpen}
           >
             <div className="w-6 h-5 flex flex-col justify-between">
               <motion.span
@@ -178,28 +188,36 @@ export function Header({ logo, navigation }: HeaderProps) {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={closeMenu}
-              className="lg:hidden fixed inset-0 bg-black/50 z-[100]"
+              className="lg:hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-[100]"
             />
             {/* メニュー本体 */}
             <motion.div
+              data-mobile-menu
               initial={{ opacity: 0, x: '-100%' }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: '-100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               style={{ top: `${headerHeight}px` }}
-              className="lg:hidden fixed left-0 right-0 bottom-0 bg-black/95 backdrop-blur-xl border-t border-white/10 overflow-y-auto z-[110]"
+              className="lg:hidden fixed left-0 right-0 bottom-0 bg-black/98 backdrop-blur-xl border-t border-white/10 overflow-y-auto z-[110]"
+              onClick={(e) => e.stopPropagation()}
             >
-            <div className="px-4 py-8 space-y-4">
+            <div className="px-4 py-8 space-y-2">
               {navigation.map((item) => (
                 <div key={item.label}>
                   {item.submenu ? (
                     <>
                       <button
                         onClick={() => setOpenSubmenu(openSubmenu === item.label ? null : item.label)}
-                        className="w-full text-left px-4 py-4 text-2xl font-light text-white border-b border-white/5 flex items-center justify-between"
+                        className="w-full text-left px-4 py-4 text-2xl font-light text-white border-b border-white/10 hover:bg-white/5 rounded-lg transition-all duration-200 flex items-center justify-between group"
                       >
-                        {item.label}
-                        <span className={`transition-transform ${openSubmenu === item.label ? 'rotate-180' : ''} text-sm`}>▼</span>
+                        <span className="group-hover:text-primary-400 transition-colors">{item.label}</span>
+                        <motion.span 
+                          animate={{ rotate: openSubmenu === item.label ? 180 : 0 }}
+                          transition={{ duration: 0.2 }}
+                          className="text-sm text-gray-400 group-hover:text-primary-400"
+                        >
+                          ▼
+                        </motion.span>
                       </button>
                       <AnimatePresence mode="wait">
                         {openSubmenu === item.label && (
@@ -207,18 +225,24 @@ export function Header({ logo, navigation }: HeaderProps) {
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: 'auto', opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: 0.3, ease: 'easeInOut' }}
                             className="bg-white/5 overflow-hidden"
                           >
-                            {item.submenu.map((subitem) => (
-                              <Link
+                            {item.submenu.map((subitem, idx) => (
+                              <motion.div
                                 key={subitem.label}
-                                href={subitem.href}
-                                onClick={closeMenu}
-                                className="block px-8 py-4 text-lg text-gray-400 hover:text-white hover:bg-white/5 transition-all"
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ delay: idx * 0.05 }}
                               >
-                                {subitem.label}
-                              </Link>
+                                <Link
+                                  href={subitem.href}
+                                  onClick={closeMenu}
+                                  className="block px-8 py-4 text-lg text-gray-400 hover:text-white hover:bg-white/10 hover:pl-10 transition-all duration-200 border-b border-white/5 last:border-0"
+                                >
+                                  {subitem.label}
+                                </Link>
+                              </motion.div>
                             ))}
                           </motion.div>
                         )}
@@ -228,11 +252,11 @@ export function Header({ logo, navigation }: HeaderProps) {
                     <Link
                       href={item.href}
                       onClick={closeMenu}
-                      className={`block px-4 py-4 text-2xl font-light text-white border-b border-white/5 hover:pl-6 transition-all ${
-                        item.variant === 'primary' ? 'bg-primary-600/20 rounded-lg' : ''
+                      className={`block px-4 py-4 text-2xl font-light text-white border-b border-white/10 hover:pl-6 hover:bg-white/5 rounded-lg transition-all duration-200 group ${
+                        item.variant === 'primary' ? 'bg-primary-600/20 hover:bg-primary-600/30' : ''
                       }`}
                     >
-                      {item.label}
+                      <span className="group-hover:text-primary-400 transition-colors">{item.label}</span>
                     </Link>
                   )}
                 </div>
