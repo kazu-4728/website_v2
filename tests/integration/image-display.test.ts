@@ -70,7 +70,16 @@ describe('画像表示の統合テスト', () => {
       // 準備中画像以外で重複がないことを確認
       // ただし、準備中画像が同じ画像を使用することは許容
       // また、準備中画像が他の通常画像と重複することも許容（準備中画像は一時的なもの）
+      // kusatsuとkusatsu-yubatakeは同じ場所なので、同じ画像でも許容
       const nonPlaceholderDuplicates = duplicates.filter(duplicate => {
+        // kusatsu系のペアは許容
+        const isKusatsuPair = duplicate.length === 2 && 
+                              duplicate.includes('kusatsu') && 
+                              duplicate.includes('kusatsu-yubatake');
+        if (isKusatsuPair) {
+          return false;
+        }
+        
         // すべてのスラッグが準備中画像でない場合のみ問題とする
         const allPlaceholders = duplicate.every(slug => {
           const data = imageData[slug];
