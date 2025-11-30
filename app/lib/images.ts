@@ -13,8 +13,11 @@ export type ThemeName = 'onsen-kanto' | 'github-docs';
 export interface ImageMetadata {
   url: string;
   photographer: string;
-  photographerUrl: string;
-  unsplashUrl: string;
+  photographerUrl?: string;
+  source: 'unsplash' | 'wikimedia' | 'other';
+  sourceUrl?: string;
+  license?: string;
+  licenseUrl?: string;
   description?: string;
 }
 
@@ -37,7 +40,7 @@ function getUnsplashImageByKeywords(
  * 画像メタデータを作成（Unsplash画像IDから）
  * Unsplashの画像IDから写真家情報を取得するためのヘルパー
  */
-function createImageMetadata(
+function createUnsplashMetadata(
   imageId: string,
   photographer: string,
   photographerUsername: string,
@@ -47,7 +50,34 @@ function createImageMetadata(
     url: `https://images.unsplash.com/photo-${imageId}?q=80&w=1920&auto=format&fit=crop`,
     photographer,
     photographerUrl: `https://unsplash.com/@${photographerUsername}`,
-    unsplashUrl: `https://unsplash.com/photos/${imageId}`,
+    source: 'unsplash',
+    sourceUrl: `https://unsplash.com/photos/${imageId}`,
+    license: 'Unsplash License',
+    licenseUrl: 'https://unsplash.com/license',
+    description,
+  };
+}
+
+/**
+ * 画像メタデータを作成（Wikimedia Commonsから）
+ * Wikimedia Commonsの画像URLとクレジット情報からメタデータを作成
+ */
+function createWikimediaMetadata(
+  url: string,
+  photographer: string,
+  photographerUrl: string,
+  license: string,
+  licenseUrl: string,
+  description?: string
+): ImageMetadata {
+  return {
+    url,
+    photographer,
+    photographerUrl,
+    source: 'wikimedia',
+    sourceUrl: url,
+    license,
+    licenseUrl,
     description,
   };
 }
@@ -66,13 +96,13 @@ function createImageMetadata(
 const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   // ヒーロー画像 - 温泉の湯気と風景
   hero: {
-    main: createImageMetadata(
+    main: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Japanese hot spring (onsen) with steam'
     ),
-    default: createImageMetadata(
+    default: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
@@ -81,133 +111,133 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   },
   // 温泉地別の画像マッピング - 各温泉地に適した画像
   onsen: {
-    hakone: createImageMetadata(
+    hakone: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hakone hot spring with Mount Fuji'
     ),
-    'hakone-yunohana': createImageMetadata(
+    'hakone-yunohana': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hakone Yunohana hot spring town'
     ),
-    'hakone-gora': createImageMetadata(
+    'hakone-gora': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hakone Gora luxury hot spring'
     ),
-    'hakone-sengokuhara': createImageMetadata(
+    'hakone-sengokuhara': createUnsplashMetadata(
       '1509316785289-025f5b846b35',
       'Unsplash',
       'unsplash',
       'Sengokuhara susuki grass field in Hakone'
     ),
-    kusatsu: createImageMetadata(
+    kusatsu: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Kusatsu hot spring yubatake (hot water field)'
     ),
-    'kusatsu-yubatake': createImageMetadata(
+    'kusatsu-yubatake': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Kusatsu yubatake lit up at night'
     ),
-    'kusatsu-sainokawara': createImageMetadata(
+    'kusatsu-sainokawara': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Kusatsu Sainokawara open-air bath'
     ),
-    kinugawa: createImageMetadata(
+    kinugawa: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Kinugawa hot spring in the valley'
     ),
-    ikaho: createImageMetadata(
+    ikaho: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Ikaho hot spring stone steps'
     ),
-    nasu: createImageMetadata(
+    nasu: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Nasu hot spring in the highlands'
     ),
-    minakami: createImageMetadata(
+    minakami: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Minakami hot spring by the stream'
     ),
-    shima: createImageMetadata(
+    shima: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Shima hot spring in the mountains'
     ),
-    nikko: createImageMetadata(
+    nikko: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Nikko hot spring in nature'
     ),
-    shiobara: createImageMetadata(
+    shiobara: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Shiobara hot spring with autumn leaves'
     ),
-    atami: createImageMetadata(
+    atami: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Atami hot spring overlooking the sea'
     ),
-    ito: createImageMetadata(
+    ito: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Ito hot spring by the coast'
     ),
-    shuzenji: createImageMetadata(
+    shuzenji: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Shuzenji hot spring with bamboo forest'
     ),
-    shimoda: createImageMetadata(
+    shimoda: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Shimoda hot spring by the sea'
     ),
-    yugawara: createImageMetadata(
+    yugawara: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Yugawara hot spring'
     ),
-    okutama: createImageMetadata(
+    okutama: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Okutama hot spring in the mountains'
     ),
-    chichibu: createImageMetadata(
+    chichibu: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Chichibu hot spring in the mountains'
     ),
-    default: createImageMetadata(
+    default: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
@@ -216,25 +246,25 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   },
   // セクション画像
   sections: {
-    'hakone-intro': createImageMetadata(
+    'hakone-intro': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hakone hot spring introduction'
     ),
-    'kusatsu-intro': createImageMetadata(
+    'kusatsu-intro': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Kusatsu hot spring introduction'
     ),
-    'featured-onsen': createImageMetadata(
+    'featured-onsen': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Featured hot spring destinations'
     ),
-    default: createImageMetadata(
+    default: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
@@ -243,7 +273,7 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   },
   // CTA画像
   cta: {
-    default: createImageMetadata(
+    default: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
@@ -252,25 +282,25 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   },
   // ブログ画像
   blog: {
-    'onsen-manner': createImageMetadata(
+    'onsen-manner': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hot spring etiquette'
     ),
-    'onsen-effects': createImageMetadata(
+    'onsen-effects': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hot spring health benefits'
     ),
-    'seasonal-onsen': createImageMetadata(
+    'seasonal-onsen': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Seasonal hot spring experience'
     ),
-    default: createImageMetadata(
+    default: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
@@ -279,31 +309,31 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
   },
   // フィーチャー画像
   features: {
-    hero: createImageMetadata(
+    hero: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Hot spring features hero'
     ),
-    'day-trip': createImageMetadata(
+    'day-trip': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Day trip hot spring plan'
     ),
-    'couple': createImageMetadata(
+    'couple': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Couple hot spring plan'
     ),
-    'family': createImageMetadata(
+    'family': createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
       'Family hot spring plan'
     ),
-    default: createImageMetadata(
+    default: createUnsplashMetadata(
       '1540555700478-4be289fbecef',
       'Yoshinori Kumagai',
       'yoshinori_kumagai',
