@@ -2,7 +2,7 @@ import { loadContent } from '../lib/content';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../components/ui/Button';
-import { ArrowRightIcon, BookOpenIcon } from 'lucide-react';
+import { ArrowRightIcon, BookOpenIcon, ArrowLeftIcon } from 'lucide-react';
 
 export default async function DocsIndexPage() {
   const content = await loadContent();
@@ -10,6 +10,14 @@ export default async function DocsIndexPage() {
 
   return (
     <main className="bg-dark-950 min-h-screen">
+      {/* Back Link */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
+        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
+          <ArrowLeftIcon className="w-4 h-4 mr-2" />
+          ホームに戻る
+        </Link>
+      </div>
+
       {/* Header */}
       <section className="relative py-24 md:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary-900/20 to-transparent" />
