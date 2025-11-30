@@ -19,6 +19,7 @@ export interface ImageMetadata {
   license?: string;
   licenseUrl?: string;
   description?: string;
+  skipCredit?: boolean; // パブリックドメインなど、クレジット表示が不要な場合
 }
 
 /**
@@ -479,10 +480,34 @@ export function getImageMetadata(
 }
 
 /**
- * 温泉地の画像を取得
+ * 温泉地の画像を取得（同期版）
  * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
  */
 export function getOnsenImage(onsenSlug: string): string {
+  return getThemeImage('onsen', onsenSlug, `onsen,${onsenSlug},japan`);
+}
+
+/**
+ * 温泉地の画像を取得（非同期版、Wikimedia Commonsから自動取得）
+ * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
+ */
+export async function getOnsenImageAsync(
+  onsenSlug: string
+): Promise<string> {
+  // サーバーサイドでのみ動作（ビルド時）
+  if (typeof window === 'undefined') {
+    try {
+      const { getCachedOnsenImage } = await import('./wikimedia');
+      const wikimediaImage = await getCachedOnsenImage(onsenSlug);
+      if (wikimediaImage) {
+        return wikimediaImage.url;
+      }
+    } catch (error) {
+      console.warn(`Failed to fetch Wikimedia image for ${onsenSlug}:`, error);
+    }
+  }
+  
+  // フォールバック: 事前定義された画像を使用
   return getThemeImage('onsen', onsenSlug, `onsen,${onsenSlug},japan`);
 }
 

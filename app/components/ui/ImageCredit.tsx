@@ -17,7 +17,8 @@ export function ImageCredit({
   position = 'bottom-right',
   className = '' 
 }: ImageCreditProps) {
-  if (!metadata) return null;
+  // クレジット表示が不要な場合は表示しない
+  if (!metadata || metadata.skipCredit) return null;
 
   const positionClasses = {
     'bottom-left': 'bottom-2 left-2',
