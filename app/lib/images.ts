@@ -591,6 +591,14 @@ export function optimizeImageUrl(
     urlObj.searchParams.set('fit', 'crop');
     return urlObj.toString();
   }
+  
+  // Wikimedia Commons URLの場合は、URLパラメータでサイズを指定できる
+  // ただし、Wikimedia Commonsは直接的なサイズ指定をサポートしていないため、
+  // そのまま返す（Next.js Imageコンポーネントがwidth/heightで制御）
+  if (url.includes('wikimedia.org')) {
+    return url;
+  }
+  
   return url;
 }
 
