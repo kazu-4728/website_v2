@@ -74,7 +74,7 @@ async function searchWikimediaImages(searchTerm) {
       return null;
     }
 
-    const imageTitles = data.query.search.map((item: any) => item.title);
+    const imageTitles = data.query.search.map((item) => item.title);
     const imageInfoUrl = `https://commons.wikimedia.org/w/api.php?` +
       `action=query&` +
       `format=json&` +
