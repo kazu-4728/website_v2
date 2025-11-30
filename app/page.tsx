@@ -1,4 +1,4 @@
-import { loadContent } from './lib/content';
+import { loadContent, SplitFeatureSection, GridGallerySection, TestimonialsSection, CtaSection } from './lib/content';
 import { CinematicHero } from './components/home/CinematicHero';
 import { SplitFeature } from './components/home/SplitFeature';
 import { GridGallery } from './components/home/GridGallery';
@@ -20,16 +20,16 @@ export default async function Page() {
         {sections.map((section) => {
           switch (section.type) {
             case 'split-feature':
-              return <SplitFeature key={section.id} data={section} />;
+              return <SplitFeature key={section.id} data={section as SplitFeatureSection} />;
             
             case 'grid-gallery':
-              return <GridGallery key={section.id} data={section} />;
+              return <GridGallery key={section.id} data={section as GridGallerySection} />;
             
             case 'testimonials':
-              return <Testimonials key={section.id} data={section} />;
+              return <Testimonials key={section.id} data={section as TestimonialsSection} />;
             
             case 'cta-fullscreen':
-              return <CtaFullscreen key={section.id} data={section} />;
+              return <CtaFullscreen key={section.id} data={section as CtaSection} />;
             
             default:
               return null;
