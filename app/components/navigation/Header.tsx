@@ -24,6 +24,7 @@ export function Header({ logo, navigation }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  const [headerHeight, setHeaderHeight] = useState(64); // デフォルトのヘッダー高さ
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,6 +33,39 @@ export function Header({ logo, navigation }: HeaderProps) {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    // ヘッダーの高さを動的に取得
+    const header = document.querySelector('header');
+    if (header) {
+      const updateHeight = () => {
+        setHeaderHeight(header.offsetHeight);
+      };
+      updateHeight();
+      window.addEventListener('resize', updateHeight);
+      return () => window.removeEventListener('resize', updateHeight);
+    }
+  }, [scrolled]);
+
+  // メニューを閉じる関数
+  const closeMenu = () => {
+    setMobileMenuOpen(false);
+    setOpenSubmenu(null);
+  };
+
+  // メニュー外をクリックしたときに閉じる
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      const handleClickOutside = (e: MouseEvent) => {
+        const target = e.target as HTMLElement;
+        if (!target.closest('header')) {
+          closeMenu();
+        }
+      };
+      document.addEventListener('click', handleClickOutside);
+      return () => document.removeEventListener('click', handleClickOutside);
+    }
+  }, [mobileMenuOpen]);
 
   const LogoIcon = getIconComponent(logo.icon);
 
@@ -125,12 +159,24 @@ export function Header({ logo, navigation }: HeaderProps) {
       {/* Mobile Menu */}
       <AnimatePresence>
         {mobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="lg:hidden fixed top-16 left-0 right-0 bottom-0 bg-black/95 backdrop-blur-xl border-t border-white/10 overflow-y-auto z-[60]"
-          >
+          <>
+            {/* オーバーレイ */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={closeMenu}
+              className="lg:hidden fixed inset-0 bg-black/50 z-[90]"
+            />
+            {/* メニュー本体 */}
+            <motion.div
+              initial={{ opacity: 0, x: '-100%' }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: '-100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              style={{ top: `${headerHeight}px` }}
+              className="lg:hidden fixed left-0 right-0 bottom-0 bg-black/95 backdrop-blur-xl border-t border-white/10 overflow-y-auto z-[100]"
+            >
             <div className="px-4 py-8 space-y-4">
               {navigation.map((item) => (
                 <div key={item.label}>
@@ -155,7 +201,7 @@ export function Header({ logo, navigation }: HeaderProps) {
                               <Link
                                 key={subitem.label}
                                 href={subitem.href}
-                                onClick={() => setMobileMenuOpen(false)}
+                                onClick={closeMenu}
                                 className="block px-8 py-4 text-lg text-gray-400 hover:text-white hover:bg-white/5 transition-all"
                               >
                                 {subitem.label}
@@ -168,7 +214,7 @@ export function Header({ logo, navigation }: HeaderProps) {
                   ) : (
                     <Link
                       href={item.href}
-                      onClick={() => setMobileMenuOpen(false)}
+                      onClick={closeMenu}
                       className={`block px-4 py-4 text-2xl font-light text-white border-b border-white/5 hover:pl-6 transition-all ${
                         item.variant === 'primary' ? 'bg-primary-600/20 rounded-lg' : ''
                       }`}
@@ -179,7 +225,8 @@ export function Header({ logo, navigation }: HeaderProps) {
                 </div>
               ))}
             </div>
-          </motion.div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
     </header>
