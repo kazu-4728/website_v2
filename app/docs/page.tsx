@@ -70,7 +70,7 @@ export default async function DocsIndexPage() {
                   </p>
                   
                   <div className="flex items-center text-white font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                    詳しく見る
+                    {texts.buttons.learnMore}
                     <ArrowRightIcon className="ml-2 w-5 h-5 text-primary-500" />
                   </div>
                 </div>
