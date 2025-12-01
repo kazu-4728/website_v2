@@ -6,6 +6,76 @@ import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
 // TYPE DEFINITIONS
 // ==========================================
 
+// ==========================================
+// TEXTS CONFIG TYPE DEFINITIONS
+// ==========================================
+
+export interface TextsConfig {
+  nav: {
+    backLinks: {
+      home: string;
+      docs: string;
+      blog: string;
+    };
+    pagination: {
+      previous: string;
+      next: string;
+    };
+  };
+  pages: {
+    onsenGuide: {
+      title: string;
+      description: string;
+      defaultSubtitle: string;
+    };
+    contact: {
+      title: string;
+    };
+  };
+  buttons: {
+    learnMore: string;
+    readStory: string;
+    learnMoreEn: string;
+    submit: string;
+  };
+  form: {
+    labels: {
+      name: string;
+      email: string;
+      message: string;
+    };
+    placeholders: {
+      name: string;
+      email: string;
+      message: string;
+    };
+    fields: {
+      email: {
+        label: string;
+      };
+      office: {
+        label: string;
+      };
+    };
+  };
+  messages: {
+    notFound: {
+      docs: string;
+      blog: string;
+      features: string;
+      contact: string;
+    };
+  };
+  ui: {
+    labels: {
+      tableOfContents: string;
+      documentation: string;
+      readyToDeploy: string;
+      interactiveDemoLoading: string;
+    };
+  };
+}
+
 interface ContentConfigRaw {
   site: {
     name: string;
@@ -114,6 +184,7 @@ export interface ContentConfig {
       office: string;
     };
   };
+  texts: TextsConfig;
 }
 
 interface HomeHero {
@@ -247,6 +318,39 @@ interface BlogPostRaw {
 // ==========================================
 
 let cachedContent: ContentConfig | null = null;
+let cachedTexts: TextsConfig | null = null;
+
+/**
+ * Load theme texts from JSON
+ */
+export async function loadTexts(): Promise<TextsConfig> {
+  if (cachedTexts) return cachedTexts;
+
+  const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto';
+  
+  try {
+    let textsModule;
+    
+    switch (themeName) {
+      case 'onsen-kanto':
+        textsModule = await import('../../themes/onsen-kanto/texts.json');
+        break;
+      case 'github-docs':
+        // Fallback to onsen-kanto texts if theme doesn't have texts.json
+        textsModule = await import('../../themes/onsen-kanto/texts.json');
+        break;
+      default:
+        textsModule = await import('../../themes/onsen-kanto/texts.json');
+    }
+
+    cachedTexts = textsModule.default as TextsConfig;
+    return cachedTexts;
+  } catch (error) {
+    console.error(`Failed to load theme texts for ${themeName}:`, error);
+    // Return fallback texts
+    return fallbackTexts;
+  }
+}
 
 /**
  * Load theme content from JSON using static import to ensure bundling
@@ -276,12 +380,22 @@ export async function loadContent(): Promise<ContentConfig> {
 
     const rawContent = contentModule.default as ContentConfigRaw;
     
+    // Load texts
+    const texts = await loadTexts();
+    
     // 画像URLを解決（キーからURLに変換）
-    cachedContent = resolveImageUrls(rawContent) as ContentConfig;
+    const resolvedContent = resolveImageUrls(rawContent) as ContentConfig;
+    cachedContent = {
+      ...resolvedContent,
+      texts,
+    };
     return cachedContent;
   } catch (error) {
     console.error(`Failed to load theme content for ${themeName}:`, error);
-    return fallbackContent;
+    return {
+      ...fallbackContent,
+      texts: fallbackTexts,
+    };
   }
 }
 
@@ -474,6 +588,72 @@ export async function getAllBlogSlugs(): Promise<string[]> {
 // FALLBACK DATA
 // ==========================================
 
+const fallbackTexts: TextsConfig = {
+  nav: {
+    backLinks: {
+      home: "ホームに戻る",
+      docs: "温泉ガイド一覧に戻る",
+      blog: "特集記事一覧に戻る",
+    },
+    pagination: {
+      previous: "前の温泉地",
+      next: "次の温泉地",
+    },
+  },
+  pages: {
+    onsenGuide: {
+      title: "温泉ガイド",
+      description: "関東エリアの名湯・秘湯を徹底ガイド。各温泉地の特徴、効能、アクセス情報から、おすすめの宿泊施設まで、温泉旅行に役立つ情報を網羅しています。",
+      defaultSubtitle: "Documentation",
+    },
+    contact: {
+      title: "お問い合わせ",
+    },
+  },
+  buttons: {
+    learnMore: "詳しく見る",
+    readStory: "Read Story",
+    learnMoreEn: "Learn more",
+    submit: "送信する",
+  },
+  form: {
+    labels: {
+      name: "お名前",
+      email: "メールアドレス",
+      message: "メッセージ",
+    },
+    placeholders: {
+      name: "山田 太郎",
+      email: "example@email.com",
+      message: "お問い合わせ内容をご記入ください...",
+    },
+    fields: {
+      email: {
+        label: "Email",
+      },
+      office: {
+        label: "Office",
+      },
+    },
+  },
+  messages: {
+    notFound: {
+      docs: "温泉ガイドが見つかりませんでした。",
+      blog: "No posts found.",
+      features: "Features content not found.",
+      contact: "Contact content not found.",
+    },
+  },
+  ui: {
+    labels: {
+      tableOfContents: "Table of Contents",
+      documentation: "Documentation",
+      readyToDeploy: "Ready to Deploy?",
+      interactiveDemoLoading: "Interactive Demo Module Loading...",
+    },
+  },
+};
+
 const fallbackContent: ContentConfig = {
   site: {
     name: "Error Loading Theme",
@@ -499,5 +679,6 @@ const fallbackContent: ContentConfig = {
       },
       sections: []
     }
-  }
+  },
+  texts: fallbackTexts,
 };

@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "backLinks": {
+      "home": "ホームに戻る",
+      "docs": "温泉ガイド一覧に戻る",
+      "blog": "特集記事一覧に戻る"
+    },
+    "pagination": {
+      "previous": "前の温泉地",
+      "next": "次の温泉地"
+    }
+  },
+  "pages": {
+    "onsenGuide": {
+      "title": "温泉ガイド",
+      "description": "関東エリアの名湯・秘湯を徹底ガイド。各温泉地の特徴、効能、アクセス情報から、おすすめの宿泊施設まで、温泉旅行に役立つ情報を網羅しています。",
+      "defaultSubtitle": "Documentation"
+    },
+    "contact": {
+      "title": "お問い合わせ"
+    }
+  },
+  "buttons": {
+    "learnMore": "詳しく見る",
+    "readStory": "Read Story",
+    "learnMoreEn": "Learn more",
+    "submit": "送信する"
+  },
+  "form": {
+    "labels": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "message": "メッセージ"
+    },
+    "placeholders": {
+      "name": "山田 太郎",
+      "email": "example@email.com",
+      "message": "お問い合わせ内容をご記入ください..."
+    },
+    "fields": {
+      "email": {
+        "label": "Email"
+      },
+      "office": {
+        "label": "Office"
+      }
+    }
+  },
+  "messages": {
+    "notFound": {
+      "docs": "温泉ガイドが見つかりませんでした。",
+      "blog": "No posts found.",
+      "features": "Features content not found.",
+      "contact": "Contact content not found."
+    }
+  },
+  "ui": {
+    "labels": {
+      "tableOfContents": "Table of Contents",
+      "documentation": "Documentation",
+      "readyToDeploy": "Ready to Deploy?",
+      "interactiveDemoLoading": "Interactive Demo Module Loading..."
+    }
+  }
+}
