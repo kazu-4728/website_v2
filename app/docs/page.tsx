@@ -7,6 +7,7 @@ import { ArrowRightIcon, BookOpenIcon, ArrowLeftIcon } from 'lucide-react';
 export default async function DocsIndexPage() {
   const content = await loadContent();
   const docs = content.pages.docs || [];
+  const texts = content.texts;
 
   return (
     <main className="bg-dark-950 min-h-screen">
@@ -14,7 +15,7 @@ export default async function DocsIndexPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
         <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
           <ArrowLeftIcon className="w-4 h-4 mr-2" />
-          ホームに戻る
+          {texts.nav.backLinks.home}
         </Link>
       </div>
 
