@@ -25,10 +25,10 @@ export default async function DocsIndexPage() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-            温泉ガイド
+            {texts.pages.onsenGuide.title}
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            関東エリアの名湯・秘湯を徹底ガイド。各温泉地の特徴、効能、アクセス情報から、おすすめの宿泊施設まで、温泉旅行に役立つ情報を網羅しています。
+            {texts.pages.onsenGuide.description}
           </p>
         </div>
       </section>
