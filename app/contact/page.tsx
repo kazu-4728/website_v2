@@ -15,13 +15,15 @@ export default async function ContactPage() {
     );
   }
 
+  const texts = content.texts;
+
   return (
     <main className="bg-dark-950 min-h-screen flex flex-col">
       {/* Back Link */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8 w-full">
         <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
           <ArrowLeftIcon className="w-4 h-4 mr-2" />
-          ホームに戻る
+          {texts.nav.backLinks.home}
         </Link>
       </div>
 

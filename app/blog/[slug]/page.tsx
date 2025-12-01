@@ -25,13 +25,16 @@ export default async function BlogPostPage({ params }: Props) {
     notFound();
   }
 
+  const content = await loadContent();
+  const texts = content.texts;
+
   return (
     <main className="bg-dark-950 min-h-screen pb-24 pt-24">
       {/* Article Header */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
         <Link href="/blog" className="inline-flex items-center text-primary-400 mb-8 hover:text-primary-300 transition-colors">
           <ArrowLeftIcon className="w-4 h-4 mr-2" />
-          特集記事一覧に戻る
+          {texts.nav.backLinks.blog}
         </Link>
         
         <div className="flex items-center gap-4 text-sm font-mono text-gray-500 mb-6">
