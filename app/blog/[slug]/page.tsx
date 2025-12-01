@@ -1,4 +1,4 @@
-import { getBlogPost, getAllBlogSlugs } from '../../lib/content';
+import { getBlogPost, getAllBlogSlugs, loadContent } from '../../lib/content';
 import { MarkdownRenderer } from '../../components/ui/MarkdownRenderer';
 import Image from 'next/image';
 import Link from 'next/link';
