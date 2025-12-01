@@ -94,7 +94,7 @@ export default async function ContactPage() {
             </div>
             
             <Button variant="primary" size="lg" className="w-full justify-center btn-neon">
-              送信する <ArrowRightIcon className="ml-2 w-5 h-5" />
+              {texts.buttons.submit} <ArrowRightIcon className="ml-2 w-5 h-5" />
             </Button>
           </form>
         </div>

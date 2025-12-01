@@ -69,7 +69,7 @@ export default async function BlogPage() {
               {posts[0].excerpt}
             </p>
             <div className="flex items-center text-white font-bold group-hover:translate-x-2 transition-transform">
-              Read Story <ArrowRightIcon className="ml-2 w-5 h-5" />
+              {texts.buttons.readStory} <ArrowRightIcon className="ml-2 w-5 h-5" />
             </div>
           </div>
         </Link>

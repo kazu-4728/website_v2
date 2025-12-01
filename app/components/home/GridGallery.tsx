@@ -1,13 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
-import { GridGallerySection } from '../../lib/content';
+import { GridGallerySection, loadContent } from '../../lib/content';
 
 interface Props {
   data: GridGallerySection;
 }
 
-export function GridGallery({ data }: Props) {
+export async function GridGallery({ data }: Props) {
+  const content = await loadContent();
+  const texts = content.texts;
   return (
     <section className="py-24 bg-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +39,7 @@ export function GridGallery({ data }: Props) {
                   {item.description}
                 </p>
                 <div className="flex items-center text-primary-400 text-sm font-medium opacity-0 transition-opacity duration-300 delay-100 group-hover:opacity-100">
-                  Learn more <ArrowUpRight className="ml-1 w-4 h-4" />
+                  {texts.buttons.learnMoreEn} <ArrowUpRight className="ml-1 w-4 h-4" />
                 </div>
               </div>
             </Link>
