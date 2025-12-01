@@ -45,7 +45,7 @@ export default async function ContactPage() {
                   <MailIcon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-white font-bold mb-1">Email</h3>
+                  <h3 className="text-white font-bold mb-1">{texts.form.fields.email.label}</h3>
                   <p className="text-gray-400">{contactData.email}</p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default async function ContactPage() {
                   <MapPinIcon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-white font-bold mb-1">Office</h3>
+                  <h3 className="text-white font-bold mb-1">{texts.form.fields.office.label}</h3>
                   <p className="text-gray-400">{contactData.office}</p>
                 </div>
               </div>
@@ -67,29 +67,29 @@ export default async function ContactPage() {
         <div className="lg:w-1/2 bg-black p-12 lg:p-24 flex flex-col justify-center">
           <form className="space-y-8 max-w-md w-full mx-auto">
             <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">お名前</label>
+              <label className="text-sm font-mono text-gray-500 uppercase">{texts.form.labels.name}</label>
               <input 
                 type="text" 
                 className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder="山田 太郎"
+                placeholder={texts.form.placeholders.name}
               />
             </div>
             
             <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">メールアドレス</label>
+              <label className="text-sm font-mono text-gray-500 uppercase">{texts.form.labels.email}</label>
               <input 
                 type="email" 
                 className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder="example@email.com"
+                placeholder={texts.form.placeholders.email}
               />
             </div>
             
             <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">メッセージ</label>
+              <label className="text-sm font-mono text-gray-500 uppercase">{texts.form.labels.message}</label>
               <textarea 
                 rows={4}
                 className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder="お問い合わせ内容をご記入ください..."
+                placeholder={texts.form.placeholders.message}
               />
             </div>
             
