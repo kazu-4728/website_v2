@@ -384,7 +384,7 @@ export async function loadContent(): Promise<ContentConfig> {
     const texts = await loadTexts();
     
     // 画像URLを解決（キーからURLに変換）
-    const resolvedContent = resolveImageUrls(rawContent) as ContentConfig;
+    const resolvedContent = resolveImageUrls(rawContent);
     cachedContent = {
       ...resolvedContent,
       texts,
@@ -401,8 +401,9 @@ export async function loadContent(): Promise<ContentConfig> {
 
 /**
  * 画像URLを解決（キーからURLに変換）
+ * 注意: textsフィールドは含まない。loadContent内で後から追加される。
  */
-function resolveImageUrls(content: ContentConfigRaw): ContentConfig {
+function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts'> {
   // ヒーロー画像を解決
   const heroBgImage = resolveImageUrl(
     content.pages.home.hero.bgImage,
@@ -411,7 +412,7 @@ function resolveImageUrls(content: ContentConfigRaw): ContentConfig {
     'onsen,hot spring,japan'
   );
 
-  const resolved: ContentConfig = {
+  const resolved: Omit<ContentConfig, 'texts'> = {
     ...content,
     pages: {
       ...content.pages,
