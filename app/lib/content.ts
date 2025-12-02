@@ -62,6 +62,7 @@ export interface TextsConfig {
     notFound: {
       docs: string;
       blog: string;
+      blogContent: string;
       features: string;
       contact: string;
     };
@@ -641,6 +642,7 @@ const fallbackTexts: TextsConfig = {
     notFound: {
       docs: "温泉ガイドが見つかりませんでした。",
       blog: "No posts found.",
+      blogContent: "Blog content not found.",
       features: "Features content not found.",
       contact: "Contact content not found.",
     },

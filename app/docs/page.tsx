@@ -58,7 +58,7 @@ export default async function DocsIndexPage() {
                 <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
                   <div className="flex items-center gap-3 text-primary-400 mb-4 text-sm font-medium uppercase tracking-wider">
                     <BookOpenIcon className="w-4 h-4" />
-                    <span>{doc.subtitle || 'Documentation'}</span>
+                    <span>{doc.subtitle || texts.ui.labels.documentation}</span>
                   </div>
                   
                   <h2 className="text-3xl font-bold text-white mb-4 group-hover:text-primary-400 transition-colors">
@@ -81,7 +81,7 @@ export default async function DocsIndexPage() {
 
         {docs.length === 0 && (
           <div className="text-center text-gray-500 py-12">
-            温泉ガイドが見つかりませんでした。
+            {texts.messages.notFound.docs}
           </div>
         )}
       </section>

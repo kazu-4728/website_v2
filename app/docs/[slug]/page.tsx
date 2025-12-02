@@ -89,7 +89,7 @@ export default async function DocPage({ params }: Props) {
             <div className="lg:hidden mb-8">
               <details className="card-glass rounded-xl overflow-hidden group">
                 <summary className="flex items-center justify-between p-4 font-bold text-white cursor-pointer bg-white/5 hover:bg-white/10 transition-colors list-none">
-                  <span>Table of Contents</span>
+                  <span>{texts.ui.labels.tableOfContents}</span>
                   <span className="transform group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <div className="p-4 border-t border-white/10">
