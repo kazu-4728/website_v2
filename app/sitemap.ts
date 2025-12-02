@@ -11,12 +11,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 固定ページ
   const staticRoutes = [
     '',
-    '/about',
     '/contact',
     '/blog',
     '/features',
-    '/pricing',
-    '/faq',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
