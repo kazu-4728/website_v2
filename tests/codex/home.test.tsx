@@ -1,3 +1,19 @@
+/**
+ * @deprecated Codex エージェント用のサンプル・実験コード
+ * 
+ * このテストファイルは Codex（GitHub Copilot Codex）エージェント用のサンプルコードです。
+ * 実際のテンプレート修正を行う際は、以下のルールに従ってください：
+ * 
+ * 1. [`.cursorrules`](../../.cursorrules) - 共通ルールとアーキテクチャ
+ * 2. [`docs/CODEX_AGENT_RULES.md`](../../docs/CODEX_AGENT_RULES.md) - Codex 向けの補足ルール
+ * 3. [`START_HERE.md`](../../START_HERE.md) - 作業開始時の必須確認事項
+ * 
+ * 注意: このファイルには古い仕様が含まれている可能性があります。
+ * 参考にする場合は、内容を最新の設計に合わせて確認してください。
+ * 
+ * このファイルは通常のテスト実行には含まれていません。
+ */
+
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import Page from '../../app/page';
