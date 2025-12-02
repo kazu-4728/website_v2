@@ -7,15 +7,15 @@ export default async function ContactPage() {
   const content = await loadContent();
   const contactData = content.pages.contact;
 
+  const texts = content.texts;
+
   if (!contactData) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-dark-950 text-white">
-        Contact content not found.
+        {texts.messages.notFound.contact}
       </div>
     );
   }
-
-  const texts = content.texts;
 
   return (
     <main className="bg-dark-950 min-h-screen flex flex-col">

@@ -15,15 +15,15 @@ export default async function FeaturesPage() {
   const content = await loadContent();
   const featuresData = content.pages.features;
 
+  const texts = content.texts;
+
   if (!featuresData) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-dark-950 text-white">
-        Features content not found.
+        {texts.messages.notFound.features}
       </div>
     );
   }
-
-  const texts = content.texts;
 
   return (
     <main className="bg-dark-950 min-h-screen">
@@ -93,13 +93,13 @@ export default async function FeaturesPage() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-16">
-            Ready to <span className="text-gradient-cyan">Deploy</span>?
+            {texts.ui.labels.readyToDeploy.replace('Deploy', '').trim()} <span className="text-gradient-cyan">Deploy</span>?
           </h2>
           
           <div className="relative mx-auto max-w-4xl aspect-video rounded-xl border border-white/10 bg-dark-900/50 overflow-hidden flex items-center justify-center group">
              <div className="text-center">
                 <div className="text-6xl mb-4 opacity-50 group-hover:scale-110 transition-transform duration-300">🚀</div>
-                <p className="text-gray-400">Interactive Demo Module Loading...</p>
+                <p className="text-gray-400">{texts.ui.labels.interactiveDemoLoading}</p>
              </div>
              
              {/* Scanline effect */}
