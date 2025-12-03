@@ -270,6 +270,134 @@ export interface CtaSection extends HomeSection {
   };
 }
 
+// ==========================================
+// ONSEN DATA MODEL TYPE DEFINITIONS
+// ==========================================
+
+/**
+ * 温泉地の地域情報
+ */
+export interface OnsenRegion {
+  prefecture: string;
+  area: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
+}
+
+/**
+ * 温泉情報
+ */
+export interface OnsenInfo {
+  springTypes: string[];
+  ph?: number;
+  temperature?: number;
+  flowRate?: string;
+  effects: string[];
+  characteristics: string[];
+}
+
+/**
+ * アクセス情報
+ */
+export interface OnsenAccess {
+  nearestStation?: {
+    name: string;
+    line: string;
+    walkingTime?: number;
+  };
+  fromTokyo: {
+    byTrain?: {
+      time: number;
+      description: string;
+    };
+    byCar?: {
+      time: number;
+      distance: number;
+      description: string;
+    };
+  };
+  parking?: {
+    available: boolean;
+    fee?: string;
+  };
+}
+
+/**
+ * 宿泊・施設情報
+ */
+export interface OnsenAccommodation {
+  dayTripAvailable: boolean;
+  dayTripFacilities?: string[];
+  representativeRyokan?: Array<{
+    name: string;
+    features: string[];
+    priceRange?: string;
+  }>;
+  features: string[];
+}
+
+/**
+ * コンテンツ情報
+ */
+export interface OnsenContent {
+  shortDescription: string;
+  longDescription: string;
+  highlights?: string[];
+  seasons?: {
+    spring?: string;
+    summer?: string;
+    autumn?: string;
+    winter?: string;
+  };
+}
+
+/**
+ * 画像情報
+ */
+export interface OnsenImages {
+  main: string;
+  thumbnail: string;
+  gallery?: string[];
+  credit?: string;
+}
+
+/**
+ * メタ情報
+ */
+export interface OnsenMeta {
+  priority: number;
+  tags: string[];
+  related: string[];
+  publishedAt: string; // ISO 8601
+  updatedAt: string; // ISO 8601
+}
+
+/**
+ * 完全な温泉地データモデル
+ * 既存のDocPageに紐づく形で、各docにonsenフィールドとして追加可能
+ * 
+ * 設計方針：
+ * - 既存のpages.docs[]配列を維持しつつ、各docにonsenフィールドをoptionalで追加
+ * - 独立したonsenSpots配列を作らず、既存の構造を活用することで段階的な移行が可能
+ * - 既存のtitle, subtitle, description, image, contentフィールドは維持（後方互換性）
+ */
+export interface OnsenSpot {
+  id: string;
+  slug: string;
+  name: string;
+  nameKana: string;
+  nameEn: string;
+  region: OnsenRegion;
+  onsen: OnsenInfo;
+  access: OnsenAccess;
+  accommodation: OnsenAccommodation;
+  content: OnsenContent;
+  images: OnsenImages;
+  metadata: OnsenMeta;
+}
+
 interface DocPage {
   slug: string;
   title: string;
@@ -278,6 +406,8 @@ interface DocPage {
   image: string; // 解決後は常に文字列
   content: string;
   related?: string[];
+  // 新規追加：温泉地の詳細情報（optional）
+  onsen?: OnsenSpot;
 }
 
 interface DocPageRaw {
@@ -288,6 +418,8 @@ interface DocPageRaw {
   image: string | { key?: string; keywords?: string }; // 解決前はキーまたはURL
   content: string;
   related?: string[];
+  // 新規追加：温泉地の詳細情報（optional）
+  onsen?: OnsenSpot;
 }
 
 interface BlogPost {
