@@ -44,11 +44,17 @@ jobs:
           fi
 
       - name: Commit and push if changed
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add README.md
-          git commit -m "docs: auto-update README based on site configuration"
-          git pull --rebase origin main
-          git push
+  run: |
+    git config --local user.email "github-actions[bot]@users.noreply.github.com"
+    git config --local user.name "github-actions[bot]"
+
+    git add README.md
+
+    # 変更がなければ何もしない
+    if git diff --cached --quiet; then
+      echo "No changes in README.md"
+      exit 0
+    fi
+
+    git commit -m "docs: auto-update README by GitHub Actions"
+    git push origin HEAD:main
