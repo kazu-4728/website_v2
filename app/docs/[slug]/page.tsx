@@ -102,6 +102,198 @@ export default async function DocPage({ params }: Props) {
               <MarkdownRenderer content={page.content} />
             </div>
 
+            {/* Onsen Details Section */}
+            {page.onsen && (
+              <div className="mt-16 card-glass rounded-2xl p-8 md:p-12 bg-dark-900/50">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 border-b border-primary-500/30 pb-4">
+                  温泉データ
+                </h2>
+                
+                <div className="grid md:grid-cols-2 gap-8">
+                  {/* 地域情報 */}
+                  <div className="space-y-6">
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary-400 mb-3 uppercase tracking-wider">地域</h3>
+                      <div className="space-y-2">
+                        <p className="text-white">
+                          <span className="text-gray-400">都道府県：</span>
+                          {page.onsen.region.prefecture}
+                        </p>
+                        <p className="text-white">
+                          <span className="text-gray-400">エリア：</span>
+                          {page.onsen.region.area}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* 泉質・効能 */}
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary-400 mb-3 uppercase tracking-wider">泉質・効能</h3>
+                      <div className="space-y-3">
+                        <div>
+                          <p className="text-gray-400 text-sm mb-2">泉質</p>
+                          <div className="flex flex-wrap gap-2">
+                            {page.onsen.onsen.springTypes.map((type, i) => (
+                              <span key={i} className="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm border border-primary-500/30">
+                                {type}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                        <div>
+                          <p className="text-gray-400 text-sm mb-2">主な効能</p>
+                          <div className="flex flex-wrap gap-2">
+                            {page.onsen.onsen.effects.map((effect, i) => (
+                              <span key={i} className="px-3 py-1 bg-dark-800 text-gray-300 rounded-full text-sm border border-dark-700">
+                                {effect}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                        {page.onsen.onsen.temperature && (
+                          <p className="text-gray-300 text-sm">
+                            <span className="text-gray-400">源泉温度：</span>
+                            {page.onsen.onsen.temperature}℃
+                          </p>
+                        )}
+                        {page.onsen.onsen.ph && (
+                          <p className="text-gray-300 text-sm">
+                            <span className="text-gray-400">pH値：</span>
+                            {page.onsen.onsen.ph}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* 日帰り可否 */}
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary-400 mb-3 uppercase tracking-wider">日帰り</h3>
+                      <p className="text-white">
+                        {page.onsen.accommodation.dayTripAvailable ? (
+                          <span className="inline-flex items-center px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm border border-green-500/30">
+                            ✓ 日帰り可能
+                          </span>
+                        ) : (
+                          <span className="text-gray-400">日帰り不可</span>
+                        )}
+                      </p>
+                      {page.onsen.accommodation.dayTripFacilities && page.onsen.accommodation.dayTripFacilities.length > 0 && (
+                        <ul className="mt-2 space-y-1">
+                          {page.onsen.accommodation.dayTripFacilities.map((facility, i) => (
+                            <li key={i} className="text-gray-300 text-sm">・{facility}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* アクセス情報 */}
+                  <div className="space-y-6">
+                    <div>
+                      <h3 className="text-lg font-semibold text-primary-400 mb-3 uppercase tracking-wider">アクセス</h3>
+                      <div className="space-y-4">
+                        {page.onsen.access.nearestStation && (
+                          <div>
+                            <p className="text-gray-400 text-sm mb-1">最寄り駅</p>
+                            <p className="text-white">
+                              {page.onsen.access.nearestStation.name}
+                              <span className="text-gray-400 ml-2">({page.onsen.access.nearestStation.line})</span>
+                            </p>
+                            {page.onsen.access.nearestStation.walkingTime && (
+                              <p className="text-gray-300 text-sm mt-1">徒歩{page.onsen.access.nearestStation.walkingTime}分</p>
+                            )}
+                          </div>
+                        )}
+                        {page.onsen.access.fromTokyo.byTrain && (
+                          <div>
+                            <p className="text-gray-400 text-sm mb-1">電車でのアクセス</p>
+                            <p className="text-white">{page.onsen.access.fromTokyo.byTrain.description}</p>
+                            <p className="text-gray-300 text-sm mt-1">所要時間：約{page.onsen.access.fromTokyo.byTrain.time}分</p>
+                          </div>
+                        )}
+                        {page.onsen.access.fromTokyo.byCar && (
+                          <div>
+                            <p className="text-gray-400 text-sm mb-1">車でのアクセス</p>
+                            <p className="text-white">{page.onsen.access.fromTokyo.byCar.description}</p>
+                            <p className="text-gray-300 text-sm mt-1">
+                              所要時間：約{page.onsen.access.fromTokyo.byCar.time}分
+                              {page.onsen.access.fromTokyo.byCar.distance && ` (距離：約${page.onsen.access.fromTokyo.byCar.distance}km)`}
+                            </p>
+                          </div>
+                        )}
+                        {page.onsen.access.parking && (
+                          <div>
+                            <p className="text-gray-400 text-sm mb-1">駐車場</p>
+                            <p className="text-white">
+                              {page.onsen.access.parking.available ? 'あり' : 'なし'}
+                              {page.onsen.access.parking.fee && (
+                                <span className="text-gray-400 ml-2">({page.onsen.access.parking.fee})</span>
+                              )}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* 代表旅館 */}
+                    {page.onsen.accommodation.representativeRyokan && page.onsen.accommodation.representativeRyokan.length > 0 && (
+                      <div>
+                        <h3 className="text-lg font-semibold text-primary-400 mb-3 uppercase tracking-wider">代表的な旅館</h3>
+                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
+                          <h4 className="text-white font-bold mb-2">{page.onsen.accommodation.representativeRyokan[0].name}</h4>
+                          {page.onsen.accommodation.representativeRyokan[0].features && (
+                            <div className="flex flex-wrap gap-2 mb-2">
+                              {page.onsen.accommodation.representativeRyokan[0].features.map((feature, i) => (
+                                <span key={i} className="px-2 py-1 bg-dark-700 text-gray-300 rounded text-xs">
+                                  {feature}
+                                </span>
+                              ))}
+                            </div>
+                          )}
+                          {page.onsen.accommodation.representativeRyokan[0].priceRange && (
+                            <p className="text-primary-400 text-sm">{page.onsen.accommodation.representativeRyokan[0].priceRange}</p>
+                          )}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* 季節ごとの魅力 */}
+                {page.onsen.content.seasons && (
+                  <div className="mt-12 pt-8 border-t border-dark-800">
+                    <h3 className="text-2xl font-bold text-white mb-6">季節ごとの魅力</h3>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                      {page.onsen.content.seasons.spring && (
+                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
+                          <h4 className="text-primary-400 font-semibold mb-2">春</h4>
+                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.spring}</p>
+                        </div>
+                      )}
+                      {page.onsen.content.seasons.summer && (
+                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
+                          <h4 className="text-primary-400 font-semibold mb-2">夏</h4>
+                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.summer}</p>
+                        </div>
+                      )}
+                      {page.onsen.content.seasons.autumn && (
+                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
+                          <h4 className="text-primary-400 font-semibold mb-2">秋</h4>
+                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.autumn}</p>
+                        </div>
+                      )}
+                      {page.onsen.content.seasons.winter && (
+                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
+                          <h4 className="text-primary-400 font-semibold mb-2">冬</h4>
+                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.winter}</p>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
             {/* Navigation (Next/Prev) */}
             <div className="mt-16 flex flex-col md:flex-row justify-between gap-8">
               {prevDoc ? (
