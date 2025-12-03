@@ -249,7 +249,9 @@
               {
                 "name": "強羅花壇",
                 "features": ["露天風呂", "富士山眺望", "庭園"],
-                "priceRange": "1泊2食 30,000円〜"
+                "priceRange": "1泊2食 30,000円〜",
+                "officialUrl": "https://www.gora-kadan.com",
+                "mapsUrl": "https://www.google.com/maps/search/?api=1&query=強羅花壇+箱根"
               }
             ],
             "features": ["露天風呂", "貸切風呂", "レストラン", "売店"]
@@ -282,7 +284,8 @@
             "related": ["hakone-yunohana", "hakone-gora", "hakone-sengokuhara"],
             "publishedAt": "2024-01-01T00:00:00Z",
             "updatedAt": "2024-12-01T00:00:00Z"
-          }
+          },
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=箱根温泉+神奈川県"
         }
       },
       {

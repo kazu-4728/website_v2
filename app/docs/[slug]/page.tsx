@@ -242,7 +242,7 @@ export default async function DocPage({ params }: Props) {
                         <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
                           <h4 className="text-white font-bold mb-2">{page.onsen.accommodation.representativeRyokan[0].name}</h4>
                           {page.onsen.accommodation.representativeRyokan[0].features && (
-                            <div className="flex flex-wrap gap-2 mb-2">
+                            <div className="flex flex-wrap gap-2 mb-3">
                               {page.onsen.accommodation.representativeRyokan[0].features.map((feature, i) => (
                                 <span key={i} className="px-2 py-1 bg-dark-700 text-gray-300 rounded text-xs">
                                   {feature}
@@ -251,8 +251,33 @@ export default async function DocPage({ params }: Props) {
                             </div>
                           )}
                           {page.onsen.accommodation.representativeRyokan[0].priceRange && (
-                            <p className="text-primary-400 text-sm">{page.onsen.accommodation.representativeRyokan[0].priceRange}</p>
+                            <p className="text-primary-400 text-sm mb-3">{page.onsen.accommodation.representativeRyokan[0].priceRange}</p>
                           )}
+                          {/* リンクボタン */}
+                          <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-dark-700">
+                            {page.onsen.accommodation.representativeRyokan[0].officialUrl && (
+                              <a
+                                href={page.onsen.accommodation.representativeRyokan[0].officialUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center px-4 py-2 bg-primary-500/20 text-primary-300 rounded-lg border border-primary-500/30 hover:bg-primary-500/30 transition-colors text-sm font-medium"
+                              >
+                                公式サイト
+                                <ArrowRightIcon className="ml-2 w-4 h-4" />
+                              </a>
+                            )}
+                            {page.onsen.accommodation.representativeRyokan[0].mapsUrl && (
+                              <a
+                                href={page.onsen.accommodation.representativeRyokan[0].mapsUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center px-4 py-2 bg-dark-700 text-gray-300 rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors text-sm font-medium"
+                              >
+                                Googleマップで見る
+                                <ArrowRightIcon className="ml-2 w-4 h-4" />
+                              </a>
+                            )}
+                          </div>
                         </div>
                       </div>
                     )}

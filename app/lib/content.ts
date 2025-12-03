@@ -334,6 +334,8 @@ export interface OnsenAccommodation {
     name: string;
     features: string[];
     priceRange?: string;
+    officialUrl?: string; // 旅館の公式サイトURL
+    mapsUrl?: string; // 旅館のGoogleマップURL
   }>;
   features: string[];
 }
@@ -396,6 +398,7 @@ export interface OnsenSpot {
   content: OnsenContent;
   images: OnsenImages;
   metadata: OnsenMeta;
+  mapsUrl?: string; // 温泉エリア全体のGoogleマップURL
 }
 
 interface DocPage {
