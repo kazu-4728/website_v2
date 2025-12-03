@@ -197,7 +197,93 @@
           "hakone-yunohana",
           "hakone-gora",
           "hakone-sengokuhara"
-        ]
+        ],
+        "onsen": {
+          "id": "hakone",
+          "slug": "hakone",
+          "name": "箱根温泉郷",
+          "nameKana": "はこねおんせんきょう",
+          "nameEn": "Hakone Onsen",
+          "region": {
+            "prefecture": "神奈川県",
+            "area": "箱根エリア",
+            "coordinates": {
+              "lat": 35.2333,
+              "lng": 139.1033
+            }
+          },
+          "onsen": {
+            "springTypes": ["単純泉", "塩化物泉", "炭酸水素塩泉", "硫酸塩泉"],
+            "ph": 7.2,
+            "temperature": 42,
+            "flowRate": "豊富",
+            "effects": ["神経痛", "筋肉痛", "関節痛", "冷え性", "疲労回復"],
+            "characteristics": ["源泉掛け流し", "露天風呂あり", "多様な泉質"]
+          },
+          "access": {
+            "nearestStation": {
+              "name": "箱根湯本駅",
+              "line": "小田急線・箱根登山鉄道",
+              "walkingTime": 5
+            },
+            "fromTokyo": {
+              "byTrain": {
+                "time": 90,
+                "description": "小田急線で新宿から約90分"
+              },
+              "byCar": {
+                "time": 90,
+                "distance": 80,
+                "description": "東名高速道路経由で約90分"
+              }
+            },
+            "parking": {
+              "available": true,
+              "fee": "施設により異なる"
+            }
+          },
+          "accommodation": {
+            "dayTripAvailable": true,
+            "dayTripFacilities": ["日帰り温泉施設多数"],
+            "representativeRyokan": [
+              {
+                "name": "強羅花壇",
+                "features": ["露天風呂", "富士山眺望", "庭園"],
+                "priceRange": "1泊2食 30,000円〜"
+              }
+            ],
+            "features": ["露天風呂", "貸切風呂", "レストラン", "売店"]
+          },
+          "content": {
+            "shortDescription": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を持ち、芦ノ湖や大涌谷など観光スポットも豊富。",
+            "longDescription": "## 箱根温泉の魅力\n\n箱根は年間約2,000万人が訪れる日本を代表する温泉リゾートです。富士箱根伊豆国立公園内に位置し、17の温泉エリアと20種類以上の泉質を誇ります。\n\n### 豊富な泉質と効能\n\n箱根の温泉は、単純泉、塩化物泉、炭酸水素塩泉、硫酸塩泉など、実に20種類以上の泉質があります。それぞれ異なる効能を持ち、神経痛、筋肉痛、関節痛、冷え性、疲労回復など、様々な症状に効果があるとされています。\n\n### アクセスの良さ\n\n都心から90分という好立地で、日帰りでも十分に楽しめる距離にあります。小田急線や箱根登山鉄道を利用すれば、気軽に温泉旅行を楽しめます。\n\n### 観光スポットとの組み合わせ\n\n芦ノ湖、大涌谷、箱根神社など、温泉以外にも見どころが豊富です。温泉と観光を同時に楽しめる、まさに理想的なリゾート地と言えるでしょう。\n\n### おすすめの温泉宿\n\n箱根には、老舗旅館からモダンなリゾートホテルまで、様々なタイプの宿泊施設があります。特に、露天風呂から富士山を望める宿や、源泉掛け流しの湯を楽しめる宿が人気です。",
+            "highlights": [
+              "17の温泉エリア",
+              "20種類以上の泉質",
+              "都心から90分でアクセス可能",
+              "観光スポットも豊富"
+            ],
+            "seasons": {
+              "spring": "新緑が美しく、気候も過ごしやすい",
+              "summer": "標高が高く避暑地として人気",
+              "autumn": "紅葉が美しく最も人気のシーズン",
+              "winter": "雪景色と湯気が幻想的"
+            }
+          },
+          "images": {
+            "main": "hakone",
+            "thumbnail": "hakone",
+            "gallery": ["hakone", "hakone-yunohana", "hakone-gora"],
+            "credit": "hakone"
+          },
+          "metadata": {
+            "priority": 10,
+            "tags": ["人気", "アクセス良好", "観光", "日帰り可"],
+            "related": ["hakone-yunohana", "hakone-gora", "hakone-sengokuhara"],
+            "publishedAt": "2024-01-01T00:00:00Z",
+            "updatedAt": "2024-12-01T00:00:00Z"
+          }
+        }
       },
       {
         "slug": "hakone-yunohana",
