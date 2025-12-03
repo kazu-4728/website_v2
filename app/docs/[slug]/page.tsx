@@ -255,17 +255,22 @@ export default async function DocPage({ params }: Props) {
                           )}
                           {/* リンクボタン */}
                           <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-dark-700">
-                            {page.onsen.accommodation.representativeRyokan[0].officialUrl && (
-                              <a
-                                href={page.onsen.accommodation.representativeRyokan[0].officialUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center px-4 py-2 bg-primary-500/20 text-primary-300 rounded-lg border border-primary-500/30 hover:bg-primary-500/30 transition-colors text-sm font-medium"
-                              >
-                                公式サイト
-                                <ArrowRightIcon className="ml-2 w-4 h-4" />
-                              </a>
-                            )}
+                            {page.onsen.accommodation.representativeRyokan[0].officialUrl && (() => {
+                              const officialUrl = page.onsen.accommodation.representativeRyokan[0].officialUrl || '';
+                              // basePathの影響を受けないように、外部URLを確実に外部リンクとして扱う
+                              // hrefに直接https://で始まるURLを指定することで、Next.jsが内部ルートとして扱うのを防ぐ
+                              return (
+                                <a
+                                  href={officialUrl.startsWith('http://') || officialUrl.startsWith('https://') ? officialUrl : `https://${officialUrl}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center px-4 py-2 bg-primary-500/20 text-primary-300 rounded-lg border border-primary-500/30 hover:bg-primary-500/30 transition-colors text-sm font-medium"
+                                >
+                                  公式サイト
+                                  <ArrowRightIcon className="ml-2 w-4 h-4" />
+                                </a>
+                              );
+                            })()}
                             {page.onsen.accommodation.representativeRyokan[0].mapsUrl && (
                               <a
                                 href={page.onsen.accommodation.representativeRyokan[0].mapsUrl}
