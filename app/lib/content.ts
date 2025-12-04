@@ -398,6 +398,14 @@ const fallbackTexts: TextsConfig = {
       interactiveDemoLoading: "Interactive Demo Module Loading...",
     },
   },
+  footer: {
+    tagline: "関東エリアの名湯・秘湯を巡る旅",
+    copyright: "© 2025 関東温泉紀行. All rights reserved.",
+    sections: {
+      navigation: "ナビゲーション",
+      about: "サイトについて",
+    },
+  },
 };
 
 const fallbackContent: ContentConfig = {

@@ -19,21 +19,7 @@
     },
     {
       "label": "温泉ガイド",
-      "href": "/docs",
-      "submenu": [
-        {
-          "label": "箱根温泉",
-          "href": "/docs/hakone"
-        },
-        {
-          "label": "草津温泉",
-          "href": "/docs/kusatsu"
-        },
-        {
-          "label": "鬼怒川温泉",
-          "href": "/docs/kinugawa"
-        }
-      ]
+      "href": "/docs"
     },
     {
       "label": "特集記事",

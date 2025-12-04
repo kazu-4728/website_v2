@@ -17,6 +17,14 @@
  * Used for back links, pagination, and navigation elements
  */
 export interface TextsNavigation {
+  mainMenu?: {
+    home: string;
+    docs: string;
+    blog: string;
+    features: string;
+    contact: string;
+    [key: string]: string; // Allow additional menu items
+  };
   backLinks: {
     home: string;
     docs: string;
@@ -112,6 +120,19 @@ export interface TextsUI {
 }
 
 /**
+ * Footer text labels
+ */
+export interface TextsFooter {
+  tagline: string;
+  copyright: string;
+  sections?: {
+    navigation?: string;
+    about?: string;
+    [key: string]: string | undefined;
+  };
+}
+
+/**
  * Complete texts configuration
  * This should be present in every theme's texts.json
  */
@@ -122,6 +143,7 @@ export interface TextsConfig {
   form: TextsForm;
   messages: TextsMessages;
   ui: TextsUI;
+  footer: TextsFooter;
 }
 
 // ==========================================
