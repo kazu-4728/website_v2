@@ -1,5 +1,12 @@
 {
   "nav": {
+    "mainMenu": {
+      "home": "ホーム",
+      "docs": "温泉ガイド",
+      "blog": "特集記事",
+      "features": "おすすめプラン",
+      "contact": "お問い合わせ"
+    },
     "backLinks": {
       "home": "ホームに戻る",
       "docs": "温泉ガイド一覧に戻る",
@@ -8,6 +15,14 @@
     "pagination": {
       "previous": "前の温泉地",
       "next": "次の温泉地"
+    }
+  },
+  "footer": {
+    "tagline": "関東エリアの名湯・秘湯を巡る旅",
+    "copyright": "© 2025 関東温泉紀行. All rights reserved.",
+    "sections": {
+      "navigation": "ナビゲーション",
+      "about": "サイトについて"
     }
   },
   "pages": {
