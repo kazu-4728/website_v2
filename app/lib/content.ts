@@ -9,6 +9,7 @@ import type {
   ContentConfigRaw,
   HomeHero,
   HomeHeroRaw,
+  HeroSlideResolved,
   HomeSection,
   SplitFeatureSection,
   GridGallerySection,
@@ -39,6 +40,7 @@ import type {
 export type {
   TextsConfig,
   ContentConfig,
+  HomeHero,
   HomeSection,
   SplitFeatureSection,
   GridGallerySection,
@@ -158,6 +160,17 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
     'onsen,hot spring,japan'
   );
 
+  // ヒーロースライドの画像を解決（マルチスライド対応）
+  const heroSlides: HeroSlideResolved[] | undefined = content.pages.home.hero.slides?.map(slide => ({
+    ...slide,
+    bgImage: resolveImageUrl(
+      { key: slide.imageKey },
+      'hero',
+      slide.imageKey,
+      `onsen,hot spring,japan,${slide.season || ''},${slide.area || ''}`
+    ),
+  }));
+
   const resolved: Omit<ContentConfig, 'texts'> = {
     ...content,
     pages: {
@@ -167,6 +180,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
         hero: {
           ...content.pages.home.hero,
           bgImage: heroBgImage,
+          slides: heroSlides,
         },
         sections: content.pages.home.sections.map(section => {
           const resolvedSection: any = { ...section };

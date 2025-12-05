@@ -236,6 +236,20 @@ export interface HeroBadge {
 }
 
 /**
+ * Hero slide item for multi-slide hero
+ */
+export interface HeroSlide {
+  title: string;
+  subtitle: string;
+  description: string;
+  secondaryDescription?: string;
+  badges?: HeroBadge[];
+  imageKey: string; // Image key for this slide (e.g., "starry_night", "snow", "autumn_leaves")
+  season?: string; // Optional season label (e.g., "春", "夏", "秋", "冬")
+  area?: string; // Optional area label (e.g., "箱根", "草津")
+}
+
+/**
  * Home page hero section (raw, before image resolution)
  */
 export interface HomeHeroRaw {
@@ -245,16 +259,26 @@ export interface HomeHeroRaw {
   description: string;
   secondaryDescription?: string; // Optional additional description line
   badges?: HeroBadge[]; // Optional badges/tags to display
-  bgImage: ImageReference;
+  bgImage: ImageReference; // Legacy single image (used if slides not provided)
+  slides?: HeroSlide[]; // Optional multi-slide array for cinematic hero
   overlay: string; // e.g., "dark", "light", "gradient"
   actions: HeroAction[];
 }
 
 /**
+ * Hero slide item (after image resolution)
+ */
+export interface HeroSlideResolved extends HeroSlide {
+  bgImage: string; // Resolved to actual URL
+  // imageKey is kept for metadata lookup
+}
+
+/**
  * Home page hero section (after image resolution)
  */
-export interface HomeHero extends Omit<HomeHeroRaw, 'bgImage'> {
-  bgImage: string; // Resolved to actual URL
+export interface HomeHero extends Omit<HomeHeroRaw, 'bgImage' | 'slides'> {
+  bgImage: string; // Resolved to actual URL (legacy, used if slides not provided)
+  slides?: HeroSlideResolved[]; // Optional multi-slide array with resolved images
 }
 
 /**
