@@ -24,8 +24,8 @@ export function CinematicHero({ data }: HeroProps) {
   const imageMetadata = getImageMetadata('hero', 'main');
 
   return (
-    <section className="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden">
-      {/* Background Image with Parallax Effect (simulated with fixed for now) */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
           src={data.bgImage}
@@ -35,32 +35,33 @@ export function CinematicHero({ data }: HeroProps) {
           priority
           quality={90}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
+        {/* Darker, more dramatic overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-dark-950" />
         {/* 画像のクレジット表示 */}
         <ImageCredit metadata={imageMetadata} position="bottom-right" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 text-center text-white">
-        <p className="text-xl md:text-2xl font-light tracking-[0.2em] text-primary-400 mb-6 uppercase animate-fade-in-up">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 text-center text-white py-32">
+        <p className="text-lg md:text-xl font-light tracking-[0.3em] text-primary-400 mb-8 uppercase animate-fade-in-up">
           {data.subtitle}
         </p>
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter mb-8 leading-tight animate-fade-in-up delay-100">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-10 leading-[1.1] animate-fade-in-up delay-100">
           {data.title.split('\n').map((line, i) => (
             <span key={i} className="block">{line}</span>
           ))}
         </h1>
-        <p className="text-lg md:text-2xl text-gray-200 max-w-3xl mx-auto mb-12 leading-relaxed font-light animate-fade-in-up delay-200">
+        <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-14 leading-relaxed animate-fade-in-up delay-200">
           {data.description}
         </p>
         
-        <div className="flex flex-wrap justify-center gap-6 animate-fade-in-up delay-300">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 animate-fade-in-up delay-300">
           {data.actions.map((action, index) => (
             <Link key={index} href={action.href}>
               <Button 
                 variant={action.variant === 'primary' ? 'primary' : 'secondary'} 
                 size="xl"
-                className="min-w-[200px] text-lg"
+                className="min-w-[180px] sm:min-w-[220px] text-base sm:text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 {action.label}
                 {action.variant === 'primary' && <ArrowRightIcon className="ml-2 w-5 h-5" />}
@@ -71,8 +72,8 @@ export function CinematicHero({ data }: HeroProps) {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-[1px] h-24 bg-gradient-to-b from-transparent via-white to-transparent" />
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden sm:block">
+        <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-white/60 to-transparent" />
       </div>
     </section>
   );
