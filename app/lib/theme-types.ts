@@ -228,6 +228,14 @@ export interface HeroAction {
 }
 
 /**
+ * Badge/Tag item for hero section
+ */
+export interface HeroBadge {
+  label: string;
+  variant?: 'default' | 'primary' | 'secondary';
+}
+
+/**
  * Home page hero section (raw, before image resolution)
  */
 export interface HomeHeroRaw {
@@ -235,6 +243,8 @@ export interface HomeHeroRaw {
   title: string;
   subtitle: string;
   description: string;
+  secondaryDescription?: string; // Optional additional description line
+  badges?: HeroBadge[]; // Optional badges/tags to display
   bgImage: ImageReference;
   overlay: string; // e.g., "dark", "light", "gradient"
   actions: HeroAction[];
