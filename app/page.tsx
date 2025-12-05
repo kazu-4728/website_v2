@@ -1,9 +1,10 @@
-import { loadContent, SplitFeatureSection, GridGallerySection, TestimonialsSection, CtaSection } from './lib/content';
+import { loadContent, SplitFeatureSection, GridGallerySection, TestimonialsSection, CtaSection, StepsSection } from './lib/content';
 import { CinematicHero } from './components/home/CinematicHero';
 import { SplitFeature } from './components/home/SplitFeature';
 import { GridGallery } from './components/home/GridGallery';
 import { Testimonials } from './components/home/Testimonials';
 import { CtaFullscreen } from './components/home/CtaFullscreen';
+import { Steps } from './components/home/Steps';
 
 export default async function Page() {
   // テーマ設定をロード（サーバーサイド）
@@ -27,6 +28,9 @@ export default async function Page() {
             
             case 'testimonials':
               return <Testimonials key={section.id} data={section as TestimonialsSection} />;
+            
+            case 'steps':
+              return <Steps key={section.id} data={section as StepsSection} />;
             
             case 'cta-fullscreen':
               return <CtaFullscreen key={section.id} data={section as CtaSection} />;

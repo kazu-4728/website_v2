@@ -14,6 +14,7 @@ import type {
   GridGallerySection,
   TestimonialsSection,
   CtaSection,
+  StepsSection,
   DocPage,
   DocPageRaw,
   BlogPost,
@@ -43,6 +44,7 @@ export type {
   GridGallerySection,
   TestimonialsSection,
   CtaSection,
+  StepsSection,
   DocPage,
   BlogPost,
   // Onsen-specific types

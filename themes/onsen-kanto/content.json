@@ -50,89 +50,92 @@
         "actions": [
           {
             "label": "温泉を探す",
-            "href": "/docs/hakone",
+            "href": "/docs",
             "variant": "primary"
           },
           {
             "label": "特集を見る",
-            "href": "/features",
+            "href": "/blog",
             "variant": "secondary"
           }
         ]
       },
       "sections": [
         {
-          "id": "hakone-intro",
-          "type": "split-feature",
-          "layout": "image-right",
-          "chapter": "名湯エリア 01",
-          "title": "箱根温泉郷",
-          "subtitle": "Hakone Onsen",
-          "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を持ち、芦ノ湖や大涌谷など観光スポットも豊富。都心から90分でアクセス可能な癒しの楽園です。",
-          "image": {
-            "key": "hakone-intro",
-            "keywords": "hakone,onsen,japan,mount fuji"
-          },
-          "stats": [
-            {
-              "value": "17",
-              "label": "温泉エリア"
-            },
-            {
-              "value": "20+",
-              "label": "泉質の種類"
-            }
-          ],
-          "link": {
-            "text": "箱根温泉を詳しく見る",
-            "href": "/docs/hakone"
-          }
-        },
-        {
-          "id": "kusatsu-intro",
-          "type": "split-feature",
-          "layout": "image-left",
-          "chapter": "名湯エリア 02",
-          "title": "草津温泉",
-          "subtitle": "Kusatsu Onsen",
-          "description": "「恋の病以外なんでも治す」と言われる日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と、強酸性の殺菌力で知られています。湯畑を中心とした温泉街の風情も格別です。",
-          "image": {
-            "key": "kusatsu",
-            "keywords": "kusatsu,onsen,japan,yubatake"
-          },
-          "quote": {
-            "text": "草津よいとこ一度はおいで。お湯の中にも花が咲くよ。",
-            "author": "草津節"
-          },
-          "link": {
-            "text": "草津温泉を詳しく見る",
-            "href": "/docs/kusatsu"
-          }
-        },
-        {
-          "id": "popular-spots",
+          "id": "area-selection",
           "type": "grid-gallery",
-          "title": "人気の温泉地",
-          "subtitle": "Popular Hot Springs",
-          "description": "関東エリアで特に人気の高い温泉地をピックアップ。それぞれに特色ある湯と景観をお楽しみください。",
+          "title": "エリアから探す",
+          "subtitle": "Find by Area",
+          "description": "関東エリアの名湯・秘湯を地域別にご紹介。それぞれのエリアに特色ある温泉文化が息づいています。",
           "items": [
             {
+              "title": "箱根温泉郷",
+              "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
+              "image": "hakone",
+              "href": "/docs/hakone"
+            },
+            {
+              "title": "草津温泉",
+              "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
+              "image": "kusatsu",
+              "href": "/docs/kusatsu"
+            },
+            {
               "title": "鬼怒川温泉",
-              "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。",
+              "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。日光へのアクセスも便利。",
               "image": "kinugawa",
               "href": "/docs/kinugawa"
             },
             {
               "title": "伊香保温泉",
-              "description": "石段街と黄金の湯で知られる群馬の古湯。",
+              "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
               "image": "ikaho",
               "href": "/docs/ikaho"
             },
             {
               "title": "那須温泉郷",
-              "description": "皇室御用達の避暑地に広がる多彩な温泉群。",
+              "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
               "image": "nasu",
               "href": "/docs/nasu"
+            },
+            {
+              "title": "水上温泉郷",
+              "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
+              "image": "minakami",
+              "href": "/docs/minakami"
+            }
+          ]
+        },
+        {
+          "id": "theme-selection",
+          "type": "grid-gallery",
+          "title": "テーマから選ぶ",
+          "subtitle": "Find by Theme",
+          "description": "旅のスタイルや目的に合わせて、あなたにぴったりの温泉体験を見つけてください。",
+          "items": [
+            {
+              "title": "日帰り温泉",
+              "description": "都心から気軽にアクセスできる日帰り温泉。仕事帰りや週末のリフレッシュに。",
+              "image": "hakone",
+              "href": "/docs"
+            },
+            {
+              "title": "カップルで",
+              "description": "二人だけの特別な時間を過ごせる、ロマンチックな温泉宿をセレクト。",
+              "image": "kusatsu",
+              "href": "/docs"
+            },
+            {
+              "title": "家族旅行",
+              "description": "お子様連れでも安心。家族みんなで楽しめる温泉リゾート。",
+              "image": "kinugawa",
+              "href": "/docs"
+            },
+            {
+              "title": "絶景露天風呂",
+              "description": "富士山や渓谷美を眺めながら、極上の湯浴みを楽しめる温泉。",
+              "image": "hakone",
+              "href": "/docs"
             }
           ]
         },
@@ -156,9 +159,33 @@
           ]
         },
         {
+          "id": "how-to-choose",
+          "type": "steps",
+          "title": "温泉の選び方",
+          "subtitle": "How to Choose",
+          "description": "あなたにぴったりの温泉を見つける、3つのシンプルなステップ",
+          "items": [
+            {
+              "number": "01",
+              "title": "エリアを選ぶ",
+              "description": "まずは行きたいエリアを選びましょう。箱根・草津・鬼怒川など、関東エリアの名湯から選べます。"
+            },
+            {
+              "number": "02",
+              "title": "こだわりで絞る",
+              "description": "日帰りか宿泊か、家族旅行かカップルかなど、旅のスタイルに合わせて絞り込みます。"
+            },
+            {
+              "number": "03",
+              "title": "詳細を比較",
+              "description": "泉質・効能・アクセス・料金などを比較して、最終的な温泉地を決定します。"
+            }
+          ]
+        },
+        {
           "id": "cta",
           "type": "cta-fullscreen",
-          "title": "極上の湯旅へ",
+          "title": "今週末、どの温泉に浸かりますか？",
           "description": "日常から離れ、心と体を解放する旅に出かけませんか。",
           "bgImage": {
             "key": "default",
@@ -166,7 +193,7 @@
           },
           "action": {
             "label": "温泉ガイドを見る",
-            "href": "/docs/hakone"
+            "href": "/docs"
           }
         }
       ]
