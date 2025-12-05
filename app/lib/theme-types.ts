@@ -327,6 +327,27 @@ export interface CtaSection extends HomeSection {
 }
 
 /**
+ * Step item for steps section
+ */
+export interface StepItem {
+  number: string; // e.g., "01", "STEP 1"
+  title: string;
+  description: string;
+  icon?: string; // Optional icon identifier
+}
+
+/**
+ * Steps section (e.g., "How to choose" guide)
+ */
+export interface StepsSection extends HomeSection {
+  type: 'steps';
+  title: string;
+  subtitle?: string;
+  description?: string;
+  items: StepItem[];
+}
+
+/**
  * Home page configuration
  */
 export interface HomePage {

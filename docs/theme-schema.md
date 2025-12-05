@@ -190,6 +190,7 @@ themes/
 | `split-feature` | 画像とコンテンツを左右に分けて表示 | 🟢 共通 |
 | `grid-gallery` | グリッド形式でアイテムを表示 | 🟢 共通 |
 | `testimonials` | お客様の声・レビュー | 🟢 共通 |
+| `steps` | ステップバイステップガイド | 🟢 共通 |
 | `cta-fullscreen` | フルスクリーンのCTA（Call to Action） | 🟢 共通 |
 
 ###### `split-feature` セクション
@@ -264,6 +265,30 @@ themes/
 | `description` | `string` | ✅ | 説明文 |
 | `bgImage` | `ImageReference` | ✅ | 背景画像 |
 | `action` | `{ label: string; href: string }` | ✅ | アクションボタン |
+
+###### `steps` セクション
+
+ステップバイステップガイドを表示するセクション（例: 「選び方3ステップ」など）。
+
+| フィールド | 型 | 必須 | 説明 |
+|----------|---|------|------|
+| `id` | `string` | ✅ | セクションID（一意） |
+| `type` | `"steps"` | ✅ | セクションタイプ |
+| `title` | `string` | ✅ | タイトル |
+| `subtitle` | `string` | ❌ | サブタイトル |
+| `description` | `string` | ❌ | 説明文 |
+| `items` | `StepItem[]` | ✅ | ステップ一覧 |
+
+**StepItem:**
+
+| フィールド | 型 | 必須 | 説明 |
+|----------|---|------|------|
+| `number` | `string` | ✅ | ステップ番号（例: "01", "STEP 1"） |
+| `title` | `string` | ✅ | タイトル |
+| `description` | `string` | ✅ | 説明文 |
+| `icon` | `string` | ❌ | アイコン識別子 |
+
+**テーマ共通度:** 🟢 **すべてのテーマで共通**
 
 ---
 

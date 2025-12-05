@@ -10,20 +10,29 @@ interface Props {
 export async function GridGallery({ data }: Props) {
   const content = await loadContent();
   const texts = content.texts;
+  
+  // Determine grid columns based on number of items
+  const itemCount = data.items.length;
+  const gridCols = itemCount === 4 
+    ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-4' 
+    : itemCount === 6 
+    ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' 
+    : 'grid-cols-1 md:grid-cols-3';
+  
   return (
     <section className="py-24 bg-dark-950 text-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight">{data.title}</h2>
           {data.subtitle && (
-            <p className="text-primary-400 font-semibold tracking-wider uppercase mb-4 text-sm">
+            <p className="text-primary-400 font-semibold tracking-wider uppercase mb-3 text-sm">
               {data.subtitle}
             </p>
           )}
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight">{data.title}</h2>
           <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">{data.description}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+        <div className={`grid ${gridCols} gap-6 sm:gap-8`}>
           {data.items.map((item, index) => (
             <Link 
               key={index} 
