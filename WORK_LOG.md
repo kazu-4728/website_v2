@@ -1,5 +1,184 @@
 # 作業ログ
 
+## 2025年12月5日（夜） - ホームLP Heroマルチスライド対応 & 直下セクションのビジュアル改善
+
+### 目的
+ホームページのファーストビュー〜直下2セクションを、一目で温泉サイトと分かるシネマティックLPとして再設計。まずは構造・キー・アニメーションを整え、画像URLの決定は後続の画像専門エージェントに回す。
+
+### 実施した作業
+
+#### 1. Heroセクションのマルチスライド対応
+
+**変更ファイル:**
+- `app/lib/theme-types.ts` - HeroSlide型、HeroSlideResolved型を追加
+- `app/lib/content.ts` - slides[]の画像解決ロジックを追加
+- `themes/onsen-kanto/content.json` - slides[]配列を追加（4スライド: 星空・雪・紅葉・新緑）
+- `app/components/home/CinematicHero.tsx` - マルチスライド対応に変更
+
+**追加した型定義:**
+- `HeroSlide`: スライドごとのタイトル・サブタイトル・説明・画像キー・季節・エリアラベル
+- `HeroSlideResolved`: 画像解決後のスライド（bgImageがURLに変換済み）
+
+**content.jsonへの追加内容:**
+```json
+"slides": [
+  {
+    "title": "星空と湯けむりの\n幻想的な夜",
+    "subtitle": "Starry Night & Steam",
+    "description": "...",
+    "imageKey": "starry_night",
+    "season": "四季",
+    "area": "箱根"
+  },
+  // ... 他3スライド（雪、紅葉、新緑）
+]
+```
+
+**CinematicHeroコンポーネントの変更:**
+- 5秒ごとの自動スライド切り替え（`useEffect` + `setInterval`）
+- Framer Motionの`AnimatePresence`によるクロスフェード
+- スライドインジケーター（手動切り替え可能）
+- `slides`未指定時は従来の単一画像表示にフォールバック
+- `useReducedMotion()`でモーション軽減設定を尊重
+
+**アニメーション効果:**
+- 背景画像: クロスフェード（1.5秒）
+- コンテンツ: フェードイン + 下から上へ（0.6秒）
+- 背景ズーム: 1.1 → 1（1.5秒）
+
+#### 2. 画像キー構造の整備
+
+**変更ファイル:** `app/lib/images.ts`
+
+**追加した画像キー:**
+- `hero.starry_night` - 星空露天風呂用（TODO: 実写画像URLに差し替え）
+- `hero.snow` - 雪見風呂用（TODO: 実写画像URLに差し替え）
+- `hero.autumn_leaves` - 紅葉の温泉用（TODO: 実写画像URLに差し替え）
+- `hero.spring_greenery` - 新緑の温泉用（TODO: 実写画像URLに差し替え）
+
+**注意事項:**
+- すべての画像URLは現在プレースホルダー（箱根強羅温泉の夜景画像を再利用）
+- 後続の画像専門エージェントが実際の温泉画像URLに差し替える想定
+- 構造・キー・メタデータは整備済み
+
+#### 3. ホーム直下2セクションのビジュアル改善
+
+**変更ファイル:** `app/components/home/GridGallery.tsx`
+
+**改善内容:**
+
+1. **背景の強化:**
+   - `bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950` - グラデーション背景
+   - 微細なドットパターン（opacity-5）でテクスチャ追加
+
+2. **余白の調整:**
+   - セクション: `py-24 sm:py-32`（上下余白を増加）
+   - グリッド間隔: `gap-6 sm:gap-8 lg:gap-10`（レスポンシブに調整）
+
+3. **カードの影・ホバー演出の強化:**
+   - 通常時: `shadow-2xl shadow-black/50`
+   - ホバー時: `hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8)] hover:shadow-primary-900/20`
+   - ホバー時の上移動: `hover:-translate-y-2`
+
+4. **画像ズーム効果の強化:**
+   - ホバー時のズーム: `group-hover:scale-[1.15]`（従来の1.1から強化）
+   - トランジション: `duration-700 ease-out`
+
+5. **グラデーションオーバーレイの改善:**
+   - 通常時: `from-black/95 via-black/50 to-black/20`
+   - ホバー時: `group-hover:from-black/98 group-hover:via-black/60`
+   - 光の当たり方: `bg-gradient-to-br from-white/0 via-white/0 to-white/5`（ホバー時のみ表示）
+
+6. **テキストの改善:**
+   - タイトル: `drop-shadow-lg`で可読性向上
+   - 説明文: `line-clamp-2 sm:line-clamp-3`でモバイル時の行数制御
+   - リンク: `group-hover:translate-x-2`で右移動、アイコンも連動
+
+7. **ボーダーグロー効果:**
+   - ホバー時: `border-primary-500/30`のグロー効果
+
+**モバイル対応:**
+- 縦長カード（`aspect-[3/4]`）を維持
+- 説明文の行数制御（`line-clamp-2 sm:line-clamp-3`）
+- パディングの調整（`p-6 sm:p-8`）
+
+#### 4. ドキュメント更新
+
+**変更ファイル:** `docs/theme-schema.md`
+
+**追加内容:**
+- `HeroSlide`型の詳細説明
+- マルチスライドの動作説明（自動切り替え、手動切り替え）
+- `slides`未指定時のフォールバック動作
+
+### 設計上の決定事項
+
+#### マルチスライドの設計思想
+
+**汎用性を重視:**
+- `slides`はオプショナル（既存の単一画像表示も維持）
+- 各スライドは独立したコンテンツを持てる
+- 季節・エリアラベルで将来的なフィルタリングに対応
+
+**JSON First原則の維持:**
+- すべてのスライドコンテンツは`content.json`で管理
+- コンポーネントはデータを描画するだけ
+- ハードコード禁止
+
+#### 画像キー構造の設計
+
+**後続エージェントへの引き継ぎ:**
+- 構造・キー・メタデータは整備済み
+- URLはプレースホルダーのまま（TODOコメント付き）
+- 画像専門エージェントが簡単に差し替え可能
+
+**画像解決の優先順位:**
+1. `images.ts`の`hero.[imageKey]`を参照
+2. 見つからない場合は`hero.default`にフォールバック
+3. それでも見つからない場合は`hero.main`にフォールバック
+
+### ビルド・リント結果
+
+- **npm run lint:** ✅ 成功 - エラー・警告なし
+- **npm run build:** ✅ 成功 - 34ページすべて生成完了
+- **警告:** fsモジュール関連（サーバーサイドのみで使用、問題なし）
+
+### 変更ファイル一覧
+
+| ファイル | 変更内容 |
+|---------|---------|
+| `app/lib/theme-types.ts` | HeroSlide型、HeroSlideResolved型を追加 |
+| `app/lib/content.ts` | slides[]の画像解決ロジック追加、HomeHero型をエクスポート |
+| `themes/onsen-kanto/content.json` | slides[]配列を追加（4スライド） |
+| `app/lib/images.ts` | hero.starry_night, hero.snow, hero.autumn_leaves, hero.spring_greeneryを追加 |
+| `app/components/home/CinematicHero.tsx` | マルチスライド対応に変更（自動切り替え、クロスフェード） |
+| `app/components/home/GridGallery.tsx` | ビジュアル改善（余白・背景・影・ホバー演出の強化） |
+| `docs/theme-schema.md` | HeroSlide型のドキュメント追加 |
+
+### 次回以降の課題
+
+#### 🟡 中優先度（画像専門エージェントに引き継ぎ）
+
+**画像URLの差し替え:**
+- `hero.starry_night` - 星空露天風呂の実写画像
+- `hero.snow` - 雪見風呂の実写画像
+- `hero.autumn_leaves` - 紅葉の温泉の実写画像
+- `hero.spring_greenery` - 新緑の温泉の実写画像
+
+**推奨検索キーワード:**
+- "onsen japan starry night outdoor"
+- "onsen japan snow winter"
+- "onsen japan autumn leaves"
+- "onsen japan spring greenery"
+
+#### 🟢 低優先度（将来的な改善）
+
+- スライド切り替えのインターバル時間を設定可能に（content.jsonで指定）
+- スライドの順序をランダム化するオプション
+- スライドごとのオーバーレイスタイルを個別指定
+
+---
+
 ## 2025年12月5日（午後） - Hero & CTA 背景画像の実写温泉化（確実な差し替え）
 
 ### 目的

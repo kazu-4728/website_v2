@@ -65,6 +65,84 @@
           "key": "hero-night",
           "keywords": "onsen,hot spring,japan,night,steam"
         },
+        "slides": [
+          {
+            "title": "星空と湯けむりの\n幻想的な夜",
+            "subtitle": "Starry Night & Steam",
+            "description": "満天の星空の下、湯けむりが立ち上る露天風呂。非日常の至福のひとときをお楽しみください。",
+            "secondaryDescription": "都心から90分でアクセス可能な、関東屈指の名湯。",
+            "badges": [
+              {
+                "label": "星空露天",
+                "variant": "primary"
+              },
+              {
+                "label": "夜景",
+                "variant": "default"
+              }
+            ],
+            "imageKey": "starry_night",
+            "season": "四季",
+            "area": "箱根"
+          },
+          {
+            "title": "雪景色に包まれる\n極上の湯",
+            "subtitle": "Snow & Hot Spring",
+            "description": "静寂に包まれた雪景色の中、心も体も温まる極上の湯浴み。冬の温泉は格別です。",
+            "secondaryDescription": "標高の高い温泉地で、雪見風呂を楽しめます。",
+            "badges": [
+              {
+                "label": "雪見風呂",
+                "variant": "primary"
+              },
+              {
+                "label": "冬の温泉",
+                "variant": "default"
+              }
+            ],
+            "imageKey": "snow",
+            "season": "冬",
+            "area": "草津"
+          },
+          {
+            "title": "紅葉に彩られた\n秋の名湯",
+            "subtitle": "Autumn Colors & Onsen",
+            "description": "色とりどりの紅葉に囲まれた温泉。秋の風情を感じながら、ゆっくりと湯に浸かります。",
+            "secondaryDescription": "関東エリアの紅葉名所と温泉を同時に楽しめます。",
+            "badges": [
+              {
+                "label": "紅葉",
+                "variant": "primary"
+              },
+              {
+                "label": "秋の温泉",
+                "variant": "default"
+              }
+            ],
+            "imageKey": "autumn_leaves",
+            "season": "秋",
+            "area": "箱根"
+          },
+          {
+            "title": "新緑に囲まれた\n春の湯治",
+            "subtitle": "Spring Greenery & Onsen",
+            "description": "新緑が美しく、気候も過ごしやすい春。心身ともにリフレッシュできる季節です。",
+            "secondaryDescription": "春の訪れと共に、新しい旅の始まりを。",
+            "badges": [
+              {
+                "label": "新緑",
+                "variant": "primary"
+              },
+              {
+                "label": "春の温泉",
+                "variant": "default"
+              }
+            ],
+            "imageKey": "spring_greenery",
+            "season": "春",
+            "area": "那須"
+          }
+        ],
         "overlay": "dark",
         "actions": [
           {
