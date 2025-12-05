@@ -42,9 +42,28 @@
         "title": "心と体を\n癒す旅へ",
         "subtitle": "Healing Journey to Kanto's Finest Hot Springs",
         "description": "都心からわずか数時間。関東エリアには、古くから人々を癒してきた名湯が点在しています。四季折々の自然と共に、極上の湯浴みをお楽しみください。",
+        "secondaryDescription": "関東近郊の厳選温泉を、分かりやすく比較できます。",
+        "badges": [
+          {
+            "label": "週末温泉",
+            "variant": "primary"
+          },
+          {
+            "label": "日帰りOK",
+            "variant": "default"
+          },
+          {
+            "label": "家族で楽しめる",
+            "variant": "default"
+          },
+          {
+            "label": "アクセス良好",
+            "variant": "default"
+          }
+        ],
         "bgImage": {
-          "key": "main",
-          "keywords": "onsen,hot spring,japan,steam"
+          "key": "hero-night",
+          "keywords": "onsen,hot spring,japan,night,steam"
         },
         "overlay": "dark",
         "actions": [
@@ -188,8 +207,8 @@
           "title": "今週末、どの温泉に浸かりますか？",
           "description": "日常から離れ、心と体を解放する旅に出かけませんか。",
           "bgImage": {
-            "key": "default",
-            "keywords": "onsen,hot spring,japan,steam"
+            "key": "cta-sunset",
+            "keywords": "onsen,hot spring,japan,sunset,outdoor"
           },
           "action": {
             "label": "温泉ガイドを見る",

@@ -1,5 +1,161 @@
 # 作業ログ
 
+## 2025年12月5日 - Hero & CTA ビジュアル/モーション強化
+
+### 目的
+ホームのHeroセクションとCTAセクションを、「一目で温泉サイトだと分かる」実写温泉写真＋気持ちの良いモーションで強化する。
+
+### 実施した作業
+
+#### 1. Hero/CTA用画像の実写温泉化
+
+**変更ファイル:** `data/wikimedia-images.json`
+
+**追加した画像エントリ:**
+- `hero-night`: 箱根強羅温泉の夜景（ドラマチックな湯けむり）
+  - URL: Hakone Gora Onsen 実写
+  - ライセンス: CC BY 2.0（Michael Casim）
+  - 意図: 夜の露天風呂の幻想的な雰囲気
+  
+- `cta-sunset`: 日光湯元温泉の昼間の露天風呂
+  - URL: Nikko Yumoto Onsen 実写
+  - ライセンス: CC BY-SA 4.0（663highland）
+  - 意図: 落ち着いた自然の中の温泉、Heroと異なる時間帯
+
+**既存エントリの更新:**
+- `main`, `hero`: fallbackとして残し、タイトルに"(fallback)"を追記
+
+#### 2. Hero用フィールドの追加（JSON First）
+
+**変更ファイル:** 
+- `app/lib/theme-types.ts` - 型定義追加
+- `themes/onsen-kanto/content.json` - データ追加
+- `docs/theme-schema.md` - ドキュメント追加
+
+**追加したフィールド:**
+
+| フィールド | 型 | 用途 | 例 |
+|----------|---|------|-----|
+| `secondaryDescription` | `string` | 補足説明文 | "関東近郊の厳選温泉を、分かりやすく比較できます。" |
+| `badges` | `HeroBadge[]` | バッジ/タグ | "週末温泉", "日帰りOK", "家族で楽しめる", "アクセス良好" |
+
+**HeroBadge型:**
+```typescript
+{
+  label: string;
+  variant?: 'default' | 'primary' | 'secondary';
+}
+```
+
+**content.jsonへの追加内容:**
+- secondaryDescription: サイトの特徴を簡潔に説明
+- badges: 4つのバッジ（週末温泉、日帰りOK、家族で楽しめる、アクセス良好）
+
+#### 3. Framer Motionによるモーション追加
+
+**変更ファイル:** 
+- `app/components/home/CinematicHero.tsx`
+- `app/components/home/CtaFullscreen.tsx`
+
+**Hero（CinematicHero）のモーション:**
+
+1. **背景画像:**
+   - `scale: 1.1 → 1` (1.5秒のゆっくりとしたズームイン)
+   - `easeOut` イージング
+
+2. **テキスト要素（段階的表示）:**
+   - Subtitle: delay 0秒
+   - Title: delay 0.1秒
+   - Description: delay 0.2秒
+   - SecondaryDescription: delay 0.25秒
+   - Badges: delay 0.3秒（各バッジは0.05秒ずつ遅延）
+   - Buttons: delay 0.4秒（各ボタンは0.05秒ずつ遅延）
+   
+3. **アニメーション効果:**
+   - `opacity: 0 → 1`
+   - `y: 24 → 0` (下から軽く持ち上がる)
+   - duration: 0.8秒
+
+4. **アクセシビリティ:**
+   - `useReducedMotion()` フックで、モーション軽減設定を尊重
+   - モーション軽減時は即座に表示（アニメーションなし）
+
+**CTA（CtaFullscreen）のモーション:**
+
+1. **背景:**
+   - `opacity: 0 → 1`, `scale: 1.05 → 1` (1.2秒)
+   - Heroよりやや弱めのズーム
+
+2. **コンテンツ（スクロール連動）:**
+   - `useInView()` フックでビューポート内に入ったときにアニメーション開始
+   - Title: delay 0.2秒
+   - Description: delay 0.3秒
+   - Button: delay 0.4秒
+   
+3. **アニメーション効果:**
+   - `opacity: 0 → 1`
+   - `y: 32 → 0` (Heroより大きく下から持ち上がる)
+   - duration: 0.8秒
+
+**実装上の配慮:**
+- Client Component化（`'use client'` ディレクティブ追加）
+- `useReducedMotion()` でアクセシビリティ対応
+- 既存のTailwindクラスを維持
+
+### 設計上の決定事項
+
+#### 画像選定の方針
+
+**Hero背景（hero-night）:**
+- **選定理由:** ドラマチックな夜の温泉風景
+- **ターゲット:** ファーストビューで強いインパクトを与える
+- **世界観:** 幻想的・高級感・非日常
+
+**CTA背景（cta-sunset）:**
+- **選定理由:** 落ち着いた自然の中の温泉
+- **ターゲット:** Heroと差別化し、安らぎの印象を与える
+- **世界観:** 自然・癒し・日常からの解放
+
+#### Heroフィールド拡張の設計思想
+
+**汎用性を重視:**
+- `secondaryDescription`: 温泉だけでなく、他のテーマ（SaaS、ポートフォリオなど）でも使える
+- `badges`: 短いキーワードで特徴を伝える汎用的な仕組み
+
+**JSON First原則の維持:**
+- すべてのテキストはcontent.jsonで管理
+- コンポーネントはデータを描画するだけ
+- ハードコード禁止
+
+#### モーション設計の意図
+
+**段階的表示（Staggered Animation）:**
+- 一度にすべて表示するより、段階的に出現させることで視線を誘導
+- 各要素の重要度に応じた遅延時間を設定
+
+**アクセシビリティ:**
+- `prefers-reduced-motion` メディアクエリを尊重
+- モーション軽減設定のユーザーには即座に表示
+
+### ビルド・リント結果
+
+- **npm run lint:** ✅ 成功 - エラー・警告なし
+- **npm run build:** ✅ 成功 - 34ページすべて生成完了
+- **警告:** fsモジュール関連（サーバーサイドのみで使用、問題なし）
+
+### 変更ファイル一覧
+
+| ファイル | 変更内容 |
+|---------|---------|
+| `app/lib/theme-types.ts` | HeroBadge型、HomeHeroRaw型の拡張 |
+| `themes/onsen-kanto/content.json` | Hero用フィールド追加、画像キー変更 |
+| `data/wikimedia-images.json` | hero-night, cta-sunset画像追加 |
+| `app/components/home/CinematicHero.tsx` | Framer Motion追加、バッジ表示 |
+| `app/components/home/CtaFullscreen.tsx` | Framer Motion追加、スクロール連動 |
+| `docs/theme-schema.md` | Hero用フィールドのドキュメント追加 |
+
+---
+
 ## 2025年12月4日 - 画像ビジュアル & 導線整備
 
 ### 目的
