@@ -116,25 +116,25 @@
             {
               "title": "日帰り温泉",
               "description": "都心から気軽にアクセスできる日帰り温泉。仕事帰りや週末のリフレッシュに。",
-              "image": "hakone",
+              "image": "atami",
               "href": "/docs"
             },
             {
               "title": "カップルで",
               "description": "二人だけの特別な時間を過ごせる、ロマンチックな温泉宿をセレクト。",
-              "image": "kusatsu",
+              "image": "shuzenji",
               "href": "/docs"
             },
             {
               "title": "家族旅行",
               "description": "お子様連れでも安心。家族みんなで楽しめる温泉リゾート。",
-              "image": "kinugawa",
+              "image": "nasu",
               "href": "/docs"
             },
             {
               "title": "絶景露天風呂",
               "description": "富士山や渓谷美を眺めながら、極上の湯浴みを楽しめる温泉。",
-              "image": "hakone",
+              "image": "kusatsu",
               "href": "/docs"
             }
           ]

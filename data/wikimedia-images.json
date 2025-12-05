@@ -1,4 +1,32 @@
 {
+  "main": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/NDL-DC_1303648-Utagawa_Hiroshige-%E7%AE%B1%E6%A0%B9%E4%B8%83%E6%B9%AF%E5%9B%B3%E4%BC%9A_%E8%8A%A6%E3%81%AE%E3%82%86-%E5%98%89%E6%B0%B85-crd.jpg",
+    "author": "Utagawa Hiroshige",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "Hakone hot spring with steam - Hero image"
+  },
+  "hero": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/NDL-DC_1303648-Utagawa_Hiroshige-%E7%AE%B1%E6%A0%B9%E4%B8%83%E6%B9%AF%E5%9B%B3%E4%BC%9A_%E8%8A%A6%E3%81%AE%E3%82%86-%E5%98%89%E6%B0%B85-crd.jpg",
+    "author": "Utagawa Hiroshige",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "Hakone hot spring panorama"
+  },
+  "default": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "Japanese hot spring (default)"
+  },
+  "cta": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "Japanese hot spring at dusk - CTA background"
+  },
   "hakone": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/NDL-DC_1303648-Utagawa_Hiroshige-%E7%AE%B1%E6%A0%B9%E4%B8%83%E6%B9%AF%E5%9B%B3%E4%BC%9A_%E8%8A%A6%E3%81%AE%E3%82%86-%E5%98%89%E6%B0%B85-crd.jpg",
     "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hiroshige\" class=\"extiw\" title=\"w:en:Hiroshige\"><span title=\"Japanese ukiyo-e artist (1797–1858)\">Utagawa Hiroshige</span></a></bdi>",
@@ -124,5 +152,19 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "title": "File:Seibu-Chichibu Ekimae Onsen ac (4).jpg"
+  },
+  "kusatsu-sainokawara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "Kusatsu Sainokawara area (placeholder: using Kusatsu Yubatake)"
+  },
+  "okutama": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Okutama hot spring (placeholder: using Nikko Yumoto image)"
   }
 }
