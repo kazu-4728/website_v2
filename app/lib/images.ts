@@ -95,19 +95,23 @@ function createWikimediaMetadata(
  * - 写真家の情報は各画像のメタデータに含まれています
  */
 const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
-  // ヒーロー画像 - 温泉の湯気と風景
+  // ヒーロー画像 - 箱根強羅温泉の夜景（実写）
   hero: {
-    main: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring (onsen) with steam'
+    main: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
+      'Michael Casim',
+      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Hakone Gora Onsen - Dramatic night hot spring with steam'
     ),
-    default: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring (onsen) with steam'
+    default: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
+      'Michael Casim',
+      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Hakone Gora Onsen - Dramatic night hot spring with steam'
     ),
   },
   // 温泉地別の画像マッピング - 各温泉地に適した画像
@@ -272,13 +276,15 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'Japanese hot spring'
     ),
   },
-  // CTA画像
+  // CTA画像 - 日光湯元温泉の昼間の露天風呂（実写）
   cta: {
-    default: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring steam'
+    default: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Nikko Yumoto Onsen - Peaceful outdoor hot spring'
     ),
   },
   // ブログ画像
