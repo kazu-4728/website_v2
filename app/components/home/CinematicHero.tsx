@@ -6,7 +6,7 @@ import { Button } from '../ui/Button';
 import { ArrowRightIcon } from 'lucide-react';
 import { ImageCredit } from '../ui/ImageCredit';
 import { getImageMetadata } from '../../lib/images';
-import { motion, useReducedMotion, AnimatePresence } from 'framer-motion';
+import { motion, useReducedMotion, AnimatePresence, useMotionValue } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import type { HomeHero } from '../../lib/content';
 
@@ -24,36 +24,50 @@ export function CinematicHero({ data }: HeroProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const currentSlide = hasSlides ? slides[currentSlideIndex] : null;
   
-  // スライド自動切り替え（5秒ごと）
+  // スライド自動切り替え（3秒ごと、slides.length > 1の場合のみ）
   useEffect(() => {
-    if (!hasSlides || shouldReduceMotion) return;
+    if (!hasSlides || slides.length <= 1 || shouldReduceMotion) return;
     
     const interval = setInterval(() => {
       setCurrentSlideIndex((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 3000);
     
     return () => clearInterval(interval);
   }, [hasSlides, slides.length, shouldReduceMotion]);
 
-  // 使用する画像とメタデータ
-  const bgImage = hasSlides ? currentSlide?.bgImage || data.bgImage : data.bgImage;
-  const imageMetadata = getImageMetadata('hero', hasSlides ? currentSlide?.imageKey || 'main' : 'main');
+  // 使用する画像とメタデータ（背景画像だけがスライドで変わる）
+  const bgImage = hasSlides && currentSlide ? currentSlide.bgImage : data.bgImage;
+  const imageMetadata = getImageMetadata('hero', hasSlides && currentSlide ? currentSlide.imageKey : 'main');
   
-  // 表示するコンテンツ（スライドがある場合はスライドの内容、ない場合は従来のdata）
-  const displayData = hasSlides && currentSlide ? {
-    title: currentSlide.title,
-    subtitle: currentSlide.subtitle,
-    description: currentSlide.description,
-    secondaryDescription: currentSlide.secondaryDescription,
-    badges: currentSlide.badges,
-    actions: data.actions,
-  } : {
+  // テキストは固定（slides[]のテキストは使わない）
+  const displayData = {
     title: data.title,
     subtitle: data.subtitle,
     description: data.description,
     secondaryDescription: data.secondaryDescription,
     badges: data.badges,
     actions: data.actions,
+  };
+
+  // スワイプ対応（モバイル）
+  const [isDragging, setIsDragging] = useState(false);
+  const dragX = useMotionValue(0);
+
+  const handleDragEnd = (event: any, info: any) => {
+    const threshold = 50; // スワイプの閾値（ピクセル）
+    
+    if (Math.abs(info.offset.x) > threshold && hasSlides && slides.length > 1) {
+      if (info.offset.x > 0) {
+        // 右にスワイプ = 前のスライド
+        setCurrentSlideIndex((prev) => (prev - 1 + slides.length) % slides.length);
+      } else {
+        // 左にスワイプ = 次のスライド
+        setCurrentSlideIndex((prev) => (prev + 1) % slides.length);
+      }
+    }
+    
+    setIsDragging(false);
+    dragX.set(0);
   };
 
   // Animation variants
@@ -83,7 +97,14 @@ export function CinematicHero({ data }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with slow zoom and crossfade */}
-      <div className="absolute inset-0 z-0">
+      <motion.div 
+        className="absolute inset-0 z-0"
+        drag={hasSlides && slides.length > 1 && !shouldReduceMotion ? "x" : false}
+        dragElastic={0.2}
+        onDragStart={() => setIsDragging(true)}
+        onDragEnd={handleDragEnd}
+        style={{ x: dragX }}
+      >
         <AnimatePresence mode="wait">
           <motion.div
             key={hasSlides ? currentSlideIndex : 'single'}
@@ -97,7 +118,7 @@ export function CinematicHero({ data }: HeroProps) {
               initial="enter"
               animate="center"
               exit="exit"
-              transition={{ duration: 1.5, ease: 'easeInOut' }}
+              transition={{ duration: shouldReduceMotion ? 0 : 1.5, ease: 'easeInOut' }}
               className="absolute inset-0"
             >
               <Image
@@ -115,18 +136,15 @@ export function CinematicHero({ data }: HeroProps) {
             <ImageCredit metadata={imageMetadata} position="bottom-right" />
           </motion.div>
         </AnimatePresence>
-      </div>
+      </motion.div>
 
-      {/* Content */}
+      {/* Content - テキストは固定（背景だけが変わる） */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 text-center text-white py-32">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={hasSlides ? currentSlideIndex : 'single'}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.6 }}
-          >
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+        >
             {/* Subtitle */}
             <motion.p 
               className="text-lg md:text-xl font-light tracking-[0.3em] text-primary-400 mb-8 uppercase"
@@ -230,12 +248,11 @@ export function CinematicHero({ data }: HeroProps) {
                 </motion.div>
               ))}
             </motion.div>
-          </motion.div>
-        </AnimatePresence>
+        </motion.div>
       </div>
 
-      {/* Slide Indicators (only shown when slides exist) */}
-      {hasSlides && slides.length > 1 && (
+      {/* Slide Indicators (only shown when slides exist and more than 1) */}
+      {hasSlides && slides.length > 1 && !shouldReduceMotion && (
         <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 flex gap-2">
           {slides.map((_, index) => (
             <button
