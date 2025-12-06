@@ -7,14 +7,14 @@
 ## 📋 必須の確認事項
 
 ### 1. 今後の課題を確認（最重要）
-**[`docs/FUTURE_TASKS.md`](./docs/FUTURE_TASKS.md)** を最初に読んでください。
+**[`FUTURE_TASKS.md`](./FUTURE_TASKS.md)** を最初に読んでください。
 
 - ✅ 現在の課題と優先度が記載されています
 - ✅ 作業の方向性を理解するために必須です
 - ✅ **このファイルを参照せずに作業を開始しないでください**
 
 ### 2. アーキテクチャを理解
-**[`docs/MASTER_ARCHITECTURE.md`](./docs/MASTER_ARCHITECTURE.md)** で全体構造を把握してください。
+**[`MASTER_ARCHITECTURE.md`](./MASTER_ARCHITECTURE.md)** で全体構造を把握してください。
 
 - ✅ ファイル構造と依存関係が説明されています
 - ✅ 変更の影響範囲を理解するために重要です
@@ -22,9 +22,9 @@
 ### 3. 関連ドキュメントを確認
 作業内容に応じて、以下のドキュメントも参照してください：
 
-- **画像管理**: [`docs/IMAGE_DATA_LOCATION.md`](./docs/IMAGE_DATA_LOCATION.md)
-- **画像の問題**: [`docs/IMAGE_ISSUE_REPORT.md`](./docs/IMAGE_ISSUE_REPORT.md)
-- **コントリビューションガイド**: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- **画像管理**: [`IMAGE_DATA_LOCATION.md`](./IMAGE_DATA_LOCATION.md)
+- **画像の問題**: [`IMAGE_ISSUE_REPORT.md`](./IMAGE_ISSUE_REPORT.md)
+- **コントリビューションガイド**: [`CONTRIBUTING.md`](../CONTRIBUTING.md)
 
 ---
 
@@ -32,7 +32,7 @@
 
 1. **課題の確認**
    ```
-   docs/FUTURE_TASKS.md を開く
+   FUTURE_TASKS.md を開く
    ↓
    作業する課題を選択（優先度を考慮）
    ↓
@@ -62,7 +62,7 @@
 
 ## 📌 優先度の理解
 
-`docs/FUTURE_TASKS.md` では、課題が以下の優先度で分類されています：
+`FUTURE_TASKS.md` では、課題が以下の優先度で分類されています：
 
 - **🔴 高優先度**: サイトの信頼性に直結する重要な課題
 - **🟡 中優先度**: ユーザー体験やパフォーマンスに影響する課題
@@ -87,8 +87,8 @@
 
 | ファイル | 説明 |
 |---------|------|
-| [`docs/FUTURE_TASKS.md`](./docs/FUTURE_TASKS.md) | **今後の課題一覧（必ず最初に確認）** |
-| [`docs/MASTER_ARCHITECTURE.md`](./docs/MASTER_ARCHITECTURE.md) | アーキテクチャの詳細 |
+| [`FUTURE_TASKS.md`](./FUTURE_TASKS.md) | **今後の課題一覧（必ず最初に確認）** |
+| [`MASTER_ARCHITECTURE.md`](./MASTER_ARCHITECTURE.md) | アーキテクチャの詳細 |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | コントリビューションガイド |
 | [`themes/onsen-kanto/content.json`](./themes/onsen-kanto/content.json) | サイトのコンテンツ設定 |
 | [`data/wikimedia-images.json`](./data/wikimedia-images.json) | 画像データ |
@@ -108,7 +108,7 @@
 
 ## ❓ 質問や問題がある場合
 
-1. まず [`docs/FUTURE_TASKS.md`](./docs/FUTURE_TASKS.md) を確認
+1. まず [`FUTURE_TASKS.md`](./FUTURE_TASKS.md) を確認
 2. 関連するドキュメントを確認
 3. それでも解決しない場合は、Issueを作成してください
 
@@ -118,8 +118,8 @@
 
 作業を開始する前に、以下を確認してください：
 
-- [ ] [`docs/FUTURE_TASKS.md`](./docs/FUTURE_TASKS.md) を読みました
-- [ ] [`docs/MASTER_ARCHITECTURE.md`](./docs/MASTER_ARCHITECTURE.md) を読みました
+- [ ] [`FUTURE_TASKS.md`](./FUTURE_TASKS.md) を読みました
+- [ ] [`MASTER_ARCHITECTURE.md`](./MASTER_ARCHITECTURE.md) を読みました
 - [ ] 作業する課題を選択しました
 - [ ] 関連するドキュメントを確認しました
 - [ ] 環境の準備が完了しました
