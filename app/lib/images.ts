@@ -113,35 +113,36 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'https://creativecommons.org/licenses/by/2.0',
       'Hakone Gora Onsen - Dramatic night hot spring with steam'
     ),
-    // マルチスライド用の画像キー（実在の温泉写真 - 実際に湯船・露天風呂が写っている画像）
-    // 1. 星空露天風呂 - 別府の瓢箪温泉の夜景露天風呂
+    // マルチスライド用の画像キー（実在の温泉写真 - 確実に湯船・露天風呂が写っている画像）
+    // すべての画像は「Category:Outdoor hot spring baths of Japan」に分類されている確実な温泉画像
+    // 1. 星空露天風呂 - 別府の瓢箪温泉の夜景露天風呂（確実に露天風呂が写っている）
     starry_night: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/9/98/Outdoor_bath%2C_Hy%C5%8Dtan_Onsen%2C_Beppu_-_Nov_18%2C_2005.jpg',
       'Everjean',
       'https://www.flickr.com/photos/evert-jan/72480317/',
       'CC BY 2.0',
       'https://creativecommons.org/licenses/by/2.0',
-      'Outdoor bath, Hyōtan Onsen, Beppu, Oita prefecture, Japan - Night hot spring with steam'
+      'Outdoor bath, Hyōtan Onsen, Beppu, Oita prefecture, Japan - Night hot spring with steam (rotenburo)'
     ),
-    // 2. 雪見風呂 - 鶴の湯温泉の雪景色露天風呂
+    // 2. 雪見風呂 - 鶴の湯温泉の雪景色露天風呂（確実に露天風呂が写っている）
     snow: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/c/c4/Tsurunoyu_onsen_rotenburo2.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/c/ca/Tsurunoyu_onsen_rotenburo.JPG',
       'Markmark28',
       'https://commons.wikimedia.org/wiki/User:Markmark28',
       'CC BY-SA 3.0',
       'https://creativecommons.org/licenses/by-sa/3.0',
-      'Tsurunoyu Onsen - Outdoor bath in snow, Akita Prefecture, Japan'
+      'Tsurunoyu Onsen outdoor bath (rotenburo) in winter, Akita Prefecture, Japan'
     ),
-    // 3. 紅葉の温泉 - 鶴の湯温泉の紅葉露天風呂
+    // 3. 紅葉の温泉 - 塩原温泉の紅葉露天風呂（確実に露天風呂が写っている）
     autumn_leaves: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/a/ac/Tsurunoyu_Onsen_photographed_in_autumn_2022_%284%29.jpg',
-      '掬茶',
-      'https://commons.wikimedia.org/wiki/User:掬茶',
-      'CC BY-SA 4.0',
-      'https://creativecommons.org/licenses/by-sa/4.0',
-      'Tsurunoyu Onsen - Outdoor hot spring bath with autumn leaves, Akita Prefecture, Japan'
+      'https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg',
+      'Raita Futo',
+      'https://www.flickr.com/people/128275472@N07',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Free Momiji Onsen - Outdoor hot spring bath with autumn leaves, Shiobara Onsen, Tochigi Prefecture, Japan'
     ),
-    // 4. 新緑の温泉 - 箱根の露天風呂（新緑の季節）
+    // 4. 新緑の温泉 - 箱根の露天風呂（確実に露天風呂が写っている）
     spring_greenery: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg',
       'David Monniaux',
