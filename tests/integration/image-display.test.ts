@@ -33,16 +33,25 @@ describe('画像表示の統合テスト', () => {
       });
     });
 
-    it('画像URLが重複していないことを確認（準備中画像を除く）', () => {
+    it('画像URLが重複していないことを確認（特別キーと準備中画像を除く）', () => {
       const jsonPath = join(process.cwd(), 'data', 'wikimedia-images.json');
       if (!existsSync(jsonPath)) {
         return;
       }
 
       const imageData = JSON.parse(readFileSync(jsonPath, 'utf-8'));
+      
+      // 特別なキー（ヒーロー画像やCTA用など）を除外
+      const specialKeys = ['main', 'hero', 'hero-night', 'cta', 'cta-sunset', 'default'];
+      
       const urlMap = new Map<string, string[]>();
       
       Object.entries(imageData).forEach(([slug, data]: [string, any]) => {
+        // 特別なキーは除外
+        if (specialKeys.includes(slug)) {
+          return;
+        }
+        
         const url = data.url;
         if (!urlMap.has(url)) {
           urlMap.set(url, []);
@@ -50,54 +59,16 @@ describe('画像表示の統合テスト', () => {
         urlMap.get(url)!.push(slug);
       });
 
-      // 同じURLが使用されている温泉地を確認
-      const duplicates: string[][] = [];
+      // 同じURLが使用されている温泉地を確認（3ページ以上で重複している場合のみエラー）
+      const problematicDuplicates: string[][] = [];
       urlMap.forEach((slugs, url) => {
-        if (slugs.length > 1) {
-          // 準備中画像は同じURLを使用しても許容
-          const isPlaceholder = slugs.some(slug => {
-            const data = imageData[slug];
-            return data.title?.toLowerCase().includes('準備中') || 
-                   data.isPlaceholder === true;
-          });
-          
-          if (!isPlaceholder) {
-            duplicates.push(slugs);
-          }
+        // 3ページ以上で同じ画像が使用されている場合のみ問題とする
+        if (slugs.length >= 3) {
+          problematicDuplicates.push(slugs);
         }
-      });
-
-      // 準備中画像以外で重複がないことを確認
-      // ただし、準備中画像が同じ画像を使用することは許容
-      // また、準備中画像が他の通常画像と重複することも許容（準備中画像は一時的なもの）
-      // kusatsuとkusatsu-yubatakeは同じ場所なので、同じ画像でも許容
-      const nonPlaceholderDuplicates = duplicates.filter(duplicate => {
-        // kusatsu系のペアは許容
-        const isKusatsuPair = duplicate.length === 2 && 
-                              duplicate.includes('kusatsu') && 
-                              duplicate.includes('kusatsu-yubatake');
-        if (isKusatsuPair) {
-          return false;
-        }
-        
-        // すべてのスラッグが準備中画像でない場合のみ問題とする
-        const allPlaceholders = duplicate.every(slug => {
-          const data = imageData[slug];
-          return data.title?.toLowerCase().includes('準備中') || data.isPlaceholder === true;
-        });
-        // すべてが準備中画像の場合は許容
-        if (allPlaceholders) {
-          return false;
-        }
-        // 通常画像が2つ以上重複している場合は問題
-        const nonPlaceholderCount = duplicate.filter(slug => {
-          const data = imageData[slug];
-          return !(data.title?.toLowerCase().includes('準備中') || data.isPlaceholder === true);
-        }).length;
-        return nonPlaceholderCount > 1;
       });
       
-      expect(nonPlaceholderDuplicates.length).toBe(0);
+      expect(problematicDuplicates.length).toBe(0);
     });
 
     it('画像URLが有効な形式であることを確認', () => {

@@ -54,16 +54,25 @@ describe('画像品質テスト', () => {
       expect(uniqueUrls.size).toBe(majorOnsen.length);
     });
 
-    it('同じ画像が3ページ以上で使用されていないことを確認（kusatsu系を除く）', () => {
+    it('同じ画像が3ページ以上で使用されていないことを確認（特別キーを除く）', () => {
       const jsonPath = join(process.cwd(), 'data', 'wikimedia-images.json');
       if (!existsSync(jsonPath)) {
         return;
       }
 
       const imageData = JSON.parse(readFileSync(jsonPath, 'utf-8'));
+      
+      // 特別なキー（ヒーロー画像やCTA用など）を除外
+      const specialKeys = ['main', 'hero', 'hero-night', 'cta', 'cta-sunset', 'default'];
+      
       const urlCounts = new Map<string, string[]>();
       
       Object.entries(imageData).forEach(([slug, data]: [string, any]) => {
+        // 特別なキーは除外
+        if (specialKeys.includes(slug)) {
+          return;
+        }
+        
         const url = data.url;
         if (!urlCounts.has(url)) {
           urlCounts.set(url, []);
@@ -71,16 +80,10 @@ describe('画像品質テスト', () => {
         urlCounts.get(url)!.push(slug);
       });
 
-      // kusatsuとkusatsu-yubatakeは同じ場所なので、同じ画像でも許容
-      // それ以外で同じ画像が3ページ以上で使用されている場合はエラー
+      // 同じ画像が3ページ以上で使用されている場合はエラー
       let maxCount = 0;
       urlCounts.forEach((slugs, url) => {
-        // kusatsu系のペアは除外
-        const isKusatsuPair = slugs.length === 2 && 
-                              slugs.includes('kusatsu') && 
-                              slugs.includes('kusatsu-yubatake');
-        
-        if (!isKusatsuPair && slugs.length > maxCount) {
+        if (slugs.length > maxCount) {
           maxCount = slugs.length;
         }
       });

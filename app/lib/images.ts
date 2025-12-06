@@ -85,71 +85,68 @@ function createWikimediaMetadata(
 
 /**
  * 温泉テーマ用の画像マッピング
- * 各温泉地に適した画像を事前に定義（実際の温泉画像を使用）
- * Unsplashで「onsen」「hot spring」「japan」で検索した実際の温泉画像を使用
+ * 各温泉地に適した画像を事前に定義（Wikimedia Commonsから取得した実際の温泉画像を使用）
  * 
- * 注意: 以下の画像はUnsplashから取得した実際の温泉画像です
- * ライセンス: Unsplash License (https://unsplash.com/license)
- * - 無料で商用利用可能
- * - クレジット表示は推奨されるが必須ではない
+ * 注意: 以下の画像はWikimedia Commonsから取得した実際の温泉画像です
+ * ライセンス: CC BY / CC BY-SA（各画像のメタデータに記載）
+ * - クレジット表示必須
  * - 写真家の情報は各画像のメタデータに含まれています
  */
 const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
-  // ヒーロー画像 - 箱根強羅温泉の夜景（実写）
+  // ヒーロー画像 - 関東の温泉実写
   hero: {
     main: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
-      'Michael Casim',
-      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
-      'CC BY 2.0',
-      'https://creativecommons.org/licenses/by/2.0',
-      'Hakone Gora Onsen - Dramatic night hot spring with steam'
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hakone_Yumoto_onsen_1.JPG/1280px-Hakone_Yumoto_onsen_1.JPG',
+      'Kakidai',
+      'https://commons.wikimedia.org/wiki/User:Kakidai',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Hakone Yumoto Onsen - Main view of the famous hot spring town'
     ),
     default: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
-      'Michael Casim',
-      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
-      'CC BY 2.0',
-      'https://creativecommons.org/licenses/by/2.0',
-      'Hakone Gora Onsen - Dramatic night hot spring with steam'
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg/1280px-Gorakadan_Onsen_Rotenburo_1.jpg',
+      'Chris 73',
+      'https://commons.wikimedia.org/wiki/User:Chris_73',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Gorakadan Onsen outdoor bath in Hakone'
     ),
-    // マルチスライド用の画像キー（関東地方の温泉写真 - 確実に湯船・露天風呂が写っている画像）
-    // すべての画像は関東地方（神奈川県・栃木県）の温泉で、確実に温泉（露天風呂）が写っている画像
-    // 1. 星空露天風呂 - 箱根強羅温泉の夜景露天風呂（神奈川県・関東地方）
+    // マルチスライド用の画像キー（関東地方の温泉写真 - 実際の露天風呂が写っている画像）
+    // 1. 星空・夜の温泉 - 箱根強羅温泉の夜景露天風呂（神奈川県）
     starry_night: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
       'Michael Casim',
       'https://commons.wikimedia.org/wiki/User:Michael_Casim',
       'CC BY 2.0',
       'https://creativecommons.org/licenses/by/2.0',
-      'Hakone Gora Onsen - Dramatic night hot spring with steam, Kanagawa Prefecture, Japan (rotenburo)'
+      'Hakone Gora Onsen at night with steam rising - Kanagawa Prefecture'
     ),
-    // 2. 雪見風呂 - 箱根の露天風呂（神奈川県・関東地方）- 箱根強羅温泉の露天風呂を使用
+    // 2. 雪見風呂・冬の温泉 - 箱根強羅温泉の露天風呂（神奈川県）
     snow: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg/1280px-Gorakadan_Onsen_Rotenburo_1.jpg',
       'Chris 73',
       'https://commons.wikimedia.org/wiki/User:Chris_73',
       'CC BY-SA 3.0',
       'https://creativecommons.org/licenses/by-sa/3.0',
-      'Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan'
+      'Gorakadan Onsen outdoor bath (rotenburo) in Hakone - Winter scene'
     ),
-    // 3. 紅葉の温泉 - 塩原温泉の紅葉露天風呂（栃木県・関東地方）
+    // 3. 紅葉の温泉 - 塩原温泉の紅葉露天風呂（栃木県）
     autumn_leaves: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg',
       'Raita Futo',
       'https://www.flickr.com/people/128275472@N07',
       'CC BY 2.0',
       'https://creativecommons.org/licenses/by/2.0',
-      'Free Momiji Onsen - Outdoor hot spring bath with autumn leaves, Shiobara Onsen, Tochigi Prefecture, Japan'
+      'Momiji (autumn leaves) Onsen at Shiobara, Tochigi Prefecture'
     ),
-    // 4. 新緑の温泉 - 箱根の露天風呂（神奈川県・関東地方）
+    // 4. 新緑・春の温泉 - 水上温泉の宝川温泉（群馬県）
     spring_greenery: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg',
-      'David Monniaux',
-      'https://commons.wikimedia.org/wiki/User:David.Monniaux',
-      'CC BY-SA 3.0',
-      'https://creativecommons.org/licenses/by-sa/3.0',
-      'Outside bath (rotenburo) in the Fuji-Hakone Guest House in Hakone, Kanagawa Prefecture, Japan'
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Minakami_onsen_takaragawa_13.jpg/1280px-Minakami_onsen_takaragawa_13.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY 2.5',
+      'https://creativecommons.org/licenses/by/2.5',
+      'Takaragawa Onsen outdoor bath in Minakami - Surrounded by greenery'
     ),
   },
   // 温泉地別の画像マッピング - 各温泉地に適した画像
@@ -523,37 +520,31 @@ export function getImageMetadata(
   return null;
 }
 
+// Wikimedia画像データを静的にインポート（fsを使わない）
+import wikimediaImagesData from '../../data/wikimedia-images.json';
+
+// 型定義
+interface WikimediaImageEntry {
+  url: string;
+  author: string;
+  license: string;
+  licenseUrl: string;
+  title: string;
+}
+
+// 画像データをキャッシュ
+const wikimediaImages: Record<string, WikimediaImageEntry> = wikimediaImagesData;
+
 /**
  * 温泉地の画像を取得（同期版）
  * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
  */
 export function getOnsenImage(onsenSlug: string): string {
-  // まず、data/wikimedia-images.jsonから画像を取得を試みる
-  try {
-    const fs = require('fs');
-    const path = require('path');
-    const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
-    
-    if (fs.existsSync(jsonPath)) {
-      const fileContent = fs.readFileSync(jsonPath, 'utf-8');
-      // 空のファイルや不完全なJSONをチェック
-      if (!fileContent || fileContent.trim().length === 0) {
-        throw new Error('Empty file');
-      }
-      
-      const imageData = JSON.parse(fileContent);
-      const cachedImage = imageData[onsenSlug];
-      
-      if (cachedImage?.url) {
-        return cachedImage.url;
-      }
-    }
-  } catch (error) {
-    // エラーが発生した場合はフォールバックを使用
-    // ビルド時にはエラーを出力しない（静かにフォールバック）
-    if (process.env.NODE_ENV !== 'production' || process.env.SKIP_CHECK !== 'true') {
-      console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
-    }
+  // wikimedia-images.jsonから画像を取得
+  const cachedImage = wikimediaImages[onsenSlug];
+  
+  if (cachedImage?.url) {
+    return cachedImage.url;
   }
   
   // フォールバック: 事前定義された画像を使用

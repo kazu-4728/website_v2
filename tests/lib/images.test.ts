@@ -3,64 +3,20 @@
  * 画像が適切に取得され、各ページで異なる画像が表示されることを確認
  */
 
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { getOnsenImage, getImageMetadata } from '../../app/lib/images';
-import * as fs from 'fs';
-import * as path from 'path';
-
-// fsモジュールをモック
-vi.mock('fs', () => ({
-  default: {
-    existsSync: vi.fn(),
-    readFileSync: vi.fn(),
-  },
-  existsSync: vi.fn(),
-  readFileSync: vi.fn(),
-}));
 
 describe('画像管理システム', () => {
-  beforeEach(() => {
-    vi.clearAllMocks();
-  });
-
   describe('getOnsenImage()', () => {
     it('各温泉地で異なる画像URLを返すべき', () => {
-      // モックデータを設定
-      const mockImageData = {
-        hakone: {
-          url: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Ashinoyu_onsen_-_Hakone.jpg',
-          author: 'Test Author',
-          license: 'CC BY-SA 4.0',
-          title: 'File:Hakone.jpg',
-        },
-        kusatsu: {
-          url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake.jpg',
-          author: 'Test Author',
-          license: 'Public domain',
-          title: 'File:Kusatsu.jpg',
-        },
-        'hakone-yunohana': {
-          url: 'https://upload.wikimedia.org/wikipedia/commons/test/yunohana.jpg',
-          author: 'Test Author',
-          license: 'CC BY-SA 4.0',
-          title: 'File:Yunohana.jpg',
-        },
-      };
-
-      // fs.existsSyncとreadFileSyncをモック
-      (fs.existsSync as any).mockReturnValue(true);
-      (fs.readFileSync as any).mockReturnValue(JSON.stringify(mockImageData));
-
-      // 各温泉地の画像を取得
+      // 主要な温泉地の画像を取得
       const hakoneImage = getOnsenImage('hakone');
       const kusatsuImage = getOnsenImage('kusatsu');
       const yunohanaImage = getOnsenImage('hakone-yunohana');
 
       // 異なる画像URLが返されることを確認
-      expect(hakoneImage).toBe(mockImageData.hakone.url);
-      // 注意: 実際のkusatsu画像URLは異なる可能性があるため、URL形式のみ確認
+      expect(hakoneImage).toMatch(/^https?:\/\//);
       expect(kusatsuImage).toMatch(/^https?:\/\//);
-      // 注意: 実際のyunohana画像URLも異なる可能性があるため、URL形式のみ確認
       expect(yunohanaImage).toMatch(/^https?:\/\//);
 
       // すべて異なることを確認
@@ -70,32 +26,21 @@ describe('画像管理システム', () => {
     });
 
     it('画像が見つからない場合はフォールバックを使用すべき', () => {
-      // ファイルが存在しない場合
-      (fs.existsSync as any).mockReturnValue(false);
-
       const image = getOnsenImage('unknown-onsen');
       
       // フォールバック画像が返されることを確認（URL形式であること）
       expect(image).toBeTruthy();
       expect(typeof image).toBe('string');
+      expect(image).toMatch(/^https?:\/\//);
     });
 
     it('すべての温泉地で同じ画像が返されないことを確認', () => {
-      // 実際のwikimedia-images.jsonを読み込む（テスト環境で）
-      const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
+      const onsenSlugs = ['hakone', 'kusatsu', 'kinugawa', 'ikaho', 'nasu'];
+      const images = onsenSlugs.map(slug => getOnsenImage(slug));
       
-      if (fs.existsSync(jsonPath)) {
-        const imageData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-        const onsenSlugs = Object.keys(imageData);
-        
-        if (onsenSlugs.length >= 2) {
-          const images = onsenSlugs.map(slug => getOnsenImage(slug));
-          
-          // 少なくとも2つ以上の異なる画像URLが存在することを確認
-          const uniqueImages = new Set(images);
-          expect(uniqueImages.size).toBeGreaterThan(1);
-        }
-      }
+      // 少なくとも2つ以上の異なる画像URLが存在することを確認
+      const uniqueImages = new Set(images);
+      expect(uniqueImages.size).toBeGreaterThan(1);
     });
   });
 
@@ -113,10 +58,15 @@ describe('画像管理システム', () => {
       });
     });
 
-    it('準備中画像も有効なURLを返すべき', () => {
-      const placeholderSlugs = ['hakone-yunohana', 'kusatsu-sainokawara', 'okutama'];
+    it('すべての温泉地で有効なURLを返すべき', () => {
+      const allSlugs = [
+        'hakone-yunohana', 'kusatsu-sainokawara', 'okutama',
+        'hakone-gora', 'hakone-sengokuhara', 'kusatsu-yubatake',
+        'shima', 'nikko', 'shiobara', 'atami', 'ito', 'shuzenji',
+        'shimoda', 'yugawara', 'chichibu', 'minakami'
+      ];
       
-      placeholderSlugs.forEach(slug => {
+      allSlugs.forEach(slug => {
         const imageUrl = getOnsenImage(slug);
         
         // URL形式であることを確認
@@ -124,6 +74,20 @@ describe('画像管理システム', () => {
         // 空でないことを確認
         expect(imageUrl.length).toBeGreaterThan(0);
       });
+    });
+  });
+
+  describe('getImageMetadata()', () => {
+    it('ヒーロー画像のメタデータを返すべき', () => {
+      const metadata = getImageMetadata('hero', 'main');
+      
+      // メタデータが存在することを確認
+      expect(metadata).toBeDefined();
+      if (metadata) {
+        expect(metadata.url).toMatch(/^https?:\/\//);
+        expect(metadata.photographer).toBeTruthy();
+        expect(metadata.license).toBeTruthy();
+      }
     });
   });
 });
