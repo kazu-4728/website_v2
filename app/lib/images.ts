@@ -113,27 +113,27 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'https://creativecommons.org/licenses/by/2.0',
       'Hakone Gora Onsen - Dramatic night hot spring with steam'
     ),
-    // マルチスライド用の画像キー（実在の温泉写真 - 確実に湯船・露天風呂が写っている画像）
-    // すべての画像は「Category:Outdoor hot spring baths of Japan」に分類されている確実な温泉画像
-    // 1. 星空露天風呂 - 別府の瓢箪温泉の夜景露天風呂（確実に露天風呂が写っている）
+    // マルチスライド用の画像キー（関東地方の温泉写真 - 確実に湯船・露天風呂が写っている画像）
+    // すべての画像は関東地方（神奈川県・栃木県）の温泉で、確実に温泉（露天風呂）が写っている画像
+    // 1. 星空露天風呂 - 箱根強羅温泉の夜景露天風呂（神奈川県・関東地方）
     starry_night: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/9/98/Outdoor_bath%2C_Hy%C5%8Dtan_Onsen%2C_Beppu_-_Nov_18%2C_2005.jpg',
-      'Everjean',
-      'https://www.flickr.com/photos/evert-jan/72480317/',
+      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
+      'Michael Casim',
+      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
       'CC BY 2.0',
       'https://creativecommons.org/licenses/by/2.0',
-      'Outdoor bath, Hyōtan Onsen, Beppu, Oita prefecture, Japan - Night hot spring with steam (rotenburo)'
+      'Hakone Gora Onsen - Dramatic night hot spring with steam, Kanagawa Prefecture, Japan (rotenburo)'
     ),
-    // 2. 雪見風呂 - 鶴の湯温泉の雪景色露天風呂（確実に露天風呂が写っている）
+    // 2. 雪見風呂 - 箱根の露天風呂（神奈川県・関東地方）- 箱根強羅温泉の露天風呂を使用
     snow: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/c/ca/Tsurunoyu_onsen_rotenburo.JPG',
-      'Markmark28',
-      'https://commons.wikimedia.org/wiki/User:Markmark28',
+      'https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg',
+      'Chris 73',
+      'https://commons.wikimedia.org/wiki/User:Chris_73',
       'CC BY-SA 3.0',
       'https://creativecommons.org/licenses/by-sa/3.0',
-      'Tsurunoyu Onsen outdoor bath (rotenburo) in winter, Akita Prefecture, Japan'
+      'Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan'
     ),
-    // 3. 紅葉の温泉 - 塩原温泉の紅葉露天風呂（確実に露天風呂が写っている）
+    // 3. 紅葉の温泉 - 塩原温泉の紅葉露天風呂（栃木県・関東地方）
     autumn_leaves: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg',
       'Raita Futo',
@@ -142,14 +142,14 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'https://creativecommons.org/licenses/by/2.0',
       'Free Momiji Onsen - Outdoor hot spring bath with autumn leaves, Shiobara Onsen, Tochigi Prefecture, Japan'
     ),
-    // 4. 新緑の温泉 - 箱根の露天風呂（確実に露天風呂が写っている）
+    // 4. 新緑の温泉 - 箱根の露天風呂（神奈川県・関東地方）
     spring_greenery: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg',
       'David Monniaux',
       'https://commons.wikimedia.org/wiki/User:David.Monniaux',
       'CC BY-SA 3.0',
       'https://creativecommons.org/licenses/by-sa/3.0',
-      'Outside bath (rotenburo) in the Fuji-Hakone Guest House in Hakone, Japan'
+      'Outside bath (rotenburo) in the Fuji-Hakone Guest House in Hakone, Kanagawa Prefecture, Japan'
     ),
   },
   // 温泉地別の画像マッピング - 各温泉地に適した画像

@@ -97,18 +97,21 @@
 - **自動切り替え**: 3秒ごとに自動で次のスライドに切り替わる（`slides.length > 1`の場合のみ）
 - **アクセシビリティ**: `prefers-reduced-motion`が有効な場合は、自動スライドとアニメーションを無効化
 
-### 使用した温泉写真の一覧（確実に温泉が写っている画像）
+### 使用した温泉写真の一覧（関東地方の温泉 - 確実に温泉が写っている画像）
 
-**重要**: すべての画像は「Category:Outdoor hot spring baths of Japan」に分類されている、または説明文に「rotenburo（露天風呂）」「outdoor bath」と明記されている、**確実に温泉（湯船・露天風呂）が写っている画像**です。
+**重要**: 
+- すべての画像は**関東地方**（神奈川県・栃木県）の温泉です
+- すべての画像は「Category:Outdoor hot spring baths of Japan」に分類されている、または説明文に「rotenburo（露天風呂）」「outdoor bath」と明記されている、**確実に温泉（湯船・露天風呂）が写っている画像**です
 
-| 画像キー | 場所 | 直接URL | 撮影者 | ライセンス | 取得元（Wikimedia Commons） |
-|---------|------|---------|--------|-----------|---------------------------|
-| `starry_night` | 別府の瓢箪温泉（大分県） | `https://upload.wikimedia.org/wikipedia/commons/9/98/Outdoor_bath%2C_Hy%C5%8Dtan_Onsen%2C_Beppu_-_Nov_18%2C_2005.jpg` | Everjean | CC BY 2.0 | [File:Outdoor bath, Hyōtan Onsen, Beppu - Nov 18, 2005.jpg](https://commons.wikimedia.org/wiki/File:Outdoor_bath,_Hy%C5%8Dtan_Onsen,_Beppu_-_Nov_18,_2005.jpg) |
-| `snow` | 鶴の湯温泉（秋田県） | `https://upload.wikimedia.org/wikipedia/commons/c/ca/Tsurunoyu_onsen_rotenburo.JPG` | Markmark28 | CC BY-SA 3.0 | [File:Tsurunoyu onsen rotenburo.JPG](https://commons.wikimedia.org/wiki/File:Tsurunoyu_onsen_rotenburo.JPG)<br>説明: "The Tsurunoyu Onsen outdoor bath (rotenburo) in winter." |
+| 画像キー | 場所（関東地方） | 直接URL | 撮影者 | ライセンス | 取得元（Wikimedia Commons） |
+|---------|---------------|---------|--------|-----------|---------------------------|
+| `starry_night` | 箱根強羅温泉（神奈川県） | `https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg` | Michael Casim | CC BY 2.0 | [File:季の湯 雪月花 箱根強羅温泉 Apr 2, 2015.jpg](https://commons.wikimedia.org/wiki/File:季の湯_雪月花_箱根強羅温泉_Apr_2,_2015.jpg)<br>説明: "Hakone Gora Onsen - Dramatic night hot spring with steam" |
+| `snow` | 箱根強羅温泉（神奈川県） | `https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg` | Chris 73 | CC BY-SA 3.0 | [File:Gorakadan Onsen Rotenburo 1.jpg](https://commons.wikimedia.org/wiki/File:Gorakadan_Onsen_Rotenburo_1.jpg)<br>説明: "Private Rotenburo in the Gorakadan Onsen" |
 | `autumn_leaves` | 塩原温泉（栃木県） | `https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg` | Raita Futo | CC BY 2.0 | [File:Free Momiji Onsen (52510073823).jpg](https://commons.wikimedia.org/wiki/File:Free_Momiji_Onsen_(52510073823).jpg)<br>カテゴリ: "Outdoor hot spring baths of Japan" |
 | `spring_greenery` | 箱根の富士箱根ゲストハウス（神奈川県） | `https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg` | David Monniaux | CC BY-SA 3.0 | [File:Japanese bath dsc05407.jpg](https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg)<br>説明: "Outside bath (rotenburo) in the Fuji-Hakone Guest House" |
 
 **選定基準**:
+- **関東地方**（神奈川県・栃木県）の温泉に限定
 - Wikimedia Commonsの「Category:Outdoor hot spring baths of Japan」カテゴリから選定
 - または、説明文に「rotenburo（露天風呂）」「outdoor bath」と明記されている画像
 - ファイル名に「Rotenburo」「outdoor bath」が含まれている画像
