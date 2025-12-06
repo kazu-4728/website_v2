@@ -6,7 +6,7 @@
  * 
  * 1. [`.cursorrules`](../../.cursorrules) - 共通ルールとアーキテクチャ
  * 2. [`docs/CODEX_AGENT_RULES.md`](../../docs/CODEX_AGENT_RULES.md) - Codex 向けの補足ルール
- * 3. [`START_HERE.md`](../../START_HERE.md) - 作業開始時の必須確認事項
+ * 3. [`docs/START_HERE.md`](../../docs/START_HERE.md) - 作業開始時の必須確認事項
  * 
  * 注意: このファイルには古い仕様が含まれている可能性があります。
  * 参考にする場合は、内容を最新の設計に合わせて確認してください。

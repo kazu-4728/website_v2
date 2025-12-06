@@ -4,7 +4,7 @@
 
 **重要**: このリポジトリで作業を開始する前に、**必ず最初に以下を確認してください**：
 
-1. **[`START_HERE.md`](./START_HERE.md)** を最初に読んでください
+1. **[`docs/START_HERE.md`](./docs/START_HERE.md)** を最初に読んでください
    - 作業開始時の必須確認事項が記載されています
    - **このファイルを参照せずに作業を開始しないでください**
 
@@ -56,7 +56,7 @@
 
 ## 📁 重要なファイル
 
-- `START_HERE.md` - **作業開始時の必須確認事項（最優先）**
+- `docs/START_HERE.md` - **作業開始時の必須確認事項（最優先）**
 - `docs/FUTURE_TASKS.md` - **今後の課題一覧（必須）**
 - `docs/MASTER_ARCHITECTURE.md` - アーキテクチャの詳細
 - `CONTRIBUTING.md` - コントリビューションガイド
@@ -139,7 +139,7 @@
 
 作業を開始する前に、以下を確認してください：
 
-- [ ] `START_HERE.md` を読みました
+- [ ] `docs/START_HERE.md` を読みました
 - [ ] `docs/FUTURE_TASKS.md` を読みました
 - [ ] `docs/MASTER_ARCHITECTURE.md` を読みました
 - [ ] 作業する課題を選択しました
