@@ -97,14 +97,16 @@
 - **自動切り替え**: 3秒ごとに自動で次のスライドに切り替わる（`slides.length > 1`の場合のみ）
 - **アクセシビリティ**: `prefers-reduced-motion`が有効な場合は、自動スライドとアニメーションを無効化
 
-### 使用した温泉写真の一覧
+### 使用した温泉写真の一覧（実在の温泉画像 - 実際に湯船・露天風呂が写っている画像）
 
-| 画像キー | 場所 | URL | 撮影者 | ライセンス |
-|---------|------|-----|--------|-----------|
-| `starry_night` | 箱根強羅温泉 | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg) | Michael Casim | CC BY 2.0 |
-| `snow` | 日光湯元温泉（栃木県） | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg) | 663highland | CC BY-SA 4.0 |
-| `autumn_leaves` | 塩原温泉 | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg) | Raita Futo | CC BY 2.0 |
-| `spring_greenery` | 日光湯元温泉（栃木県） | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg) | 663highland | CC BY-SA 4.0 |
+| 画像キー | 場所 | URL | 撮影者 | ライセンス | 取得元 |
+|---------|------|-----|--------|-----------|--------|
+| `starry_night` | 別府の瓢箪温泉（大分県） | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/9/98/Outdoor_bath%2C_Hy%C5%8Dtan_Onsen%2C_Beppu_-_Nov_18%2C_2005.jpg) | Everjean | CC BY 2.0 | [File:Outdoor bath, Hyōtan Onsen, Beppu - Nov 18, 2005.jpg](https://commons.wikimedia.org/wiki/File:Outdoor_bath,_Hy%C5%8Dtan_Onsen,_Beppu_-_Nov_18,_2005.jpg) |
+| `snow` | 鶴の湯温泉（秋田県） | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/c/c4/Tsurunoyu_onsen_rotenburo2.JPG) | Markmark28 | CC BY-SA 3.0 | [File:Tsurunoyu onsen rotenburo2.JPG](https://commons.wikimedia.org/wiki/File:Tsurunoyu_onsen_rotenburo2.JPG) |
+| `autumn_leaves` | 鶴の湯温泉（秋田県） | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/a/ac/Tsurunoyu_Onsen_photographed_in_autumn_2022_%284%29.jpg) | 掬茶 | CC BY-SA 4.0 | [File:Tsurunoyu Onsen photographed in autumn 2022 (4).jpg](https://commons.wikimedia.org/wiki/File:Tsurunoyu_Onsen_photographed_in_autumn_2022_(4).jpg) |
+| `spring_greenery` | 箱根の富士箱根ゲストハウス（神奈川県） | [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg) | David Monniaux | CC BY-SA 3.0 | [File:Japanese bath dsc05407.jpg](https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg) |
+
+**注意**: すべての画像は実際に温泉（湯船・露天風呂）が写っている実在の温泉画像です。Wikimedia Commonsから適切なキーワードで検索し、実際に湯船が写っている画像を選定しました。
 
 ### ビルド・リント結果
 
