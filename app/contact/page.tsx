@@ -1,12 +1,11 @@
 import { loadContent } from '../lib/content';
-import { Button } from '../components/ui/Button';
-import { MailIcon, MapPinIcon, ArrowRightIcon, ArrowLeftIcon } from 'lucide-react';
+import { MailIcon, MapPinIcon, ArrowLeftIcon } from 'lucide-react';
 import Link from 'next/link';
+import { ContactForm } from './ContactForm';
 
 export default async function ContactPage() {
   const content = await loadContent();
   const contactData = content.pages.contact;
-
   const texts = content.texts;
 
   if (!contactData) {
@@ -33,20 +32,31 @@ export default async function ContactPage() {
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none" />
           
           <div className="relative z-10">
-            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">{texts.pages.contact.title}</p>
+            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">{texts.pages.contact?.title}</p>
             <h1 
               className="text-5xl lg:text-7xl font-bold text-white mb-8 tracking-tighter leading-tight"
               dangerouslySetInnerHTML={{ __html: contactData.title }}
             />
             
-            <div className="space-y-8 mt-12">
+            {contactData.description && (
+              <p className="text-lg text-gray-400 leading-relaxed mb-12">
+                {contactData.description}
+              </p>
+            )}
+            
+            <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-white/5 border border-white/10 text-primary-400">
                   <MailIcon className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-white font-bold mb-1">{texts.form.fields.email.label}</h3>
-                  <p className="text-gray-400">{contactData.email}</p>
+                  <a 
+                    href={`mailto:${contactData.email}`}
+                    className="text-gray-400 hover:text-primary-400 transition-colors"
+                  >
+                    {contactData.email}
+                  </a>
                 </div>
               </div>
               
@@ -65,38 +75,7 @@ export default async function ContactPage() {
 
         {/* Right: Form */}
         <div className="lg:w-1/2 bg-black p-12 lg:p-24 flex flex-col justify-center">
-          <form className="space-y-8 max-w-md w-full mx-auto">
-            <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">{texts.form.labels.name}</label>
-              <input 
-                type="text" 
-                className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder={texts.form.placeholders.name}
-              />
-            </div>
-            
-            <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">{texts.form.labels.email}</label>
-              <input 
-                type="email" 
-                className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder={texts.form.placeholders.email}
-              />
-            </div>
-            
-            <div className="space-y-2">
-              <label className="text-sm font-mono text-gray-500 uppercase">{texts.form.labels.message}</label>
-              <textarea 
-                rows={4}
-                className="w-full bg-dark-900 border border-dark-700 rounded-lg px-4 py-3 text-white focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-all"
-                placeholder={texts.form.placeholders.message}
-              />
-            </div>
-            
-            <Button variant="primary" size="lg" className="w-full justify-center btn-neon">
-              {texts.buttons.submit} <ArrowRightIcon className="ml-2 w-5 h-5" />
-            </Button>
-          </form>
+          <ContactForm texts={texts} />
         </div>
       </div>
     </main>

@@ -369,6 +369,19 @@ const fallbackTexts: TextsConfig = {
     },
     contact: {
       title: "お問い合わせ",
+      description: "温泉旅行のご相談、取材依頼などお気軽にどうぞ。",
+    },
+    notFound: {
+      title: "ページが見つかりません",
+      subtitle: "404 - Page Not Found",
+      description: "お探しのページは存在しないか、移動した可能性があります。",
+      backHome: "ホームに戻る",
+      searchOnsen: "温泉を探す",
+    },
+  },
+  sections: {
+    testimonials: {
+      subtitle: "Traveler Reviews",
     },
   },
   buttons: {
@@ -376,6 +389,7 @@ const fallbackTexts: TextsConfig = {
     readStory: "Read Story",
     learnMoreEn: "Learn more",
     submit: "送信する",
+    sending: "送信中...",
   },
   form: {
     labels: {
@@ -396,22 +410,31 @@ const fallbackTexts: TextsConfig = {
         label: "Office",
       },
     },
+    validation: {
+      nameRequired: "お名前を入力してください",
+      emailRequired: "メールアドレスを入力してください",
+      emailInvalid: "有効なメールアドレスを入力してください",
+      messageRequired: "メッセージを入力してください",
+    },
+    success: "お問い合わせを送信しました。ありがとうございます。",
+    error: "送信に失敗しました。時間をおいて再度お試しください。",
   },
   messages: {
     notFound: {
       docs: "温泉ガイドが見つかりませんでした。",
-      blog: "No posts found.",
-      blogContent: "Blog content not found.",
-      features: "Features content not found.",
-      contact: "Contact content not found.",
+      blog: "記事が見つかりませんでした。",
+      blogContent: "ブログコンテンツが見つかりません。",
+      features: "おすすめプランが見つかりません。",
+      contact: "お問い合わせ情報が見つかりません。",
+      page: "ページが見つかりません。",
     },
   },
   ui: {
     labels: {
-      tableOfContents: "Table of Contents",
-      documentation: "Documentation",
-      readyToDeploy: "Ready to Deploy?",
-      interactiveDemoLoading: "Interactive Demo Module Loading...",
+      tableOfContents: "目次",
+      documentation: "ドキュメント",
+      readyToDeploy: "温泉旅行の準備はできましたか？",
+      interactiveDemoLoading: "読み込み中...",
     },
   },
   footer: {

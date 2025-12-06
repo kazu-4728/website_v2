@@ -49,6 +49,14 @@ export interface TextsPages {
   };
   contact?: {
     title: string;
+    description?: string;
+  };
+  notFound?: {
+    title: string;
+    subtitle: string;
+    description: string;
+    backHome: string;
+    searchOnsen: string;
   };
   [key: string]: any; // Allow theme-specific page text
 }
@@ -61,7 +69,8 @@ export interface TextsButtons {
   readStory: string;
   learnMoreEn: string;
   submit: string;
-  [key: string]: string; // Allow additional button labels
+  sending?: string;
+  [key: string]: string | undefined; // Allow additional button labels
 }
 
 /**
@@ -89,6 +98,15 @@ export interface TextsForm {
     };
     [key: string]: any; // Allow additional field definitions
   };
+  validation?: {
+    nameRequired: string;
+    emailRequired: string;
+    emailInvalid: string;
+    messageRequired: string;
+    [key: string]: string;
+  };
+  success?: string;
+  error?: string;
 }
 
 /**
@@ -133,12 +151,23 @@ export interface TextsFooter {
 }
 
 /**
+ * Section-specific text labels
+ */
+export interface TextsSections {
+  testimonials?: {
+    subtitle: string;
+  };
+  [key: string]: any;
+}
+
+/**
  * Complete texts configuration
  * This should be present in every theme's texts.json
  */
 export interface TextsConfig {
   nav: TextsNavigation;
   pages: TextsPages;
+  sections?: TextsSections;
   buttons: TextsButtons;
   form: TextsForm;
   messages: TextsMessages;
@@ -343,6 +372,7 @@ export interface TestimonialItem {
 export interface TestimonialsSection extends HomeSection {
   type: 'testimonials';
   title: string;
+  subtitle?: string;
   items: TestimonialItem[];
 }
 
