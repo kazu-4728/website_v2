@@ -1,17 +1,17 @@
 {
   "main": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hakone_Yumoto_onsen_1.JPG/1280px-Hakone_Yumoto_onsen_1.JPG",
-    "author": "Kakidai",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Hakone Yumoto Onsen - Hero image"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg/1280px-Gorakadan_Onsen_Rotenburo_1.jpg",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Hakone Gora Onsen outdoor bath - Hero image"
   },
   "hero": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hakone_Yumoto_onsen_1.JPG/1280px-Hakone_Yumoto_onsen_1.JPG",
-    "author": "Kakidai",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Hakone Yumoto Onsen panorama"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg/1280px-Gorakadan_Onsen_Rotenburo_1.jpg",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Hakone Gora Onsen outdoor bath"
   },
   "hero-night": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
@@ -42,18 +42,18 @@
     "title": "CTA background - Nikko Yumoto Onsen"
   },
   "hakone": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hakone_Yumoto_onsen_1.JPG/1280px-Hakone_Yumoto_onsen_1.JPG",
-    "author": "Kakidai",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Hakone Yumoto Onsen - Main view"
-  },
-  "hakone-yunohana": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hakone_Yumoto_Onsen_20101205.jpg/1280px-Hakone_Yumoto_Onsen_20101205.jpg",
-    "author": "Wiiii",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg",
+    "author": "David Monniaux",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Hakone Yumoto Onsen town"
+    "title": "Hakone outdoor bath (rotenburo) at Fuji-Hakone Guest House"
+  },
+  "hakone-yunohana": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tenzan_Tohji-kyo_Hakone_Japan.jpg/1280px-Tenzan_Tohji-kyo_Hakone_Japan.jpg",
+    "author": "Tomomarusan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Tenzan Tohji-kyo outdoor bath in Hakone Yumoto"
   },
   "hakone-gora": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg/1280px-Gorakadan_Onsen_Rotenburo_1.jpg",
@@ -63,11 +63,11 @@
     "title": "Gorakadan Onsen Rotenburo (outdoor bath) in Gora, Hakone"
   },
   "hakone-sengokuhara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Himeshara-no-yu_Hakone_Kanagawa.JPG",
-    "author": "NY066",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Himeshara-no-yu hot spring in Sengokuhara, Hakone"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Hakone_Kowaki-en_Yunessun_2.jpg/1280px-Hakone_Kowaki-en_Yunessun_2.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "title": "Hakone Kowakien Yunessun spa resort outdoor bath"
   },
   "kusatsu": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kusatsu_Onsen_Yubatake_04.jpg/1280px-Kusatsu_Onsen_Yubatake_04.jpg",
@@ -91,25 +91,26 @@
     "title": "Sainokawara open-air bath at Kusatsu Onsen"
   },
   "kinugawa": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg",
-    "author": "くろふね (Jranar)",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "title": "Kinugawa Onsen valley view"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kinugawa_Onsen_01.jpg/1280px-Kinugawa_Onsen_01.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "title": "Kinugawa Onsen hot spring resort area",
+    "note": "温泉街と川の風景。露天風呂の撮影画像がWikimedia Commonsに存在しない"
   },
   "ikaho": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ikaho_Onsen_Rotenburo.jpg/1280px-Ikaho_Onsen_Rotenburo.jpg",
     "author": "Qurren",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Ikaho Onsen Stone Steps"
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Ikaho Onsen public outdoor bath (rotenburo)"
   },
   "nasu": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nasu_yumoto_spa.jpg/1280px-Nasu_yumoto_spa.jpg",
     "author": "Qurren",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Nasu Yumoto Onsen - Hot spring area"
+    "title": "Nasu Yumoto Onsen - Hot spring source area"
   },
   "minakami": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Minakami_onsen_takaragawa_13.jpg/1280px-Minakami_onsen_takaragawa_13.jpg",
@@ -119,11 +120,11 @@
     "title": "Takaragawa Onsen in Minakami - Outdoor bath"
   },
   "shima": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg",
-    "author": "Komoro no kaze",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Shima Onsen Sekizenkan historic tunnel"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Shima_Onsen_Sekizen-kan_%E5%85%83%E7%A6%84%E3%81%AE%E6%B9%AF.jpg/1280px-Shima_Onsen_Sekizen-kan_%E5%85%83%E7%A6%84%E3%81%AE%E6%B9%AF.jpg",
+    "author": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "title": "Shima Onsen Sekizenkan Genroku-no-Yu historic bathhouse"
   },
   "nikko": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
@@ -140,52 +141,57 @@
     "title": "Momiji (autumn leaves) Onsen at Shiobara"
   },
   "atami": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Atami Onsen area view"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Atami_Onsen_20120915.jpg/1280px-Atami_Onsen_20120915.jpg",
+    "author": "Wiiii",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Atami Onsen hot spring town view with steam",
+    "note": "湯煙が見える温泉街。公開されている露天風呂画像がWikimedia Commonsに存在しない"
   },
   "ito": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ito_Onsen_Matsubara_Park_20111003.jpg/1280px-Ito_Onsen_Matsubara_Park_20111003.jpg",
-    "author": "Wiiii",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Ito Onsen Matsubara Park area"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ito_Onsen_Tokaikan_04.jpg/1280px-Ito_Onsen_Tokaikan_04.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "title": "Ito Onsen Tokaikan historic bathhouse",
+    "note": "東海館の歴史的浴場外観。公開されている浴場内部画像がWikimedia Commonsに存在しない"
   },
   "shuzenji": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Shuzenji_onsen_20110919_c.jpg/1280px-Shuzenji_onsen_20110919_c.jpg",
-    "author": "Wiiii",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tokko-no-Yu.jpg/1280px-Tokko-no-Yu.jpg",
+    "author": "Qurren",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Shuzenji Onsen with bamboo forest"
+    "title": "Shuzenji Onsen Tokko-no-Yu (historic foot bath/hot spring)"
   },
   "shimoda": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rendaiji_onsen_20111003.jpg/1280px-Rendaiji_onsen_20111003.jpg",
-    "author": "Wiiii",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kannonji_onsen.jpg/1280px-Kannonji_onsen.jpg",
+    "author": "Qurren",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Rendaiji Onsen in Shimoda area"
+    "title": "Kannonji Onsen public bath near Shimoda"
   },
   "yugawara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Yugawara_Onsen_20201114.jpg/1280px-Yugawara_Onsen_20201114.jpg",
-    "author": "Ub-K",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Yugawara Onsen town view"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Yugawara_Onsen_Manyo_Park_ashiyu.jpg/1280px-Yugawara_Onsen_Manyo_Park_ashiyu.jpg",
+    "author": "Qurren",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Yugawara Onsen Manyo Park foot bath (ashiyu)",
+    "note": "万葉公園の足湯。公開されている露天風呂画像がWikimedia Commonsに存在しない"
   },
   "chichibu": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
     "author": "Asturio Cantabrio",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Seibu-Chichibu Ekimae Onsen"
+    "title": "Seibu-Chichibu Ekimae Onsen facility",
+    "note": "施設外観。公開されている浴場内部画像がWikimedia Commonsに存在しない"
   },
   "okutama": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Okutama_Moegi-no-Yu_2011.jpg/1280px-Okutama_Moegi-no-Yu_2011.jpg",
     "author": "Wiiii",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Okutama Moegi-no-Yu hot spring facility"
+    "title": "Okutama Moegi-no-Yu hot spring facility",
+    "note": "施設外観。公開されている浴場内部画像がWikimedia Commonsに存在しない"
   }
 }
