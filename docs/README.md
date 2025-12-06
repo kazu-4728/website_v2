@@ -2,6 +2,11 @@
 
 このディレクトリには、プロジェクトの設計、開発、デプロイに関するドキュメントが整理されています。
 
+## 🧭 まず読むべきファイル
+- `requirements.md` — プロジェクト全体の要件定義（単一ソース）
+- `cursor-rules.md` — エージェント向けの運用ルール
+- `START_HERE.md` — 作業開始のチェックリスト
+
 ## 📁 ディレクトリ構成
 
 ### `/docs/architecture/` - アーキテクチャ設計
@@ -26,6 +31,11 @@
 - `FIXES_SUMMARY.md` - 修正内容サマリー
 - `COMPREHENSIVE_REPORT.md` - 包括的報告書
 - `IMAGE_URLS.md` - 画像URLの説明
+
+### `/docs/reports/` - レポート・分析系ドキュメント
+- `IMAGE_AUDIT_REPORT.md` / `HERO_CTA_MOTION_REPORT.md` など画像・モーション関連レポート
+- `COMPLETE_TEST_SUMMARY.md` / `UI_BREAKAGE_ANALYSIS.md` など検証・テストレポート
+- `NAV_TEXTS_MIGRATION_SUMMARY.md` など移行・改善サマリー
 
 ## 🎯 各エージェント向けガイド
 
