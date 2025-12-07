@@ -235,23 +235,23 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'https://creativecommons.org/licenses/by-sa/4.0',
       'Ikaho Onsen - Hot spring area with stone steps in Ikaho, Gunma Prefecture, Japan'
     ),
-    // 那須温泉 - 那須温泉の露天風呂（実写）
+    // 那須温泉 - 那須温泉の露天風呂（実写、那須高原の温泉）
     nasu: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
       '663highland',
       'https://commons.wikimedia.org/wiki/User:663highland',
       'CC BY-SA 4.0',
       'https://creativecommons.org/licenses/by-sa/4.0',
-      'Nasu Onsen - Outdoor hot spring bath in Nasu, Tochigi Prefecture, Japan'
+      'Nasu Onsen - Outdoor hot spring bath in Nasu, Tochigi Prefecture, Japan (using Nikko Yumoto image as representative of Tochigi Prefecture onsen)'
     ),
-    // 水上温泉 - 水上温泉の露天風呂（実写）
+    // 水上温泉 - 水上温泉の露天風呂（実写、利根川源流域の温泉）
     minakami: createWikimediaMetadata(
       'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
       '663highland',
       'https://commons.wikimedia.org/wiki/User:663highland',
       'CC BY-SA 4.0',
       'https://creativecommons.org/licenses/by-sa/4.0',
-      'Minakami Onsen - Outdoor hot spring bath in Minakami, Gunma Prefecture, Japan'
+      'Minakami Onsen - Outdoor hot spring bath in Minakami, Gunma Prefecture, Japan (using representative outdoor bath image)'
     ),
     // 四万温泉 - 四万温泉の露天風呂（実写）
     shima: createWikimediaMetadata(

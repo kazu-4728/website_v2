@@ -1,4 +1,4 @@
-# 使用中の画像URL一覧（重複排除）
+# 使用中の画像URL一覧（重複排除・最終版）
 
 最終更新: 2025-01-XX
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🖼️ 使用中の画像URL一覧
+## 🖼️ 使用中の画像URL一覧（重複排除後）
 
 ### 1. 箱根強羅温泉の夜景露天風呂
 **URL**: `https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg`
@@ -120,7 +120,7 @@
 - Onsen: `nasu`, `minakami`, `nikko`, `okutama`
 - CTA: `default`
 - Features: `family`
-- `data/wikimedia-images.json`: `cta-sunset`, `nikko`, `okutama`
+- `data/wikimedia-images.json`: `cta-sunset`, `nikko`, `okutama`, `nasu`, `minakami`
 
 **撮影者**: 663highland  
 **ライセンス**: CC BY-SA 4.0  
@@ -155,6 +155,8 @@
 **ライセンス**: CC BY-SA 4.0  
 **説明**: 熱海温泉の露天風呂（屋外風呂）
 
+**注意**: この画像は複数の温泉地（伊東、修善寺、下田、湯河原）で使用されています。各温泉地に適した画像を探すことが推奨されます。
+
 ---
 
 ### 11. 四万温泉のトンネル
@@ -183,63 +185,11 @@
 
 ---
 
-## ⚠️ 注意が必要な画像
-
-以下の画像は、温泉そのものが映っていない可能性があります。確認が必要です。
-
-### 13. 那須温泉（GIF画像）
-**URL**: `https://upload.wikimedia.org/wikipedia/commons/5/53/Nasuonsen_1380years.gif`
-
-**使用箇所**:
-- `data/wikimedia-images.json`: `nasu`
-
-**撮影者**: Wiki100  
-**ライセンス**: Public domain  
-**説明**: 那須温泉のGIF画像（温泉が映っているか確認が必要）
-
----
-
-### 14. 水上温泉（古い写真）
-**URL**: `https://upload.wikimedia.org/wikipedia/commons/4/4b/Minakami_Onsen_in_Taisho_era.jpg`
-
-**使用箇所**:
-- `data/wikimedia-images.json`: `minakami`
-
-**撮影者**: Unknown author  
-**ライセンス**: Public domain  
-**説明**: 水上温泉の大正時代の写真（温泉が映っているか確認が必要）
-
----
-
 ## 📊 統計
 
-- **総画像数**: 14種類（重複排除後）
-- **Wikimedia Commons**: 14種類
+- **総画像数**: 12種類（重複排除後）
+- **Wikimedia Commons**: 12種類
 - **Unsplash**: 0種類（すべて置き換え済み）
-
----
-
-## 🔍 重複使用の状況
-
-以下の画像は複数の場所で使用されています：
-
-1. **箱根強羅温泉の夜景露天風呂** (URL #1)
-   - 4箇所で使用（Hero, Onsen, Features）
-
-2. **箱根強羅温泉の露天風呂（昼間）** (URL #2)
-   - 5箇所で使用（Hero, Onsen, Sections, Blog, data/wikimedia-images.json）
-
-3. **箱根の露天風呂（富士箱根ゲストハウス）** (URL #3)
-   - 4箇所で使用（Hero, Onsen, Sections, Features）
-
-4. **草津温泉の湯畑** (URL #5)
-   - 8箇所で使用（Onsen, Sections, Blog, Features, data/wikimedia-images.json）
-
-5. **日光湯元温泉の露天風呂** (URL #8)
-   - 5箇所で使用（Onsen, CTA, Features, data/wikimedia-images.json）
-
-6. **熱海温泉の露天風呂** (URL #10)
-   - 6箇所で使用（Onsen, Features, data/wikimedia-images.json）
 
 ---
 
@@ -249,7 +199,20 @@
 
 ---
 
-## 📝 注意事項
+## 📝 改善推奨事項
 
-- 一部の画像（那須温泉のGIF、水上温泉の古い写真）は、温泉そのものが映っているか確認が必要です
-- 重複使用されている画像は、同じ温泉地の画像を複数の場所で使用しているため問題ありません
+以下の画像は、より適切な画像に置き換えることが推奨されます：
+
+1. **熱海温泉の画像が複数の温泉地で使用**
+   - 伊東温泉、修善寺温泉、下田温泉、湯河原温泉で同じ画像を使用
+   - 各温泉地に適した実在の温泉画像を探すことが推奨されます
+
+2. **那須温泉・水上温泉**
+   - 現在は日光湯元温泉の画像を使用（実在の温泉画像）
+   - より適切な那須温泉・水上温泉専用の画像を探すことが推奨されます
+
+---
+
+## 🔗 画像の確認方法
+
+各画像URLをブラウザで開いて、実際に温泉（湯船・露天風呂）が映っていることを確認してください。
