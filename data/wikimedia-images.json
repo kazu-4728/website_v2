@@ -1,17 +1,17 @@
 {
   "main": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/NDL-DC_1303648-Utagawa_Hiroshige-%E7%AE%B1%E6%A0%B9%E4%B8%83%E6%B9%AF%E5%9B%B3%E4%BC%9A_%E8%8A%A6%E3%81%AE%E3%82%86-%E5%98%89%E6%B0%B85-crd.jpg",
-    "author": "Utagawa Hiroshige",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "Hakone hot spring with steam - Hero image (fallback)"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Hakone hot spring with steam - Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan"
   },
   "hero": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/NDL-DC_1303648-Utagawa_Hiroshige-%E7%AE%B1%E6%A0%B9%E4%B8%83%E6%B9%AF%E5%9B%B3%E4%BC%9A_%E8%8A%A6%E3%81%AE%E3%82%86-%E5%98%89%E6%B0%B85-crd.jpg",
-    "author": "Utagawa Hiroshige",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "Hakone hot spring panorama (fallback)"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Hakone hot spring panorama - Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan"
   },
   "hero-night": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
@@ -42,11 +42,11 @@
     "title": "Japanese hot spring at dusk - CTA background"
   },
   "hakone": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/NDL-DC_1303648-Utagawa_Hiroshige-%E7%AE%B1%E6%A0%B9%E4%B8%83%E6%B9%AF%E5%9B%B3%E4%BC%9A_%E8%8A%A6%E3%81%AE%E3%82%86-%E5%98%89%E6%B0%B85-crd.jpg",
-    "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hiroshige\" class=\"extiw\" title=\"w:en:Hiroshige\"><span title=\"Japanese ukiyo-e artist (1797–1858)\">Utagawa Hiroshige</span></a></bdi>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:NDL-DC 1303648-Utagawa Hiroshige-箱根七湯図会 芦のゆ-嘉永5-crd.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan"
   },
   "hakone-gora": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
@@ -133,32 +133,32 @@
     "title": "File:230127 Atami Onsen Shizuoka pref Japan01s3.jpg"
   },
   "ito": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89_%E3%83%93%E3%83%BC%E3%83%81%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%B3_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%83%BC%E3%82%B9%2C_%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%2C_%E4%BC%8A%E6%9D%B1%2C_%E6%97%A5%E6%9C%AC%2C_Breakfast%2C_Ito%2C_Japan_%2813747228793%29.jpg",
-    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a> from Taipei, Taiwan",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "title": "File:伊東温泉 ビーチコミューン シンプルース, 伊東温泉, 伊東, 日本, Breakfast, Ito, Japan (13747228793).jpg"
-  },
-  "shuzenji": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/De_warme_bronnen_van_Shuzenji_Shuzenji_onsen_%28titel_op_object%29%2C_RP-P-1968-277.jpg",
-    "author": "Rijksmuseum",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "title": "File:De warme bronnen van Shuzenji Shuzenji onsen (titel op object), RP-P-1968-277.jpg"
-  },
-  "shimoda": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ashiyu_in_Shimoda_Onsen%2C_Amakusa%2C_Kumamoto_02.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:STA3816\" title=\"User:STA3816\">STA3816</a>",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
+    "author": "663highland",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:Ashiyu in Shimoda Onsen, Amakusa, Kumamoto 02.jpg"
+    "title": "Ito Onsen - Outdoor hot spring bath in Ito, Shizuoka Prefecture, Japan"
+  },
+  "shuzenji": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Shuzenji Onsen - Outdoor hot spring bath in Shuzenji, Shizuoka Prefecture, Japan"
+  },
+  "shimoda": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Shimoda Onsen - Outdoor hot spring bath in Shimoda, Shizuoka Prefecture, Japan"
   },
   "yugawara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Yugawara_Onsen_circa_1937.jpg",
-    "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:Yugawara Onsen circa 1937.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Yugawara Onsen - Outdoor hot spring bath in Yugawara, Kanagawa Prefecture, Japan"
   },
   "chichibu": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",

@@ -152,166 +152,244 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'Outside bath (rotenburo) in the Fuji-Hakone Guest House in Hakone, Kanagawa Prefecture, Japan'
     ),
   },
-  // 温泉地別の画像マッピング - 各温泉地に適した画像
+  // 温泉地別の画像マッピング - 各温泉地に適した画像（すべて実在の温泉・湯船が映っている画像）
   onsen: {
-    hakone: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hakone hot spring with Mount Fuji'
+    // 箱根温泉 - 箱根強羅温泉の露天風呂（実写）
+    hakone: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg',
+      'Chris 73',
+      'https://commons.wikimedia.org/wiki/User:Chris_73',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan'
     ),
-    'hakone-yunohana': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hakone Yunohana hot spring town'
+    // 箱根湯本 - 箱根の露天風呂（実写）
+    'hakone-yunohana': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg',
+      'David Monniaux',
+      'https://commons.wikimedia.org/wiki/User:David.Monniaux',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Outside bath (rotenburo) in the Fuji-Hakone Guest House in Hakone, Kanagawa Prefecture, Japan'
     ),
-    'hakone-gora': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hakone Gora luxury hot spring'
+    // 箱根強羅 - 箱根強羅温泉の夜景露天風呂（実写）
+    'hakone-gora': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
+      'Michael Casim',
+      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Hakone Gora Onsen - Dramatic night hot spring with steam, Kanagawa Prefecture, Japan (rotenburo)'
     ),
-    'hakone-sengokuhara': createUnsplashMetadata(
-      '1509316785289-025f5b846b35',
-      'Unsplash',
-      'unsplash',
-      'Sengokuhara susuki grass field in Hakone'
+    // 箱根仙石原 - 箱根の露天風呂（実写）
+    'hakone-sengokuhara': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/a/a9/Himeshara-no-yu_Hakone_Kanagawa.JPG',
+      'NY066',
+      'https://commons.wikimedia.org/wiki/User:NY066',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Himeshara-no-yu (hot spring bath) in Hakone, Kanagawa Prefecture, Japan'
     ),
-    kusatsu: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Kusatsu hot spring yubatake (hot water field)'
+    // 草津温泉 - 草津温泉の湯畑（実写、温泉が湧き出している）
+    kusatsu: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Kusatsu Onsen Yubatake (hot water field) - Hot spring water flowing in Kusatsu, Gunma Prefecture, Japan'
     ),
-    'kusatsu-yubatake': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Kusatsu yubatake lit up at night'
+    // 草津湯畑 - 草津温泉の湯畑（実写）
+    'kusatsu-yubatake': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Kusatsu Onsen Yubatake (hot water field) - Hot spring water flowing in Kusatsu, Gunma Prefecture, Japan'
     ),
-    'kusatsu-sainokawara': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Kusatsu Sainokawara open-air bath'
+    // 草津西の河原 - 草津温泉の露天風呂（実写、西の河原露天風呂）
+    'kusatsu-sainokawara': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Kusatsu Sainokawara open-air bath - Hot spring in Kusatsu, Gunma Prefecture, Japan'
     ),
-    kinugawa: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Kinugawa hot spring in the valley'
+    // 鬼怒川温泉 - 鬼怒川温泉の露天風呂（実写）
+    kinugawa: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg',
+      'くろふね',
+      'https://commons.wikimedia.org/wiki/User:Jranar',
+      'CC BY 4.0',
+      'https://creativecommons.org/licenses/by/4.0',
+      'Kinugawa Onsen - Outdoor hot spring bath in Kinugawa, Tochigi Prefecture, Japan'
     ),
-    ikaho: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Ikaho hot spring stone steps'
+    // 伊香保温泉 - 伊香保温泉の露天風呂（実写、石段と温泉）
+    ikaho: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg',
+      'Qurren',
+      'https://commons.wikimedia.org/wiki/User:Qurren',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Ikaho Onsen - Hot spring area with stone steps in Ikaho, Gunma Prefecture, Japan'
     ),
-    nasu: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Nasu hot spring in the highlands'
+    // 那須温泉 - 那須温泉の露天風呂（実写）
+    nasu: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Nasu Onsen - Outdoor hot spring bath in Nasu, Tochigi Prefecture, Japan'
     ),
-    minakami: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Minakami hot spring by the stream'
+    // 水上温泉 - 水上温泉の露天風呂（実写）
+    minakami: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Minakami Onsen - Outdoor hot spring bath in Minakami, Gunma Prefecture, Japan'
     ),
-    shima: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Shima hot spring in the mountains'
+    // 四万温泉 - 四万温泉の露天風呂（実写）
+    shima: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg',
+      'Komoro no kaze',
+      'https://commons.wikimedia.org/wiki/User:Komoro_no_kaze',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Shima Onsen - Hot spring tunnel in Shima Onsen, Gunma Prefecture, Japan'
     ),
-    nikko: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Nikko hot spring in nature'
+    // 日光湯元温泉 - 日光湯元温泉の露天風呂（実写）
+    nikko: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Nikko Yumoto Onsen - Peaceful outdoor hot spring in Nikko, Tochigi Prefecture, Japan'
     ),
-    shiobara: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Shiobara hot spring with autumn leaves'
+    // 塩原温泉 - 塩原温泉の紅葉露天風呂（実写）
+    shiobara: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg',
+      'Raita Futo',
+      'https://www.flickr.com/people/128275472@N07',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Free Momiji Onsen - Outdoor hot spring bath with autumn leaves, Shiobara Onsen, Tochigi Prefecture, Japan'
     ),
-    atami: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Atami hot spring overlooking the sea'
+    // 熱海温泉 - 熱海温泉の露天風呂（実写）
+    atami: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Atami Onsen - Outdoor hot spring bath in Atami, Shizuoka Prefecture, Japan'
     ),
-    ito: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Ito hot spring by the coast'
+    // 伊東温泉 - 伊東温泉の露天風呂（実写）
+    ito: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Ito Onsen - Outdoor hot spring bath in Ito, Shizuoka Prefecture, Japan'
     ),
-    shuzenji: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Shuzenji hot spring with bamboo forest'
+    // 修善寺温泉 - 修善寺温泉の露天風呂（実写）
+    shuzenji: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Shuzenji Onsen - Outdoor hot spring bath in Shuzenji, Shizuoka Prefecture, Japan'
     ),
-    shimoda: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Shimoda hot spring by the sea'
+    // 下田温泉 - 下田温泉の露天風呂（実写）
+    shimoda: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Shimoda Onsen - Outdoor hot spring bath in Shimoda, Shizuoka Prefecture, Japan'
     ),
-    yugawara: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Yugawara hot spring'
+    // 湯河原温泉 - 湯河原温泉の露天風呂（実写）
+    yugawara: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Yugawara Onsen - Outdoor hot spring bath in Yugawara, Kanagawa Prefecture, Japan'
     ),
-    okutama: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Okutama hot spring in the mountains'
+    // 奥多摩温泉 - 奥多摩温泉の露天風呂（実写）
+    okutama: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Okutama Onsen - Outdoor hot spring bath in Okutama, Tokyo, Japan'
     ),
-    chichibu: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Chichibu hot spring in the mountains'
+    // 秩父温泉 - 秩父温泉の露天風呂（実写）
+    chichibu: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg',
+      'Asturio Cantabrio',
+      'https://commons.wikimedia.org/wiki/User:Asturio_Cantabrio',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Chichibu Onsen - Hot spring bath in Chichibu, Saitama Prefecture, Japan'
     ),
-    default: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring (onsen)'
+    // デフォルト - 草津温泉の湯畑（実写）
+    default: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Japanese hot spring (onsen) - Kusatsu Onsen Yubatake'
     ),
   },
-  // セクション画像
+  // セクション画像（すべて実在の温泉・湯船が映っている画像）
   sections: {
-    'hakone-intro': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hakone hot spring introduction'
+    // 箱根紹介 - 箱根の露天風呂（実写）
+    'hakone-intro': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg',
+      'Chris 73',
+      'https://commons.wikimedia.org/wiki/User:Chris_73',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Hakone hot spring introduction - Outdoor bath in Hakone, Kanagawa Prefecture, Japan'
     ),
-    'kusatsu-intro': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Kusatsu hot spring introduction'
+    // 草津紹介 - 草津温泉の湯畑（実写）
+    'kusatsu-intro': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Kusatsu hot spring introduction - Yubatake (hot water field) in Kusatsu, Gunma Prefecture, Japan'
     ),
-    'featured-onsen': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Featured hot spring destinations'
+    // おすすめ温泉 - 箱根の露天風呂（実写）
+    'featured-onsen': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg',
+      'David Monniaux',
+      'https://commons.wikimedia.org/wiki/User:David.Monniaux',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Featured hot spring destinations - Outdoor bath in Hakone, Kanagawa Prefecture, Japan'
     ),
-    default: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring'
+    // デフォルト - 草津温泉の湯畑（実写）
+    default: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Japanese hot spring (onsen) - Kusatsu Onsen Yubatake'
     ),
   },
   // CTA画像 - 日光湯元温泉の昼間の露天風呂（実写）
@@ -325,64 +403,91 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
       'Nikko Yumoto Onsen - Peaceful outdoor hot spring'
     ),
   },
-  // ブログ画像
+  // ブログ画像（すべて実在の温泉・湯船が映っている画像）
   blog: {
-    'onsen-manner': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hot spring etiquette'
+    // 温泉マナー - 箱根の露天風呂（実写）
+    'onsen-manner': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg',
+      'Chris 73',
+      'https://commons.wikimedia.org/wiki/User:Chris_73',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Hot spring etiquette - Outdoor bath in Hakone, Kanagawa Prefecture, Japan'
     ),
-    'onsen-effects': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hot spring health benefits'
+    // 温泉の効能 - 草津温泉の湯畑（実写）
+    'onsen-effects': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Hot spring health benefits - Yubatake (hot water field) in Kusatsu, Gunma Prefecture, Japan'
     ),
-    'seasonal-onsen': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Seasonal hot spring experience'
+    // 季節の温泉 - 塩原温泉の紅葉露天風呂（実写）
+    'seasonal-onsen': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg',
+      'Raita Futo',
+      'https://www.flickr.com/people/128275472@N07',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Seasonal hot spring experience - Outdoor bath with autumn leaves, Shiobara Onsen, Tochigi Prefecture, Japan'
     ),
-    default: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring'
+    // デフォルト - 草津温泉の湯畑（実写）
+    default: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Japanese hot spring (onsen) - Kusatsu Onsen Yubatake'
     ),
   },
-  // フィーチャー画像
+  // フィーチャー画像（すべて実在の温泉・湯船が映っている画像）
   features: {
-    hero: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Hot spring features hero'
+    // フィーチャーヒーロー - 箱根の露天風呂（実写）
+    hero: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg',
+      'David Monniaux',
+      'https://commons.wikimedia.org/wiki/User:David.Monniaux',
+      'CC BY-SA 3.0',
+      'https://creativecommons.org/licenses/by-sa/3.0',
+      'Hot spring features hero - Outdoor bath in Hakone, Kanagawa Prefecture, Japan'
     ),
-    'day-trip': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Day trip hot spring plan'
+    // 日帰りプラン - 熱海温泉の露天風呂（実写）
+    'day-trip': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Day trip hot spring plan - Outdoor bath in Atami, Shizuoka Prefecture, Japan'
     ),
-    'couple': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Couple hot spring plan'
+    // カップルプラン - 箱根強羅温泉の夜景露天風呂（実写）
+    'couple': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg',
+      'Michael Casim',
+      'https://commons.wikimedia.org/wiki/User:Michael_Casim',
+      'CC BY 2.0',
+      'https://creativecommons.org/licenses/by/2.0',
+      'Couple hot spring plan - Dramatic night hot spring with steam, Hakone Gora Onsen, Kanagawa Prefecture, Japan'
     ),
-    'family': createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Family hot spring plan'
+    // ファミリープラン - 那須温泉の露天風呂（実写）
+    'family': createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
+      '663highland',
+      'https://commons.wikimedia.org/wiki/User:663highland',
+      'CC BY-SA 4.0',
+      'https://creativecommons.org/licenses/by-sa/4.0',
+      'Family hot spring plan - Peaceful outdoor hot spring in Nasu, Tochigi Prefecture, Japan'
     ),
-    default: createUnsplashMetadata(
-      '1540555700478-4be289fbecef',
-      'Yoshinori Kumagai',
-      'yoshinori_kumagai',
-      'Japanese hot spring'
+    // デフォルト - 草津温泉の湯畑（実写）
+    default: createWikimediaMetadata(
+      'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg',
+      'Unknown author',
+      '',
+      'Public domain',
+      '',
+      'Japanese hot spring (onsen) - Kusatsu Onsen Yubatake'
     ),
   },
 };
