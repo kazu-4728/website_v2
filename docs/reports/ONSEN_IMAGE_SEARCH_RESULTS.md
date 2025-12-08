@@ -1,4 +1,4 @@
-# 関東温泉の実在画像検索結果
+# 関東温泉の実在画像検索結果（自動検索 + 手動検索URL）
 
 最終更新: 2025-01-XX
 
@@ -6,357 +6,359 @@
 
 以下の条件で各温泉の画像を検索します：
 1. **実際の温泉、お湯が映っている**（湯船・露天風呂が明確に写っている）
-2. **関東の温泉**（神奈川県・群馬県・栃木県・静岡県・東京都・埼玉県）
-3. **今のサイト内容を変更しても使えそうな温泉画像**
+2. **関東の温泉**
+3. **既存画像は使用しない**
 4. **どこの温泉か分かるようにする**（温泉名・場所が特定できる）
 
-## 🔍 検索対象プラットフォーム
+---
 
-- **Wikimedia Commons**: CC BY / CC BY-SA / Public Domain
-- **Unsplash**: Unsplash License（商用利用可）
-- **Pexels**: Pexels License（商用利用可）
-- **Pixabay**: Pixabay License（商用利用可）
+既存画像数: 53
+
+検索対象温泉数: 16
 
 ---
 
-## 🖼️ 検索結果（温泉別）
+## 🔍 箱根温泉郷 (神奈川県)
 
-### 1. 箱根温泉郷（神奈川県）
+### 自動検索結果（Wikimedia Commons）
 
-**検索キーワード**: `hakone onsen rotenburo outdoor bath japan`
+見つかりませんでした。
 
-**見つかった画像候補**:
+### 手動検索用URL
 
-#### 候補1: Wikimedia Commons
-- **URL**: `https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg`
-- **撮影者**: Michael Casim
-- **ライセンス**: CC BY 2.0
-- **説明**: 箱根強羅温泉「季の湯 雪月花」の夜景露天風呂
-- **確認**: ✅ 実在の温泉（湯船・露天風呂が明確）
-
-#### 候補2: Wikimedia Commons
-- **URL**: `https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg`
-- **撮影者**: Chris 73
-- **ライセンス**: CC BY-SA 3.0
-- **説明**: 箱根強羅温泉の露天風呂（屋外風呂）
-- **確認**: ✅ 実在の温泉（湯船・露天風呂が明確）
-
-#### 候補3: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/hakone-onsen`
-- **キーワード**: "hakone onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_箱根温泉郷_温泉_露天風呂**: https://www.google.com/search?q=%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_箱根温泉郷_温泉_無料画像**: https://www.google.com/search?q=%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_神奈川県_箱根温泉郷_温泉**: https://www.google.com/search?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **google_Hakone_Onsen_onsen_r**: https://www.google.com/search?q=Hakone%20Onsen%20onsen%20rotenburo&tbm=isch&tbs=sur:fc
+- **google_Hakone_Onsen_onsen_f**: https://www.google.com/search?q=Hakone%20Onsen%20onsen%20free%20image&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
+- **unsplash_en**: https://unsplash.com/s/photos/Hakone%20Onsen%20onsen
+- **pexels_en**: https://www.pexels.com/search/Hakone%20Onsen%20onsen/
+- **pixabay_en**: https://pixabay.com/images/search/Hakone%20Onsen%20onsen/
+- **wikimedia_en**: https://commons.wikimedia.org/wiki/Category:Hakone%20Onsen%20onsen
 
 ---
 
-### 2. 草津温泉（群馬県）
+## 🔍 草津温泉 (群馬県)
 
-**検索キーワード**: `kusatsu onsen yubatake hot spring japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+見つかりませんでした。
 
-#### 候補1: Wikimedia Commons
-- **URL**: `https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Kusatsu_Onsen_Yubatake_1.jpg/1024px-Kusatsu_Onsen_Yubatake_1.jpg`
-- **撮影者**: 663highland
-- **ライセンス**: CC BY-SA 3.0
-- **説明**: 草津温泉の湯畑（温泉の源泉が湧き出る場所）
-- **確認**: ✅ 実在の温泉（湯畑が明確）
+### 手動検索用URL
 
-#### 候補2: Wikimedia Commons
-- **URL**: `https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kusatsu_Onsen_Sainokawara_Rotenburo_1.jpg/1024px-Kusatsu_Onsen_Sainokawara_Rotenburo_1.jpg`
-- **撮影者**: 663highland
-- **ライセンス**: CC BY-SA 3.0
-- **説明**: 草津温泉の西の河原露天風呂
-- **確認**: ✅ 実在の温泉（露天風呂が明確）
-
-#### 候補3: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/kusatsu-onsen`
-- **キーワード**: "kusatsu onsen yubatake"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_草津温泉_温泉_露天風呂**: https://www.google.com/search?q=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_草津温泉_温泉_無料画像**: https://www.google.com/search?q=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_群馬県_草津温泉_温泉**: https://www.google.com/search?q=%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 3. 鬼怒川温泉（栃木県）
+## 🔍 鬼怒川温泉 (栃木県)
 
-**検索キーワード**: `kinugawa onsen rotenburo outdoor bath japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+見つかりませんでした。
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Kinugawa_Onsen`
-- **キーワード**: "kinugawa onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
+### 手動検索用URL
 
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/kinugawa-onsen`
-- **キーワード**: "kinugawa onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補3: Pexels（要検索）
-- **検索URL**: `https://www.pexels.com/search/kinugawa%20onsen/`
-- **キーワード**: "kinugawa onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_鬼怒川温泉_温泉_露天風呂**: https://www.google.com/search?q=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_鬼怒川温泉_温泉_無料画像**: https://www.google.com/search?q=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_栃木県_鬼怒川温泉_温泉**: https://www.google.com/search?q=%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 4. 伊香保温泉（群馬県）
+## 🔍 伊香保温泉 (群馬県)
 
-**検索キーワード**: `ikaho onsen stone steps hot spring japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+### 伊香保温泉 - Ikaho open air bath.JPG
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Ikaho_Onsen`
-- **キーワード**: "ikaho onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/ikaho-onsen`
-- **キーワード**: "ikaho onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **URL**: `https://upload.wikimedia.org/wikipedia/commons/I/Ik/Ikaho_open_air_bath.JPG`
+- **ソース**: wikimedia
+- **ライセンス**: CC BY-SA / CC BY (要確認)
+- **撮影者**: 要確認
+- **説明**: Wikimedia Commons: Ikaho open air bath.JPG
+- **ソースURL**: https://commons.wikimedia.org/wiki/File:Ikaho open air bath.JPG
 
 ---
 
-### 5. 那須温泉郷（栃木県）
+### 伊香保温泉 - Ikaho Onsen 04.JPG
 
-**検索キーワード**: `nasu onsen rotenburo outdoor bath japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Nasu_Onsen`
-- **キーワード**: "nasu onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/nasu-onsen`
-- **キーワード**: "nasu onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **URL**: `https://upload.wikimedia.org/wikipedia/commons/I/Ik/Ikaho_Onsen_04.JPG`
+- **ソース**: wikimedia
+- **ライセンス**: CC BY-SA / CC BY (要確認)
+- **撮影者**: 要確認
+- **説明**: Wikimedia Commons: Ikaho Onsen 04.JPG
+- **ソースURL**: https://commons.wikimedia.org/wiki/File:Ikaho Onsen 04.JPG
 
 ---
 
-### 6. 水上温泉郷（群馬県）
+### 手動検索用URL
 
-**検索キーワード**: `minakami onsen rotenburo outdoor bath japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Minakami_Onsen`
-- **キーワード**: "minakami onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/minakami-onsen`
-- **キーワード**: "minakami onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_伊香保温泉_温泉_露天風呂**: https://www.google.com/search?q=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_伊香保温泉_温泉_無料画像**: https://www.google.com/search?q=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_群馬県_伊香保温泉_温泉**: https://www.google.com/search?q=%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 7. 四万温泉（群馬県）
+## 🔍 那須温泉郷 (栃木県)
 
-**検索キーワード**: `shima onsen rotenburo outdoor bath japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+見つかりませんでした。
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Shima_Onsen`
-- **キーワード**: "shima onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
+### 手動検索用URL
 
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/shima-onsen`
-- **キーワード**: "shima onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
----
-
-### 8. 日光湯元温泉（栃木県）
-
-**検索キーワード**: `nikko yumoto onsen sulfur spring outdoor bath japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Nikko_Yumoto_Onsen`
-- **キーワード**: "nikko yumoto onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/nikko-yumoto-onsen`
-- **キーワード**: "nikko yumoto onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_那須温泉郷_温泉_露天風呂**: https://www.google.com/search?q=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_那須温泉郷_温泉_無料画像**: https://www.google.com/search?q=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_栃木県_那須温泉郷_温泉**: https://www.google.com/search?q=%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 9. 塩原温泉郷（栃木県）
+## 🔍 水上温泉郷 (群馬県)
 
-**検索キーワード**: `shiobara onsen rotenburo outdoor bath japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+### 水上温泉郷 - Takaragawa Onsen 01.jpg
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Shiobara_Onsen`
-- **キーワード**: "shiobara onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/shiobara-onsen`
-- **キーワード**: "shiobara onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **URL**: `https://upload.wikimedia.org/wikipedia/commons/T/Ta/Takaragawa_Onsen_01.jpg`
+- **ソース**: wikimedia
+- **ライセンス**: CC BY-SA / CC BY (要確認)
+- **撮影者**: 要確認
+- **説明**: Wikimedia Commons: Takaragawa Onsen 01.jpg
+- **ソースURL**: https://commons.wikimedia.org/wiki/File:Takaragawa Onsen 01.jpg
 
 ---
 
-### 10. 熱海温泉（静岡県）
+### 手動検索用URL
 
-**検索キーワード**: `atami onsen ocean view hot spring japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Atami_Onsen`
-- **キーワード**: "atami onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/atami-onsen`
-- **キーワード**: "atami onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_水上温泉郷_温泉_露天風呂**: https://www.google.com/search?q=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_水上温泉郷_温泉_無料画像**: https://www.google.com/search?q=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_群馬県_水上温泉郷_温泉**: https://www.google.com/search?q=%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 11. 伊東温泉（静岡県）
+## 🔍 四万温泉 (群馬県)
 
-**検索キーワード**: `ito onsen rotenburo outdoor bath japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+### 四万温泉 - Yamagutirotenburo.jpg
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Ito_Onsen`
-- **キーワード**: "ito onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/ito-onsen`
-- **キーワード**: "ito onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **URL**: `https://upload.wikimedia.org/wikipedia/commons/Y/Ya/Yamagutirotenburo.jpg`
+- **ソース**: wikimedia
+- **ライセンス**: CC BY-SA / CC BY (要確認)
+- **撮影者**: 要確認
+- **説明**: Wikimedia Commons: Yamagutirotenburo.jpg
+- **ソースURL**: https://commons.wikimedia.org/wiki/File:Yamagutirotenburo.jpg
 
 ---
 
-### 12. 修善寺温泉（静岡県）
+### 手動検索用URL
 
-**検索キーワード**: `shuzenji onsen bamboo grove hot spring japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Shuzenji_Onsen`
-- **キーワード**: "shuzenji onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/shuzenji-onsen`
-- **キーワード**: "shuzenji onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_四万温泉_温泉_露天風呂**: https://www.google.com/search?q=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_四万温泉_温泉_無料画像**: https://www.google.com/search?q=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_群馬県_四万温泉_温泉**: https://www.google.com/search?q=%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 13. 下田温泉（静岡県）
+## 🔍 日光湯元温泉 (栃木県)
 
-**検索キーワード**: `shimoda onsen ocean view hot spring japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+### 日光湯元温泉 - にごり湯源泉かけ流し硫黄泉.jpg
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Shimoda_Onsen`
-- **キーワード**: "shimoda onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/shimoda-onsen`
-- **キーワード**: "shimoda onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **URL**: `https://upload.wikimedia.org/wikipedia/commons/に/にご/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg`
+- **ソース**: wikimedia
+- **ライセンス**: CC BY-SA / CC BY (要確認)
+- **撮影者**: 要確認
+- **説明**: Wikimedia Commons: にごり湯源泉かけ流し硫黄泉.jpg
+- **ソースURL**: https://commons.wikimedia.org/wiki/File:にごり湯源泉かけ流し硫黄泉.jpg
 
 ---
 
-### 14. 湯河原温泉（神奈川県）
+### 手動検索用URL
 
-**検索キーワード**: `yugawara onsen rotenburo outdoor bath japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Yugawara_Onsen`
-- **キーワード**: "yugawara onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/yugawara-onsen`
-- **キーワード**: "yugawara onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_日光湯元温泉_温泉_露天風呂**: https://www.google.com/search?q=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_日光湯元温泉_温泉_無料画像**: https://www.google.com/search?q=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_栃木県_日光湯元温泉_温泉**: https://www.google.com/search?q=%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
 
 ---
 
-### 15. 奥多摩温泉（東京都）
+## 🔍 塩原温泉郷 (栃木県)
 
-**検索キーワード**: `okutama onsen rotenburo outdoor bath japan`
+### 自動検索結果（Wikimedia Commons）
 
-**見つかった画像候補**:
+見つかりませんでした。
 
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Okutama_Onsen`
-- **キーワード**: "okutama onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
+### 手動検索用URL
 
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/okutama-onsen`
-- **キーワード**: "okutama onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
----
-
-### 16. 秩父温泉（埼玉県）
-
-**検索キーワード**: `chichibu onsen rotenburo outdoor bath japan`
-
-**見つかった画像候補**:
-
-#### 候補1: Wikimedia Commons（要検索）
-- **検索URL**: `https://commons.wikimedia.org/wiki/Category:Chichibu_Onsen`
-- **キーワード**: "chichibu onsen rotenburo"
-- **確認**: ⚠️ 実際に検索して確認が必要
-
-#### 候補2: Unsplash（要検索）
-- **検索URL**: `https://unsplash.com/s/photos/chichibu-onsen`
-- **キーワード**: "chichibu onsen"
-- **確認**: ⚠️ 実際に検索して確認が必要
+- **google_塩原温泉郷_温泉_露天風呂**: https://www.google.com/search?q=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_塩原温泉郷_温泉_無料画像**: https://www.google.com/search?q=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_栃木県_塩原温泉郷_温泉**: https://www.google.com/search?q=%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%B8%A9%E6%B3%89
 
 ---
 
-## ⚠️ 注意事項
+## 🔍 熱海温泉 (静岡県)
 
-1. **実際の検索が必要**: 上記の「要検索」とマークされた画像は、実際に各プラットフォームで検索して確認する必要があります。
+### 自動検索結果（Wikimedia Commons）
 
-2. **画像の確認基準**:
-   - ✅ 実際の温泉（湯船・露天風呂）が明確に写っている
-   - ✅ どこの温泉か特定できる（看板・風景・特徴的な建物など）
-   - ✅ フリーライセンス（商用利用可）
-   - ❌ 抽象的な風景写真（温泉が写っていない）
-   - ❌ 人物が主役の写真（プライバシー問題）
+見つかりませんでした。
 
-3. **推奨検索方法**:
-   - Wikimedia Commons: 各温泉名でカテゴリ検索
-   - Unsplash: 各温泉名 + "onsen" + "rotenburo" で検索
-   - Pexels: 各温泉名 + "onsen" で検索
-   - Pixabay: 各温泉名 + "onsen" で検索
+### 手動検索用URL
 
-4. **重複チェック**: 既存の `docs/reports/IMAGE_URL_LIST.md` と重複していないか確認してください。
+- **google_熱海温泉_温泉_露天風呂**: https://www.google.com/search?q=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_熱海温泉_温泉_無料画像**: https://www.google.com/search?q=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_静岡県_熱海温泉_温泉**: https://www.google.com/search?q=%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
 
 ---
 
-## 📝 次のステップ
+## 🔍 伊東温泉 (静岡県)
 
-1. 各プラットフォームで実際に検索を実行
-2. 見つかった画像のURL、撮影者、ライセンス情報を記録
-3. 画像が実際の温泉（湯船・露天風呂）を写しているか確認
-4. どこの温泉か特定できるか確認
-5. 最終的な画像リストを作成
+### 自動検索結果（Wikimedia Commons）
+
+見つかりませんでした。
+
+### 手動検索用URL
+
+- **google_伊東温泉_温泉_露天風呂**: https://www.google.com/search?q=%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_伊東温泉_温泉_無料画像**: https://www.google.com/search?q=%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_静岡県_伊東温泉_温泉**: https://www.google.com/search?q=%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E4%BC%8A%E6%9D%B1%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+
+---
+
+## 🔍 修善寺温泉 (静岡県)
+
+### 自動検索結果（Wikimedia Commons）
+
+見つかりませんでした。
+
+### 手動検索用URL
+
+- **google_修善寺温泉_温泉_露天風呂**: https://www.google.com/search?q=%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_修善寺温泉_温泉_無料画像**: https://www.google.com/search?q=%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_静岡県_修善寺温泉_温泉**: https://www.google.com/search?q=%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E4%BF%AE%E5%96%84%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+
+---
+
+## 🔍 下田温泉 (静岡県)
+
+### 自動検索結果（Wikimedia Commons）
+
+見つかりませんでした。
+
+### 手動検索用URL
+
+- **google_下田温泉_温泉_露天風呂**: https://www.google.com/search?q=%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_下田温泉_温泉_無料画像**: https://www.google.com/search?q=%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_静岡県_下田温泉_温泉**: https://www.google.com/search?q=%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E4%B8%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+
+---
+
+## 🔍 湯河原温泉 (神奈川県)
+
+### 自動検索結果（Wikimedia Commons）
+
+見つかりませんでした。
+
+### 手動検索用URL
+
+- **google_湯河原温泉_温泉_露天風呂**: https://www.google.com/search?q=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_湯河原温泉_温泉_無料画像**: https://www.google.com/search?q=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_神奈川県_湯河原温泉_温泉**: https://www.google.com/search?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+
+---
+
+## 🔍 奥多摩温泉 (東京都)
+
+### 自動検索結果（Wikimedia Commons）
+
+見つかりませんでした。
+
+### 手動検索用URL
+
+- **google_奥多摩温泉_温泉_露天風呂**: https://www.google.com/search?q=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_奥多摩温泉_温泉_無料画像**: https://www.google.com/search?q=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_東京都_奥多摩温泉_温泉**: https://www.google.com/search?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+
+---
+
+## 🔍 秩父温泉 (埼玉県)
+
+### 自動検索結果（Wikimedia Commons）
+
+見つかりませんでした。
+
+### 手動検索用URL
+
+- **google_秩父温泉_温泉_露天風呂**: https://www.google.com/search?q=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82&tbm=isch&tbs=sur:fc
+- **google_秩父温泉_温泉_無料画像**: https://www.google.com/search?q=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89%20%E7%84%A1%E6%96%99%E7%94%BB%E5%83%8F&tbm=isch&tbs=sur:fc
+- **google_埼玉県_秩父温泉_温泉**: https://www.google.com/search?q=%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89&tbm=isch&tbs=sur:fc
+- **unsplash_jp**: https://unsplash.com/s/photos/%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+- **pexels_jp**: https://www.pexels.com/search/%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **pixabay_jp**: https://pixabay.com/images/search/%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89/
+- **wikimedia_jp**: https://commons.wikimedia.org/wiki/Category:%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E6%B8%A9%E6%B3%89
+
+---
+
+
+✅ 結果を docs/reports/ONSEN_IMAGE_SEARCH_RESULTS_AUTO.json に保存しました。
+
