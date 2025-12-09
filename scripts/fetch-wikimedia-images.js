@@ -9,133 +9,134 @@ const fs = require('fs');
 const path = require('path');
 
 // 各温泉地の検索キーワード（複数の検索パターンを定義）
+// 【重要】「rotenburo」「露天風呂」「bath」「浴場」などの、実際に温泉が写っていることを示すキーワードを含める
 const onsenSearchTerms = {
   hakone: [
-    'Hakone Onsen hot spring 温泉',
-    'Hakone Onsen 箱根温泉',
-    'Hakone hot spring japan',
-    '箱根温泉 露天風呂'
+    'Hakone Onsen rotenburo 箱根温泉 露天風呂',
+    'Hakone Onsen bath 箱根温泉 浴場',
+    'Hakone hot spring rotenburo 箱根 露天風呂',
+    '箱根温泉 露天風呂 湯船',
+    'Hakone Onsen outdoor bath 箱根 露天風呂'
   ],
   'hakone-yunohana': [
-    'Hakone Yunohana Onsen 箱根湯本 温泉',
-    'Yunohana Onsen Hakone 湯本',
-    '箱根湯本温泉 湯本',
-    'Hakone Yunohana Onsen japan'
+    'Hakone Yunohana Onsen rotenburo 箱根湯本 温泉 露天風呂',
+    'Yunohana Onsen bath 湯本 浴場',
+    '箱根湯本温泉 露天風呂 湯船',
+    'Hakone Yunohana Onsen outdoor bath 箱根湯本'
   ],
   'hakone-gora': [
-    'Hakone Gora Onsen 強羅 温泉 露天風呂',
-    'Gora Onsen Hakone',
-    '強羅温泉',
-    'Hakone Onsen rotenburo'
+    'Hakone Gora Onsen rotenburo 強羅 温泉 露天風呂',
+    'Gora Onsen bath 強羅 浴場',
+    '強羅温泉 露天風呂',
+    'Hakone Gora Onsen outdoor bath 強羅'
   ],
   'hakone-sengokuhara': [
-    'Hakone Sengokuhara Onsen 仙石原 温泉',
-    'Sengokuhara Onsen Hakone 仙石原',
-    '仙石原温泉 箱根',
-    'Hakone Sengokuhara Onsen japan'
+    'Hakone Sengokuhara Onsen rotenburo 仙石原 温泉 露天風呂',
+    'Sengokuhara Onsen bath 仙石原 浴場',
+    '仙石原温泉 露天風呂 箱根',
+    'Hakone Sengokuhara Onsen outdoor bath 仙石原'
   ],
   kusatsu: [
     'Kusatsu Onsen Yubatake 草津温泉 湯畑',
     'Kusatsu Yubatake 草津 湯畑',
-    '草津温泉',
-    'Kusatsu hot spring japan'
+    '草津温泉 湯畑',
+    'Kusatsu Onsen Yubatake hot spring 草津 湯畑'
   ],
   'kusatsu-yubatake': [
     'Kusatsu Yubatake 草津 湯畑 温泉',
-    'Kusatsu Yubatake',
+    'Kusatsu Yubatake hot water field 草津 湯畑',
     '草津湯畑',
-    'Kusatsu Onsen'
+    'Kusatsu Onsen Yubatake 草津 湯畑'
   ],
   'kusatsu-sainokawara': [
-    'Kusatsu Sainokawara Onsen 草津 西の河原 露天風呂',
-    'Sainokawara Onsen Kusatsu 草津温泉',
+    'Kusatsu Sainokawara Onsen rotenburo 草津 西の河原 露天風呂',
+    'Sainokawara Onsen outdoor bath 草津温泉 露天風呂',
     '草津西の河原露天風呂',
-    'Kusatsu Sainokawara rotenburo'
+    'Kusatsu Sainokawara rotenburo 西の河原'
   ],
   kinugawa: [
-    'Kinugawa Onsen 鬼怒川温泉 露天風呂',
-    'Kinugawa hot spring',
-    '鬼怒川温泉',
-    'Kinugawa Onsen japan'
+    'Kinugawa Onsen rotenburo 鬼怒川温泉 露天風呂',
+    'Kinugawa Onsen bath 鬼怒川 浴場',
+    '鬼怒川温泉 露天風呂',
+    'Kinugawa Onsen outdoor bath 鬼怒川'
   ],
   ikaho: [
-    'Ikaho Onsen 伊香保温泉 石段',
-    'Ikaho Onsen stone steps',
-    '伊香保温泉',
-    'Ikaho hot spring'
+    'Ikaho Onsen rotenburo 伊香保温泉 露天風呂',
+    'Ikaho Onsen bath 伊香保 浴場',
+    '伊香保温泉 露天風呂',
+    'Ikaho Onsen outdoor bath 伊香保'
   ],
   nasu: [
-    'Nasu Onsen 那須温泉 露天風呂',
-    'Nasu hot spring',
-    '那須温泉',
-    'Nasu Onsen japan'
+    'Nasu Onsen rotenburo 那須温泉 露天風呂',
+    'Nasu Onsen bath 那須 浴場',
+    '那須温泉 露天風呂',
+    'Nasu Onsen outdoor bath 那須'
   ],
   minakami: [
-    'Minakami Onsen 水上温泉 露天風呂',
-    'Minakami Onsen Gunma 水上温泉',
-    '水上温泉 群馬',
-    'Minakami Onsen japan Gunma'
+    'Minakami Onsen rotenburo 水上温泉 露天風呂',
+    'Minakami Onsen bath 水上 浴場',
+    '水上温泉 露天風呂 群馬',
+    'Minakami Onsen outdoor bath 水上'
   ],
   shima: [
-    'Shima Onsen 四万温泉 露天風呂',
-    'Shima hot spring',
-    '四万温泉',
-    'Shima Onsen japan'
+    'Shima Onsen rotenburo 四万温泉 露天風呂',
+    'Shima Onsen bath 四万 浴場',
+    '四万温泉 露天風呂',
+    'Shima Onsen outdoor bath 四万'
   ],
   nikko: [
-    'Nikko Yumoto Onsen 日光湯元温泉',
-    'Nikko Yumoto hot spring',
-    '日光湯元温泉',
-    'Nikko Onsen'
+    'Nikko Yumoto Onsen rotenburo 日光湯元温泉 露天風呂',
+    'Nikko Yumoto Onsen bath 日光湯元 浴場',
+    '日光湯元温泉 露天風呂',
+    'Nikko Yumoto Onsen outdoor bath 日光'
   ],
   shiobara: [
-    'Shiobara Onsen 塩原温泉 露天風呂',
-    'Shiobara hot spring',
-    '塩原温泉',
-    'Shiobara Onsen japan'
+    'Shiobara Onsen rotenburo 塩原温泉 露天風呂',
+    'Shiobara Onsen bath 塩原 浴場',
+    '塩原温泉 露天風呂',
+    'Shiobara Onsen outdoor bath 塩原'
   ],
   atami: [
-    'Atami Onsen 熱海温泉 露天風呂',
-    'Atami Onsen hot spring 熱海',
-    '熱海温泉 温泉',
-    'Atami Onsen japan hot spring'
+    'Atami Onsen rotenburo 熱海温泉 露天風呂',
+    'Atami Onsen bath 熱海 浴場',
+    '熱海温泉 露天風呂',
+    'Atami Onsen outdoor bath 熱海'
   ],
   ito: [
-    'Ito Onsen 伊東温泉 露天風呂 温泉',
-    'Ito hot spring onsen 伊東',
-    '伊東温泉 温泉',
-    'Ito Onsen japan hot spring',
-    'Ito Onsen rotenburo 露天風呂'
+    'Ito Onsen rotenburo 伊東温泉 露天風呂',
+    'Ito Onsen bath 伊東 浴場',
+    '伊東温泉 露天風呂',
+    'Ito Onsen outdoor bath 伊東'
   ],
   shuzenji: [
-    'Shuzenji Onsen 修善寺温泉 露天風呂',
-    'Shuzenji hot spring',
-    '修善寺温泉',
-    'Shuzenji Onsen japan'
+    'Shuzenji Onsen rotenburo 修善寺温泉 露天風呂',
+    'Shuzenji Onsen bath 修善寺 浴場',
+    '修善寺温泉 露天風呂',
+    'Shuzenji Onsen outdoor bath 修善寺'
   ],
   shimoda: [
-    'Shimoda Onsen 下田温泉 露天風呂',
-    'Shimoda hot spring',
-    '下田温泉',
-    'Shimoda Onsen japan'
+    'Shimoda Onsen rotenburo 下田温泉 露天風呂',
+    'Shimoda Onsen bath 下田 浴場',
+    '下田温泉 露天風呂',
+    'Shimoda Onsen outdoor bath 下田'
   ],
   yugawara: [
-    'Yugawara Onsen 湯河原温泉 露天風呂',
-    'Yugawara hot spring',
-    '湯河原温泉',
-    'Yugawara Onsen japan'
+    'Yugawara Onsen rotenburo 湯河原温泉 露天風呂',
+    'Yugawara Onsen bath 湯河原 浴場',
+    '湯河原温泉 露天風呂',
+    'Yugawara Onsen outdoor bath 湯河原'
   ],
   okutama: [
-    'Okutama Onsen 奥多摩温泉 露天風呂',
-    'Okutama Onsen Tokyo 奥多摩',
-    '奥多摩温泉 東京',
-    'Okutama Onsen japan Tokyo'
+    'Okutama Onsen rotenburo 奥多摩温泉 露天風呂',
+    'Okutama Onsen bath 奥多摩 浴場',
+    '奥多摩温泉 露天風呂 東京',
+    'Okutama Onsen outdoor bath 奥多摩'
   ],
   chichibu: [
-    'Chichibu Onsen 秩父温泉 露天風呂',
-    'Chichibu hot spring',
-    '秩父温泉',
-    'Chichibu Onsen japan'
+    'Chichibu Onsen rotenburo 秩父温泉 露天風呂',
+    'Chichibu Onsen bath 秩父 浴場',
+    '秩父温泉 露天風呂',
+    'Chichibu Onsen outdoor bath 秩父'
   ],
 };
 
@@ -313,30 +314,48 @@ async function searchWikimediaImages(searchTerm) {
       ];
       const hasLocationInTitle = locationKeywords.some(keyword => titleLower.includes(keyword.toLowerCase()));
       
+      // 【重要】温泉が実際に写っていることを示す必須キーワード
+      // これらのキーワードのいずれかが含まれている必要がある
+      const requiredOnsenKeywords = [
+        'rotenburo', 'rotemburo', '露天風呂', '露天', // 露天風呂
+        'yubatake', '湯畑', // 湯畑
+        'bath', '浴場', '風呂', '湯船', // 浴場・湯船
+        'hot spring', 'onsen', '温泉', // 温泉そのもの
+        'steam', '湯気', '蒸気', // 湯気（温泉の証拠）
+        'spring water', '源泉', // 源泉
+      ];
+      const hasRequiredOnsenKeyword = requiredOnsenKeywords.some(keyword => titleLower.includes(keyword));
+      
+      // 【重要】除外キーワード（温泉そのものが写っていない画像を除外）
+      const excludeKeywords = [
+        // 建物・施設（温泉そのものではない）
+        'entrance', 'gate', 'door', '入口', '門', 'building', '建物', 'facility', '施設',
+        'post office', '郵便局', 'hospital', '病院', 'center', 'センター', 'station', '駅',
+        'railway', 'railroad', 'train', '鉄道', '橋', 'bridge',
+        // 風景・街並み（温泉そのものが写っていない）
+        'city', 'town', '市', '町', 'street', '道路', 'view', '景色', 'landscape', '風景',
+        'mountain', '山', 'lake', '湖', 'river', '川', 'valley', '谷',
+        // 人物・動物（温泉そのものが写っていない）
+        'bust', 'statue', '銅像', 'monument', '記念碑', 'person', '人物', 'people', '人々',
+        'raccoon', 'animal', 'wildlife', '動物', '野生',
+        // その他
+        'upstream', 'downstream', '上流', '下流',
+        'pond', '池', 'postcard', '絵葉書', 'card', 'はがき',
+        'tanker', 'hauling', 'vehicle', 'truck', '車両',
+        '.pdf', '.doc', '.xls', '.ppt', // ドキュメントファイル
+        'map', '地図', 'diagram', '図', 'chart', 'グラフ', // 地図・図表
+        'sign', '看板', 'board', 'plate', '標識', // 看板
+        'temple', 'shrine', '寺', '神社', 'shrine', // 寺社（温泉そのものではない）
+        'restaurant', 'restaurant', 'レストラン', 'cafe', 'カフェ', // レストラン
+        'hotel', 'ryokan', '旅館', '宿', 'ホテル', // 宿泊施設（温泉そのものではない）
+      ];
+      const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
+      
+      // 温泉関連の画像であることを確認（より厳格な条件）
       const isOnsenRelated = 
-        (titleLower.includes('onsen') ||
-        titleLower.includes('hot spring') ||
-        titleLower.includes('温泉') ||
-        titleLower.includes('露天風呂') ||
-        titleLower.includes('rotemburo') ||
-        titleLower.includes('rotenburo') ||
-        titleLower.includes('yubatake') ||
-        titleLower.includes('湯畑') ||
-        titleLower.includes('warm spring') ||
-        titleLower.includes('warmwaterbronnen') ||
-        titleLower.includes('湯') ||
-        titleLower.includes('風呂') ||
-        titleLower.includes('浴場') ||
-        titleLower.includes('源泉')) &&
+        hasRequiredOnsenKeyword && // 【必須】温泉が写っていることを示すキーワードが含まれている
         hasLocationInTitle && // 場所名も含まれていることを確認
-        !titleLower.includes('entrance') && // 入口は除外
-        !titleLower.includes('gate') && // 門は除外
-        !titleLower.includes('bridge') && // 橋は除外
-        !titleLower.includes('post office') && // 郵便局は除外
-        !titleLower.includes('hospital') && // 病院は除外
-        !titleLower.includes('center') && // センターは除外
-        !titleLower.includes('upstream') && // 上流は除外
-        !titleLower.includes('downstream'); // 下流は除外
+        !shouldExclude; // 除外キーワードを含まない
 
       // 画像ファイルの拡張子を確認
       const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
@@ -346,57 +365,70 @@ async function searchWikimediaImages(searchTerm) {
       if (!isImageFile) {
         continue;
       }
+
+      // CCライセンスまたはパブリックドメインの画像のみを対象
+      const isValidLicense = 
+        license.toLowerCase().includes('cc') || 
+        license.toLowerCase().includes('public domain') ||
+        license.toLowerCase().includes('pd-');
       
-      // 除外するキーワード（鉄道、駅、市街地、入口、橋など）
-      const excludeKeywords = [
-        'railway', 'railroad', 'train', 'station', '駅',
-        'city', 'town', '市', '町', 'street', '道路',
-        'bust', 'statue', '銅像', 'monument', '記念碑',
-        '.pdf', '.doc', '.xls', '.ppt', // ドキュメントファイル
-        'tanker', 'hauling', 'vehicle', 'truck', // 車両関連
-        'raccoon', 'animal', 'wildlife', // 動物関連
-        'entrance', 'gate', 'door', '入口', '門', // 入口関連（温泉そのものではない）
-        'bridge', '橋', 'upstream', 'downstream', // 橋や川の上流・下流（温泉そのものではない）
-        'post office', '郵便局', 'hospital', '病院', 'center', 'センター', // 施設（温泉そのものではない）
-        'pond', '池', 'postcard', '絵葉書', 'card', 'はがき' // 池や絵葉書（温泉そのものではない）
-      ];
-      const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
+      if (!isValidLicense) {
+        continue;
+      }
 
-      // CCライセンスまたはパブリックドメインの画像を優先
-      if (!shouldExclude && 
-          (license.toLowerCase().includes('cc') || 
-          license.toLowerCase().includes('public domain') ||
-          license.toLowerCase().includes('pd-'))) {
-        const imageData = {
-          url: imageInfo.url,
-          author,
-          license,
-          licenseUrl,
-          title: page.title,
-        };
+      // 画像の優先度を計算（より確実に温泉が写っている画像を優先）
+      let priority = 0;
+      
+      // 優先度1: 露天風呂・湯畑・浴場などの明確なキーワード
+      if (titleLower.includes('rotenburo') || titleLower.includes('rotemburo') || titleLower.includes('露天風呂')) {
+        priority += 10;
+      }
+      if (titleLower.includes('yubatake') || titleLower.includes('湯畑')) {
+        priority += 10;
+      }
+      if (titleLower.includes('bath') || titleLower.includes('浴場') || titleLower.includes('風呂') || titleLower.includes('湯船')) {
+        priority += 8;
+      }
+      
+      // 優先度2: 湯気・蒸気（温泉の証拠）
+      if (titleLower.includes('steam') || titleLower.includes('湯気') || titleLower.includes('蒸気')) {
+        priority += 5;
+      }
+      
+      // 優先度3: 源泉
+      if (titleLower.includes('spring water') || titleLower.includes('源泉')) {
+        priority += 5;
+      }
+      
+      // 優先度4: 場所名が含まれている
+      if (hasLocationInTitle) {
+        priority += 3;
+      }
+      
+      const imageData = {
+        url: imageInfo.url,
+        author,
+        license,
+        licenseUrl,
+        title: page.title,
+        priority, // 優先度を追加
+      };
 
-        // 温泉関連の画像を優先
-        if (isOnsenRelated) {
+      // 温泉関連の画像のみを選択（フォールバック画像は使用しない）
+      if (isOnsenRelated) {
+        // より優先度の高い画像を選択
+        if (!onsenImage || priority > (onsenImage.priority || 0)) {
           onsenImage = imageData;
-        } else if (!fallbackImage) {
-          // フォールバック画像（温泉関連でないが、除外キーワードも含まない）
-          fallbackImage = imageData;
         }
       }
     }
 
-    // 温泉関連の画像を優先的に返す
-    // 見つからない場合は、フォールバック画像も使用（除外キーワードを含まない限り）
+    // 温泉関連の画像のみを返す（フォールバック画像は使用しない）
     if (onsenImage) {
       return onsenImage;
     }
     
-    // フォールバック画像がある場合は使用
-    if (fallbackImage) {
-      console.warn(`  ⚠ Using fallback image (not explicitly onsen-related): ${fallbackImage.title}`);
-      return fallbackImage;
-    }
-    
+    // 温泉関連の画像が見つからない場合はnullを返す（フォールバック画像は使用しない）
     return null;
   } catch (error) {
     console.error(`Error fetching image for ${searchTerm}:`, error);
@@ -408,45 +440,10 @@ async function searchWikimediaImages(searchTerm) {
  * フォールバック画像を検索（一般的な温泉画像）
  * より厳格なフィルタリングで適切な温泉画像のみを取得
  */
+// フォールバック画像の検索は削除（温泉が写っている画像のみを使用）
+// 見つからない場合はnullを返す
 async function searchFallbackOnsenImage() {
-  const fallbackTerms = [
-    'Japanese onsen hot spring 日本の温泉 露天風呂',
-    'Onsen japan 温泉 露天風呂',
-    'Hot spring japan rotenburo',
-    'Japanese hot spring rotenburo 露天風呂',
-    'Onsen rotenburo japan',
-    'Hot spring bath japan'
-  ];
-  
-  for (const term of fallbackTerms) {
-    const result = await searchWikimediaImages(term);
-    if (result) {
-      // フォールバック画像も温泉関連であることを確認
-      const titleLower = result.title.toLowerCase();
-      const isOnsenRelated = 
-        titleLower.includes('onsen') ||
-        titleLower.includes('hot spring') ||
-        titleLower.includes('温泉') ||
-        titleLower.includes('露天風呂') ||
-        titleLower.includes('rotemburo') ||
-        titleLower.includes('rotenburo') ||
-        titleLower.includes('yubatake') ||
-        titleLower.includes('湯畑');
-      
-      // 動物や不適切な画像を除外
-      const excludeKeywords = [
-        'raccoon', 'animal', 'wildlife', 'tree', 'forest',
-        'アライグマ', '動物', '野生', '森', '木',
-        '入之波', 'hishino', '菱野', '赤沢' // 特定の場所名を除外
-      ];
-      const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
-      
-      if (isOnsenRelated && !shouldExclude) {
-        return result;
-      }
-    }
-    await new Promise(resolve => setTimeout(resolve, 300));
-  }
+  // フォールバック画像は使用しない（精度を上げるため）
   return null;
 }
 
@@ -466,29 +463,15 @@ async function fetchAllImages() {
       results[onsenName] = image;
       console.log(`  ✓ Found: ${image.title}`);
       console.log(`    License: ${image.license}`);
-      console.log(`    Author: ${image.author}\n`);
+      console.log(`    Author: ${image.author}`);
+      if (image.priority) {
+        console.log(`    Priority: ${image.priority}`);
+      }
+      console.log('');
     } else {
-      console.log(`  ✗ No suitable image found`);
-      
-      // フォールバック画像を取得（初回のみ）
-      if (!fallbackImage) {
-        console.log(`  🔍 Searching for fallback onsen image...`);
-        fallbackImage = await searchFallbackOnsenImage();
-        if (fallbackImage) {
-          console.log(`  ✓ Found fallback: ${fallbackImage.title}\n`);
-        }
-      }
-      
-      // フォールバック画像を使用
-      if (fallbackImage) {
-        results[onsenName] = {
-          ...fallbackImage,
-          title: `Fallback: ${fallbackImage.title} (used for ${onsenName})`,
-        };
-        console.log(`  ⚠ Using fallback image\n`);
-      } else {
-        console.log(`  ✗ No fallback image available\n`);
-      }
+      console.log(`  ✗ No suitable onsen image found (温泉が写っている画像が見つかりませんでした)`);
+      console.log(`    → より具体的な検索キーワードを試すか、手動で画像を追加してください\n`);
+      // フォールバック画像は使用しない（精度を上げるため）
     }
     
     // API制限を避けるため、少し待機

@@ -1,0 +1,66 @@
+{
+  "total_onsen": 16,
+  "total_images": 5,
+  "results": [
+    {
+      "onsen": "伊香保温泉",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/I/Ik/Ikaho_open_air_bath.JPG",
+        "title": "Ikaho open air bath.JPG",
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ikaho open air bath.JPG",
+        "license": "CC BY-SA / CC BY (要確認)",
+        "photographer": "要確認",
+        "description": "Wikimedia Commons: Ikaho open air bath.JPG"
+      }
+    },
+    {
+      "onsen": "伊香保温泉",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/I/Ik/Ikaho_Onsen_04.JPG",
+        "title": "Ikaho Onsen 04.JPG",
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ikaho Onsen 04.JPG",
+        "license": "CC BY-SA / CC BY (要確認)",
+        "photographer": "要確認",
+        "description": "Wikimedia Commons: Ikaho Onsen 04.JPG"
+      }
+    },
+    {
+      "onsen": "水上温泉郷",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/T/Ta/Takaragawa_Onsen_01.jpg",
+        "title": "Takaragawa Onsen 01.jpg",
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Takaragawa Onsen 01.jpg",
+        "license": "CC BY-SA / CC BY (要確認)",
+        "photographer": "要確認",
+        "description": "Wikimedia Commons: Takaragawa Onsen 01.jpg"
+      }
+    },
+    {
+      "onsen": "四万温泉",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/Y/Ya/Yamagutirotenburo.jpg",
+        "title": "Yamagutirotenburo.jpg",
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Yamagutirotenburo.jpg",
+        "license": "CC BY-SA / CC BY (要確認)",
+        "photographer": "要確認",
+        "description": "Wikimedia Commons: Yamagutirotenburo.jpg"
+      }
+    },
+    {
+      "onsen": "日光湯元温泉",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/に/にご/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+        "title": "にごり湯源泉かけ流し硫黄泉.jpg",
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:にごり湯源泉かけ流し硫黄泉.jpg",
+        "license": "CC BY-SA / CC BY (要確認)",
+        "photographer": "要確認",
+        "description": "Wikimedia Commons: にごり湯源泉かけ流し硫黄泉.jpg"
+      }
+    }
+  ]
+}

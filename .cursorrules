@@ -4,7 +4,7 @@
 
 **重要**: このリポジトリで作業を開始する前に、**必ず最初に以下を確認してください**：
 
-1. **[`START_HERE.md`](./START_HERE.md)** を最初に読んでください
+1. **[`docs/START_HERE.md`](./docs/START_HERE.md)** を最初に読んでください
    - 作業開始時の必須確認事項が記載されています
    - **このファイルを参照せずに作業を開始しないでください**
 
@@ -56,15 +56,19 @@
 
 ## 📁 重要なファイル
 
-- `START_HERE.md` - **作業開始時の必須確認事項（最優先）**
+- `docs/START_HERE.md` - **作業開始時の必須確認事項（最優先）**
 - `docs/FUTURE_TASKS.md` - **今後の課題一覧（必須）**
-- `docs/MASTER_ARCHITECTURE.md` - アーキテクチャの詳細
+- `docs/design/UI_DESIGN_V3.md` - **UI設計書（最新版）**
+- `docs/design/REVIEW_SITE_CURRENT.md` - **現状分析レポート**
+- `docs/images/MULTI_API_IMAGE_FETCH.md` - **画像取得システムガイド**
+- `docs/architecture/MASTER_ARCHITECTURE.md` - アーキテクチャの詳細
 - `CONTRIBUTING.md` - コントリビューションガイド
 - `themes/onsen-kanto/content.json` - サイトのコンテンツ設定
 - `themes/onsen-kanto/texts.json` - **画面テキストの一元管理（重要）**
 - `data/wikimedia-images.json` - 画像データ
 - `app/lib/images.ts` - 画像管理システム
 - `app/lib/content.ts` - コンテンツ管理システム
+- `scripts/fetch-onsen-images-multi-api.js` - **画像取得スクリプト（推奨）**
 
 ## 📊 現在の状態（2025年12月時点）
 
@@ -92,8 +96,13 @@
 
 1. **画像の最適化**: GitHub Pagesの静的エクスポートでは画像最適化が無効（`unoptimized: true`）
 2. **テスト**: 一部のテストが失敗している可能性がある（`SKIP_CHECK=true`でスキップ可能）
-3. **画像の取得**: Wikimedia Commons APIのレート制限に注意
+3. **画像の取得**: 
+   - 複数の無料画像APIを統合した画像取得システムを実装済み（`scripts/fetch-onsen-images-multi-api.js`）
+   - Wikimedia Commons APIはAPIキー不要だが、レート制限に注意
+   - Pixabay、Pexels、UnsplashはAPIキーが必要（環境変数で設定）
+   - 詳細は `docs/images/MULTI_API_IMAGE_FETCH.md` を参照
 4. **ビルド**: 静的エクスポートを使用しているため、サーバーサイド機能は使用できない
+5. **APIキーの管理**: APIキーは環境変数で管理し、絶対にコミット・ログ出力しないこと
 
 ## 🔒 編集可能なレイヤー / 編集禁止レイヤー
 
@@ -139,7 +148,7 @@
 
 作業を開始する前に、以下を確認してください：
 
-- [ ] `START_HERE.md` を読みました
+- [ ] `docs/START_HERE.md` を読みました
 - [ ] `docs/FUTURE_TASKS.md` を読みました
 - [ ] `docs/MASTER_ARCHITECTURE.md` を読みました
 - [ ] 作業する課題を選択しました

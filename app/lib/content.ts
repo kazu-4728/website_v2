@@ -2,452 +2,64 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
 
-// ==========================================
-// TYPE DEFINITIONS
-// ==========================================
+// Import common theme types
+import type {
+  TextsConfig,
+  ContentConfig,
+  ContentConfigRaw,
+  HomeHero,
+  HomeHeroRaw,
+  HeroSlideResolved,
+  HomeSection,
+  SplitFeatureSection,
+  GridGallerySection,
+  TestimonialsSection,
+  CtaSection,
+  StepsSection,
+  DocPage,
+  DocPageRaw,
+  BlogPost,
+  BlogPostRaw,
+  ImageReference,
+} from './theme-types';
 
-// ==========================================
-// TEXTS CONFIG TYPE DEFINITIONS
-// ==========================================
+// Import onsen-specific types
+import type {
+  OnsenSpot,
+  OnsenRegion,
+  OnsenInfo,
+  OnsenAccess,
+  OnsenAccommodation,
+  OnsenContent,
+  OnsenImages,
+  OnsenMeta,
+  OnsenDocPage,
+} from './onsen-types';
 
-export interface TextsConfig {
-  nav: {
-    backLinks: {
-      home: string;
-      docs: string;
-      blog: string;
-    };
-    pagination: {
-      previous: string;
-      next: string;
-    };
-  };
-  pages: {
-    onsenGuide: {
-      title: string;
-      description: string;
-      defaultSubtitle: string;
-    };
-    contact: {
-      title: string;
-    };
-  };
-  buttons: {
-    learnMore: string;
-    readStory: string;
-    learnMoreEn: string;
-    submit: string;
-  };
-  form: {
-    labels: {
-      name: string;
-      email: string;
-      message: string;
-    };
-    placeholders: {
-      name: string;
-      email: string;
-      message: string;
-    };
-    fields: {
-      email: {
-        label: string;
-      };
-      office: {
-        label: string;
-      };
-    };
-  };
-  messages: {
-    notFound: {
-      docs: string;
-      blog: string;
-      blogContent: string;
-      features: string;
-      contact: string;
-    };
-  };
-  ui: {
-    labels: {
-      tableOfContents: string;
-      documentation: string;
-      readyToDeploy: string;
-      interactiveDemoLoading: string;
-    };
-  };
-}
-
-interface ContentConfigRaw {
-  site: {
-    name: string;
-    tagline: string;
-    description: string;
-    logo: {
-      text: string;
-      icon: string;
-    };
-    metadata: {
-      title: string;
-      description: string;
-    };
-  };
-  navigation: Array<{
-    label: string;
-    href: string;
-    variant?: 'primary' | 'secondary';
-    submenu?: Array<{ label: string; href: string }>;
-  }>;
-  pages: {
-    home: {
-      hero: HomeHeroRaw;
-      sections: Array<any>;
-    };
-    docs?: Array<DocPageRaw>;
-    blog?: {
-      title: string;
-      description: string;
-      posts: Array<BlogPostRaw>;
-    };
-    features?: {
-      title: string;
-      description: string;
-      hero: {
-        title: string;
-        subtitle: string;
-        description: string;
-        image: string | { key?: string; keywords?: string };
-      };
-      items: Array<{
-        title: string;
-        description: string;
-        icon: string;
-        image: string | { key?: string; keywords?: string };
-      }>;
-    };
-    contact?: {
-      title: string;
-      email: string;
-      office: string;
-    };
-  };
-}
-
-export interface ContentConfig {
-  site: {
-    name: string;
-    tagline: string;
-    description: string;
-    logo: {
-      text: string;
-      icon: string;
-    };
-    metadata: {
-      title: string;
-      description: string;
-    };
-  };
-  navigation: Array<{
-    label: string;
-    href: string;
-    variant?: 'primary' | 'secondary';
-    submenu?: Array<{ label: string; href: string }>;
-  }>;
-  pages: {
-    home: {
-      hero: HomeHero;
-      sections: Array<HomeSection>;
-    };
-    docs?: Array<DocPage>;
-    blog?: {
-      title: string;
-      description: string;
-      posts: Array<BlogPost>;
-    };
-    features?: {
-      title: string;
-      description: string;
-      hero: {
-        title: string;
-        subtitle: string;
-        description: string;
-        image: string;
-      };
-      items: Array<{
-        title: string;
-        description: string;
-        icon: string;
-        image: string;
-      }>;
-    };
-    contact?: {
-      title: string;
-      email: string;
-      office: string;
-    };
-  };
-  texts: TextsConfig;
-}
-
-interface HomeHero {
-  type: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  bgImage: string; // 解決後は常に文字列
-  overlay: string;
-  actions: Array<{
-    label: string;
-    href: string;
-    variant: 'primary' | 'secondary';
-  }>;
-}
-
-interface HomeHeroRaw {
-  type: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  bgImage: string | { key?: string; keywords?: string }; // 解決前はキーまたはURL
-  overlay: string;
-  actions: Array<{
-    label: string;
-    href: string;
-    variant: 'primary' | 'secondary';
-  }>;
-}
-
-export interface HomeSection {
-  id: string;
-  type: string;
-  [key: string]: any;
-}
-
-export interface SplitFeatureSection extends HomeSection {
-  type: 'split-feature';
-  layout: 'image-left' | 'image-right';
-  chapter?: string;
-  title: string;
-  subtitle?: string;
-  description: string;
-  image: string;
-  stats?: Array<{ value: string; label: string }>;
-  quote?: { text: string; author: string };
-  link?: { text: string; href: string };
-}
-
-export interface GridGallerySection extends HomeSection {
-  type: 'grid-gallery';
-  title: string;
-  subtitle?: string;
-  description: string;
-  items: Array<{
-    title: string;
-    description: string;
-    image: string;
-    href: string;
-  }>;
-}
-
-export interface TestimonialsSection extends HomeSection {
-  type: 'testimonials';
-  title: string;
-  items: Array<{
-    content: string;
-    author: string;
-    role: string;
-    avatar: string;
-  }>;
-}
-
-export interface CtaSection extends HomeSection {
-  type: 'cta-fullscreen';
-  title: string;
-  description: string;
-  bgImage: string;
-  action: {
-    label: string;
-    href: string;
-  };
-}
-
-// ==========================================
-// ONSEN DATA MODEL TYPE DEFINITIONS
-// ==========================================
-
-/**
- * 温泉地の地域情報
- */
-export interface OnsenRegion {
-  prefecture: string;
-  area: string;
-  coordinates?: {
-    lat: number;
-    lng: number;
-  };
-}
-
-/**
- * 温泉情報
- */
-export interface OnsenInfo {
-  springTypes: string[];
-  ph?: number;
-  temperature?: number;
-  flowRate?: string;
-  effects: string[];
-  characteristics: string[];
-}
-
-/**
- * アクセス情報
- */
-export interface OnsenAccess {
-  nearestStation?: {
-    name: string;
-    line: string;
-    walkingTime?: number;
-  };
-  fromTokyo: {
-    byTrain?: {
-      time: number;
-      description: string;
-    };
-    byCar?: {
-      time: number;
-      distance: number;
-      description: string;
-    };
-  };
-  parking?: {
-    available: boolean;
-    fee?: string;
-  };
-}
-
-/**
- * 宿泊・施設情報
- */
-export interface OnsenAccommodation {
-  dayTripAvailable: boolean;
-  dayTripFacilities?: string[];
-  representativeRyokan?: Array<{
-    name: string;
-    features: string[];
-    priceRange?: string;
-    officialUrl?: string; // 旅館の公式サイトURL
-    mapsUrl?: string; // 旅館のGoogleマップURL
-  }>;
-  features: string[];
-}
-
-/**
- * コンテンツ情報
- */
-export interface OnsenContent {
-  shortDescription: string;
-  longDescription: string;
-  highlights?: string[];
-  seasons?: {
-    spring?: string;
-    summer?: string;
-    autumn?: string;
-    winter?: string;
-  };
-}
-
-/**
- * 画像情報
- */
-export interface OnsenImages {
-  main: string;
-  thumbnail: string;
-  gallery?: string[];
-  credit?: string;
-}
-
-/**
- * メタ情報
- */
-export interface OnsenMeta {
-  priority: number;
-  tags: string[];
-  related: string[];
-  publishedAt: string; // ISO 8601
-  updatedAt: string; // ISO 8601
-}
-
-/**
- * 完全な温泉地データモデル
- * 既存のDocPageに紐づく形で、各docにonsenフィールドとして追加可能
- * 
- * 設計方針：
- * - 既存のpages.docs[]配列を維持しつつ、各docにonsenフィールドをoptionalで追加
- * - 独立したonsenSpots配列を作らず、既存の構造を活用することで段階的な移行が可能
- * - 既存のtitle, subtitle, description, image, contentフィールドは維持（後方互換性）
- */
-export interface OnsenSpot {
-  id: string;
-  slug: string;
-  name: string;
-  nameKana: string;
-  nameEn: string;
-  region: OnsenRegion;
-  onsen: OnsenInfo;
-  access: OnsenAccess;
-  accommodation: OnsenAccommodation;
-  content: OnsenContent;
-  images: OnsenImages;
-  metadata: OnsenMeta;
-  mapsUrl?: string; // 温泉エリア全体のGoogleマップURL
-}
-
-interface DocPage {
-  slug: string;
-  title: string;
-  subtitle?: string;
-  description: string;
-  image: string; // 解決後は常に文字列
-  content: string;
-  related?: string[];
-  // 新規追加：温泉地の詳細情報（optional）
-  onsen?: OnsenSpot;
-}
-
-interface DocPageRaw {
-  slug: string;
-  title: string;
-  subtitle?: string;
-  description: string;
-  image: string | { key?: string; keywords?: string }; // 解決前はキーまたはURL
-  content: string;
-  related?: string[];
-  // 新規追加：温泉地の詳細情報（optional）
-  onsen?: OnsenSpot;
-}
-
-interface BlogPost {
-  slug: string;
-  title: string;
-  excerpt: string;
-  date: string;
-  readTime: string;
-  category: string;
-  author: string;
-  image: string; // 解決後は常に文字列
-  content: string;
-}
-
-interface BlogPostRaw {
-  slug: string;
-  title: string;
-  excerpt: string;
-  date: string;
-  readTime: string;
-  category: string;
-  author: string;
-  image: string | { key?: string; keywords?: string }; // 解決前はキーまたはURL
-  content: string;
-}
+// Re-export types for backward compatibility
+export type {
+  TextsConfig,
+  ContentConfig,
+  HomeHero,
+  HomeSection,
+  SplitFeatureSection,
+  GridGallerySection,
+  TestimonialsSection,
+  CtaSection,
+  StepsSection,
+  DocPage,
+  BlogPost,
+  // Onsen-specific types
+  OnsenSpot,
+  OnsenRegion,
+  OnsenInfo,
+  OnsenAccess,
+  OnsenAccommodation,
+  OnsenContent,
+  OnsenImages,
+  OnsenMeta,
+  OnsenDocPage,
+};
 
 // ==========================================
 // CONTENT LOADING
@@ -548,6 +160,17 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
     'onsen,hot spring,japan'
   );
 
+  // ヒーロースライドの画像を解決（マルチスライド対応）
+  const heroSlides: HeroSlideResolved[] | undefined = content.pages.home.hero.slides?.map(slide => ({
+    ...slide,
+    bgImage: resolveImageUrl(
+      { key: slide.imageKey },
+      'hero',
+      slide.imageKey,
+      `onsen,hot spring,japan,${slide.season || ''},${slide.area || ''}`
+    ),
+  }));
+
   const resolved: Omit<ContentConfig, 'texts'> = {
     ...content,
     pages: {
@@ -557,6 +180,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
         hero: {
           ...content.pages.home.hero,
           bgImage: heroBgImage,
+          slides: heroSlides,
         },
         sections: content.pages.home.sections.map(section => {
           const resolvedSection: any = { ...section };
@@ -646,7 +270,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
  * 画像URLを解決（キーまたはURLから最適化されたURLに変換）
  */
 function resolveImageUrl(
-  image: string | { key?: string; keywords?: string },
+  image: ImageReference,
   category: string,
   key: string,
   defaultKeywords?: string
@@ -788,6 +412,14 @@ const fallbackTexts: TextsConfig = {
       documentation: "Documentation",
       readyToDeploy: "Ready to Deploy?",
       interactiveDemoLoading: "Interactive Demo Module Loading...",
+    },
+  },
+  footer: {
+    tagline: "関東エリアの名湯・秘湯を巡る旅",
+    copyright: "© 2025 関東温泉紀行. All rights reserved.",
+    sections: {
+      navigation: "ナビゲーション",
+      about: "サイトについて",
     },
   },
 };
