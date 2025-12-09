@@ -295,27 +295,38 @@ async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
       
       if (!isValidLicense) continue;
 
-      // 段階的緩和: 第1段階（厳格）→ 第2段階（緩和）→ 第3段階（さらに緩和）
-      // 第1段階: 場所名も含まれている（最優先）
-      // 第2段階: 場所名は任意（第1段階で見つからない場合）
-      // 第3段階: 場所名は任意、より緩い条件（第2段階で見つからない場合）
-      
-      // 段階に応じた条件チェック
-      let shouldInclude = false;
-      
+      // 精度を最優先: 第1段階では場所名が必須、第2段階・第3段階でも厳格な条件を維持
       if (stage === 1) {
-        // 第1段階: 場所名も含まれている（厳格）
-        shouldInclude = hasLocationInTitle;
+        // 第1段階: 場所名も含まれている（厳格）- 精度を最優先
+        if (!hasLocationInTitle) {
+          continue; // 場所名が含まれていない画像は除外
+        }
       } else if (stage === 2) {
-        // 第2段階: 場所名は任意（緩和）
-        shouldInclude = true; // 必須キーワードは既にチェック済み
+        // 第2段階: 場所名は任意だが、検索キーワードとの関連性を厳格に確認
+        // 検索キーワードに含まれる主要な単語（場所名や温泉関連）がタイトルに含まれているか確認
+        const searchWords = searchTermLower.split(/\s+/).filter(word => word.length > 2);
+        const hasSearchWordMatch = searchWords.some(word => titleLower.includes(word));
+        
+        // 場所名も検索キーワードも含まれていない場合は除外（精度を維持）
+        if (!hasSearchWordMatch && !hasLocationInTitle) {
+          continue;
+        }
+        
+        // さらに、検索キーワードに場所名が含まれている場合は、その場所名がタイトルに含まれている必要がある
+        const locationInSearch = locationKeywords.find(loc => searchTermLower.includes(loc.toLowerCase()));
+        if (locationInSearch && !titleLower.includes(locationInSearch.toLowerCase())) {
+          continue; // 検索キーワードに場所名が含まれているのに、タイトルに含まれていない場合は除外
+        }
       } else if (stage === 3) {
-        // 第3段階: 場所名は任意、より緩い条件（さらに緩和）
-        shouldInclude = true; // 必須キーワードは既にチェック済み
-      }
-      
-      if (!shouldInclude) {
-        continue; // 段階に応じた条件を満たさない場合はスキップ
+        // 第3段階: さらに緩和（第2段階で見つからない場合のみ）
+        // ただし、検索キーワードとの最低限の関連性は確認
+        const searchWords = searchTermLower.split(/\s+/).filter(word => word.length > 3);
+        const hasSearchWordMatch = searchWords.some(word => titleLower.includes(word));
+        
+        // 検索キーワードとの関連性が全くない場合は除外
+        if (!hasSearchWordMatch && !hasLocationInTitle) {
+          continue;
+        }
       }
       
       // 優先度を計算（場所名が含まれている場合は優先度が高い）
@@ -421,33 +432,82 @@ async function searchPixabay(searchTerm) {
       return null;
     }
 
-    // 最も関連性の高い画像を選択
+    // 最も関連性の高い画像を選択（精度を優先）
+    let bestHit = null;
+    let bestPriority = 0;
+    
     for (const hit of data.hits) {
-      const tags = hit.tags.toLowerCase();
-      if (tags.includes('onsen') || tags.includes('hot spring') || tags.includes('rotenburo') || tags.includes('bath')) {
-        return {
-          url: hit.largeImageURL || hit.webformatURL,
-          author: hit.user,
-          license: 'Pixabay License',
-          licenseUrl: 'https://pixabay.com/service/license/',
-          title: hit.tags,
-          source: 'pixabay',
-          photographerUrl: `https://pixabay.com/users/${hit.user}-${hit.user_id}/`,
-        };
+      const tags = (hit.tags || '').toLowerCase();
+      const description = (hit.description || '').toLowerCase();
+      const combined = tags + ' ' + description;
+      
+      // 必須キーワードチェック（温泉が写っていることを示す）
+      const hasRequiredKeyword = 
+        combined.includes('onsen') || 
+        combined.includes('hot spring') || 
+        combined.includes('rotenburo') || 
+        combined.includes('rotemburo') ||
+        combined.includes('bath') ||
+        combined.includes('露天風呂') ||
+        combined.includes('yubatake') ||
+        combined.includes('湯畑');
+      
+      if (!hasRequiredKeyword) {
+        continue; // 必須キーワードが含まれていない画像は除外
+      }
+      
+      // 検索キーワードとの関連性を確認
+      const searchTermLower = searchTerm.toLowerCase();
+      const locationKeywords = [
+        'hakone', '箱根', 'yunohana', '湯本', 'gora', '強羅', 'sengokuhara', '仙石原',
+        'kusatsu', '草津', 'yubatake', '湯畑', 'sainokawara', '西の河原',
+        'kinugawa', '鬼怒川', 'ikaho', '伊香保', 'nasu', '那須',
+        'minakami', '水上', 'shima', '四万', 'nikko', '日光', 'yumoto', '湯元',
+        'shiobara', '塩原', 'atami', '熱海', 'ito', '伊東',
+        'shuzenji', '修善寺', 'shimoda', '下田', 'yugawara', '湯河原',
+        'okutama', '奥多摩', 'chichibu', '秩父'
+      ];
+      
+      const hasLocationMatch = locationKeywords.some(keyword => 
+        combined.includes(keyword.toLowerCase()) && searchTermLower.includes(keyword.toLowerCase())
+      );
+      
+      // 優先度を計算
+      let priority = 0;
+      if (hasLocationMatch) {
+        priority += 20; // 場所名が一致している場合は高優先度
+      }
+      if (combined.includes('rotenburo') || combined.includes('rotemburo') || combined.includes('露天風呂')) {
+        priority += 10;
+      }
+      if (combined.includes('yubatake') || combined.includes('湯畑')) {
+        priority += 10;
+      }
+      if (combined.includes('bath') || combined.includes('浴場') || combined.includes('風呂')) {
+        priority += 8;
+      }
+      
+      if (!bestHit || priority > bestPriority) {
+        bestHit = hit;
+        bestPriority = priority;
       }
     }
-
-    // 見つからない場合は最初の画像を使用
-    const hit = data.hits[0];
-    return {
-      url: hit.largeImageURL || hit.webformatURL,
-      author: hit.user,
-      license: 'Pixabay License',
-      licenseUrl: 'https://pixabay.com/service/license/',
-      title: hit.tags,
-      source: 'pixabay',
-      photographerUrl: `https://pixabay.com/users/${hit.user}-${hit.user_id}/`,
-    };
+    
+    // 優先度の高い画像を返す（場所名が一致している画像を優先）
+    if (bestHit && bestPriority >= 8) { // 最低限の優先度を確保
+      return {
+        url: bestHit.largeImageURL || bestHit.webformatURL,
+        author: bestHit.user,
+        license: 'Pixabay License',
+        licenseUrl: 'https://pixabay.com/service/license/',
+        title: bestHit.tags,
+        source: 'pixabay',
+        photographerUrl: `https://pixabay.com/users/${bestHit.user}-${bestHit.user_id}/`,
+      };
+    }
+    
+    // 見つからない場合は null を返す（精度を優先）
+    return null;
   } catch (error) {
     console.error(`Error searching Pixabay:`, error);
     return null;
