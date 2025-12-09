@@ -1,76 +1,114 @@
-# ドキュメントディレクトリ
+# ドキュメント一覧
 
-このディレクトリには、プロジェクトに関するすべてのドキュメントが含まれています。
+このディレクトリには、プロジェクトのドキュメントが含まれています。
 
-## 📚 ディレクトリ構造
+## 📚 最新の設計ドキュメント（2025年12月10日）
 
-### エージェント向け（AIエージェントが使用）
+### [design/DESIGN_V5_MASTER.md](./design/DESIGN_V5_MASTER.md) ⭐ **最新版**
 
-- **[`agent/`](./agent/)** - エージェント向けドキュメント
-  - `AGENT_GUIDE.md` - ⭐ **エージェント向けガイド（必読）**
-  - `START_HERE.md` - 作業開始時の必須確認事項
-  - `README.md` - エージェント向けドキュメントの概要
+**ベンチマークサイトを目指す大改造の設計構想**
 
-### ユーザー向け（人間が使用）
+- ベンチマーク: 和倉温泉 あえの風 公式サイト
+- 目標: 画像メインの情報多彩な温泉紹介サイト
+- 方針: 既存サイトを忘れ、ゼロから再設計
+- JSON Firstアーキテクチャを維持
+- テンプレートとして他サイトに流用可能な構成
 
-- **[`user-guide/`](./user-guide/)** - ユーザー向けガイド
-  - `README.md` - ユーザー向けドキュメントの概要
+### [design/IMPLEMENTATION_PLAN_V5.md](./design/IMPLEMENTATION_PLAN_V5.md)
 
-### 設計ドキュメント
+**実装計画 V5**
 
-- **[`design/`](./design/)** - 設計ドキュメント
-  - `DESIGN_CONCEPTION_V4.md` - 設計構想（最新版）
-  - `DESIGN_CONCEPTION_SUMMARY.md` - 設計構想サマリー
-  - `UI_DESIGN_V3.md` - UI設計書
-  - `REVIEW_SITE_CURRENT.md` - 現状分析レポート
+- フェーズ別実装計画
+- 新規コンポーネントの設計
+- 既存コンポーネントの強化方針
 
-### 画像システム
+### [design/BENCHMARK_ANALYSIS.md](./design/BENCHMARK_ANALYSIS.md)
 
-- **[`images/`](./images/)** - 画像システムドキュメント
-  - `MULTI_API_IMAGE_FETCH.md` - 画像取得システムガイド
-  - `IMAGE_FETCH_RECOMMENDATIONS.md` - 画像取得推奨事項
-  - `README.md` - 画像システムドキュメントの概要
+**ベンチマークサイトの詳細分析**
 
-### アーキテクチャ
+- ベンチマークサイトの核心的な特徴
+- 現在のサイトとの具体的な違い
+- 改善案
 
-- **[`architecture/`](./architecture/)** - アーキテクチャドキュメント
-  - `MASTER_ARCHITECTURE.md` - アーキテクチャの詳細
+## 📁 ディレクトリ構成
 
-### レポート
+### [design/](./design/) - 設計ドキュメント
 
-- **[`reports/`](./reports/)** - 各種レポート
-  - 過去の作業レポート、分析レポートなど
+- `DESIGN_V5_MASTER.md` - 最新の設計構想（2025年12月10日）
+- `IMPLEMENTATION_PLAN_V5.md` - 実装計画
+- `BENCHMARK_ANALYSIS.md` - ベンチマーク分析
+- `REVIEW_SITE_CURRENT.md` - 現状分析レポート
+- `UI_DESIGN_V3.md` - UI設計書 V3（参考用）
+- `DESIGN_HISTORY.md` - 設計履歴
+- `archive/` - 過去の設計ドキュメント
 
-### その他
+### [images/](./images/) - 画像システム
 
-- `FUTURE_TASKS.md` - 今後の課題一覧
-- `requirements.md` - 要件定義
-- `cursor-rules.md` - 開発ルール
+- `API_KEY_SETUP_GUIDE.md` - APIキー設定ガイド
+- `IMAGE_MANAGEMENT_SYSTEM.md` - 画像管理システム
+- `MULTI_API_IMAGE_FETCH.md` - 複数API画像取得システム
+- その他の画像関連ドキュメント
 
-## 🚀 クイックスタート
+### [agent/](./agent/) - エージェント向けガイド
 
-### エージェントの場合
+- `AGENT_GUIDE.md` - エージェント向け包括的なガイド
+- `IMAGE_WORKFLOW.md` - 画像取得ワークフロー
+- `README.md` - エージェント向けドキュメントのインデックス
 
-1. [`agent/AGENT_GUIDE.md`](./agent/AGENT_GUIDE.md)を読む
-2. [`agent/START_HERE.md`](./agent/START_HERE.md)を読む
-3. [`FUTURE_TASKS.md`](./FUTURE_TASKS.md)で課題を確認
-4. 作業開始
+### [user-guide/](./user-guide/) - ユーザー向けガイド
 
-### ユーザーの場合
+- `README.md` - ユーザー向けドキュメントのインデックス
 
-1. [`user-guide/README.md`](./user-guide/README.md)を読む
-2. [`design/DESIGN_CONCEPTION_SUMMARY.md`](./design/DESIGN_CONCEPTION_SUMMARY.md)で設計構想を確認
-3. [`images/MULTI_API_IMAGE_FETCH.md`](./images/MULTI_API_IMAGE_FETCH.md)で画像システムを理解
+### [architecture/](./architecture/) - アーキテクチャ
 
-## 📝 重要な原則
+- `MASTER_ARCHITECTURE.md` - マスターアーキテクチャ
+- その他のアーキテクチャ関連ドキュメント
 
-### 画像の取得と使用
+### [scripts-guide/](./scripts-guide/) - スクリプトガイド
 
-- **画像は自動的にサイトに反映されません**
-- 取得した画像はユーザーが確認してから使用します
-- 詳細は [`agent/AGENT_GUIDE.md`](./agent/AGENT_GUIDE.md) を参照
+- `README.md` - スクリプトガイドのインデックス
 
-### JSON Firstアーキテクチャ
+### [archive/](./archive/) - 過去のドキュメント
 
-- すべてのユーザー向けテキストは`themes/onsen-kanto/texts.json`で管理
-- コンテンツ構造は`themes/onsen-kanto/content.json`で管理
+- `old-designs/` - 過去の設計ドキュメント
+- `old-reports/` - 過去のレポート
+
+## 📝 重要なドキュメント
+
+### 作業開始前に必ず読む
+
+1. **[agent/AGENT_GUIDE.md](./agent/AGENT_GUIDE.md)** - エージェント向けガイド
+2. **[design/DESIGN_V5_MASTER.md](./design/DESIGN_V5_MASTER.md)** - 最新の設計構想
+3. **[requirements.md](./requirements.md)** - 要件定義
+4. **[cursor-rules.md](./cursor-rules.md)** - 開発ルール
+
+### 設計・実装時
+
+1. **[design/DESIGN_V5_MASTER.md](./design/DESIGN_V5_MASTER.md)** - 最新の設計構想
+2. **[design/IMPLEMENTATION_PLAN_V5.md](./design/IMPLEMENTATION_PLAN_V5.md)** - 実装計画
+3. **[architecture/MASTER_ARCHITECTURE.md](./architecture/MASTER_ARCHITECTURE.md)** - アーキテクチャ
+
+### 画像取得時
+
+1. **[images/API_KEY_SETUP_GUIDE.md](./images/API_KEY_SETUP_GUIDE.md)** - APIキー設定
+2. **[images/IMAGE_MANAGEMENT_SYSTEM.md](./images/IMAGE_MANAGEMENT_SYSTEM.md)** - 画像管理システム
+3. **[agent/IMAGE_WORKFLOW.md](./agent/IMAGE_WORKFLOW.md)** - 画像取得ワークフロー
+
+## 🎯 現在の方針（2025年12月10日）
+
+- **既存サイトを忘れる**: 大改造のため、既存の実装は参考程度に
+- **ベンチマークサイトを目指す**: 「あえの風」レベルの世界観・クオリティ
+- **画像メイン**: 高品質な実写画像を大胆に使用
+- **JSON First**: すべてのコンテンツとUIテキストをJSONで管理（維持）
+- **テンプレート化**: テーマ切替可能な設計を維持
+
+## 📚 過去の設計履歴
+
+過去の設計ドキュメントは `design/DESIGN_HISTORY.md` を参照してください。
+
+## ⚠️ 注意事項
+
+- **最新の設計書を参照**: `design/DESIGN_V5_MASTER.md` を最優先で参照
+- **既存サイトを忘れる**: 大改造のため、既存の実装は参考程度に
+- **JSON Firstを維持**: すべてのコンテンツとUIテキストはJSONで管理
+- **テンプレート化を考慮**: テーマ切替可能な設計を維持
