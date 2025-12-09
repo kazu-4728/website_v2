@@ -19,6 +19,9 @@
 const fs = require('fs');
 const path = require('path');
 
+// 既に使用した画像URLを記録（重複を避けるため）
+const usedImageUrls = new Set();
+
 // 各温泉地の検索キーワード（複数の検索パターンを定義）
 // 【重要】「rotenburo」「露天風呂」「bath」「浴場」などの、実際に温泉が写っていることを示すキーワードを含める
 const onsenSearchTerms = {
@@ -160,9 +163,12 @@ const onsenSearchTerms = {
 };
 
 /**
- * Wikimedia Commons APIで画像を検索
+ * Wikimedia Commons APIで画像を検索（段階的緩和対応）
+ * @param searchTerm 検索キーワード
+ * @param limit 取得件数
+ * @param stage 検索段階（1: 厳格、2: 緩和、3: さらに緩和）
  */
-async function searchWikimediaCommons(searchTerm, limit = 10) {
+async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
   try {
     const apiUrl = `https://commons.wikimedia.org/w/api.php?` +
       `action=query&` +
@@ -226,8 +232,21 @@ async function searchWikimediaCommons(searchTerm, limit = 10) {
       const licenseUrl = extMetadata.LicenseUrl?.value || '';
       const author = extMetadata.Artist?.value || extMetadata.Creator?.value || 'Unknown';
       const titleLower = page.title.toLowerCase();
+      const searchTermLower = searchTerm.toLowerCase();
+      
+      // 検索キーワードに含まれる場所名をチェック
+      const locationKeywords = [
+        'hakone', '箱根', 'yunohana', '湯本', 'gora', '強羅', 'sengokuhara', '仙石原',
+        'kusatsu', '草津', 'yubatake', '湯畑', 'sainokawara', '西の河原',
+        'kinugawa', '鬼怒川', 'ikaho', '伊香保', 'nasu', '那須',
+        'minakami', '水上', 'shima', '四万', 'nikko', '日光', 'yumoto', '湯元',
+        'shiobara', '塩原', 'atami', '熱海', 'ito', '伊東',
+        'shuzenji', '修善寺', 'shimoda', '下田', 'yugawara', '湯河原',
+        'okutama', '奥多摩', 'chichibu', '秩父'
+      ];
+      const hasLocationInTitle = locationKeywords.some(keyword => titleLower.includes(keyword.toLowerCase()));
 
-      // 【重要】温泉が実際に写っていることを示す必須キーワード
+      // 【絶対条件】温泉が実際に写っていることを示す必須キーワード
       const requiredOnsenKeywords = [
         'rotenburo', 'rotemburo', '露天風呂', '露天',
         'yubatake', '湯畑',
@@ -237,6 +256,11 @@ async function searchWikimediaCommons(searchTerm, limit = 10) {
         'spring water', '源泉',
       ];
       const hasRequiredKeyword = requiredOnsenKeywords.some(keyword => titleLower.includes(keyword));
+      
+      // 【絶対条件】温泉自体が写っていることが必須
+      if (!hasRequiredKeyword) {
+        continue; // 温泉が写っていない画像は除外
+      }
 
       // 除外キーワード
       const excludeKeywords = [
@@ -251,6 +275,11 @@ async function searchWikimediaCommons(searchTerm, limit = 10) {
         'restaurant', 'レストラン', 'cafe', 'カフェ',
       ];
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
+      
+      // 除外キーワードを含む画像は除外
+      if (shouldExclude) {
+        continue;
+      }
 
       // 画像ファイルの拡張子を確認
       const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
@@ -266,38 +295,86 @@ async function searchWikimediaCommons(searchTerm, limit = 10) {
       
       if (!isValidLicense) continue;
 
-      // 温泉関連の画像のみを選択
-      if (hasRequiredKeyword && !shouldExclude) {
-        // 優先度を計算
-        let priority = 0;
-        if (titleLower.includes('rotenburo') || titleLower.includes('rotemburo') || titleLower.includes('露天風呂')) {
-          priority += 10;
-        }
-        if (titleLower.includes('yubatake') || titleLower.includes('湯畑')) {
-          priority += 10;
-        }
-        if (titleLower.includes('bath') || titleLower.includes('浴場') || titleLower.includes('風呂') || titleLower.includes('湯船')) {
-          priority += 8;
-        }
-        if (titleLower.includes('steam') || titleLower.includes('湯気') || titleLower.includes('蒸気')) {
-          priority += 5;
-        }
+      // 段階的緩和: 第1段階（厳格）→ 第2段階（緩和）→ 第3段階（さらに緩和）
+      // 第1段階: 場所名も含まれている（最優先）
+      // 第2段階: 場所名は任意（第1段階で見つからない場合）
+      // 第3段階: 場所名は任意、より緩い条件（第2段階で見つからない場合）
+      
+      // 段階に応じた条件チェック
+      let shouldInclude = false;
+      
+      if (stage === 1) {
+        // 第1段階: 場所名も含まれている（厳格）
+        shouldInclude = hasLocationInTitle;
+      } else if (stage === 2) {
+        // 第2段階: 場所名は任意（緩和）
+        shouldInclude = true; // 必須キーワードは既にチェック済み
+      } else if (stage === 3) {
+        // 第3段階: 場所名は任意、より緩い条件（さらに緩和）
+        shouldInclude = true; // 必須キーワードは既にチェック済み
+      }
+      
+      if (!shouldInclude) {
+        continue; // 段階に応じた条件を満たさない場合はスキップ
+      }
+      
+      // 優先度を計算（場所名が含まれている場合は優先度が高い）
+      const hasLocationMatch = hasLocationInTitle;
+      let priority = 0;
+      
+      // 優先度1: 場所名が含まれている（第1段階）
+      if (hasLocationMatch) {
+        priority += 20;
+      }
+      
+      // 優先度2: 明確な温泉キーワード
+      if (titleLower.includes('rotenburo') || titleLower.includes('rotemburo') || titleLower.includes('露天風呂')) {
+        priority += 10;
+      }
+      if (titleLower.includes('yubatake') || titleLower.includes('湯畑')) {
+        priority += 10;
+      }
+      if (titleLower.includes('bath') || titleLower.includes('浴場') || titleLower.includes('風呂') || titleLower.includes('湯船')) {
+        priority += 8;
+      }
+      if (titleLower.includes('steam') || titleLower.includes('湯気') || titleLower.includes('蒸気')) {
+        priority += 5;
+      }
+      if (titleLower.includes('spring water') || titleLower.includes('源泉')) {
+        priority += 5;
+      }
 
-        if (!bestImage || priority > bestPriority) {
-          bestImage = {
-            url: imageInfo.url,
-            author,
-            license,
-            licenseUrl,
-            title: page.title,
-            source: 'wikimedia',
-            priority,
-          };
-          bestPriority = priority;
-        }
+      // より優先度の高い画像を選択
+      if (!bestImage || priority > bestPriority) {
+        bestImage = {
+          url: imageInfo.url,
+          author,
+          license,
+          licenseUrl,
+          title: page.title,
+          source: 'wikimedia',
+          priority,
+          hasLocation: hasLocationMatch, // 場所名が含まれているか
+        };
+        bestPriority = priority;
       }
     }
 
+    // 段階的緩和: 第1段階で見つからない場合、第2段階を試す
+    if (!bestImage && stage === 1) {
+      // 第2段階: 場所名は任意（必須キーワードは必須）
+      const stage2Result = await searchWikimediaCommons(searchTerm, limit, 2);
+      if (stage2Result) {
+        return stage2Result;
+      }
+      
+      // 第3段階: さらに緩和（必須キーワードは必須だが、より緩い条件）
+      const stage3Result = await searchWikimediaCommons(searchTerm, limit, 3);
+      if (stage3Result) {
+        return stage3Result;
+      }
+    }
+    
     return bestImage;
   } catch (error) {
     console.error(`Error searching Wikimedia Commons:`, error);
@@ -527,14 +604,18 @@ async function searchUnsplash(searchTerm) {
  */
 async function searchImageMultiAPI(onsenName, searchTerms) {
   // 1. Wikimedia Commons（無料、登録不要、最優先）
+  // 段階的緩和: 第1段階（厳格）→ 第2段階（緩和）→ 第3段階（さらに緩和）
   for (const searchTerm of searchTerms) {
-    const result = await searchWikimediaCommons(searchTerm, 20);
+    // 第1段階: 厳格な条件（場所名+必須キーワード）
+    const result = await searchWikimediaCommons(searchTerm, 20, 1);
     if (result && !usedImageUrls.has(result.url)) {
       usedImageUrls.add(result.url); // 使用した画像URLを記録
       return result;
     }
     await new Promise(resolve => setTimeout(resolve, 300)); // API制限を避ける
   }
+  
+  // 第1段階で見つからない場合、第2段階・第3段階は searchWikimediaCommons 内で自動的に試される
 
   // 2. Pixabay（無料、登録必要）
   if (process.env.PIXABAY_API_KEY) {

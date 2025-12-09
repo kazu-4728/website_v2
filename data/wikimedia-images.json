@@ -8,11 +8,11 @@
     "source": "wikimedia"
   },
   "kusatsu-yubatake": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:PekePON\" title=\"User:PekePON\">PekePON</a>",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%28%E7%BE%A4%E9%A6%AC%E7%9C%8C%29_%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%E3%81%AE%E6%B9%AF%E7%95%91%E3%81%AB%E3%81%A6%E3%80%82%E5%B7%A6%E3%82%92%E5%90%91%E3%81%8F%E3%81%A8%E8%A6%B3%E5%85%89%E5%AE%A2%E5%90%91%E3%81%91%E3%81%AE%E7%84%A1%E6%96%99%E3%81%AE%E6%BA%90%E6%B3%89%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E7%86%B1%E3%81%8F%E3%81%A6%E9%9B%A3%E3%81%97%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82_-_panoramio.jpg",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161110033222/http://www.panoramio.com/user/4422627?with_photo_id=40922008\">Shift</a>",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:Kusatsu-yubatake 2004.JPG",
+    "title": "File:(群馬県) 草津温泉の湯畑にて。左を向くと観光客向けの無料の源泉がありますが、熱くて難しいでしょう。 - panoramio.jpg",
     "source": "wikimedia"
   },
   "ikaho": {
@@ -21,6 +21,14 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "title": "File:Ikaho Onsen 04.JPG",
+    "source": "wikimedia"
+  },
+  "nasu": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161012201725/http://www.panoramio.com/user/1474640?with_photo_id=13946032\">くろふね</a>",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "title": "File:那須湯本温泉 - panoramio.jpg",
     "source": "wikimedia"
   },
   "shima": {
@@ -37,6 +45,14 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "title": "File:にごり湯源泉かけ流し硫黄泉.jpg",
+    "source": "wikimedia"
+  },
+  "atami": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
+    "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:181122 Atami Onsen Shizuoka pref Japan01s.jpg",
     "source": "wikimedia"
   }
 }
