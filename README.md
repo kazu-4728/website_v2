@@ -115,7 +115,7 @@ npm run dev
 `themes/onsen-kanto/content.json` を編集するだけで、サイトの内容が即座に反映されます。
 
 テーマを切り替えるには、`.env.local` ファイルで `NEXT_PUBLIC_THEME` を設定してください。
-詳細は [TEMPLATE_GUIDE.md](docs/TEMPLATE_GUIDE.md) を参照してください。
+詳細は [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) を参照してください。
 
 ```json
 {
@@ -128,22 +128,6 @@ npm run dev
   }
 }
 ```
-
-### 画像の取得
-
-サイトで使用する温泉画像は、複数の無料画像APIから自動取得できます。
-
-```bash
-# 環境変数を設定（オプション）
-export PIXABAY_API_KEY=your_api_key
-export PEXELS_API_KEY=your_api_key
-export UNSPLASH_ACCESS_KEY=your_api_key
-
-# 画像取得スクリプトを実行
-node scripts/fetch-onsen-images-multi-api.js
-```
-
-詳細は [`docs/images/MULTI_API_IMAGE_FETCH.md`](docs/images/MULTI_API_IMAGE_FETCH.md) を参照してください。
 
 ---
 
@@ -174,19 +158,11 @@ web-site/
 │   └── page.tsx        # エントリポイント
 ├── themes/             # テーマ定義
 │   ├── onsen-kanto/    # ★ デフォルトテーマ（関東温泉紀行）
-│   │   ├── content.json
-│   │   └── texts.json  # 画面テキストの一元管理
+│   │   └── content.json
 │   └── github-docs/    # GitHub学習サイトテーマ
 │       └── content.json
 ├── scripts/            # チェック・生成スクリプト
-│   └── fetch-onsen-images-multi-api.js  # 画像取得スクリプト（推奨）
-├── data/               # データファイル
-│   └── wikimedia-images.json  # 画像メタデータ
-├── docs/               # ドキュメント
-│   ├── design/         # 設計ドキュメント
-│   ├── images/         # 画像システムドキュメント
-│   └── architecture/   # アーキテクチャドキュメント
-└── README.md           # このファイル (自動生成)
+└── README.md               # このファイル (自動生成)
 ```
 
 ---
@@ -206,4 +182,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/12/9 12:31:31*
+*最終更新: 2025/12/10 0:40:01*
