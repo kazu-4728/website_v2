@@ -4,9 +4,12 @@
 
 **重要**: このリポジトリで作業を開始する前に、**必ず最初に以下を確認してください**：
 
-1. **[`docs/START_HERE.md`](./docs/START_HERE.md)** を最初に読んでください
-   - 作業開始時の必須確認事項が記載されています
+1. **[`docs/agent/AGENT_GUIDE.md`](./docs/agent/AGENT_GUIDE.md)** を最初に読んでください
+   - エージェント向けの包括的なガイドです
    - **このファイルを参照せずに作業を開始しないでください**
+
+2. **[`docs/agent/START_HERE.md`](./docs/agent/START_HERE.md)** を読んでください
+   - 作業開始時の必須確認事項が記載されています
 
 2. **[`docs/FUTURE_TASKS.md`](./docs/FUTURE_TASKS.md)** で今後の課題を確認してください
    - 現在の課題と優先度が記載されています
@@ -171,9 +174,10 @@
 
 作業を開始する前に、以下を確認してください：
 
-- [ ] `docs/START_HERE.md` を読みました
+- [ ] `docs/agent/AGENT_GUIDE.md` を読みました
+- [ ] `docs/agent/START_HERE.md` を読みました
 - [ ] `docs/FUTURE_TASKS.md` を読みました
-- [ ] `docs/MASTER_ARCHITECTURE.md` を読みました
+- [ ] `docs/architecture/MASTER_ARCHITECTURE.md` を読みました
 - [ ] 作業する課題を選択しました
 - [ ] 関連するドキュメントを確認しました
 - [ ] 環境の準備が完了しました
