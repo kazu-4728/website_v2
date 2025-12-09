@@ -7,29 +7,29 @@ interface Props {
 
 export function Testimonials({ data }: Props) {
   return (
-    <section className="py-24 bg-dark-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-16">
+    <section className="py-24 bg-dark-950">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-white mb-16 tracking-tight">
           {data.title}
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto">
           {data.items.map((item, index) => (
             <div 
               key={index}
-              className="bg-dark-800 p-8 rounded-2xl border border-dark-700 relative"
+              className="bg-dark-900/50 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-dark-800/60 relative hover:border-primary-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary-900/10 group"
             >
               {/* Quote Icon */}
-              <div className="absolute top-8 right-8 text-dark-600 text-6xl font-serif leading-none opacity-20">
+              <div className="absolute top-6 right-6 text-primary-500/10 text-7xl font-serif leading-none group-hover:text-primary-500/20 transition-colors duration-300">
                 "
               </div>
               
-              <p className="text-lg text-gray-300 mb-8 relative z-10">
+              <p className="text-base sm:text-lg text-gray-300 mb-8 relative z-10 leading-relaxed">
                 {item.content}
               </p>
               
               <div className="flex items-center gap-4">
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border border-dark-600">
+                <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-primary-500/20 group-hover:border-primary-500/40 transition-colors duration-300">
                   <Image
                     src={item.avatar}
                     alt={item.author}
@@ -38,7 +38,7 @@ export function Testimonials({ data }: Props) {
                   />
                 </div>
                 <div>
-                  <div className="font-bold text-white">{item.author}</div>
+                  <div className="font-bold text-white text-base sm:text-lg">{item.author}</div>
                   <div className="text-sm text-gray-500">{item.role}</div>
                 </div>
               </div>

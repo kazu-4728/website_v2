@@ -16,7 +16,8 @@
     "check": "npm run check:images && npm run check:links",
     "check:images": "node scripts/check-images.js",
     "check:links": "node scripts/check-links.js",
-    "fetch-images": "node scripts/fetch-wikimedia-images.js"
+    "fetch-images": "node scripts/fetch-wikimedia-images.js",
+    "fetch-images-multi": "node scripts/fetch-onsen-images-multi-api.js"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.17",

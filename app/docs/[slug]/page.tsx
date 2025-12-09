@@ -2,6 +2,7 @@ import { getDocPage, getAllDocSlugs, loadContent } from '../../lib/content';
 import { MarkdownRenderer } from '../../components/ui/MarkdownRenderer';
 import { TableOfContents } from '../../components/ui/TableOfContents';
 import { ImageCredit } from '../../components/ui/ImageCredit';
+import { GoogleMap } from '../../components/ui/GoogleMap';
 import { getImageMetadata } from '../../lib/images';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -288,6 +289,20 @@ export default async function DocPage({ params }: Props) {
                     )}
                   </div>
                 </div>
+
+                {/* Google Map */}
+                {page.onsen.region.coordinates && (
+                  <div className="mt-12 pt-8 border-t border-dark-800">
+                    <h3 className="text-2xl font-bold text-white mb-6">地図</h3>
+                    <GoogleMap
+                      lat={page.onsen.region.coordinates.lat}
+                      lng={page.onsen.region.coordinates.lng}
+                      label={page.onsen.name}
+                      title={`${page.onsen.name}の位置`}
+                      height={400}
+                    />
+                  </div>
+                )}
 
                 {/* 季節ごとの魅力 */}
                 {page.onsen.content.seasons && (

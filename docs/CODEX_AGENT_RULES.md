@@ -1,27 +1,15 @@
-# Codex エージェント向けルール
+# Codex / Cursor エージェント向け補足ガイド
 
-## 🔗 共通ルールの参照（最優先）
+このリポジトリでは、エージェント作業時のルールを **`docs/cursor-rules.md`** に集約しています。必ずそちらを最優先で参照してください。
 
-**重要**: Codex で作業するときは、必ず **[`.cursorrules`](../.cursorrules)** を先に読み、共通ルールに従うこと。
+## 作業前に確認するもの
+- [`docs/cursor-rules.md`](./cursor-rules.md) — 開発ルールと運用手順の単一ソース
+- [`docs/requirements.md`](./requirements.md) — プロジェクト全体の要件定義
+- [`docs/START_HERE.md`](./START_HERE.md) — 着手前チェックリスト
+- [`docs/FUTURE_TASKS.md`](./FUTURE_TASKS.md) — 直近のタスク一覧
 
-- このファイルは Codex 向けの補足情報であり、`.cursorrules` の内容を上書きするものではありません。
-- `.cursorrules` に定義された **JSON First アーキテクチャ**、**編集可能レイヤー / 編集禁止レイヤー**、**今後のタスク方針**などは、すべてのエージェントが共有すべき共通ルールです。
-- このファイルの内容と `.cursorrules` の内容が矛盾する場合は、**`.cursorrules` を優先**すること。
-
----
-
-## 📋 Codex での作業時の注意事項
-
-1. **作業開始前の確認**
-   - [`.cursorrules`](../.cursorrules) を必ず読むこと
-   - [`START_HERE.md`](../START_HERE.md) を確認すること
-   - [`docs/FUTURE_TASKS.md`](./FUTURE_TASKS.md) で作業する課題を確認すること
-
-2. **編集時の注意**
-   - JSON First アーキテクチャに従うこと
-   - 編集可能レイヤー / 編集禁止レイヤーを遵守すること
-   - テキストの表示は必ず `content.texts` から取得すること
-
-3. **作業完了後**
-   - 他のエージェントにも分かるように記録すること
-   - 変更内容を明確にコミットすること
+## 作業時のポイント
+- JSON First アーキテクチャを徹底し、UIテキストは必ず `content.json` / `texts.json` から取得する。
+- `npm run lint` / `npm run build` が通ることを確認し、型安全性を崩さない。
+- main ブランチへの直接 push は禁止。コミット後の PR／push はオーナーの指示を待つ。
+- `WORK_LOG.md` に作業内容を記録し、変更意図を共有する。
