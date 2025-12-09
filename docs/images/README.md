@@ -4,6 +4,11 @@
 
 ## 主要ドキュメント
 
+- **[IMAGE_MANAGEMENT_SYSTEM.md](./IMAGE_MANAGEMENT_SYSTEM.md)** ⭐ **画像管理システムの仕組み**
+  - 画像の保存・取得・表示の流れ
+  - 画像解決フローの詳細
+  - トラブルシューティング
+
 - **[IMAGE_FETCH_GUIDE.md](./IMAGE_FETCH_GUIDE.md)** - 画像取得ガイド（基本）
   - 既存の画像取得システムの説明
   - スクリプトの使用方法
