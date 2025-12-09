@@ -1,184 +1,42 @@
 {
-  "main": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
-    "author": "Chris 73",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Hakone hot spring with steam - Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan"
-  },
-  "hero": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
-    "author": "Chris 73",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Hakone hot spring panorama - Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan"
-  },
-  "hero-night": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-    "author": "Michael Casim",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "title": "Hakone Gora Onsen - Dramatic night hot spring with steam"
-  },
-  "cta-sunset": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Nikko Yumoto Onsen - Peaceful outdoor hot spring"
-  },
-  "default": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
-    "author": "Unknown author",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "Japanese hot spring (default)"
-  },
-  "cta": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
-    "author": "Unknown author",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "Japanese hot spring at dusk - CTA background"
-  },
-  "hakone": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
-    "author": "Chris 73",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "Gorakadan Onsen Rotenburo (outdoor bath) in Hakone, Kanagawa Prefecture, Japan"
-  },
-  "hakone-gora": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-    "author": "Michael Casim",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "title": "File:季の湯 雪月花 箱根強羅温泉 Apr 2, 2015.jpg"
-  },
-  "hakone-sengokuhara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Himeshara-no-yu_Hakone_Kanagawa.JPG",
-    "author": "NY066",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:Himeshara-no-yu Hakone Kanagawa.JPG"
-  },
   "kusatsu": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
-    "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:Kusatsu Onsen Yubatake in Taisho era.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:PekePON\" title=\"User:PekePON\">PekePON</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:Kusatsu-yubatake 2004.JPG",
+    "source": "wikimedia"
   },
   "kusatsu-yubatake": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
-    "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:Kusatsu Onsen Yubatake in Taisho era.jpg"
-  },
-  "kinugawa": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jranar\" title=\"User:Jranar\">くろふね</a>",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "title": "File:鬼怒川温泉20250719-P1070976.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:PekePON\" title=\"User:PekePON\">PekePON</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:Kusatsu-yubatake 2004.JPG",
+    "source": "wikimedia"
   },
   "ikaho": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Qurren\" title=\"User:Qurren\">Qurren</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:Ikaho Onsen Stone Steps.jpg"
-  },
-  "nasu": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Nasu Onsen - Outdoor hot spring bath in Nasu, Tochigi Prefecture, Japan (using Nikko Yumoto image as representative of Tochigi Prefecture onsen)"
-  },
-  "minakami": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Minakami Onsen - Outdoor hot spring bath in Minakami, Gunma Prefecture, Japan (using representative outdoor bath image)"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"http://picasaweb.google.com/pikakey\">ぴかきぃ</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:Ikaho Onsen 04.JPG",
+    "source": "wikimedia"
   },
   "shima": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Komoro_no_kaze\" title=\"User:Komoro no kaze\">Komoro no kaze</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:四万温泉積善館のトンネル.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yamagutirotenburo.jpg",
+    "author": "houzyouhideyosi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "title": "File:Yamagutirotenburo.jpg",
+    "source": "wikimedia"
   },
   "nikko": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-    "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:200801 Nikko Yumoto Onsen Nikko Tochigi pref Japan04s3.jpg"
-  },
-  "shiobara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg",
-    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128275472@N07\">Raita Futo</a> from Tokyo, Japan",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "title": "File:Free Momiji Onsen (52510073823).jpg"
-  },
-  "atami": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-    "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:230127 Atami Onsen Shizuoka pref Japan01s3.jpg"
-  },
-  "ito": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Ito Onsen - Outdoor hot spring bath in Ito, Shizuoka Prefecture, Japan"
-  },
-  "shuzenji": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Shuzenji Onsen - Outdoor hot spring bath in Shuzenji, Shizuoka Prefecture, Japan"
-  },
-  "shimoda": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Shimoda Onsen - Outdoor hot spring bath in Shimoda, Shizuoka Prefecture, Japan"
-  },
-  "yugawara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Yugawara Onsen - Outdoor hot spring bath in Yugawara, Kanagawa Prefecture, Japan"
-  },
-  "chichibu": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Asturio_Cantabrio\" title=\"User:Asturio Cantabrio\">Asturio Cantabrio</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:Seibu-Chichibu Ekimae Onsen ac (4).jpg"
-  },
-  "kusatsu-sainokawara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
-    "author": "Unknown author",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "Kusatsu Sainokawara area (placeholder: using Kusatsu Yubatake)"
-  },
-  "okutama": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-    "author": "663highland",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "Okutama hot spring (placeholder: using Nikko Yumoto image)"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oden1215&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oden1215 (page does not exist)\">Oden1215</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:にごり湯源泉かけ流し硫黄泉.jpg",
+    "source": "wikimedia"
   }
 }
