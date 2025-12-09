@@ -4,6 +4,11 @@
 
 ## 主要ドキュメント
 
+- **[API_KEY_SETUP_GUIDE.md](./API_KEY_SETUP_GUIDE.md)** ⭐ **APIキー設定ガイド（必読）**
+  - 各画像APIのキー取得方法
+  - 環境変数の設定方法
+  - 各APIのリンク一覧
+
 - **[IMAGE_MANAGEMENT_SYSTEM.md](./IMAGE_MANAGEMENT_SYSTEM.md)** ⭐ **画像管理システムの仕組み**
   - 画像の保存・取得・表示の流れ
   - 画像解決フローの詳細
