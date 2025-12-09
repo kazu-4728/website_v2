@@ -24,6 +24,8 @@ const path = require('path');
 const onsenSearchTerms = {
   hakone: [
     'Hakone Onsen rotenburo 箱根温泉 露天風呂',
+    'Hakone Gora Onsen rotenburo 箱根強羅 露天風呂',
+    'Hakone Ashinoyu Onsen 箱根芦ノ湯 露天風呂',
     'Hakone Onsen bath 箱根温泉 浴場',
     'Hakone hot spring rotenburo 箱根 露天風呂',
     '箱根温泉 露天風呂 湯船',
@@ -67,9 +69,11 @@ const onsenSearchTerms = {
   ],
   kinugawa: [
     'Kinugawa Onsen rotenburo 鬼怒川温泉 露天風呂',
+    'Kinugawa Kogen Onsen 鬼怒川高原 露天風呂',
     'Kinugawa Onsen bath 鬼怒川 浴場',
     '鬼怒川温泉 露天風呂',
-    'Kinugawa Onsen outdoor bath 鬼怒川'
+    'Kinugawa Onsen outdoor bath 鬼怒川',
+    'Kinugawa hot spring 鬼怒川 温泉'
   ],
   ikaho: [
     'Ikaho Onsen rotenburo 伊香保温泉 露天風呂',
@@ -79,9 +83,11 @@ const onsenSearchTerms = {
   ],
   nasu: [
     'Nasu Onsen rotenburo 那須温泉 露天風呂',
+    'Nasu Kogen Onsen 那須高原 露天風呂',
     'Nasu Onsen bath 那須 浴場',
     '那須温泉 露天風呂',
-    'Nasu Onsen outdoor bath 那須'
+    'Nasu Onsen outdoor bath 那須',
+    'Nasu hot spring 那須 温泉'
   ],
   minakami: [
     'Minakami Onsen rotenburo 水上温泉 露天風呂',
@@ -109,9 +115,11 @@ const onsenSearchTerms = {
   ],
   atami: [
     'Atami Onsen rotenburo 熱海温泉 露天風呂',
+    'Atami Onsen ocean view 熱海 海の見える 露天風呂',
     'Atami Onsen bath 熱海 浴場',
     '熱海温泉 露天風呂',
-    'Atami Onsen outdoor bath 熱海'
+    'Atami Onsen outdoor bath 熱海',
+    'Atami hot spring 熱海 温泉'
   ],
   ito: [
     'Ito Onsen rotenburo 伊東温泉 露天風呂',
@@ -521,7 +529,8 @@ async function searchImageMultiAPI(onsenName, searchTerms) {
   // 1. Wikimedia Commons（無料、登録不要、最優先）
   for (const searchTerm of searchTerms) {
     const result = await searchWikimediaCommons(searchTerm, 20);
-    if (result) {
+    if (result && !usedImageUrls.has(result.url)) {
+      usedImageUrls.add(result.url); // 使用した画像URLを記録
       return result;
     }
     await new Promise(resolve => setTimeout(resolve, 300)); // API制限を避ける
@@ -531,7 +540,8 @@ async function searchImageMultiAPI(onsenName, searchTerms) {
   if (process.env.PIXABAY_API_KEY) {
     for (const searchTerm of searchTerms.slice(0, 2)) { // 最初の2つだけ試す
       const result = await searchPixabay(searchTerm);
-      if (result) {
+      if (result && !usedImageUrls.has(result.url)) {
+        usedImageUrls.add(result.url); // 使用した画像URLを記録
         return result;
       }
       await new Promise(resolve => setTimeout(resolve, 500));
@@ -542,7 +552,8 @@ async function searchImageMultiAPI(onsenName, searchTerms) {
   if (process.env.PEXELS_API_KEY) {
     for (const searchTerm of searchTerms.slice(0, 2)) {
       const result = await searchPexels(searchTerm);
-      if (result) {
+      if (result && !usedImageUrls.has(result.url)) {
+        usedImageUrls.add(result.url); // 使用した画像URLを記録
         return result;
       }
       await new Promise(resolve => setTimeout(resolve, 500));
@@ -552,7 +563,8 @@ async function searchImageMultiAPI(onsenName, searchTerms) {
   // 4. Unsplash（無料、登録必要、レート制限が厳しい）
   if (process.env.UNSPLASH_ACCESS_KEY) {
     const result = await searchUnsplash(searchTerms[0]);
-    if (result) {
+    if (result && !usedImageUrls.has(result.url)) {
+      usedImageUrls.add(result.url); // 使用した画像URLを記録
       return result;
     }
   }
