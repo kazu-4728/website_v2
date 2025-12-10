@@ -631,33 +631,37 @@ export function getImageMetadata(
 /**
  * 温泉地の画像を取得（同期版）
  * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
+ * 注意: この関数はサーバーサイドでのみ使用可能（fsモジュールを使用）
  */
 export function getOnsenImage(onsenSlug: string): string {
-  // まず、data/wikimedia-images.jsonから画像を取得を試みる
-  try {
-    const fs = require('fs');
-    const path = require('path');
-    const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
-    
-    if (fs.existsSync(jsonPath)) {
-      const fileContent = fs.readFileSync(jsonPath, 'utf-8');
-      // 空のファイルや不完全なJSONをチェック
-      if (!fileContent || fileContent.trim().length === 0) {
-        throw new Error('Empty file');
-      }
+  // サーバーサイドでのみfsモジュールを使用
+  if (typeof window === 'undefined') {
+    try {
+      // 動的インポートを使用してfsモジュールを読み込む
+      const fs = require('fs');
+      const path = require('path');
+      const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
       
-      const imageData = JSON.parse(fileContent);
-      const cachedImage = imageData[onsenSlug];
-      
-      if (cachedImage?.url) {
-        return cachedImage.url;
+      if (fs.existsSync(jsonPath)) {
+        const fileContent = fs.readFileSync(jsonPath, 'utf-8');
+        // 空のファイルや不完全なJSONをチェック
+        if (!fileContent || fileContent.trim().length === 0) {
+          throw new Error('Empty file');
+        }
+        
+        const imageData = JSON.parse(fileContent);
+        const cachedImage = imageData[onsenSlug];
+        
+        if (cachedImage?.url) {
+          return cachedImage.url;
+        }
       }
-    }
-  } catch (error) {
-    // エラーが発生した場合はフォールバックを使用
-    // ビルド時にはエラーを出力しない（静かにフォールバック）
-    if (process.env.NODE_ENV !== 'production' || process.env.SKIP_CHECK !== 'true') {
-      console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
+    } catch (error) {
+      // エラーが発生した場合はフォールバックを使用
+      // ビルド時にはエラーを出力しない（静かにフォールバック）
+      if (process.env.NODE_ENV !== 'production' && process.env.SKIP_CHECK !== 'true') {
+        console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
+      }
     }
   }
   

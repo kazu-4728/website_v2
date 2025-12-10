@@ -50,6 +50,20 @@ export interface TextsPages {
   contact?: {
     title: string;
   };
+  home?: {
+    onsenList?: {
+      searchPlaceholder: string;
+      filters: {
+        allAreas: string;
+        allSpringTypes: string;
+        allEfficacies: string;
+        dayTrip: string;
+      };
+      resultsCount: string;
+      noResults: string;
+    };
+    [key: string]: any;
+  };
   [key: string]: any; // Allow theme-specific page text
 }
 

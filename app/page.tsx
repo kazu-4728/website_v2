@@ -59,6 +59,7 @@ export default async function Page() {
                   key={section.id}
                   data={section as OnsenListSection}
                   onsenPages={onsenPages}
+                  texts={content.texts}
                 />
               );
 

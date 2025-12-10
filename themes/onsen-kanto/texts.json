@@ -33,6 +33,19 @@
     },
     "contact": {
       "title": "お問い合わせ"
+    },
+    "home": {
+      "onsenList": {
+        "searchPlaceholder": "温泉地名で検索...",
+        "filters": {
+          "allAreas": "すべてのエリア",
+          "allSpringTypes": "すべての泉質",
+          "allEfficacies": "すべての効能",
+          "dayTrip": "日帰り可"
+        },
+        "resultsCount": "{count}件の温泉地が見つかりました",
+        "noResults": "条件に一致する温泉地が見つかりませんでした"
+      }
     }
   },
   "buttons": {
