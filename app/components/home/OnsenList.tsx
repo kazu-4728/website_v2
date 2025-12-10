@@ -129,22 +129,40 @@ export function OnsenList({ data, onsenPages, texts }: OnsenListProps) {
   ]);
 
   return (
-    <section id="onsen-list" className="py-20 px-4 bg-dark-950">
+    <section id="onsen-list" className="py-32 px-4 bg-dark-950">
       <div className="container mx-auto max-w-7xl">
-        {/* Header */}
-        <div className="text-center mb-12">
+        {/* Header - 大胆なタイポグラフィ */}
+        <div className="text-center mb-20">
           {data.subtitle && (
-            <p className="text-primary-400 text-sm uppercase tracking-wider mb-2">
+            <motion.p 
+              className="text-primary-400 text-base md:text-lg uppercase tracking-[0.3em] mb-4"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
               {data.subtitle}
-            </p>
+            </motion.p>
           )}
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <motion.h2 
+            className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
             {data.title}
-          </h2>
+          </motion.h2>
           {data.description && (
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            <motion.p 
+              className="text-gray-300 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
               {data.description}
-            </p>
+            </motion.p>
           )}
         </div>
 
@@ -239,9 +257,9 @@ export function OnsenList({ data, onsenPages, texts }: OnsenListProps) {
             >
               <Link href={`/${page.slug}`}>
                 <motion.div
-                  className="relative h-80 rounded-lg overflow-hidden group cursor-pointer"
-                  whileHover={{ scale: 1.05, y: -8 }}
-                  transition={{ duration: 0.3 }}
+                  className="relative h-[500px] md:h-[600px] rounded-2xl overflow-hidden group cursor-pointer shadow-2xl"
+                  whileHover={{ scale: 1.08, y: -12, boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)' }}
+                  transition={{ duration: 0.4, ease: 'easeOut' }}
                 >
                   {/* Image */}
                   <Image
@@ -255,20 +273,38 @@ export function OnsenList({ data, onsenPages, texts }: OnsenListProps) {
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-950/90 via-dark-950/50 to-transparent" />
 
-                  {/* Content */}
-                  <div className="absolute inset-0 flex flex-col justify-end p-6">
-                    <h3 className="text-2xl font-bold text-white mb-2">
+                  {/* Content - 大胆なタイポグラフィ */}
+                  <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12">
+                    <motion.h3 
+                      className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.6 }}
+                    >
                       {page.title}
-                    </h3>
+                    </motion.h3>
                     {page.description && (
-                      <p className="text-gray-300 text-sm line-clamp-2">
+                      <motion.p 
+                        className="text-gray-200 text-base md:text-lg line-clamp-3 leading-relaxed mb-3"
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.1 }}
+                      >
                         {page.description}
-                      </p>
+                      </motion.p>
                     )}
                     {page.onsen?.region.area && (
-                      <p className="text-primary-400 text-xs mt-2">
+                      <motion.p 
+                        className="text-primary-400 text-sm md:text-base font-semibold uppercase tracking-wider"
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                      >
                         {page.onsen.region.area}
-                      </p>
+                      </motion.p>
                     )}
                   </div>
                 </motion.div>

@@ -10,6 +10,7 @@ import {
   OnsenListSection,
 } from './lib/content';
 import { CinematicHero } from './components/home/CinematicHero';
+import { FullscreenHero } from './components/home/FullscreenHero';
 import { SplitFeature } from './components/home/SplitFeature';
 import { GridGallery } from './components/home/GridGallery';
 import { Testimonials } from './components/home/Testimonials';
@@ -30,8 +31,12 @@ export default async function Page() {
 
   return (
     <main className="bg-dark-950 min-h-screen selection:bg-primary-500/30">
-      {/* Hero Section */}
-      <CinematicHero data={hero} />
+      {/* Hero Section - 「あえの風」レベルのフルスクリーンHero */}
+      {hero.type === 'fullscreen-slider' ? (
+        <FullscreenHero data={hero} />
+      ) : (
+        <CinematicHero data={hero} />
+      )}
 
       {/* Dynamic Sections */}
       <div className="flex flex-col">
