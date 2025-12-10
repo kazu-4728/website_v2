@@ -43,7 +43,7 @@ export function RecommendedOnsen({ data }: RecommendedOnsenProps) {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Link href={item.link}>
+                <Link href={item.link.startsWith('/') ? item.link : `/${item.link.replace(/^\//, '')}`}>
                   <motion.div
                     className="relative h-96 rounded-lg overflow-hidden group cursor-pointer"
                     whileHover={{ scale: 1.05, y: -8 }}

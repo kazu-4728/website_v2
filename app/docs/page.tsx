@@ -39,7 +39,7 @@ export default async function DocsIndexPage() {
           {docs.map((doc, index) => (
             <Link 
               key={doc.slug} 
-              href={`/docs/${doc.slug}`}
+              href={`/${doc.slug}`}
               className="group relative overflow-hidden rounded-2xl bg-dark-900 border border-dark-800 hover:border-primary-500/50 transition-all duration-500"
             >
               <div className="flex flex-col md:flex-row">

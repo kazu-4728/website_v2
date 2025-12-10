@@ -18,10 +18,6 @@
       "href": "/"
     },
     {
-      "label": "温泉ガイド",
-      "href": "/docs"
-    },
-    {
       "label": "特集記事",
       "href": "/blog"
     },
@@ -172,37 +168,37 @@
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
               "image": "hakone",
-              "link": "/hakone"
+              "link": "hakone"
             },
             {
               "title": "草津温泉",
               "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
               "image": "kusatsu",
-              "link": "/kusatsu"
+              "link": "kusatsu"
             },
             {
               "title": "鬼怒川温泉",
               "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。日光へのアクセスも便利。",
               "image": "kinugawa",
-              "link": "/kinugawa"
+              "link": "kinugawa"
             },
             {
               "title": "伊香保温泉",
               "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
               "image": "ikaho",
-              "link": "/ikaho"
+              "link": "ikaho"
             },
             {
               "title": "那須温泉郷",
               "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
               "image": "nasu",
-              "link": "/nasu"
+              "link": "nasu"
             },
             {
               "title": "水上温泉郷",
               "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
               "image": "minakami",
-              "link": "/minakami"
+              "link": "minakami"
             }
           ]
         },
@@ -218,19 +214,19 @@
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート",
               "image": "hakone",
-              "link": "/hakone"
+              "link": "hakone"
             },
             {
               "title": "草津温泉",
               "description": "日本三大名湯の一つ",
               "image": "kusatsu",
-              "link": "/kusatsu"
+              "link": "kusatsu"
             },
             {
               "title": "鬼怒川温泉",
               "description": "渓谷美と豊かな湯量が魅力",
               "image": "kinugawa",
-              "link": "/kinugawa"
+              "link": "kinugawa"
             }
           ]
         },
@@ -283,8 +279,8 @@
             "keywords": "onsen,hot spring,japan,sunset,outdoor"
           },
           "action": {
-            "label": "温泉ガイドを見る",
-            "href": "/docs"
+            "label": "温泉を探す",
+            "href": "#onsen-list"
           }
         }
       ]
