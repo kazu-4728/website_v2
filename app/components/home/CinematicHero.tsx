@@ -24,16 +24,19 @@ export function CinematicHero({ data }: HeroProps) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const currentSlide = hasSlides ? slides[currentSlideIndex] : null;
   
-  // スライド自動切り替え（3秒ごと、slides.length > 1の場合のみ）
+  // スライド自動切り替え（設定に応じて）
+  const autoplay = data.autoplay !== false; // default true
+  const interval = data.interval || 3000;
+  
   useEffect(() => {
-    if (!hasSlides || slides.length <= 1 || shouldReduceMotion) return;
+    if (!hasSlides || slides.length <= 1 || shouldReduceMotion || !autoplay) return;
     
-    const interval = setInterval(() => {
+    const timer = setInterval(() => {
       setCurrentSlideIndex((prev) => (prev + 1) % slides.length);
-    }, 3000);
+    }, interval);
     
-    return () => clearInterval(interval);
-  }, [hasSlides, slides.length, shouldReduceMotion]);
+    return () => clearInterval(timer);
+  }, [hasSlides, slides.length, shouldReduceMotion, autoplay, interval]);
 
   // 使用する画像とメタデータ（背景画像だけがスライドで変わる）
   const bgImage = hasSlides && currentSlide ? currentSlide.bgImage : data.bgImage;
@@ -48,6 +51,11 @@ export function CinematicHero({ data }: HeroProps) {
     badges: data.badges,
     actions: data.actions,
   };
+
+  // Overlay設定の処理
+  const overlayConfig = typeof data.overlay === 'object' ? data.overlay : { gradient: undefined, position: 'bottom' };
+  const overlayGradient = overlayConfig.gradient || 'from-dark-950/80 via-dark-950/60 to-transparent';
+  const overlayPosition = overlayConfig.position || 'bottom';
 
   // スワイプ対応（モバイル）
   const [isDragging, setIsDragging] = useState(false);

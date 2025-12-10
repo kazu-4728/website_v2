@@ -38,7 +38,7 @@
   "pages": {
     "home": {
       "hero": {
-        "type": "cinematic",
+        "type": "fullscreen-slider",
         "title": "心と体を\n癒す旅へ",
         "subtitle": "Healing Journey to Kanto's Finest Hot Springs",
         "description": "都心からわずか数時間。関東エリアには、古くから人々を癒してきた名湯が点在しています。四季折々の自然と共に、極上の湯浴みをお楽しみください。",
@@ -64,6 +64,12 @@
         "bgImage": {
           "key": "hero-night",
           "keywords": "onsen,hot spring,japan,night,steam"
+        },
+        "autoplay": true,
+        "interval": 3000,
+        "overlay": {
+          "gradient": "from-dark-950/80 via-dark-950/60 to-transparent",
+          "position": "bottom"
         },
         "slides": [
           {
@@ -143,17 +149,11 @@
             "area": "那須"
           }
         ],
-        "overlay": "dark",
         "actions": [
           {
             "label": "温泉を探す",
-            "href": "/docs",
+            "href": "#onsen-list",
             "variant": "primary"
-          },
-          {
-            "label": "特集を見る",
-            "href": "/blog",
-            "variant": "secondary"
           }
         ]
       },
