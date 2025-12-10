@@ -6,13 +6,42 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import type { OnsenListSection } from '../../lib/content';
 import type { OnsenDocPage } from '../../lib/onsen-types';
+import { loadContent } from '../../lib/content';
 
 interface OnsenListProps {
   data: OnsenListSection;
   onsenPages: OnsenDocPage[];
+  texts: {
+    pages: {
+      home?: {
+        onsenList?: {
+          searchPlaceholder: string;
+          filters: {
+            allAreas: string;
+            allSpringTypes: string;
+            allEfficacies: string;
+            dayTrip: string;
+          };
+          resultsCount: string;
+          noResults: string;
+        };
+      };
+    };
+  };
 }
 
-export function OnsenList({ data, onsenPages }: OnsenListProps) {
+export function OnsenList({ data, onsenPages, texts }: OnsenListProps) {
+  const onsenListTexts = texts.pages.home?.onsenList || {
+    searchPlaceholder: '温泉地名で検索...',
+    filters: {
+      allAreas: 'すべてのエリア',
+      allSpringTypes: 'すべての泉質',
+      allEfficacies: 'すべての効能',
+      dayTrip: '日帰り可',
+    },
+    resultsCount: '{count}件の温泉地が見つかりました',
+    noResults: '条件に一致する温泉地が見つかりませんでした',
+  };
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArea, setSelectedArea] = useState<string>('');
   const [selectedSpringType, setSelectedSpringType] = useState<string>('');
@@ -125,7 +154,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
           <div className="max-w-2xl mx-auto">
             <input
               type="text"
-              placeholder="温泉地名で検索..."
+              placeholder={onsenListTexts.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full px-4 py-3 rounded-lg bg-dark-900 border border-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500"
@@ -140,7 +169,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
                 onChange={(e) => setSelectedArea(e.target.value)}
                 className="px-4 py-2 rounded-lg bg-dark-900 border border-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
               >
-                <option value="">すべてのエリア</option>
+                <option value="">{onsenListTexts.filters.allAreas}</option>
                 {areas.map((area) => (
                   <option key={area} value={area}>
                     {area}
@@ -155,7 +184,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
                 onChange={(e) => setSelectedSpringType(e.target.value)}
                 className="px-4 py-2 rounded-lg bg-dark-900 border border-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
               >
-                <option value="">すべての泉質</option>
+                <option value="">{onsenListTexts.filters.allSpringTypes}</option>
                 {springTypes.map((type) => (
                   <option key={type} value={type}>
                     {type}
@@ -170,7 +199,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
                 onChange={(e) => setSelectedEfficacy(e.target.value)}
                 className="px-4 py-2 rounded-lg bg-dark-900 border border-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
               >
-                <option value="">すべての効能</option>
+                <option value="">{onsenListTexts.filters.allEfficacies}</option>
                 {efficacies.map((efficacy) => (
                   <option key={efficacy} value={efficacy}>
                     {efficacy}
@@ -187,7 +216,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
                   onChange={(e) => setDayTripOnly(e.target.checked)}
                   className="w-4 h-4 text-primary-500 rounded focus:ring-2 focus:ring-primary-500"
                 />
-                <span>日帰り可</span>
+                <span>{onsenListTexts.filters.dayTrip}</span>
               </label>
             )}
           </div>
@@ -195,7 +224,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
 
         {/* Results Count */}
         <div className="mb-6 text-center text-gray-400">
-          {filteredPages.length}件の温泉地が見つかりました
+          {onsenListTexts.resultsCount.replace('{count}', filteredPages.length.toString())}
         </div>
 
         {/* Grid */}
@@ -250,7 +279,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
 
         {filteredPages.length === 0 && (
           <div className="text-center py-12 text-gray-400">
-            条件に一致する温泉地が見つかりませんでした
+            {onsenListTexts.noResults}
           </div>
         )}
       </div>
