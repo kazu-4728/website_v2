@@ -138,8 +138,8 @@ export function CinematicHero({ data }: HeroProps) {
                 quality={90}
               />
             </motion.div>
-            {/* Darker, more dramatic overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-dark-950" />
+            {/* Overlay with configurable gradient */}
+            <div className={`absolute inset-0 bg-gradient-to-${overlayPosition === 'top' ? 'b' : overlayPosition === 'center' ? 't' : 't'} ${overlayGradient}`} />
             {/* 画像のクレジット表示 */}
             <ImageCredit metadata={imageMetadata} position="bottom-right" />
           </motion.div>
