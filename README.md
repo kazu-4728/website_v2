@@ -21,28 +21,6 @@
 このサイトの構造は `content.json` から自動生成されています。
 
 - [ホーム](/)
-- [温泉ガイド](/docs)
-  - [箱根温泉郷完全ガイド](/docs/hakone)
-  - [箱根湯本エリア](/docs/hakone-yunohana)
-  - [強羅エリア](/docs/hakone-gora)
-  - [仙石原エリア](/docs/hakone-sengokuhara)
-  - [草津温泉完全ガイド](/docs/kusatsu)
-  - [湯畑エリア](/docs/kusatsu-yubatake)
-  - [西の河原エリア](/docs/kusatsu-sainokawara)
-  - [鬼怒川温泉完全ガイド](/docs/kinugawa)
-  - [伊香保温泉完全ガイド](/docs/ikaho)
-  - [那須温泉郷完全ガイド](/docs/nasu)
-  - [水上温泉郷完全ガイド](/docs/minakami)
-  - [四万温泉完全ガイド](/docs/shima)
-  - [日光湯元温泉ガイド](/docs/nikko)
-  - [塩原温泉郷完全ガイド](/docs/shiobara)
-  - [熱海温泉完全ガイド](/docs/atami)
-  - [伊東温泉完全ガイド](/docs/ito)
-  - [修善寺温泉完全ガイド](/docs/shuzenji)
-  - [下田温泉ガイド](/docs/shimoda)
-  - [湯河原温泉ガイド](/docs/yugawara)
-  - [奥多摩温泉ガイド](/docs/okutama)
-  - [秩父温泉ガイド](/docs/chichibu)
 - [特集記事](/blog)
   - [知っておきたい温泉マナー10選](/blog/onsen-manner)
   - [泉質別・温泉の効能ガイド](/blog/onsen-effects)
@@ -182,4 +160,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/12/10 0:40:01*
+*最終更新: 2025/12/10 12:50:55*
