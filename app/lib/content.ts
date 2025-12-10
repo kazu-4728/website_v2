@@ -47,6 +47,9 @@ export type {
   TestimonialsSection,
   CtaSection,
   StepsSection,
+  AreaSelectionSection,
+  RecommendedOnsenSection,
+  OnsenListSection,
   DocPage,
   BlogPost,
   // Onsen-specific types
@@ -214,6 +217,32 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               ),
             }));
           }
+          
+          if (section.type === 'area-selection' && section.items) {
+            resolvedSection.items = section.items.map((item: any) => ({
+              ...item,
+              image: resolveImageUrl(
+                item.image,
+                'onsen',
+                item.link?.replace('/', '') || 'default',
+                'onsen,hot spring,japan'
+              ),
+            }));
+          }
+          
+          if (section.type === 'recommended-onsen' && section.items) {
+            resolvedSection.items = section.items.map((item: any) => ({
+              ...item,
+              image: resolveImageUrl(
+                item.image,
+                'onsen',
+                item.link?.replace('/', '') || 'default',
+                'onsen,hot spring,japan'
+              ),
+            }));
+          }
+          
+          // onsen-list は items を持たず、pages.onsen.items から動的に生成される
           
           return resolvedSection;
         }),
