@@ -100,7 +100,7 @@ export function OnsenList({ data, onsenPages }: OnsenListProps) {
   ]);
 
   return (
-    <section className="py-20 px-4 bg-dark-950">
+    <section id="onsen-list" className="py-20 px-4 bg-dark-950">
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
         <div className="text-center mb-12">
