@@ -253,16 +253,21 @@ export interface HeroSlide {
  * Home page hero section (raw, before image resolution)
  */
 export interface HomeHeroRaw {
-  type: string; // e.g., "cinematic", "simple", "gradient"
+  type: string; // e.g., "cinematic", "fullscreen-slider", "simple", "gradient"
   title: string;
   subtitle: string;
   description: string;
   secondaryDescription?: string; // Optional additional description line
   badges?: HeroBadge[]; // Optional badges/tags to display
   bgImage: ImageReference; // Legacy single image (used if slides not provided)
-  slides?: HeroSlide[]; // Optional multi-slide array for cinematic hero
-  overlay: string; // e.g., "dark", "light", "gradient"
+  slides?: HeroSlide[]; // Optional multi-slide array for cinematic/fullscreen hero
+  overlay?: string | {
+    gradient?: string; // e.g., "from-dark-950/80 via-dark-950/60 to-transparent"
+    position?: 'top' | 'bottom' | 'center';
+  }; // e.g., "dark", "light", "gradient" or object with gradient config
   actions: HeroAction[];
+  autoplay?: boolean; // Auto-play slides
+  interval?: number; // Auto-play interval in milliseconds
 }
 
 /**
@@ -325,6 +330,66 @@ export interface GridGallerySection extends HomeSection {
   subtitle?: string;
   description: string;
   items: GridGalleryItem[];
+}
+
+/**
+ * Area selection section (エリアから探す)
+ */
+export interface AreaSelectionSection extends HomeSection {
+  type: 'area-selection';
+  title: string;
+  subtitle?: string;
+  description?: string;
+  layout?: 'large-cards' | 'grid';
+  columns?: number;
+  hoverEffect?: 'zoom-lift' | 'zoom' | 'lift';
+  items: Array<{
+    title: string;
+    description?: string;
+    image: string; // Resolved image URL
+    link: string;
+  }>;
+}
+
+/**
+ * Recommended onsen section (おすすめ温泉)
+ */
+export interface RecommendedOnsenSection extends HomeSection {
+  type: 'recommended-onsen';
+  title: string;
+  subtitle?: string;
+  description?: string;
+  layout?: 'gallery' | 'grid';
+  items: Array<{
+    title: string;
+    description?: string;
+    image: string; // Resolved image URL
+    link: string;
+  }>;
+}
+
+/**
+ * Filter options for onsen list
+ */
+export interface OnsenListFilters {
+  area?: boolean;
+  springType?: boolean;
+  efficacy?: boolean;
+  dayTrip?: boolean;
+  access?: boolean;
+}
+
+/**
+ * Onsen list section (温泉地一覧 with search/filter)
+ */
+export interface OnsenListSection extends HomeSection {
+  type: 'onsen-list';
+  title: string;
+  subtitle?: string;
+  description?: string;
+  layout?: 'grid' | 'list';
+  filters?: OnsenListFilters;
+  // items will be populated from pages.onsen.items
 }
 
 /**

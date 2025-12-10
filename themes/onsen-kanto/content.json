@@ -160,100 +160,94 @@
       "sections": [
         {
           "id": "area-selection",
-          "type": "grid-gallery",
+          "type": "area-selection",
           "title": "エリアから探す",
           "subtitle": "Find by Area",
           "description": "関東エリアの名湯・秘湯を地域別にご紹介。それぞれのエリアに特色ある温泉文化が息づいています。",
+          "layout": "large-cards",
+          "columns": 3,
+          "hoverEffect": "zoom-lift",
           "items": [
             {
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
               "image": "hakone",
-              "href": "/docs/hakone"
+              "link": "/hakone"
             },
             {
               "title": "草津温泉",
               "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
               "image": "kusatsu",
-              "href": "/docs/kusatsu"
+              "link": "/kusatsu"
             },
             {
               "title": "鬼怒川温泉",
               "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。日光へのアクセスも便利。",
               "image": "kinugawa",
-              "href": "/docs/kinugawa"
+              "link": "/kinugawa"
             },
             {
               "title": "伊香保温泉",
               "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
               "image": "ikaho",
-              "href": "/docs/ikaho"
+              "link": "/ikaho"
             },
             {
               "title": "那須温泉郷",
               "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
               "image": "nasu",
-              "href": "/docs/nasu"
+              "link": "/nasu"
             },
             {
               "title": "水上温泉郷",
               "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
               "image": "minakami",
-              "href": "/docs/minakami"
+              "link": "/minakami"
             }
           ]
         },
         {
-          "id": "theme-selection",
-          "type": "grid-gallery",
-          "title": "テーマから選ぶ",
-          "subtitle": "Find by Theme",
-          "description": "旅のスタイルや目的に合わせて、あなたにぴったりの温泉体験を見つけてください。",
+          "id": "recommended-onsen",
+          "type": "recommended-onsen",
+          "title": "おすすめ温泉",
+          "subtitle": "Recommended Onsen",
+          "description": "厳選された関東の名湯をご紹介。",
+          "layout": "gallery",
           "items": [
             {
-              "title": "日帰り温泉",
-              "description": "都心から気軽にアクセスできる日帰り温泉。仕事帰りや週末のリフレッシュに。",
-              "image": "atami",
-              "href": "/docs"
+              "title": "箱根温泉郷",
+              "description": "年間2000万人が訪れる日本有数の温泉リゾート",
+              "image": "hakone",
+              "link": "/hakone"
             },
             {
-              "title": "カップルで",
-              "description": "二人だけの特別な時間を過ごせる、ロマンチックな温泉宿をセレクト。",
-              "image": "shuzenji",
-              "href": "/docs"
-            },
-            {
-              "title": "家族旅行",
-              "description": "お子様連れでも安心。家族みんなで楽しめる温泉リゾート。",
-              "image": "nasu",
-              "href": "/docs"
-            },
-            {
-              "title": "絶景露天風呂",
-              "description": "富士山や渓谷美を眺めながら、極上の湯浴みを楽しめる温泉。",
+              "title": "草津温泉",
+              "description": "日本三大名湯の一つ",
               "image": "kusatsu",
-              "href": "/docs"
+              "link": "/kusatsu"
+            },
+            {
+              "title": "鬼怒川温泉",
+              "description": "渓谷美と豊かな湯量が魅力",
+              "image": "kinugawa",
+              "link": "/kinugawa"
             }
           ]
         },
         {
-          "id": "testimonials",
-          "type": "testimonials",
-          "title": "旅行者の声",
-          "items": [
-            {
-              "content": "箱根の露天風呂から眺める富士山は一生忘れられない景色でした。心が洗われる体験でした。",
-              "author": "田中 美咲",
-              "role": "東京都在住",
-              "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
-            },
-            {
-              "content": "草津の湯畑は圧巻！強酸性の湯に浸かった後の肌のツルツル感が最高です。",
-              "author": "鈴木 健太",
-              "role": "神奈川県在住",
-              "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
-            }
-          ]
+          "id": "onsen-list",
+          "type": "onsen-list",
+          "title": "すべての温泉地",
+          "subtitle": "All Onsen Spots",
+          "description": "関東エリアのすべての温泉地を検索・絞り込みできます。",
+          "layout": "grid",
+          "filters": {
+            "area": true,
+            "springType": true,
+            "efficacy": true,
+            "dayTrip": true,
+            "access": true
+          }
         },
         {
           "id": "how-to-choose",
