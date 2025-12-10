@@ -21,9 +21,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: route === '' ? 1 : 0.8,
   }));
 
-  // 動的ドキュメントページ
+  // 動的ドキュメントページ（温泉地詳細ページ）
   const docRoutes = (content.pages.docs || []).map((doc) => ({
-    url: `${baseUrl}/docs/${doc.slug}`,
+    url: `${baseUrl}/${doc.slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.9,

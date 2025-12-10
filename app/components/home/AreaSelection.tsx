@@ -51,7 +51,7 @@ export function AreaSelection({ data }: AreaSelectionProps) {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <Link href={item.link}>
+              <Link href={item.link.startsWith('/') ? item.link : `/${item.link.replace(/^\//, '')}`}>
                 <motion.div
                   className="relative h-80 rounded-lg overflow-hidden group cursor-pointer"
                   whileHover={
