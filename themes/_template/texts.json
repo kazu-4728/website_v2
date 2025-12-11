@@ -1,0 +1,13 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "cta": "Learn More"
+      }
+    }
+  }
+}
