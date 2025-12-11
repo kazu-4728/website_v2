@@ -1,0 +1,31 @@
+{
+  "site": {
+    "name": "Site Name",
+    "tagline": "Site Tagline",
+    "description": "Site Description",
+    "logo": {
+      "text": "Logo Text",
+      "icon": "default"
+    }
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    }
+  ],
+  "pages": {
+    "home": {
+      "hero": {
+        "type": "fullscreen-slider",
+        "title": "Hero Title",
+        "subtitle": "Hero Subtitle",
+        "description": "Hero Description",
+        "bgImage": {
+          "key": "hero-main"
+        }
+      },
+      "sections": []
+    }
+  }
+}
