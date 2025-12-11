@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../ui/Button';
-import { CtaSection } from '../../lib/content';
+import { CtaSection } from '../../../lib/content';
 import { motion, useReducedMotion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 

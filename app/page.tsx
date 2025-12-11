@@ -9,16 +9,16 @@ import {
   RecommendedOnsenSection,
   OnsenListSection,
 } from './lib/content';
-import { CinematicHero } from './components/home/CinematicHero';
-import { FullscreenHero } from './components/home/FullscreenHero';
-import { SplitFeature } from './components/home/SplitFeature';
-import { GridGallery } from './components/home/GridGallery';
-import { Testimonials } from './components/home/Testimonials';
-import { CtaFullscreen } from './components/home/CtaFullscreen';
-import { Steps } from './components/home/Steps';
-import { AreaSelection } from './components/home/AreaSelection';
-import { RecommendedOnsen } from './components/home/RecommendedOnsen';
-import { OnsenList } from './components/home/OnsenList';
+import { CinematicHero } from './components/_legacy/home/CinematicHero';
+import { FullscreenHero } from './components/_legacy/home/FullscreenHero';
+import { SplitFeature } from './components/_legacy/home/SplitFeature';
+import { GridGallery } from './components/_legacy/home/GridGallery';
+import { Testimonials } from './components/_legacy/home/Testimonials';
+import { CtaFullscreen } from './components/_legacy/home/CtaFullscreen';
+import { Steps } from './components/_legacy/home/Steps';
+import { AreaSelection } from './components/_legacy/home/AreaSelection';
+import { RecommendedOnsen } from './components/_legacy/home/RecommendedOnsen';
+import { OnsenList } from './components/_legacy/home/OnsenList';
 import { isOnsenDoc } from './lib/onsen-types';
 
 export default async function Page() {

@@ -4,9 +4,9 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import type { OnsenListSection } from '../../lib/content';
-import type { OnsenDocPage } from '../../lib/onsen-types';
-import { loadContent } from '../../lib/content';
+import type { OnsenListSection } from '../../../lib/content';
+import type { OnsenDocPage } from '../../../lib/onsen-types';
+import { loadContent } from '../../../lib/content';
 
 interface OnsenListProps {
   data: OnsenListSection;

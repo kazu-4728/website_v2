@@ -1,8 +1,8 @@
 import { getBlogPost, getAllBlogSlugs, loadContent } from '../../lib/content';
-import { MarkdownRenderer } from '../../components/ui/MarkdownRenderer';
+import { MarkdownRenderer } from '../../components/_legacy/ui/MarkdownRenderer';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../../components/ui/Button';
+import { Button } from '../../components/_legacy/ui/Button';
 import { ArrowLeftIcon } from 'lucide-react';
 import { notFound } from 'next/navigation';
 

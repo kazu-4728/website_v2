@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../ui/Button';
 import { ArrowRightIcon } from 'lucide-react';
-import { SplitFeatureSection } from '../../lib/content';
+import { SplitFeatureSection } from '../../../lib/content';
 import { ImageCredit } from '../ui/ImageCredit';
-import { getImageMetadata } from '../../lib/images';
+import { getImageMetadata } from '../../../lib/images';
 
 interface Props {
   data: SplitFeatureSection;

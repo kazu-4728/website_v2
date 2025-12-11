@@ -1,6 +1,6 @@
 import { loadContent } from '../lib/content';
-import { Button } from '../components/ui/Button';
-import { ContactForm } from '../components/forms/ContactForm';
+import { Button } from '../components/_legacy/ui/Button';
+import { ContactForm } from '../components/_legacy/forms/ContactForm';
 import { MailIcon, MapPinIcon, ArrowRightIcon, ArrowLeftIcon } from 'lucide-react';
 import Link from 'next/link';
 

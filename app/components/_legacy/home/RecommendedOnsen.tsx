@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import type { RecommendedOnsenSection } from '../../lib/content';
+import type { RecommendedOnsenSection } from '../../../lib/content';
 
 interface RecommendedOnsenProps {
   data: RecommendedOnsenSection;
