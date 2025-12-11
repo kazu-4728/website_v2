@@ -98,30 +98,22 @@ export interface OnsenAccess {
 }
 
 /**
- * 旅館・ホテル詳細情報
- * Detailed Ryokan/Hotel information
+ * 旅館・ホテル情報（紹介用）
+ * Ryokan/Hotel information for introduction (Simple version)
  */
 export interface RyokanDetails {
   id: string;
   name: string;
-  type: 'ryokan' | 'hotel' | 'minshuku' | 'other';
-  description?: string;
-  images?: string[]; // Image keys
-  rating?: number; // 0-5 stars
-  priceRange?: {
-    min: number;
-    max?: number;
-  };
-  features: string[]; // "露天風呂付き客室", "部屋食" etc.
-  bathTypes: string[]; // "露天", "内湯", "貸切"
-  checkIn?: string;
-  checkOut?: string;
-  address?: string;
-  links?: {
-    official?: string;
-    rakuten?: string;
-    jaran?: string;
-    booking?: string;
+  type?: 'ryokan' | 'hotel' | 'minshuku' | 'other';
+  description?: string; // 紹介文・魅力
+  mainImage: string; // メイン画像キー
+  images?: string[]; // 追加画像キー（任意）
+  features?: string[]; // "露天風呂付き客室", "部屋食" etc.
+  links: {
+    official?: string; // 公式サイト
+    rakuten?: string; // 楽天トラベル
+    jaran?: string;   // じゃらん
+    booking?: string; // Booking.com
   };
 }
 
@@ -149,9 +141,9 @@ export interface OnsenAccommodation {
   dayTripAvailable: boolean;
   /** 日帰り施設リスト (Day trip facilities) */
   dayTripFacilities?: string[];
-  /** 旅館リスト (List of Ryokans) - API拡充用 */
+  /** 旅館リスト (List of Ryokans) - 5件程度を想定 */
   ryokans?: RyokanDetails[];
-  /** 旧フィールド: 代表的な旅館 (Representative ryokan/hotels) - 下位互換用 */
+  /** 旧フィールド（互換性のため維持） */
   representativeRyokan?: Array<{
     name: string;
     features: string[];
