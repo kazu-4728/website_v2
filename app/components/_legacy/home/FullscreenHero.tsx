@@ -5,10 +5,10 @@ import Link from 'next/link';
 import { Button } from '../ui/Button';
 import { ArrowRightIcon } from 'lucide-react';
 import { ImageCredit } from '../ui/ImageCredit';
-import { getImageMetadata } from '../../lib/images';
+import { getImageMetadata } from '../../../lib/images';
 import { motion, useReducedMotion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import type { HomeHero } from '../../lib/content';
+import type { HomeHero } from '../../../lib/content';
 
 interface FullscreenHeroProps {
   data: HomeHero;

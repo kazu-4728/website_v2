@@ -1,7 +1,7 @@
 import { loadContent } from '../lib/content';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../components/ui/Button';
+import { Button } from '../components/_legacy/ui/Button';
 import { ArrowRightIcon, BookOpenIcon, ArrowLeftIcon } from 'lucide-react';
 
 export default async function DocsIndexPage() {

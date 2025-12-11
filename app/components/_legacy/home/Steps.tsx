@@ -1,4 +1,4 @@
-import { StepsSection } from '../../lib/content';
+import { StepsSection } from '../../../lib/content';
 
 interface Props {
   data: StepsSection;

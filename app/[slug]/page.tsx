@@ -1,12 +1,12 @@
 import { getDocPage, getAllDocSlugs, loadContent } from '../lib/content';
-import { MarkdownRenderer } from '../components/ui/MarkdownRenderer';
-import { TableOfContents } from '../components/ui/TableOfContents';
-import { ImageCredit } from '../components/ui/ImageCredit';
-import { GoogleMap } from '../components/ui/GoogleMap';
+import { MarkdownRenderer } from '../components/_legacy/ui/MarkdownRenderer';
+import { TableOfContents } from '../components/_legacy/ui/TableOfContents';
+import { ImageCredit } from '../components/_legacy/ui/ImageCredit';
+import { GoogleMap } from '../components/_legacy/ui/GoogleMap';
 import { getImageMetadata } from '../lib/images';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../components/ui/Button';
+import { Button } from '../components/_legacy/ui/Button';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
 import { notFound } from 'next/navigation';
 

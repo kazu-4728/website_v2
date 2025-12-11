@@ -1,6 +1,6 @@
 import './globals.css';
-import { Header } from './components/navigation/Header';
-import { Footer } from './components/layouts/Footer';
+import { Header } from './components/_legacy/navigation/Header';
+import { Footer } from './components/_legacy/layouts/Footer';
 import { loadContent } from './lib/content';
 
 export async function generateMetadata() {

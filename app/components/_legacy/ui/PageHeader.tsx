@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Container } from './Container';
-import { cn } from '../../lib/utils';
+import { cn } from '../../../lib/utils';
 
 interface PageHeaderProps {
   title: string;

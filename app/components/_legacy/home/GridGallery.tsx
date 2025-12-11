@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
-import { GridGallerySection, loadContent } from '../../lib/content';
+import { GridGallerySection, loadContent } from '../../../lib/content';
 
 interface Props {
   data: GridGallerySection;

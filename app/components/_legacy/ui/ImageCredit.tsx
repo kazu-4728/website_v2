@@ -4,7 +4,7 @@
  */
 
 import Link from 'next/link';
-import { ImageMetadata } from '../../lib/images';
+import { ImageMetadata } from '../../../lib/images';
 
 interface ImageCreditProps {
   metadata: ImageMetadata | null;

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import type { AreaSelectionSection } from '../../lib/content';
+import type { AreaSelectionSection } from '../../../lib/content';
 
 interface AreaSelectionProps {
   data: AreaSelectionSection;
