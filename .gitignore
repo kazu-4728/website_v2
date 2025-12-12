@@ -104,3 +104,6 @@ core
 core
 *.core
 .env.local
+
+# Temp / scratch
+tmp/
