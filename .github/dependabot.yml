@@ -1,0 +1,42 @@
+version: 2
+updates:
+  # npm 依存関係の自動更新とセキュリティチェック
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "00:00"
+      timezone: "Asia/Tokyo"
+    # PRの最大数
+    open-pull-requests-limit: 10
+    # ラベル設定
+    labels:
+      - "dependencies"
+      - "security"
+    # コミットメッセージのプレフィックス
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    # バージョニング戦略
+    versioning-strategy: "increase"
+    # セキュリティアップデートを優先
+    allow:
+      - dependency-type: "all"
+    # 無視するアップデート（必要に応じて追加）
+    # ignore:
+    #   - dependency-name: "package-name"
+    #     versions: ["x.x.x"]
+    
+  # GitHub Actions の自動更新
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "00:00"
+      timezone: "Asia/Tokyo"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "chore(ci)"
