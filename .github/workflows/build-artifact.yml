@@ -25,7 +25,7 @@ jobs:
           echo "out directory exists, listing contents:"
           ls -la out | head -20
       - run: zip -r site-out.zip out
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: site-out
           path: site-out.zip
