@@ -17,26 +17,14 @@
 
 **絶対に使用してはいけないバージョン:**
 
-1. **Next.js 15.5.0 - 15.5.7**
-   - **CVE-2025-55182 / CVE-2025-66478**: RCE（リモートコード実行）脆弱性
-   - **CVSS**: 10.0（Critical）
-   - **理由**: React Server Components の Flight プロトコルにおける信頼できないデータのデシリアライゼーション処理の欠陥により、認証なしでリモートからサーバー上で任意のコードを実行可能
-   - **参考**: [GHSA-9qr9-h5gf-34mp](https://github.com/advisories/GHSA-9qr9-h5gf-34mp)
+| バージョン範囲 | CVE | 概要 | CVSS | 詳細 |
+|:---|:---|:---|:---|:---|
+| **13.3.0 - 15.5.7**<br>**16.0.0 - 16.0.8** | CVE-2025-55184 | DoS（サービス拒否）<br>Server Componentsのデシリアライゼーション処理における欠陥により、悪意のあるHTTPリクエストでサーバーハングとCPU異常使用を引き起こす | 7.5（High） | [GHSA-mwv6-3258-q52c](https://github.com/advisories/GHSA-mwv6-3258-q52c) |
+| **15.0.0 - 15.5.7**<br>**16.0.0 - 16.0.8** | CVE-2025-55183 | Server Actions ソースコード露出<br>特別に細工されたHTTPリクエストにより、Server Functionsのコンパイル済みソースコードが漏洩 | 5.3（Medium） | [GHSA-w37m-7fhw-fmv9](https://github.com/advisories/GHSA-w37m-7fhw-fmv9) |
+| **15.5.0 - 15.5.7** | CVE-2025-55182 / CVE-2025-66478 | RCE（リモートコード実行）<br>React Server Components の Flight プロトコルにおける信頼できないデータのデシリアライゼーション処理の欠陥により、認証なしでリモートからサーバー上で任意のコードを実行可能 | 10.0（Critical） | [GHSA-9qr9-h5gf-34mp](https://github.com/advisories/GHSA-9qr9-h5gf-34mp) |
+| **15.0.3 以下** | 複数 | 上記すべての脆弱性に加え、その他のセキュリティ問題を含む可能性あり | - | - |
 
-2. **Next.js 15.0.0 - 15.5.7, 16.0.0 - 16.0.8**
-   - **CVE-2025-55183**: Server Actions ソースコード露出
-   - **CVSS**: 5.3（Medium）
-   - **理由**: 特別に細工されたHTTPリクエストにより、Server Functionsのコンパイル済みソースコードが漏洩
-   - **参考**: [GHSA-w37m-7fhw-fmv9](https://github.com/advisories/GHSA-w37m-7fhw-fmv9)
-
-3. **Next.js 13.3.0 - 15.5.7, 16.0.0 - 16.0.8**
-   - **CVE-2025-55184**: DoS（サービス拒否）脆弱性
-   - **CVSS**: 7.5（High）
-   - **理由**: Server Componentsのデシリアライゼーション処理における欠陥により、悪意のあるHTTPリクエストでサーバーハングとCPU異常使用を引き起こす
-   - **参考**: [GHSA-mwv6-3258-q52c](https://github.com/advisories/GHSA-mwv6-3258-q52c)
-
-4. **Next.js 15.0.3 以下**
-   - 上記すべての脆弱性に加え、その他のセキュリティ問題を含む可能性あり
+**要約**: Next.js 16.0.9以下のすべてのバージョンに何らかの脆弱性があります。**16.0.10以上を使用してください。**
 
 ### ESLint（リンター）
 
@@ -272,6 +260,50 @@ updates:
 3. このドキュメントを参照
 4. 必要に応じて SECURITY.md の手順に従って報告
 5. 脆弱性が確認された場合は、即座に安全なバージョンに更新
+
+---
+
+## 📋 Dependabot PR管理
+
+### Dependabotから大量のPRが出る理由
+
+PR#12で多数のパッケージを大幅に更新した直後のため、その後の小さな更新が次々と検出されています。これは**正常な動作**です。
+
+**対策済み**（週次チェック + グループ化）:
+- チェック頻度: 毎日 → **週次（月曜日）**
+- PR上限: 10件 → **5件**
+- 関連パッケージをグループ化（ESLint/Prettier, Testing, Tailwind CSS等）
+- 期待される効果: 10-15件/日 → **5-7件/週**（70-80%削減）
+
+### 現在のDependabot PRの対処方法
+
+**このPRをマージした後に以下を実施:**
+
+#### 1. CI/CDが成功しているPRのみマージ
+```bash
+# 優先順位順にマージ:
+1. セキュリティパッチ（あれば即座にマージ）
+2. TypeScript, ESLint/Prettier, Testing Library（ビルドツール）
+3. Tailwind CSS, Radix UI, lucide-react, framer-motion（UIライブラリ）
+4. その他の開発依存関係
+```
+
+#### 2. コンフリクトが発生したPRの対処
+PRページでコメント: `@dependabot rebase`
+
+これでDependabotが自動的に最新状態にリベースします。手動解決は不要です。
+
+#### 3. エラーが出ているPRはスキップ
+CI/CDが失敗しているPRは調査が必要なため、後回しにしてください。
+
+### このPRのマージタイミング
+
+**今すぐマージしてください。**
+
+理由:
+- Dependabot設定の最適化が含まれている
+- 次回のDependabot実行（来週月曜日）から新しい設定が適用される
+- 早くマージするほど、早くPR数が削減される
 
 ---
 
