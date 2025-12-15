@@ -1,0 +1,39 @@
+# Cursor AI - Files to ignore for context
+
+# Archive and old documentation
+docs/archive/
+docs/old-*/
+
+# Large documentation files (reference only, don't load in context)
+docs/BEST_PRACTICES_RECOMMENDATIONS.md
+docs/IMAGE_OPTIMIZATION_GUIDE.md
+docs/IMPLEMENTATION_GUIDE.md
+
+# Design assets
+docs/design/
+docs/reports/
+
+# Build artifacts
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+*.tmp
+*.log
+
+# Environment files
+.env*
+!.env.example

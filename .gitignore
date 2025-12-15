@@ -107,3 +107,10 @@ core
 
 # Temp / scratch
 tmp/
+
+# Documentation archives (keep repository lean)
+docs/archive/
+docs/old-*/
+
+# AI context optimization
+*.tsbuildinfo

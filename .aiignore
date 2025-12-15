@@ -1,0 +1,51 @@
+# AI Assistants - Files to ignore for context optimization
+
+# Archive and historical documentation
+docs/archive/
+docs/old-*/
+
+# Large reference documentation (use only when explicitly needed)
+docs/BEST_PRACTICES_RECOMMENDATIONS.md
+docs/IMAGE_OPTIMIZATION_GUIDE.md
+docs/IMPLEMENTATION_GUIDE.md
+
+# Design and report files
+docs/design/
+docs/reports/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# TypeScript build cache
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+.cache/
+*.tmp
+*.swp
+*~
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Git internals
+.git/
