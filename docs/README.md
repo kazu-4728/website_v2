@@ -84,11 +84,9 @@ GitHub Pages環境での画像最適化の実践的なガイド。
 
 ### 1. 最初に読むべきドキュメント
 
-```
-1. ANALYSIS_SUMMARY.md       ← 全体像を把握
-2. IMPLEMENTATION_GUIDE.md   ← 実装方法を理解
-3. 関連ドキュメント          ← 必要に応じて
-```
+1. **ANALYSIS_SUMMARY.md** - 全体像を把握
+2. **IMPLEMENTATION_GUIDE.md** - 実装方法を理解
+3. **関連ドキュメント** - 必要に応じて参照
 
 ### 2. 即座に実行（30分）
 

@@ -144,9 +144,14 @@ async function optimizeImage(inputPath) {
 async function main() {
   console.log('🚀 Starting image optimization...\n');
   
-  // 画像ファイルを検索
-  const imageFiles = glob.sync(`${CONFIG.inputDir}/**/*.{jpg,jpeg,png}`, {
-    ignore: [`${CONFIG.outputDir}/**`],
+  // 画像ファイルを検索（非同期版を使用）
+  const imageFiles = await new Promise((resolve, reject) => {
+    glob(`${CONFIG.inputDir}/**/*.{jpg,jpeg,png}`, {
+      ignore: [`${CONFIG.outputDir}/**`],
+    }, (err, files) => {
+      if (err) reject(err);
+      else resolve(files);
+    });
   });
   
   console.log(`📁 Found ${imageFiles.length} images\n`);

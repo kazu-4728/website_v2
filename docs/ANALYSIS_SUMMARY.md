@@ -510,15 +510,21 @@ ARIA属性の使用: 16箇所のみ
 ### 今すぐ実行すべきこと（30分以内）
 
 ```bash
-# 1. セキュリティ脆弱性の解消
+# 1. バックアップの作成（念のため）
+cp package-lock.json package-lock.json.backup
+
+# 2. セキュリティ脆弱性の解消
 npm install next@latest
 npm audit fix
 
-# 2. ビルドテスト
+# 3. ビルドテスト
 npm run build
 
-# 3. 確認
+# 4. 確認
 npm audit --omit=dev
+
+# 5. 問題があれば元に戻す
+# npm ci  # package-lock.json.backup から復元する場合
 ```
 
 ### 今週中に実行すべきこと

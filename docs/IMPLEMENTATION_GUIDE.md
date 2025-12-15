@@ -70,12 +70,15 @@ function loadData(data: any) {
   return data.items;
 }
 
-// After: 明示的な型定義
+// After: 明示的な型定義とエラーハンドリング
 interface DataResponse {
   items: Array<{ id: string; name: string }>;
 }
 
-function loadData(data: DataResponse) {
+function loadData(data: DataResponse): Array<{ id: string; name: string }> {
+  if (!data || !Array.isArray(data.items)) {
+    throw new Error('Invalid data format');
+  }
   return data.items;
 }
 ```
