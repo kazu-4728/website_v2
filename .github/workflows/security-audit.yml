@@ -1,0 +1,110 @@
+name: Security Audit
+
+on:
+  push:
+    branches: [ main, develop, master ]
+  pull_request:
+    branches: [ main, develop, master ]
+  schedule:
+    # 毎日午前0時（UTC）に実行 = 日本時間午前9時
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run npm audit
+      id: audit
+      run: |
+        echo "## 🔒 セキュリティ監査結果" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # moderate レベル以上の脆弱性をチェック
+        if npm audit --audit-level=moderate; then
+          echo "✅ 脆弱性は検出されませんでした" >> $GITHUB_STEP_SUMMARY
+          echo "status=success" >> $GITHUB_OUTPUT
+        else
+          echo "⚠️ セキュリティ脆弱性が検出されました" >> $GITHUB_STEP_SUMMARY
+          echo "status=failure" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Generate detailed audit report
+      if: always()
+      run: |
+        # JSON形式で詳細レポートを生成
+        npm audit --json > audit-report.json
+        
+        # 人間が読みやすい形式でも出力
+        echo "## 詳細レポート" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+        npm audit >> $GITHUB_STEP_SUMMARY || true
+        echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+    
+    - name: Check package versions
+      run: |
+        echo "## 📦 主要パッケージバージョン" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "| パッケージ | バージョン | 状態 |" >> $GITHUB_STEP_SUMMARY
+        echo "|----------|----------|------|" >> $GITHUB_STEP_SUMMARY
+        
+        # Next.js
+        NEXT_VERSION=$(npm list next --depth=0 2>/dev/null | grep next@ | sed 's/.*next@//' || echo "未検出")
+        if [[ "$NEXT_VERSION" =~ ^16\. ]] || [[ "$NEXT_VERSION" =~ ^15\.([6-9]|[1-9][0-9]) ]]; then
+          echo "| Next.js | $NEXT_VERSION | ✅ 安全 |" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "| Next.js | $NEXT_VERSION | ⚠️ 要確認 |" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # ESLint
+        ESLINT_VERSION=$(npm list eslint --depth=0 2>/dev/null | grep eslint@ | sed 's/.*eslint@//' || echo "未検出")
+        if [[ "$ESLINT_VERSION" =~ ^9\. ]]; then
+          echo "| ESLint | $ESLINT_VERSION | ✅ 安全 |" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "| ESLint | $ESLINT_VERSION | ⚠️ 要確認 |" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        # React
+        REACT_VERSION=$(npm list react --depth=0 2>/dev/null | grep react@ | sed 's/.*react@//' || echo "未検出")
+        echo "| React | $REACT_VERSION | ✅ 安全 |" >> $GITHUB_STEP_SUMMARY
+    
+    - name: Upload audit report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: security-audit-report-${{ github.run_id }}
+        path: audit-report.json
+        retention-days: 90
+    
+    - name: Fail on vulnerabilities
+      if: steps.audit.outputs.status == 'failure'
+      run: |
+        echo "::error::セキュリティ脆弱性が検出されました。詳細はaudit-report.jsonを確認してください。"
+        echo "SECURITY_REQUIREMENTS.md を参照して、直ちに対応してください。"
+        exit 1
+    
+    - name: Comment on PR (if applicable)
+      if: github.event_name == 'pull_request' && steps.audit.outputs.status == 'failure'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '⚠️ **セキュリティ監査で脆弱性が検出されました**\n\n詳細は[Actionsログ](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})を確認してください。\n\n`docs/SECURITY_REQUIREMENTS.md` を参照して対応してください。'
+          })
