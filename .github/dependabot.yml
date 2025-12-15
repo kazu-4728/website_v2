@@ -4,11 +4,63 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"  # 毎日 → 週次に変更してPR数を削減
+      day: "monday"
       time: "00:00"
       timezone: "Asia/Tokyo"
-    # PRの最大数
-    open-pull-requests-limit: 10
+    # PRの最大数を削減
+    open-pull-requests-limit: 5  # 10 → 5 に削減
+    
+    # 関連パッケージをグループ化してPR数を削減
+    groups:
+      # ESLintとPrettier関連を1つのPRにまとめる
+      linting:
+        patterns:
+          - "eslint*"
+          - "prettier*"
+          - "@typescript-eslint/*"
+          - "typescript-eslint"
+          - "eslint-*"
+      
+      # Testing関連を1つのPRにまとめる
+      testing:
+        patterns:
+          - "@testing-library/*"
+          - "vitest*"
+          - "jsdom"
+      
+      # Tailwind CSS関連を1つのPRにまとめる
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+          - "autoprefixer"
+          - "postcss"
+      
+      # Radix UI関連を1つのPRにまとめる
+      radix:
+        patterns:
+          - "@radix-ui/*"
+      
+      # TypeScript型定義を1つのPRにまとめる
+      types:
+        patterns:
+          - "@types/*"
+      
+      # React関連を1つのPRにまとめる
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@vitejs/plugin-react"
+      
+      # その他の開発依存関係
+      dev-dependencies:
+        patterns:
+          - "husky"
+          - "lint-staged"
+          - "class-variance-authority"
+    
     # ラベル設定
     labels:
       - "dependencies"
