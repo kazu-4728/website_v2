@@ -17,26 +17,14 @@
 
 **絶対に使用してはいけないバージョン:**
 
-1. **Next.js 15.5.0 - 15.5.7**
-   - **CVE-2025-55182 / CVE-2025-66478**: RCE（リモートコード実行）脆弱性
-   - **CVSS**: 10.0（Critical）
-   - **理由**: React Server Components の Flight プロトコルにおける信頼できないデータのデシリアライゼーション処理の欠陥により、認証なしでリモートからサーバー上で任意のコードを実行可能
-   - **参考**: [GHSA-9qr9-h5gf-34mp](https://github.com/advisories/GHSA-9qr9-h5gf-34mp)
+| バージョン範囲 | CVE | 概要 | CVSS | 詳細 |
+|:---|:---|:---|:---|:---|
+| **13.3.0 - 15.5.7**<br>**16.0.0 - 16.0.8** | CVE-2025-55184 | DoS（サービス拒否）<br>Server Componentsのデシリアライゼーション処理における欠陥により、悪意のあるHTTPリクエストでサーバーハングとCPU異常使用を引き起こす | 7.5（High） | [GHSA-mwv6-3258-q52c](https://github.com/advisories/GHSA-mwv6-3258-q52c) |
+| **15.0.0 - 15.5.7**<br>**16.0.0 - 16.0.8** | CVE-2025-55183 | Server Actions ソースコード露出<br>特別に細工されたHTTPリクエストにより、Server Functionsのコンパイル済みソースコードが漏洩 | 5.3（Medium） | [GHSA-w37m-7fhw-fmv9](https://github.com/advisories/GHSA-w37m-7fhw-fmv9) |
+| **15.5.0 - 15.5.7** | CVE-2025-55182 / CVE-2025-66478 | RCE（リモートコード実行）<br>React Server Components の Flight プロトコルにおける信頼できないデータのデシリアライゼーション処理の欠陥により、認証なしでリモートからサーバー上で任意のコードを実行可能 | 10.0（Critical） | [GHSA-9qr9-h5gf-34mp](https://github.com/advisories/GHSA-9qr9-h5gf-34mp) |
+| **15.0.3 以下** | 複数 | 上記すべての脆弱性に加え、その他のセキュリティ問題を含む可能性あり | - | - |
 
-2. **Next.js 15.0.0 - 15.5.7, 16.0.0 - 16.0.8**
-   - **CVE-2025-55183**: Server Actions ソースコード露出
-   - **CVSS**: 5.3（Medium）
-   - **理由**: 特別に細工されたHTTPリクエストにより、Server Functionsのコンパイル済みソースコードが漏洩
-   - **参考**: [GHSA-w37m-7fhw-fmv9](https://github.com/advisories/GHSA-w37m-7fhw-fmv9)
-
-3. **Next.js 13.3.0 - 15.5.7, 16.0.0 - 16.0.8**
-   - **CVE-2025-55184**: DoS（サービス拒否）脆弱性
-   - **CVSS**: 7.5（High）
-   - **理由**: Server Componentsのデシリアライゼーション処理における欠陥により、悪意のあるHTTPリクエストでサーバーハングとCPU異常使用を引き起こす
-   - **参考**: [GHSA-mwv6-3258-q52c](https://github.com/advisories/GHSA-mwv6-3258-q52c)
-
-4. **Next.js 15.0.3 以下**
-   - 上記すべての脆弱性に加え、その他のセキュリティ問題を含む可能性あり
+**要約**: Next.js 16.0.9以下のすべてのバージョンに何らかの脆弱性があります。**16.0.10以上を使用してください。**
 
 ### ESLint（リンター）
 
