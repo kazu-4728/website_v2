@@ -83,7 +83,7 @@ export function CinematicHero({ data }: HeroProps) {
     initial: { scale: shouldReduceMotion ? 1 : 1.1 },
     animate: { 
       scale: 1,
-      transition: { duration: 1.5, ease: 'easeOut' }
+      transition: { duration: 1.5 }
     }
   };
 
@@ -98,7 +98,7 @@ export function CinematicHero({ data }: HeroProps) {
     animate: { 
       opacity: 1, 
       y: 0,
-      transition: { duration: 0.8, ease: 'easeOut' }
+      transition: { duration: 0.8 }
     }
   };
 
@@ -126,7 +126,7 @@ export function CinematicHero({ data }: HeroProps) {
               initial="enter"
               animate="center"
               exit="exit"
-              transition={{ duration: shouldReduceMotion ? 0 : 1.5, ease: 'easeInOut' }}
+              transition={{ duration: shouldReduceMotion ? 0 : 1.5 }}
               className="absolute inset-0"
             >
               <Image
@@ -151,7 +151,7 @@ export function CinematicHero({ data }: HeroProps) {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+          transition={{ duration: 0.8 }}
         >
             {/* Subtitle */}
             <motion.p 
