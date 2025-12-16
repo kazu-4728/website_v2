@@ -108,7 +108,14 @@ cd /path/to/website_v2
 
 以下のラベルを作成してください：
 
-**方法1: GitHub Web UI で作成（最も簡単）**
+**方法1: GitHub Actions ワークフロー（最も簡単・自動化）**
+1. https://github.com/kazu-4728/website_v2/actions/workflows/create-labels.yml にアクセス
+2. 「Run workflow」ボタンをクリック
+3. 「Run workflow」を再度クリックして実行
+
+約30秒で3つのラベルが自動作成されます。
+
+**方法2: GitHub Web UI で作成**
 1. https://github.com/kazu-4728/website_v2/labels にアクセス
 2. 「New label」をクリック
 3. 以下を作成：
@@ -116,11 +123,16 @@ cd /path/to/website_v2
    - Name: `security`, Color: `#d73a4a` (赤)
    - Name: `github-actions`, Color: `#000000` (黒)
 
-**方法2: GitHub CLI で作成**
+**方法3: GitHub CLI で作成**
 ```bash
 gh label create "dependencies" --color "8b5cf6" --description "依存関係の更新" --repo kazu-4728/website_v2
 gh label create "security" --color "d73a4a" --description "セキュリティ更新" --repo kazu-4728/website_v2
 gh label create "github-actions" --color "000000" --description "GitHub Actionsの更新" --repo kazu-4728/website_v2
+```
+
+**方法4: ローカルスクリプトで作成**
+```bash
+GITHUB_TOKEN=your_token node scripts/create-github-labels.js
 ```
 
 詳細な手順は `.github/CREATE_LABELS.md` を参照してください。

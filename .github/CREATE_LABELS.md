@@ -11,7 +11,17 @@ Dependabot が以下のラベルが見つからないというエラーを出し
 
 以下の手順でラベルを作成してください：
 
-### 方法1: GitHub Web UI で作成（推奨）
+### 方法1: GitHub Actions ワークフローで自動作成（最も簡単・推奨）
+
+1. リポジトリのページに移動: https://github.com/kazu-4728/website_v2
+2. 「Actions」タブをクリック
+3. 左サイドバーから「Create GitHub Labels」を選択
+4. 「Run workflow」ボタンをクリック
+5. 「Run workflow」を再度クリックして実行
+
+ワークフローが完了すると、3つのラベルが自動的に作成されます。
+
+### 方法2: GitHub Web UI で作成
 
 1. リポジトリのページに移動: https://github.com/kazu-4728/website_v2
 2. 「Issues」タブをクリック
@@ -34,7 +44,15 @@ Dependabot が以下のラベルが見つからないというエラーを出し
 - **Description**: `GitHub Actions` または `GitHub Actionsの更新`
 - **Color**: `#000000` (黒色) または任意の色
 
-### 方法2: GitHub CLI で作成
+### 方法3: ローカルスクリプトで作成
+
+Node.js がインストールされている場合、以下のコマンドで作成できます：
+
+```bash
+GITHUB_TOKEN=your_personal_access_token node scripts/create-github-labels.js
+```
+
+### 方法4: GitHub CLI で作成
 
 ```bash
 gh label create "dependencies" --color "8b5cf6" --description "依存関係の更新" --repo kazu-4728/website_v2
@@ -42,7 +60,7 @@ gh label create "security" --color "d73a4a" --description "セキュリティ更
 gh label create "github-actions" --color "000000" --description "GitHub Actionsの更新" --repo kazu-4728/website_v2
 ```
 
-### 方法3: GitHub API で作成
+### 方法5: GitHub API で作成
 
 ```bash
 # dependencies ラベル
