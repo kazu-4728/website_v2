@@ -1,0 +1,36 @@
+name: Create GitHub Labels
+
+on:
+  workflow_dispatch:  # 手動実行可能
+
+permissions:
+  issues: write  # ラベル作成に必要
+
+jobs:
+  create-labels:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Create GitHub labels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/create-github-labels.js
+      
+      - name: Summary
+        run: |
+          echo "## ✅ ラベル作成完了" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "以下のラベルが利用可能になりました:" >> $GITHUB_STEP_SUMMARY
+          echo "- \`dependencies\` - 依存関係の更新" >> $GITHUB_STEP_SUMMARY
+          echo "- \`security\` - セキュリティ更新" >> $GITHUB_STEP_SUMMARY
+          echo "- \`github-actions\` - GitHub Actionsの更新" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Dependabot は次回の実行時にこれらのラベルを使用できます。" >> $GITHUB_STEP_SUMMARY

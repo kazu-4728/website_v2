@@ -121,6 +121,30 @@ npm run check:links   # 内部リンク切れチェック
 
 ---
 
+## 🔄 依存関係管理
+
+このプロジェクトでは、Dependabotを使用して依存関係を自動的に管理しています。
+
+### 更新スケジュール
+- **npm依存関係**: 月次（毎月第1月曜日）
+- **GitHub Actions**: 月次（毎月第1月曜日）
+
+### PRの自動管理
+Dependabotは関連する更新を1つのPRにまとめ、セキュリティ更新のみ別PRで優先処理します。
+
+### 管理ツール
+```bash
+# 既存のDependabot PRを管理
+./scripts/manage-dependabot-prs.sh
+```
+
+📚 **詳細ドキュメント**:
+- クイックリファレンス: [`.github/DEPENDABOT_QUICKREF.md`](.github/DEPENDABOT_QUICKREF.md)
+- 運用ガイド: [`.github/DEPENDABOT_MANAGEMENT.md`](.github/DEPENDABOT_MANAGEMENT.md)
+- 設定変更の詳細: [`.github/DEPENDABOT_CHANGES.md`](.github/DEPENDABOT_CHANGES.md)
+
+---
+
 ## 📁 プロジェクト構造
 
 ```
