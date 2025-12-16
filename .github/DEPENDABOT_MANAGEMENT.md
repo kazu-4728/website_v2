@@ -1,5 +1,19 @@
 # Dependabot管理ガイド
 
+## ⚠️ 初回セットアップ（必須）
+
+Dependabotを正しく動作させるために、以下のGitHubラベルを作成してください：
+
+- `dependencies` (依存関係の更新)
+- `security` (セキュリティ更新)
+- `github-actions` (GitHub Actionsの更新)
+
+詳細な手順は `.github/CREATE_LABELS.md` を参照してください。
+
+**注**: これらのラベルが存在しないと、Dependabot PRにエラーが表示されます（例: PR #24）。
+
+---
+
 ## 現在の設定
 
 ### 更新頻度

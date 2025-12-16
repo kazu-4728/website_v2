@@ -102,6 +102,29 @@ cd /path/to/website_v2
 
 ## 🚀 今すぐ実施すべき手順
 
+### ステップ0: GitHubラベルを作成（重要！）
+
+⚠️ **まずこれを実行してください**: PR #24 でエラーが出ている原因は、必要なラベルが存在しないためです。
+
+以下のラベルを作成してください：
+
+**方法1: GitHub Web UI で作成（最も簡単）**
+1. https://github.com/kazu-4728/website_v2/labels にアクセス
+2. 「New label」をクリック
+3. 以下を作成：
+   - Name: `dependencies`, Color: `#8b5cf6` (紫)
+   - Name: `security`, Color: `#d73a4a` (赤)
+   - Name: `github-actions`, Color: `#000000` (黒)
+
+**方法2: GitHub CLI で作成**
+```bash
+gh label create "dependencies" --color "8b5cf6" --description "依存関係の更新" --repo kazu-4728/website_v2
+gh label create "security" --color "d73a4a" --description "セキュリティ更新" --repo kazu-4728/website_v2
+gh label create "github-actions" --color "000000" --description "GitHub Actionsの更新" --repo kazu-4728/website_v2
+```
+
+詳細な手順は `.github/CREATE_LABELS.md` を参照してください。
+
 ### ステップ1: このPRをマージ
 
 ```bash

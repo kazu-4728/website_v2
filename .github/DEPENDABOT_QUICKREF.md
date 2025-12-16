@@ -1,5 +1,14 @@
 # Dependabot クイックリファレンス 🚀
 
+## ⚠️ 初回セットアップ（重要）
+
+まず、以下のGitHubラベルを作成してください：
+- `dependencies` (紫: #8b5cf6)
+- `security` (赤: #d73a4a)
+- `github-actions` (黒: #000000)
+
+詳細: `.github/CREATE_LABELS.md` を参照
+
 ## 📅 スケジュール
 - **npm依存関係**: 月次（毎月第1月曜日 00:00 JST）
 - **GitHub Actions**: 月次（毎月第1月曜日 00:00 JST）
