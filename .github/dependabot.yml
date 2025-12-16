@@ -4,62 +4,29 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"  # 毎日 → 週次に変更してPR数を削減
+      interval: "monthly"  # 週次 → 月次に変更してPR数をさらに削減
       day: "monday"
       time: "00:00"
       timezone: "Asia/Tokyo"
-    # PRの最大数を削減
-    open-pull-requests-limit: 5  # 10 → 5 に削減
+    # PRの最大数を大幅に削減
+    open-pull-requests-limit: 3  # 5 → 3 に削減
     
     # 関連パッケージをグループ化してPR数を削減
     groups:
-      # ESLintとPrettier関連を1つのPRにまとめる
-      linting:
+      # すべての依存関係を1つのPRにまとめる（最も積極的なグルーピング）
+      all-dependencies:
         patterns:
-          - "eslint*"
-          - "prettier*"
-          - "@typescript-eslint/*"
-          - "typescript-eslint"
-          - "eslint-*"
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
       
-      # Testing関連を1つのPRにまとめる
-      testing:
+      # セキュリティアップデートのみ別PR（優先度高）
+      security-updates:
         patterns:
-          - "@testing-library/*"
-          - "vitest*"
-          - "jsdom"
-      
-      # Tailwind CSS関連を1つのPRにまとめる
-      tailwind:
-        patterns:
-          - "tailwindcss"
-          - "@tailwindcss/*"
-          - "autoprefixer"
-          - "postcss"
-      
-      # Radix UI関連を1つのPRにまとめる
-      radix:
-        patterns:
-          - "@radix-ui/*"
-      
-      # TypeScript型定義を1つのPRにまとめる
-      types:
-        patterns:
-          - "@types/*"
-      
-      # React関連を1つのPRにまとめる
-      react:
-        patterns:
-          - "react"
-          - "react-dom"
-          - "@vitejs/plugin-react"
-      
-      # その他の開発依存関係
-      dev-dependencies:
-        patterns:
-          - "husky"
-          - "lint-staged"
-          - "class-variance-authority"
+          - "*"
+        update-types:
+          - "security"
     
     # ラベル設定
     labels:
@@ -71,22 +38,22 @@ updates:
       include: "scope"
     # バージョニング戦略
     versioning-strategy: "increase"
-    # セキュリティアップデートを優先
+    # セキュリティアップデートのみを許可（メジャーバージョン更新は手動で行う）
     allow:
-      - dependency-type: "all"
-    # 無視するアップデート（必要に応じて追加）
-    # ignore:
-    #   - dependency-name: "package-name"
-    #     versions: ["x.x.x"]
+      - dependency-type: "direct"
+        update-types: ["security"]
+      - dependency-type: "production"
+        update-types: ["security", "patch", "minor"]
     
-  # GitHub Actions の自動更新
+  # GitHub Actions の自動更新（月次に変更）
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       day: "monday"
       time: "00:00"
       timezone: "Asia/Tokyo"
+    open-pull-requests-limit: 1
     labels:
       - "dependencies"
       - "github-actions"
