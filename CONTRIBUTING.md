@@ -150,3 +150,25 @@ This section guides you through submitting an enhancement suggestion for Code Vo
 - Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 - Limit the first line to 72 characters or less
 - Reference issues and pull requests liberally after the first line
+
+### Developer Certificate of Origin (DCO)
+
+All commits must include a DCO sign-off. This can be done by adding a "Signed-off-by" line to your commit message:
+
+```
+Signed-off-by: Your Name <your.email@example.com>
+```
+
+You can automatically add this to your commits using:
+
+```bash
+git commit -s -m "Your commit message"
+```
+
+Or configure git to always sign off:
+
+```bash
+git config --global format.signoff true
+```
+
+For more information, see `.github/DCO_SIGNOFF.md`
