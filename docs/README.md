@@ -1,53 +1,74 @@
 # ドキュメント一覧
 
-> **🚀 AI エージェント向け**: まず [`START_HERE.md`](./START_HERE.md) を読んでください（2分、軽量）
-
-このディレクトリには、リポジトリの分析結果、ベストプラクティス提案、実装ガイドが含まれています。
+> **🚀 AI エージェント向け**: [`AGENT_MASTER_GUIDE.md`](./AGENT_MASTER_GUIDE.md) を読んでください（1つのファイルで完結）
 
 ---
 
-## 📚 ドキュメント優先順位
+## 📚 整理後のドキュメント構造
 
-### 🟢 軽量・必読（AIエージェントはこちらから）
+### 🟢 必読（エージェントはこれだけでOK）
 
-#### 🚀 [START_HERE.md](./START_HERE.md) ⭐ **エージェントはここから**
-**サイズ**: 2KB（超軽量）  
-**読了時間**: 2分
+#### 🤖 [AGENT_MASTER_GUIDE.md](./AGENT_MASTER_GUIDE.md) ⭐ **エージェントマスターガイド**
+**読了時間**: 5分
 
-エージェント向けクイックスタートガイド。即座に実行すべきこと、担当タスクの確認方法を簡潔に記載。
+**このファイルだけ読めば作業開始できます。以下がすべて含まれています**：
+- プロジェクトの最優先目標（画像収集、ベンチマークサイト風UI）
+- エージェント別の役割と初日タスク
+- API設定（Wikimedia Commons、sharp）
+- セキュリティ要件
+- 作業フロー
+- 現在の進捗状況
 
 ---
 
 #### ⚡ [ACCELERATED_ROADMAP.md](./ACCELERATED_ROADMAP.md)
-**サイズ**: 17KB（中）  
-**読了時間**: 15分  
-**実装期間**: 2週間（3-5エージェント並行作業）
-
-複数エージェント並行作業による2週間集中実装プラン。日次タスク計画とチェックリスト。
-
----
-
-#### 🎯 [ANALYSIS_SUMMARY.md](./ANALYSIS_SUMMARY.md)
-**サイズ**: 16KB（中）  
 **読了時間**: 10分
 
-リポジトリの包括的な分析結果。現状スコア、目標、期待される効果を定量化。
+2週間実装プラン。日次タスクとチェックリスト。
 
 ---
 
-### 🟡 参照用（大サイズ、必要な時のみ）
+#### 🔒 [SECURITY_REQUIREMENTS.md](./SECURITY_REQUIREMENTS.md)
+**読了時間**: 5分
 
-> **注意**: 以下のドキュメントは `.aiignore` / `.cursorignore` に登録済み。  
-> コンテキストを節約するため、**必要な部分のみ**を開いてください。
-
-#### 📋 [BEST_PRACTICES_RECOMMENDATIONS.md](./BEST_PRACTICES_RECOMMENDATIONS.md)
-**サイズ**: 28KB（大）  
-**用途**: 詳細な技術提案とコードサンプル
+セキュリティ要件とバージョン管理。
 
 ---
 
-#### 🛠️ [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md)
-**サイズ**: 19KB（大）  
+### 🟡 参照用（必要に応じて）
+
+#### 🖼️ [IMAGE_OPTIMIZATION_GUIDE.md](./IMAGE_OPTIMIZATION_GUIDE.md)
+画像最適化の詳細手順（sharp、ビルド時最適化）。
+
+#### 🏗️ [ARCHITECTURE.md](./ARCHITECTURE.md)
+アーキテクチャ全体像（JSON First、ディレクトリ構造）。
+
+#### 💻 [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md)
+実装コードサンプル集。
+
+---
+
+### 🔴 廃止予定・読まないでください
+
+以下のファイルは**読まないでください**（内容が古い、または他に統合済み）：
+
+- ~~`START_HERE.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
+- ~~`ANALYSIS_SUMMARY.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
+- ~~`PHASE_TRANSITION_REPORT.md`~~ → `ACCELERATED_ROADMAP.md` に統合
+- ~~`IMPLEMENTATION_PLAN_V3.md`~~ → `ACCELERATED_ROADMAP.md` に統合
+- ~~`BEST_PRACTICES_RECOMMENDATIONS.md`~~ → 必要な部分は他に統合済み
+- ~~`REQUIREMENTS.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
+- ~~`RULES.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
+
+---
+
+## 🎯 作業開始方法
+
+1. **[`AGENT_MASTER_GUIDE.md`](./AGENT_MASTER_GUIDE.md) を読む**（5分）
+2. **自分の役割を確認**（エージェントA-D）
+3. **初日タスクを開始**
+
+**それだけです！**  
 **用途**: 実装手順の詳細とコードサンプル集
 
 ---
