@@ -53,7 +53,7 @@ export function CinematicHero({ data }: HeroProps) {
   };
 
   // Overlay設定の処理
-  const overlayConfig = typeof data.overlay === 'object' ? data.overlay : { gradient: undefined, position: 'bottom' };
+  const overlayConfig: { gradient?: string; position?: string } = typeof data.overlay === 'object' ? data.overlay : { gradient: undefined, position: 'bottom' };
   const overlayGradient = overlayConfig.gradient || 'from-dark-950/80 via-dark-950/60 to-transparent';
   const overlayPosition = overlayConfig.position || 'bottom';
 
