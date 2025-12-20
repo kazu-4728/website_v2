@@ -249,7 +249,7 @@ import { ChevronRight, Menu, X } from 'lucide-react';
 
 **期待される効果**: -5KB
 
-**合計削減**: -28KB → **74KB**（目標達成）
+**合計削減**: -28KB → **目標: 74KB**（102KB - 28KB, 目標達成）
 
 ##### 2.2 画像最適化
 
