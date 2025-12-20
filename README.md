@@ -6,17 +6,7 @@
 ![Posts](https://img.shields.io/badge/Posts-3-purple)
 ![Status](https://img.shields.io/badge/Status-Live-green)
 
-> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 16 & Cinematic UI
-
----
-
-## 🤖 AI エージェント向け
-
-**👉 [`docs/AGENT_MASTER_GUIDE.md`](./docs/AGENT_MASTER_GUIDE.md) を最初に読んでください**
-
-このファイルにすべての情報（役割、タスク、API設定、優先度）が集約されています。他のドキュメントを読む必要はありません。
-
-**⚠️ 重要**: すべての対応は **日本語** で行ってください。
+> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 15 & Cinematic UI
 
 ## 🌐 ライブデモ
 
@@ -170,4 +160,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/12/16 23:18:16*
+*最終更新: 2025/12/21 8:13:55*
