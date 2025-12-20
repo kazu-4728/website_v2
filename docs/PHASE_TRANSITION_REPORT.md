@@ -234,10 +234,10 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 
 **B. Lucide Icons の Tree Shaking**
 ```typescript
-// Before: 全アイコンをインポート
+// Before: モジュール名前空間をインポート（利用されるアイコンのみが実際にはバンドルされる想定）
 import * as Icons from 'lucide-react';
 
-// After: 使用するアイコンのみインポート
+// After: 使用するアイコンのみ個別インポート（より明示的で tree shaking に有利）
 import { ChevronRight, Menu, X } from 'lucide-react';
 ```
 
