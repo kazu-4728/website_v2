@@ -38,15 +38,15 @@
 - [ ] 脆弱性の再確認
 
 **エージェントB: TypeScript基盤強化** (2時間)
-- [ ] `noImplicitAny: true` 設定
-- [ ] 主要ライブラリファイルの型エラー修正（5ファイル）
-- [ ] ビルド検証
+- [x] `noImplicitAny: true` 設定
+- [x] 主要ライブラリファイルの型エラー修正（5ファイル）
+- [x] ビルド検証
 
 **エージェントC: クイックウィン実装** (2時間)
 - [ ] フォント最適化（Next.js Font）
-- [ ] robots.txt 強化
-- [ ] error.tsx / not-found.tsx 実装
-- [ ] loading.tsx 追加
+- [x] robots.txt 強化
+- [x] error.tsx / not-found.tsx 実装
+- [x] loading.tsx 追加
 
 **成果物**: セキュリティスコア 65→95、即座に効果のある改善
 
@@ -218,21 +218,21 @@
 - [ ] コミット: "security: Update Next.js to fix CVEs"
 
 #### TypeScript基盤
-- [ ] `tsconfig.json` で `noImplicitAny: true` 設定
-- [ ] `app/lib/content.ts` 型エラー修正
-- [ ] `app/lib/images.ts` 型エラー修正
-- [ ] `app/lib/theme-types.ts` 型エラー修正
-- [ ] ビルド検証
-- [ ] コミット: "chore: Enable noImplicitAny for better type safety"
+- [x] `tsconfig.json` で `noImplicitAny: true` 設定
+- [x] `app/lib/content.ts` 型エラー修正
+- [x] `app/lib/images.ts` 型エラー修正
+- [x] `app/lib/theme-types.ts` 型エラー修正
+- [x] ビルド検証
+- [x] コミット: "chore: Enable noImplicitAny for better type safety"
 
 #### クイックウィン
 - [ ] `app/layout.tsx` でフォント最適化実装
-- [ ] `app/robots.ts` 強化（詳細ルール）
-- [ ] `app/error.tsx` 作成（エラーバウンダリ）
-- [ ] `app/not-found.tsx` 改善
-- [ ] `app/loading.tsx` 追加（スケルトン）
-- [ ] ビルド検証
-- [ ] コミット: "feat: Add quick wins (fonts, error pages, loading)"
+- [x] `app/robots.ts` 強化（詳細ルール）
+- [x] `app/error.tsx` 作成（エラーバウンダリ）
+- [x] `app/not-found.tsx` 改善
+- [x] `app/loading.tsx` 追加（スケルトン）
+- [x] ビルド検証
+- [x] コミット: "feat: Add quick wins (fonts, error pages, loading)"
 
 ---
 
