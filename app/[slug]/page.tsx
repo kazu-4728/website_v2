@@ -134,7 +134,7 @@ export default async function DocPage({ params }: Props) {
                         <div>
                           <p className="text-gray-400 text-sm mb-2">泉質</p>
                           <div className="flex flex-wrap gap-2">
-                            {page.onsen.onsen.springTypes.map((type, i) => (
+                            {page.onsen.onsen.springTypes.map((type: string, i: number) => (
                               <span key={i} className="px-3 py-1 bg-primary-500/20 text-primary-300 rounded-full text-sm border border-primary-500/30">
                                 {type}
                               </span>
@@ -144,7 +144,7 @@ export default async function DocPage({ params }: Props) {
                         <div>
                           <p className="text-gray-400 text-sm mb-2">主な効能</p>
                           <div className="flex flex-wrap gap-2">
-                            {page.onsen.onsen.effects.map((effect, i) => (
+                            {page.onsen.onsen.effects.map((effect: string, i: number) => (
                               <span key={i} className="px-3 py-1 bg-dark-800 text-gray-300 rounded-full text-sm border border-dark-700">
                                 {effect}
                               </span>
@@ -180,7 +180,7 @@ export default async function DocPage({ params }: Props) {
                       </p>
                       {page.onsen.accommodation.dayTripFacilities && page.onsen.accommodation.dayTripFacilities.length > 0 && (
                         <ul className="mt-2 space-y-1">
-                          {page.onsen.accommodation.dayTripFacilities.map((facility, i) => (
+                          {page.onsen.accommodation.dayTripFacilities.map((facility: string, i: number) => (
                             <li key={i} className="text-gray-300 text-sm">・{facility}</li>
                           ))}
                         </ul>
@@ -244,7 +244,7 @@ export default async function DocPage({ params }: Props) {
                           <h4 className="text-white font-bold mb-2">{page.onsen.accommodation.representativeRyokan[0].name}</h4>
                           {page.onsen.accommodation.representativeRyokan[0].features && (
                             <div className="flex flex-wrap gap-2 mb-3">
-                              {page.onsen.accommodation.representativeRyokan[0].features.map((feature, i) => (
+                              {page.onsen.accommodation.representativeRyokan[0].features.map((feature: string, i: number) => (
                                 <span key={i} className="px-2 py-1 bg-dark-700 text-gray-300 rounded text-xs">
                                   {feature}
                                 </span>
