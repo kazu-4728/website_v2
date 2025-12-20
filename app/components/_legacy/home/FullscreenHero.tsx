@@ -58,7 +58,7 @@ export function FullscreenHero({ data }: FullscreenHeroProps) {
   };
 
   // Overlay設定の処理
-  const overlayConfig = typeof data.overlay === 'object' ? data.overlay : { gradient: undefined, position: 'bottom' };
+  const overlayConfig: { gradient?: string; position?: string } = typeof data.overlay === 'object' ? data.overlay : { gradient: undefined, position: 'bottom' };
   const overlayGradient = overlayConfig.gradient || 'from-dark-950/90 via-dark-950/70 to-transparent';
   const overlayPosition = overlayConfig.position || 'bottom';
 
