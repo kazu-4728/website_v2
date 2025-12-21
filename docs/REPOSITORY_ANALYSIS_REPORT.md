@@ -28,16 +28,16 @@
 
 ### 原因分析
 
-**根本原因**: `.github/dependabot.yml`の`allow`設定が機能していなかった
+**根本原因**: `.github/dependabot.yml`の`allow`設定が不完全で、メジャーバージョン更新を除外できていなかった
 
 ```yaml
-# 従来の設定（機能していなかった）
+# 従来の設定（不完全）
 allow:
   - dependency-type: "production"
     update-types: ["security", "patch", "minor"]
 ```
 
-この設定では、メジャーバージョン更新も自動的にPR化されていました。
+この設定では、意図に反してメジャーバージョン更新も自動的にPR化されていました。
 
 ### 実施した対策
 
@@ -182,11 +182,14 @@ docs/
 2. **`app/page.tsx`は依然として`_legacy`コンポーネントを使用している**
 3. **Phase 2のコンポーネントが未完成で、ページ再構築が進んでいない**
 
-**例**: `app/page.tsx`の現状
+**例**: `app/page.tsx`の現状（実際のコード）
 ```tsx
-// 現在（予想）
-import CinematicHero from '@/app/components/_legacy/home/CinematicHero'
-import GridGallery from '@/app/components/_legacy/home/GridGallery'
+// 現在（app/page.tsx 行12-21より）
+import { CinematicHero } from './components/_legacy/home/CinematicHero';
+import { FullscreenHero } from './components/_legacy/home/FullscreenHero';
+import { SplitFeature } from './components/_legacy/home/SplitFeature';
+import { GridGallery } from './components/_legacy/home/GridGallery';
+// ...9個の_legacyコンポーネントを使用
 
 // あるべき姿（未実装）
 import OceanViewHero from '@/app/components/modern/Hero/OceanViewHero'

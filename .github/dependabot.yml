@@ -38,17 +38,9 @@ updates:
       include: "scope"
     # バージョニング戦略
     versioning-strategy: "increase"
-    # セキュリティアップデートとパッチ/マイナー更新のみを許可（メジャーバージョン更新は手動で行う）
+    # メジャーバージョン更新を無視（手動で対応）
     ignore:
-      # メジャーバージョン更新を無視（手動で対応）
-      - dependency-name: "react"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "react-dom"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@types/node"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "eslint-config-next"
-        update-types: ["version-update:semver-major"]
+      # すべての依存関係のメジャーバージョン更新を無視
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     

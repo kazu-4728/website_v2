@@ -14,11 +14,13 @@ npm audit (moderate以上)
 → found 0 vulnerabilities ✅
 ```
 
-### 現在の主要パッケージバージョン
+### 現在の主要パッケージバージョン（2025年12月22日確認）
 - Next.js: 16.0.10 (最新: 16.1.0)
 - React/React-DOM: 18.3.1 (最新: 19.2.3)
 - TypeScript: 最新版使用中
 - Node types: 20.x (最新: 25.x)
+
+**注**: パッケージバージョンは頻繁に更新されるため、最新情報は`npm outdated`で確認してください。
 
 ---
 
