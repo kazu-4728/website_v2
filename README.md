@@ -1,4 +1,4 @@
-# ♨️ 関東温泉紀行
+# 🚀 関東温泉紀行
 
 [![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,7 +6,7 @@
 ![Posts](https://img.shields.io/badge/Posts-3-purple)
 ![Status](https://img.shields.io/badge/Status-Live-green)
 
-> **関東エリアの名湯・秘湯を巡る旅。爽やかな空と温かな湯気に包まれる、心と体を癒す至福の温泉体験を徹底ガイド。** - Powered by Next.js 16
+> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 15 & Cinematic UI
 
 ## 🌐 ライブデモ
 
@@ -33,11 +33,11 @@
 
 ## ✨ 特徴
 
-### ♨️ 温泉体験を伝えるデザイン
-- **爽やかで上質なUI** - 露天風呂の開放感と温泉の癒しを表現
+### 🎨 Cinematic Design System
+- **没入型体験** - 映画のようなストーリーテリングUI
 - **完全レスポンシブ** - あらゆるデバイスで美しく表示
 - **JSON駆動** - コンテンツとデザインの完全分離
-- **洗練されたアニメーション** - スムーズな画面遷移と心地よい動き
+- **ダークモード** - 開発者に最適化された配色
 
 ### 🛠️ アーキテクチャ
 - **JSON Content Engine** - `content.json` を編集するだけでサイト構築
@@ -46,8 +46,8 @@
 - **Quality Checks** - リンク切れ・画像欠損の自動検知
 
 ### 🚀 技術スタック
-- **Framework**: Next.js 16.1.0 (App Router)
-- **Language**: TypeScript (strict: true)
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
 - **Styling**: Tailwind CSS 4.0 + Framer Motion
 - **Testing**: Vitest
 
@@ -160,4 +160,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/12/21 10:50:28*
+*最終更新: 2025/12/22 5:35:59*
