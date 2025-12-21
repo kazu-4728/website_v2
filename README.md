@@ -1,13 +1,12 @@
-# 🌊 関東温泉紀行 - Ocean & Sky
+# ♨️ 関東温泉紀行
 
 [![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Topics](https://img.shields.io/badge/Topics-21-blue)
 ![Posts](https://img.shields.io/badge/Posts-3-purple)
 ![Status](https://img.shields.io/badge/Status-Live-green)
-![Design](https://img.shields.io/badge/Design-Ocean%20%26%20Sky-00bfff)
 
-> **関東エリアの名湯・秘湯を巡る旅。海と空の爽やかなデザインで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 16 & Ocean & Sky Design System
+> **関東エリアの名湯・秘湯を巡る旅。爽やかな空と温かな湯気に包まれる、心と体を癒す至福の温泉体験を徹底ガイド。** - Powered by Next.js 16
 
 ## 🌐 ライブデモ
 
@@ -34,11 +33,11 @@
 
 ## ✨ 特徴
 
-### 🎨 Ocean & Sky Design System
-- **海と空のデザイン** - 「あえの風」レベルのベンチマークサイトを目指した完全新規デザイン
+### ♨️ 温泉体験を伝えるデザイン
+- **爽やかで上質なUI** - 露天風呂の開放感と温泉の癒しを表現
 - **完全レスポンシブ** - あらゆるデバイスで美しく表示
 - **JSON駆動** - コンテンツとデザインの完全分離
-- **プレミアムUI** - ガラスモーフィズム、パララックス効果、洗練されたアニメーション
+- **洗練されたアニメーション** - スムーズな画面遷移と心地よい動き
 
 ### 🛠️ アーキテクチャ
 - **JSON Content Engine** - `content.json` を編集するだけでサイト構築

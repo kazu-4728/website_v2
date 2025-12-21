@@ -27,10 +27,10 @@
   - app/lib/theme-types.ts
 
 ### UI/UX完全再設計
-- [x] **カラーパレット完全刷新（Ocean & Sky）**（NEW!）
+- [x] **カラーパレット完全刷新（温泉サイト向け）**（NEW!）
   - コミット: 81694a7
   - 完了日: 2025年12月21日
-  - 海と空をイメージした爽やかな配色に変更
+  - 爽やかで上質な温泉サイトの配色に変更
 
 - [x] **完全新規プレミアムコンポーネント作成**（NEW!）
   - PremiumNav (Navigation/PremiumNav.tsx)
@@ -38,7 +38,7 @@
   - PremiumCard (Cards/PremiumCard.tsx)
 
 - [x] **グローバルスタイル完全刷新**（NEW!）
-  - app/globals.css を Ocean & Sky デザインに更新
+  - app/globals.css を温泉サイトに相応しいデザインに更新
   - 新しいアニメーション追加（fadeIn, scaleIn, slideIn, wave）
 
 ### エラーハンドリング
