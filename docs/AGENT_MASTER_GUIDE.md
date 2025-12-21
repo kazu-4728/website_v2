@@ -1,59 +1,37 @@
-# 🤖 AI エージェント マスターガイド
+# 🤖 AI エージェント マスターガイド（非推奨）
 
-**最終更新**: 2025年12月20日  
-**対象**: すべてのAIエージェント（このファイルを最初に読んでください）  
-**言語**: 🇯🇵 **すべての対応は日本語で行ってください**
-
----
-
-## 🎯 このプロジェクトの最優先目標
-
-### 1. 画像収集と最適表示 🖼️ **（最優先）**
-- Wikimedia Commons APIを使用した温泉画像の自動収集
-- 実在の温泉が映っている高品質な画像のみを使用
-- ビルド時最適化による表示パフォーマンスの向上
-
-### 2. ベンチマークサイト風のUI実現 🎨 **（最優先）**
-- 「あえの風」レベルの視覚的クオリティ
-- 大胆な画像使用（画面全体を活用）
-- シネマティックなアニメーション
-
-### 3. TypeScript型安全性の向上 ✅ **（進行中）**
-- `noImplicitAny: true` 有効化済み
-- strict mode への段階的移行
+> ⚠️ **このファイルは非推奨です**
+> 
+> 最新の情報は以下のドキュメントを参照してください：
+> - **[`CURRENT_STATE.md`](./CURRENT_STATE.md)** - プロジェクトの最新状態（必読）
+> - **[`START_HERE.md`](./START_HERE.md)** - 作業開始時の必須確認事項
+> - **[`UI_REDESIGN_URGENT.md`](./UI_REDESIGN_URGENT.md)** - UI再設計の進捗状況
+> 
+> このファイルは後方互換性のため残されていますが、内容は更新されていません。
+> 
+> *最終更新: 2025年12月22日*
 
 ---
 
-## 📁 ドキュメント構造（整理済み）
+## 📋 最新ドキュメントへのリンク
 
-### 🟢 必読ドキュメント（エージェントはこれだけ読めばOK）
+### 必読ドキュメント
+1. **[CURRENT_STATE.md](./CURRENT_STATE.md)** - 現在の開発状態
+2. **[START_HERE.md](./START_HERE.md)** - 作業開始ガイド
+3. **[UI_REDESIGN_URGENT.md](./UI_REDESIGN_URGENT.md)** - UI再設計の進捗
 
-| ファイル | 目的 | 読了時間 |
-|---------|------|---------|
-| **[`CURRENT_STATE.md`](./CURRENT_STATE.md)** | **現在の開発状態（最新）** | **3分** |
-| **このファイル** | マスターガイド（全体像の把握） | 5分 |
-| `ACCELERATED_ROADMAP.md` | 2週間実装プラン（タスク管理） | 10分 |
-| `SECURITY_REQUIREMENTS.md` | セキュリティ要件（必須確認） | 5分 |
-
-### 🟡 参照用ドキュメント（必要に応じて参照）
-
-| ファイル | 用途 |
-|---------|------|
-| `IMAGE_OPTIMIZATION_GUIDE.md` | 画像最適化の詳細手順 |
-| `ARCHITECTURE.md` | アーキテクチャ全体像 |
-| `IMPLEMENTATION_GUIDE.md` | 実装コードサンプル集 |
-
-### 🔴 廃止済み・読まないでください
-
-以下のファイルは **削除済み** または **統合済み** です。**読まないでください**：
-- `ANALYSIS_SUMMARY.md` → `CURRENT_STATE.md` に統合（削除済み）
-- `PHASE_TRANSITION_REPORT.md` → `ACCELERATED_ROADMAP.md` に統合（削除済み）
-- `IMPLEMENTATION_PLAN_V3.md` → `ACCELERATED_ROADMAP.md` に統合（削除済み）
-- `REQUIREMENTS.md` → このファイルに統合（削除済み）
-- `RULES.md` → このファイルに統合（削除済み）
-- `START_HERE.md` → このファイルに統合済み（参考情報として残存）
+### 参照用ドキュメント
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - アーキテクチャ全体像
+- **[SECURITY_REQUIREMENTS.md](./SECURITY_REQUIREMENTS.md)** - セキュリティ要件
+- **[IMAGE_OPTIMIZATION_GUIDE.md](./IMAGE_OPTIMIZATION_GUIDE.md)** - 画像最適化の詳細手順
 
 ---
+
+*以下は古い内容です（参考用）*
+
+---
+
+
 
 ## 🚀 エージェント別の役割と開始タスク
 

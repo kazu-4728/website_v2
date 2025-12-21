@@ -38,12 +38,19 @@ updates:
       include: "scope"
     # バージョニング戦略
     versioning-strategy: "increase"
-    # セキュリティアップデートのみを許可（メジャーバージョン更新は手動で行う）
-    allow:
-      - dependency-type: "direct"
-        update-types: ["security"]
-      - dependency-type: "production"
-        update-types: ["security", "patch", "minor"]
+    # セキュリティアップデートとパッチ/マイナー更新のみを許可（メジャーバージョン更新は手動で行う）
+    ignore:
+      # メジャーバージョン更新を無視（手動で対応）
+      - dependency-name: "react"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react-dom"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "eslint-config-next"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     
   # GitHub Actions の自動更新（月次に変更）
   - package-ecosystem: "github-actions"
