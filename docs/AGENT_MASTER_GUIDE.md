@@ -30,6 +30,7 @@
 
 | ファイル | 目的 | 読了時間 |
 |---------|------|---------|
+| **[`CURRENT_STATE.md`](./CURRENT_STATE.md)** | **現在の開発状態（最新）** | **3分** |
 | **このファイル** | マスターガイド（全体像の把握） | 5分 |
 | `ACCELERATED_ROADMAP.md` | 2週間実装プラン（タスク管理） | 10分 |
 | `SECURITY_REQUIREMENTS.md` | セキュリティ要件（必須確認） | 5分 |
@@ -42,14 +43,15 @@
 | `ARCHITECTURE.md` | アーキテクチャ全体像 |
 | `IMPLEMENTATION_GUIDE.md` | 実装コードサンプル集 |
 
-### 🔴 廃止予定・読まないでください
+### 🔴 廃止済み・読まないでください
 
-以下のファイルは内容が古いか重複しているため、**読まないでください**：
-- `ANALYSIS_SUMMARY.md` → このファイルに統合
-- `PHASE_TRANSITION_REPORT.md` → ACCELERATED_ROADMAPに統合
-- `IMPLEMENTATION_PLAN_V3.md` → ACCELERATED_ROADMAPに統合
-- `BEST_PRACTICES_RECOMMENDATIONS.md` → 必要な部分のみ他に統合
-- `START_HERE.md` → このファイルに統合
+以下のファイルは **削除済み** または **統合済み** です。**読まないでください**：
+- `ANALYSIS_SUMMARY.md` → `CURRENT_STATE.md` に統合（削除済み）
+- `PHASE_TRANSITION_REPORT.md` → `ACCELERATED_ROADMAP.md` に統合（削除済み）
+- `IMPLEMENTATION_PLAN_V3.md` → `ACCELERATED_ROADMAP.md` に統合（削除済み）
+- `REQUIREMENTS.md` → このファイルに統合（削除済み）
+- `RULES.md` → このファイルに統合（削除済み）
+- `START_HERE.md` → このファイルに統合済み（参考情報として残存）
 
 ---
 

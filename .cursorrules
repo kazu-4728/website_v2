@@ -12,16 +12,23 @@
 
 ## 🚀 AI エージェント向け（最優先）
 
-**👉 [`docs/AGENT_MASTER_GUIDE.md`](./docs/AGENT_MASTER_GUIDE.md) を最初に読んでください**
+**👉 3ステップで作業開始：**
 
-このファイルに以下のすべてが集約されています：
-- プロジェクトの最優先目標（画像収集、ベンチマークサイト風UI）
-- エージェント別の役割とタスク
-- API設定（Wikimedia Commons）
-- セキュリティ要件
-- 作業フロー
+1. **[`docs/CURRENT_STATE.md`](./docs/CURRENT_STATE.md)** - 現在の開発状態を確認（3分）
+   - ✅ 完了済みタスク
+   - 🔄 進行中タスク
+   - 📋 未着手タスク
+   - 🎯 次にすべきこと
 
-**他のドキュメントを読む必要はありません。**
+2. **[`docs/AGENT_MASTER_GUIDE.md`](./docs/AGENT_MASTER_GUIDE.md)** - 作業方法を確認（5分）
+   - エージェント別の役割
+   - 初日タスク
+   - API設定
+   - セキュリティ要件
+
+3. **作業開始！**
+
+**これだけで開始できます。他のドキュメントは必要に応じて参照してください。**
 
 ---
 
@@ -70,26 +77,28 @@ npm list next eslint react
 
 1. **セキュリティ要件の確認**（上記セクション）- **最優先**
 
-2. **[`docs/agent/AGENT_GUIDE.md`](./docs/agent/AGENT_GUIDE.md)** を最初に読んでください
-   - エージェント向けの包括的なガイドです
+2. **[`docs/CURRENT_STATE.md`](./docs/CURRENT_STATE.md)** で現在の状態を確認
+   - 完了済み、進行中、未着手のタスクを把握
+   - 次に実施すべきタスクを確認
    - **このファイルを参照せずに作業を開始しないでください**
 
-3. **[`docs/agent/START_HERE.md`](./docs/agent/START_HERE.md)** を読んでください
-   - 作業開始時の必須確認事項が記載されています
+3. **[`docs/AGENT_MASTER_GUIDE.md`](./docs/AGENT_MASTER_GUIDE.md)** で作業方法を確認
+   - エージェント向けの包括的なガイドです
+   - API設定、セキュリティ要件、作業フローが記載されています
 
-4. **[`docs/FUTURE_TASKS.md`](./docs/FUTURE_TASKS.md)** で今後の課題を確認してください
-   - 現在の課題と優先度が記載されています
-   - 作業の方向性を理解するために必須です
+4. **[`docs/ACCELERATED_ROADMAP.md`](./docs/ACCELERATED_ROADMAP.md)** で詳細計画を確認（オプション）
+   - 2週間実装プランとチェックリスト
+   - 並行作業の調整方法
 
-5. **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** で作業フローを確認してください
-   - コントリビューションガイドラインが記載されています
+5. **[`CONTRIBUTING.md`](./CONTRIBUTING.md)** で作業フローを確認（オプション）
+   - コントリビューションガイドライン
 
 ## 📋 作業フロー
 
-1. **課題の確認**
-   - `docs/FUTURE_TASKS.md` を開く
-   - 作業する課題を選択（優先度を考慮）
-   - 関連するドキュメントを確認
+1. **現在の状態を確認**
+   - `docs/CURRENT_STATE.md` を開く
+   - 完了済み・進行中・未着手タスクを把握
+   - 次に実施すべきタスクを選択
 
 2. **環境の準備**
    - `npm install` で依存関係をインストール
