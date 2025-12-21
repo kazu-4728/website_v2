@@ -58,3 +58,7 @@ updates:
       - "github-actions"
     commit-message:
       prefix: "chore(ci)"
+    # メジャーバージョン更新を無視（手動で対応）
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
