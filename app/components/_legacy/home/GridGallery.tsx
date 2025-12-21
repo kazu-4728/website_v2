@@ -45,7 +45,7 @@ export async function GridGallery({ data }: Props) {
             <Link 
               key={index} 
               href={item.href}
-              className="group relative aspect-[3/4] overflow-hidden rounded-2xl block shadow-2xl shadow-black/50 transition-all duration-500 hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8)] hover:shadow-primary-900/20 hover:-translate-y-2"
+              className="group relative h-[500px] md:h-[600px] overflow-hidden rounded-2xl block shadow-2xl shadow-black/50 transition-all duration-500 hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8)] hover:shadow-primary-900/20 hover:-translate-y-3"
             >
               {/* Image with enhanced zoom effect */}
               <div className="absolute inset-0">

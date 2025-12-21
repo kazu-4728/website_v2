@@ -25,10 +25,10 @@ export default async function DocsIndexPage() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-            {texts.pages.onsenGuide.title}
+            {texts.pages.onsenGuide?.title || '温泉ガイド'}
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            {texts.pages.onsenGuide.description}
+            {texts.pages.onsenGuide?.description || '関東エリアの温泉地をご紹介'}
           </p>
         </div>
       </section>

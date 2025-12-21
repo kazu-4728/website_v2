@@ -103,7 +103,7 @@ export function CinematicHero({ data }: HeroProps) {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-warm-beige via-cream to-sand">
       {/* Background Image with slow zoom and crossfade */}
       <motion.div 
         className="absolute inset-0 z-0"
@@ -138,8 +138,8 @@ export function CinematicHero({ data }: HeroProps) {
                 quality={90}
               />
             </motion.div>
-            {/* Overlay with configurable gradient */}
-            <div className={`absolute inset-0 bg-gradient-to-${overlayPosition === 'top' ? 'b' : overlayPosition === 'center' ? 't' : 't'} ${overlayGradient}`} />
+            {/* Overlay with warmer gradient - 明るく調整 */}
+            <div className={`absolute inset-0 bg-gradient-to-${overlayPosition === 'top' ? 'b' : overlayPosition === 'center' ? 't' : 't'} from-dark-950/40 via-dark-950/20 to-transparent`} />
             {/* 画像のクレジット表示 */}
             <ImageCredit metadata={imageMetadata} position="bottom-right" />
           </motion.div>
@@ -147,15 +147,15 @@ export function CinematicHero({ data }: HeroProps) {
       </motion.div>
 
       {/* Content - テキストは固定（背景だけが変わる） */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 text-center text-white py-32">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 text-center py-32">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-            {/* Subtitle */}
+            {/* Subtitle - 金色に変更 */}
             <motion.p 
-              className="text-lg md:text-xl font-light tracking-[0.3em] text-primary-400 mb-8 uppercase"
+              className="text-lg md:text-xl font-light tracking-[0.3em] text-gradient-cyan mb-8 uppercase"
               variants={contentVariants}
               initial="initial"
               animate="animate"
@@ -164,9 +164,9 @@ export function CinematicHero({ data }: HeroProps) {
               {displayData.subtitle}
             </motion.p>
 
-            {/* Title */}
+            {/* Title - 金色グラデーションに変更 */}
             <motion.h1 
-              className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-10 leading-[1.1]"
+              className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-10 leading-[1.1] text-gradient-cyan drop-shadow-lg"
               variants={contentVariants}
               initial="initial"
               animate="animate"
@@ -177,9 +177,9 @@ export function CinematicHero({ data }: HeroProps) {
               ))}
             </motion.h1>
 
-            {/* Main Description */}
+            {/* Main Description - 暗い色に変更（可読性向上） */}
             <motion.p 
-              className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-6 leading-relaxed"
+              className="text-xl md:text-2xl text-deep-indigo max-w-3xl mx-auto mb-6 leading-relaxed font-medium"
               variants={contentVariants}
               initial="initial"
               animate="animate"
@@ -191,7 +191,7 @@ export function CinematicHero({ data }: HeroProps) {
             {/* Secondary Description */}
             {displayData.secondaryDescription && (
               <motion.p 
-                className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-10"
+                className="text-base md:text-lg text-dark-800 max-w-2xl mx-auto mb-10"
                 variants={contentVariants}
                 initial="initial"
                 animate="animate"
@@ -201,7 +201,7 @@ export function CinematicHero({ data }: HeroProps) {
               </motion.p>
             )}
 
-            {/* Badges */}
+            {/* Badges - 和風スタイルに変更 */}
             {displayData.badges && displayData.badges.length > 0 && (
               <motion.div 
                 className="flex flex-wrap justify-center gap-3 mb-12"
@@ -215,8 +215,8 @@ export function CinematicHero({ data }: HeroProps) {
                     key={index}
                     className={`px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm transition-all duration-300 hover:scale-105 ${
                       badge.variant === 'primary' 
-                        ? 'bg-primary-500/20 text-primary-300 border border-primary-400/30' 
-                        : 'bg-white/10 text-white border border-white/20'
+                        ? 'bg-warm-orange/20 text-warm-orange border border-warm-orange/30' 
+                        : 'bg-white/80 text-deep-indigo border border-gold/30'
                     }`}
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}

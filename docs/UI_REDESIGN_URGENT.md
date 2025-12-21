@@ -1,13 +1,293 @@
-# 🎨 UI/ビジュアル大改造タスク - 緊急実施計画
+# 🎨 完全再設計: Ocean & Sky - ベンチマークサイト風UI実装
 
-**作成日**: 2025年12月20日  
-**優先度**: 🔴 **最優先・緊急**  
-**担当エージェント**: **エージェントB (UI/UX担当)** を推奨  
+**更新日**: 2025年12月21日  
+**優先度**: 🔴 **最優先・進行中**  
+**ステータス**: Phase 1 完了、Phase 2 進行中  
 **言語**: 🇯🇵 すべての対応は日本語で行ってください
 
 ---
 
-## 🚨 現状の問題
+## 🎯 完全再設計の方針
+
+### 既存サイトを完全に破棄
+- ❌ `_legacy` コンポーネントは使用しない
+- ❌ 過去のデザインは引き継がない
+- ✅ **完全にゼロから設計し直す**
+- ✅ ベンチマークサイト（「あえの風」）レベルを目指す
+
+---
+
+## 🌊 デザインコンセプト
+
+### 「Ocean & Sky - 海と空の温泉紀行」
+
+**変更理由**: 「あえの風」はオーシャンビューが特徴
+
+- 🌊 **オーシャンブルー** (#1e40af): 信頼感・清潔感
+- ☁️ **スカイブルー** (#38bdf8): 爽やかさ・開放感
+- 🌅 **サンセットゴールド** (#fbbf24): 温かみ・高級感
+- ⛅ **クラウドホワイト** (#f8fafc): 純粋・上質
+
+---
+
+## ✅ Phase 1 完了: 基盤構築
+
+### 1. カラーパレット完全刷新（3回目）
+**Dark & Neon → Warm & Natural → Ocean & Sky**
+
+```css
+/* 最新（Ocean & Sky） */
+--color-ocean-blue: #1e40af (メインカラー)
+--color-sky-blue: #38bdf8 (アクセント)
+--color-gold: #fbbf24 (ボタン・強調)
+--color-cloud-white: #f8fafc (背景)
+```
+
+### 2. グローバルスタイル完全刷新
+**app/globals.css**:
+- body背景: 空から雲へのグラデーション
+- タイポグラフィ: Noto Serif JP（明朝体）+ Noto Sans JP
+- 新しいボタン: `.btn-premium`, `.btn-accent`
+- 新しいテキストグラデーション: `.text-gradient-ocean`, `.text-gradient-gold`
+
+### 3. 完全新規プレミアムコンポーネント作成
+
+**app/components/modern/** ディレクトリを新設
+
+#### PremiumNav (`Navigation/PremiumNav.tsx`)
+- 固定ヘッダー（sticky top-0）
+- ガラスモーフィズム（backdrop-blur-xl）
+- スクロール連動で背景透明度変化
+- モバイル対応ハンバーガーメニュー
+- 予約ボタンは金色で目立つ
+
+#### OceanViewHero (`Hero/OceanViewHero.tsx`)
+- 画面全体（100vh）を覆う背景画像
+- パララックス効果（背景がゆっくり動く）
+- 超大型タイトル（text-9xl）
+- 下に波のSVGアニメーション
+- スクロールインジケーター
+
+#### PremiumCard (`Cards/PremiumCard.tsx`)
+- 高さ 600px〜800px（超大型）
+- 画像が全面、テキストは下部
+- ホバー時に画像がズーム（scale: 1.1）
+- 金色のボーダーがホバー時に表示
+- カテゴリバッジ付き
+
+### 4. 新しいアニメーション
+- `fadeIn`: シンプルなフェードイン
+- `scaleIn`: ズームしながら表示
+- `slideIn`: 横からスライド
+- `wave`: 波のような動き
+- 遅延クラス拡張（delay-100〜1000）
+
+---
+
+## 🔄 Phase 2 進行中: コンテンツセクション実装
+
+### 実施予定タスク
+
+#### SplitSection（左右レイアウト）
+- [ ] `app/components/modern/Sections/SplitSection.tsx` 作成
+- [ ] 左に画像、右にテキスト（またはその逆）
+- [ ] 画像とテキストが50:50
+- [ ] レスポンシブ対応
+
+#### GridSection（3カラムグリッド）
+- [ ] `app/components/modern/Sections/GridSection.tsx` 作成
+- [ ] PremiumCard を使用したグリッドレイアウト
+- [ ] 1列（モバイル） → 2列（タブレット） → 3列（デスクトップ）
+
+#### PremiumFooter
+- [ ] `app/components/modern/Footer/PremiumFooter.tsx` 作成
+- [ ] 4カラムレイアウト（ロゴ、ナビゲーション、リンク、SNS）
+- [ ] ニュースレター登録フォーム
+
+#### 既存ページの完全置き換え
+- [ ] `app/page.tsx` を新コンポーネントで再構築
+- [ ] その他のページも順次対応
+
+---
+
+## 📋 Phase 3 予定: 画像収集と差し替え
+
+### 実施予定タスク
+- [ ] `scripts/fetch-premium-images.js` を実行
+- [ ] Unsplash/Pexels/Wikimedia から高品質画像を収集
+- [ ] 青と白基調の画像に統一
+- [ ] `themes/onsen-kanto/content.json` の画像URLを更新
+- [ ] 実際の温泉風景画像に差し替え
+
+---
+
+## 📋 Phase 4 予定: 最終調整
+
+### 実施予定タスク
+- [ ] パフォーマンステスト
+- [ ] モバイル最適化
+- [ ] アクセシビリティ確認
+- [ ] クロスブラウザ検証
+- [ ] 最終ビジュアル確認
+
+---
+
+## 🏗️ 新しいファイル構造
+
+```
+app/
+├── components/
+│   ├── modern/              ← 完全新規（ベンチマーク風）
+│   │   ├── Navigation/
+│   │   │   └── PremiumNav.tsx ✅
+│   │   ├── Hero/
+│   │   │   └── OceanViewHero.tsx ✅
+│   │   ├── Cards/
+│   │   │   └── PremiumCard.tsx ✅
+│   │   ├── Sections/        ← Phase 2
+│   │   │   ├── SplitSection.tsx
+│   │   │   ├── GridSection.tsx
+│   │   │   └── FullWidthSection.tsx
+│   │   └── Footer/          ← Phase 2
+│   │       └── PremiumFooter.tsx
+│   └── _legacy/             ← 使わない
+└── globals.css              ← 完全刷新済み ✅
+```
+
+---
+
+## 🎬 アニメーション仕様
+
+### Hero エントランス
+```tsx
+// 画像: ゆっくりズームアウト
+initial: { scale: 1.1 }
+animate: { scale: 1 }
+transition: { duration: 1.5, ease: "easeOut" }
+
+// タイトル: フェードイン + 上昇
+initial: { opacity: 0, y: 20 }
+animate: { opacity: 1, y: 0 }
+transition: { duration: 0.8, delay: 0.3 }
+```
+
+### カードホバー
+```tsx
+whileHover={{ 
+  scale: 1.08,
+  y: -12,
+  boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)'
+}}
+transition={{ duration: 0.3, ease: "easeOut" }}
+```
+
+### スクロール連動
+```tsx
+<motion.div
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+>
+```
+
+---
+
+## 🧪 検証結果（Phase 1）
+
+- ✅ TypeScript型チェック: エラー0件
+- ✅ ビルド: 33ページ生成成功
+- ✅ npm audit: 0 vulnerabilities
+- ✅ 3つの完全新規プレミアムコンポーネント作成
+- ✅ カラーパレット完全刷新（Ocean & Sky）
+
+---
+
+## 📊 進捗管理
+
+### 全体進捗
+- ✅ Phase 1: 基盤構築（完了）
+- 🔄 Phase 2: コンテンツセクション実装（進行中 25%）
+- ⏳ Phase 3: 画像収集と差し替え（未着手）
+- ⏳ Phase 4: 最終調整（未着手）
+
+### チェックリスト
+
+#### Phase 1: 基盤構築
+- [x] カラーパレット完全刷新
+- [x] グローバルスタイル完全刷新
+- [x] PremiumNav 作成
+- [x] OceanViewHero 作成
+- [x] PremiumCard 作成
+- [x] 新しいアニメーション実装
+- [x] ビルド検証
+
+#### Phase 2: コンテンツセクション
+- [x] 温泉画像選択システム実装 ✨ NEW
+  - [x] `data/onsen-image-stock.json` 作成
+  - [x] `app/lib/onsen-image-selector.ts` 実装
+  - [x] テスト作成（22テスト全合格）
+  - [x] ドキュメント作成
+- [ ] SplitSection 作成
+- [ ] GridSection 作成
+- [ ] PremiumFooter 作成
+- [ ] app/page.tsx を新コンポーネントで再構築
+- [ ] ビルド検証
+- [ ] スクリーンショット撮影
+
+#### Phase 3: 画像収集
+- [ ] 画像収集スクリプト実行
+- [ ] content.json 更新
+- [ ] 画像差し替え検証
+
+#### Phase 4: 最終調整
+- [ ] パフォーマンステスト
+- [ ] モバイル最適化
+- [ ] アクセシビリティ確認
+- [ ] 最終ビジュアル確認
+
+---
+
+## ⚡ 次のアクション
+
+### Phase 2 の開始手順
+
+1. **SplitSection コンポーネントを作成**
+   ```bash
+   # ファイル作成
+   touch app/components/modern/Sections/SplitSection.tsx
+   ```
+
+2. **GridSection コンポーネントを作成**
+   ```bash
+   # ファイル作成
+   touch app/components/modern/Sections/GridSection.tsx
+   ```
+
+3. **PremiumFooter コンポーネントを作成**
+   ```bash
+   # ファイル作成
+   touch app/components/modern/Footer/PremiumFooter.tsx
+   ```
+
+4. **app/page.tsx を新コンポーネントで再構築**
+   - 既存の `_legacy` コンポーネントを削除
+   - 新しい `modern` コンポーネントに置き換え
+
+5. **ビルド検証**
+   ```bash
+   SKIP_CHECK=true npm run build
+   ```
+
+---
+
+**担当エージェント**: すべてのエージェント対応可能  
+**言語**: すべての対応・コメント・コミットメッセージは日本語で行ってください。
+
+---
+
+**最終更新**: 2025年12月21日  
+**次回更新**: Phase 2 完了時
 
 ### 既存コンポーネントが変更されていない
 - `app/components/_legacy/` 内のコンポーネントがそのまま使用されている
