@@ -50,17 +50,20 @@
 
 ---
 
-### 🔴 廃止予定・読まないでください
+### 🔴 廃止済み（削除完了）
 
-以下のファイルは**読まないでください**（内容が古い、または他に統合済み）：
+以下のファイルは削除されました（内容は他のファイルに統合済み）：
 
-- ~~`START_HERE.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
-- ~~`ANALYSIS_SUMMARY.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
-- ~~`PHASE_TRANSITION_REPORT.md`~~ → `ACCELERATED_ROADMAP.md` に統合
-- ~~`IMPLEMENTATION_PLAN_V3.md`~~ → `ACCELERATED_ROADMAP.md` に統合
-- ~~`BEST_PRACTICES_RECOMMENDATIONS.md`~~ → 必要な部分は他に統合済み
-- ~~`REQUIREMENTS.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
-- ~~`RULES.md`~~ → `AGENT_MASTER_GUIDE.md` に統合
+- ~~`ANALYSIS_SUMMARY.md`~~ → `AGENT_MASTER_GUIDE.md` に統合（削除済み）
+- ~~`PHASE_TRANSITION_REPORT.md`~~ → `ACCELERATED_ROADMAP.md` に統合（削除済み）
+- ~~`IMPLEMENTATION_PLAN_V3.md`~~ → `ACCELERATED_ROADMAP.md` に統合（削除済み）
+- ~~`REQUIREMENTS.md`~~ → `AGENT_MASTER_GUIDE.md` に統合（削除済み）
+- ~~`RULES.md`~~ → `AGENT_MASTER_GUIDE.md` に統合（削除済み）
+
+### 🟡 保留中（今後判断）
+
+- `START_HERE.md` → `AGENT_MASTER_GUIDE.md` に統合済みだが一部独自内容あり
+- `BEST_PRACTICES_RECOMMENDATIONS.md` → 必要な部分は他に統合済みだが参考情報あり
 
 ---
 
@@ -162,74 +165,29 @@ GitHub Pages環境での画像最適化の実践的なガイド。
 
 ---
 
-### 即座に実行（30分）
+### クイック検証
 
 ```bash
-# セキュリティ脆弱性の解消（最優先）
-cp package-lock.json package-lock.json.backup
-npm install next@latest
-npm audit fix
+# セキュリティチェック
+npm audit
 
-# 確認
-npm run build
-npm audit --omit=dev
+# ビルド確認
+SKIP_CHECK=true npm run build
 ```
-
-### 3. 今週中に実装（2-4時間）
-
-- [ ] フォント最適化
-- [ ] robots.txt 強化
-- [ ] エラーページ改善
-- [ ] loading.tsx 追加
 
 ---
 
 ## 📊 優先度マトリクス
 
-### 単独作業時
+### 作業の優先度
 
-| 項目 | 優先度 | 実装時間 | 効果 | ドキュメント |
-|------|--------|---------|------|-------------|
-| Next.js更新 | 🔴 最高 | 30分 | ★★★★★ | IMPLEMENTATION_GUIDE.md |
-| TypeScript strict | 🔴 高 | 8-12h | ★★★★☆ | IMPLEMENTATION_GUIDE.md |
-| 画像最適化 | 🟡 中 | 6-8h | ★★★★★ | IMAGE_OPTIMIZATION_GUIDE.md |
-| SEO完全実装 | 🟡 中 | 4-6h | ★★★★☆ | IMPLEMENTATION_GUIDE.md |
-| アクセシビリティ | 🟡 中 | 6-8h | ★★★★☆ | IMPLEMENTATION_GUIDE.md |
-| PWA化 | 🟢 低 | 4-6h | ★★★☆☆ | BEST_PRACTICES_RECOMMENDATIONS.md |
-
-### 並行作業時（エージェント別）⚡
-
-| エージェント | 担当領域 | 総作業時間 | 完了予定 | 詳細 |
-|------------|---------|-----------|---------|------|
-| A: パフォーマンス | 画像最適化、バンドル削減 | 24h | Day 1-3, 10-11 | ACCELERATED_ROADMAP.md |
-| B: TypeScript/セキュリティ | 型安全性、CVE対応 | 22h | Day 1-3, 8-9 | ACCELERATED_ROADMAP.md |
-| C: SEO/メタデータ | SEO、構造化データ | 22h | Day 2-5 | ACCELERATED_ROADMAP.md |
-| D: アクセシビリティ | ARIA、A11y | 24h | Day 2-7 | ACCELERATED_ROADMAP.md |
-| E: テスト/CI | 自動テスト、CI/CD | 28h | Day 1, 4-9 | ACCELERATED_ROADMAP.md |
-
-**並行作業による短縮**: 3ヶ月 → **2週間** (85%短縮)
+詳細は `ACCELERATED_ROADMAP.md` を参照してください。
 
 ---
 
 ## 🎯 期待される効果（サマリー）
 
-### パフォーマンス
-- Lighthouse Performance: **75 → 92** (+23%)
-- LCP: **3.5s → 1.8s** (49% 改善)
-- Bundle Size: **102KB → 78KB** (24% 削減)
-
-### SEO
-- Lighthouse SEO: **80 → 100**
-- 構造化データ: **未実装 → 全ページ実装**
-- リッチスニペット: **0% → 100%**
-
-### アクセシビリティ
-- Lighthouse Accessibility: **70 → 96**
-- WCAG準拠: **A → AA**
-
-### セキュリティ
-- Critical脆弱性: **1 → 0**
-- High脆弱性: **3 → 0**
+詳細は `ACCELERATED_ROADMAP.md` および `AGENT_MASTER_GUIDE.md` を参照してください。
 
 ---
 
