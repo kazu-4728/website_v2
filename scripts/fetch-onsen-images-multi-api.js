@@ -32,25 +32,29 @@ const onsenSearchTerms = {
     'Hakone Onsen bath 箱根温泉 浴場',
     'Hakone hot spring rotenburo 箱根 露天風呂',
     '箱根温泉 露天風呂 湯船',
-    'Hakone Onsen outdoor bath 箱根 露天風呂'
+    'Hakone Onsen outdoor bath 箱根 露天風呂',
+    'Hakone scenery 箱根 風景'
   ],
   'hakone-yunohana': [
     'Hakone Yunohana Onsen rotenburo 箱根湯本 温泉 露天風呂',
     'Yunohana Onsen bath 湯本 浴場',
     '箱根湯本温泉 露天風呂 湯船',
-    'Hakone Yunohana Onsen outdoor bath 箱根湯本'
+    'Hakone Yunohana Onsen outdoor bath 箱根湯本',
+    'Hakone Yumoto scenery 箱根湯本 風景'
   ],
   'hakone-gora': [
     'Hakone Gora Onsen rotenburo 強羅 温泉 露天風呂',
     'Gora Onsen bath 強羅 浴場',
     '強羅温泉 露天風呂',
-    'Hakone Gora Onsen outdoor bath 強羅'
+    'Hakone Gora Onsen outdoor bath 強羅',
+    'Gora scenery 強羅 風景'
   ],
   'hakone-sengokuhara': [
     'Hakone Sengokuhara Onsen rotenburo 仙石原 温泉 露天風呂',
     'Sengokuhara Onsen bath 仙石原 浴場',
     '仙石原温泉 露天風呂 箱根',
-    'Hakone Sengokuhara Onsen outdoor bath 仙石原'
+    'Hakone Sengokuhara Onsen outdoor bath 仙石原',
+    'Sengokuhara pampas grass 仙石原 ススキ'
   ],
   kusatsu: [
     'Kusatsu Onsen Yubatake 草津温泉 湯畑',
@@ -76,13 +80,15 @@ const onsenSearchTerms = {
     'Kinugawa Onsen bath 鬼怒川 浴場',
     '鬼怒川温泉 露天風呂',
     'Kinugawa Onsen outdoor bath 鬼怒川',
-    'Kinugawa hot spring 鬼怒川 温泉'
+    'Kinugawa hot spring 鬼怒川 温泉',
+    'Kinugawa river 鬼怒川'
   ],
   ikaho: [
     'Ikaho Onsen rotenburo 伊香保温泉 露天風呂',
     'Ikaho Onsen bath 伊香保 浴場',
     '伊香保温泉 露天風呂',
-    'Ikaho Onsen outdoor bath 伊香保'
+    'Ikaho Onsen outdoor bath 伊香保',
+    'Ikaho stone steps 伊香保 石段'
   ],
   nasu: [
     'Nasu Onsen rotenburo 那須温泉 露天風呂',
@@ -90,31 +96,36 @@ const onsenSearchTerms = {
     'Nasu Onsen bath 那須 浴場',
     '那須温泉 露天風呂',
     'Nasu Onsen outdoor bath 那須',
-    'Nasu hot spring 那須 温泉'
+    'Nasu hot spring 那須 温泉',
+    'Nasu highlands 那須高原'
   ],
   minakami: [
     'Minakami Onsen rotenburo 水上温泉 露天風呂',
     'Minakami Onsen bath 水上 浴場',
     '水上温泉 露天風呂 群馬',
-    'Minakami Onsen outdoor bath 水上'
+    'Minakami Onsen outdoor bath 水上',
+    'Minakami scenery 水上 風景'
   ],
   shima: [
     'Shima Onsen rotenburo 四万温泉 露天風呂',
     'Shima Onsen bath 四万 浴場',
     '四万温泉 露天風呂',
-    'Shima Onsen outdoor bath 四万'
+    'Shima Onsen outdoor bath 四万',
+    'Shima river 四万川'
   ],
   nikko: [
     'Nikko Yumoto Onsen rotenburo 日光湯元温泉 露天風呂',
     'Nikko Yumoto Onsen bath 日光湯元 浴場',
     '日光湯元温泉 露天風呂',
-    'Nikko Yumoto Onsen outdoor bath 日光'
+    'Nikko Yumoto Onsen outdoor bath 日光',
+    'Nikko scenery 日光 風景'
   ],
   shiobara: [
     'Shiobara Onsen rotenburo 塩原温泉 露天風呂',
     'Shiobara Onsen bath 塩原 浴場',
     '塩原温泉 露天風呂',
-    'Shiobara Onsen outdoor bath 塩原'
+    'Shiobara Onsen outdoor bath 塩原',
+    'Shiobara valley 塩原渓谷'
   ],
   atami: [
     'Atami Onsen rotenburo 熱海温泉 露天風呂',
@@ -122,25 +133,29 @@ const onsenSearchTerms = {
     'Atami Onsen bath 熱海 浴場',
     '熱海温泉 露天風呂',
     'Atami Onsen outdoor bath 熱海',
-    'Atami hot spring 熱海 温泉'
+    'Atami hot spring 熱海 温泉',
+    'Atami sea 熱海 海'
   ],
   ito: [
     'Ito Onsen rotenburo 伊東温泉 露天風呂',
     'Ito Onsen bath 伊東 浴場',
     '伊東温泉 露天風呂',
-    'Ito Onsen outdoor bath 伊東'
+    'Ito Onsen outdoor bath 伊東',
+    'Ito scenery 伊東 風景'
   ],
   shuzenji: [
     'Shuzenji Onsen rotenburo 修善寺温泉 露天風呂',
     'Shuzenji Onsen bath 修善寺 浴場',
     '修善寺温泉 露天風呂',
-    'Shuzenji Onsen outdoor bath 修善寺'
+    'Shuzenji Onsen outdoor bath 修善寺',
+    'Shuzenji bamboo 修善寺 竹林'
   ],
   shimoda: [
     'Shimoda Onsen rotenburo 下田温泉 露天風呂',
     'Shimoda Onsen bath 下田 浴場',
     '下田温泉 露天風呂',
-    'Shimoda Onsen outdoor bath 下田'
+    'Shimoda Onsen outdoor bath 下田',
+    'Shimoda sea 下田 海'
   ],
   yugawara: [
     'Yugawara Onsen rotenburo 湯河原温泉 露天風呂',
@@ -152,13 +167,15 @@ const onsenSearchTerms = {
     'Okutama Onsen rotenburo 奥多摩温泉 露天風呂',
     'Okutama Onsen bath 奥多摩 浴場',
     '奥多摩温泉 露天風呂 東京',
-    'Okutama Onsen outdoor bath 奥多摩'
+    'Okutama Onsen outdoor bath 奥多摩',
+    'Okutama lake 奥多摩湖'
   ],
   chichibu: [
     'Chichibu Onsen rotenburo 秩父温泉 露天風呂',
     'Chichibu Onsen bath 秩父 浴場',
     '秩父温泉 露天風呂',
-    'Chichibu Onsen outdoor bath 秩父'
+    'Chichibu Onsen outdoor bath 秩父',
+    'Chichibu scenery 秩父 風景'
   ],
 };
 
@@ -247,6 +264,7 @@ async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
       const hasLocationInTitle = locationKeywords.some(keyword => titleLower.includes(keyword.toLowerCase()));
 
       // 【絶対条件】温泉が実際に写っていることを示す必須キーワード
+      // Stage 3では緩和する
       const requiredOnsenKeywords = [
         'rotenburo', 'rotemburo', '露天風呂', '露天',
         'yubatake', '湯畑',
@@ -254,26 +272,28 @@ async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
         'hot spring', 'onsen', '温泉',
         'steam', '湯気', '蒸気',
         'spring water', '源泉',
+        'view', 'scenery', 'landscape', '景色', '風景' // Stage 3で風景も含めるため追加
       ];
+      
       const hasRequiredKeyword = requiredOnsenKeywords.some(keyword => titleLower.includes(keyword));
       
-      // 【絶対条件】温泉自体が写っていることが必須
-      if (!hasRequiredKeyword) {
-        continue; // 温泉が写っていない画像は除外
+      // Stage 1 & 2: 温泉キーワード必須
+      if (stage < 3 && !hasRequiredKeyword) {
+        continue;
       }
 
       // 除外キーワード
       const excludeKeywords = [
-        'entrance', 'gate', 'door', '入口', '門', 'building', '建物', 'facility', '施設',
-        'post office', '郵便局', 'hospital', '病院', 'center', 'センター', 'station', '駅',
-        'railway', 'railroad', 'train', '鉄道', '橋', 'bridge',
-        'city', 'town', '市', '町', 'street', '道路', 'view', '景色', 'landscape', '風景',
-        'bust', 'statue', '銅像', 'monument', '記念碑', 'person', '人物', 'people', '人々',
-        'raccoon', 'animal', 'wildlife', '動物', '野生',
-        'hotel', 'ryokan', '旅館', '宿', 'ホテル',
-        'map', '地図', 'sign', '看板', 'temple', 'shrine', '寺', '神社',
-        'restaurant', 'レストラン', 'cafe', 'カフェ',
+        'post office', '郵便局', 'hospital', '病院', 
+        'railway', 'railroad', 'train', '鉄道',
+        'bust', 'statue', '銅像', 'monument', '記念碑', 
+        'map', '地図', 'sign', '看板'
       ];
+      // Stage 3では建物なども許容する
+      if (stage < 3) {
+        excludeKeywords.push('building', '建物', 'facility', '施設', 'hotel', 'ryokan', '旅館', '宿', 'ホテル');
+      }
+      
       const shouldExclude = excludeKeywords.some(keyword => titleLower.includes(keyword));
       
       // 除外キーワードを含む画像は除外
@@ -303,37 +323,20 @@ async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
         }
       } else if (stage === 2) {
         // 第2段階: 場所名は任意だが、検索キーワードとの関連性を厳格に確認
-        // 検索キーワードに含まれる主要な単語（場所名や温泉関連）がタイトルに含まれているか確認
         const searchWords = searchTermLower.split(/\s+/).filter(word => word.length > 2);
         const hasSearchWordMatch = searchWords.some(word => titleLower.includes(word));
         
-        // 場所名も検索キーワードも含まれていない場合は除外（精度を維持）
         if (!hasSearchWordMatch && !hasLocationInTitle) {
           continue;
         }
-        
-        // さらに、検索キーワードに場所名が含まれている場合は、その場所名がタイトルに含まれている必要がある
-        const locationInSearch = locationKeywords.find(loc => searchTermLower.includes(loc.toLowerCase()));
-        if (locationInSearch && !titleLower.includes(locationInSearch.toLowerCase())) {
-          continue; // 検索キーワードに場所名が含まれているのに、タイトルに含まれていない場合は除外
-        }
-      } else if (stage === 3) {
-        // 第3段階: さらに緩和（第2段階で見つからない場合のみ）
-        // ただし、検索キーワードとの最低限の関連性は確認
-        const searchWords = searchTermLower.split(/\s+/).filter(word => word.length > 3);
-        const hasSearchWordMatch = searchWords.some(word => titleLower.includes(word));
-        
-        // 検索キーワードとの関連性が全くない場合は除外
-        if (!hasSearchWordMatch && !hasLocationInTitle) {
-          continue;
-        }
-      }
+      } 
+      // Stage 3: かなり緩和（とにかく画像を見つける）
       
-      // 優先度を計算（場所名が含まれている場合は優先度が高い）
+      // 優先度を計算
       const hasLocationMatch = hasLocationInTitle;
       let priority = 0;
       
-      // 優先度1: 場所名が含まれている（第1段階）
+      // 優先度1: 場所名が含まれている
       if (hasLocationMatch) {
         priority += 20;
       }
@@ -345,17 +348,7 @@ async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
       if (titleLower.includes('yubatake') || titleLower.includes('湯畑')) {
         priority += 10;
       }
-      if (titleLower.includes('bath') || titleLower.includes('浴場') || titleLower.includes('風呂') || titleLower.includes('湯船')) {
-        priority += 8;
-      }
-      if (titleLower.includes('steam') || titleLower.includes('湯気') || titleLower.includes('蒸気')) {
-        priority += 5;
-      }
-      if (titleLower.includes('spring water') || titleLower.includes('源泉')) {
-        priority += 5;
-      }
-
-      // より優先度の高い画像を選択
+      
       if (!bestImage || priority > bestPriority) {
         bestImage = {
           url: imageInfo.url,
@@ -365,25 +358,15 @@ async function searchWikimediaCommons(searchTerm, limit = 10, stage = 1) {
           title: page.title,
           source: 'wikimedia',
           priority,
-          hasLocation: hasLocationMatch, // 場所名が含まれているか
+          hasLocation: hasLocationMatch,
         };
         bestPriority = priority;
       }
     }
 
-    // 段階的緩和: 第1段階で見つからない場合、第2段階を試す
-    if (!bestImage && stage === 1) {
-      // 第2段階: 場所名は任意（必須キーワードは必須）
-      const stage2Result = await searchWikimediaCommons(searchTerm, limit, 2);
-      if (stage2Result) {
-        return stage2Result;
-      }
-      
-      // 第3段階: さらに緩和（必須キーワードは必須だが、より緩い条件）
-      const stage3Result = await searchWikimediaCommons(searchTerm, limit, 3);
-      if (stage3Result) {
-        return stage3Result;
-      }
+    // 段階的緩和
+    if (!bestImage && stage < 3) {
+      return await searchWikimediaCommons(searchTerm, limit, stage + 1);
     }
     
     return bestImage;
