@@ -14,13 +14,13 @@ export function AreaSelection({ data }: AreaSelectionProps) {
   const hoverEffect = data.hoverEffect || 'zoom-lift';
 
   return (
-    <section className="py-32 px-4 bg-dark-950">
+    <section className="py-32 px-4 bg-gradient-to-b from-cream via-warm-beige to-sand">
       <div className="container mx-auto max-w-7xl">
         {/* Header - 大胆なタイポグラフィ */}
         <div className="text-center mb-20">
           {data.subtitle && (
             <motion.p 
-              className="text-primary-400 text-base md:text-lg uppercase tracking-[0.3em] mb-4"
+              className="text-warm-orange text-base md:text-lg uppercase tracking-[0.3em] mb-4 font-semibold"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -30,7 +30,7 @@ export function AreaSelection({ data }: AreaSelectionProps) {
             </motion.p>
           )}
           <motion.h2 
-            className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6"
+            className="text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-cyan mb-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -40,7 +40,7 @@ export function AreaSelection({ data }: AreaSelectionProps) {
           </motion.h2>
           {data.description && (
             <motion.p 
-              className="text-gray-300 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed"
+              className="text-deep-indigo text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -71,13 +71,13 @@ export function AreaSelection({ data }: AreaSelectionProps) {
             >
               <Link href={item.link.startsWith('/') ? item.link : `/${item.link.replace(/^\//, '')}`}>
                 <motion.div
-                  className="relative h-[500px] md:h-[600px] rounded-2xl overflow-hidden group cursor-pointer shadow-2xl"
+                  className="relative h-[500px] md:h-[600px] rounded-3xl overflow-hidden group cursor-pointer shadow-2xl border-4 border-white/50"
                   whileHover={
                     hoverEffect === 'zoom-lift'
-                      ? { scale: 1.08, y: -12, boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)' }
+                      ? { scale: 1.08, y: -12, boxShadow: '0 25px 50px -12px rgba(212, 175, 55, 0.4)' }
                       : hoverEffect === 'zoom'
-                      ? { scale: 1.08, boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)' }
-                      : { y: -12, boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)' }
+                      ? { scale: 1.08, boxShadow: '0 25px 50px -12px rgba(212, 175, 55, 0.4)' }
+                      : { y: -12, boxShadow: '0 25px 50px -12px rgba(212, 175, 55, 0.4)' }
                   }
                   transition={{ duration: 0.4, ease: 'easeOut' }}
                 >
@@ -90,13 +90,16 @@ export function AreaSelection({ data }: AreaSelectionProps) {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
 
-                  {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-dark-950/90 via-dark-950/50 to-transparent" />
+                  {/* Overlay - 明るく調整 */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-dark-950/30 to-transparent" />
+
+                  {/* 和風装飾 - 金色の枠 */}
+                  <div className="absolute inset-0 border-2 border-gold/0 group-hover:border-gold/50 transition-all duration-500 rounded-3xl" />
 
                   {/* Content - 大胆なタイポグラフィ */}
                   <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12">
                     <motion.h3 
-                      className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4"
+                      className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 text-gradient-cyan drop-shadow-lg"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -106,7 +109,7 @@ export function AreaSelection({ data }: AreaSelectionProps) {
                     </motion.h3>
                     {item.description && (
                       <motion.p 
-                        className="text-gray-200 text-base md:text-lg line-clamp-3 leading-relaxed"
+                        className="text-white text-base md:text-lg line-clamp-3 leading-relaxed backdrop-blur-sm bg-deep-indigo/20 p-3 rounded-lg"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
