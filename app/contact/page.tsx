@@ -34,7 +34,7 @@ export default async function ContactPage() {
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none" />
           
           <div className="relative z-10">
-            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">{texts.pages.contact.title}</p>
+            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">{texts.pages.contact?.title || 'Contact'}</p>
             <h1 
               className="text-5xl lg:text-7xl font-bold text-white mb-8 tracking-tighter leading-tight"
               dangerouslySetInnerHTML={{ __html: contactData.title }}
