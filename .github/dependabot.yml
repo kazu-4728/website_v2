@@ -38,12 +38,11 @@ updates:
       include: "scope"
     # バージョニング戦略
     versioning-strategy: "increase"
-    # セキュリティアップデートのみを許可（メジャーバージョン更新は手動で行う）
-    allow:
-      - dependency-type: "direct"
-        update-types: ["security"]
-      - dependency-type: "production"
-        update-types: ["security", "patch", "minor"]
+    # メジャーバージョン更新を無視（手動で対応）
+    ignore:
+      # すべての依存関係のメジャーバージョン更新を無視
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     
   # GitHub Actions の自動更新（月次に変更）
   - package-ecosystem: "github-actions"
@@ -59,3 +58,7 @@ updates:
       - "github-actions"
     commit-message:
       prefix: "chore(ci)"
+    # メジャーバージョン更新を無視（手動で対応）
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
