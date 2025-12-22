@@ -1,53 +1,30 @@
-# Cursor Copilot Instructions
+# GitHub Copilot Agent Instructions
 
-## 🔗 共通ルールの参照（最優先）
+**⚠️ 重要**: このファイルは GitHub Copilot SWE Agent専用です。
 
-**重要**: このリポジトリでは、まず **[`.cursorrules`](../.cursorrules)** に定義された共通ルールに従うこと。
+## 📋 最優先ルール
 
-- **JSON First アーキテクチャ**、**編集可能レイヤー / 編集禁止レイヤー**、**今後のタスク方針**など、すべてのエージェントが共有すべきルールは `.cursorrules` に定義されています。
-- このファイル（`copilot-instructions.md`）の内容と `.cursorrules` の内容が矛盾する場合は、**`.cursorrules` を優先**すること。
-- 編集作業を開始する前に、必ず以下を読むこと：
-  1. **[`.cursorrules`](../.cursorrules)** - 共通ルールとアーキテクチャ
-  2. **[`START_HERE.md`](../START_HERE.md)** - 作業開始時の必須確認事項
-- 作業完了後は、他のエージェントにも分かるように記録すること。
+1. **`.cursorrules`を最初に確認**
+   - リポジトリルート直下の `.cursorrules` に、全エージェント共通のルールが定義されています
+   - JSON First アーキテクチャ、編集可能/禁止レイヤーなどの重要な情報が含まれます
+   - **このファイルと `.cursorrules` が矛盾する場合は、`.cursorrules` を優先**
 
----
+2. **最新ドキュメントを確認**
+   - `docs/CURRENT_STATE.md` - プロジェクトの最新状態（必読）
+   - `docs/START_HERE.md` - 作業開始時の必須確認事項
+   - `docs/UI_REDESIGN_URGENT.md` - UI再設計の進捗状況
 
-## 🚨 作業を開始する前に必ず確認すること
+## 🔗 参照リンク
 
-**重要**: このリポジトリで作業を開始する前に、**必ず最初に以下を確認してください**：
-
-### 1. 今後の課題を確認（必須）
-**[`docs/FUTURE_TASKS.md`](../docs/FUTURE_TASKS.md)** を最初に読んでください。
-- 現在の課題と優先度が記載されています
-- 作業の方向性を理解するために必須です
-- **このファイルを参照せずに作業を開始しないでください**
-
-### 2. アーキテクチャを理解
-**[`docs/MASTER_ARCHITECTURE.md`](../docs/MASTER_ARCHITECTURE.md)** で全体構造を把握してください。
-- ファイル構造と依存関係が説明されています
-- 変更の影響範囲を理解するために重要です
-
-### 3. 関連ドキュメントを確認
-作業内容に応じて、以下のドキュメントも参照してください：
-- **画像管理**: [`docs/IMAGE_DATA_LOCATION.md`](../docs/IMAGE_DATA_LOCATION.md)
-- **画像の問題**: [`docs/IMAGE_ISSUE_REPORT.md`](../docs/IMAGE_ISSUE_REPORT.md)
+- [共通ルール: `.cursorrules`](../.cursorrules)
+- [プロジェクト状態: `docs/CURRENT_STATE.md`](../docs/CURRENT_STATE.md)
+- [作業開始ガイド: `docs/START_HERE.md`](../docs/START_HERE.md)
+- [アーキテクチャ: `docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md)
 
 ---
 
-## 📋 作業フロー
-
-1. **課題の確認**
-   - `docs/FUTURE_TASKS.md` を開く
-   - 作業する課題を選択（優先度を考慮）
-   - 関連するドキュメントを確認
-
-2. **環境の準備**
-   - リポジトリをクローン
-   - `npm install` で依存関係をインストール
-   - `npm run dev` でローカル開発サーバーを起動
-
-3. **作業の実施**
+*このファイルは簡略化されました。詳細は上記のドキュメントを参照してください。*
+*最終更新: 2025年12月22日*
    - 小さな変更から始める
    - テストを実行して確認（`npm run test:images`）
    - ビルドが成功することを確認（`npm run build`）

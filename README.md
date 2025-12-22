@@ -6,7 +6,7 @@
 ![Posts](https://img.shields.io/badge/Posts-3-purple)
 ![Status](https://img.shields.io/badge/Status-Live-green)
 
-> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 15 & Cinematic UI
+> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 16 & Ocean & Sky Design
 
 ## 🌐 ライブデモ
 
@@ -46,10 +46,12 @@
 - **Quality Checks** - リンク切れ・画像欠損の自動検知
 
 ### 🚀 技術スタック
-- **Framework**: Next.js 15 (App Router)
-- **Language**: TypeScript
+- **Framework**: Next.js 16.0.10 (App Router)
+- **Language**: TypeScript (strict mode)
 - **Styling**: Tailwind CSS 4.0 + Framer Motion
+- **Design**: Ocean & Sky - 完全新規デザインシステム
 - **Testing**: Vitest
+- **Deployment**: GitHub Pages (静的エクスポート)
 
 ---
 
