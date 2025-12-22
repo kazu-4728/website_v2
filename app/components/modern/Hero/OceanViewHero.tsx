@@ -47,9 +47,9 @@ export function OceanViewHero({
           quality={95}
           sizes="100vw"
         />
-        {/* Ocean Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-ocean-blue/30 via-sky-blue/20 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent" />
+        {/* Dark Overlay for Better Text Contrast */}
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/70 via-gray-900/50 to-gray-900/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
       </motion.div>
 
       {/* Content */}
@@ -57,21 +57,24 @@ export function OceanViewHero({
         className="relative z-10 max-w-5xl mx-auto px-6 sm:px-8 text-center"
         style={{ y: contentY, opacity }}
       >
-        {/* Subtitle */}
+        {/* Subtitle as h2 */}
         {subtitle && (
-          <motion.p
-            className="text-base md:text-lg font-medium tracking-[0.3em] uppercase mb-6 text-gradient-ocean"
+          <motion.h2
+            className="text-sm md:text-base font-medium tracking-[0.3em] uppercase mb-4 text-sky-blue drop-shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             {subtitle}
-          </motion.p>
+          </motion.h2>
         )}
 
-        {/* Title */}
+        {/* Main Title as h1 */}
         <motion.h1
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-8 leading-[1.1] tracking-tight drop-shadow-2xl"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-6 leading-[1.15] tracking-tight"
+          style={{
+            textShadow: '0 4px 12px rgba(0, 0, 0, 0.6), 0 2px 4px rgba(0, 0, 0, 0.4)'
+          }}
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.4, type: 'spring', stiffness: 100 }}
@@ -86,7 +89,10 @@ export function OceanViewHero({
         {/* Description */}
         {description && (
           <motion.p
-            className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed font-light backdrop-blur-sm bg-ocean-dark/20 p-6 rounded-2xl"
+            className="text-lg md:text-xl text-white max-w-3xl mx-auto mb-10 leading-relaxed font-normal backdrop-blur-md bg-gray-900/40 px-8 py-5 rounded-2xl border border-white/10"
+            style={{
+              textShadow: '0 2px 8px rgba(0, 0, 0, 0.5)'
+            }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -134,10 +140,10 @@ export function OceanViewHero({
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <span className="text-white/70 text-sm font-medium mb-2 group-hover:text-white transition-colors">
+          <span className="text-white text-sm font-medium mb-2 group-hover:text-sky-blue transition-colors drop-shadow-lg">
             スクロール
           </span>
-          <ChevronDown className="w-6 h-6 text-white/70 group-hover:text-white transition-colors" />
+          <ChevronDown className="w-6 h-6 text-white group-hover:text-sky-blue transition-colors drop-shadow-lg" />
         </motion.div>
       </motion.div>
 
