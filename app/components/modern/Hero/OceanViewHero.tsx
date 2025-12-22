@@ -57,10 +57,13 @@ export function OceanViewHero({
         className="relative z-10 max-w-5xl mx-auto px-6 sm:px-8 text-center"
         style={{ y: contentY, opacity }}
       >
-        {/* Subtitle as h2 - 温泉テーマカラー */}
+        {/* Subtitle as h2 - 温泉テーマカラー（視認性最優先）*/}
         {subtitle && (
           <motion.h2
-            className="text-sm md:text-base font-medium tracking-[0.2em] mb-4 text-amber-700 drop-shadow-[0_2px_4px_rgba(255,255,255,0.8)]"
+            className="text-sm md:text-base font-bold tracking-[0.2em] mb-4 text-amber-900 drop-shadow-[0_1px_2px_rgba(255,255,255,1)]"
+            style={{
+              textShadow: '1px 1px 3px rgba(255, 255, 255, 0.95), -1px -1px 3px rgba(255, 255, 255, 0.95)'
+            }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -69,11 +72,12 @@ export function OceanViewHero({
           </motion.h2>
         )}
 
-        {/* Main Title as h1 - 温泉 & Sky カラー */}
+        {/* Main Title as h1 - 温泉 & Sky カラー（視認性最優先 - 濃色）*/}
         <motion.h1
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-800 mb-6 leading-[1.15] tracking-tight"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-[1.15] tracking-tight"
           style={{
-            textShadow: '0 2px 8px rgba(255, 255, 255, 0.9), 0 4px 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(30, 64, 175, 0.3)'
+            color: '#1a1a1a',
+            textShadow: '2px 2px 4px rgba(255, 255, 255, 0.9), -1px -1px 3px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.6)'
           }}
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -86,13 +90,10 @@ export function OceanViewHero({
           ))}
         </motion.h1>
 
-        {/* Description - 温泉 & Sky テーマ */}
+        {/* Description - 温泉 & Sky テーマ（視認性最優先）*/}
         {description && (
           <motion.p
-            className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed font-normal backdrop-blur-md bg-white/70 px-8 py-5 rounded-2xl border border-sky-200/50 shadow-lg"
-            style={{
-              textShadow: '0 1px 3px rgba(255, 255, 255, 0.8)'
-            }}
+            className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto mb-10 leading-relaxed font-semibold backdrop-blur-md bg-white/90 px-8 py-5 rounded-2xl border border-sky-300/60 shadow-xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -140,10 +141,10 @@ export function OceanViewHero({
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <span className="text-gray-700 text-sm font-medium mb-2 group-hover:text-amber-600 transition-colors drop-shadow-[0_1px_3px_rgba(255,255,255,0.9)]">
+          <span className="text-gray-900 text-sm font-bold mb-2 group-hover:text-amber-800 transition-colors drop-shadow-[0_1px_2px_rgba(255,255,255,1)]">
             スクロール
           </span>
-          <ChevronDown className="w-6 h-6 text-gray-700 group-hover:text-amber-600 transition-colors drop-shadow-[0_1px_3px_rgba(255,255,255,0.9)]" />
+          <ChevronDown className="w-6 h-6 text-gray-900 group-hover:text-amber-800 transition-colors drop-shadow-[0_1px_2px_rgba(255,255,255,1)]" />
         </motion.div>
       </motion.div>
 
