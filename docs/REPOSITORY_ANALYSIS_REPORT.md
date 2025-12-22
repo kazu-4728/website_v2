@@ -12,13 +12,13 @@
 
 1. **Dependabot PRの大量発生** (6件)
 2. **古いドキュメントの残存** (重複・非推奨ファイル)
-3. **READMEの情報が古い** (Next.js 15と記載)
-4. **UI再設計が未完了** (Phase 2が25%進行中)
+3. **READMEのNext.jsバージョン表記が最新ではない** (15→16への更新が未反映)
+4. **UI再設計が未完了** (`docs/CURRENT_STATE.md`上ではPhase 2は0%扱いだが、`docs/UI_REDESIGN_URGENT.md`ではPhase 2タスクのうち1/4完了=約25%進行中として管理されている)
 
 ### 対応完了事項
 
 ✅ **Dependabot設定の修正** - メジャーアップデートを自動PR化しない設定追加  
-✅ **READMEの更新** - Next.js 16、Ocean & Sky Designへの更新  
+✅ **READMEの更新** - Next.js 16へのバージョン表記更新（15→16）、Ocean & Sky Designへの更新  
 ✅ **ドキュメント整理** - 古いファイルに非推奨マーク、最新への参照追加  
 ✅ **Dependabot PR評価** - 全6件を詳細評価、対応方針を策定  
 
@@ -28,24 +28,31 @@
 
 ### 原因分析
 
-**根本原因**: `.github/dependabot.yml`の`allow`設定が不完全で、メジャーバージョン更新を除外できていなかった
+**根本原因**: `.github/dependabot.yml`の`github-actions`セクションに、メジャーバージョン更新を除外する`ignore`設定が欠けていた
 
 ```yaml
-# 従来の設定（不完全）
-allow:
-  - dependency-type: "production"
-    update-types: ["security", "patch", "minor"]
+# npm エコシステムには ignore 設定が存在
+- package-ecosystem: "npm"
+  ignore:
+    - dependency-name: "*"
+      update-types: ["version-update:semver-major"]  # ✅ 設定あり
+  
+# GitHub Actions セクションには設定がなかった
+- package-ecosystem: "github-actions"
+  # ❌ ignore設定なし → メジャーバージョンPRが作成される
 ```
 
-この設定では、意図に反してメジャーバージョン更新も自動的にPR化されていました。
+`npm`エコシステムセクションにはメジャーバージョン更新の無視設定があったが、`github-actions`エコシステムセクションには設定がなかったため、GitHub Actionsのメジャーアップデート（v4→v6など）のPRが作成されていました。
 
 ### 実施した対策
 
+`github-actions`セクションに同じignore設定を追加：
+
 ```yaml
-# 新しい設定（明示的にメジャー更新を除外）
-ignore:
-  - dependency-name: "*"
-    update-types: ["version-update:semver-major"]
+- package-ecosystem: "github-actions"
+  ignore:
+    - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
 ```
 
 ### PR別対応方針
