@@ -33,7 +33,7 @@ export function SplitFeature({ data }: Props) {
               </div>
             )}
             
-            <div>
+            <div className="bg-white/90 backdrop-blur-sm p-6 sm:p-8 rounded-xl shadow-lg">
               {data.subtitle && (
                 <p className="text-primary-600 font-semibold tracking-wider uppercase mb-3 text-sm">
                   {data.subtitle}
@@ -48,7 +48,7 @@ export function SplitFeature({ data }: Props) {
             </div>
 
             {data.stats && (
-              <div className="grid grid-cols-2 gap-6 py-6 border-y border-gray-200">
+              <div className="grid grid-cols-2 gap-6 py-6 border-y border-gray-200 bg-white/80 backdrop-blur-sm px-6 rounded-lg">
                 {data.stats.map((stat, i) => (
                   <div key={i} className="group">
                     <div className="text-3xl sm:text-4xl font-bold text-gray-900 mb-1 group-hover:text-primary-600 transition-colors duration-300">{stat.value}</div>

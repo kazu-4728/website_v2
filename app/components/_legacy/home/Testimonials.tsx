@@ -17,7 +17,7 @@ export function Testimonials({ data }: Props) {
           {data.items.map((item, index) => (
             <div 
               key={index}
-              className="bg-white/80 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-gray-200 relative hover:border-primary-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/10 group"
+              className="bg-white/95 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-gray-200 relative hover:border-primary-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/10 group"
             >
               {/* Quote Icon */}
               <div className="absolute top-6 right-6 text-primary-500/10 text-7xl font-serif leading-none group-hover:text-primary-500/20 transition-colors duration-300">
