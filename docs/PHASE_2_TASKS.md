@@ -307,7 +307,7 @@ npx tsc --noEmit
 **コマンド**:
 ```bash
 npm run lint
-npm run format
+npx prettier --write .
 ```
 
 **基準**: エラー・警告0件
@@ -317,8 +317,8 @@ npm run format
 
 **コマンド**:
 ```bash
-npm run lighthouse
-# または Chrome DevTools で実行
+# Chrome DevTools で実行
+# または Lighthouse CI を使用する場合は別途設定が必要
 ```
 
 **目標スコア**:

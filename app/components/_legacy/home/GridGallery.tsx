@@ -24,7 +24,7 @@ export async function GridGallery({ data }: Props) {
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(30, 64, 175, 0.1) 1px, transparent 0)',
+          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(30, 64, 175, 0.15) 1px, transparent 0)',
           backgroundSize: '40px 40px'
         }} />
       </div>
