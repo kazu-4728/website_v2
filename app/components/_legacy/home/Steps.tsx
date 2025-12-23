@@ -6,19 +6,19 @@ interface Props {
 
 export function Steps({ data }: Props) {
   return (
-    <section className="py-24 bg-dark-900">
+    <section className="py-24 bg-gradient-to-b from-cloud-white to-mist">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
           {data.subtitle && (
-            <p className="text-primary-400 font-semibold tracking-wider uppercase mb-3 text-sm">
+            <p className="text-primary-600 font-semibold tracking-wider uppercase mb-3 text-sm">
               {data.subtitle}
             </p>
           )}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-gray-900">
             {data.title}
           </h2>
           {data.description && (
-            <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">
+            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
               {data.description}
             </p>
           )}
@@ -28,19 +28,19 @@ export function Steps({ data }: Props) {
           {data.items.map((step, index) => (
             <div 
               key={index}
-              className="relative bg-dark-950/50 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-dark-800/60 hover:border-primary-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary-900/10 group"
+              className="relative bg-white/80 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-gray-200 hover:border-primary-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/10 group"
             >
               {/* Step Number */}
-              <div className="absolute -top-4 -left-4 w-16 h-16 rounded-full bg-primary-500 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary-900/50 group-hover:scale-110 transition-transform duration-300">
+              <div className="absolute -top-4 -left-4 w-16 h-16 rounded-full bg-primary-500 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-primary-500/30 group-hover:scale-110 transition-transform duration-300">
                 {step.number}
               </div>
 
               {/* Content */}
               <div className="mt-6">
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 group-hover:text-primary-400 transition-colors duration-300">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
                   {step.title}
                 </h3>
-                <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                   {step.description}
                 </p>
               </div>
