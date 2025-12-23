@@ -18,7 +18,7 @@ export function Steps({ data }: Props) {
             {data.title}
           </h2>
           {data.description && (
-            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
+            <p className="text-lg sm:text-xl text-gray-800 leading-relaxed">
               {data.description}
             </p>
           )}
@@ -40,7 +40,7 @@ export function Steps({ data }: Props) {
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
                   {step.title}
                 </h3>
-                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                <p className="text-base sm:text-lg text-gray-800 leading-relaxed">
                   {step.description}
                 </p>
               </div>

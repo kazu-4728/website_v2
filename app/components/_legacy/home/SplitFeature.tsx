@@ -42,7 +42,7 @@ export function SplitFeature({ data }: Props) {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6 leading-tight">
                 {data.title}
               </h2>
-              <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
+              <p className="text-lg sm:text-xl text-gray-800 leading-relaxed">
                 {data.description}
               </p>
             </div>
@@ -52,14 +52,14 @@ export function SplitFeature({ data }: Props) {
                 {data.stats.map((stat, i) => (
                   <div key={i} className="group">
                     <div className="text-3xl sm:text-4xl font-bold text-gray-900 mb-1 group-hover:text-primary-600 transition-colors duration-300">{stat.value}</div>
-                    <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wider">{stat.label}</div>
+                    <div className="text-xs sm:text-sm text-gray-700 uppercase tracking-wider">{stat.label}</div>
                   </div>
                 ))}
               </div>
             )}
 
             {data.quote && (
-              <blockquote className="border-l-4 border-primary-500 pl-6 py-3 italic text-gray-700 bg-white/80 rounded-r-lg shadow-sm">
+              <blockquote className="border-l-4 border-primary-500 pl-6 py-3 italic text-gray-800 bg-white/80 rounded-r-lg shadow-sm">
                 <p className="text-base sm:text-lg">"{data.quote.text}"</p>
                 <footer className="text-sm text-primary-600 mt-3 font-normal not-italic">
                   — {data.quote.author}

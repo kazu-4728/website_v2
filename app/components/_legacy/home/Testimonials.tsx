@@ -24,7 +24,7 @@ export function Testimonials({ data }: Props) {
                 "
               </div>
               
-              <p className="text-base sm:text-lg text-gray-700 mb-8 relative z-10 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-800 mb-8 relative z-10 leading-relaxed">
                 {item.content}
               </p>
               
@@ -39,7 +39,7 @@ export function Testimonials({ data }: Props) {
                 </div>
                 <div>
                   <div className="font-bold text-gray-900 text-base sm:text-lg">{item.author}</div>
-                  <div className="text-sm text-gray-600">{item.role}</div>
+                  <div className="text-sm text-gray-700">{item.role}</div>
                 </div>
               </div>
             </div>
