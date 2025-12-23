@@ -20,11 +20,11 @@ export async function GridGallery({ data }: Props) {
     : 'grid-cols-1 md:grid-cols-3';
   
   return (
-    <section className="py-24 sm:py-32 bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950 text-white relative overflow-hidden">
+    <section className="py-24 sm:py-32 bg-gradient-to-b from-cloud-white via-mist to-cloud-white relative overflow-hidden">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.1) 1px, transparent 0)',
+          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(30, 64, 175, 0.1) 1px, transparent 0)',
           backgroundSize: '40px 40px'
         }} />
       </div>
@@ -32,12 +32,12 @@ export async function GridGallery({ data }: Props) {
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
           {data.subtitle && (
-            <p className="text-primary-400 font-semibold tracking-wider uppercase mb-3 text-sm">
+            <p className="text-primary-600 font-semibold tracking-wider uppercase mb-3 text-sm">
               {data.subtitle}
             </p>
           )}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight">{data.title}</h2>
-          <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">{data.description}</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-gray-900">{data.title}</h2>
+          <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">{data.description}</p>
         </div>
 
         <div className={`grid ${gridCols} gap-6 sm:gap-8 lg:gap-10`}>

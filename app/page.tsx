@@ -29,7 +29,7 @@ export default async function Page() {
   const onsenPages = (content.pages.docs || []).filter(isOnsenDoc);
 
   return (
-    <main className="bg-dark-950 min-h-screen selection:bg-primary-500/30">
+    <main className="min-h-screen selection:bg-primary-500/30">
       {/* Hero Section - Ocean & Sky プレミアムHero */}
       <OceanViewHero
         title={hero.title}
