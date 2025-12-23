@@ -1,23 +1,7 @@
-import {
-  loadContent,
-  SplitFeatureSection,
-  GridGallerySection,
-  TestimonialsSection,
-  CtaSection,
-  StepsSection,
-  AreaSelectionSection,
-  RecommendedOnsenSection,
-  OnsenListSection,
-} from './lib/content';
+import { loadContent } from './lib/content';
 import { OceanViewHero } from './components/modern/Hero/OceanViewHero';
-import { SplitFeature } from './components/_legacy/home/SplitFeature';
-import { GridGallery } from './components/_legacy/home/GridGallery';
-import { Testimonials } from './components/_legacy/home/Testimonials';
-import { CtaFullscreen } from './components/_legacy/home/CtaFullscreen';
-import { Steps } from './components/_legacy/home/Steps';
-import { AreaSelection } from './components/_legacy/home/AreaSelection';
-import { RecommendedOnsen } from './components/_legacy/home/RecommendedOnsen';
-import { OnsenList } from './components/_legacy/home/OnsenList';
+import { GridSection } from './components/modern/Sections/GridSection';
+import { SplitSection } from './components/modern/Sections/SplitSection';
 import { isOnsenDoc } from './lib/onsen-types';
 
 export default async function Page() {
@@ -25,8 +9,12 @@ export default async function Page() {
   const content = await loadContent();
   const { hero, sections } = content.pages.home;
 
-  // Get onsen pages for OnsenList component
+  // Get onsen pages for display
   const onsenPages = (content.pages.docs || []).filter(isOnsenDoc);
+
+  // Extract section data
+  const areaSection = sections.find(s => s.type === 'area-selection');
+  const recommendedSection = sections.find(s => s.type === 'recommended-onsen');
 
   return (
     <>
@@ -39,73 +27,54 @@ export default async function Page() {
         actions={hero.actions}
       />
 
-      {/* Dynamic Sections */}
-      <div className="flex flex-col">
-        {sections.map((section) => {
-          switch (section.type) {
-            case 'area-selection':
-              return (
-                <AreaSelection
-                  key={section.id}
-                  data={section as AreaSelectionSection}
-                />
-              );
+      {/* エリアから探す - GridSection使用 */}
+      {areaSection && 'items' in areaSection && (
+        <GridSection
+          title={areaSection.title}
+          subtitle={areaSection.subtitle}
+          description={areaSection.description}
+          variant="ocean"
+          cards={(areaSection.items as any[]).map((item: any) => ({
+            title: item.title,
+            description: item.description,
+            image: `https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG`,
+            href: `/${item.link}`,
+            category: 'エリア',
+          }))}
+        />
+      )}
 
-            case 'recommended-onsen':
-              return (
-                <RecommendedOnsen
-                  key={section.id}
-                  data={section as RecommendedOnsenSection}
-                />
-              );
+      {/* おすすめ温泉 - GridSection使用 */}
+      {recommendedSection && 'items' in recommendedSection && (
+        <GridSection
+          title={recommendedSection.title}
+          subtitle={recommendedSection.subtitle}
+          description={recommendedSection.description}
+          variant="sky"
+          cards={(recommendedSection.items as any[]).map((item: any) => ({
+            title: item.title,
+            description: item.description,
+            image: `https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg`,
+            href: `/${item.link}`,
+            category: 'おすすめ',
+          }))}
+        />
+      )}
 
-            case 'onsen-list':
-              return (
-                <OnsenList
-                  key={section.id}
-                  data={section as OnsenListSection}
-                  onsenPages={onsenPages}
-                  texts={content.texts}
-                />
-              );
-
-            case 'split-feature':
-              return (
-                <SplitFeature
-                  key={section.id}
-                  data={section as SplitFeatureSection}
-                />
-              );
-
-            case 'grid-gallery':
-              return (
-                <GridGallery
-                  key={section.id}
-                  data={section as GridGallerySection}
-                />
-              );
-
-            case 'testimonials':
-              return (
-                <Testimonials
-                  key={section.id}
-                  data={section as TestimonialsSection}
-                />
-              );
-
-            case 'steps':
-              return <Steps key={section.id} data={section as StepsSection} />;
-
-            case 'cta-fullscreen':
-              return (
-                <CtaFullscreen key={section.id} data={section as CtaSection} />
-              );
-
-            default:
-              return null;
-          }
-        })}
-      </div>
+      {/* 温泉の選び方 - SplitSection使用 */}
+      <SplitSection
+        title="温泉の選び方"
+        subtitle="How to Choose"
+        description="あなたにぴったりの温泉を見つける、3つのシンプルなステップで理想の温泉体験へ。"
+        image="https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG"
+        imageAlt="伊香保温泉 石段街"
+        imagePosition="right"
+        variant="sunset"
+        action={{
+          label: "温泉を探す",
+          href: "#onsen-list",
+        }}
+      />
     </>
   );
 }

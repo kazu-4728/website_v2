@@ -57,10 +57,7 @@
             "variant": "default"
           }
         ],
-        "bgImage": {
-          "key": "hero-night",
-          "keywords": "onsen,hot spring,japan,night,steam"
-        },
+        "bgImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
         "autoplay": true,
         "interval": 3000,
         "overlay": {
