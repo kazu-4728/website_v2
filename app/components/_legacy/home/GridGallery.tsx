@@ -37,7 +37,7 @@ export async function GridGallery({ data }: Props) {
             </p>
           )}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-gray-900">{data.title}</h2>
-          <p className="text-lg sm:text-xl text-gray-800 leading-relaxed">{data.description}</p>
+          <p className="text-lg sm:text-xl text-gray-900 font-medium leading-relaxed tracking-wide">{data.description}</p>
         </div>
 
         <div className={`grid ${gridCols} gap-6 sm:gap-8 lg:gap-10`}>
