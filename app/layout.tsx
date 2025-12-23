@@ -1,6 +1,6 @@
 import './globals.css';
-import { Header } from './components/_legacy/navigation/Header';
-import { Footer } from './components/_legacy/layouts/Footer';
+import { PremiumNav } from './components/modern/Navigation/PremiumNav';
+import { PremiumFooter } from './components/modern/Footer/PremiumFooter';
 import { loadContent } from './lib/content';
 
 export async function generateMetadata() {
@@ -17,9 +17,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="ja">
       <body>
-        <Header logo={content.site.logo} navigation={content.navigation} />
-        <main className="pt-16">{children}</main>
-        <Footer siteName={content.site.name} logo={content.site.logo} texts={content.texts} />
+        <PremiumNav logo={content.site.logo} items={content.navigation} />
+        {children}
+        <PremiumFooter 
+          siteName={content.site.name} 
+          siteDescription={content.site.description}
+          navigation={content.navigation}
+        />
       </body>
     </html>
   );

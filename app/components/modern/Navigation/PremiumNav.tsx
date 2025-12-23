@@ -8,7 +8,7 @@ import { Menu, X } from 'lucide-react';
 interface NavItem {
   label: string;
   href: string;
-  variant?: 'default' | 'primary';
+  variant?: 'default' | 'primary' | 'secondary';
 }
 
 interface PremiumNavProps {
@@ -62,7 +62,7 @@ export function PremiumNav({ logo, items }: PremiumNavProps) {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {items.map((item, index) => {
-              if (item.variant === 'primary') {
+              if (item.variant === 'primary' || item.variant === 'secondary') {
                 return (
                   <Link key={index} href={item.href}>
                     <motion.button
@@ -117,7 +117,7 @@ export function PremiumNav({ logo, items }: PremiumNavProps) {
                   key={index}
                   href={item.href}
                   className={`text-lg font-medium transition-colors ${
-                    item.variant === 'primary'
+                    item.variant === 'primary' || item.variant === 'secondary'
                       ? 'btn-premium w-full text-center py-3 rounded-full'
                       : 'text-gray-700 hover:text-ocean-blue py-2'
                   }`}
