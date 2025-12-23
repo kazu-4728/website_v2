@@ -7,9 +7,9 @@ interface Props {
 
 export function Testimonials({ data }: Props) {
   return (
-    <section className="py-24 bg-dark-950">
+    <section className="py-24 bg-gradient-to-b from-mist to-cloud-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-white mb-16 tracking-tight">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16 tracking-tight">
           {data.title}
         </h2>
         
@@ -17,14 +17,14 @@ export function Testimonials({ data }: Props) {
           {data.items.map((item, index) => (
             <div 
               key={index}
-              className="bg-dark-900/50 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-dark-800/60 relative hover:border-primary-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary-900/10 group"
+              className="bg-white/80 backdrop-blur-sm p-8 sm:p-10 rounded-2xl border border-gray-200 relative hover:border-primary-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/10 group"
             >
               {/* Quote Icon */}
               <div className="absolute top-6 right-6 text-primary-500/10 text-7xl font-serif leading-none group-hover:text-primary-500/20 transition-colors duration-300">
                 "
               </div>
               
-              <p className="text-base sm:text-lg text-gray-300 mb-8 relative z-10 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-700 mb-8 relative z-10 leading-relaxed">
                 {item.content}
               </p>
               
@@ -38,8 +38,8 @@ export function Testimonials({ data }: Props) {
                   />
                 </div>
                 <div>
-                  <div className="font-bold text-white text-base sm:text-lg">{item.author}</div>
-                  <div className="text-sm text-gray-500">{item.role}</div>
+                  <div className="font-bold text-gray-900 text-base sm:text-lg">{item.author}</div>
+                  <div className="text-sm text-gray-600">{item.role}</div>
                 </div>
               </div>
             </div>
