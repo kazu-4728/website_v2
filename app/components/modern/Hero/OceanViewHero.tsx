@@ -47,9 +47,9 @@ export function OceanViewHero({
           quality={95}
           sizes="100vw"
         />
-        {/* Ocean Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-ocean-blue/30 via-sky-blue/20 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent" />
+        {/* Light Overlay with温泉 & Sky Theme */}
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-200/40 via-blue-100/30 to-white/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-amber-50/60 via-transparent to-transparent" />
       </motion.div>
 
       {/* Content */}
@@ -57,21 +57,28 @@ export function OceanViewHero({
         className="relative z-10 max-w-5xl mx-auto px-6 sm:px-8 text-center"
         style={{ y: contentY, opacity }}
       >
-        {/* Subtitle */}
+        {/* Subtitle as h2 - 温泉テーマカラー（視認性最優先）*/}
         {subtitle && (
-          <motion.p
-            className="text-base md:text-lg font-medium tracking-[0.3em] uppercase mb-6 text-gradient-ocean"
+          <motion.h2
+            className="text-sm md:text-base font-bold tracking-[0.2em] mb-4 text-amber-900 drop-shadow-[0_1px_2px_rgba(255,255,255,1)]"
+            style={{
+              textShadow: '1px 1px 3px rgba(255, 255, 255, 0.95), -1px -1px 3px rgba(255, 255, 255, 0.95)'
+            }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             {subtitle}
-          </motion.p>
+          </motion.h2>
         )}
 
-        {/* Title */}
+        {/* Main Title as h1 - 温泉 & Sky カラー（視認性最優先 - 濃色）*/}
         <motion.h1
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-8 leading-[1.1] tracking-tight drop-shadow-2xl"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-[1.15] tracking-tight"
+          style={{
+            color: '#1a1a1a',
+            textShadow: '2px 2px 4px rgba(255, 255, 255, 0.9), -1px -1px 3px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.6)'
+          }}
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.4, type: 'spring', stiffness: 100 }}
@@ -83,10 +90,10 @@ export function OceanViewHero({
           ))}
         </motion.h1>
 
-        {/* Description */}
+        {/* Description - 温泉 & Sky テーマ（視認性最優先）*/}
         {description && (
           <motion.p
-            className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 leading-relaxed font-light backdrop-blur-sm bg-ocean-dark/20 p-6 rounded-2xl"
+            className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto mb-10 leading-relaxed font-semibold backdrop-blur-md bg-white/90 px-8 py-5 rounded-2xl border border-sky-300/60 shadow-xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -134,10 +141,10 @@ export function OceanViewHero({
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <span className="text-white/70 text-sm font-medium mb-2 group-hover:text-white transition-colors">
+          <span className="text-gray-900 text-sm font-bold mb-2 group-hover:text-amber-800 transition-colors drop-shadow-[0_1px_2px_rgba(255,255,255,1)]">
             スクロール
           </span>
-          <ChevronDown className="w-6 h-6 text-white/70 group-hover:text-white transition-colors" />
+          <ChevronDown className="w-6 h-6 text-gray-900 group-hover:text-amber-800 transition-colors drop-shadow-[0_1px_2px_rgba(255,255,255,1)]" />
         </motion.div>
       </motion.div>
 
@@ -150,8 +157,8 @@ export function OceanViewHero({
           preserveAspectRatio="none"
         >
           <motion.path
-            fill="#ffffff"
-            fillOpacity="0.8"
+            fill="#fef3c7"
+            fillOpacity="0.9"
             d="M0,96L48,112C96,128,192,160,288,165.3C384,171,480,149,576,149.3C672,149,768,171,864,165.3C960,160,1056,128,1152,112C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             animate={{
               d: [

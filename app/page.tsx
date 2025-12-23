@@ -9,8 +9,7 @@ import {
   RecommendedOnsenSection,
   OnsenListSection,
 } from './lib/content';
-import { CinematicHero } from './components/_legacy/home/CinematicHero';
-import { FullscreenHero } from './components/_legacy/home/FullscreenHero';
+import { OceanViewHero } from './components/modern/Hero/OceanViewHero';
 import { SplitFeature } from './components/_legacy/home/SplitFeature';
 import { GridGallery } from './components/_legacy/home/GridGallery';
 import { Testimonials } from './components/_legacy/home/Testimonials';
@@ -31,12 +30,14 @@ export default async function Page() {
 
   return (
     <main className="bg-dark-950 min-h-screen selection:bg-primary-500/30">
-      {/* Hero Section - 「あえの風」レベルのフルスクリーンHero */}
-      {hero.type === 'fullscreen-slider' ? (
-        <FullscreenHero data={hero} />
-      ) : (
-        <CinematicHero data={hero} />
-      )}
+      {/* Hero Section - Ocean & Sky プレミアムHero */}
+      <OceanViewHero
+        title={hero.title}
+        subtitle={hero.subtitle}
+        description={hero.description}
+        backgroundImage={hero.bgImage}
+        actions={hero.actions}
+      />
 
       {/* Dynamic Sections */}
       <div className="flex flex-col">
