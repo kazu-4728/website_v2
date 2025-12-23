@@ -240,11 +240,18 @@ transition={{ duration: 0.3, ease: "easeOut" }}
 - [x] スクリーンショット撮影完了
 
 #### Phase 2: コンテンツセクション
-- [x] 温泉画像選択システム実装 ✨ NEW
+- [x] 温泉画像選択システム実装 ✨
   - [x] `data/onsen-image-stock.json` 作成
   - [x] `app/lib/onsen-image-selector.ts` 実装
   - [x] テスト作成（22テスト全合格）
   - [x] ドキュメント作成
+- [x] **カラーコントラスト改善** ✨ NEW!
+  - [x] 背景を明るく変更（cloud-white, mist）
+  - [x] テキストを濃く変更（gray-900, gray-700）
+  - [x] WCAG AA基準クリア（4.5:1以上）
+  - [x] SplitFeature, GridGallery, Steps, Testimonials 修正
+  - [x] コミット: a37f7d3
+  - [x] 完了日: 2025年12月23日
 - [ ] SplitSection 作成
 - [ ] GridSection 作成
 - [ ] PremiumFooter 作成
@@ -303,7 +310,7 @@ transition={{ duration: 0.3, ease: "easeOut" }}
 
 ---
 
-**最終更新**: 2025年12月21日  
+**最終更新**: 2025年12月23日  
 **次回更新**: Phase 2 完了時
 
 ### 既存コンポーネントが変更されていない
