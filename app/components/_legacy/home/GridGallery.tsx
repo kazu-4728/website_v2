@@ -24,7 +24,7 @@ export async function GridGallery({ data }: Props) {
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(30, 64, 175, 0.1) 1px, transparent 0)',
+          backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(30, 64, 175, 0.15) 1px, transparent 0)',
           backgroundSize: '40px 40px'
         }} />
       </div>
@@ -37,7 +37,9 @@ export async function GridGallery({ data }: Props) {
             </p>
           )}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-gray-900">{data.title}</h2>
-          <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">{data.description}</p>
+          <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-md inline-block">
+            <p className="text-lg sm:text-xl text-gray-900 font-medium leading-relaxed tracking-wide">{data.description}</p>
+          </div>
         </div>
 
         <div className={`grid ${gridCols} gap-6 sm:gap-8 lg:gap-10`}>
