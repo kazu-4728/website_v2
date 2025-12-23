@@ -68,7 +68,7 @@
 - ❌ Header/MobileMenu の完全実装
 - ❌ Lighthouse/axe による品質検証
 
-**これらは Phase 2 で実施します。詳細は `docs/PHASE_2_TASKS.md` を参照。**
+**これらのタスクは Phase 1 の当初スコープには含まれていませんでしたが、プロジェクトの完成度を高めるために Phase 2 で実施します。詳細は `docs/PHASE_2_TASKS.md` を参照。**
 
 ### エラーハンドリング
 - [x] **エラーページ実装完了**

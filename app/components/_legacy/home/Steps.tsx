@@ -18,9 +18,11 @@ export function Steps({ data }: Props) {
             {data.title}
           </h2>
           {data.description && (
-            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-              {data.description}
-            </p>
+            <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-md inline-block">
+              <p className="text-lg sm:text-xl text-gray-900 font-medium leading-relaxed tracking-wide">
+                {data.description}
+              </p>
+            </div>
           )}
         </div>
 
@@ -40,9 +42,11 @@ export function Steps({ data }: Props) {
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
                   {step.title}
                 </h3>
-                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  {step.description}
-                </p>
+                <div className="bg-white/95 backdrop-blur-sm p-4 rounded-lg">
+                  <p className="text-base sm:text-lg text-gray-900 font-medium leading-relaxed tracking-wide">
+                    {step.description}
+                  </p>
+                </div>
               </div>
 
               {/* Decorative Arrow (for visual flow) */}
