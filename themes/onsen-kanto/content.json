@@ -152,78 +152,218 @@
       },
       "sections": [
         {
+          "id": "story-intro",
+          "type": "immersive-story",
+          "title": "湯けむりの向こうに、\n物語が待っている",
+          "subtitle": "Beyond the Steam",
+          "description": "関東の温泉は、ただのリラクゼーションではない。それは歴史であり、文化であり、日本人の魂に刻まれた癒しの記憶。",
+          "overlay": {
+            "type": "wave-mask",
+            "gradient": "from-ocean-blue/20 via-sky-blue/10 to-transparent"
+          },
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+            "alt": "草津温泉 湯畑",
+            "position": "center",
+            "scale": "cover"
+          },
+          "typography": {
+            "titleSize": "text-6xl md:text-8xl lg:text-9xl",
+            "orientation": "horizontal",
+            "font": "serif"
+          },
+          "animation": {
+            "type": "parallax-deep",
+            "scrollSpeed": 0.5,
+            "fadeIn": true
+          }
+        },
+        {
           "id": "area-selection",
-          "type": "area-selection",
+          "type": "premium-grid",
           "title": "エリアから探す",
           "subtitle": "Find by Area",
           "description": "関東エリアの名湯・秘湯を地域別にご紹介。それぞれのエリアに特色ある温泉文化が息づいています。",
-          "layout": "large-cards",
-          "columns": 3,
-          "hoverEffect": "zoom-lift",
+          "layout": {
+            "type": "masonry",
+            "columns": 3,
+            "gap": "large",
+            "cardHeight": "600px"
+          },
+          "variant": "ocean",
+          "overlay": {
+            "type": "gradient",
+            "gradient": "from-cloud-white via-mist to-cloud-white"
+          },
           "items": [
             {
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
-              "image": "hakone",
-              "link": "hakone"
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+                "alt": "箱根温泉郷"
+              },
+              "link": "/hakone",
+              "category": "人気エリア",
+              "badge": "最も人気",
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "草津温泉",
               "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
-              "image": "kusatsu",
-              "link": "kusatsu"
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+                "alt": "草津温泉"
+              },
+              "link": "/kusatsu",
+              "category": "名湯",
+              "badge": "三大名湯",
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "鬼怒川温泉",
               "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。日光へのアクセスも便利。",
-              "image": "kinugawa",
-              "link": "kinugawa"
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+                "alt": "鬼怒川温泉"
+              },
+              "link": "/kinugawa",
+              "category": "渓谷",
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "伊香保温泉",
               "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
-              "image": "ikaho",
-              "link": "ikaho"
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+                "alt": "伊香保温泉"
+              },
+              "link": "/ikaho",
+              "category": "歴史",
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "那須温泉郷",
               "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
-              "image": "nasu",
-              "link": "nasu"
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+                "alt": "那須温泉郷"
+              },
+              "link": "/nasu",
+              "category": "高原",
+              "badge": "皇室御用達",
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "水上温泉郷",
               "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
-              "image": "minakami",
-              "link": "minakami"
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+                "alt": "水上温泉郷"
+              },
+              "link": "/minakami",
+              "category": "渓流",
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             }
           ]
         },
         {
+          "id": "experience-journey",
+          "type": "overlap-section",
+          "title": "温泉への旅は、\n心の旅でもある",
+          "subtitle": "A Journey to the Soul",
+          "description": "疲れた心と体を癒す、至福のひととき。温泉の湯に身を委ねれば、日常の喧騒が遠のき、本来の自分を取り戻せる。",
+          "layout": {
+            "type": "overlap",
+            "imagePosition": "left",
+            "overlap": "40%"
+          },
+          "variant": "sunset",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+            "alt": "伊香保温泉 石段街",
+            "mask": "wave-diagonal"
+          },
+          "typography": {
+            "titleOrientation": "vertical-right",
+            "titleSize": "text-5xl md:text-7xl",
+            "font": "serif"
+          },
+          "action": {
+            "label": "旅を始める",
+            "href": "#onsen-list",
+            "style": "premium-gold"
+          },
+          "animation": {
+            "type": "parallax-light",
+            "scrollReveal": true
+          }
+        },
+        {
           "id": "recommended-onsen",
-          "type": "recommended-onsen",
+          "type": "cinematic-carousel",
           "title": "おすすめ温泉",
           "subtitle": "Recommended Onsen",
           "description": "厳選された関東の名湯をご紹介。",
-          "layout": "gallery",
+          "layout": {
+            "type": "cinematic",
+            "aspectRatio": "21:9"
+          },
+          "variant": "sky",
           "items": [
             {
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート",
-              "image": "hakone",
-              "link": "hakone"
+              "longDescription": "富士箱根伊豆国立公園内に位置し、17の温泉エリアと20種類以上の泉質を誇る、日本屈指の温泉リゾート地。",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+                "alt": "箱根温泉郷"
+              },
+              "link": "/hakone",
+              "category": "プレミアム",
+              "features": ["20種類の泉質", "17の温泉エリア", "富士山ビュー"]
             },
             {
               "title": "草津温泉",
               "description": "日本三大名湯の一つ",
-              "image": "kusatsu",
-              "link": "kusatsu"
+              "longDescription": "毎分32,300リットルという豊富な湯量と、pH2.1の強酸性の湯が特徴。「恋の病以外は治る」と言われる名湯。",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+                "alt": "草津温泉"
+              },
+              "link": "/kusatsu",
+              "category": "名湯",
+              "features": ["日本三大名湯", "豊富な湯量", "強酸性の湯"]
             },
             {
               "title": "鬼怒川温泉",
               "description": "渓谷美と豊かな湯量が魅力",
-              "image": "kinugawa",
-              "link": "kinugawa"
+              "longDescription": "鬼怒川渓谷沿いに広がる温泉街。渓谷美を眺めながらの露天風呂は格別。日光東照宮へのアクセスも良好。",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+                "alt": "鬼怒川温泉"
+              },
+              "link": "/kinugawa",
+              "category": "渓谷",
+              "features": ["渓谷美", "日光観光", "豊富な宿"]
             }
           ]
         },
