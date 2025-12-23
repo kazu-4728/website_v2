@@ -60,7 +60,15 @@
   - 変更コンポーネント: SplitFeature, GridGallery, Steps, Testimonials
   - 完了日: 2025年12月23日
 
-**Phase 1 の実質進捗**: 100% ✅（完全完了）
+**Phase 1 の実質進捗**: 80% ⚠️（視覚的確認未完了）
+
+**注意**: Phase 1 は「基盤構築」として部分的に完了していますが、以下が未完了:
+- ❌ スクリーンショットの追加（視覚的な確認ができない）
+- ❌ design-tokens.ts の作成と統合
+- ❌ Header/MobileMenu の完全実装
+- ❌ Lighthouse/axe による品質検証
+
+**これらは Phase 2 で実施します。詳細は `docs/PHASE_2_TASKS.md` を参照。**
 
 ### エラーハンドリング
 - [x] **エラーページ実装完了**
