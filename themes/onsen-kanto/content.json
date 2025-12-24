@@ -200,8 +200,13 @@
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-                "alt": "箱根温泉郷"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+                "alt": "箱根湯の花温泉 露天風呂",
+                "focus": "center center",
+                "overlay": {
+                  "type": "steam",
+                  "opacity": 0.3
+                }
               },
               "link": "/hakone",
               "category": "人気エリア",
@@ -216,7 +221,12 @@
               "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
               "image": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-                "alt": "草津温泉"
+                "alt": "草津温泉 湯畑",
+                "focus": "center top",
+                "overlay": {
+                  "type": "mist",
+                  "opacity": 0.2
+                }
               },
               "link": "/kusatsu",
               "category": "名湯",
@@ -230,8 +240,13 @@
               "title": "鬼怒川温泉",
               "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。日光へのアクセスも便利。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-                "alt": "鬼怒川温泉"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%28%E7%BE%A4%E9%A6%AC%E7%9C%8C%29_%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%E3%81%AE%E6%B9%AF%E7%95%91%E3%81%AB%E3%81%A6%E3%80%82%E5%B7%A6%E3%82%92%E5%90%91%E3%81%8F%E3%81%A8%E8%A6%B3%E5%85%89%E5%AE%A2%E5%90%91%E3%81%91%E3%81%AE%E7%84%A1%E6%96%99%E3%81%AE%E6%BA%90%E6%B3%89%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E7%86%B1%E3%81%8F%E3%81%A6%E9%9B%A3%E3%81%97%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82_-_panoramio.jpg",
+                "alt": "草津温泉 湯畑パノラマ",
+                "focus": "center center",
+                "overlay": {
+                  "type": "light-reflection",
+                  "opacity": 0.15
+                }
               },
               "link": "/kinugawa",
               "category": "渓谷",
@@ -245,7 +260,12 @@
               "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
               "image": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
-                "alt": "伊香保温泉"
+                "alt": "伊香保温泉 石段街",
+                "focus": "center bottom",
+                "overlay": {
+                  "type": "ambient",
+                  "opacity": 0.25
+                }
               },
               "link": "/ikaho",
               "category": "歴史",
@@ -259,7 +279,12 @@
               "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
               "image": {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-                "alt": "那須温泉郷"
+                "alt": "那須湯本温泉",
+                "focus": "center center",
+                "overlay": {
+                  "type": "steam",
+                  "opacity": 0.35
+                }
               },
               "link": "/nasu",
               "category": "高原",
@@ -273,8 +298,13 @@
               "title": "水上温泉郷",
               "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
-                "alt": "水上温泉郷"
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+                "alt": "箱根湯の花温泉（代替：渓流露天風呂イメージ）",
+                "focus": "center center",
+                "overlay": {
+                  "type": "mist",
+                  "opacity": 0.3
+                }
               },
               "link": "/minakami",
               "category": "渓流",

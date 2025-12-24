@@ -132,7 +132,7 @@ export function OverlapSection({
             </div>
           </motion.div>
 
-          {/* テキスト側 - オーバーラップ */}
+          {/* テキスト側 - オーバーラップ + 透明化 */}
           <motion.div
             className={`relative ${
               layout.imagePosition === 'left'
@@ -141,12 +141,15 @@ export function OverlapSection({
             } ${isVertical ? 'flex flex-col items-end' : ''}`}
             style={{ x: contentX }}
           >
-            <div className={`bg-white/90 backdrop-blur-xl rounded-3xl p-8 md:p-12 lg:p-16 shadow-xl ${
+            <div className={`bg-white/70 backdrop-blur-2xl rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl border border-white/40 ${
               layout.imagePosition === 'left' ? 'md:ml-[-10%]' : 'md:mr-[-10%]'
             }`}>
               {subtitle && (
                 <motion.p
                   className={`text-sm md:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent}`}
+                  style={{
+                    textShadow: '1px 1px 3px rgba(255, 255, 255, 0.8)',
+                  }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -162,6 +165,7 @@ export function OverlapSection({
                   fontFamily: typography?.font === 'serif' ? 'var(--font-heading)' : 'inherit',
                   writingMode: isVertical ? 'vertical-rl' : 'horizontal-tb',
                   textOrientation: isVertical ? 'upright' : 'mixed',
+                  textShadow: '2px 2px 4px rgba(255, 255, 255, 0.5)',
                 }}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -176,7 +180,10 @@ export function OverlapSection({
               </motion.h2>
 
               <motion.p
-                className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8"
+                className="text-lg md:text-xl text-gray-800 leading-relaxed mb-8"
+                style={{
+                  textShadow: '1px 1px 2px rgba(255, 255, 255, 0.5)',
+                }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

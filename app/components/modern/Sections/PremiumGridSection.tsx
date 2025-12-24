@@ -25,6 +25,11 @@ interface PremiumGridSectionProps {
     image: {
       url: string;
       alt: string;
+      focus?: string;
+      overlay?: {
+        type: string;
+        opacity: number;
+      };
     };
     link: string;
     category?: string;
@@ -116,9 +121,12 @@ export function PremiumGridSection({
                   whileHover={{ scale: 1.03, rotateY: 2 }}
                   transition={{ duration: 0.4 }}
                 >
-                  {/* 画像 - ズーム＆回転効果 */}
+                  {/* 画像 - ズーム＆回転効果 + フォーカス位置制御 */}
                   <motion.div
                     className="absolute inset-0"
+                    style={{
+                      objectPosition: item.image.focus || 'center center',
+                    }}
                     whileHover={{ scale: 1.15, rotate: 1 }}
                     transition={{ duration: 0.6 }}
                   >
@@ -127,9 +135,32 @@ export function PremiumGridSection({
                       alt={item.image.alt}
                       fill
                       className="object-cover"
+                      style={{
+                        objectPosition: item.image.focus || 'center center',
+                      }}
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </motion.div>
+
+                  {/* オーバーレイ - JSON制御の質感（霧、湯気、光の反射） */}
+                  {item.image.overlay && (
+                    <motion.div
+                      className={`absolute inset-0 ${
+                        item.image.overlay.type === 'steam'
+                          ? 'bg-gradient-to-t from-white/60 via-blue-100/30 to-transparent'
+                          : item.image.overlay.type === 'mist'
+                          ? 'bg-gradient-to-b from-sky-200/40 via-transparent to-transparent'
+                          : item.image.overlay.type === 'light-reflection'
+                          ? 'bg-gradient-to-br from-amber-200/30 via-transparent to-transparent'
+                          : 'bg-gradient-to-t from-gray-200/30 via-transparent to-transparent'
+                      }`}
+                      style={{
+                        opacity: item.image.overlay.opacity || 0.3,
+                      }}
+                      whileHover={{ opacity: (item.image.overlay.opacity || 0.3) * 0.7 }}
+                      transition={{ duration: 0.3 }}
+                    />
+                  )}
 
                   {/* グラデーションオーバーレイ - ホバーで変化 */}
                   <motion.div
@@ -161,20 +192,27 @@ export function PremiumGridSection({
                     </motion.div>
                   )}
 
-                  {/* コンテンツ - スライドアップ効果 */}
+                  {/* コンテンツ - スライドアップ効果 + 透明化＋ドロップシャドウ */}
                   <motion.div
-                    className="absolute bottom-0 left-0 right-0 p-8"
+                    className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-gray-900/95 via-gray-900/80 to-transparent backdrop-blur-md"
                     initial={{ y: 20 }}
                     whileHover={{ y: -10 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <h3 className="text-3xl md:text-4xl font-bold text-white mb-3 font-serif">
+                    <h3 className="text-3xl md:text-4xl font-bold text-white mb-3 font-serif"
+                      style={{
+                        textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5)',
+                      }}
+                    >
                       {item.title}
                     </h3>
                     
                     <motion.p
-                      className="text-white/90 text-lg leading-relaxed"
-                      initial={{ opacity: 0.8 }}
+                      className="text-white/95 text-lg leading-relaxed"
+                      style={{
+                        textShadow: '1px 1px 4px rgba(0, 0, 0, 0.8)',
+                      }}
+                      initial={{ opacity: 0.9 }}
                       whileHover={{ opacity: 1 }}
                     >
                       {item.description}
@@ -183,6 +221,9 @@ export function PremiumGridSection({
                     {/* ホバー時の矢印アイコン */}
                     <motion.div
                       className="mt-4 flex items-center gap-2 text-white font-bold"
+                      style={{
+                        textShadow: '1px 1px 4px rgba(0, 0, 0, 0.8)',
+                      }}
                       initial={{ x: 0, opacity: 0 }}
                       whileHover={{ x: 10, opacity: 1 }}
                       transition={{ duration: 0.3 }}
