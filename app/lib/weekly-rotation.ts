@@ -6,13 +6,30 @@
 import onsenData from '../../data/unsplash-onsen-images.json';
 
 /**
- * 現在の週番号を取得（1年は52週なので、30箇所をローテーション）
+ * 現在の週番号を取得（ISO週番号ベースで計算し、30箇所をローテーション）
+ *
+ * ISO 8601 に基づく週番号:
+ * - 週の開始は月曜日
+ * - 年の最初の木曜日を含む週が第1週
  */
 export function getCurrentWeekNumber(): number {
   const now = new Date();
-  const startOfYear = new Date(now.getFullYear(), 0, 1);
-  const pastDaysOfYear = (now.getTime() - startOfYear.getTime()) / 86400000;
-  return Math.ceil((pastDaysOfYear + startOfYear.getDay() + 1) / 7);
+
+  // 時刻の影響を排除するため、UTC ベースの日付に変換
+  const utcDate = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+
+  // 現在の週の「木曜日」に移動（ISO年を決定するため）
+  const dayOfWeek = utcDate.getUTCDay() || 7; // 日曜(0)を7として扱う
+  utcDate.setUTCDate(utcDate.getUTCDate() + 4 - dayOfWeek);
+
+  // ISO年の開始日（1月1日、UTC）
+  const yearStart = new Date(Date.UTC(utcDate.getUTCFullYear(), 0, 1));
+
+  // 経過日数（0ベース）を取得し、週番号を算出
+  const diffInDays = Math.floor((utcDate.getTime() - yearStart.getTime()) / 86400000);
+  const weekNumber = Math.ceil((diffInDays + 1) / 7);
+
+  return weekNumber;
 }
 
 /**
