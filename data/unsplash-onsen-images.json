@@ -1,0 +1,76 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "location": "群馬県",
+      "name": "草津温泉",
+      "slug": "kusatsu",
+      "description": "日本一の自然湧出量を誇り、木の温もりを感じる伝統的な湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000",
+      "alt": "草津温泉の伝統的な湯船"
+    },
+    {
+      "id": 2,
+      "location": "神奈川県",
+      "name": "箱根温泉",
+      "slug": "hakone",
+      "description": "箱根の山々を望む、開放感あふれる絶景露天風呂の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000",
+      "alt": "箱根の絶景露天風呂"
+    },
+    {
+      "id": 3,
+      "location": "栃木県",
+      "name": "鬼怒川温泉",
+      "slug": "kinugawa",
+      "description": "鬼怒川渓谷の切り立った崖を望む、自然と一体化した湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1000",
+      "alt": "鬼怒川渓谷沿いの露天風呂"
+    },
+    {
+      "id": 4,
+      "location": "群馬県",
+      "name": "伊香保温泉",
+      "slug": "ikaho",
+      "description": "鉄分を多く含み、独特の茶褐色をした『黄金の湯』が満ちる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000",
+      "alt": "伊香保温泉の黄金の湯"
+    },
+    {
+      "id": 5,
+      "location": "群馬県",
+      "name": "万座温泉",
+      "slug": "manza",
+      "description": "標高1,800m。硫黄成分が濃く、白濁したお湯が特徴の高山露天風呂。",
+      "imgUrl": "https://images.unsplash.com/photo-1610366398516-46da97841961?auto=format&fit=crop&q=80&w=1000",
+      "alt": "万座温泉の白濁した湯船"
+    },
+    {
+      "id": 6,
+      "location": "群馬県",
+      "name": "四万温泉",
+      "slug": "shima",
+      "description": "レトロな建築様式と、清流のような透明度の高いお湯が自慢の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=1000",
+      "alt": "四万温泉の伝統的な内湯"
+    },
+    {
+      "id": 7,
+      "location": "栃木県",
+      "name": "那須温泉",
+      "slug": "nasu",
+      "description": "1300年の歴史。木造の湯小屋に並ぶ、風情ある複数の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1000",
+      "alt": "那須温泉の歴史ある湯船"
+    },
+    {
+      "id": 8,
+      "location": "千葉県",
+      "name": "鴨川温泉",
+      "slug": "kamogawa",
+      "description": "太平洋の水平線を眺めながら、波の音を聞けるオーシャンビューの湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1563911191471-3c010d65a7bc?auto=format&fit=crop&q=80&w=1000",
+      "alt": "鴨川温泉のオーシャンビュー露天風呂"
+    }
+  ]
+}

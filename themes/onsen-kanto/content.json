@@ -148,10 +148,7 @@
             "variant": "primary"
           }
         ],
-        "bgImageRef": {
-          "onsenKey": "kusatsu",
-          "imageIndex": 0
-        }
+        "bgImage": "https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1920"
       },
       "sections": [
         {
@@ -165,11 +162,10 @@
             "gradient": "from-ocean-blue/20 via-sky-blue/10 to-transparent"
           },
           "image": {
-            "alt": "草津温泉 湯畑パノラマ",
+            "url": "https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1920",
+            "alt": "草津温泉の伝統的な湯船",
             "position": "center",
-            "scale": "cover",
-            "onsenKey": "kusatsu",
-            "imageIndex": 1
+            "scale": "cover"
           },
           "typography": {
             "titleSize": "text-6xl md:text-8xl lg:text-9xl",
@@ -201,17 +197,16 @@
           },
           "items": [
             {
-              "title": "箱根温泉郷",
-              "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
+              "title": "箱根温泉",
+              "description": "箱根の山々を望む、開放感あふれる絶景露天風呂の湯船。",
               "image": {
-                "alt": "箱根湯の花温泉 露天風呂",
+                "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000",
+                "alt": "箱根の絶景露天風呂",
                 "focus": "center center",
                 "overlay": {
                   "type": "steam",
                   "opacity": 0.3
-                },
-                "onsenKey": "hakone",
-                "imageIndex": 0
+                }
               },
               "link": "/hakone",
               "category": "人気エリア",
@@ -223,16 +218,15 @@
             },
             {
               "title": "草津温泉",
-              "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
+              "description": "日本一の自然湧出量を誇り、木の温もりを感じる伝統的な湯船。",
               "image": {
-                "alt": "草津温泉 湯畑",
+                "url": "https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000",
+                "alt": "草津温泉の伝統的な湯船",
                 "focus": "center top",
                 "overlay": {
                   "type": "mist",
                   "opacity": 0.2
-                },
-                "onsenKey": "kusatsu",
-                "imageIndex": 1
+                }
               },
               "link": "/kusatsu",
               "category": "名湯",
@@ -243,20 +237,19 @@
               }
             },
             {
-              "title": "熱海温泉",
-              "description": "海を望む温泉リゾート。源泉数、湧出量ともに日本屈指の大温泉地。",
+              "title": "鬼怒川温泉",
+              "description": "鬼怒川渓谷の切り立った崖を望む、自然と一体化した湯船。",
               "image": {
-                "alt": "熱海温泉街の夕景",
+                "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1000",
+                "alt": "鬼怒川渓谷沿いの露天風呂",
                 "focus": "center center",
                 "overlay": {
                   "type": "light-reflection",
                   "opacity": 0.25
-                },
-                "onsenKey": "atami",
-                "imageIndex": 0
+                }
               },
-              "link": "/atami",
-              "category": "海辺",
+              "link": "/kinugawa",
+              "category": "渓谷",
               "animation": {
                 "hover": "zoom-rotate",
                 "scroll": "fade-up"
@@ -264,16 +257,15 @@
             },
             {
               "title": "伊香保温泉",
-              "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
+              "description": "鉄分を多く含み、独特の茶褐色をした『黄金の湯』が満ちる湯船。",
               "image": {
-                "alt": "伊香保温泉 石段街",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000",
+                "alt": "伊香保温泉の黄金の湯",
                 "focus": "center bottom",
                 "overlay": {
                   "type": "ambient",
                   "opacity": 0.25
-                },
-                "onsenKey": "ikaho",
-                "imageIndex": 0
+                }
               },
               "link": "/ikaho",
               "category": "歴史",
@@ -283,17 +275,16 @@
               }
             },
             {
-              "title": "那須温泉郷",
-              "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
+              "title": "那須温泉",
+              "description": "1300年の歴史。木造の湯小屋に並ぶ、風情ある複数の湯船。",
               "image": {
-                "alt": "那須湯本温泉",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1000",
+                "alt": "那須温泉の歴史ある湯船",
                 "focus": "center center",
                 "overlay": {
                   "type": "steam",
                   "opacity": 0.35
-                },
-                "onsenKey": "nasu",
-                "imageIndex": 0
+                }
               },
               "link": "/nasu",
               "category": "高原",
@@ -339,10 +330,9 @@
           },
           "variant": "sunset",
           "image": {
-            "alt": "伊香保温泉 石段街",
-            "mask": "wave-diagonal",
-            "onsenKey": "ikaho",
-            "imageIndex": 0
+            "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1920",
+            "alt": "伊香保温泉の黄金の湯",
+            "mask": "wave-diagonal"
           },
           "typography": {
             "titleOrientation": "vertical-right",
