@@ -466,6 +466,11 @@ export interface StepsSection extends HomeSection {
 export interface HomePage {
   hero: HomeHero;
   sections: HomeSection[];
+  blog?: {
+    title: string;
+    description: string;
+    posts: BlogPost[];
+  };
 }
 
 // ==========================================
@@ -509,16 +514,23 @@ export interface BlogPostRaw {
   date: string; // Display date
   readTime: string;
   category: string;
-  author: string;
-  image: ImageReference;
-  content: string; // Markdown content
+  author?: string;
+  image?: ImageReference;
+  content?: string; // Markdown content
+  useWeeklyRotation?: boolean; // 週替わりローテーション用フラグ
 }
 
 /**
  * Blog post (after image resolution)
  */
 export interface BlogPost extends Omit<BlogPostRaw, 'image'> {
-  image: string; // Resolved to actual URL
+  image?: string; // Resolved to actual URL
+  onsen?: {
+    id: number;
+    slug: string;
+    name: string;
+    location: string;
+  };
 }
 
 /**
@@ -589,30 +601,15 @@ export interface PagesConfigRaw {
   home: {
     hero: HomeHeroRaw;
     sections: Array<any>; // Sections before processing
+    blog?: {
+      title: string;
+      description: string;
+      posts: BlogPostRaw[];
+    };
   };
   docs?: DocPageRaw[];
-  blog?: {
-    title: string;
-    description: string;
-    posts: BlogPostRaw[];
-  };
-  features?: {
-    title: string;
-    description: string;
-    hero: {
-      title: string;
-      subtitle: string;
-      description: string;
-      image: ImageReference;
-    };
-    items: Array<{
-      title: string;
-      description: string;
-      icon: string;
-      image: ImageReference;
-    }>;
-  };
   contact?: ContactConfig;
+  features?: FeaturesConfig;
 }
 
 /**
@@ -621,9 +618,8 @@ export interface PagesConfigRaw {
 export interface PagesConfig {
   home: HomePage;
   docs?: DocPage[];
-  blog?: BlogConfig;
-  features?: FeaturesConfig;
   contact?: ContactConfig;
+  features?: FeaturesConfig;
 }
 
 // ==========================================

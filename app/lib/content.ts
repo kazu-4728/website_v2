@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
+import { resolveWeeklyRotation } from './weekly-rotation';
 
 // Import common theme types
 import type {
@@ -199,6 +200,11 @@ export async function loadContent(): Promise<ContentConfig> {
     // Load texts
     const texts = await loadTexts();
     
+    // 週替わりブログローテーションを適用
+    if (rawContent.pages?.home?.blog?.posts) {
+      rawContent.pages.home.blog.posts = resolveWeeklyRotation(rawContent.pages.home.blog.posts);
+    }
+    
     // 画像参照を解決（onsenKey + imageIndex → URL）
     const contentWithResolvedImages = resolveImageReferences(rawContent);
     
@@ -314,6 +320,18 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
           
           return resolvedSection;
         }),
+        blog: content.pages.home.blog ? {
+          ...content.pages.home.blog,
+          posts: content.pages.home.blog.posts.map(post => ({
+            ...post,
+            image: post.image ? (typeof post.image === 'string' ? post.image : resolveImageUrl(
+              post.image,
+              'blog',
+              post.slug,
+              'onsen,hot spring,japan'
+            )) : undefined,
+          })),
+        } : undefined,
       },
       docs: content.pages.docs?.map(doc => ({
         ...doc,
@@ -324,39 +342,6 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
           `onsen,${doc.slug},japan`
         ),
       })),
-      blog: content.pages.blog ? {
-        ...content.pages.blog,
-        posts: content.pages.blog.posts.map(post => ({
-          ...post,
-          image: resolveImageUrl(
-            post.image,
-            'blog',
-            post.slug,
-            'onsen,hot spring,japan'
-          ),
-        })),
-      } : undefined,
-      features: content.pages.features ? {
-        ...content.pages.features,
-        hero: {
-          ...content.pages.features.hero,
-          image: resolveImageUrl(
-            content.pages.features.hero.image,
-            'features',
-            'hero',
-            'onsen,hot spring,japan'
-          ),
-        },
-        items: content.pages.features.items.map(item => ({
-          ...item,
-          image: resolveImageUrl(
-            item.image,
-            'features',
-            item.title.toLowerCase().replace(/\s+/g, '-'),
-            'onsen,hot spring,japan'
-          ),
-        })),
-      } : undefined,
     },
   };
 
@@ -431,7 +416,7 @@ export async function getAllDocSlugs(): Promise<string[]> {
  */
 export async function getBlogPost(slug: string): Promise<BlogPost | undefined> {
   const content = await loadContent();
-  return content.pages.blog?.posts.find(post => post.slug === slug);
+  return content.pages.home.blog?.posts.find(post => post.slug === slug);
 }
 
 /**
@@ -439,7 +424,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | undefined> {
  */
 export async function getAllBlogSlugs(): Promise<string[]> {
   const content = await loadContent();
-  return content.pages.blog?.posts.map(post => post.slug) || [];
+  return content.pages.home.blog?.posts.map(post => post.slug) || [];
 }
 
 // ==========================================

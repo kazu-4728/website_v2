@@ -5,7 +5,7 @@ import { ArrowRightIcon, CalendarIcon, ClockIcon, ArrowLeftIcon } from 'lucide-r
 
 export default async function BlogPage() {
   const content = await loadContent();
-  const blogData = content.pages.blog;
+  const blogData = content.pages.home.blog;
 
   const texts = content.texts;
 
@@ -50,7 +50,7 @@ export default async function BlogPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <Link href={`/blog/${posts[0].slug}`} className="group block relative h-[60vh] rounded-3xl overflow-hidden card-glass">
           <Image
-            src={posts[0].image}
+            src={posts[0].image || '/images/default-onsen.jpg'}
             alt={posts[0].title}
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -82,7 +82,7 @@ export default async function BlogPage() {
             <Link key={i} href={`/blog/${post.slug}`} className="group card-glass rounded-2xl p-6 hover:bg-white/5 transition-colors">
               <div className="relative aspect-video rounded-xl overflow-hidden mb-6">
                 <Image
-                  src={post.image}
+                  src={post.image || '/images/default-onsen.jpg'}
                   alt={post.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
