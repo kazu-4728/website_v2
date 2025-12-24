@@ -205,6 +205,37 @@ export async function loadContent(): Promise<ContentConfig> {
       rawContent.pages.home.blog.posts = resolveWeeklyRotation(rawContent.pages.home.blog.posts);
     }
     
+    // 30箇所の温泉データを pages.docs に自動追加
+    const unsplashOnsenData = require('../../data/unsplash-onsen-images.json');
+    if (unsplashOnsenData && unsplashOnsenData.images) {
+      // 既存のdocsページを保持
+      const existingDocs = rawContent.pages?.docs || [];
+      const existingSlugs = new Set(existingDocs.map((doc: any) => doc.slug));
+      
+      // 30箇所の温泉データをdocsページに変換
+      const generatedDocs = unsplashOnsenData.images.map((onsen: any) => ({
+        slug: onsen.slug,
+        title: onsen.name,
+        subtitle: onsen.location,
+        description: onsen.description,
+        category: '温泉地',
+        image: onsen.imgUrl,
+        content: `## ${onsen.name}について\n\n${onsen.description}\n\n※ 詳細情報は準備中です。`,
+        // 基本的な温泉情報（オプション）
+        onsen: undefined, // 詳細情報が必要な場合はここに追加
+      }));
+      
+      // 既存のdocsと生成されたdocsをマージ（重複を避ける）
+      const mergedDocs = [
+        ...existingDocs,
+        ...generatedDocs.filter((doc: any) => !existingSlugs.has(doc.slug)),
+      ];
+      
+      // rawContentを更新
+      if (!rawContent.pages) rawContent.pages = { home: { hero: {}, sections: [] } as any };
+      rawContent.pages.docs = mergedDocs;
+    }
+    
     // 画像参照を解決（onsenKey + imageIndex → URL）
     const contentWithResolvedImages = resolveImageReferences(rawContent);
     
