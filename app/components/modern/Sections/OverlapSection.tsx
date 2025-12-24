@@ -128,7 +128,13 @@ export function OverlapSection({
               )}
               
               {/* グラデーションオーバーレイ */}
-              <div className={`absolute inset-0 bg-gradient-to-t from-${variant === 'sunset' ? 'amber' : variant === 'ocean' ? 'ocean-blue' : 'sky-blue'}/30 via-transparent to-transparent`} />
+              <div className={`absolute inset-0 bg-gradient-to-t ${
+                variant === 'sunset'
+                  ? 'from-amber/30'
+                  : variant === 'ocean'
+                    ? 'from-ocean-blue/30'
+                    : 'from-sky-blue/30'
+              } via-transparent to-transparent`} />
             </div>
           </motion.div>
 
