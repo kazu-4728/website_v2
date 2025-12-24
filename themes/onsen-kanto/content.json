@@ -57,7 +57,6 @@
             "variant": "default"
           }
         ],
-        "bgImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
         "autoplay": true,
         "interval": 3000,
         "overlay": {
@@ -148,7 +147,11 @@
             "href": "#onsen-list",
             "variant": "primary"
           }
-        ]
+        ],
+        "bgImageRef": {
+          "onsenKey": "kusatsu",
+          "imageIndex": 0
+        }
       },
       "sections": [
         {
@@ -200,13 +203,14 @@
               "title": "箱根温泉郷",
               "description": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を誇ります。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
                 "alt": "箱根湯の花温泉 露天風呂",
                 "focus": "center center",
                 "overlay": {
                   "type": "steam",
                   "opacity": 0.3
-                }
+                },
+                "onsenKey": "hakone",
+                "imageIndex": 0
               },
               "link": "/hakone",
               "category": "人気エリア",
@@ -220,13 +224,14 @@
               "title": "草津温泉",
               "description": "日本三大名湯の一つ。毎分32,300リットルの豊富な湯量と強酸性の湯が特徴。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
                 "alt": "草津温泉 湯畑",
                 "focus": "center top",
                 "overlay": {
                   "type": "mist",
                   "opacity": 0.2
-                }
+                },
+                "onsenKey": "kusatsu",
+                "imageIndex": 1
               },
               "link": "/kusatsu",
               "category": "名湯",
@@ -246,7 +251,9 @@
                 "overlay": {
                   "type": "light-reflection",
                   "opacity": 0.15
-                }
+                },
+                "onsenKey": "kusatsu",
+                "imageIndex": 1
               },
               "link": "/kinugawa",
               "category": "渓谷",
@@ -259,13 +266,14 @@
               "title": "伊香保温泉",
               "description": "365段の石段街と黄金の湯・白銀の湯で知られる群馬の古湯。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
                 "alt": "伊香保温泉 石段街",
                 "focus": "center bottom",
                 "overlay": {
                   "type": "ambient",
                   "opacity": 0.25
-                }
+                },
+                "onsenKey": "ikaho",
+                "imageIndex": 0
               },
               "link": "/ikaho",
               "category": "歴史",
@@ -278,13 +286,14 @@
               "title": "那須温泉郷",
               "description": "皇室御用達の避暑地に広がる多彩な温泉群。11種類もの泉質を楽しめます。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
                 "alt": "那須湯本温泉",
                 "focus": "center center",
                 "overlay": {
                   "type": "steam",
                   "opacity": 0.35
-                }
+                },
+                "onsenKey": "nasu",
+                "imageIndex": 0
               },
               "link": "/nasu",
               "category": "高原",
@@ -298,13 +307,14 @@
               "title": "水上温泉郷",
               "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
                 "alt": "箱根湯の花温泉（代替：渓流露天風呂イメージ）",
                 "focus": "center center",
                 "overlay": {
                   "type": "mist",
                   "opacity": 0.3
-                }
+                },
+                "onsenKey": "atami",
+                "imageIndex": 0
               },
               "link": "/minakami",
               "category": "渓流",
@@ -369,7 +379,11 @@
               },
               "link": "/hakone",
               "category": "プレミアム",
-              "features": ["20種類の泉質", "17の温泉エリア", "富士山ビュー"]
+              "features": [
+                "20種類の泉質",
+                "17の温泉エリア",
+                "富士山ビュー"
+              ]
             },
             {
               "title": "草津温泉",
@@ -381,7 +395,11 @@
               },
               "link": "/kusatsu",
               "category": "名湯",
-              "features": ["日本三大名湯", "豊富な湯量", "強酸性の湯"]
+              "features": [
+                "日本三大名湯",
+                "豊富な湯量",
+                "強酸性の湯"
+              ]
             },
             {
               "title": "鬼怒川温泉",
@@ -393,7 +411,11 @@
               },
               "link": "/kinugawa",
               "category": "渓谷",
-              "features": ["渓谷美", "日光観光", "豊富な宿"]
+              "features": [
+                "渓谷美",
+                "日光観光",
+                "豊富な宿"
+              ]
             }
           ]
         },
@@ -480,12 +502,27 @@
             }
           },
           "onsen": {
-            "springTypes": ["単純泉", "塩化物泉", "炭酸水素塩泉", "硫酸塩泉"],
+            "springTypes": [
+              "単純泉",
+              "塩化物泉",
+              "炭酸水素塩泉",
+              "硫酸塩泉"
+            ],
             "ph": 7.2,
             "temperature": 42,
             "flowRate": "豊富",
-            "effects": ["神経痛", "筋肉痛", "関節痛", "冷え性", "疲労回復"],
-            "characteristics": ["源泉掛け流し", "露天風呂あり", "多様な泉質"]
+            "effects": [
+              "神経痛",
+              "筋肉痛",
+              "関節痛",
+              "冷え性",
+              "疲労回復"
+            ],
+            "characteristics": [
+              "源泉掛け流し",
+              "露天風呂あり",
+              "多様な泉質"
+            ]
           },
           "access": {
             "nearestStation": {
@@ -511,17 +548,28 @@
           },
           "accommodation": {
             "dayTripAvailable": true,
-            "dayTripFacilities": ["日帰り温泉施設多数"],
+            "dayTripFacilities": [
+              "日帰り温泉施設多数"
+            ],
             "representativeRyokan": [
               {
                 "name": "強羅花壇",
-                "features": ["露天風呂", "富士山眺望", "庭園"],
+                "features": [
+                  "露天風呂",
+                  "富士山眺望",
+                  "庭園"
+                ],
                 "priceRange": "1泊2食 30,000円〜",
                 "officialUrl": "https://www.gorakadan.com",
                 "mapsUrl": "https://www.google.com/maps/search/?api=1&query=強羅花壇+箱根"
               }
             ],
-            "features": ["露天風呂", "貸切風呂", "レストラン", "売店"]
+            "features": [
+              "露天風呂",
+              "貸切風呂",
+              "レストラン",
+              "売店"
+            ]
           },
           "content": {
             "shortDescription": "年間2000万人が訪れる日本有数の温泉リゾート。20種類以上の泉質を持ち、芦ノ湖や大涌谷など観光スポットも豊富。",
@@ -542,13 +590,26 @@
           "images": {
             "main": "hakone",
             "thumbnail": "hakone",
-            "gallery": ["hakone", "hakone-yunohana", "hakone-gora"],
+            "gallery": [
+              "hakone",
+              "hakone-yunohana",
+              "hakone-gora"
+            ],
             "credit": "hakone"
           },
           "metadata": {
             "priority": 10,
-            "tags": ["人気", "アクセス良好", "観光", "日帰り可"],
-            "related": ["hakone-yunohana", "hakone-gora", "hakone-sengokuhara"],
+            "tags": [
+              "人気",
+              "アクセス良好",
+              "観光",
+              "日帰り可"
+            ],
+            "related": [
+              "hakone-yunohana",
+              "hakone-gora",
+              "hakone-sengokuhara"
+            ],
             "publishedAt": "2024-01-01T00:00:00Z",
             "updatedAt": "2024-12-01T00:00:00Z"
           },

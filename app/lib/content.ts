@@ -109,6 +109,68 @@ export async function loadTexts(): Promise<TextsConfig> {
 /**
  * Load theme content from JSON using static import to ensure bundling
  */
+/**
+ * 画像参照を解決（onsenKey + imageIndex → URL）
+ */
+function resolveImageReferences(obj: any): any {
+  if (typeof obj !== 'object' || obj === null) {
+    return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(item => resolveImageReferences(item));
+  }
+
+  const result: any = {};
+  for (const key in obj) {
+    const value = obj[key];
+    
+    // bgImageRefを解決
+    if (key === 'bgImageRef' && typeof value === 'object' && value.onsenKey !== undefined) {
+      const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
+      result['bgImage'] = imageUrl;
+    }
+    // imageオブジェクトでonsenKeyがある場合、urlを解決
+    else if (key === 'image' && typeof value === 'object' && value.onsenKey !== undefined) {
+      const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
+      result[key] = {
+        ...value,
+        url: imageUrl,
+      };
+      delete result[key].onsenKey;
+      delete result[key].imageIndex;
+    }
+    // ネストされたオブジェクトを再帰的に処理
+    else {
+      result[key] = resolveImageReferences(value);
+    }
+  }
+  
+  return result;
+}
+
+/**
+ * onsenKeyとimageIndexから画像URLを解決
+ */
+function resolveOnsenImageUrl(onsenKey: string, imageIndex: number = 0): string {
+  try {
+    // onsen-image-stock.jsonから画像を取得（相対パス）
+    const onsenImageStock = require('../../data/onsen-image-stock.json');
+    const images = onsenImageStock.onsenPages[onsenKey];
+    
+    if (!images || images.length === 0) {
+      console.warn(`No images found for onsen: ${onsenKey}`);
+      return '';
+    }
+
+    const image = images[imageIndex] || images[0];
+    return image.url || '';
+  } catch (error) {
+    console.error(`Failed to resolve onsen image: ${onsenKey}[${imageIndex}]`, error);
+    return '';
+  }
+}
+
 export async function loadContent(): Promise<ContentConfig> {
   if (cachedContent) return cachedContent;
 
@@ -137,8 +199,11 @@ export async function loadContent(): Promise<ContentConfig> {
     // Load texts
     const texts = await loadTexts();
     
+    // 画像参照を解決（onsenKey + imageIndex → URL）
+    const contentWithResolvedImages = resolveImageReferences(rawContent);
+    
     // 画像URLを解決（キーからURLに変換）
-    const resolvedContent = resolveImageUrls(rawContent);
+    const resolvedContent = resolveImageUrls(contentWithResolvedImages);
     cachedContent = {
       ...resolvedContent,
       texts,
