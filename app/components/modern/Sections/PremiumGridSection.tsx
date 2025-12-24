@@ -105,7 +105,9 @@ export function PremiumGridSection({
       {/* カードグリッド - マイクロインタラクション強化 */}
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div
-          className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-${layout.columns} gap-${layout.gap === 'large' ? '8' : '6'}`}
+          className={`grid grid-cols-1 md:grid-cols-2 ${
+            layout.columns === 3 ? 'lg:grid-cols-3' : layout.columns === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-2'
+          } ${layout.gap === 'large' ? 'gap-8' : 'gap-6'}`}
         >
           {items.map((item, index) => (
             <motion.div

@@ -2,6 +2,8 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
 import { resolveWeeklyRotation } from './weekly-rotation';
+import onsenImageStock from '../../data/onsen-image-stock.json';
+import unsplashOnsenData from '../../data/unsplash-onsen-images.json';
 
 // Import common theme types
 import type {
@@ -155,20 +157,21 @@ function resolveImageReferences(obj: any): any {
  */
 function resolveOnsenImageUrl(onsenKey: string, imageIndex: number = 0): string {
   try {
-    // onsen-image-stock.jsonから画像を取得（相対パス）
-    const onsenImageStock = require('../../data/onsen-image-stock.json');
-    const images = onsenImageStock.onsenPages[onsenKey];
+    // onsen-image-stock.jsonから画像を取得
+    const images = onsenImageStock.onsenPages[onsenKey as keyof typeof onsenImageStock.onsenPages];
     
     if (!images || images.length === 0) {
       console.warn(`No images found for onsen: ${onsenKey}`);
-      return '';
+      // フォールバック画像を返す
+      return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
     }
 
     const image = images[imageIndex] || images[0];
-    return image.url || '';
+    return image.url || 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
   } catch (error) {
     console.error(`Failed to resolve onsen image: ${onsenKey}[${imageIndex}]`, error);
-    return '';
+    // エラー時のフォールバック画像
+    return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
   }
 }
 
@@ -206,7 +209,6 @@ export async function loadContent(): Promise<ContentConfig> {
     }
     
     // 30箇所の温泉データを pages.docs に自動追加
-    const unsplashOnsenData = require('../../data/unsplash-onsen-images.json');
     if (unsplashOnsenData && unsplashOnsenData.images) {
       // 既存のdocsページを保持
       const existingDocs = rawContent.pages?.docs || [];
