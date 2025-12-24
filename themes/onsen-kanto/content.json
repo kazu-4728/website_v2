@@ -165,10 +165,11 @@
             "gradient": "from-ocean-blue/20 via-sky-blue/10 to-transparent"
           },
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-            "alt": "草津温泉 湯畑",
+            "alt": "草津温泉 湯畑パノラマ",
             "position": "center",
-            "scale": "cover"
+            "scale": "cover",
+            "onsenKey": "kusatsu",
+            "imageIndex": 1
           },
           "typography": {
             "titleSize": "text-6xl md:text-8xl lg:text-9xl",
@@ -242,21 +243,20 @@
               }
             },
             {
-              "title": "鬼怒川温泉",
-              "description": "渓谷美と豊かな湯量が魅力の北関東の名湯。日光へのアクセスも便利。",
+              "title": "熱海温泉",
+              "description": "海を望む温泉リゾート。源泉数、湧出量ともに日本屈指の大温泉地。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%28%E7%BE%A4%E9%A6%AC%E7%9C%8C%29_%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%E3%81%AE%E6%B9%AF%E7%95%91%E3%81%AB%E3%81%A6%E3%80%82%E5%B7%A6%E3%82%92%E5%90%91%E3%81%8F%E3%81%A8%E8%A6%B3%E5%85%89%E5%AE%A2%E5%90%91%E3%81%91%E3%81%AE%E7%84%A1%E6%96%99%E3%81%AE%E6%BA%90%E6%B3%89%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E7%86%B1%E3%81%8F%E3%81%A6%E9%9B%A3%E3%81%97%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82_-_panoramio.jpg",
-                "alt": "草津温泉 湯畑パノラマ",
+                "alt": "熱海温泉街の夕景",
                 "focus": "center center",
                 "overlay": {
                   "type": "light-reflection",
-                  "opacity": 0.15
+                  "opacity": 0.25
                 },
-                "onsenKey": "kusatsu",
-                "imageIndex": 1
+                "onsenKey": "atami",
+                "imageIndex": 0
               },
-              "link": "/kinugawa",
-              "category": "渓谷",
+              "link": "/atami",
+              "category": "海辺",
               "animation": {
                 "hover": "zoom-rotate",
                 "scroll": "fade-up"
@@ -304,20 +304,21 @@
               }
             },
             {
-              "title": "水上温泉郷",
-              "description": "利根川源流域に広がる温泉郷。渓流沿いの露天風呂が魅力。",
+              "title": "日光湯元温泉",
+              "description": "奥日光の秘湯。標高1,500mの高地に湧く乳白色の硫黄泉。",
               "image": {
-                "alt": "箱根湯の花温泉（代替：渓流露天風呂イメージ）",
-                "focus": "center center",
+                "alt": "那須湯本温泉（代替：高地温泉イメージ）",
+                "focus": "center top",
                 "overlay": {
                   "type": "mist",
-                  "opacity": 0.3
+                  "opacity": 0.35
                 },
-                "onsenKey": "atami",
+                "onsenKey": "nasu",
                 "imageIndex": 0
               },
-              "link": "/minakami",
-              "category": "渓流",
+              "link": "/nikko-yumoto",
+              "category": "秘湯",
+              "badge": "標高1,500m",
               "animation": {
                 "hover": "zoom-rotate",
                 "scroll": "fade-up"
@@ -338,9 +339,10 @@
           },
           "variant": "sunset",
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
             "alt": "伊香保温泉 石段街",
-            "mask": "wave-diagonal"
+            "mask": "wave-diagonal",
+            "onsenKey": "ikaho",
+            "imageIndex": 0
           },
           "typography": {
             "titleOrientation": "vertical-right",
