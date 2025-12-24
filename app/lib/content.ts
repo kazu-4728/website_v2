@@ -1,6 +1,9 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
+import { resolveWeeklyRotation } from './weekly-rotation';
+import onsenImageStock from '../../data/onsen-image-stock.json';
+import unsplashOnsenData from '../../data/unsplash-onsen-images.json';
 
 // Import common theme types
 import type {
@@ -109,6 +112,69 @@ export async function loadTexts(): Promise<TextsConfig> {
 /**
  * Load theme content from JSON using static import to ensure bundling
  */
+/**
+ * 画像参照を解決（onsenKey + imageIndex → URL）
+ */
+function resolveImageReferences(obj: any): any {
+  if (typeof obj !== 'object' || obj === null) {
+    return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(item => resolveImageReferences(item));
+  }
+
+  const result: any = {};
+  for (const key in obj) {
+    const value = obj[key];
+    
+    // bgImageRefを解決
+    if (key === 'bgImageRef' && typeof value === 'object' && value.onsenKey !== undefined) {
+      const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
+      result['bgImage'] = imageUrl;
+    }
+    // imageオブジェクトでonsenKeyがある場合、urlを解決
+    else if (key === 'image' && typeof value === 'object' && value.onsenKey !== undefined) {
+      const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
+      result[key] = {
+        ...value,
+        url: imageUrl,
+      };
+      delete result[key].onsenKey;
+      delete result[key].imageIndex;
+    }
+    // ネストされたオブジェクトを再帰的に処理
+    else {
+      result[key] = resolveImageReferences(value);
+    }
+  }
+  
+  return result;
+}
+
+/**
+ * onsenKeyとimageIndexから画像URLを解決
+ */
+function resolveOnsenImageUrl(onsenKey: string, imageIndex: number = 0): string {
+  try {
+    // onsen-image-stock.jsonから画像を取得
+    const images = onsenImageStock.onsenPages[onsenKey as keyof typeof onsenImageStock.onsenPages];
+    
+    if (!images || images.length === 0) {
+      console.warn(`No images found for onsen: ${onsenKey}`);
+      // フォールバック画像を返す
+      return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
+    }
+
+    const image = images[imageIndex] || images[0];
+    return image.url || 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
+  } catch (error) {
+    console.error(`Failed to resolve onsen image: ${onsenKey}[${imageIndex}]`, error);
+    // エラー時のフォールバック画像
+    return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
+  }
+}
+
 export async function loadContent(): Promise<ContentConfig> {
   if (cachedContent) return cachedContent;
 
@@ -137,8 +203,46 @@ export async function loadContent(): Promise<ContentConfig> {
     // Load texts
     const texts = await loadTexts();
     
+    // 週替わりブログローテーションを適用
+    if (rawContent.pages?.home?.blog?.posts) {
+      rawContent.pages.home.blog.posts = resolveWeeklyRotation(rawContent.pages.home.blog.posts);
+    }
+    
+    // 30箇所の温泉データを pages.docs に自動追加
+    if (unsplashOnsenData && unsplashOnsenData.images) {
+      // 既存のdocsページを保持
+      const existingDocs = rawContent.pages?.docs || [];
+      const existingSlugs = new Set(existingDocs.map((doc: any) => doc.slug));
+      
+      // 30箇所の温泉データをdocsページに変換
+      const generatedDocs = unsplashOnsenData.images.map((onsen: any) => ({
+        slug: onsen.slug,
+        title: onsen.name,
+        subtitle: onsen.location,
+        description: onsen.description,
+        category: '温泉地',
+        image: onsen.imgUrl,
+        content: `## ${onsen.name}について\n\n${onsen.description}\n\n※ 詳細情報は準備中です。`,
+        // 基本的な温泉情報（オプション）
+        onsen: undefined, // 詳細情報が必要な場合はここに追加
+      }));
+      
+      // 既存のdocsと生成されたdocsをマージ（重複を避ける）
+      const mergedDocs = [
+        ...existingDocs,
+        ...generatedDocs.filter((doc: any) => !existingSlugs.has(doc.slug)),
+      ];
+      
+      // rawContentを更新
+      if (!rawContent.pages) rawContent.pages = { home: { hero: {}, sections: [] } as any };
+      rawContent.pages.docs = mergedDocs;
+    }
+    
+    // 画像参照を解決（onsenKey + imageIndex → URL）
+    const contentWithResolvedImages = resolveImageReferences(rawContent);
+    
     // 画像URLを解決（キーからURLに変換）
-    const resolvedContent = resolveImageUrls(rawContent);
+    const resolvedContent = resolveImageUrls(contentWithResolvedImages);
     cachedContent = {
       ...resolvedContent,
       texts,
@@ -249,6 +353,18 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
           
           return resolvedSection;
         }),
+        blog: content.pages.home.blog ? {
+          ...content.pages.home.blog,
+          posts: content.pages.home.blog.posts.map(post => ({
+            ...post,
+            image: post.image ? (typeof post.image === 'string' ? post.image : resolveImageUrl(
+              post.image,
+              'blog',
+              post.slug,
+              'onsen,hot spring,japan'
+            )) : undefined,
+          })),
+        } : undefined,
       },
       docs: content.pages.docs?.map(doc => ({
         ...doc,
@@ -259,39 +375,6 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
           `onsen,${doc.slug},japan`
         ),
       })),
-      blog: content.pages.blog ? {
-        ...content.pages.blog,
-        posts: content.pages.blog.posts.map(post => ({
-          ...post,
-          image: resolveImageUrl(
-            post.image,
-            'blog',
-            post.slug,
-            'onsen,hot spring,japan'
-          ),
-        })),
-      } : undefined,
-      features: content.pages.features ? {
-        ...content.pages.features,
-        hero: {
-          ...content.pages.features.hero,
-          image: resolveImageUrl(
-            content.pages.features.hero.image,
-            'features',
-            'hero',
-            'onsen,hot spring,japan'
-          ),
-        },
-        items: content.pages.features.items.map(item => ({
-          ...item,
-          image: resolveImageUrl(
-            item.image,
-            'features',
-            item.title.toLowerCase().replace(/\s+/g, '-'),
-            'onsen,hot spring,japan'
-          ),
-        })),
-      } : undefined,
     },
   };
 
@@ -366,7 +449,7 @@ export async function getAllDocSlugs(): Promise<string[]> {
  */
 export async function getBlogPost(slug: string): Promise<BlogPost | undefined> {
   const content = await loadContent();
-  return content.pages.blog?.posts.find(post => post.slug === slug);
+  return content.pages.home.blog?.posts.find(post => post.slug === slug);
 }
 
 /**
@@ -374,7 +457,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | undefined> {
  */
 export async function getAllBlogSlugs(): Promise<string[]> {
   const content = await loadContent();
-  return content.pages.blog?.posts.map(post => post.slug) || [];
+  return content.pages.home.blog?.posts.map(post => post.slug) || [];
 }
 
 // ==========================================

@@ -1,35 +1,21 @@
-import {
-  loadContent,
-  SplitFeatureSection,
-  GridGallerySection,
-  TestimonialsSection,
-  CtaSection,
-  StepsSection,
-  AreaSelectionSection,
-  RecommendedOnsenSection,
-  OnsenListSection,
-} from './lib/content';
+import { loadContent } from './lib/content';
 import { OceanViewHero } from './components/modern/Hero/OceanViewHero';
-import { SplitFeature } from './components/_legacy/home/SplitFeature';
-import { GridGallery } from './components/_legacy/home/GridGallery';
-import { Testimonials } from './components/_legacy/home/Testimonials';
-import { CtaFullscreen } from './components/_legacy/home/CtaFullscreen';
-import { Steps } from './components/_legacy/home/Steps';
-import { AreaSelection } from './components/_legacy/home/AreaSelection';
-import { RecommendedOnsen } from './components/_legacy/home/RecommendedOnsen';
-import { OnsenList } from './components/_legacy/home/OnsenList';
-import { isOnsenDoc } from './lib/onsen-types';
+import { ImmersiveStorySection } from './components/modern/Sections/ImmersiveStorySection';
+import { PremiumGridSection } from './components/modern/Sections/PremiumGridSection';
+import { OverlapSection } from './components/modern/Sections/OverlapSection';
 
 export default async function Page() {
-  // テーマ設定をロード（サーバーサイド）
+  // JSON First - すべてのデータをcontent.jsonから取得
   const content = await loadContent();
   const { hero, sections } = content.pages.home;
 
-  // Get onsen pages for OnsenList component
-  const onsenPages = (content.pages.docs || []).filter(isOnsenDoc);
+  // セクションをタイプ別に取得（JSON駆動）
+  const storySection = sections.find(s => s.type === 'immersive-story');
+  const gridSection = sections.find(s => s.type === 'premium-grid');
+  const experienceSection = sections.find(s => s.type === 'overlap-section');
 
   return (
-    <main className="min-h-screen selection:bg-primary-500/30">
+    <>
       {/* Hero Section - Ocean & Sky プレミアムHero */}
       <OceanViewHero
         title={hero.title}
@@ -39,73 +25,46 @@ export default async function Page() {
         actions={hero.actions}
       />
 
-      {/* Dynamic Sections */}
-      <div className="flex flex-col">
-        {sections.map((section) => {
-          switch (section.type) {
-            case 'area-selection':
-              return (
-                <AreaSelection
-                  key={section.id}
-                  data={section as AreaSelectionSection}
-                />
-              );
+      {/* ストーリーテリング - 没入型セクション */}
+      {storySection && (
+        <ImmersiveStorySection
+          title={storySection.title}
+          subtitle={storySection.subtitle}
+          description={storySection.description}
+          image={(storySection as any).image}
+          overlay={(storySection as any).overlay}
+          typography={(storySection as any).typography}
+          animation={(storySection as any).animation}
+        />
+      )}
 
-            case 'recommended-onsen':
-              return (
-                <RecommendedOnsen
-                  key={section.id}
-                  data={section as RecommendedOnsenSection}
-                />
-              );
+      {/* エリアから探す - プレミアムグリッド */}
+      {gridSection && 'items' in gridSection && (
+        <PremiumGridSection
+          title={gridSection.title}
+          subtitle={gridSection.subtitle}
+          description={gridSection.description}
+          layout={(gridSection as any).layout}
+          variant={(gridSection as any).variant}
+          overlay={(gridSection as any).overlay}
+          items={(gridSection as any).items}
+        />
+      )}
 
-            case 'onsen-list':
-              return (
-                <OnsenList
-                  key={section.id}
-                  data={section as OnsenListSection}
-                  onsenPages={onsenPages}
-                  texts={content.texts}
-                />
-              );
-
-            case 'split-feature':
-              return (
-                <SplitFeature
-                  key={section.id}
-                  data={section as SplitFeatureSection}
-                />
-              );
-
-            case 'grid-gallery':
-              return (
-                <GridGallery
-                  key={section.id}
-                  data={section as GridGallerySection}
-                />
-              );
-
-            case 'testimonials':
-              return (
-                <Testimonials
-                  key={section.id}
-                  data={section as TestimonialsSection}
-                />
-              );
-
-            case 'steps':
-              return <Steps key={section.id} data={section as StepsSection} />;
-
-            case 'cta-fullscreen':
-              return (
-                <CtaFullscreen key={section.id} data={section as CtaSection} />
-              );
-
-            default:
-              return null;
-          }
-        })}
-      </div>
-    </main>
+      {/* 温泉への旅 - オーバーラップレイアウト */}
+      {experienceSection && (
+        <OverlapSection
+          title={experienceSection.title}
+          subtitle={experienceSection.subtitle}
+          description={experienceSection.description}
+          layout={(experienceSection as any).layout}
+          variant={(experienceSection as any).variant}
+          image={(experienceSection as any).image}
+          typography={(experienceSection as any).typography}
+          action={(experienceSection as any).action}
+          animation={(experienceSection as any).animation}
+        />
+      )}
+    </>
   );
 }

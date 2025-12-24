@@ -30,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   // 動的ブログ記事ページ
-  const blogRoutes = (content.pages.blog?.posts || []).map((post) => ({
+  const blogRoutes = (content.pages.home.blog?.posts || []).map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: 'monthly' as const,
