@@ -1,0 +1,274 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "location": "群馬県",
+      "name": "草津温泉",
+      "slug": "kusatsu",
+      "description": "日本一の自然湧出量を誇り、木の温もりを感じる伝統的な湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000",
+      "alt": "草津温泉の伝統的な湯船"
+    },
+    {
+      "id": 2,
+      "location": "神奈川県",
+      "name": "箱根温泉",
+      "slug": "hakone",
+      "description": "箱根の山々を望む、開放感あふれる絶景露天風呂の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000",
+      "alt": "箱根の絶景露天風呂"
+    },
+    {
+      "id": 3,
+      "location": "栃木県",
+      "name": "鬼怒川温泉",
+      "slug": "kinugawa",
+      "description": "鬼怒川渓谷の切り立った崖を望む、自然と一体化した湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1000",
+      "alt": "鬼怒川渓谷沿いの露天風呂"
+    },
+    {
+      "id": 4,
+      "location": "群馬県",
+      "name": "伊香保温泉",
+      "slug": "ikaho",
+      "description": "鉄分を多く含み、独特の茶褐色をした『黄金の湯』が満ちる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000",
+      "alt": "伊香保温泉の黄金の湯"
+    },
+    {
+      "id": 5,
+      "location": "群馬県",
+      "name": "万座温泉",
+      "slug": "manza",
+      "description": "標高1,800m。硫黄成分が濃く、白濁したお湯が特徴の高山露天風呂。",
+      "imgUrl": "https://images.unsplash.com/photo-1610366398516-46da97841961?auto=format&fit=crop&q=80&w=1000",
+      "alt": "万座温泉の白濁した湯船"
+    },
+    {
+      "id": 6,
+      "location": "群馬県",
+      "name": "四万温泉",
+      "slug": "shima",
+      "description": "レトロな建築様式と、清流のような透明度の高いお湯が自慢の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=1000",
+      "alt": "四万温泉の伝統的な内湯"
+    },
+    {
+      "id": 7,
+      "location": "栃木県",
+      "name": "那須温泉",
+      "slug": "nasu",
+      "description": "1300年の歴史。木造の湯小屋に並ぶ、風情ある複数の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1000",
+      "alt": "那須温泉の歴史ある湯船"
+    },
+    {
+      "id": 8,
+      "location": "千葉県",
+      "name": "鴨川温泉",
+      "slug": "kamogawa",
+      "description": "太平洋の水平線を眺めながら、波の音を聞けるオーシャンビューの湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1563911191471-3c010d65a7bc?auto=format&fit=crop&q=80&w=1000",
+      "alt": "鴨川の海が見える露天風呂"
+    },
+    {
+      "id": 9,
+      "location": "埼玉県",
+      "name": "秩父温泉",
+      "slug": "chichibu",
+      "description": "山々に囲まれた静かな環境で、肌に優しいアルカリ性のお湯が満ちる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=1000",
+      "alt": "秩父の自然豊かな湯船"
+    },
+    {
+      "id": 10,
+      "location": "神奈川県",
+      "name": "湯河原温泉",
+      "slug": "yugawara",
+      "description": "万葉集にも詠まれた名湯。緑豊かな庭園に溶け込むような露天風呂。",
+      "imgUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80&w=1000",
+      "alt": "湯河原の静かな露天風呂"
+    },
+    {
+      "id": 11,
+      "location": "群馬県",
+      "name": "宝川温泉",
+      "slug": "takaragawa",
+      "description": "広大な敷地に広がる、圧倒的なスケールの巨石を配した野天風呂。",
+      "imgUrl": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&q=80&w=1000",
+      "alt": "宝川温泉の巨大な湯船"
+    },
+    {
+      "id": 12,
+      "location": "栃木県",
+      "name": "日光湯元温泉",
+      "slug": "nikko-yumoto",
+      "description": "奥日光の最奥部、硫黄の香りと白濁したお湯が本格的な湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=1000",
+      "alt": "日光湯元の雪見露天風呂"
+    },
+    {
+      "id": 13,
+      "location": "千葉県",
+      "name": "養老渓谷温泉",
+      "slug": "yorokeikoku",
+      "description": "植物由来の成分を含んだ、コーヒーのような黒褐色のお湯が特徴の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=1000",
+      "alt": "養老渓谷の黒湯の湯船"
+    },
+    {
+      "id": 14,
+      "location": "東京都",
+      "name": "秋川渓谷 瀬音の湯",
+      "slug": "seotonoyu",
+      "description": "都心からすぐの秘境。アルカリ度の高い美肌の湯が溢れる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1544124499-18386301ad1d?auto=format&fit=crop&q=80&w=1000",
+      "alt": "秋川渓谷の露天風呂"
+    },
+    {
+      "id": 15,
+      "location": "茨城県",
+      "name": "袋田温泉",
+      "slug": "fukuroda",
+      "description": "名瀑・袋田の滝を訪れる際の癒やしとなる、落ち着いた岩造りの湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1507652313519-d4511f7ca4ad?auto=format&fit=crop&q=80&w=1000",
+      "alt": "袋田温泉の落ち着いた湯船"
+    },
+    {
+      "id": 16,
+      "location": "群馬県",
+      "name": "尻焼温泉",
+      "slug": "shiriyaki",
+      "description": "川の底からお湯が湧き出し、川全体が巨大な露天風呂となっている天然の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=1000",
+      "alt": "尻焼温泉の川の湯船"
+    },
+    {
+      "id": 17,
+      "location": "栃木県",
+      "name": "塩原温泉郷",
+      "slug": "shiobara",
+      "description": "11もの泉質があり、箒川の渓谷美を間近に感じる情緒溢れる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=1000",
+      "alt": "塩原温泉の渓流露天風呂"
+    },
+    {
+      "id": 18,
+      "location": "神奈川県",
+      "name": "強羅温泉",
+      "slug": "gora",
+      "description": "箱根登山鉄道の終着駅近く。大文字山を望む開放的な湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=1000",
+      "alt": "強羅温泉の露天風呂"
+    },
+    {
+      "id": 19,
+      "location": "栃木県",
+      "name": "中禅寺温泉",
+      "slug": "chuzenji",
+      "description": "日光・中禅寺湖畔。男体山の麓で硫黄の香りに包まれる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1000",
+      "alt": "中禅寺湖近くの湯船"
+    },
+    {
+      "id": 20,
+      "location": "千葉県",
+      "name": "勝浦温泉",
+      "slug": "katsuura",
+      "description": "太平洋を180度見渡せる、絶景の展望露天風呂が自慢の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1563911191471-3c010d65a7bc?auto=format&fit=crop&q=80&w=1000",
+      "alt": "勝浦の展望風呂"
+    },
+    {
+      "id": 21,
+      "location": "栃木県",
+      "name": "湯西川温泉",
+      "slug": "yunishigawa",
+      "description": "平家落人伝説の里。雪深い冬には「かまくら」と雪見風呂が楽しめる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1610366398516-46da97841961?auto=format&fit=crop&q=80&w=1000",
+      "alt": "湯西川の雪見風呂"
+    },
+    {
+      "id": 22,
+      "location": "神奈川県",
+      "name": "七沢温泉",
+      "slug": "nanasawa",
+      "description": "東丹沢の麓。強アルカリ性の「とろとろ」した肌触りの湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&q=80&w=1000",
+      "alt": "七沢温泉の静かな湯船"
+    },
+    {
+      "id": 23,
+      "location": "茨城県",
+      "name": "大洗温泉",
+      "slug": "oarai",
+      "description": "太平洋の潮騒を聞きながら、ナトリウム塩化物泉で温まる湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1507652313519-d4511f7ca4ad?auto=format&fit=crop&q=80&w=1000",
+      "alt": "大洗の波打ち際にある湯船"
+    },
+    {
+      "id": 24,
+      "location": "埼玉県",
+      "name": "神川温泉",
+      "slug": "kamikawa",
+      "description": "県北部の歴史ある温泉。檜の香りと柔らかなお湯が心地よい湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=1000",
+      "alt": "神川の檜風呂"
+    },
+    {
+      "id": 25,
+      "location": "東京都",
+      "name": "奥多摩温泉",
+      "slug": "okutama",
+      "description": "多摩川の源流に近い。登山の疲れを癒す森林浴気分の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1544124499-18386301ad1d?auto=format&fit=crop&q=80&w=1000",
+      "alt": "奥多摩の露天風呂"
+    },
+    {
+      "id": 26,
+      "location": "栃木県",
+      "name": "川治温泉",
+      "slug": "kawaji",
+      "description": "男鹿川と鬼怒川の合流点。岩の間を流れる川音をBGMに入浴する湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1000",
+      "alt": "川治温泉の岩風呂"
+    },
+    {
+      "id": 27,
+      "location": "神奈川県",
+      "name": "仙石原温泉",
+      "slug": "sengokuhara",
+      "description": "大涌谷から引き湯された白濁の湯. ススキの原野に近い高原の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1000",
+      "alt": "仙石原の白いお湯の湯船"
+    },
+    {
+      "id": 28,
+      "location": "群馬県",
+      "name": "老神温泉",
+      "slug": "oigami",
+      "description": "片品川の深い渓谷を眼下に望む、素朴で力強い石造りの湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&q=80&w=1000",
+      "alt": "老神温泉の渓谷展望風呂"
+    },
+    {
+      "id": 29,
+      "location": "千葉県",
+      "name": "白浜温泉",
+      "slug": "shirahama",
+      "description": "房総半島最南端。野島埼灯台を遠くに望む開放感抜群の湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1563911191471-3c010d65a7bc?auto=format&fit=crop&q=80&w=1000",
+      "alt": "白浜の絶景露天風呂"
+    },
+    {
+      "id": 30,
+      "location": "群馬県",
+      "name": "川原湯温泉",
+      "slug": "kawarayu",
+      "description": "八ッ場ダムを望む高台。新しい温泉街の清々しい檜造りの湯船。",
+      "imgUrl": "https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000",
+      "alt": "川原湯温泉の展望湯船"
+    }
+  ]
+}

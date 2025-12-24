@@ -51,7 +51,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         <div className="relative aspect-video rounded-2xl overflow-hidden border border-white/10">
           <Image
-            src={post.image}
+            src={post.image || '/images/default-onsen.jpg'}
             alt={post.title}
             fill
             className="object-cover"
@@ -63,7 +63,7 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Content */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="prose prose-invert prose-lg max-w-none">
-          <MarkdownRenderer content={post.content} />
+          <MarkdownRenderer content={post.content || ''} />
         </div>
       </div>
     </main>
