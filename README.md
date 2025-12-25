@@ -2,11 +2,11 @@
 
 [![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Topics](https://img.shields.io/badge/Topics-2-blue)
+![Topics](https://img.shields.io/badge/Topics-1-blue)
 ![Posts](https://img.shields.io/badge/Posts-0-purple)
 ![Status](https://img.shields.io/badge/Status-Live-green)
 
-> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から隠れた名所まで、心と体を癒す至福の湯を徹底ガイド。** - Powered by Next.js 15 & Cinematic UI
+> **関東エリアの名湯・秘湯を巡る旅。歴史ある温泉地から絶景の隠れ宿まで、心と体を深く癒す極上の温泉体験を徹底ガイド。** - Powered by Next.js 15 & Cinematic UI
 
 ## 🌐 ライブデモ
 
@@ -21,6 +21,7 @@
 このサイトの構造は `content.json` から自動生成されています。
 
 - [ホーム](/)
+- [温泉を探す](#area-selection)
 - [特集記事](/blog)
 - [おすすめプラン](/features)
 - [お問い合わせ](/contact)
@@ -52,9 +53,9 @@
 
 ## 📊 プロジェクト統計
 
-- **ドキュメント数**: 2 Chapters
+- **ドキュメント数**: 1 Chapters
 - **ブログ記事数**: 0 Stories
-- **総ページ数**: 約 7 ページ
+- **総ページ数**: 約 6 ページ
 - **依存パッケージ**: 7 個
 
 ---
@@ -157,4 +158,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/12/25 7:17:07*
+*最終更新: 2025/12/25 10:40:00*
