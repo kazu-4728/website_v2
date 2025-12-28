@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
+import { getThemeImage, getOnsenImage, getOnsenImageFromMaster, optimizeImageUrl } from './images';
 import { resolveWeeklyRotation } from './weekly-rotation';
 import onsenImageStock from '../../data/onsen-image-stock.json';
 import unsplashOnsenData from '../../data/unsplash-onsen-images.json';
@@ -355,6 +355,22 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
                 'onsen,hot spring,japan'
               ),
             }));
+          }
+          
+          if (section.type === 'premium-grid' && section.items) {
+            resolvedSection.items = section.items.map((item: any) => {
+              // リンクからslugを抽出
+              const slug = item.link?.replace('/docs/', '') || '';
+              // マスターデータから画像を取得
+              const masterImage = getOnsenImageFromMaster(slug, 'hero');
+              return {
+                ...item,
+                image: {
+                  ...item.image,
+                  url: masterImage || item.image?.url || '',
+                },
+              };
+            });
           }
           
           if (section.type === 'recommended-onsen' && section.items) {

@@ -32,7 +32,7 @@ export function OceanViewHero({
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
   return (
-    <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[70vh] md:h-[80vh] lg:h-screen min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax */}
       <motion.div
         className="absolute inset-0 z-0"
@@ -44,8 +44,11 @@ export function OceanViewHero({
           fill
           className="object-cover"
           priority
-          quality={95}
+          quality={90}
           sizes="100vw"
+          fetchPriority="high"
+          loading="eager"
+          unoptimized={false}
         />
         {/* Light Overlay with温泉 & Sky Theme */}
         <div className="absolute inset-0 bg-gradient-to-b from-sky-200/40 via-blue-100/30 to-white/50" />
@@ -93,7 +96,7 @@ export function OceanViewHero({
         {/* Description - 温泉 & Sky テーマ（視認性最優先）*/}
         {description && (
           <motion.p
-            className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto mb-10 leading-relaxed font-semibold backdrop-blur-md bg-white/90 px-8 py-5 rounded-2xl border border-sky-300/60 shadow-xl"
+            className="text-base md:text-lg lg:text-xl text-gray-900 max-w-3xl mx-auto mb-8 md:mb-10 leading-relaxed font-semibold md:backdrop-blur-md bg-white/90 px-4 md:px-8 py-4 md:py-5 rounded-2xl border border-sky-300/60 shadow-xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -111,9 +114,9 @@ export function OceanViewHero({
             transition={{ duration: 0.8, delay: 1 }}
           >
             {actions.map((action, index) => (
-              <Link key={index} href={action.href}>
+              <Link key={index} href={action.href} className="min-h-[44px] min-w-[44px]">
                 <motion.button
-                  className={`px-10 py-4 rounded-full text-lg font-semibold transition-all duration-300 ${
+                  className={`px-6 md:px-10 py-3 md:py-4 rounded-full text-base md:text-lg font-semibold transition-all duration-300 ${
                     action.variant === 'primary'
                       ? 'btn-premium shadow-2xl'
                       : 'btn-accent shadow-2xl'

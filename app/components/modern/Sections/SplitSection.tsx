@@ -49,10 +49,10 @@ export function SplitSection({
   const styles = variantStyles[variant];
 
   return (
-    <section className={`${styles.bg} py-32 md:py-40`}>
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section className={`${styles.bg} py-16 md:py-24 lg:py-32`}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         <div
-          className={`grid md:grid-cols-2 gap-12 lg:gap-16 items-center ${
+          className={`grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center ${
             imagePosition === 'right' ? 'md:flex-row-reverse' : ''
           }`}
         >
@@ -64,7 +64,7 @@ export function SplitSection({
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="relative h-[400px] md:h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src={image}
                 alt={imageAlt}
@@ -86,23 +86,23 @@ export function SplitSection({
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             {subtitle && (
-              <p className={`text-sm md:text-base font-bold tracking-[0.2em] mb-4 ${styles.accent}`}>
+              <p className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.2em] mb-4 ${styles.accent}`}>
                 {subtitle}
               </p>
             )}
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
               {title}
             </h2>
 
-            <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+            <p className="text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed mb-8">
               {description}
             </p>
 
             {action && (
-              <Link href={action.href}>
+              <Link href={action.href} className="min-h-[44px] min-w-[44px] inline-block">
                 <motion.button
-                  className={`${styles.button} text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg transition-all duration-300`}
+                  className={`${styles.button} text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-base md:text-lg shadow-lg transition-all duration-300`}
                   whileHover={{ scale: 1.05, boxShadow: '0 20px 40px -12px rgba(0, 0, 0, 0.3)' }}
                   whileTap={{ scale: 0.95 }}
                 >

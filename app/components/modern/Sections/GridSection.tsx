@@ -42,35 +42,35 @@ export function GridSection({
   const styles = variantStyles[variant];
 
   return (
-    <section className={`${styles.bg} py-32 md:py-40`}>
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section className={`${styles.bg} py-16 md:py-24 lg:py-32`}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         {/* セクションヘッダー */}
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-12 md:mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
           {subtitle && (
-            <p className={`text-sm md:text-base font-bold tracking-[0.2em] mb-4 ${styles.accent}`}>
+            <p className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.2em] mb-4 ${styles.accent}`}>
               {subtitle}
             </p>
           )}
 
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
             {title}
           </h2>
 
           {description && (
-            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="text-base md:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto">
               {description}
             </p>
           )}
         </motion.div>
 
         {/* カードグリッド */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {cards.map((card, index) => (
             <motion.div
               key={card.href}

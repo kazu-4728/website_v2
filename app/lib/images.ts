@@ -629,18 +629,23 @@ export function getImageMetadata(
 }
 
 /**
- * 温泉地の画像を取得（同期版）
+ * 温泉地の画像をマスターデータから取得
  * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
+ * @param type 画像タイプ（hero, gallery, thumbnail）
+ * @returns 画像URL
  * 注意: この関数はサーバーサイドでのみ使用可能（fsモジュールを使用）
  */
-export function getOnsenImage(onsenSlug: string): string {
+export function getOnsenImageFromMaster(
+  onsenSlug: string,
+  type: 'hero' | 'gallery' | 'thumbnail' = 'hero'
+): string {
   // サーバーサイドでのみfsモジュールを使用
   if (typeof window === 'undefined') {
     try {
       // 動的インポートを使用してfsモジュールを読み込む
       const fs = require('fs');
       const path = require('path');
-      const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
+      const jsonPath = path.join(process.cwd(), 'data', 'onsen-image-master.json');
       
       if (fs.existsSync(jsonPath)) {
         const fileContent = fs.readFileSync(jsonPath, 'utf-8');
@@ -650,23 +655,42 @@ export function getOnsenImage(onsenSlug: string): string {
         }
         
         const imageData = JSON.parse(fileContent);
-        const cachedImage = imageData[onsenSlug];
+        const onsenData = imageData[onsenSlug];
         
-        if (cachedImage?.url) {
-          return cachedImage.url;
+        if (onsenData) {
+          // 指定されたタイプの画像を取得
+          const imageInfo = onsenData[type];
+          if (imageInfo?.url) {
+            return imageInfo.url;
+          }
+          
+          // タイプが見つからない場合はheroをフォールバック
+          if (type !== 'hero' && onsenData.hero?.url) {
+            return onsenData.hero.url;
+          }
         }
       }
     } catch (error) {
       // エラーが発生した場合はフォールバックを使用
       // ビルド時にはエラーを出力しない（静かにフォールバック）
       if (process.env.NODE_ENV !== 'production' && process.env.SKIP_CHECK !== 'true') {
-        console.warn(`Failed to load Wikimedia image for ${onsenSlug}:`, error);
+        console.warn(`Failed to load master image for ${onsenSlug} (${type}):`, error);
       }
     }
   }
   
   // フォールバック: 事前定義された画像を使用
   return getThemeImage('onsen', onsenSlug, `onsen,${onsenSlug},japan`);
+}
+
+/**
+ * 温泉地の画像を取得（同期版）
+ * @param onsenSlug 温泉地のスラッグ（例: hakone, kusatsu）
+ * 注意: この関数はサーバーサイドでのみ使用可能（fsモジュールを使用）
+ * @deprecated 新しいコードでは getOnsenImageFromMaster を使用してください
+ */
+export function getOnsenImage(onsenSlug: string): string {
+  return getOnsenImageFromMaster(onsenSlug, 'hero');
 }
 
 /**

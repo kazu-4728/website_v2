@@ -45,14 +45,15 @@ export function ImmersiveStorySection({
     offset: ['start end', 'end start'],
   });
 
-  // 深いパララックス効果
+  // 深いパララックス効果（パフォーマンス最適化）
+  const scrollSpeed = animation?.scrollSpeed || 0.3; // デフォルト速度を下げてパフォーマンス向上
   const imageY = useTransform(
     scrollYProgress,
     [0, 1],
-    ['0%', `${(animation?.scrollSpeed || 0.5) * 100}%`]
+    ['0%', `${scrollSpeed * 50}%`] // 移動距離を制限してパフォーマンス向上
   );
-  const contentY = useTransform(scrollYProgress, [0, 1], ['0%', '25%']);
-  const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0, 1, 1, 0]);
+  const contentY = useTransform(scrollYProgress, [0, 1], ['0%', '20%']); // コンテンツの移動距離を調整
+  const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]); // フェードイン/アウトのタイミングを調整
 
   return (
     <section
@@ -69,9 +70,11 @@ export function ImmersiveStorySection({
           alt={image.alt}
           fill
           className="object-cover"
-          priority
-          quality={95}
+          priority={false}
+          quality={85}
           sizes="100vw"
+          loading="lazy"
+          unoptimized={false}
         />
         
         {/* 波形マスク付きオーバーレイ */}
@@ -105,12 +108,12 @@ export function ImmersiveStorySection({
 
       {/* コンテンツ - 明朝体縦書き対応 */}
       <motion.div
-        className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8"
+        className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-8"
         style={{ y: contentY, opacity }}
       >
         {subtitle && (
           <motion.p
-            className="text-sm md:text-base font-bold tracking-[0.3em] mb-6 text-white/90 text-center"
+            className="text-xs md:text-sm lg:text-base font-bold tracking-[0.3em] mb-4 md:mb-6 text-white/90 text-center"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -121,7 +124,7 @@ export function ImmersiveStorySection({
         )}
 
         <motion.h2
-          className={`${typography?.titleSize || 'text-6xl md:text-8xl lg:text-9xl'} font-bold mb-8 leading-[1.1] tracking-tight text-white text-center`}
+          className={`${typography?.titleSize || 'text-4xl md:text-6xl lg:text-8xl xl:text-9xl'} font-bold mb-6 md:mb-8 leading-[1.1] tracking-tight text-white text-center`}
           style={{
             fontFamily: typography?.font === 'serif' ? 'var(--font-heading)' : 'inherit',
             textShadow: '2px 2px 8px rgba(0, 0, 0, 0.5)',
@@ -140,7 +143,7 @@ export function ImmersiveStorySection({
         </motion.h2>
 
         <motion.p
-          className="text-xl md:text-2xl lg:text-3xl text-white/90 max-w-4xl mx-auto leading-relaxed text-center"
+          className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white/90 max-w-4xl mx-auto leading-relaxed text-center"
           style={{
             textShadow: '1px 1px 4px rgba(0, 0, 0, 0.5)',
           }}

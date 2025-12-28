@@ -74,9 +74,9 @@ export function PremiumGridSection({
   const styles = variantStyles[variant];
 
   return (
-    <section className={`bg-gradient-to-b ${styles.bg} py-32 md:py-48 relative`}>
+    <section className={`bg-gradient-to-b ${styles.bg} py-16 md:py-24 lg:py-32 xl:py-48 relative`}>
       {/* セクションヘッダー */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 mb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mb-12 md:mb-16 lg:mb-20">
         <motion.div
           className="text-center"
           initial={{ opacity: 0, y: 30 }}
@@ -85,17 +85,17 @@ export function PremiumGridSection({
           transition={{ duration: 0.8 }}
         >
           {subtitle && (
-            <p className={`text-sm md:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent}`}>
+            <p className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent}`}>
               {subtitle}
             </p>
           )}
 
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900 leading-tight tracking-tight font-serif">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-6 text-gray-900 leading-tight tracking-tight font-serif">
             {title}
           </h2>
 
           {description && (
-            <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               {description}
             </p>
           )}
@@ -103,11 +103,11 @@ export function PremiumGridSection({
       </div>
 
       {/* カードグリッド - マイクロインタラクション強化 */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         <div
           className={`grid grid-cols-1 md:grid-cols-2 ${
             layout.columns === 3 ? 'lg:grid-cols-3' : layout.columns === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-2'
-          } ${layout.gap === 'large' ? 'gap-8' : 'gap-6'}`}
+          } ${layout.gap === 'large' ? 'gap-4 sm:gap-6 md:gap-8' : 'gap-4 sm:gap-6 md:gap-8'}`}
         >
           {items.map((item, index) => (
             <motion.div
@@ -117,9 +117,9 @@ export function PremiumGridSection({
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.8, delay: index * 0.15 }}
             >
-              <Link href={item.link} className="group block">
+              <Link href={item.link} className="group block min-h-[44px]">
                 <motion.div
-                  className="relative h-[600px] rounded-3xl overflow-hidden shadow-xl"
+                  className="relative h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-xl"
                   whileHover={{ scale: 1.03, rotateY: 2 }}
                   transition={{ duration: 0.4 }}
                 >
@@ -141,6 +141,9 @@ export function PremiumGridSection({
                         objectPosition: item.image.focus || 'center center',
                       }}
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      loading="lazy"
+                      quality={85}
+                      unoptimized={false}
                     />
                   </motion.div>
 
@@ -174,7 +177,7 @@ export function PremiumGridSection({
                   {/* カテゴリバッジ - 浮き上がり効果 */}
                   {item.category && (
                     <motion.div
-                      className={`absolute top-6 left-6 ${styles.categoryBg} text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg backdrop-blur-sm`}
+                      className={`absolute top-4 md:top-6 left-4 md:left-6 ${styles.categoryBg} text-white px-3 md:px-4 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-bold shadow-lg md:backdrop-blur-sm`}
                       whileHover={{ y: -4, scale: 1.05 }}
                       transition={{ duration: 0.2 }}
                     >
@@ -185,7 +188,7 @@ export function PremiumGridSection({
                   {/* 特別バッジ */}
                   {item.badge && (
                     <motion.div
-                      className={`absolute top-6 right-6 ${styles.badge} px-4 py-2 rounded-full text-sm font-bold backdrop-blur-sm`}
+                      className={`absolute top-4 md:top-6 right-4 md:right-6 ${styles.badge} px-3 md:px-4 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-bold md:backdrop-blur-sm`}
                       initial={{ opacity: 0, scale: 0 }}
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.4, delay: index * 0.1 + 0.5 }}
@@ -196,12 +199,12 @@ export function PremiumGridSection({
 
                   {/* コンテンツ - スライドアップ効果 + 透明化＋ドロップシャドウ */}
                   <motion.div
-                    className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-gray-900/95 via-gray-900/80 to-transparent backdrop-blur-md"
+                    className="absolute bottom-0 left-0 right-0 p-4 md:p-6 lg:p-8 bg-gradient-to-t from-gray-900/95 via-gray-900/80 to-transparent md:backdrop-blur-md"
                     initial={{ y: 20 }}
                     whileHover={{ y: -10 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <h3 className="text-3xl md:text-4xl font-bold text-white mb-3 font-serif"
+                    <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 font-serif"
                       style={{
                         textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5)',
                       }}
@@ -210,7 +213,7 @@ export function PremiumGridSection({
                     </h3>
                     
                     <motion.p
-                      className="text-white/95 text-lg leading-relaxed"
+                      className="text-white/95 text-base md:text-lg leading-relaxed"
                       style={{
                         textShadow: '1px 1px 4px rgba(0, 0, 0, 0.8)',
                       }}

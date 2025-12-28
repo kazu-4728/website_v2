@@ -7,12 +7,12 @@
     "title": "File:Kusatsu-yubatake 2004.JPG",
     "source": "wikimedia"
   },
-  "kusatsu-yubatake": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%28%E7%BE%A4%E9%A6%AC%E7%9C%8C%29_%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%E3%81%AE%E6%B9%AF%E7%95%91%E3%81%AB%E3%81%A6%E3%80%82%E5%B7%A6%E3%82%92%E5%90%91%E3%81%8F%E3%81%A8%E8%A6%B3%E5%85%89%E5%AE%A2%E5%90%91%E3%81%91%E3%81%AE%E7%84%A1%E6%96%99%E3%81%AE%E6%BA%90%E6%B3%89%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E7%86%B1%E3%81%8F%E3%81%A6%E9%9B%A3%E3%81%97%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82_-_panoramio.jpg",
-    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161110033222/http://www.panoramio.com/user/4422627?with_photo_id=40922008\">Shift</a>",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:(群馬県) 草津温泉の湯畑にて。左を向くと観光客向けの無料の源泉がありますが、熱くて難しいでしょう。 - panoramio.jpg",
+  "kinugawa": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kinugawa_Onsen_01.jpg",
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7276470@N03\">Gene Jackson</a> from Brooklyn, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "title": "File:Kinugawa Onsen 01.jpg",
     "source": "wikimedia"
   },
   "ikaho": {
@@ -31,6 +31,30 @@
     "title": "File:那須湯本温泉 - panoramio.jpg",
     "source": "wikimedia"
   },
+  "shima": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yamagutirotenburo.jpg",
+    "author": "houzyouhideyosi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "title": "File:Yamagutirotenburo.jpg",
+    "source": "wikimedia"
+  },
+  "nikko": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oden1215&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oden1215 (page does not exist)\">Oden1215</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:にごり湯源泉かけ流し硫黄泉.jpg",
+    "source": "wikimedia"
+  },
+  "shiobara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hokigawa_river_and_Shiobara_valley_001.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kanohara\" title=\"User:Kanohara\">Kanohara</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Kanohara\" title=\"User talk:Kanohara\"><span class=\"signature-talk\">talk</span></a>)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "File:Hokigawa river and Shiobara valley 001.jpg",
+    "source": "wikimedia"
+  },
   "atami": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
     "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
@@ -39,92 +63,12 @@
     "title": "File:181122 Atami Onsen Shizuoka pref Japan01s.jpg",
     "source": "wikimedia"
   },
-  "hakone": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/LakeAshi_and_MtFuji_Hakone.JPG",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kentagon\" title=\"User:Kentagon\">Kentagon</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:LakeAshi and MtFuji Hakone.JPG",
-    "source": "wikimedia"
-  },
-  "hakone-yunohana": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Hakone-Yumoto_station_entrance_20090604.jpg",
-    "author": "<a href=\"https://ja.wikipedia.org/wiki/User:%E3%81%8A%E5%8F%A3%E3%83%81%E3%83%A3%E3%83%83%E3%82%AF\" class=\"extiw\" title=\"ja:User:お口チャック\">ja:User:お口チャック</a>",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "title": "File:Hakone-Yumoto station entrance 20090604.jpg",
-    "source": "wikimedia"
-  },
-  "hakone-gora": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C5%8Dra_Park_20090818_10.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%8E%AC%E8%8C%B6\" title=\"User:掬茶\">掬茶</a>",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:Gōra Park 20090818 10.jpg",
-    "source": "wikimedia"
-  },
-  "minakami": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Minakami_Onsen_Minakamikan_2018-04_2.jpg",
-    "author": "photo: <a href=\"//commons.wikimedia.org/wiki/User:Qurren\" title=\"User:Qurren\">Qurren</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Qurren\" title=\"User talk:Qurren\"><span class=\"signature-talk\">talk</span></a>)<div style=\"display:table;width:auto;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;border-collapse:separate;border-spacing:0px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Applets-screenshooter.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Applets-screenshooter.svg/40px-Applets-screenshooter.svg.png\" decoding=\"async\" width=\"22\" height=\"22\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Applets-screenshooter.svg/60px-Applets-screenshooter.svg.png 2x\" data-file-width=\"64\" data-file-height=\"64\"></a></span> Taken with Canon PowerShot G9 X</div>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:Minakami Onsen Minakamikan 2018-04 2.jpg",
-    "source": "wikimedia"
-  },
-  "shima": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shima_Onsen_Gunma_01.jpg",
-    "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "title": "File:Shima Onsen Gunma 01.jpg",
-    "source": "wikimedia"
-  },
-  "nikko": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nikko-Yumoto_Onsen%2C_Tochigi_04.jpg",
-    "author": "<a href=\"https://ja.wikipedia.org/wiki/user:%CE%A364\" class=\"extiw\" title=\"ja:user:Σ64\">Σ64</a>",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "title": "File:Nikko-Yumoto Onsen, Tochigi 04.jpg",
-    "source": "wikimedia"
-  },
-  "shiobara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shiobara_Onsen_Visitor_Center.JPG",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E3%81%82%E3%81%B0%E3%81%95%E3%83%BC\" title=\"User:あばさー\">Abasaa</a>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:Shiobara Onsen Visitor Center.JPG",
-    "source": "wikimedia"
-  },
-  "ito": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Shura_in_Ito%2C_Shizuoka-2.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Immanuelle\" title=\"User:Immanuelle\">Immanuelle</a>",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "title": "File:Shura in Ito, Shizuoka-2.jpg",
-    "source": "wikimedia"
-  },
   "shuzenji": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Shuzenji%28temple%29%2C_Gate_20110919.jpg",
-    "author": "<a href=\"https://ja.wikipedia.org/wiki/User:Batholith\" class=\"extiw\" title=\"ja:User:Batholith\">Batholith</a>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:Shuzenji(temple), Gate 20110919.jpg",
-    "source": "wikimedia"
-  },
-  "shimoda": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/80th_Shimoda_Black_Ship_Festival_%285374683%29.jpg",
-    "author": "U.S. Navy CFA-Y by Petty Officer 2nd Class <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1190548\">Tyler Fraser</a>",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "title": "File:80th Shimoda Black Ship Festival (5374683).jpg",
-    "source": "wikimedia"
-  },
-  "yugawara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yugawara_view_of_downtown.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:BsBsBs\" title=\"User:BsBsBs\">BsBsBs</a>",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:Yugawara view of downtown.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Shuzenji_Onsen_05.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Motokoka&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Motokoka (page does not exist)\">Motokoka</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "File:Shuzenji Onsen 05.jpg",
     "source": "wikimedia"
   },
   "okutama": {
@@ -133,38 +77,6 @@
     "license": "Public domain",
     "licenseUrl": "",
     "title": "File:LakeOkutama0050.jpg",
-    "source": "wikimedia"
-  },
-  "chichibu": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chichibu-Shrine.JPG",
-    "author": "NY066",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:Chichibu-Shrine.JPG",
-    "source": "wikimedia"
-  },
-  "hakone-sengokuhara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/230910_Sengokuhara_Hakone_Japan06s3.jpg",
-    "author": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "title": "File:230910 Sengokuhara Hakone Japan06s3.jpg",
-    "source": "wikimedia"
-  },
-  "kusatsu-sainokawara": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/251128_Sainokawara_Park_10.jpg",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "title": "File:251128 Sainokawara Park 10.jpg",
-    "source": "wikimedia"
-  },
-  "kinugawa": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG",
-    "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%8E%AC%E8%8C%B6\" title=\"User:掬茶\">掬茶</a>",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "title": "File:Kinugawa Onsen 03.JPG",
     "source": "wikimedia"
   }
 }

@@ -88,26 +88,29 @@ export function OverlapSection({
   return (
     <section
       ref={ref}
-      className={`${styles.bg} py-32 md:py-48 relative overflow-hidden`}
+      className={`${styles.bg} py-16 md:py-24 lg:py-32 xl:py-48 relative overflow-hidden`}
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="relative">
-          {/* 画像側 - オーバーラップ配置 */}
+          {/* 画像側 - オーバーラップ配置（レスポンシブ最適化） */}
           <motion.div
             className={`relative ${
               layout.imagePosition === 'left' 
                 ? 'md:float-left md:mr-[-20%]' 
                 : 'md:float-right md:ml-[-20%]'
-            } w-full md:w-[55%] mb-12 md:mb-0`}
+            } w-full md:w-[55%] mb-8 md:mb-0`}
             style={{ x: imageX }}
           >
-            <div className="relative h-[500px] md:h-[700px] lg:h-[800px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px] rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src={image.url}
                 alt={image.alt}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 55vw"
+                loading="lazy"
+                quality={85}
+                unoptimized={false}
               />
               
               {/* 波形対角マスク */}
@@ -147,12 +150,12 @@ export function OverlapSection({
             } ${isVertical ? 'flex flex-col items-end' : ''}`}
             style={{ x: contentX }}
           >
-            <div className={`bg-white/70 backdrop-blur-2xl rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl border border-white/40 ${
+            <div className={`bg-white/70 md:backdrop-blur-2xl rounded-2xl md:rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12 xl:p-16 shadow-2xl border border-white/40 ${
               layout.imagePosition === 'left' ? 'md:ml-[-10%]' : 'md:mr-[-10%]'
             }`}>
               {subtitle && (
                 <motion.p
-                  className={`text-sm md:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent}`}
+                  className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent}`}
                   style={{
                     textShadow: '1px 1px 3px rgba(255, 255, 255, 0.8)',
                   }}
@@ -166,7 +169,7 @@ export function OverlapSection({
               )}
 
               <motion.h2
-                className={`${typography?.titleSize || 'text-5xl md:text-7xl'} font-bold mb-6 text-gray-900 leading-tight tracking-tight`}
+                className={`${typography?.titleSize || 'text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl'} font-bold mb-6 text-gray-900 leading-tight tracking-tight`}
                 style={{
                   fontFamily: typography?.font === 'serif' ? 'var(--font-heading)' : 'inherit',
                   writingMode: isVertical ? 'vertical-rl' : 'horizontal-tb',
@@ -186,7 +189,7 @@ export function OverlapSection({
               </motion.h2>
 
               <motion.p
-                className="text-lg md:text-xl text-gray-800 leading-relaxed mb-8"
+                className="text-base md:text-lg lg:text-xl text-gray-800 leading-relaxed mb-8"
                 style={{
                   textShadow: '1px 1px 2px rgba(255, 255, 255, 0.5)',
                 }}
@@ -199,9 +202,9 @@ export function OverlapSection({
               </motion.p>
 
               {action && (
-                <Link href={action.href}>
+                <Link href={action.href} className="min-h-[44px] min-w-[44px] inline-block">
                   <motion.button
-                    className={`${styles.button} text-white px-10 py-5 rounded-full font-bold text-lg shadow-2xl transition-all duration-300 relative overflow-hidden group`}
+                    className={`${styles.button} text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-base md:text-lg shadow-2xl transition-all duration-300 relative overflow-hidden group`}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >

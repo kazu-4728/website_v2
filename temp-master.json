@@ -1,0 +1,542 @@
+{
+  "kusatsu": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+      "alt": "闕画ｴ･貂ｩ豕峨・貉ｯ逡・,
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:PekePON\" title=\"User:PekePON\">PekePON</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+      "alt": "闕画ｴ･貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "hakone": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "alt": "邂ｱ譬ｹ縺ｮ邨ｶ譎ｯ髴ｲ螟ｩ鬚ｨ蜻・,
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kentagon\" title=\"User:Kentagon\">Kentagon</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/800px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "alt": "邂ｱ譬ｹ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "kinugawa": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG",
+      "alt": "鬯ｼ諤貞ｷ晄ｸ楢ｰｷ豐ｿ縺・・髴ｲ螟ｩ鬚ｨ蜻・,
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%8E%AC%E8%8C%B6\" title=\"User:謗ｬ闌ｶ\">謗ｬ闌ｶ</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG",
+      "alt": "鬯ｼ諤貞ｷ晄ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "ikaho": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+      "alt": "莨企ｦ吩ｿ晄ｸｩ豕峨・鮟・≡縺ｮ貉ｯ",
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"http://picasaweb.google.com/pikakey\">縺ｴ縺九″縺・/a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+      "alt": "莨企ｦ吩ｿ晄ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "manza": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/1920px-Manza_Onsen_20120127.jpg",
+      "alt": "荳・ｺｧ貂ｩ豕峨・逋ｽ豼√＠縺滓ｹｯ闊ｹ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/800px-Manza_Onsen_20120127.jpg",
+      "alt": "荳・ｺｧ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "shima": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shima_Onsen_Gunma_01.jpg",
+      "alt": "蝗帑ｸ・ｸｩ豕峨・遨榊埋鬢ｨ",
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shima_Onsen_Gunma_01.jpg",
+      "alt": "蝗帑ｸ・ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "nasu": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+      "alt": "驍｣鬆域ｸｩ豕峨・鬚ｨ譎ｯ",
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161012201725/http://www.panoramio.com/user/1474640?with_photo_id=13946032\">縺上ｍ縺ｵ縺ｭ</a>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+      "alt": "驍｣鬆域ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "kamogawa": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kamogawa_Sea_World_2008.jpg",
+      "alt": "魘ｨ蟾昴・豬ｷ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kamogawa_Sea_World_2008.jpg",
+      "alt": "魘ｨ蟾晄ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "chichibu": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chichibu-Shrine.JPG",
+      "alt": "遘ｩ辷ｶ逾樒､ｾ",
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "NY066",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chichibu-Shrine.JPG",
+      "alt": "遘ｩ辷ｶ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "yugawara": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yugawara_view_of_downtown.jpg",
+      "alt": "貉ｯ豐ｳ蜴溘・鬚ｨ譎ｯ",
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:BsBsBs\" title=\"User:BsBsBs\">BsBsBs</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yugawara_view_of_downtown.jpg",
+      "alt": "貉ｯ豐ｳ蜴滓ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "takaragawa": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Takaragawa_Onsen_2011.jpg",
+      "alt": "螳晏ｷ晄ｸｩ豕峨・髴ｲ螟ｩ鬚ｨ蜻・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Takaragawa_Onsen_2011.jpg",
+      "alt": "螳晏ｷ晄ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "nikko-yumoto": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nikko-Yumoto_Onsen%2C_Tochigi_04.jpg",
+      "alt": "譌･蜈画ｹｯ蜈・・鬚ｨ譎ｯ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nikko-Yumoto_Onsen%2C_Tochigi_04.jpg",
+      "alt": "譌･蜈画ｹｯ蜈・ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "yorokeikoku": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Yoro_Ravine_2008.jpg",
+      "alt": "鬢願∵ｸ楢ｰｷ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Yoro_Ravine_2008.jpg",
+      "alt": "鬢願∵ｸ楢ｰｷ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "seotonoyu": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/LakeOkutama0050.jpg",
+      "alt": "螂･螟壽束縺ｮ閾ｪ辟ｶ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/LakeOkutama0050.jpg",
+      "alt": "遘句ｷ晄ｸ楢ｰｷ 轢ｬ髻ｳ縺ｮ貉ｯ縺ｮ繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "fukuroda": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fukuroda_Falls_2011.jpg",
+      "alt": "陲狗伐縺ｮ貊・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fukuroda_Falls_2011.jpg",
+      "alt": "陲狗伐貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "shiriyaki": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shiriyaki_Onsen_2006.jpg",
+      "alt": "蟆ｻ辟ｼ貂ｩ豕・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shiriyaki_Onsen_2006.jpg",
+      "alt": "蟆ｻ辟ｼ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "shiobara": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shiobara_Onsen_Visitor_Center.JPG",
+      "alt": "蝪ｩ蜴滓ｸｩ豕・,
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E3%81%82%E3%81%B0%E3%81%95%E3%83%BC\" title=\"User:縺ゅ・縺輔・\">Abasaa</a>",
+      "license": "Public domain",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shiobara_Onsen_Visitor_Center.JPG",
+      "alt": "蝪ｩ蜴滓ｸｩ豕蛾・縺ｮ繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "gora": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C5%8Dra_Park_20090818_10.jpg",
+      "alt": "蠑ｷ鄒・・蝨・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C5%8Dra_Park_20090818_10.jpg",
+      "alt": "蠑ｷ鄒・ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "chuzenji": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Lake_Chuzenji_and_Mt_Nantai_2008.jpg",
+      "alt": "荳ｭ遖・ｯｺ貉・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Lake_Chuzenji_and_Mt_Nantai_2008.jpg",
+      "alt": "荳ｭ遖・ｯｺ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "katsuura": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Katsuura_Chiba_2011.jpg",
+      "alt": "蜍晄ｵｦ縺ｮ鬚ｨ譎ｯ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Katsuura_Chiba_2011.jpg",
+      "alt": "蜍晄ｵｦ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "yunishigawa": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yunishigawa_Onsen_2013.jpg",
+      "alt": "貉ｯ隘ｿ蟾晄ｸｩ豕・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yunishigawa_Onsen_2013.jpg",
+      "alt": "貉ｯ隘ｿ蟾晄ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "nanasawa": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanasawa_Onsen_2008.jpg",
+      "alt": "荳・ｲ｢貂ｩ豕・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanasawa_Onsen_2008.jpg",
+      "alt": "荳・ｲ｢貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "oarai": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+      "alt": "螟ｧ豢励・魑･螻・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+      "alt": "螟ｧ豢玲ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "kamikawa": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/1280px-Kami-izumi_Dam_02.jpg",
+      "alt": "逾槫ｷ昴・閾ｪ辟ｶ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/1280px-Kami-izumi_Dam_02.jpg",
+      "alt": "逾槫ｷ晄ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "okutama": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/LakeOkutama0050.jpg",
+      "alt": "螂･螟壽束貉・,
+      "source": "wikimedia",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Fg2",
+      "license": "Public domain",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/LakeOkutama0050.jpg",
+      "alt": "螂･螟壽束貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "wikimedia",
+      "quality": "medium"
+    }
+  },
+  "kawaji": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kawaji_Onsen_2007.jpg",
+      "alt": "蟾晄ｲｻ貂ｩ豕・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kawaji_Onsen_2007.jpg",
+      "alt": "蟾晄ｲｻ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "sengokuhara": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/230910_Sengokuhara_Hakone_Japan06s3.jpg",
+      "alt": "莉咏浹蜴・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/230910_Sengokuhara_Hakone_Japan06s3.jpg",
+      "alt": "莉咏浹蜴滓ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "oigami": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Oigami_Onsen_2010.jpg",
+      "alt": "閠∫･樊ｸｩ豕・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Oigami_Onsen_2010.jpg",
+      "alt": "閠∫･樊ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "shirahama": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Nojimazaki_Lighthouse_2011.jpg",
+      "alt": "驥主ｳｶ蝓ｼ轣ｯ蜿ｰ",
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Nojimazaki_Lighthouse_2011.jpg",
+      "alt": "逋ｽ豬懈ｸｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  },
+  "kawarayu": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/1280px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "alt": "蟾晏次貉ｯ貂ｩ豕・,
+      "source": "unsplash",
+      "quality": "high",
+      "aspectRatio": "16:9",
+      "author": "Unknown",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    },
+    "thumbnail": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/1280px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "alt": "蟾晏次貉ｯ貂ｩ豕峨・繧ｵ繝繝阪う繝ｫ",
+      "source": "unsplash",
+      "quality": "medium"
+    }
+  }
+}
