@@ -1,8 +1,76 @@
 /**
  * デザイントークン定義
  * デザインの一貫性を保つための基本値
+ * 
+ * Phase 2対応: colors, spacing, typography を追加
  */
 
+// Phase 2: カラートークン（Ocean & Sky テーマ）
+export const colors = {
+  primary: {
+    main: '#1e40af',      // Ocean Blue
+    light: '#60a5fa',
+    dark: '#1e3a8a',
+  },
+  secondary: {
+    main: '#38bdf8',      // Sky Blue
+    light: '#7dd3fc',
+    dark: '#0284c7',
+  },
+  accent: {
+    gold: '#fbbf24',      // Sunset Gold
+    goldLight: '#fcd34d',
+    goldDark: '#f59e0b',
+  },
+  background: {
+    cloudWhite: '#f8fafc',
+    mist: '#e0f2fe',
+    ocean: '#0c4a6e',
+  },
+  text: {
+    primary: '#1f2937',   // gray-900
+    secondary: '#4b5563', // gray-600
+    tertiary: '#6b7280',  // gray-500
+    inverse: '#ffffff',
+  },
+} as const;
+
+// Phase 2: スペーシングトークン
+export const spacing = {
+  xs: '0.25rem',   // 4px
+  sm: '0.5rem',    // 8px
+  md: '1rem',      // 16px
+  lg: '1.5rem',    // 24px
+  xl: '2rem',      // 32px
+  '2xl': '3rem',   // 48px
+  '3xl': '4rem',   // 64px
+} as const;
+
+// Phase 2: タイポグラフィトークン
+export const typography = {
+  fontFamily: {
+    heading: '"Noto Serif JP", serif',
+    body: '"Noto Sans JP", sans-serif',
+    mono: '"JetBrains Mono", monospace',
+  },
+  fontSize: {
+    xs: '0.75rem',   // 12px
+    sm: '0.875rem',  // 14px
+    base: '1rem',    // 16px
+    lg: '1.125rem',  // 18px
+    xl: '1.25rem',   // 20px
+    '2xl': '1.5rem', // 24px
+    '3xl': '1.875rem', // 30px
+    '4xl': '2.25rem',  // 36px
+    '5xl': '3rem',     // 48px
+    '6xl': '3.75rem',  // 60px
+    '7xl': '4.5rem',   // 72px
+    '8xl': '6rem',     // 96px
+    '9xl': '8rem',     // 128px
+  },
+} as const;
+
+// 既存のデザイントークン（後方互換性のため保持）
 export const designTokens = {
   // スペーシング
   spacing: {

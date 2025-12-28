@@ -23,7 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // 動的ドキュメントページ（温泉地詳細ページ）
   const docRoutes = (content.pages.docs || []).map((doc) => ({
-    url: `${baseUrl}/${doc.slug}`,
+    url: `${baseUrl}/docs/${doc.slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.9,

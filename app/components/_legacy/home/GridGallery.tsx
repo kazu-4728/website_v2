@@ -20,7 +20,7 @@ export async function GridGallery({ data }: Props) {
     : 'grid-cols-1 md:grid-cols-3';
   
   return (
-    <section className="py-24 sm:py-32 bg-gradient-to-b from-cloud-white via-mist to-cloud-white relative overflow-hidden">
+    <section className="py-16 md:py-24 lg:py-32 bg-gradient-to-b from-cloud-white via-mist to-cloud-white relative overflow-hidden">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -29,25 +29,25 @@ export async function GridGallery({ data }: Props) {
         }} />
       </div>
       
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16 lg:mb-20">
           {data.subtitle && (
             <p className="text-primary-600 font-semibold tracking-wider uppercase mb-3 text-sm">
               {data.subtitle}
             </p>
           )}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-tight text-gray-900">{data.title}</h2>
-          <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-md inline-block">
-            <p className="text-lg sm:text-xl text-gray-900 font-medium leading-relaxed tracking-wide">{data.description}</p>
+          <div className="bg-white/90 md:backdrop-blur-sm p-4 sm:p-6 md:p-8 rounded-xl shadow-md inline-block">
+            <p className="text-base md:text-lg lg:text-xl text-gray-900 font-medium leading-relaxed tracking-wide">{data.description}</p>
           </div>
         </div>
 
-        <div className={`grid ${gridCols} gap-6 sm:gap-8 lg:gap-10`}>
+        <div className={`grid ${gridCols} gap-4 sm:gap-6 md:gap-8 lg:gap-10`}>
           {data.items.map((item, index) => (
             <Link 
               key={index} 
               href={item.href}
-              className="group relative h-[500px] md:h-[600px] overflow-hidden rounded-2xl block shadow-2xl shadow-black/50 transition-all duration-500 hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8)] hover:shadow-primary-900/20 hover:-translate-y-3"
+              className="group relative h-[500px] md:h-[600px] overflow-hidden rounded-2xl block shadow-2xl shadow-black/50 transition-all duration-500 hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8)] hover:shadow-primary-900/20 hover:-translate-y-3 min-h-[44px]"
             >
               {/* Image with enhanced zoom effect */}
               <div className="absolute inset-0">
@@ -64,14 +64,14 @@ export async function GridGallery({ data }: Props) {
               </div>
               
               {/* Content */}
-              <div className="absolute bottom-0 left-0 p-6 sm:p-8 w-full transition-all duration-500 group-hover:translate-y-0 translate-y-2">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 text-white group-hover:text-primary-400 transition-colors duration-300 drop-shadow-lg">
+              <div className="absolute bottom-0 left-0 p-4 sm:p-6 md:p-8 w-full transition-all duration-500 group-hover:translate-y-0 translate-y-2">
+                <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-2 text-white group-hover:text-primary-400 transition-colors duration-300 drop-shadow-lg">
                   {item.title}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-300 mb-4 line-clamp-2 sm:line-clamp-3 opacity-90 group-hover:opacity-100 transition-opacity duration-300 leading-relaxed">
+                <p className="text-sm md:text-base text-gray-300 mb-4 line-clamp-2 sm:line-clamp-3 opacity-90 group-hover:opacity-100 transition-opacity duration-300 leading-relaxed">
                   {item.description}
                 </p>
-                <div className="flex items-center text-primary-400 text-sm font-semibold transition-all duration-300 group-hover:translate-x-2 group-hover:text-primary-300">
+                <div className="flex items-center text-primary-400 text-sm font-semibold transition-all duration-300 group-hover:translate-x-2 group-hover:text-primary-300 min-h-[44px]">
                   {texts.buttons.learnMoreEn} <ArrowUpRight className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                 </div>
               </div>

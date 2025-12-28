@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import { MobileMenu } from './MobileMenu';
 
 interface NavItem {
   label: string;
@@ -92,8 +93,10 @@ export function PremiumNav({ logo, items }: PremiumNavProps) {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
-            aria-label="Toggle menu"
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+            aria-label={isOpen ? 'メニューを閉じる' : 'メニューを開く'}
+            aria-expanded={isOpen}
+            aria-controls="mobile-menu"
           >
             {isOpen ? (
               <X className="w-6 h-6 text-gray-700" />
@@ -102,34 +105,14 @@ export function PremiumNav({ logo, items }: PremiumNavProps) {
             )}
           </button>
         </div>
-
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden mt-6 pb-6 border-t border-gray-200"
-          >
-            <div className="flex flex-col space-y-4 mt-6">
-              {items.map((item, index) => (
-                <Link
-                  key={index}
-                  href={item.href}
-                  className={`text-lg font-medium transition-colors ${
-                    item.variant === 'primary' || item.variant === 'secondary'
-                      ? 'btn-premium w-full text-center py-3 rounded-full'
-                      : 'text-gray-700 hover:text-ocean-blue py-2'
-                  }`}
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </motion.div>
-        )}
       </div>
+
+      {/* Mobile Menu - 独立コンポーネント */}
+      <MobileMenu
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
+        items={items}
+      />
 
       {/* Bottom border with gradient */}
       <div className={`absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-ocean-light to-transparent transition-opacity duration-300 ${
