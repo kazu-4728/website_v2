@@ -22,6 +22,9 @@ import type {
   AreaSelectionSection,
   RecommendedOnsenSection,
   OnsenListSection,
+  ImmersiveStorySection,
+  PremiumGridSection,
+  OverlapSection,
   DocPage,
   DocPageRaw,
   BlogPost,
@@ -56,6 +59,9 @@ export type {
   AreaSelectionSection,
   RecommendedOnsenSection,
   OnsenListSection,
+  ImmersiveStorySection,
+  PremiumGridSection,
+  OverlapSection,
   DocPage,
   BlogPost,
   // Onsen-specific types
@@ -212,10 +218,10 @@ export async function loadContent(): Promise<ContentConfig> {
     if (unsplashOnsenData && unsplashOnsenData.images) {
       // 既存のdocsページを保持
       const existingDocs = rawContent.pages?.docs || [];
-      const existingSlugs = new Set(existingDocs.map((doc: any) => doc.slug));
+      const existingSlugs = new Set(existingDocs.map((doc: DocPageRaw) => doc.slug));
       
       // 30箇所の温泉データをdocsページに変換
-      const generatedDocs = unsplashOnsenData.images.map((onsen: any) => ({
+      const generatedDocs: DocPageRaw[] = unsplashOnsenData.images.map((onsen: any) => ({
         slug: onsen.slug,
         title: onsen.name,
         subtitle: onsen.location,
@@ -230,11 +236,25 @@ export async function loadContent(): Promise<ContentConfig> {
       // 既存のdocsと生成されたdocsをマージ（重複を避ける）
       const mergedDocs = [
         ...existingDocs,
-        ...generatedDocs.filter((doc: any) => !existingSlugs.has(doc.slug)),
+        ...generatedDocs.filter((doc: DocPageRaw) => !existingSlugs.has(doc.slug)),
       ];
       
       // rawContentを更新
-      if (!rawContent.pages) rawContent.pages = { home: { hero: {}, sections: [] } as any };
+      if (!rawContent.pages) {
+        rawContent.pages = {
+          home: {
+            hero: {
+              type: 'simple',
+              title: '',
+              subtitle: '',
+              description: '',
+              bgImage: '',
+              actions: [],
+            },
+            sections: [],
+          },
+        };
+      }
       rawContent.pages.docs = mergedDocs;
     }
     

@@ -696,3 +696,142 @@ export function isTestimonials(section: HomeSection): section is TestimonialsSec
 export function isCta(section: HomeSection): section is CtaSection {
   return section.type === 'cta-fullscreen';
 }
+
+// ==========================================
+// NEW MODERN SECTIONS - Ocean & Sky Theme
+// ==========================================
+
+/**
+ * Immersive story section (没入型ストーリーセクション)
+ * Full-screen parallax section with storytelling content
+ */
+export interface ImmersiveStorySection extends HomeSection {
+  type: 'immersive-story';
+  title: string;
+  subtitle?: string;
+  description: string;
+  image: {
+    url: string;
+    alt: string;
+    position?: string;
+    scale?: string;
+  };
+  overlay?: {
+    type: string;
+    gradient: string;
+  };
+  typography?: {
+    titleSize?: string;
+    orientation?: string;
+    font?: string;
+  };
+  animation?: {
+    type: string;
+    scrollSpeed?: number;
+    fadeIn?: boolean;
+  };
+}
+
+/**
+ * Premium grid section item
+ */
+export interface PremiumGridItem {
+  title: string;
+  description: string;
+  image: {
+    url: string;
+    alt: string;
+    focus?: string;
+    overlay?: {
+      type: string;
+      opacity: number;
+    };
+  };
+  link: string;
+  category?: string;
+  badge?: string;
+  animation?: {
+    hover: string;
+    scroll: string;
+  };
+}
+
+/**
+ * Premium grid section (プレミアムグリッドセクション)
+ * High-quality grid layout with premium cards
+ */
+export interface PremiumGridSection extends HomeSection {
+  type: 'premium-grid';
+  title: string;
+  subtitle?: string;
+  description?: string;
+  layout: {
+    type: string;
+    columns: number;
+    gap: string;
+    cardHeight: string;
+  };
+  variant: 'ocean' | 'sky' | 'sunset';
+  overlay?: {
+    type: string;
+    gradient: string;
+  };
+  items: PremiumGridItem[];
+}
+
+/**
+ * Overlap section (オーバーラップセクション)
+ * Image and content overlapping layout
+ */
+export interface OverlapSection extends HomeSection {
+  type: 'overlap-section';
+  title: string;
+  subtitle?: string;
+  description: string;
+  layout: {
+    type: string;
+    imagePosition: 'left' | 'right';
+    overlap: string;
+  };
+  variant: 'ocean' | 'sky' | 'sunset';
+  image: {
+    url: string;
+    alt: string;
+    mask?: string;
+  };
+  typography?: {
+    titleOrientation?: string;
+    titleSize?: string;
+    font?: string;
+  };
+  action?: {
+    label: string;
+    href: string;
+    style?: string;
+  };
+  animation?: {
+    type: string;
+    scrollReveal?: boolean;
+  };
+}
+
+/**
+ * Type guard for immersive story section
+ */
+export function isImmersiveStory(section: HomeSection): section is ImmersiveStorySection {
+  return section.type === 'immersive-story';
+}
+
+/**
+ * Type guard for premium grid section
+ */
+export function isPremiumGrid(section: HomeSection): section is PremiumGridSection {
+  return section.type === 'premium-grid';
+}
+
+/**
+ * Type guard for overlap section
+ */
+export function isOverlapSection(section: HomeSection): section is OverlapSection {
+  return section.type === 'overlap-section';
+}
