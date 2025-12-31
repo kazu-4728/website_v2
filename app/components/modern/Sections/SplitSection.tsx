@@ -1,8 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { SectionHeader } from '../ui/SectionHeader';
+import { ActionButton } from '../ui/ActionButton';
 
 interface SplitSectionProps {
   title: string;
@@ -32,17 +33,14 @@ export function SplitSection({
     ocean: {
       bg: 'bg-gradient-to-b from-sky-50 via-blue-50 to-sky-50',
       accent: 'text-ocean-blue',
-      button: 'bg-ocean-blue hover:bg-ocean-blue/90',
     },
     sky: {
       bg: 'bg-gradient-to-b from-cloud-white via-mist to-cloud-white',
       accent: 'text-sky-blue',
-      button: 'bg-sky-blue hover:bg-sky-blue/90',
     },
     sunset: {
       bg: 'bg-gradient-to-b from-amber-50 via-orange-50 to-amber-50',
       accent: 'text-amber-600',
-      button: 'bg-amber-500 hover:bg-amber-600',
     },
   };
 
@@ -85,31 +83,29 @@ export function SplitSection({
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            {subtitle && (
-              <p className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.2em] mb-4 ${styles.accent}`}>
-                {subtitle}
+            <div className="space-y-6">
+              {subtitle && (
+                <p className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.2em] mb-4 ${styles.accent}`}>
+                  {subtitle}
+                </p>
+              )}
+
+              <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
+                {title}
+              </h2>
+
+              <p className="text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed mb-8">
+                {description}
               </p>
-            )}
 
-            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
-              {title}
-            </h2>
-
-            <p className="text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed mb-8">
-              {description}
-            </p>
-
-            {action && (
-              <Link href={action.href} className="min-h-[44px] min-w-[44px] inline-block">
-                <motion.button
-                  className={`${styles.button} text-white px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-base md:text-lg shadow-lg transition-all duration-300`}
-                  whileHover={{ scale: 1.05, boxShadow: '0 20px 40px -12px rgba(0, 0, 0, 0.3)' }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  {action.label}
-                </motion.button>
-              </Link>
-            )}
+              {action && (
+                <ActionButton
+                  label={action.label}
+                  href={action.href}
+                  variant={variant}
+                />
+              )}
+            </div>
           </motion.div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import { getBlogPost, getAllBlogSlugs, loadContent } from '../../lib/content';
-import { MarkdownRenderer } from '../../components/_legacy/ui/MarkdownRenderer';
+import { MarkdownRenderer } from '../../components/modern/ui/MarkdownRenderer';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../../components/_legacy/ui/Button';
+import { Button } from '../../components/modern/ui/Button';
 import { ArrowLeftIcon } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
@@ -36,7 +36,7 @@ export default async function BlogPostPage({ params }: Props) {
           <ArrowLeftIcon className="w-4 h-4 mr-2" />
           {texts.nav.backLinks.blog}
         </Link>
-        
+
         <div className="flex items-center gap-4 text-sm font-mono text-gray-500 mb-6">
           <span className="text-primary-400">{post.category}</span>
           <span>•</span>

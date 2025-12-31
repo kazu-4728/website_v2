@@ -1,9 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import { ActionButton } from '../ui/ActionButton';
 
 interface OverlapSectionProps {
   title: string;
@@ -202,21 +202,11 @@ export function OverlapSection({
               </motion.p>
 
               {action && (
-                <Link href={action.href} className="min-h-[44px] min-w-[44px] inline-block">
-                  <motion.button
-                    className={`${styles.button} text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-base md:text-lg shadow-2xl transition-all duration-300 relative overflow-hidden group`}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <span className="relative z-10">{action.label}</span>
-                    <motion.div
-                      className="absolute inset-0 bg-white/20"
-                      initial={{ x: '-100%' }}
-                      whileHover={{ x: '100%' }}
-                      transition={{ duration: 0.6 }}
-                    />
-                  </motion.button>
-                </Link>
+                <ActionButton
+                  label={action.label}
+                  href={action.href}
+                  variant={variant}
+                />
               )}
             </div>
           </motion.div>

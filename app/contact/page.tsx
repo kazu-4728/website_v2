@@ -1,6 +1,6 @@
 import { loadContent } from '../lib/content';
-import { Button } from '../components/_legacy/ui/Button';
-import { ContactForm } from '../components/_legacy/forms/ContactForm';
+import { Button } from '../components/modern/ui/Button';
+import { ContactForm } from '../components/modern/forms/ContactForm';
 import { MailIcon, MapPinIcon, ArrowRightIcon, ArrowLeftIcon } from 'lucide-react';
 import Link from 'next/link';
 
@@ -32,14 +32,14 @@ export default async function ContactPage() {
         {/* Left: Info */}
         <div className="lg:w-1/2 bg-dark-900 p-12 lg:p-24 flex flex-col justify-center relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none" />
-          
+
           <div className="relative z-10">
             <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">{texts.pages.contact?.title || 'Contact'}</p>
-            <h1 
+            <h1
               className="text-5xl lg:text-7xl font-bold text-white mb-8 tracking-tighter leading-tight"
               dangerouslySetInnerHTML={{ __html: contactData.title }}
             />
-            
+
             <div className="space-y-8 mt-12">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-white/5 border border-white/10 text-primary-400">
@@ -50,7 +50,7 @@ export default async function ContactPage() {
                   <p className="text-gray-400">{contactData.email}</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-white/5 border border-white/10 text-primary-400">
                   <MapPinIcon className="w-6 h-6" />

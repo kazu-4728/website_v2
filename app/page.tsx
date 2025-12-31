@@ -56,6 +56,7 @@ export default async function Page() {
           variant={gridSection.variant}
           overlay={gridSection.overlay}
           items={gridSection.items}
+          learnMoreText={content.texts.buttons.learnMore}
         />
       )}
 

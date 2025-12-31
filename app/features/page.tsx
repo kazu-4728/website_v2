@@ -1,7 +1,7 @@
 import { loadContent } from '../lib/content';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../components/_legacy/ui/Button';
+import { Button } from '../components/modern/ui/Button';
 import { ZapIcon, ShieldIcon, CpuIcon, ArrowLeftIcon } from 'lucide-react';
 
 // Icon mapper
@@ -52,7 +52,7 @@ export default async function FeaturesPage() {
           <p className="text-primary-400 font-mono mb-6 tracking-widest uppercase animate-fade-in-up">
             {featuresData.hero.subtitle}
           </p>
-          <h1 
+          <h1
             className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter animate-fade-in-up delay-100"
             dangerouslySetInnerHTML={{ __html: featuresData.hero.title }} // Allow HTML for gradient span
           />
@@ -90,20 +90,20 @@ export default async function FeaturesPage() {
       {/* Interactive Demo Section Placeholder */}
       <section className="py-32 bg-black relative overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary-600/10 rounded-full blur-[120px] pointer-events-none" />
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-16">
             {texts.ui.labels.readyToDeploy.replace('Deploy', '').trim()} <span className="text-gradient-cyan">Deploy</span>?
           </h2>
-          
+
           <div className="relative mx-auto max-w-4xl aspect-video rounded-xl border border-white/10 bg-dark-900/50 overflow-hidden flex items-center justify-center group">
-             <div className="text-center">
-                <div className="text-6xl mb-4 opacity-50 group-hover:scale-110 transition-transform duration-300">🚀</div>
-                <p className="text-gray-400">{texts.ui.labels.interactiveDemoLoading}</p>
-             </div>
-             
-             {/* Scanline effect */}
-             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary-500/5 to-transparent h-[20%] animate-scan" />
+            <div className="text-center">
+              <div className="text-6xl mb-4 opacity-50 group-hover:scale-110 transition-transform duration-300">🚀</div>
+              <p className="text-gray-400">{texts.ui.labels.interactiveDemoLoading}</p>
+            </div>
+
+            {/* Scanline effect */}
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary-500/5 to-transparent h-[20%] animate-scan" />
           </div>
         </div>
       </section>

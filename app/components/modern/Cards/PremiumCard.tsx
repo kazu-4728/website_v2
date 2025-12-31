@@ -12,6 +12,7 @@ interface PremiumCardProps {
   href: string;
   category?: string;
   height?: 'normal' | 'tall' | 'extra-tall';
+  learnMoreText?: string;
 }
 
 export function PremiumCard({
@@ -21,6 +22,7 @@ export function PremiumCard({
   href,
   category,
   height = 'normal',
+  learnMoreText = '詳しく見る',
 }: PremiumCardProps) {
   const heightClasses = {
     normal: 'h-[500px]',
@@ -98,7 +100,7 @@ export function PremiumCard({
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
           >
-            <span className="mr-2">詳しく見る</span>
+            <span className="mr-2">{learnMoreText}</span>
             <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover/link:translate-x-2" />
           </motion.div>
         </div>

@@ -7,6 +7,23 @@
     "title": "File:Kusatsu-yubatake 2004.JPG",
     "source": "wikimedia"
   },
+  "kusatsu-yubatake": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:PekePON\" title=\"User:PekePON\">PekePON</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:Kusatsu-yubatake 2004.JPG",
+    "source": "wikimedia"
+  },
+  "kusatsu-sainokawara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG?id=kusatsu-sainokawara",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
   "kinugawa": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kinugawa_Onsen_01.jpg",
     "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7276470@N03\">Gene Jackson</a> from Brooklyn, United States",
@@ -78,5 +95,85 @@
     "licenseUrl": "",
     "title": "File:LakeOkutama0050.jpg",
     "source": "wikimedia"
+  },
+  "hakone": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG?id=hakone",
+    "author": "Substitute",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "",
+    "title": "Hakone Image (Substitute)",
+    "source": "wikimedia"
+  },
+  "hakone-yunohana": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=hakone-yunohana",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "hakone-gora": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=hakone-gora",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "hakone-sengokuhara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=hakone-sengokuhara",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "minakami": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=minakami",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "ito": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=ito",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "shimoda": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=shimoda",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "yugawara": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=yugawara",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
+  },
+  "chichibu": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg?id=chichibu",
+    "author": "System",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "title": "画像準備中",
+    "source": "placeholder",
+    "isPlaceholder": true
   }
 }
