@@ -1,156 +1,73 @@
 {
-  "_comment": "温泉画像ストック - ヒーローセクションと温泉紹介ページ用",
-  "_requirements": {
-    "hero": "ヒーローセクションには温泉が写っている画像が絶対条件",
-    "onsenPage": "温泉紹介ページには温泉自体が写っている画像が絶対条件",
-    "selection": "複数の画像候補から選択可能"
-  },
-  "hero": {
-    "primary": [
-      {
-        "id": "kusatsu-yubatake",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-        "title": "草津温泉 湯畑",
-        "description": "草津温泉のシンボル・湯畑の湯けむり",
-        "hasOnsen": true,
-        "features": ["湯畑", "湯けむり", "夜景"],
-        "author": "PekePON",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "source": "wikimedia"
-      },
-      {
-        "id": "nasu-yumoto",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-        "title": "那須湯本温泉",
-        "description": "那須湯本温泉の源泉と湯けむり",
-        "hasOnsen": true,
-        "features": ["源泉", "湯けむり", "自然"],
-        "author": "くろふね",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-        "source": "wikimedia"
-      },
-      {
-        "id": "ikaho-stone-steps",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
-        "title": "伊香保温泉 石段街",
-        "description": "伊香保温泉の石段街と温泉街の風景",
-        "hasOnsen": true,
-        "features": ["石段街", "温泉街", "レトロ"],
-        "author": "ぴかきぃ",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "source": "wikimedia"
-      }
-    ],
-    "alternative": [
-      {
-        "id": "atami-onsen",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
-        "title": "熱海温泉",
-        "description": "熱海温泉街の夕景",
-        "hasOnsen": true,
-        "features": ["温泉街", "夕景", "海"],
-        "author": "663highland",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "source": "wikimedia"
-      }
-    ]
-  },
-  "onsenPages": {
     "kusatsu": [
-      {
-        "id": "kusatsu-yubatake-main",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-        "title": "草津温泉 湯畑",
-        "description": "日本三名泉のひとつ、草津温泉のシンボル・湯畑",
-        "hasOnsen": true,
-        "features": ["湯畑", "湯けむり", "源泉"],
-        "author": "PekePON",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "source": "wikimedia",
-        "recommended": true
-      },
-      {
-        "id": "kusatsu-yubatake-panorama",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%28%E7%BE%A4%E9%A6%AC%E7%9C%8C%29_%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%E3%81%AE%E6%B9%AF%E7%95%91%E3%81%AB%E3%81%A6%E3%80%82%E5%B7%A6%E3%82%92%E5%90%91%E3%81%8F%E3%81%A8%E8%A6%B3%E5%85%89%E5%AE%A2%E5%90%91%E3%81%91%E3%81%AE%E7%84%A1%E6%96%99%E3%81%AE%E6%BA%90%E6%B3%89%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E7%86%B1%E3%81%8F%E3%81%A6%E9%9B%A3%E3%81%97%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82_-_panoramio.jpg",
-        "title": "草津温泉 湯畑パノラマ",
-        "description": "草津温泉の湯畑と源泉のパノラマビュー",
-        "hasOnsen": true,
-        "features": ["湯畑", "源泉", "パノラマ"],
-        "author": "Shift",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "source": "wikimedia"
-      }
-    ],
-    "ikaho": [
-      {
-        "id": "ikaho-stone-steps-main",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
-        "title": "伊香保温泉 石段街",
-        "description": "365段の石段で有名な伊香保温泉の温泉街",
-        "hasOnsen": true,
-        "features": ["石段街", "温泉街", "レトロ"],
-        "author": "ぴかきぃ",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "source": "wikimedia",
-        "recommended": true
-      }
-    ],
-    "nasu": [
-      {
-        "id": "nasu-yumoto-main",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-        "title": "那須湯本温泉",
-        "description": "那須高原の中腹に位置する那須湯本温泉",
-        "hasOnsen": true,
-        "features": ["源泉", "湯けむり", "自然"],
-        "author": "くろふね",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-        "source": "wikimedia",
-        "recommended": true
-      }
-    ],
-    "atami": [
-      {
-        "id": "atami-onsen-main",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
-        "title": "熱海温泉",
-        "description": "海を望む熱海温泉街の夕景",
-        "hasOnsen": true,
-        "features": ["温泉街", "夕景", "海"],
-        "author": "663highland",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "source": "wikimedia",
-        "recommended": true
-      }
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+            "credit": "Wikimedia Commons",
+            "roles": [
+                "hero",
+                "home_hero_bg",
+                "story_intro"
+            ]
+        }
     ],
     "hakone": [
-      {
-        "id": "hakone-yunohana-main",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
-        "title": "箱根湯の花温泉",
-        "description": "箱根の湯の花温泉の露天風呂",
-        "hasOnsen": true,
-        "features": ["露天風呂", "温泉", "自然"],
-        "author": "Wikimedia Commons",
-        "license": "Public Domain",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "source": "wikimedia",
-        "recommended": true
-      }
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+            "credit": "Wikimedia Commons",
+            "roles": [
+                "hero",
+                "thumbnail"
+            ]
+        }
+    ],
+    "kinugawa": [
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG",
+            "credit": "Wikimedia Commons",
+            "roles": [
+                "hero",
+                "thumbnail"
+            ]
+        }
+    ],
+    "nasu": [
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+            "credit": "Wikimedia Commons",
+            "roles": [
+                "hero",
+                "thumbnail"
+            ]
+        }
+    ],
+    "ikaho": [
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+            "credit": "Wikimedia Commons",
+            "roles": [
+                "hero",
+                "thumbnail",
+                "ranking_skin_beauty"
+            ]
+        }
+    ],
+    "manza": [
+        {
+            "url": "https://images.unsplash.com/photo-1610366398516-46da97841961?auto=format&fit=crop&q=80&w=1000",
+            "credit": "Unsplash",
+            "roles": [
+                "hero",
+                "thumbnail"
+            ]
+        }
+    ],
+    "atami": [
+        {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
+            "credit": "Wikimedia Commons",
+            "roles": [
+                "experience_journey"
+            ]
+        }
     ]
-  },
-  "usage": {
-    "hero": "hero.primary から温泉が写っている画像（hasOnsen: true）を選択",
-    "onsenPage": "onsenPages[温泉地名] から recommended: true または hasOnsen: true の画像を選択",
-    "selection": "複数の候補から視覚的に最適な画像を選択可能"
-  }
 }

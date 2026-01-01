@@ -28,6 +28,7 @@ export function GoogleMap({
     const mapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${lng - 0.01}%2C${lat - 0.01}%2C${lng + 0.01}%2C${lat + 0.01}&layer=mapnik&marker=${lat}%2C${lng}`;
 
     return (
+        // eslint-disable-next-line
         <div className={`rounded-xl overflow-hidden bg-dark-800 ${className}`} style={{ height }}>
             <iframe
                 width="100%"

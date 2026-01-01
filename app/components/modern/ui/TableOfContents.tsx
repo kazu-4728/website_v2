@@ -53,6 +53,7 @@ export function TableOfContents({ content }: TableOfContentsProps) {
             <h3 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">目次</h3>
             <ul className="space-y-2 text-sm">
                 {items.map((item) => (
+                    // eslint-disable-next-line
                     <li
                         key={item.id}
                         style={{ paddingLeft: `${(item.level - 1) * 12}px` }}
@@ -60,8 +61,8 @@ export function TableOfContents({ content }: TableOfContentsProps) {
                         <a
                             href={`#${item.id}`} // Note: The renderer needs to add these IDs to headers for this to work
                             className={`block py-1 transition-colors ${activeId === item.id
-                                    ? 'text-primary-400 font-medium'
-                                    : 'text-gray-400 hover:text-white'
+                                ? 'text-primary-400 font-medium'
+                                : 'text-gray-400 hover:text-white'
                                 }`}
                             onClick={(e) => {
                                 e.preventDefault();

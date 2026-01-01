@@ -2,8 +2,9 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { getThemeImage, getOnsenImage, getOnsenImageFromMaster, optimizeImageUrl } from './images';
 import { resolveWeeklyRotation } from './weekly-rotation';
-import onsenImageStock from '../../data/onsen-image-stock.json';
-import unsplashOnsenData from '../../data/unsplash-onsen-images.json';
+import onsenCatalogData from '../../data/onsen-catalog.json';
+
+const onsenList = Object.values(onsenCatalogData as Record<string, any>);
 
 // Import common theme types
 import type {
@@ -90,10 +91,10 @@ export async function loadTexts(): Promise<TextsConfig> {
   if (cachedTexts) return cachedTexts;
 
   const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto';
-  
+
   try {
     let textsModule;
-    
+
     switch (themeName) {
       case 'onsen-kanto':
         textsModule = await import('../../themes/onsen-kanto/texts.json');
@@ -133,7 +134,7 @@ function resolveImageReferences(obj: any): any {
   const result: any = {};
   for (const key in obj) {
     const value = obj[key];
-    
+
     // bgImageRefを解決
     if (key === 'bgImageRef' && typeof value === 'object' && value.onsenKey !== undefined) {
       const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
@@ -154,7 +155,7 @@ function resolveImageReferences(obj: any): any {
       result[key] = resolveImageReferences(value);
     }
   }
-  
+
   return result;
 }
 
@@ -163,21 +164,23 @@ function resolveImageReferences(obj: any): any {
  */
 function resolveOnsenImageUrl(onsenKey: string, imageIndex: number = 0): string {
   try {
-    // onsen-image-stock.jsonから画像を取得
-    const images = onsenImageStock.onsenPages[onsenKey as keyof typeof onsenImageStock.onsenPages];
-    
-    if (!images || images.length === 0) {
-      console.warn(`No images found for onsen: ${onsenKey}`);
+    // onsen-catalog.jsonから画像を取得
+    // onsenKey is the slug (e.g. "kusatsu")
+    const entry = (onsenCatalogData as any)[onsenKey];
+
+    if (!entry || !entry.images || entry.images.length === 0) {
+      // console.warn(`No images found for onsen: ${onsenKey}`);
       // フォールバック画像を返す
-      return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
+      return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
     }
 
+    const images = entry.images;
     const image = images[imageIndex] || images[0];
-    return image.url || 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
+    return image.url || 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
   } catch (error) {
     console.error(`Failed to resolve onsen image: ${onsenKey}[${imageIndex}]`, error);
     // エラー時のフォールバック画像
-    return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000';
+    return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
   }
 }
 
@@ -185,12 +188,12 @@ export async function loadContent(): Promise<ContentConfig> {
   if (cachedContent) return cachedContent;
 
   const themeName = process.env.NEXT_PUBLIC_THEME || 'onsen-kanto';
-  
+
   try {
     // Static import for themes to ensure they are bundled by Webpack/Next.js
     // When adding a new theme, add a new case to load it
     let contentModule;
-    
+
     switch (themeName) {
       case 'onsen-kanto':
         contentModule = await import('../../themes/onsen-kanto/content.json');
@@ -204,41 +207,41 @@ export async function loadContent(): Promise<ContentConfig> {
         contentModule = await import('../../themes/onsen-kanto/content.json');
     }
 
-    const rawContent = contentModule.default as ContentConfigRaw;
-    
+    const rawContent = contentModule.default as unknown as ContentConfigRaw;
+
     // Load texts
     const texts = await loadTexts();
-    
+
     // 週替わりブログローテーションを適用
     if (rawContent.pages?.home?.blog?.posts) {
       rawContent.pages.home.blog.posts = resolveWeeklyRotation(rawContent.pages.home.blog.posts);
     }
-    
+
     // 30箇所の温泉データを pages.docs に自動追加
-    if (unsplashOnsenData && unsplashOnsenData.images) {
+    if (onsenList && onsenList.length > 0) {
       // 既存のdocsページを保持
       const existingDocs = rawContent.pages?.docs || [];
       const existingSlugs = new Set(existingDocs.map((doc: DocPageRaw) => doc.slug));
-      
+
       // 30箇所の温泉データをdocsページに変換
-      const generatedDocs: DocPageRaw[] = unsplashOnsenData.images.map((onsen: any) => ({
+      const generatedDocs: DocPageRaw[] = onsenList.map((onsen: any) => ({
         slug: onsen.slug,
         title: onsen.name,
         subtitle: onsen.location,
         description: onsen.description,
         category: '温泉地',
-        image: onsen.imgUrl,
+        image: onsen.images?.[0]?.url || 'https://images.unsplash.com/photo-1596205838031-643501178619', // ignore-hardcode
         content: `## ${onsen.name}について\n\n${onsen.description}\n\n※ 詳細情報は準備中です。`,
         // 基本的な温泉情報（オプション）
         onsen: undefined, // 詳細情報が必要な場合はここに追加
       }));
-      
+
       // 既存のdocsと生成されたdocsをマージ（重複を避ける）
       const mergedDocs = [
         ...existingDocs,
         ...generatedDocs.filter((doc: DocPageRaw) => !existingSlugs.has(doc.slug)),
       ];
-      
+
       // rawContentを更新
       if (!rawContent.pages) {
         rawContent.pages = {
@@ -257,10 +260,10 @@ export async function loadContent(): Promise<ContentConfig> {
       }
       rawContent.pages.docs = mergedDocs;
     }
-    
+
     // 画像参照を解決（onsenKey + imageIndex → URL）
     const contentWithResolvedImages = resolveImageReferences(rawContent);
-    
+
     // 画像URLを解決（キーからURLに変換）
     const resolvedContent = resolveImageUrls(contentWithResolvedImages);
     cachedContent = {
@@ -314,7 +317,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
         },
         sections: content.pages.home.sections.map(section => {
           const resolvedSection: any = { ...section };
-          
+
           if (section.type === 'split-feature' && section.image) {
             resolvedSection.image = resolveImageUrl(
               section.image,
@@ -323,7 +326,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               'onsen,hot spring,japan'
             );
           }
-          
+
           if (section.type === 'cta-fullscreen' && section.bgImage) {
             resolvedSection.bgImage = resolveImageUrl(
               section.bgImage,
@@ -332,7 +335,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               'onsen,hot spring,japan'
             );
           }
-          
+
           if (section.type === 'grid-gallery' && section.items) {
             resolvedSection.items = section.items.map((item: any) => ({
               ...item,
@@ -344,7 +347,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               ),
             }));
           }
-          
+
           if (section.type === 'area-selection' && section.items) {
             resolvedSection.items = section.items.map((item: any) => ({
               ...item,
@@ -356,7 +359,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               ),
             }));
           }
-          
+
           if (section.type === 'premium-grid' && section.items) {
             resolvedSection.items = section.items.map((item: any) => {
               // リンクからslugを抽出
@@ -372,7 +375,7 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               };
             });
           }
-          
+
           if (section.type === 'recommended-onsen' && section.items) {
             resolvedSection.items = section.items.map((item: any) => ({
               ...item,
@@ -384,9 +387,9 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
               ),
             }));
           }
-          
+
           // onsen-list は items を持たず、pages.onsen.items から動的に生成される
-          
+
           return resolvedSection;
         }),
         blog: content.pages.home.blog ? {

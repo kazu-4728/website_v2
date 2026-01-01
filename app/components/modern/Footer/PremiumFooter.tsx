@@ -102,7 +102,10 @@ export function PremiumFooter({
                   placeholder="メールアドレス"
                   className="flex-1 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white placeholder-sky-300 focus:outline-none focus:border-amber-300 transition-colors duration-300"
                 />
-                <button className="p-2 rounded-full bg-amber-500 hover:bg-amber-600 transition-colors duration-300 shadow-lg">
+                <button
+                  className="p-2 rounded-full bg-amber-500 hover:bg-amber-600 transition-colors duration-300 shadow-lg"
+                  aria-label="ニュースレターに登録"
+                >
                   <Mail className="w-5 h-5" />
                 </button>
               </div>

@@ -26,7 +26,7 @@ export function MobileMenu({ isOpen, onClose, items }: MobileMenuProps) {
       const focusableElements = menuRef.current?.querySelectorAll(
         'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
       );
-      
+
       if (focusableElements && focusableElements.length > 0) {
         firstFocusableRef.current = focusableElements[0] as HTMLElement;
         firstFocusableRef.current?.focus();
@@ -99,6 +99,7 @@ export function MobileMenu({ isOpen, onClose, items }: MobileMenuProps) {
             exit={{ opacity: 0, x: '-100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
             className="fixed inset-0 z-[110] bg-white lg:hidden overflow-y-auto"
+            id="mobile-menu"
             aria-expanded={isOpen}
             aria-label="モバイルメニュー"
             role="navigation"
@@ -110,11 +111,10 @@ export function MobileMenu({ isOpen, onClose, items }: MobileMenuProps) {
                   <Link
                     key={index}
                     href={item.href}
-                    className={`text-lg font-medium transition-colors min-h-[44px] min-w-[44px] flex items-center ${
-                      item.variant === 'primary' || item.variant === 'secondary'
+                    className={`text-lg font-medium transition-colors min-h-[44px] min-w-[44px] flex items-center ${item.variant === 'primary' || item.variant === 'secondary'
                         ? 'btn-premium w-full text-center py-3 rounded-full justify-center'
                         : 'text-gray-700 hover:text-ocean-blue py-2'
-                    }`}
+                      }`}
                     onClick={onClose}
                   >
                     {item.label}

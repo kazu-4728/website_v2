@@ -127,15 +127,15 @@ export async function getOnsenImageFromWikimedia(
   const image = images[0];
 
   // パブリックドメインかどうかを判定
-  const isPublicDomain = 
+  const isPublicDomain =
     image.license.toLowerCase().includes('public domain') ||
     image.license.toLowerCase().includes('pd-');
 
   return {
     url: image.url,
     photographer: image.author,
-    photographerUrl: image.author !== 'Unknown' ? 
-      `https://commons.wikimedia.org/wiki/User:${encodeURIComponent(image.author)}` : 
+    photographerUrl: image.author !== 'Unknown' ?
+      `https://commons.wikimedia.org/wiki/User:${encodeURIComponent(image.author)}` :
       undefined,
     source: 'wikimedia',
     sourceUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(image.title)}`,
@@ -176,11 +176,28 @@ async function loadCachedImageData(): Promise<Record<string, {
     // ビルド時にdata/wikimedia-images.jsonを読み込む
     const fs = await import('fs');
     const path = await import('path');
-    const jsonPath = path.join(process.cwd(), 'data', 'wikimedia-images.json');
-    
+    const jsonPath = path.join(process.cwd(), 'data', 'onsen-catalog.json');
+
     if (fs.existsSync(jsonPath)) {
       const fileContent = fs.readFileSync(jsonPath, 'utf-8');
-      cachedImageData = JSON.parse(fileContent);
+      const catalog = JSON.parse(fileContent);
+      // Transform catalog format (slug -> { image: ... }) back to simple format for compatibility
+      // Or better, update types. For now, let's map it to expected cache format.
+      const cache: any = {};
+      Object.values(catalog).forEach((entry: any) => {
+        const image = entry.images?.[0] || entry.image;
+        if (image) {
+          cache[entry.slug] = {
+            url: image.url,
+            author: image.credit?.name || image.author || 'Unknown',
+            license: image.license || 'Unknown',
+            licenseUrl: image.licenseUrl || '',
+            title: image.alt || image.title || entry.name,
+            isPlaceholder: false
+          };
+        }
+      });
+      cachedImageData = cache;
       return cachedImageData!;
     }
   } catch (error) {
@@ -202,12 +219,12 @@ export async function getCachedOnsenImage(
 
   if (cachedImage) {
     // プレースホルダー（準備中）画像かどうかを判定
-    const isPlaceholder = cachedImage.title?.toLowerCase().includes('準備中') || 
-                          cachedImage.title?.toLowerCase().includes('取得中') ||
-                          cachedImage.isPlaceholder === true;
+    const isPlaceholder = cachedImage.title?.toLowerCase().includes('準備中') ||
+      cachedImage.title?.toLowerCase().includes('取得中') ||
+      cachedImage.isPlaceholder === true;
 
     // パブリックドメインかどうかを判定
-    const isPublicDomain = 
+    const isPublicDomain =
       cachedImage.license.toLowerCase().includes('public domain') ||
       cachedImage.license.toLowerCase().includes('pd-') ||
       cachedImage.license.toLowerCase().includes('cc0');
@@ -219,8 +236,8 @@ export async function getCachedOnsenImage(
     return {
       url: cachedImage.url,
       photographer: authorName || 'Unknown',
-      photographerUrl: cachedImage.author.includes('User:') ? 
-        `https://commons.wikimedia.org/wiki/${cachedImage.author.match(/User:[^"<]+/)?.[0] || ''}` : 
+      photographerUrl: cachedImage.author.includes('User:') ?
+        `https://commons.wikimedia.org/wiki/${cachedImage.author.match(/User:[^"<]+/)?.[0] || ''}` :
         undefined,
       source: 'wikimedia',
       sourceUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(cachedImage.title.replace(/^File:/, ''))}`,
