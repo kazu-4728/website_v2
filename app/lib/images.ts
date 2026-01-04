@@ -5,6 +5,7 @@
  */
 
 import { getOnsenSpot, getAllOnsenIds } from './onsen-data';
+import { withBasePath } from './base-path';
 import stockDataRaw from '../../data/onsen-image-stock.json';
 
 // 型定義
@@ -43,8 +44,9 @@ function convertStockImage(img: StockImage, description: string): ImageMetadata 
   };
 }
 
-// Fallback Image (No Image)
-const FALLBACK_IMAGE = '/images/placeholder/onsen.svg';
+// Fallback Image (No Image) - withBasePathでPages対応
+const FALLBACK_IMAGE_PATH = '/images/placeholder/onsen.svg';
+const FALLBACK_IMAGE = withBasePath(FALLBACK_IMAGE_PATH);
 
 /**
  * 汎用画像取得関数 (Core)
@@ -70,7 +72,8 @@ export function getImage(key: string, role: string = 'hero'): string {
     return FALLBACK_IMAGE;
   }
 
-  return selectedUrl;
+  // ローカルパスにbasePathを付与してPages対応
+  return withBasePath(selectedUrl);
 }
 
 /**

@@ -23,3 +23,6 @@ npm run dev                 # 開発サーバー
 npm run build               # 本番ビルド
 npm run verify:assets-policy # 資産ポリシーチェック
 ```
+
+## 注意事項
+- **`.env.local` はローカル専用**。絶対にコミットしないこと（.gitignoreで除外済み）。
