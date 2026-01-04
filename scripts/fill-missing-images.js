@@ -186,17 +186,32 @@ async function main() {
         }
 
         if (foundImages.length > 0) {
-            // 上位3枚を採用
-            onsen.images = foundImages.slice(0, 3).map(img => ({
+            // 上位3枚を候補として記録
+            const candidates = foundImages.slice(0, 3).map(img => ({
+                onsenId: id,
+                onsenName: onsen.name,
                 url: img.url,
                 alt: img.alt,
                 credit: img.credit,
-                source: img.source,
+                source: "wikimedia-auto",
+                sourceUrl: img.credit?.url || '', // credit.url is often the file page or close to it
                 license: img.license,
-                licenseUrl: img.licenseUrl
+                licenseUrl: img.licenseUrl,
+                score: img.score,
+                fetchedAt: new Date().toISOString()
             }));
+
+            const candidateFile = path.join(__dirname, '../data/raw/image-candidates.jsonl');
+            // Ensure data/raw exists (it should, but just in case)
+            const rawDir = path.dirname(candidateFile);
+            if (!fs.existsSync(rawDir)) fs.mkdirSync(rawDir, { recursive: true });
+
+            // Append to JSONL
+            const lines = candidates.map(c => JSON.stringify(c)).join('\n') + '\n';
+            fs.appendFileSync(candidateFile, lines);
+
             updatedCount++;
-            console.log(`[UPDATE] Added ${onsen.images.length} images to ${onsen.name}.`);
+            console.log(`[CANDIDATE] Saved ${candidates.length} candidates for ${onsen.name}.`);
         } else {
             console.log(`[WARN] No images found for ${onsen.name}.`);
         }
@@ -206,11 +221,10 @@ async function main() {
     }
 
     if (updatedCount > 0) {
-        console.log(`\nSaving catalog... Updated ${updatedCount} onsens.`);
-        fs.writeFileSync(CATALOG_PATH, JSON.stringify(catalog, null, 2));
+        console.log(`\nSearch complete. Candidates saved to data/raw/image-candidates.jsonl`);
         console.log('Done.');
     } else {
-        console.log('\nNo updates needed.');
+        console.log('\nNo new candidates found.');
     }
 }
 

@@ -1,73 +1,9 @@
 {
-    "kusatsu": [
-        {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
-            "credit": "Wikimedia Commons",
-            "roles": [
-                "hero",
-                "home_hero_bg",
-                "story_intro"
-            ]
-        }
-    ],
-    "hakone": [
-        {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
-            "credit": "Wikimedia Commons",
-            "roles": [
-                "hero",
-                "thumbnail"
-            ]
-        }
-    ],
-    "kinugawa": [
-        {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG",
-            "credit": "Wikimedia Commons",
-            "roles": [
-                "hero",
-                "thumbnail"
-            ]
-        }
-    ],
-    "nasu": [
-        {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-            "credit": "Wikimedia Commons",
-            "roles": [
-                "hero",
-                "thumbnail"
-            ]
-        }
-    ],
-    "ikaho": [
-        {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
-            "credit": "Wikimedia Commons",
-            "roles": [
-                "hero",
-                "thumbnail",
-                "ranking_skin_beauty"
-            ]
-        }
-    ],
-    "manza": [
-        {
-            "url": "https://images.unsplash.com/photo-1610366398516-46da97841961?auto=format&fit=crop&q=80&w=1000",
-            "credit": "Unsplash",
-            "roles": [
-                "hero",
-                "thumbnail"
-            ]
-        }
-    ],
-    "atami": [
-        {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
-            "credit": "Wikimedia Commons",
-            "roles": [
-                "experience_journey"
-            ]
-        }
-    ]
+    "kusatsu": [],
+    "hakone": [],
+    "kinugawa": [],
+    "nasu": [],
+    "ikaho": [],
+    "manza": [],
+    "atami": []
 }

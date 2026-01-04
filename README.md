@@ -1,6 +1,6 @@
 # 🚀 関東温泉紀行
 
-[![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
+[![Deploy to GitHub Pages](https://github.com/your-username/web-site/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/your-username/web-site/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Topics](https://img.shields.io/badge/Topics-1-blue)
 ![Posts](https://img.shields.io/badge/Posts-0-purple)
@@ -10,9 +10,9 @@
 
 ## 🌐 ライブデモ
 
-**🔗 [https://kazu-4728.github.io/website_v2/](https://kazu-4728.github.io/website_v2/)**
+**🔗 [https://your-username.github.io/web-site/](https://your-username.github.io/web-site/)**
 
-最新のデプロイ状況: [GitHub Actions](https://github.com/kazu-4728/website_v2/actions)
+最新のデプロイ状況: [GitHub Actions](https://github.com/your-username/web-site/actions)
 
 ---
 
@@ -70,8 +70,8 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/kazu-4728/website_v2.git
-cd website_v2
+git clone https://github.com/your-username/web-site.git
+cd web-site
 
 # 依存関係をインストール
 npm install
@@ -114,7 +114,9 @@ npm run dev
 ```bash
 npm run check         # 総合チェック
 npm run check:images  # 画像リンク切れチェック
-npm run check:links   # 内部リンク切れチェック
+npm run verify:assets-policy # 資産運用ポリシーチェック (NEW)
+npm run verify:assets-exist  # 資産実在チェック (NEW)
+npm run lint:hardcode # ハードコード検知 (Strict)
 ```
 
 ---
@@ -158,4 +160,4 @@ web-site/
 
 *このREADMEは自動生成されています。変更は `scripts/generate-readme.js` を編集してください。*
 
-*最終更新: 2025/12/25 12:18:49*
+*最終更新: 2026/1/1 19:55:47*

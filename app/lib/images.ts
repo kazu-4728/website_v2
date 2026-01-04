@@ -44,7 +44,7 @@ function convertStockImage(img: StockImage, description: string): ImageMetadata 
 }
 
 // Fallback Image (No Image)
-const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
+const FALLBACK_IMAGE = '/images/placeholder/onsen.svg';
 
 /**
  * 汎用画像取得関数 (Core)
@@ -56,17 +56,21 @@ export function getImage(key: string, role: string = 'hero'): string {
   const images = stockData[key];
   if (!images || images.length === 0) {
     // ストックにない場合はカタログ、それもなければフォールバック
-    // ここでは単純化のためフォールバック
-    // console.warn(`Image not found for key: ${key}, role: ${role}`); 
     return FALLBACK_IMAGE;
   }
 
   // ロールが一致するものを探す
+  let selectedUrl = images[0].url; // Default to first
   const match = images.find(img => img.roles.includes(role));
-  if (match) return match.url;
+  if (match) selectedUrl = match.url;
 
-  // ロール一致がなければ、最初の画像を返す（フォールバック）
-  return images[0].url;
+  // 厳格なローカルパスチェック: http/httpsで始まるものは強制的にFallback
+  if (selectedUrl.startsWith('http')) {
+    // console.warn(`External URL blocked by policy: ${selectedUrl}`);
+    return FALLBACK_IMAGE;
+  }
+
+  return selectedUrl;
 }
 
 /**
@@ -179,12 +183,20 @@ export function getFeatureImage(key: string): string {
 
 export function optimizeImageUrl(url: string): string {
   if (!url) return FALLBACK_IMAGE;
-  // ストックされているURLは既に最適化済みパラメータがついている前提だが、念のため
-  if (url.includes('unsplash.com') && !url.includes('auto=format')) {
-    const urlObj = new URL(url);
-    urlObj.searchParams.set('auto', 'format');
-    urlObj.searchParams.set('fit', 'crop');
-    return urlObj.toString();
+
+  // 外部URLのみ最適化処理を行う（ローカルパスはスキップ）
+  if (url.startsWith('http')) {
+    // ストックされているURLは既に最適化済みパラメータがついている前提だが、念のため
+    if (url.includes('unsplash.com') && !url.includes('auto=format')) {
+      try {
+        const urlObj = new URL(url);
+        urlObj.searchParams.set('auto', 'format');
+        urlObj.searchParams.set('fit', 'crop');
+        return urlObj.toString();
+      } catch (e) {
+        return url;
+      }
+    }
   }
   return url;
 }

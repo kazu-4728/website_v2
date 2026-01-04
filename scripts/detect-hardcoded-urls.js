@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 検索対象のディレクトリ
-const TARGET_DIRS = ['app', 'components', 'themes', 'data'];
+const TARGET_DIRS = ['app', 'components', 'themes'];
 // 除外するディレクトリ・ファイル
 const EXCLUDE_PATHS = [
     'node_modules',

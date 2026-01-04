@@ -1,8 +1,0 @@
-{
-    "microsoft-edge-tools.validation.enabled": false,
-    "microsoft-edge-tools.webhint.enabled": false,
-    "webhint.enable": false,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false
-}
