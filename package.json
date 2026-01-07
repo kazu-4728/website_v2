@@ -13,8 +13,11 @@
     "check:links": "node scripts/check-links.js",
     "fetch-images": "node scripts/fetch-wikimedia-images.js",
     "lint:hardcode": "node scripts/detect-hardcoded-urls.js",
-    "verify:assets-policy": "node scripts/verify-assets-policy.js",
-    "verify:assets-exist": "node scripts/verify-assets-exist.js"
+    "verify:assets-exist": "node scripts/verify-assets-exist.js",
+    "verify:assets-policy": "node scripts/detect-hardcoded-urls.js && node scripts/verify-assets-policy.js",
+    "fetch:images:mvp:dry": "node scripts/fetch-images-mvp.js --dry-run",
+    "fetch:images:mvp": "node scripts/fetch-images-mvp.js --max-total 8",
+    "prebuild": "node scripts/detect-hardcoded-urls.js"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
