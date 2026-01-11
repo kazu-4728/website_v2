@@ -1,6 +1,6 @@
 # 🚀 関東温泉紀行
 
-[![Deploy to GitHub Pages](https://github.com/your-username/web-site/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/your-username/web-site/actions)
+[![Deploy to GitHub Pages](https://github.com/kazu-4728/website_v2/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/kazu-4728/website_v2/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Topics](https://img.shields.io/badge/Topics-1-blue)
 ![Posts](https://img.shields.io/badge/Posts-0-purple)
@@ -10,9 +10,9 @@
 
 ## 🌐 ライブデモ
 
-**🔗 [https://your-username.github.io/web-site/](https://your-username.github.io/web-site/)**
+**🔗 [https://kazu-4728.github.io/website_v2/](https://kazu-4728.github.io/website_v2/)**
 
-最新のデプロイ状況: [GitHub Actions](https://github.com/your-username/web-site/actions)
+最新のデプロイ状況: [GitHub Actions](https://github.com/kazu-4728/website_v2/actions)
 
 ---
 
@@ -70,8 +70,8 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/your-username/web-site.git
-cd web-site
+git clone https://github.com/kazu-4728/website_v2.git
+cd website_v2
 
 # 依存関係をインストール
 npm install
@@ -124,7 +124,7 @@ npm run lint:hardcode # ハードコード検知 (Strict)
 ## 📁 プロジェクト構造
 
 ```
-web-site/
+website_v2/
 ├── .github/
 │   └── workflows/          # CI/CD設定
 ├── app/
