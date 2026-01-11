@@ -1,3 +1,8 @@
+/**
+ * @deprecated This component is defined in content.json but not currently rendered.
+ * It may be used in the future if content.json sections are rendered dynamically.
+ */
+
 'use client';
 
 import Image from 'next/image';

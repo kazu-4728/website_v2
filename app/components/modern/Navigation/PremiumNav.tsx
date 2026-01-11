@@ -27,6 +27,7 @@ export function PremiumNav({ logo, items }: PremiumNavProps) {
 
   // ナビゲーションの背景透明度をスクロールに応じて変更
   const navOpacity = useTransform(scrollY, [0, 100], [0.95, 1]);
+  const [opacityValue, setOpacityValue] = useState(0.95);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,12 +38,19 @@ export function PremiumNav({ logo, items }: PremiumNavProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    const unsubscribe = navOpacity.on('change', (latest) => {
+      setOpacityValue(latest);
+    });
+    return () => unsubscribe();
+  }, [navOpacity]);
+
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-xl ${isScrolled ? 'py-4 shadow-lg' : 'py-6'
         }`}
       style={{
-        backgroundColor: `rgba(255, 255, 255, ${navOpacity.get()})`,
+        backgroundColor: `rgba(255, 255, 255, ${opacityValue})`,
       }}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8">

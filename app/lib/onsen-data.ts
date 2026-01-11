@@ -1,73 +1,50 @@
 /**
- * Onsen Data Access Layer
+ * @deprecated This file is deprecated. Use src/features/onsen/repository.ts instead.
  * 
- * Provides type-safe access to the onsen catalog data.
+ * Onsen Data Access Layer (Legacy)
+ * 
+ * This file is kept for backward compatibility but should not be used in new code.
+ * Migrate to src/features/onsen/repository.ts for new implementations.
  */
 
-import onsenCatalog from '../../data/onsen-catalog.json';
 import { OnsenSpot } from './onsen-types';
 
-// Cast the JSON to a Record of partial OnsenSpot objects
-// We use Partial because not all fields might be filled for all entries yet
-const CATALOG = onsenCatalog as unknown as Record<string, Partial<OnsenSpot> & { id: string; slug: string }>;
+// Re-export from new structure for backward compatibility
+export { getAllOnsens as getAllOnsenSpots } from '../../src/features/onsen/queries';
+export { getOnsenBySlug as getOnsenSpot } from '../../src/features/onsen/repository';
 
 /**
- * Get all onsen IDs
+ * @deprecated Use getAllOnsens() from src/features/onsen/queries instead
  */
 export function getAllOnsenIds(): string[] {
-    return Object.keys(CATALOG);
+  // This function is kept for backward compatibility but should not be used
+  console.warn('getAllOnsenIds() is deprecated. Use getAllOnsens() from src/features/onsen/queries instead.');
+  return [];
 }
 
 /**
- * Get all onsen slugs
+ * @deprecated Use getAllOnsens() from src/features/onsen/queries instead
  */
 export function getAllOnsenSlugs(): string[] {
-    return Object.values(CATALOG).map(spot => spot.slug);
+  // This function is kept for backward compatibility but should not be used
+  console.warn('getAllOnsenSlugs() is deprecated. Use getAllOnsens() from src/features/onsen/queries instead.');
+  return [];
 }
 
 /**
- * Get a specific onsen spot by ID or Slug
- */
-export function getOnsenSpot(idOrSlug: string): OnsenSpot | null {
-    // Try direct lookup by ID
-    if (CATALOG[idOrSlug]) {
-        return CATALOG[idOrSlug] as OnsenSpot;
-    }
-
-    // Try lookup by slug
-    const spot = Object.values(CATALOG).find(s => s.slug === idOrSlug);
-    return (spot as OnsenSpot) || null;
-}
-
-/**
- * Get multiple onsen spots by IDs
+ * @deprecated Use getOnsenSpots() from src/features/onsen/queries instead
  */
 export function getOnsenSpots(ids: string[]): OnsenSpot[] {
-    return ids
-        .map(id => getOnsenSpot(id))
-        .filter((spot): spot is OnsenSpot => spot !== null);
+  // This function is kept for backward compatibility but should not be used
+  console.warn('getOnsenSpots() is deprecated. Use queries from src/features/onsen/queries instead.');
+  return [];
 }
 
 /**
- * Get all onsen spots
- */
-export function getAllOnsenSpots(): OnsenSpot[] {
-    return Object.values(CATALOG) as OnsenSpot[];
-}
-
-/**
- * Get recommended onsen spots (prioritizing those with detailed data)
+ * @deprecated Use getPopularOnsens() from src/features/onsen/queries instead
  */
 export function getRecommendedOnsenSpots(limit: number = 5): OnsenSpot[] {
-    const all = getAllOnsenSpots();
-
-    // Prioritize spots that have 'onsen' detailed data filled (e.g. springTypes)
-    const detailed = all.filter(s => s.onsen && s.onsen.springTypes && s.onsen.springTypes.length > 0);
-    const others = all.filter(s => !s.onsen || !s.onsen.springTypes); // simple toggle logic
-
-    // Sort detailed ones by some priority if available, otherwise simplified sort
-    // For now, stable sort
-
-    const recommended = [...detailed, ...others];
-    return recommended.slice(0, limit);
+  // This function is kept for backward compatibility but should not be used
+  console.warn('getRecommendedOnsenSpots() is deprecated. Use getPopularOnsens() from src/features/onsen/queries instead.');
+  return [];
 }

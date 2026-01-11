@@ -1,3 +1,8 @@
+/**
+ * @deprecated This component is defined in content.json but not currently rendered.
+ * It may be used in the future if content.json sections are rendered dynamically.
+ */
+
 'use client';
 
 import Image from 'next/image';
@@ -155,10 +160,7 @@ export function OverlapSection({
             }`}>
               {subtitle && (
                 <motion.p
-                  className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent}`}
-                  style={{
-                    textShadow: '1px 1px 3px rgba(255, 255, 255, 0.8)',
-                  }}
+                  className={`text-xs md:text-sm lg:text-base font-bold tracking-[0.3em] mb-4 ${styles.accent} [text-shadow:1px_1px_3px_rgba(255,255,255,0.8)]`}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -169,13 +171,11 @@ export function OverlapSection({
               )}
 
               <motion.h2
-                className={`${typography?.titleSize || 'text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl'} font-bold mb-6 text-gray-900 leading-tight tracking-tight`}
+                className={`${typography?.titleSize || 'text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl'} font-bold mb-6 text-gray-900 leading-tight tracking-tight ${typography?.font === 'serif' ? 'font-heading' : ''} [text-shadow:2px_2px_4px_rgba(255,255,255,0.5)]`}
                 style={{
-                  fontFamily: typography?.font === 'serif' ? 'var(--font-heading)' : 'inherit',
                   writingMode: isVertical ? 'vertical-rl' : 'horizontal-tb',
                   textOrientation: isVertical ? 'upright' : 'mixed',
-                  textShadow: '2px 2px 4px rgba(255, 255, 255, 0.5)',
-                }}
+                } as React.CSSProperties}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
@@ -189,10 +189,7 @@ export function OverlapSection({
               </motion.h2>
 
               <motion.p
-                className="text-base md:text-lg lg:text-xl text-gray-800 leading-relaxed mb-8"
-                style={{
-                  textShadow: '1px 1px 2px rgba(255, 255, 255, 0.5)',
-                }}
+                className="text-base md:text-lg lg:text-xl text-gray-800 leading-relaxed mb-8 [text-shadow:1px_1px_2px_rgba(255,255,255,0.5)]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

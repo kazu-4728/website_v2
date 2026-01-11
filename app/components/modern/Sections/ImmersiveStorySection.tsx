@@ -1,3 +1,8 @@
+/**
+ * @deprecated This component is defined in content.json but not currently rendered.
+ * It may be used in the future if content.json sections are rendered dynamically.
+ */
+
 'use client';
 
 import Image from 'next/image';
@@ -124,12 +129,10 @@ export function ImmersiveStorySection({
         )}
 
         <motion.h2
-          className={`${typography?.titleSize || 'text-4xl md:text-6xl lg:text-8xl xl:text-9xl'} font-bold mb-6 md:mb-8 leading-[1.1] tracking-tight text-white text-center`}
+          className={`${typography?.titleSize || 'text-4xl md:text-6xl lg:text-8xl xl:text-9xl'} font-bold mb-6 md:mb-8 leading-[1.1] tracking-tight text-white text-center ${typography?.font === 'serif' ? 'font-heading' : ''} [text-shadow:2px_2px_8px_rgba(0,0,0,0.5)]`}
           style={{
-            fontFamily: typography?.font === 'serif' ? 'var(--font-heading)' : 'inherit',
-            textShadow: '2px 2px 8px rgba(0, 0, 0, 0.5)',
             writingMode: typography?.orientation === 'vertical' ? 'vertical-rl' : 'horizontal-tb',
-          }}
+          } as React.CSSProperties}
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -143,10 +146,7 @@ export function ImmersiveStorySection({
         </motion.h2>
 
         <motion.p
-          className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white/90 max-w-4xl mx-auto leading-relaxed text-center"
-          style={{
-            textShadow: '1px 1px 4px rgba(0, 0, 0, 0.5)',
-          }}
+          className="text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white/90 max-w-4xl mx-auto leading-relaxed text-center [text-shadow:1px_1px_4px_rgba(0,0,0,0.5)]"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

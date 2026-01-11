@@ -4,7 +4,7 @@
  * JSON First原則に基づき、ハードコーディングを排除。
  */
 
-import { getOnsenSpot, getAllOnsenIds } from './onsen-data';
+import { getOnsenById } from '../../src/features/onsen/repository';
 import { withBasePath } from './base-path';
 import stockDataRaw from '../../data/onsen-image-stock.json';
 
@@ -80,19 +80,21 @@ export function getImage(key: string, role: string = 'hero'): string {
  * 温泉スラグから画像を取得
  * 旧API互換用。基本的には getImage(slug, 'hero') と同じ。
  */
-export function getOnsenImage(slug: string): string {
-  // カタログのエントリ確認 (存在チェックとしての利用)
-  const entry = getOnsenSpot(slug);
-
+export async function getOnsenImage(slug: string): Promise<string> {
   // ストックから優先的に取得
   const stockUrl = getImage(slug, 'hero');
   if (stockUrl !== FALLBACK_IMAGE) {
     return stockUrl;
   }
 
-  // ストックになく、カタログのエントリがある場合 (現状カタログのimagesは空だが、将来用)
-  if (entry && (entry as any).images && (entry as any).images.length > 0) {
-    return (entry as any).images[0].url;
+  // カタログのエントリ確認 (存在チェックとしての利用)
+  try {
+    const entry = await getOnsenById(slug);
+    if (entry && entry.images && entry.images.hero) {
+      return withBasePath(entry.images.hero);
+    }
+  } catch (error) {
+    // エラー時はフォールバック
   }
 
   return FALLBACK_IMAGE;
@@ -105,9 +107,13 @@ export async function getOnsenImageMetadata(slug: string): Promise<ImageMetadata
   const images = stockData[slug];
   if (images && images.length > 0) {
     const img = images[Math.floor(Math.random() * images.length)];
-    const entry = getOnsenSpot(slug);
-    const name = entry ? entry.name : slug;
-    return convertStockImage(img, `${name}`);
+    try {
+      const entry = await getOnsenById(slug);
+      const name = entry ? entry.name : slug;
+      return convertStockImage(img, `${name}`);
+    } catch (error) {
+      return convertStockImage(img, slug);
+    }
   }
   return null;
 }
@@ -152,6 +158,9 @@ export function getImageMetadata(category: string, key: string): ImageMetadata |
   return null;
 }
 
+/**
+ * @deprecated This function is no longer used. Use resolveOnsenImageUrl in content.ts or getOnsenImage instead.
+ */
 export function getOnsenImageFromMaster(slug: string, type: string = 'hero'): string {
   return getImage(slug, type);
 }
@@ -187,20 +196,13 @@ export function getFeatureImage(key: string): string {
 export function optimizeImageUrl(url: string): string {
   if (!url) return FALLBACK_IMAGE;
 
-  // 外部URLのみ最適化処理を行う（ローカルパスはスキップ）
+  // 外部URLは禁止（プレースホルダに置き換え）
   if (url.startsWith('http')) {
-    // ストックされているURLは既に最適化済みパラメータがついている前提だが、念のため
-    if (url.includes('unsplash.com') && !url.includes('auto=format')) {
-      try {
-        const urlObj = new URL(url);
-        urlObj.searchParams.set('auto', 'format');
-        urlObj.searchParams.set('fit', 'crop');
-        return urlObj.toString();
-      } catch (e) {
-        return url;
-      }
-    }
+    console.warn(`External URL blocked: ${url}. Using fallback image.`);
+    return FALLBACK_IMAGE;
   }
+
+  // ローカルパスのみ許可
   return url;
 }
 

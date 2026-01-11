@@ -1,10 +1,9 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { getThemeImage, getOnsenImage, getOnsenImageFromMaster, optimizeImageUrl } from './images';
+import { getThemeImage, getOnsenImage, optimizeImageUrl } from './images';
 import { resolveWeeklyRotation } from './weekly-rotation';
-import onsenCatalogData from '../../data/onsen-catalog.json';
-
-const onsenList = Object.values(onsenCatalogData as Record<string, any>);
+import { getAllOnsens } from '../../src/features/onsen/queries';
+import { getOnsenBySlug } from '../../src/features/onsen/repository';
 
 // Import common theme types
 import type {
@@ -160,27 +159,34 @@ function resolveImageReferences(obj: any): any {
 }
 
 /**
- * onsenKeyとimageIndexから画像URLを解決
+ * onsenKeyとimageIndexから画像URLを解決（スロット形式対応）
+ * 
+ * 注意: この関数は同期的である必要があるため、非同期のrepositoryは直接使用できない。
+ * 代わりに、正規化されたカタログデータを直接読み込む。
  */
 function resolveOnsenImageUrl(onsenKey: string, imageIndex: number = 0): string {
   try {
-    // onsen-catalog.jsonから画像を取得
-    // onsenKey is the slug (e.g. "kusatsu")
-    const entry = (onsenCatalogData as any)[onsenKey];
+    // スロット名の配列（imageIndexに対応）
+    const slotNames = ['hero', 'onsen', 'rooms', 'cuisine', 'gallery-01', 'gallery-02', 'gallery-03', 'gallery-04'];
+    const slot = slotNames[imageIndex] || 'hero';
+    
+    // 正規化されたカタログデータを直接読み込む（同期的に取得する必要があるため）
+    // 注意: これは一時的な解決策。将来的には非同期対応が必要かもしれない
+    const catalog = require('../../data/onsen-catalog.json') as Record<string, any>;
+    const entry = catalog[onsenKey];
 
-    if (!entry || !entry.images || entry.images.length === 0) {
-      // console.warn(`No images found for onsen: ${onsenKey}`);
-      // フォールバック画像を返す
-      return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
+    if (!entry || !entry.images || typeof entry.images !== 'object') {
+      // プレースホルダ画像を返す（外部URL禁止）
+      return '/images/placeholders/hero.jpg';
     }
 
-    const images = entry.images;
-    const image = images[imageIndex] || images[0];
-    return image.url || 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
+    // スロット形式で画像を取得
+    const imageUrl = entry.images[slot];
+    return imageUrl || '/images/placeholders/hero.jpg';
   } catch (error) {
     console.error(`Failed to resolve onsen image: ${onsenKey}[${imageIndex}]`, error);
-    // エラー時のフォールバック画像
-    return 'https://images.unsplash.com/photo-1596205838031-643501178619?auto=format&fit=crop&q=80&w=1000'; // ignore-hardcode
+    // エラー時のフォールバック画像（ローカルのみ）
+    return '/images/placeholders/hero.jpg';
   }
 }
 
@@ -218,19 +224,20 @@ export async function loadContent(): Promise<ContentConfig> {
     }
 
     // 30箇所の温泉データを pages.docs に自動追加
+    const onsenList = await getAllOnsens();
     if (onsenList && onsenList.length > 0) {
       // 既存のdocsページを保持
       const existingDocs = rawContent.pages?.docs || [];
       const existingSlugs = new Set(existingDocs.map((doc: DocPageRaw) => doc.slug));
 
-      // 30箇所の温泉データをdocsページに変換
-      const generatedDocs: DocPageRaw[] = onsenList.map((onsen: any) => ({
+      // 30箇所の温泉データをdocsページに変換（スロット形式対応）
+      const generatedDocs: DocPageRaw[] = onsenList.map((onsen) => ({
         slug: onsen.slug,
         title: onsen.name,
         subtitle: onsen.location,
         description: onsen.description,
         category: '温泉地',
-        image: onsen.images?.[0]?.url || 'https://images.unsplash.com/photo-1596205838031-643501178619', // ignore-hardcode
+        image: onsen.images?.hero || '/images/placeholders/hero.jpg',
         content: `## ${onsen.name}について\n\n${onsen.description}\n\n※ 詳細情報は準備中です。`,
         // 基本的な温泉情報（オプション）
         onsen: undefined, // 詳細情報が必要な場合はここに追加
@@ -361,11 +368,13 @@ function resolveImageUrls(content: ContentConfigRaw): Omit<ContentConfig, 'texts
           }
 
           if (section.type === 'premium-grid' && section.items) {
+            // 注意: この処理は同期的である必要があるため、非同期のrepositoryは使用できない
+            // 代わりに、resolveOnsenImageUrlを使用して画像を解決
             resolvedSection.items = section.items.map((item: any) => {
               // リンクからslugを抽出
               const slug = item.link?.replace('/docs/', '') || '';
-              // マスターデータから画像を取得
-              const masterImage = getOnsenImageFromMaster(slug, 'hero');
+              // スロット形式で画像を取得（imageIndex=0はheroスロット）
+              const masterImage = resolveOnsenImageUrl(slug, 0);
               return {
                 ...item,
                 image: {
@@ -450,18 +459,18 @@ function resolveImageUrl(
       return optimizeImageUrl(image);
     }
     // キーの場合は解決
-    // 温泉カテゴリの場合は、getOnsenImage()を使用してwikimedia-images.jsonから取得
+    // 温泉カテゴリの場合は、ストックから直接取得
     if (category === 'onsen') {
-      return optimizeImageUrl(getOnsenImage(image));
+      return optimizeImageUrl(getThemeImage('onsen', image));
     }
     const url = getThemeImage(category, image, defaultKeywords);
     return optimizeImageUrl(url);
   }
 
   // フォールバック
-  // 温泉カテゴリの場合は、getOnsenImage()を使用
+  // 温泉カテゴリの場合は、getThemeImage()を使用
   if (category === 'onsen') {
-    return optimizeImageUrl(getOnsenImage(key));
+    return optimizeImageUrl(getThemeImage('onsen', key));
   }
   const url = getThemeImage(category, key, defaultKeywords);
   return optimizeImageUrl(url);

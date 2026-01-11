@@ -1,12 +1,14 @@
 /**
  * Next.js Configuration for GitHub Pages
  * 
- * dev: basePath='' (ローカル開発は / で動作)
- * prod: basePath='/website_v2' (GitHub Pages用)
+ * basePathは環境変数 NEXT_PUBLIC_BASE_PATH から読み取る
+ * - dev: NEXT_PUBLIC_BASE_PATH='' (ローカル開発は / で動作)
+ * - prod: NEXT_PUBLIC_BASE_PATH='/website_v2' (GitHub Pages用)
+ * 
+ * .env.local または .env.production で設定すること
  */
 
-const isProd = process.env.NODE_ENV === 'production';
-const basePath = isProd ? '/website_v2' : '';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default {
   output: 'export',
