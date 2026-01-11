@@ -64,9 +64,6 @@ export default async function OnsenListPage({ searchParams }: OnsenListPageProps
         {/* Search Box */}
         <SearchBox
           placeholder="温泉名、地域で検索..."
-          onSearch={(query) => {
-            // Client-side navigation will be handled by the component
-          }}
           initialValue={q || ''}
         />
 
@@ -74,9 +71,6 @@ export default async function OnsenListPage({ searchParams }: OnsenListPageProps
         <AreaFilter
           areas={areas}
           selectedArea={area}
-          onAreaChange={(selectedArea) => {
-            // Client-side navigation will be handled by the component
-          }}
         />
 
         {/* Results Count */}

@@ -7,23 +7,30 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 interface SearchBoxProps {
   placeholder?: string;
-  onSearch: (query: string) => void;
   initialValue?: string;
 }
 
 export function SearchBox({
   placeholder = '温泉名、地域で検索...',
-  onSearch,
   initialValue = '',
 }: SearchBoxProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState(initialValue);
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    onSearch(query);
+    const params = new URLSearchParams(searchParams.toString());
+    if (query.trim()) {
+      params.set('q', query.trim());
+    } else {
+      params.delete('q');
+    }
+    router.push(`/onsen?${params.toString()}`);
   };
 
   return (

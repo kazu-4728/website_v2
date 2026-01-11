@@ -5,7 +5,8 @@
   "description": "A high-impact, fully JSON-driven Next.js template for documentation and marketing sites.",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/detect-hardcoded-urls.js && next build",
+    "build": "cross-env NODE_OPTIONS=\"--max-old-space-size=16384 --max-semi-space-size=128\" next build",
+    "build:full": "node scripts/detect-hardcoded-urls.js && node scripts/verify-assets-policy.mjs && cross-env NODE_OPTIONS=--max-old-space-size=4096 next build",
     "start": "next start",
     "lint": "next lint",
     "check": "npm run check:images && npm run check:links",
@@ -40,6 +41,7 @@
     "@typescript-eslint/parser": "^8.51.0",
     "autoprefixer": "^10.4.23",
     "class-variance-authority": "^0.7.1",
+    "cross-env": "^10.1.0",
     "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.1",
     "eslint-config-prettier": "^10.1.8",

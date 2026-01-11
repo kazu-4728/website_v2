@@ -6,19 +6,31 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 interface AreaFilterProps {
   areas: string[];
   selectedArea?: string;
-  onAreaChange: (area: string | undefined) => void;
 }
 
-export function AreaFilter({ areas, selectedArea, onAreaChange }: AreaFilterProps) {
+export function AreaFilter({ areas, selectedArea }: AreaFilterProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const handleAreaChange = (area: string | undefined) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (area) {
+      params.set('area', area);
+    } else {
+      params.delete('area');
+    }
+    router.push(`/onsen?${params.toString()}`);
+  };
+
   return (
     <div className="flex flex-wrap gap-2 mb-6">
       <button
-        onClick={() => onAreaChange(undefined)}
+        onClick={() => handleAreaChange(undefined)}
         className={`px-4 py-2 rounded-full transition-colors ${
           !selectedArea
             ? 'bg-blue-600 text-white'
@@ -30,7 +42,7 @@ export function AreaFilter({ areas, selectedArea, onAreaChange }: AreaFilterProp
       {areas.map((area) => (
         <button
           key={area}
-          onClick={() => onAreaChange(area)}
+          onClick={() => handleAreaChange(area)}
           className={`px-4 py-2 rounded-full transition-colors ${
             selectedArea === area
               ? 'bg-blue-600 text-white'

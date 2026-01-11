@@ -160,3 +160,9 @@ export async function getAllTags(): Promise<string[]> {
 export async function getOnsen(slug: string): Promise<OnsenSpot | null> {
   return getOnsenBySlug(slug);
 }
+
+/**
+ * 全温泉を取得（Queries層経由）
+ * Repository層のgetAllOnsensを再エクスポート
+ */
+export { getAllOnsens } from './repository';

@@ -16,7 +16,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   
   return (
     <html lang="ja">
-      <body>
+      <body suppressHydrationWarning>
         <PremiumNav logo={content.site.logo} items={content.navigation} />
         {children}
         <PremiumFooter 

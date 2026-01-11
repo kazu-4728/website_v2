@@ -5,14 +5,13 @@
  */
 
 import { notFound } from 'next/navigation';
-import { SiteShell } from '../../../../src/ui/layouts/SiteShell';
-import { PageContainer } from '../../../../src/ui/layouts/PageContainer';
-import { OnsenGallery } from '../../../../src/ui/components/OnsenGallery';
-import { Breadcrumbs } from '../../../../src/ui/components/Breadcrumbs';
-import { TagList } from '../../../../src/ui/components/TagList';
-import { getOnsen } from '../../../../src/features/onsen/queries';
-import { getAllOnsens } from '../../../../src/features/onsen/queries';
-import { withBasePath } from '../../../lib/base-path';
+import { SiteShell } from '../../../src/ui/layouts/SiteShell';
+import { PageContainer } from '../../../src/ui/layouts/PageContainer';
+import { OnsenGallery } from '../../../src/ui/components/OnsenGallery';
+import { Breadcrumbs } from '../../../src/ui/components/Breadcrumbs';
+import { TagList } from '../../../src/ui/components/TagList';
+import { getOnsen, getAllOnsens } from '../../../src/features/onsen/queries';
+import { withBasePath } from '../../lib/base-path';
 
 interface OnsenDetailPageProps {
   params: {

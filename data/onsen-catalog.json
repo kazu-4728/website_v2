@@ -332,7 +332,75 @@
       "万座温泉",
       "群馬県"
     ],
-    "images": []
+    "images": [],
+    "region": {
+      "prefecture": "群馬県",
+      "area": "草津・四万",
+      "coordinates": {
+        "lat": 36.5500,
+        "lng": 138.5500
+      }
+    },
+    "onsen": {
+      "springTypes": [
+        "硫黄泉"
+      ],
+      "ph": 2.0,
+      "temperature": 55,
+      "effects": [
+        "皮膚病",
+        "神経痛",
+        "リウマチ",
+        "高血圧症"
+      ],
+      "characteristics": [
+        "白濁湯",
+        "高標高",
+        "硫黄含有量高"
+      ],
+      "waterQuality": "白濁"
+    },
+    "access": {
+      "nearestStation": {
+        "name": "長野原草津口駅",
+        "line": "JR吾妻線",
+        "busTime": 60,
+        "busName": "JRバス関東"
+      },
+      "fromTokyo": {
+        "byTrain": {
+          "time": 180,
+          "route": [
+            "上野駅",
+            "長野原草津口駅"
+          ],
+          "description": "特急草津・四万号で直通"
+        },
+        "byCar": {
+          "time": 200,
+          "distance": 180,
+          "icName": "渋川伊香保IC",
+          "description": "関越自動車道経由"
+        }
+      }
+    },
+    "accommodation": {
+      "dayTripAvailable": true,
+      "features": [
+        "高原の宿",
+        "スキー場近く",
+        "温泉旅館"
+      ]
+    },
+    "content": {
+      "shortDescription": "標高1,800mの高原に位置する、空に近い温泉地。硫黄含有量が高く、白濁したお湯が特徴です。",
+      "longDescription": "## 空に近い高原の温泉\n\n万座温泉は、標高1,800mという高所に位置する、関東でも有数の高標高温泉地です。硫黄含有量が非常に高く、白濁したお湯は効能も高いとされています。\n\n### スキーと温泉のリゾート\n\n周辺にはスキー場もあり、冬はスキーと温泉を楽しめるリゾート地として人気です。夏は避暑地としても最適で、涼しい気候の中で温泉を楽しめます。",
+      "highlights": [
+        "高標高の絶景",
+        "白濁の硫黄泉",
+        "スキー場アクセス"
+      ]
+    }
   },
   "shima": {
     "id": "shima",
@@ -345,7 +413,76 @@
       "四万温泉",
       "群馬県"
     ],
-    "images": []
+    "images": [],
+    "region": {
+      "prefecture": "群馬県",
+      "area": "草津・四万",
+      "coordinates": {
+        "lat": 36.5500,
+        "lng": 138.6500
+      }
+    },
+    "onsen": {
+      "springTypes": [
+        "単純温泉",
+        "硫黄泉"
+      ],
+      "ph": 7.0,
+      "temperature": 42,
+      "effects": [
+        "神経痛",
+        "リウマチ",
+        "皮膚病",
+        "疲労回復"
+      ],
+      "characteristics": [
+        "四万の湯",
+        "湯治場",
+        "レトロな街並み"
+      ],
+      "waterQuality": "無色透明"
+    },
+    "access": {
+      "nearestStation": {
+        "name": "長野原草津口駅",
+        "line": "JR吾妻線",
+        "busTime": 50,
+        "busName": "JRバス関東"
+      },
+      "fromTokyo": {
+        "byTrain": {
+          "time": 180,
+          "route": [
+            "上野駅",
+            "長野原草津口駅"
+          ],
+          "description": "特急草津・四万号で直通"
+        },
+        "byCar": {
+          "time": 190,
+          "distance": 170,
+          "icName": "渋川伊香保IC",
+          "description": "関越自動車道経由"
+        }
+      }
+    },
+    "accommodation": {
+      "dayTripAvailable": true,
+      "features": [
+        "温泉旅館",
+        "湯治場",
+        "レトロな建築"
+      ]
+    },
+    "content": {
+      "shortDescription": "四万の病を癒すと言われる名湯。四万川沿いに広がる静かな温泉街には、レトロな建築が残り、情緒ある雰囲気が魅力です。",
+      "longDescription": "## 四万の病を癒す名湯\n\n四万温泉は、古くから「四万の病を癒す」と言われてきた名湯です。四万川沿いに広がる温泉街には、明治・大正時代のレトロな建築が残り、タイムスリップしたような雰囲気を楽しめます。\n\n### 湯治場としての歴史\n\n湯治場として長い歴史を持ち、多くの人々が健康を求めて訪れてきました。静かな環境の中で、ゆったりと温泉を楽しめる、心身を癒やすのに最適な場所です。",
+      "highlights": [
+        "レトロな街並み",
+        "四万川の清流",
+        "湯治場の歴史"
+      ]
+    }
   },
   "nasu": {
     "id": "nasu",
