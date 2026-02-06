@@ -140,9 +140,17 @@ npm run build       # ✅ 成功 - 41ページ生成（SKIP_CHECK=true使用）
 
 ```bash
 # PR #59のブランチをチェックアウト
+# 前提: GitHub CLI がインストール済みで、`gh auth login` 済みであること
 gh pr checkout 59
-# または: git fetch origin && git checkout <ブランチ名>
 
+# または（GitHub CLI を使わない場合）:
+#  1. GitHub の PR #59 画面で head ブランチ名を確認する
+#     例: dependabot/npm_and_yarn/react-19-2-3 （実際のブランチ名に読み替えてください）
+#     もしくは、GitHub CLI が使える場合:
+#       gh pr view 59 --json headRefName --jq .headRefName
+#     で headRefName を取得する
+#  2. 上で確認／取得したブランチ名を使ってチェックアウトする:
+#       git fetch origin && git checkout <取得したブランチ名>
 # ロックファイルを使用して依存関係をインストール
 npm ci
 
