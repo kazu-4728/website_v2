@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "description": "A high-impact, fully JSON-driven Next.js template for documentation and marketing sites.",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
