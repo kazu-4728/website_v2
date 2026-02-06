@@ -25,42 +25,15 @@ describe('画像管理システム', () => {
 
   describe('getOnsenImage()', () => {
     it('各温泉地で異なる画像URLを返すべき', () => {
-      // モックデータを設定
-      const mockImageData = {
-        hakone: {
-          url: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Ashinoyu_onsen_-_Hakone.jpg',
-          author: 'Test Author',
-          license: 'CC BY-SA 4.0',
-          title: 'File:Hakone.jpg',
-        },
-        kusatsu: {
-          url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake.jpg',
-          author: 'Test Author',
-          license: 'Public domain',
-          title: 'File:Kusatsu.jpg',
-        },
-        'hakone-yunohana': {
-          url: 'https://upload.wikimedia.org/wikipedia/commons/test/yunohana.jpg',
-          author: 'Test Author',
-          license: 'CC BY-SA 4.0',
-          title: 'File:Yunohana.jpg',
-        },
-      };
-
-      // fs.existsSyncとreadFileSyncをモック
-      (fs.existsSync as any).mockReturnValue(true);
-      (fs.readFileSync as any).mockReturnValue(JSON.stringify(mockImageData));
-
-      // 各温泉地の画像を取得
+      // 実際のデータファイルを使用してテスト
+      // モックは動的require()では機能しないため、実際のファイルを使用
       const hakoneImage = getOnsenImage('hakone');
       const kusatsuImage = getOnsenImage('kusatsu');
       const yunohanaImage = getOnsenImage('hakone-yunohana');
 
-      // 異なる画像URLが返されることを確認
-      expect(hakoneImage).toBe(mockImageData.hakone.url);
-      // 注意: 実際のkusatsu画像URLは異なる可能性があるため、URL形式のみ確認
+      // 有効なURL形式であることを確認
+      expect(hakoneImage).toMatch(/^https?:\/\//);
       expect(kusatsuImage).toMatch(/^https?:\/\//);
-      // 注意: 実際のyunohana画像URLも異なる可能性があるため、URL形式のみ確認
       expect(yunohanaImage).toMatch(/^https?:\/\//);
 
       // すべて異なることを確認

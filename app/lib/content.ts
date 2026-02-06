@@ -129,12 +129,12 @@ function resolveImageReferences(obj: any): any {
     const value = obj[key];
     
     // bgImageRefを解決
-    if (key === 'bgImageRef' && typeof value === 'object' && value.onsenKey !== undefined) {
+    if (key === 'bgImageRef' && value !== null && typeof value === 'object' && value.onsenKey !== undefined) {
       const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
       result['bgImage'] = imageUrl;
     }
     // imageオブジェクトでonsenKeyがある場合、urlを解決
-    else if (key === 'image' && typeof value === 'object' && value.onsenKey !== undefined) {
+    else if (key === 'image' && value !== null && typeof value === 'object' && value.onsenKey !== undefined) {
       const imageUrl = resolveOnsenImageUrl(value.onsenKey, value.imageIndex || 0);
       result[key] = {
         ...value,

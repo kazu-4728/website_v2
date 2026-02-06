@@ -246,12 +246,12 @@ const ONSEN_KANTO_IMAGES: Record<string, Record<string, ImageMetadata>> = {
     ),
     // 水上温泉 - 水上温泉の露天風呂（実写、利根川源流域の温泉）
     minakami: createWikimediaMetadata(
-      'https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg',
-      '663highland',
-      'https://commons.wikimedia.org/wiki/User:663highland',
+      'https://upload.wikimedia.org/wikipedia/commons/2/28/Minakami_Onsen_Minakamikan_2018-04_2.jpg',
+      'Qurren',
+      'https://commons.wikimedia.org/wiki/User:Qurren',
       'CC BY-SA 4.0',
       'https://creativecommons.org/licenses/by-sa/4.0',
-      'Minakami Onsen - Outdoor hot spring bath in Minakami, Gunma Prefecture, Japan (using representative outdoor bath image)'
+      'Minakami Onsen - Outdoor hot spring bath in Minakami, Gunma Prefecture, Japan'
     ),
     // 四万温泉 - 四万温泉の露天風呂（実写）
     shima: createWikimediaMetadata(

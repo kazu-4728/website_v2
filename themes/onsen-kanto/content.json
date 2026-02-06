@@ -44,10 +44,22 @@
         "description": "都会の喧騒を離れ、自然の息吹を感じながら。1000年以上の歴史を刻む古湯から、絶景を望む隠れた秘湯まで。関東エリアに点在する厳選された30の温泉地が、あなたの心と体を優しく包み込みます。",
         "secondaryDescription": "本物の癒しを求める旅が、ここから始まります。",
         "badges": [
-          { "label": "厳選30名湯", "variant": "primary" },
-          { "label": "絶景露天", "variant": "default" },
-          { "label": "源泉かけ流し", "variant": "default" },
-          { "label": "週末の贅沢", "variant": "default" }
+          {
+            "label": "厳選30名湯",
+            "variant": "primary"
+          },
+          {
+            "label": "絶景露天",
+            "variant": "default"
+          },
+          {
+            "label": "源泉かけ流し",
+            "variant": "default"
+          },
+          {
+            "label": "週末の贅沢",
+            "variant": "default"
+          }
         ],
         "autoplay": true,
         "interval": 5000,
@@ -62,8 +74,14 @@
             "description": "満天の星空の下、湯けむりが立ち上る露天風呂。箱根の夜風を感じながら、非日常の至福のひとときをお楽しみください。",
             "secondaryDescription": "都心からわずか90分、最も身近な極上のリゾート。",
             "badges": [
-              { "label": "星空露天", "variant": "primary" },
-              { "label": "夜景", "variant": "default" }
+              {
+                "label": "星空露天",
+                "variant": "primary"
+              },
+              {
+                "label": "夜景",
+                "variant": "default"
+              }
             ],
             "imageKey": "starry_night",
             "season": "四季",
@@ -75,8 +93,14 @@
             "description": "静寂に包まれた草津の雪景色の中、心も体も芯から温まる強酸性の名湯。冬の温泉ならではの醍醐味がここにあります。",
             "secondaryDescription": "日本一の湧出量を誇る、力強い生命の泉。",
             "badges": [
-              { "label": "雪見風呂", "variant": "primary" },
-              { "label": "冬の風物詩", "variant": "default" }
+              {
+                "label": "雪見風呂",
+                "variant": "primary"
+              },
+              {
+                "label": "冬の風物詩",
+                "variant": "default"
+              }
             ],
             "imageKey": "snow",
             "season": "冬",
@@ -145,12 +169,18 @@
                 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
                 "alt": "箱根の絶景露天風呂",
                 "focus": "center center",
-                "overlay": { "type": "steam", "opacity": 0.3 }
+                "overlay": {
+                  "type": "steam",
+                  "opacity": 0.3
+                }
               },
               "link": "/docs/hakone",
               "category": "不動の人気",
               "badge": "殿堂入り",
-              "animation": { "hover": "zoom-rotate", "scroll": "fade-up" }
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "草津温泉",
@@ -159,12 +189,18 @@
                 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
                 "alt": "草津温泉の湯畑",
                 "focus": "center top",
-                "overlay": { "type": "mist", "opacity": 0.2 }
+                "overlay": {
+                  "type": "mist",
+                  "opacity": 0.2
+                }
               },
               "link": "/docs/kusatsu",
               "category": "日本三名泉",
               "badge": "自然湧出量日本一",
-              "animation": { "hover": "zoom-rotate", "scroll": "fade-up" }
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "鬼怒川温泉",
@@ -173,11 +209,17 @@
                 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG",
                 "alt": "鬼怒川渓谷沿いの温泉街",
                 "focus": "center center",
-                "overlay": { "type": "light-reflection", "opacity": 0.25 }
+                "overlay": {
+                  "type": "light-reflection",
+                  "opacity": 0.25
+                }
               },
               "link": "/docs/kinugawa",
               "category": "渓谷の美",
-              "animation": { "hover": "zoom-rotate", "scroll": "fade-up" }
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "那須温泉",
@@ -186,12 +228,18 @@
                 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
                 "alt": "那須湯本温泉の風景",
                 "focus": "center center",
-                "overlay": { "type": "steam", "opacity": 0.35 }
+                "overlay": {
+                  "type": "steam",
+                  "opacity": 0.35
+                }
               },
               "link": "/docs/nasu",
               "category": "高原の名湯",
               "badge": "開湯1300年",
-              "animation": { "hover": "zoom-rotate", "scroll": "fade-up" }
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "伊香保温泉",
@@ -200,11 +248,17 @@
                 "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
                 "alt": "伊香保温泉の石段街",
                 "focus": "center center",
-                "overlay": { "type": "ambient", "opacity": 0.25 }
+                "overlay": {
+                  "type": "ambient",
+                  "opacity": 0.25
+                }
               },
               "link": "/docs/ikaho",
               "category": "歴史の情趣",
-              "animation": { "hover": "zoom-rotate", "scroll": "fade-up" }
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             },
             {
               "title": "万座温泉",
@@ -213,12 +267,18 @@
                 "url": "https://images.unsplash.com/photo-1610366398516-46da97841961?auto=format&fit=crop&q=80&w=1000",
                 "alt": "万座温泉の白濁した湯船",
                 "focus": "center top",
-                "overlay": { "type": "mist", "opacity": 0.35 }
+                "overlay": {
+                  "type": "mist",
+                  "opacity": 0.35
+                }
               },
               "link": "/docs/manza",
               "category": "天空の秘湯",
               "badge": "標高1,800m",
-              "animation": { "hover": "zoom-rotate", "scroll": "fade-up" }
+              "animation": {
+                "hover": "zoom-rotate",
+                "scroll": "fade-up"
+              }
             }
           ]
         },
@@ -302,8 +362,8 @@
         "title": "箱根温泉郷完全ガイド",
         "subtitle": "神奈川県 - Hakone Onsen",
         "description": "富士山を望む絶景と、20種類以上の多彩な泉質が魅力. 日本一の知名度を誇る温泉リゾートの全てを解説。",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
-        "content": "## 箱根温泉の魅力\n\n箱根は年間約2,000万人が訪れる日本を代表する温泉リゾートです。富士箱根伊豆国立公園内に位置し、17の温泉エリア（箱根十七湯）が点在しています。平安時代から続く歴史があり、江戸時代には徳川将軍家への献上湯としても知られました。\n\n### おすすめの過ごし方\n1. **芦ノ湖の絶景**: 湖越しに富士山を眺めながらの入浴は格別です。\n2. **箱根登山鉄道**: スイッチバックで急勾配を登る旅路も楽しみの一つ。\n3. **大涌谷の黒たまご**: 活発な火山活動を感じる大涌谷で、寿命が延びると言われる名物を。"
+        "content": "## 箱根温泉の魅力\n\n箱根は年間約2,000万人が訪れる日本を代表する温泉リゾートです。富士箱根伊豆国立公園内に位置し、17の温泉エリア（箱根十七湯）が点在しています。平安時代から続く歴史があり、江戸時代には徳川将軍家への献上湯としても知られました。\n\n### おすすめの過ごし方\n1. **芦ノ湖の絶景**: 湖越しに富士山を眺めながらの入浴は格別です。\n2. **箱根登山鉄道**: スイッチバックで急勾配を登る旅路も楽しみの一つ。\n3. **大涌谷の黒たまご**: 活発な火山活動を感じる大涌谷で、寿命が延びると言われる名物を。",
+        "image": null
       }
     ]
   }
