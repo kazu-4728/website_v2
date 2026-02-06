@@ -96,12 +96,11 @@ npm run build      # ✅ 成功 - 41ページ生成
 
 ```bash
 # PR #59のブランチをチェックアウト
-git fetch origin
-git checkout dependabot/npm_and_yarn/react-54321abc
+gh pr checkout 59
+# または: git fetch origin && git checkout <ブランチ名>
 
-# 依存関係を再インストール
-rm -rf node_modules package-lock.json
-npm install
+# ロックファイルを使用して依存関係をインストール
+npm ci
 
 # テストを実行
 npm run test
