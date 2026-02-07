@@ -114,3 +114,4 @@ docs/old-*/
 
 # AI context optimization
 *.tsbuildinfo
+tsconfig.tsbuildinfo
