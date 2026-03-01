@@ -23,7 +23,7 @@
     "fetch-images-multi": "node scripts/fetch-onsen-images-multi-api.js"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/postcss": "^4.2.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.564.0",
@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
     "@vitejs/plugin-react": "^5.1.4",
-    "autoprefixer": "^10.4.22",
+    "autoprefixer": "^10.4.27",
     "class-variance-authority": "^0.7.1",
     "eslint": "^10.0.2",
     "eslint-config-next": "^16.1.6",
