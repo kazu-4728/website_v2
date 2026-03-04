@@ -29,7 +29,7 @@ describe('画像表示の統合テスト', () => {
         expect(imageData[slug]).toBeDefined();
         expect(imageData[slug].url).toBeDefined();
         expect(typeof imageData[slug].url).toBe('string');
-        expect(imageData[slug].url).toMatch(/^https?:\/\//);
+        expect(imageData[slug].url).toMatch(/^https?:\/\/|^\/images\//);
       });
     });
 
@@ -112,7 +112,7 @@ describe('画像表示の統合テスト', () => {
         const url = data.url;
         
         // URL形式であることを確認
-        expect(url).toMatch(/^https?:\/\//);
+        expect(url).toMatch(/^https?:\/\/|^\/images\//);
         
         // ドメインが適切であることを確認
         if (url.includes('wikimedia.org')) {

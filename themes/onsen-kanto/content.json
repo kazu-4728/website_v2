@@ -90,7 +90,7 @@
             "variant": "primary"
           }
         ],
-        "bgImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG"
+        "bgImage": "/images/onsen/kusatsu.jpg"
       },
       "sections": [
         {
@@ -104,7 +104,7 @@
             "gradient": "from-ocean-blue/30 via-sky-blue/10 to-transparent"
           },
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+            "url": "/images/onsen/kusatsu.jpg",
             "alt": "草津温泉の湯畑",
             "position": "center",
             "scale": "cover"
@@ -142,7 +142,7 @@
               "title": "箱根温泉",
               "description": "富士山を望む絶景と、20種類以上の多彩な泉質が魅力。歴史ある老舗旅館からモダンなリゾートまで、日本を代表する温泉郷です。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+                "url": "/images/onsen/hakone.jpg",
                 "alt": "箱根の絶景露天風呂",
                 "focus": "center center",
                 "overlay": { "type": "steam", "opacity": 0.3 }
@@ -156,7 +156,7 @@
               "title": "草津温泉",
               "description": "『湯畑』を中心に広がる活気ある温泉街。圧倒的な湯量と、恋の病以外は全て治すと言われる強酸性の名湯を堪能できます。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+                "url": "/images/onsen/kusatsu.jpg",
                 "alt": "草津温泉の湯畑",
                 "focus": "center top",
                 "overlay": { "type": "mist", "opacity": 0.2 }
@@ -197,7 +197,7 @@
               "title": "伊香保温泉",
               "description": "365段の石段街がシンボル。独特の茶褐色をした『黄金の湯』と、無色透明の『白銀の湯』、二つの泉質を楽しめます。",
               "image": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+                "url": "/images/onsen/ikaho.jpg",
                 "alt": "伊香保温泉の石段街",
                 "focus": "center center",
                 "overlay": { "type": "ambient", "opacity": 0.25 }
@@ -290,7 +290,7 @@
             "date": "2025.12.24",
             "readTime": "8 min",
             "category": "ランキング",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+            "image": "/images/onsen/ikaho.jpg",
             "content": "## 冬の乾燥肌を癒す美肌の湯..."
           }
         ]
@@ -302,7 +302,7 @@
         "title": "箱根温泉郷完全ガイド",
         "subtitle": "神奈川県 - Hakone Onsen",
         "description": "富士山を望む絶景と、20種類以上の多彩な泉質が魅力. 日本一の知名度を誇る温泉リゾートの全てを解説。",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+        "image": "/images/onsen/hakone.jpg",
         "content": "## 箱根温泉の魅力\n\n箱根は年間約2,000万人が訪れる日本を代表する温泉リゾートです。富士箱根伊豆国立公園内に位置し、17の温泉エリア（箱根十七湯）が点在しています。平安時代から続く歴史があり、江戸時代には徳川将軍家への献上湯としても知られました。\n\n### おすすめの過ごし方\n1. **芦ノ湖の絶景**: 湖越しに富士山を眺めながらの入浴は格別です。\n2. **箱根登山鉄道**: スイッチバックで急勾配を登る旅路も楽しみの一つ。\n3. **大涌谷の黒たまご**: 活発な火山活動を感じる大涌谷で、寿命が延びると言われる名物を。"
       }
     ]
