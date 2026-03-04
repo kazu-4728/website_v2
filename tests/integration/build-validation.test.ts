@@ -22,7 +22,7 @@ describe('ビルド検証テスト', () => {
         expect(doc.image).toBeTruthy();
         expect(typeof doc.image).toBe('string');
         expect(doc.image.length).toBeGreaterThan(0);
-        expect(doc.image).toMatch(/^https?:\/\//);
+        expect(doc.image).toMatch(/^https?:\/\/|^\/images\//);
       });
     });
 
@@ -56,10 +56,10 @@ describe('ビルド検証テスト', () => {
         const url = doc.image;
         
         // URL形式であることを確認
-        expect(url).toMatch(/^https?:\/\//);
+        expect(url).toMatch(/^https?:\/\/|^\/images\//);
         
         // ドメインが適切であることを確認
-        expect(url).toMatch(/wikimedia\.org|unsplash\.com/);
+        expect(url).toMatch(/wikimedia\.org|unsplash\.com|\/images\//);
         
         // 空でないことを確認
         expect(url.length).toBeGreaterThan(10);

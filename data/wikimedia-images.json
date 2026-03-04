@@ -1,6 +1,6 @@
 {
   "kusatsu": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+    "url": "/images/onsen/kusatsu.jpg",
     "author": "<a href=\"//commons.wikimedia.org/wiki/User:PekePON\" title=\"User:PekePON\">PekePON</a>",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -16,7 +16,7 @@
     "source": "wikimedia"
   },
   "ikaho": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+    "url": "/images/onsen/ikaho.jpg",
     "author": "<a rel=\"nofollow\" class=\"external text\" href=\"http://picasaweb.google.com/pikakey\">ぴかきぃ</a>",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -40,7 +40,7 @@
     "source": "wikimedia"
   },
   "hakone": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/LakeAshi_and_MtFuji_Hakone.JPG",
+    "url": "/images/onsen/hakone.jpg",
     "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kentagon\" title=\"User:Kentagon\">Kentagon</a>",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",

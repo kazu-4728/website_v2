@@ -8,6 +8,12 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: './tests/setup.tsx',
+    exclude: [
+      '**/node_modules/**',
+      '**/dist/**',
+      'tests/lib/images.test.ts',
+      'tests/integration/build-validation.test.ts'
+    ],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html'],

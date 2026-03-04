@@ -1,12 +1,12 @@
-import { getDocPage, getAllDocSlugs, loadContent } from '../lib/content';
-import { MarkdownRenderer } from '../components/_legacy/ui/MarkdownRenderer';
-import { TableOfContents } from '../components/_legacy/ui/TableOfContents';
-import { ImageCredit } from '../components/_legacy/ui/ImageCredit';
-import { GoogleMap } from '../components/_legacy/ui/GoogleMap';
-import { getImageMetadata } from '../lib/images';
+import { getDocPage, getAllDocSlugs, loadContent } from '../../lib/content';
+import { MarkdownRenderer } from '../../components/_legacy/ui/MarkdownRenderer';
+import { TableOfContents } from '../../components/_legacy/ui/TableOfContents';
+import { ImageCredit } from '../../components/_legacy/ui/ImageCredit';
+import { GoogleMap } from '../../components/_legacy/ui/GoogleMap';
+import { getImageMetadata } from '../../lib/images';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../components/_legacy/ui/Button';
+import { Button } from '../../components/_legacy/ui/Button';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
@@ -229,79 +229,14 @@ export default async function DocPage({ params }: Props) {
                               <p className="text-white">{page.onsen.access.fromTokyo.byCar.description}</p>
                               <p className="text-gray-300 text-sm mt-1">
                                 所要時間：約{page.onsen.access.fromTokyo.byCar.time}分
-                                {page.onsen.access.fromTokyo.byCar.distance && ` (距離：約${page.onsen.access.fromTokyo.byCar.distance}km)`}
-                              </p>
-                            </div>
-                          )}
-                          {page.onsen.access.parking && (
-                            <div>
-                              <p className="text-gray-400 text-sm mb-1">駐車場</p>
-                              <p className="text-white">
-                                {page.onsen.access.parking.available ? 'あり' : 'なし'}
-                                {page.onsen.access.parking.fee && (
-                                  <span className="text-gray-400 ml-2">({page.onsen.access.parking.fee})</span>
-                                )}
                               </p>
                             </div>
                           )}
                         </div>
                       </div>
-
-                      {/* 代表旅館 */}
-                      {page.onsen?.accommodation?.representativeRyokan && page.onsen.accommodation.representativeRyokan.length > 0 && (
-                        <div>
-                          <h3 className="text-lg font-semibold text-primary-400 mb-3 uppercase tracking-wider">代表的な旅館</h3>
-                          <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
-                            <h4 className="text-white font-bold mb-2">{page.onsen.accommodation.representativeRyokan[0].name}</h4>
-                            {page.onsen.accommodation.representativeRyokan[0].features && (
-                              <div className="flex flex-wrap gap-2 mb-3">
-                                {page.onsen.accommodation.representativeRyokan[0].features.map((feature: string, i: number) => (
-                                  <span key={i} className="px-2 py-1 bg-dark-700 text-gray-300 rounded text-xs">
-                                    {feature}
-                                  </span>
-                                ))}
-                              </div>
-                            )}
-                            {page.onsen.accommodation.representativeRyokan[0].priceRange && (
-                            <p className="text-primary-400 text-sm mb-3">{page.onsen.accommodation.representativeRyokan[0].priceRange}</p>
-                          )}
-                          {/* リンクボタン */}
-                          <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-dark-700">
-                            {page.onsen.accommodation.representativeRyokan[0].officialUrl && (() => {
-                              const officialUrl = page.onsen.accommodation.representativeRyokan[0].officialUrl || '';
-                              // basePathの影響を受けないように、外部URLを確実に外部リンクとして扱う
-                              // hrefに直接https://で始まるURLを指定することで、Next.jsが内部ルートとして扱うのを防ぐ
-                              return (
-                                <a
-                                  href={officialUrl.startsWith('http://') || officialUrl.startsWith('https://') ? officialUrl : `https://${officialUrl}`}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center px-4 py-2 bg-primary-500/20 text-primary-300 rounded-lg border border-primary-500/30 hover:bg-primary-500/30 transition-colors text-sm font-medium"
-                                >
-                                  公式サイト
-                                  <ArrowRightIcon className="ml-2 w-4 h-4" />
-                                </a>
-                              );
-                            })()}
-                            {page.onsen.accommodation.representativeRyokan[0].mapsUrl && (
-                              <a
-                                href={page.onsen.accommodation.representativeRyokan[0].mapsUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center px-4 py-2 bg-dark-700 text-gray-300 rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors text-sm font-medium"
-                              >
-                                Googleマップで見る
-                                <ArrowRightIcon className="ml-2 w-4 h-4" />
-                              </a>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    )}
-                  </div>
+                    </div>
                   )}
                 </div>
-
                 {/* Google Map */}
                 {page.onsen?.region?.coordinates && (
                   <div className="mt-12 pt-8 border-t border-dark-800">
@@ -315,46 +250,12 @@ export default async function DocPage({ params }: Props) {
                     />
                   </div>
                 )}
-
-                {/* 季節ごとの魅力 */}
-                {page.onsen?.content?.seasons && (
-                  <div className="mt-12 pt-8 border-t border-dark-800">
-                    <h3 className="text-2xl font-bold text-white mb-6">季節ごとの魅力</h3>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                      {page.onsen.content.seasons.spring && (
-                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
-                          <h4 className="text-primary-400 font-semibold mb-2">春</h4>
-                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.spring}</p>
-                        </div>
-                      )}
-                      {page.onsen.content.seasons.summer && (
-                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
-                          <h4 className="text-primary-400 font-semibold mb-2">夏</h4>
-                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.summer}</p>
-                        </div>
-                      )}
-                      {page.onsen.content.seasons.autumn && (
-                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
-                          <h4 className="text-primary-400 font-semibold mb-2">秋</h4>
-                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.autumn}</p>
-                        </div>
-                      )}
-                      {page.onsen.content.seasons.winter && (
-                        <div className="bg-dark-800/50 rounded-xl p-4 border border-dark-700">
-                          <h4 className="text-primary-400 font-semibold mb-2">冬</h4>
-                          <p className="text-gray-300 text-sm">{page.onsen.content.seasons.winter}</p>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )}
               </div>
             )}
-
             {/* Navigation (Next/Prev) */}
             <div className="mt-16 flex flex-col md:flex-row justify-between gap-8">
               {prevDoc ? (
-                 <Link href={`/${prevDoc.slug}`} className="group flex-1">
+                 <Link href={`/docs/${prevDoc.slug}`} className="group flex-1">
                    <div className="text-sm text-gray-500 mb-2 uppercase tracking-widest">{texts.nav.pagination.previous}</div>
                    <div className="card-glass p-6 rounded-xl group-hover:bg-white/5 transition-colors flex items-center gap-4">
                      <ArrowLeftIcon className="w-5 h-5 text-primary-500 group-hover:-translate-x-1 transition-transform" />
@@ -364,9 +265,8 @@ export default async function DocPage({ params }: Props) {
                    </div>
                  </Link>
               ) : <div className="flex-1" />}
-
               {nextDoc ? (
-                 <Link href={`/${nextDoc.slug}`} className="group flex-1 text-right">
+                 <Link href={`/docs/${nextDoc.slug}`} className="group flex-1 text-right">
                    <div className="text-sm text-gray-500 mb-2 uppercase tracking-widest">{texts.nav.pagination.next}</div>
                    <div className="card-glass p-6 rounded-xl group-hover:bg-white/5 transition-colors flex items-center justify-end gap-4">
                      <div>
@@ -378,7 +278,6 @@ export default async function DocPage({ params }: Props) {
               ) : <div className="flex-1" />}
             </div>
           </div>
-
           {/* Desktop Sidebar Table of Contents */}
           <aside className="hidden lg:block w-64 flex-shrink-0">
              <div className="sticky top-24">
@@ -387,7 +286,6 @@ export default async function DocPage({ params }: Props) {
                </div>
              </div>
           </aside>
-
         </div>
       </div>
     </main>
