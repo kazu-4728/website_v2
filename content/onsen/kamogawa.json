@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "slug": "kamogawa",
+    "name": "鴨川温泉",
+    "nameEn": "Kamogawa",
+    "prefecture": "千葉県",
+    "area": "南房総"
+  },
+  "summary": {
+    "catchcopy": "房総半島の太平洋を望むリゾート温泉地。温暖な気候と豊富な海の幸、そして多様な泉質が楽しめます。",
+    "lead": "海と山に囲まれた南房総の温泉リゾート。鴨川シーワールドや海水浴場も近く、ファミリーやカップルに人気です。",
+    "shortDescription": "海と山に囲まれた南房総の温泉リゾート。鴨川シーワールドや海水浴場も近く、ファミリーやカップルに人気です。"
+  },
+  "highlights": [
+    "鴨川シーワールド",
+    "前原・横渚海岸",
+    "鯛の浦遊覧船"
+  ],
+  "spring": {
+    "springTypes": [
+      "硫黄泉",
+      "塩化物泉",
+      "炭酸水素塩泉"
+    ],
+    "effects": [
+      "神経痛",
+      "冷え性",
+      "疲労回復",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "オーシャンビュー",
+      "リゾートホテル多数",
+      "なぎさの湯"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "安房鴨川駅",
+      "line": "JR外房線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR外房線 安房鴨川駅"
+      },
+      "byCar": {
+        "time": 60,
+        "description": "館山自動車道 木更津南ICから約60分"
+      },
+      "byBus": {
+        "time": 120,
+        "description": "東京駅から高速バス「アクシー号」で約2時間"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "鴨川温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "大型リゾート",
+      "露天風呂付き客室",
+      "海鮮料理自慢"
+    ],
+    "style": "鴨川温泉は、房総半島の太平洋を望むリゾート温泉地。温暖な気候と豊富な海の幸、そして多様な泉質が楽しめます。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "大型リゾート",
+      "露天風呂付き客室",
+      "海鮮料理自慢"
+    ]
+  },
+  "story": {
+    "intro": "海と山に囲まれた南房総の温泉リゾート。鴨川シーワールドや海水浴場も近く、ファミリーやカップルに人気です。",
+    "sections": [
+      {
+        "title": "太平洋を一望する絶景リゾート",
+        "body": [
+          "鴨川温泉は、比較的新しい温泉地として発展してきました。「なぎさの湯」をはじめとする複数の源泉があり、宿によって異なる泉質を楽しめるのが魅力です。多くの宿が海岸沿いに位置しており、水平線から昇る朝日や満天の星空を眺めながらの入浴は格別です。\n### 観光とグルメの宝庫\n大人気の「鴨川シーワールド」や、日本の渚百選に選ばれた「前原・横渚海岸」など観光スポットが充実。漁港で水揚げされたばかりの新鮮な魚介類を堪能できるのも、海の温泉地ならではの贅沢です。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "鴨川シーワールドを軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "房総半島の太平洋を望むリゾート温泉地。温暖な気候と豊富な海の幸、そして多様な泉質が楽しめます。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "前原・横渚海岸と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 鴨川シーワールド 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "前原・横渚海岸 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "鴨川シーワールド",
+      "type": "highlight",
+      "description": "鴨川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E3%82%B7%E3%83%BC%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%20%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "前原・横渚海岸",
+      "type": "highlight",
+      "description": "鴨川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%8E%9F%E3%83%BB%E6%A8%AA%E6%B8%9A%E6%B5%B7%E5%B2%B8%20%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "鯛の浦遊覧船",
+      "type": "highlight",
+      "description": "鴨川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AF%9B%E3%81%AE%E6%B5%A6%E9%81%8A%E8%A6%A7%E8%88%B9%20%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "鴨川温泉",
+    "千葉県",
+    "南房総",
+    "海が見える温泉",
+    "鴨川シーワールド"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "鴨川温泉-温泉街中心部",
+      "name": "鴨川温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "鴨川温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "鴨川温泉 南房総 千葉県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJK7AQnalWPWARy09nB7CDEYk",
+      "googleMapsUri": "https://maps.google.com/?cid=9876820249861902283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://zekuu.jp/",
+      "officialUrl": "https://zekuu.jp/",
+      "placePhotoName": "places/ChIJK7AQnalWPWARy09nB7CDEYk/photos/ATCDNfUX1mSDQVaImRL7jRvOV3JQ4Z9oBSkcjj779XPzDQ_DXD0bDn5qlfp1ODIspYJUDUmby2O4oFGz-62xDXZMYQUH1qrcci5kNHkbCGYO9XXtmXzvEspQ9Pf4uf5z0vwx_u4BEJzNU0i5HJJudXKsmS3voDM35u6HRYdz0lInb8gAXB9hX3HjUrRa2f5oNCnIDZJVmuxJbCfRMiS8VxWH-f4UqxDeek5LMVJA3WhafT9fk_cSHbG2gpI3uZoZXVQNKXSM67kYk7scPDQAk3fzI6P2dKsPRh4KNxB6jnMKRLhdLg",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamogawa/鴨川温泉-温泉街中心部.jpg"
+    }
+  ]
+}

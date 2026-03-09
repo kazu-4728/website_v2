@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "slug": "hakone",
+    "name": "箱根温泉",
+    "nameEn": "Hakone",
+    "prefecture": "神奈川県",
+    "area": "箱根"
+  },
+  "summary": {
+    "catchcopy": "景色も宿も選択肢が多い、関東随一の温泉リゾート。",
+    "lead": "東京から最短クラスの近さで、絶景、アート、宿の幅広さまで備える箱根。写真で見ると、その強みは『どこに泊まっても旅として成立する懐の深さ』にあります。",
+    "shortDescription": "都心から近く、多彩な泉質と絶景を楽しめる日本屈指の温泉リゾート。"
+  },
+  "highlights": [
+    "芦ノ湖越しの富士山と温泉を同日に楽しめる",
+    "箱根十七湯でエリアごとに湯と滞在の性格が違う",
+    "高級旅館から日帰り湯まで選択肢が広い"
+  ],
+  "spring": {
+    "springTypes": [
+      "単純温泉",
+      "硫黄泉",
+      "塩化物泉",
+      "硫酸塩泉"
+    ],
+    "ph": 8.2,
+    "effects": [
+      "神経痛",
+      "関節痛",
+      "冷え性",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "箱根十七湯",
+      "多彩な泉質",
+      "観光地へのアクセス良"
+    ],
+    "waterQuality": "エリアにより透明、白濁など様々"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "箱根湯本駅",
+      "line": "小田急線",
+      "walkingTime": 0
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 85,
+        "route": [
+          "新宿駅",
+          "箱根湯本駅"
+        ],
+        "description": "小田急ロマンスカー"
+      },
+      "byCar": {
+        "time": 90,
+        "distance": 85,
+        "icName": "箱根口IC",
+        "description": "小田原厚木道路経由"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "観光地周辺は週末に混雑しやすく、宿泊なら公共交通のほうが回りやすい。"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "箱根温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [
+      "箱根湯寮",
+      "天成園",
+      "湯の里おかだ"
+    ],
+    "features": [
+      "高級旅館",
+      "リゾートホテル",
+      "オーベルジュ"
+    ],
+    "style": "景色も食も妥協したくない、滞在品質重視の週末旅向け。",
+    "bestFor": [
+      "初めての温泉旅",
+      "記念日",
+      "アートと温泉の両立"
+    ]
+  },
+  "story": {
+    "intro": "箱根は『温泉地』というより『温泉を核にした旅の編集力が高いエリア』です。移動のしやすさ、宿の幅、景観の切り替わりが一つの旅程に収まるため、短い日程でも満足度が高くなります。",
+    "sections": [
+      {
+        "title": "箱根はエリア選びで体験が変わる",
+        "body": [
+          "玄関口の箱根湯本はアクセスが良く、短い滞在でも旅が成立しやすいエリアです。",
+          "強羅や仙石原まで入ると、宿の静けさやアートの密度が増し、滞在のトーンが一段上がります。"
+        ]
+      },
+      {
+        "title": "温泉以外の景色が、旅全体の満足度を押し上げる",
+        "body": [
+          "芦ノ湖、大涌谷、ロープウェイ、美術館といった外の景色が温泉体験を補強するため、同行者の好みが分かれていても組み立てやすいのが箱根の強さです。",
+          "写真映えだけでなく、移動のたびに場面が変わるので、1泊2日でも濃度が出ます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑と山の霞が柔らかい",
+        "description": "気温差が小さく、露天風呂と周遊のバランスが良い季節。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湖景色が最も映える",
+        "description": "早朝の芦ノ湖や山道が特に美しく、写真目的にも向く。"
+      }
+    ],
+    "modelCourse": [
+      "新宿から朝のロマンスカーで箱根湯本へ",
+      "昼は美術館か芦ノ湖周辺を回って景色を挟む",
+      "夕方に宿へ入り、湯と食事に時間を振る"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "芦ノ湖",
+      "type": "view",
+      "description": "湖と山並みの抜け感があり、朝夕で表情が変わる。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "大涌谷",
+      "type": "activity",
+      "description": "火山地形を体感でき、旅の記憶に強いアクセントを加える。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B6%8C%E8%B0%B7%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "箱根彫刻の森美術館",
+      "type": "culture",
+      "description": "温泉旅にアートを織り込みたいときの定番。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BD%AB%E5%88%BB%E3%81%AE%E6%A3%AE%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "箱根温泉",
+    "神奈川県",
+    "絶景"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "箱根湯寮",
+      "name": "箱根湯寮",
+      "type": "day-trip",
+      "description": "箱根温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E5%AF%AE%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "箱根湯寮 箱根温泉 神奈川県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJAdpH56ajGWARpFe4ALTyfas",
+      "googleMapsUri": "https://maps.google.com/?cid=12357299807494625188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hakoneyuryo.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+      "officialUrl": "https://www.hakoneyuryo.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+      "placePhotoName": "places/ChIJAdpH56ajGWARpFe4ALTyfas/photos/ATCDNfVPBxAvcak47PiG1p2npWTxvYyeyl5gxGUx8ktCaDFfdRJP_hjvX5v0HDt23EbtleWG7TZggMtMfuySlj0JlmGXZ9KdCOpwHpj2p7PGwSyHd6BPUaxSlQP38YgAcZzrQGim0P7XzujQD9PABbJeQOvCtfrMc04zS9le21uRNg6k3-9h8F-ibAFmQ_5ruxQQxfEu1wCmbqpIhJdnZHPF_6ahvcPtXxDF_qiwTJ3DxuyAS8La-At_5xhXHtwnuKGhcuyJa3hLrhuu_38Gh8xoL2mujSkKTr8fGzaVpsCi8Am5_Q",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/hakone/箱根湯寮.jpg"
+    },
+    {
+      "slug": "天成園",
+      "name": "天成園",
+      "type": "day-trip",
+      "description": "箱根温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%88%90%E5%9C%92%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "天成園 箱根温泉 神奈川県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ-bcrqgmjGWARsK8ibbu936s",
+      "googleMapsUri": "https://maps.google.com/?cid=12384826112979677104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.tenseien.co.jp/",
+      "officialUrl": "https://www.tenseien.co.jp/",
+      "placePhotoName": "places/ChIJ-bcrqgmjGWARsK8ibbu936s/photos/ATCDNfWad7ziXjj4QYccwBOdSdWwS8fS5ixmyYao8zEUPTL602xSj-nFGY7ONGFhVCfwGUJHO2Yx-g7-woOQUStHAgroCoftrMJ_HqfbnIRIp6-LF6EQOuDJwgOsT_nyoDHybFYBJXDJqWWt-zdshFj-tkkxdetL88pi2BAIxPzIqan--CR4FX_ME9we4uPXHHqO8jf53gz0IKGoDH9q3bSVJMpWCNF0Q5HlpWy2cRYJDQZowmyA2MkbMFDWpiJC0i7uBx98L8_B3vvetQRT7OYBBMAShpG8K6BDs0SmoLIVZTA",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/hakone/天成園.jpg"
+    },
+    {
+      "slug": "湯の里おかだ",
+      "name": "湯の里おかだ",
+      "type": "day-trip",
+      "description": "箱根温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E9%87%8C%E3%81%8A%E3%81%8B%E3%81%A0%20%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "湯の里おかだ 箱根温泉 神奈川県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ7b3AgwijGWAR_qSiVOnPWS8",
+      "googleMapsUri": "https://maps.google.com/?cid=3411986793764136190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.yunosato-y.jp/",
+      "officialUrl": "https://www.yunosato-y.jp/",
+      "placePhotoName": "places/ChIJ7b3AgwijGWAR_qSiVOnPWS8/photos/ATCDNfU0W25huiE62zzzwf3tFhh5JCVBD5emBvf5RzCkiBQAlqqIFRYCU4Sx8_azYJ9jITu8ktytP658gRm_MqoO_9mH_hUGMyZqaf-lIDFL_jhW7HEJ5Mu304WStp6X70burJkYTb5hON4QakQ8Ou1eXuvV52OQO-D49G16gI51VQpjo5LDGdxphfWe0NI2TvFriMnybb6QiRODMgR0C6I9kVDx2nzAhgwKdFK0fHWph_RxGF4BqAvtRBEQu_CCT3-m0TkMLhQqHDrmp3RO7MEK6HHQkpJbCZwFC-Hcu4J6gBgZzjVQ6L3ktothFTV1JN-MNuhDPpsrSc-6ZbSGOBNm6jow1JxcWaM7WrIsaNu1jUfa8DQFU8I0MmfuBJOkI2QTKrY9E83TyxejxMgHZPb5dE-59IZmD0ZdzOK8xntq4fIaKw",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/hakone/湯の里おかだ.jpg"
+    }
+  ]
+}

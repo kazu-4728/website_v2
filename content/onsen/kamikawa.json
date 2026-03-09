@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "slug": "kamikawa",
+    "name": "神川温泉",
+    "nameEn": "Kamikawa",
+    "prefecture": "埼玉県",
+    "area": "秩父・長瀞"
+  },
+  "summary": {
+    "catchcopy": "地下1,500mから湧き出る天然温泉。しっとりなめらかな「美肌の湯」。",
+    "lead": "埼玉県北西部、神流川沿いに位置する温泉地。公営の温浴施設「おふろcafe 白寿の湯」や「かんなの湯」などが人気です。",
+    "shortDescription": "埼玉県北西部、神流川沿いに位置する温泉地。公営の温浴施設「おふろcafe 白寿の湯」や「かんなの湯」などが人気です。"
+  },
+  "highlights": [
+    "城峯公園（冬桜）",
+    "下久保ダム（神流湖）",
+    "かんなの湯"
+  ],
+  "spring": {
+    "springTypes": [
+      "ナトリウム-炭酸水素塩・塩化物温泉"
+    ],
+    "effects": [
+      "神経痛",
+      "筋肉痛",
+      "冷え性",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "下久保ダム周辺",
+      "日帰り温浴施設充実",
+      "公営温泉"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "丹荘駅",
+      "line": "JR八高線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR八高線 丹荘駅からバス"
+      },
+      "byCar": {
+        "time": 40,
+        "description": "関越自動車道 本庄児玉ICから約40分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A7%A9%E7%88%B6%E3%83%BB%E9%95%B7%E7%80%9E%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "神川温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A7%A9%E7%88%B6%E3%83%BB%E9%95%B7%E7%80%9E%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "公共の宿",
+      "キャンプ場併設",
+      "リーズナブルな料金"
+    ],
+    "style": "神川温泉は、地下1,500mから湧き出る天然温泉。しっとりなめらかな「美肌の湯」。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "公共の宿",
+      "キャンプ場併設",
+      "リーズナブルな料金"
+    ]
+  },
+  "story": {
+    "intro": "埼玉県北西部、神流川沿いに位置する温泉地。公営の温浴施設「おふろcafe 白寿の湯」や「かんなの湯」などが人気です。",
+    "sections": [
+      {
+        "title": "埼玉の隠れた名湯",
+        "body": [
+          "神川温泉のお湯は、重曹成分を含み、肌の角質を柔らかくするクレンジング効果と、塩分による保湿効果を併せ持つ「美肌の湯」です。湯上がりは肌がすべすべ、体はポカポカになります。\n### 自然体験とリラクゼーション\n周辺には城峯公園や下久保ダムなどがあり、冬桜や紅葉のシーズンには多くの人で賑わいます。温泉施設では、エステや岩盤浴、地元食材を使った食事も楽しめ、一日ゆったりと過ごせます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "城峯公園（冬桜）を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "地下1,500mから湧き出る天然温泉。しっとりなめらかな「美肌の湯」。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "下久保ダム（神流湖）と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 城峯公園（冬桜） 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "下久保ダム（神流湖） を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "城峯公園（冬桜）",
+      "type": "highlight",
+      "description": "神川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E5%B3%AF%E5%85%AC%E5%9C%92%EF%BC%88%E5%86%AC%E6%A1%9C%EF%BC%89%20%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+    },
+    {
+      "name": "下久保ダム（神流湖）",
+      "type": "highlight",
+      "description": "神川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8B%E4%B9%85%E4%BF%9D%E3%83%80%E3%83%A0%EF%BC%88%E7%A5%9E%E6%B5%81%E6%B9%96%EF%BC%89%20%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+    },
+    {
+      "name": "かんなの湯",
+      "type": "highlight",
+      "description": "神川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%82%93%E3%81%AA%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "神川温泉",
+    "埼玉県",
+    "日帰り温泉",
+    "美肌",
+    "冬桜"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "かんなの湯",
+      "name": "かんなの湯",
+      "type": "onsen-landmark",
+      "description": "神川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%82%93%E3%81%AA%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "かんなの湯 神川温泉 埼玉県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJPSA5YynAHmARRP96wnSsGTc",
+      "googleMapsUri": "https://maps.google.com/?cid=3970394163982827332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.kannanoyu.com/",
+      "officialUrl": "http://www.kannanoyu.com/",
+      "placePhotoName": "places/ChIJPSA5YynAHmARRP96wnSsGTc/photos/ATCDNfVPxEseAJQ6Fi_nxC37RWyRgE82-ubsjsUbXGvHxaA8trIpse9Ikvq-vf2KBjz_dFLKbh1Kp5iOpokqqlDrbBSuB1SAq-rUOeddNkC_S9-Y-ZWAkxO9M5YnwNdOI1EirD_CqteBZf-ZJVhiFEiElHCmv_ApOcYqCtp2WEfeyo4flz1WWPC8vUcnEMNLVVRIdxBY1_zd9QADt_NiLDO62HS6y9tRUIQoBkqKmKF46LTwc2d0ekBcAqKGZXPrx7v9BdbTcvn6A94BAW_MB3WwaoumvgeYQan4KOKDref_5MvAHFR41yX7bt307zUI0TGQdOQmqJmGBT4pxhGytKmjOWrCvtlqqbbXOuT9qTZddN9Fokqyw_myru9kERdhRJPh1wu7hAEdJQv3zpSzI1So1x8Q_yxtLwf3Kt2VSJOapHk",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamikawa/かんなの湯.jpg"
+    }
+  ]
+}

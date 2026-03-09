@@ -58,6 +58,7 @@ typings/
 .env
 .env.test
 .env.production
+.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -103,7 +104,6 @@ core
 *.core
 core
 *.core
-.env.local
 
 # Temp / scratch
 tmp/
@@ -114,3 +114,22 @@ docs/old-*/
 
 # AI context optimization
 *.tsbuildinfo
+
+# Local editor / Python
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Preview / transient artifacts
+preview_root/
+out_server_*.txt
+output_*.txt
+data/r2-image-failures.json
+data/raw/
+data/api-image-candidates.json
+data/api-image-audit.json
+data/onsen-image-report.json
+.python-vendor/
+preview_*.txt

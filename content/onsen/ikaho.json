@@ -1,0 +1,177 @@
+{
+  "identity": {
+    "slug": "ikaho",
+    "name": "伊香保温泉",
+    "nameEn": "Ikaho",
+    "prefecture": "群馬県",
+    "area": "伊香保"
+  },
+  "summary": {
+    "catchcopy": "石段をのぼる時間まで、旅の風情になる。",
+    "lead": "伊香保は、街の高低差そのものが旅情になる温泉地です。石段街を上るほど空気が変わり、湯と街歩きの一体感が生まれます。",
+    "shortDescription": "365段の石段街がシンボルの歴史ある温泉地。黄金の湯と白銀の湯が楽しめます。"
+  },
+  "highlights": [
+    "365段の石段街がそのまま旅の導線になる",
+    "黄金の湯と白銀の湯という二つの個性を持つ",
+    "浴衣での散策が似合うコンパクトな温泉街"
+  ],
+  "spring": {
+    "springTypes": [
+      "硫酸塩泉（黄金の湯）",
+      "単純温泉（白銀の湯）"
+    ],
+    "ph": 6.4,
+    "effects": [
+      "貧血",
+      "神経痛",
+      "美肌",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "石段街",
+      "黄金の湯",
+      "白銀の湯"
+    ],
+    "waterQuality": "茶褐色（黄金）と無色透明（白銀）"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "渋川駅",
+      "line": "JR上越線",
+      "busTime": 25
+    },
+    "fromTokyo": {
+      "byBus": {
+        "time": 150,
+        "terminal": "バスタ新宿",
+        "description": "上州ゆめぐり号"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "石段周辺は歩いて回る前提で、少し離れた駐車場利用が現実的。"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E4%BC%8A%E9%A6%99%E4%BF%9D%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "伊香保温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E4%BC%8A%E9%A6%99%E4%BF%9D%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [
+      "伊香保露天風呂",
+      "石段の湯"
+    ],
+    "features": [
+      "石段街沿いの宿",
+      "老舗旅館"
+    ],
+    "style": "街の風情を重視した、散策込みの一泊旅向け。",
+    "bestFor": [
+      "浴衣散歩",
+      "レトロな温泉街",
+      "親世代との旅行"
+    ]
+  },
+  "story": {
+    "intro": "伊香保は、宿に入る前の散歩がそのまま旅の核心になる温泉地です。階段を上がるごとに街の見え方が変わり、温泉地に来た感覚がじわじわ高まります。",
+    "sections": [
+      {
+        "title": "石段街が旅の速度をゆっくりにしてくれる",
+        "body": [
+          "石段を上る間、土産物屋、湯の香り、射的場の音などが細かく重なって、歩くこと自体が体験になります。",
+          "コンパクトな範囲に見どころがまとまっているので、到着後すぐに旅の密度が出ます。"
+        ]
+      },
+      {
+        "title": "二つの湯をどう使い分けるかも面白い",
+        "body": [
+          "古くから親しまれる黄金の湯は色と存在感が強く、温泉に来た実感が出やすいタイプです。",
+          "白銀の湯はやわらかな入り心地で、宿選びによって印象が変わります。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "秋",
+        "title": "河鹿橋の紅葉が映える",
+        "description": "街歩きと自然景観の両方がまとまりやすい。"
+      },
+      {
+        "season": "冬",
+        "title": "空気が澄み、石段街の光が綺麗",
+        "description": "夜の散策が主役になりやすい季節。"
+      }
+    ],
+    "modelCourse": [
+      "チェックイン前に石段街をゆっくり上る",
+      "夕方に露天や共同浴場で一浴する",
+      "夜は光の落ち着いた街をもう一度歩く"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "伊香保石段街",
+      "type": "view",
+      "description": "街の中心であり、歩くほど魅力が増す主役の景観。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E7%9F%B3%E6%AE%B5%E8%A1%97%20%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "河鹿橋",
+      "type": "view",
+      "description": "紅葉の名所として知られる静かな撮影スポット。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E9%B9%BF%E6%A9%8B%20%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "伊香保露天風呂",
+      "type": "activity",
+      "description": "外湯らしい開放感で黄金の湯を体感しやすい。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%20%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "伊香保温泉",
+    "群馬県",
+    "歴史"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "伊香保露天風呂",
+      "name": "伊香保露天風呂",
+      "type": "day-trip",
+      "description": "伊香保温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%20%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "伊香保露天風呂 伊香保温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJzUL-xnZjHmAR1Z7dRFlUsus",
+      "googleMapsUri": "https://maps.google.com/?cid=16983729887151759061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.ikaho-kankou.com/spring/spa1/",
+      "officialUrl": "https://www.ikaho-kankou.com/spring/spa1/",
+      "placePhotoName": "places/ChIJzUL-xnZjHmAR1Z7dRFlUsus/photos/ATCDNfVqEMA9wFU6VvpUudpEkHVNh3u8VVy-3pAWGAk1SF4IzTNkhv40hJyZRBux7CuIXrWf4S0xheRjnri4w3s7vvy3mtQEhf37iadCdDmMGgCohGeV0xlW7lbZTC8zNkYV_wOn04x7J7fGr1UIiNw3dBDrLryhMUF3OF47Z2s8E7vOB668twFc5SzCMVGuF8B0Qbjmbta3S67De5T6PFOEwpi2zUC3uH3JNJZ5t7wYT_7XHqOuc67GzxDhFFaDisIh_29hO7ZUl5tZikjgp-3mHsZKNkDw5BK5KrjdeYNygBbi0w",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/ikaho/伊香保露天風呂.jpg"
+    },
+    {
+      "slug": "石段の湯",
+      "name": "石段の湯",
+      "type": "day-trip",
+      "description": "伊香保温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E6%AE%B5%E3%81%AE%E6%B9%AF%20%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "石段の湯 伊香保温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJLYBrR3ljHmARQeMlVxm9WSk",
+      "googleMapsUri": "https://maps.google.com/?cid=2979620545016226625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.city.shibukawa.lg.jp/kankou/000357/000361/p003077.html",
+      "officialUrl": "https://www.city.shibukawa.lg.jp/kankou/000357/000361/p003077.html",
+      "placePhotoName": "places/ChIJLYBrR3ljHmARQeMlVxm9WSk/photos/ATCDNfXnYC1fkTUcZilmBza0xW6cpce8dEX9xNSYjjsp3O_g8mIBrcDDFsyCV2p3SLe73Frh0pAvqjkYRrQLYq8X66UZiUHWabXaiIPlQxMeV2qxUG5U7Oyh-E3Qe-wzM8zGOVOb88_fq-DqcadM67L2pUu88gLd-fH2rNgv1MhkliusQejfi1crBsqnTw1XuH6QoSgm3WxqzzjItT7h91snIXfSbwP6nVBB-aXzbFl7QSDnozkPmoJFxSBJP92KY0x1hrpZ12lf0ff8Rfw5EWjuPrzmTajk6PRpcYyAXTRpDdh6TkEwAUh4PwcyY7YRZdjm4LzO_At46DwuTt8KY0hB4cvTCoaDBfjYkz7s8T_0sY9B5ushyYZcO2ruGWtyzSbCiuvRZthwh2T2_N4AY0OjlM_A-063sP8jC_Vtgl0IlNRO4fJm",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/ikaho/石段の湯.jpg"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "slug": "manza",
+    "name": "万座温泉",
+    "nameEn": "Manza",
+    "prefecture": "群馬県",
+    "area": "草津・四万"
+  },
+  "summary": {
+    "catchcopy": "高原の風と白濁湯で、一気に日常を切り替える。",
+    "lead": "万座は、標高の高さがそのまま体験価値になる温泉地です。写真でも伝わる白濁湯の強さと、空に近い景色が魅力で、デトックス感のある旅に向いています。",
+    "shortDescription": "標高1,800mに位置する空に近い温泉。硫黄含有量日本有数の白濁したお湯が特徴。"
+  },
+  "highlights": [
+    "標高1,800mの空気感と見晴らしが圧倒的",
+    "白濁した硫黄泉の印象が強い",
+    "冬は雪景色、夏は避暑地として魅力が高い"
+  ],
+  "spring": {
+    "springTypes": [
+      "硫黄泉"
+    ],
+    "ph": 2,
+    "temperature": 55,
+    "effects": [
+      "皮膚病",
+      "神経痛",
+      "リウマチ",
+      "高血圧症"
+    ],
+    "characteristics": [
+      "白濁湯",
+      "高標高",
+      "硫黄含有量高"
+    ],
+    "waterQuality": "白濁"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "長野原草津口駅",
+      "line": "JR吾妻線",
+      "busTime": 60,
+      "busName": "JRバス関東"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 180,
+        "route": [
+          "上野駅",
+          "長野原草津口駅"
+        ],
+        "description": "特急草津・四万号で直通"
+      },
+      "byCar": {
+        "time": 200,
+        "distance": 180,
+        "icName": "渋川伊香保IC",
+        "description": "関越自動車道経由"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "冬季は道路状況の確認が必須。高地の移動前提で余裕ある行程にしたい。"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "万座温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [
+      "万座プリンスホテル日帰り湯",
+      "万座高原ホテル"
+    ],
+    "features": [
+      "高原の宿",
+      "スキー場近く",
+      "温泉旅館"
+    ],
+    "style": "湯の強さと自然環境の両方でリセットしたい、大人向けの高原滞在。",
+    "bestFor": [
+      "雪見露天",
+      "硫黄泉好き",
+      "避暑旅"
+    ]
+  },
+  "story": {
+    "intro": "万座に着くと、空気の密度そのものが変わります。高地の風、白く濁る湯、硫黄の香り。都市近郊の温泉とは別のリズムに切り替わる感覚があります。",
+    "sections": [
+      {
+        "title": "標高の高さが体験を決定づける",
+        "body": [
+          "見晴らしの良さと空気の冷たさが、湯の熱をより強く感じさせます。",
+          "写真だけでも魅力は伝わりますが、現地では風の抜け方まで含めて記憶に残ります。"
+        ]
+      },
+      {
+        "title": "白濁湯を主役にしたい人に向く",
+        "body": [
+          "泉質の個性がわかりやすく、湯の違いを楽しみたい人に向く温泉地です。",
+          "旅館街の賑わいよりも、宿と景色と湯に集中する旅になります。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "冬",
+        "title": "雪と白濁湯のコントラストが際立つ",
+        "description": "寒さそのものが露天の魅力になる季節。"
+      },
+      {
+        "season": "夏",
+        "title": "避暑地として快適",
+        "description": "都市部の蒸し暑さから離れて静かに過ごせる。"
+      }
+    ],
+    "modelCourse": [
+      "移動日に時間をかけすぎず、早めに高地へ入る",
+      "到着後は湯に集中し、夜は空気の静けさを味わう",
+      "翌朝は景色を見ながらもう一浴して戻る"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "万座温泉スキー場",
+      "type": "activity",
+      "description": "冬は雪景色と組み合わせて滞在価値が上がる。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "牛池",
+      "type": "view",
+      "description": "高原らしい静けさを感じられる小さな景観スポット。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E6%B1%A0%20%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "志賀草津高原ルート",
+      "type": "view",
+      "description": "ドライブ派なら景色の密度が高く、記憶に残りやすい道。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%97%E8%B3%80%E8%8D%89%E6%B4%A5%E9%AB%98%E5%8E%9F%E3%83%AB%E3%83%BC%E3%83%88%20%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "万座温泉",
+    "群馬県"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "万座プリンスホテル日帰り湯",
+      "name": "万座プリンスホテル日帰り湯",
+      "type": "day-trip",
+      "description": "万座温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B9%AF%20%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "万座プリンスホテル日帰り湯 万座温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJcXwj5AXpHWAR3F0fEh-N9gY",
+      "googleMapsUri": "https://maps.google.com/?cid=501743573085937116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.manza.co.jp/",
+      "officialUrl": "https://www.manza.co.jp/",
+      "placePhotoName": "places/ChIJcXwj5AXpHWAR3F0fEh-N9gY/photos/ATCDNfVoOknOrF2RcisIrB9YzouQnRM7SL5N_hEXsJLBVFMAXWHRSygp_7p_L6npJ03gOfL0dS1DYRzv0wsBwfGCS7Woqfv7gQXuN-yzYg_OUJDihzu9G8BkhHXK-GKnQQLSlGwTOZ-JavoRKWb5m0qo0cBdwyKEWpY0tFLCozEaTk9K_9uTHOneV9a1EIAW83W3VqJWnl7Jx-wV5lPg2mcOPzZUDqSQ8MOQgZQFVUNqU7CVTtUBIaDJGyl-BaRjMUM2TXhK3TGbwMRhclf7ZXwFJBVr4Lf91Zdqw90tdJ6224kPuA",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/manza/万座プリンスホテル日帰り湯.jpg"
+    },
+    {
+      "slug": "万座高原ホテル",
+      "name": "万座高原ホテル",
+      "type": "day-trip",
+      "description": "万座温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E9%AB%98%E5%8E%9F%E3%83%9B%E3%83%86%E3%83%AB%20%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "万座高原ホテル 万座温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ7Z1h09zuHWARVk3vX6-zuvE",
+      "googleMapsUri": "https://maps.google.com/?cid=17418432074618981718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.princehotels.co.jp/manza-kogen/",
+      "officialUrl": "https://www.princehotels.co.jp/manza-kogen/",
+      "placePhotoName": "places/ChIJ7Z1h09zuHWARVk3vX6-zuvE/photos/ATCDNfWk3T2u4uBvpIuYuFZF1t7fjHfC7sBThpKeRXfAYtsqXBfXwvERkd0ebgTpBlleayvqpt10zZXP9Sja5woFXOXsGiGoZYFdqnwpzG53JC-Rd86JoBaOgc5oV_N2h8pc7CW3YcdU9ajz2FxV6CN4d9F-3rdNzK4o6zuU0aH9WAGwgSSRfA1W05dDLv0qNVvH0kr8RoQ6dff9s5NLj9T77euEIfeJzQnpGTvtNWQ5FkzMndojUj1zpQPycq75BUWSEEnX7zbdPkFO7axydqmabTqrhHb65h0k4ltWOecpmpcvrg",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/manza/万座高原ホテル.jpg"
+    },
+    {
+      "slug": "万座温泉スキー場",
+      "name": "万座温泉スキー場",
+      "type": "onsen-landmark",
+      "description": "冬は雪景色と組み合わせて滞在価値が上がる。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "万座温泉スキー場 万座温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJLbrqd8LuHWARKTXRlAkGcME",
+      "googleMapsUri": "https://maps.google.com/?cid=13938647484932896041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.princehotels.co.jp/ski/manza/winter/",
+      "officialUrl": "https://www.princehotels.co.jp/ski/manza/winter/",
+      "placePhotoName": "places/ChIJLbrqd8LuHWARKTXRlAkGcME/photos/ATCDNfVocAIeKii7X1Kspq4Lol4O_GT7COYLNS6-zR-XZlQhczI5F5PyhEUa_QPxrbFkcDNDM8MGYD3DKMBqxbQ25iST75W0B0CxM958h6wmFCNjuXGk3dzI9rThfTP25Q9cO2Dj95rkDKMOUAX89kR8TmsaYnYKB2enbhimMoZ_bICysxpMQTacKMwAUNpRqzF-nOKU4BjdMFIUrvT7AdXw3zJuBUbmK-KnH0W1TsR7rJnInMzCO425GSQ_fKpOHl0zohGhOqMfkvovcU4rBRH22ic3dc6MaWD8SNUQ1bMYiACiaNJ_H-_yUOnbh6RWoO6uN1nCh2MNZqy4JWgmCKR-wn12m1yxwh3MS53Yvkl3jegl8A0fmmHDb6CKbIjOl4za7SGimZefAfTokcZoFQhetooTcGuZvdz4TmCSgy6oJ2lGXZG-",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/manza/万座温泉スキー場.jpg"
+    }
+  ]
+}

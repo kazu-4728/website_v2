@@ -1,0 +1,199 @@
+{
+  "identity": {
+    "slug": "yunishigawa",
+    "name": "湯西川温泉",
+    "nameEn": "Yunishigawa",
+    "prefecture": "栃木県",
+    "area": "日光・鬼怒川"
+  },
+  "summary": {
+    "catchcopy": "平家落人伝説が残る山里の温泉地。幻想的な「かまくら祭」と囲炉裏料理が名物。",
+    "lead": "栃木県北部の山奥、湯西川沿いに広がる温泉地。壇ノ浦の戦いに敗れた平家の一族が隠れ住んだという伝説が残ります。",
+    "shortDescription": "栃木県北部の山奥、湯西川沿いに広がる温泉地。壇ノ浦の戦いに敗れた平家の一族が隠れ住んだという伝説が残ります。"
+  },
+  "highlights": [
+    "湯西川温泉 かまくら祭",
+    "平家の里",
+    "湯西川ダックツアー（水陸両用バス）"
+  ],
+  "spring": {
+    "springTypes": [
+      "アルカリ性単純温泉"
+    ],
+    "effects": [
+      "神経痛",
+      "リウマチ",
+      "疲労回復",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "美肌の湯",
+      "渓流沿いの露天風呂",
+      "平家落人の湯"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "湯西川温泉駅",
+      "line": "野岩鉄道",
+      "busTime": 20
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 20,
+        "description": "野岩鉄道 湯西川温泉駅からバスで約20分"
+      },
+      "byCar": {
+        "time": 60,
+        "description": "日光宇都宮道路 今市ICから約60分"
+      },
+      "byBus": {
+        "time": 50,
+        "description": "鬼怒川温泉駅から日光交通バスで約50分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "湯西川温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "茅葺き屋根の古民家宿",
+      "囲炉裏料理",
+      "秘湯の宿"
+    ],
+    "style": "湯西川温泉は、平家落人伝説が残る山里の温泉地。幻想的な「かまくら祭」と囲炉裏料理が名物。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "茅葺き屋根の古民家宿",
+      "囲炉裏料理",
+      "秘湯の宿"
+    ]
+  },
+  "story": {
+    "intro": "栃木県北部の山奥、湯西川沿いに広がる温泉地。壇ノ浦の戦いに敗れた平家の一族が隠れ住んだという伝説が残ります。",
+    "sections": [
+      {
+        "title": "800年の歴史を刻む落人の里",
+        "body": [
+          "山深く静かな環境にある湯西川温泉は、かつて平家の追っ手から逃れるために、鯉のぼりを上げない、鶏を飼わないといった独自の風習を守り続けてきました。現在では、囲炉裏お狩場焼などの郷土料理や、露天風呂から眺める渓谷美が訪れる人を魅了します。\n### 日本夜景遺産「かまくら祭」\n冬の風物詩「かまくら祭」では、河川敷に約800個ものミニかまくらが作られ、ろうそくの灯りが灯る幻想的な光景が広がります。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "湯西川温泉 かまくら祭を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "平家落人伝説が残る山里の温泉地。幻想的な「かまくら祭」と囲炉裏料理が名物。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "平家の里と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 湯西川温泉 かまくら祭 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "平家の里 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "湯西川温泉 かまくら祭",
+      "type": "highlight",
+      "description": "湯西川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E3%81%8B%E3%81%BE%E3%81%8F%E3%82%89%E7%A5%AD%20%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "平家の里",
+      "type": "highlight",
+      "description": "湯西川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E5%AE%B6%E3%81%AE%E9%87%8C%20%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "湯西川ダックツアー（水陸両用バス）",
+      "type": "highlight",
+      "description": "湯西川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E3%83%80%E3%83%83%E3%82%AF%E3%83%84%E3%82%A2%E3%83%BC%EF%BC%88%E6%B0%B4%E9%99%B8%E4%B8%A1%E7%94%A8%E3%83%90%E3%82%B9%EF%BC%89%20%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "湯西川温泉",
+    "栃木県",
+    "平家落人",
+    "かまくら",
+    "雪見風呂"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "湯西川温泉-かまくら祭",
+      "name": "湯西川温泉 かまくら祭",
+      "type": "onsen-landmark",
+      "description": "湯西川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E3%81%8B%E3%81%BE%E3%81%8F%E3%82%89%E7%A5%AD%20%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "湯西川温泉 かまくら祭 湯西川温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJeeCkQ-O4H2ARiwvSnlzMLRw",
+      "googleMapsUri": "https://maps.google.com/?cid=2030503705187584907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJeeCkQ-O4H2ARiwvSnlzMLRw/photos/ATCDNfXzxzhLyYXvDTYNKpchTekUnp9JfGJ9m53BgQh4rDBQPs2CIBCzEAtz1DLMXwn82M1tZGoi2su7nk9Ab6NUw10Qnx4brgusgb6FXWnKmgobI9z6SL0FpzT6j07zses9nQ5jJdQ1oyFWplv4eHZYTPfSU9ZTu6itPevyFhCBxdOom7Au4H7oAKU99QAV0PNZUE88lvaHEIo1_obXIYHRXQ_ej2uSF-iXePgUTEPNdweU04U73Jye-yV3c98KVAhoHlHb1l_yBnA79syzZVlYkPlFf9fAr_jZtqp7eOHJ-PKxYVFi5NnABTq-ifcTWjsZ9tADiE91x9StbgAZ1RL-rquaIaT8G2Idifz2O9wUgl0GOn3C-wXtUwr-PxBS0xos47WTaHlr6R28TQp2yJAeqViMkuoJyQmwvgyUFrPHJ7TJ57E",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yunishigawa/湯西川温泉-かまくら祭.jpg"
+    },
+    {
+      "slug": "湯西川水の郷",
+      "name": "湯西川水の郷",
+      "type": "onsen-landmark",
+      "description": "湯西川温泉 の中でも 湯西川水の郷 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=9814685571716909919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "湯西川水の郷 栃木県",
+      "placeId": "ChIJt41czdS-H2ARX4tW7IbENIg",
+      "googleMapsUri": "https://maps.google.com/?cid=9814685571716909919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://yunishigawa-mizunosato.jp/",
+      "officialUrl": "https://yunishigawa-mizunosato.jp/",
+      "placePhotoName": "places/ChIJt41czdS-H2ARX4tW7IbENIg/photos/ATCDNfUYm7JeNU2GnhNq84TrdlV_nV0TfJtr__mHj8WPLD9HZRahF51KwEvb3WJzlw-c46f-S9hbnWxhbScVbyPTgxKpA3YEIyDvWgw-7lny4rqdw_ux4kc23hcsjjGiY3y8RMGkTbWFPRjXhTbuibbWaJe_aVcRBtVuMdd9Xw5unwblGaBRd83_qHKGkjh_8F9FbecQXlJ_IAGWVbbPvxI-gYL_jZuFsbPZ4NREaPwPg8SI7rilVror5WTbxQ0sb6AEl3vy__IEE7KkNp50YaTA-Qn6pAUUmHhG3JVSLNnm9zKE7w",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yunishigawa/湯西川水の郷.jpg"
+    },
+    {
+      "slug": "湯西川温泉-上屋敷-平の高房",
+      "name": "湯西川温泉 上屋敷 平の高房",
+      "type": "day-trip",
+      "description": "湯西川温泉 の中でも 湯西川温泉 上屋敷 平の高房 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=9423039587557081797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "湯西川温泉 上屋敷 平の高房 栃木県",
+      "placeId": "ChIJmT1ABfy4H2ARxYLIWJRcxYI",
+      "googleMapsUri": "https://maps.google.com/?cid=9423039587557081797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.takafusa.jp/",
+      "officialUrl": "https://www.takafusa.jp/",
+      "placePhotoName": "places/ChIJmT1ABfy4H2ARxYLIWJRcxYI/photos/ATCDNfV9Tzoy1VkTjAxEueDPF9EYZSaYY-X4VTnFePVxRXAlhbJFqiKsXn6JO4jdls7ywHNTA6QAL9nQwTUU18hl5OQnsFhFil-XpirQQT-GCfAwY2OBWg2LBB01VnLNY9AbDQINX1Mj9ZSDj0EsfUYTloqHrSOmNV9zDTbkNY0agZEEMrIGeUGWKlx25frJ78jhieYffe0NtdcyGXNUn4jJ4NOLsu1otL_9_Vg4a6pxeK3bGYS2ik-lkpfDeuTfoW5aHI5N0MHxhDQvqoXhE0on2Hyaz0xA9VRLRVY6iAK0bEiVdA",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yunishigawa/湯西川温泉-上屋敷-平の高房.jpg"
+    }
+  ]
+}

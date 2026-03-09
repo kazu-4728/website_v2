@@ -1,0 +1,11 @@
+{
+  "kusatsu": {
+    "hero": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen/kusatsu/hero.jpg"
+  },
+  "seotonoyu": {
+    "hero": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen/seotonoyu/hero.jpg"
+  },
+  "okutama": {
+    "hero": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen/okutama/hero.jpg"
+  }
+}

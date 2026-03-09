@@ -1,0 +1,195 @@
+{
+  "identity": {
+    "slug": "nikko-yumoto",
+    "name": "日光湯元温泉",
+    "nameEn": "Nikko-yumoto",
+    "prefecture": "栃木県",
+    "area": "日光・鬼怒川"
+  },
+  "summary": {
+    "catchcopy": "奥日光の最奥部、湯ノ湖畔に湧く乳白色の名湯。濃厚な硫黄泉と静寂な環境が魅力。",
+    "lead": "約1200年前に発見された関東屈指の硫黄泉。エメラルドグリーンから乳白色へと変化するお湯は「美肌の湯」としても人気。",
+    "shortDescription": "約1200年前に発見された関東屈指の硫黄泉。エメラルドグリーンから乳白色へと変化するお湯は「美肌の湯」としても人気。"
+  },
+  "highlights": [
+    "湯ノ湖",
+    "湯畑（源泉地）",
+    "戦場ヶ原ハイキング"
+  ],
+  "spring": {
+    "springTypes": [
+      "硫黄泉（硫化水素型）"
+    ],
+    "effects": [
+      "高血圧症",
+      "動脈硬化症",
+      "慢性皮膚病",
+      "糖尿病"
+    ],
+    "characteristics": [
+      "乳白色（濁り湯）",
+      "国民保養温泉地",
+      "湯の花"
+    ],
+    "waterQuality": "乳白色（空気に触れると変化）"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "日光駅",
+      "line": "JR/東武",
+      "busTime": 80
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 80,
+        "description": "JR/東武 日光駅から東武バスで約80分"
+      },
+      "byCar": {
+        "time": 120,
+        "description": "日光宇都宮道路 清滝ICからいろは坂経由"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "日光湯元温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "湖畔のリゾート",
+      "高原の宿",
+      "濁り湯の宿"
+    ],
+    "style": "日光湯元温泉は、奥日光の最奥部、湯ノ湖畔に湧く乳白色の名湯。濃厚な硫黄泉と静寂な環境が魅力。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "湖畔のリゾート",
+      "高原の宿",
+      "濁り湯の宿"
+    ]
+  },
+  "story": {
+    "intro": "約1200年前に発見された関東屈指の硫黄泉。エメラルドグリーンから乳白色へと変化するお湯は「美肌の湯」としても人気。",
+    "sections": [
+      {
+        "title": "湯ノ湖畔の幻想的な温泉地",
+        "body": [
+          "標高約1,500m、奥日光の自然豊かな地に位置する日光湯元温泉。源泉地には湯小屋が立ち並び、硫黄の香りが漂います。濃厚な硫黄泉は血行を促進し、多くの効能を持つ「療養泉」として古くから親しまれてきました。\n### 四季のアクティビティ\n夏は避暑、秋は見事な紅葉、冬はパウダースノーでのスキーやスノーシューと、一年を通して大自然のアクティビティと温泉をセットで楽しめます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "湯ノ湖を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "奥日光の最奥部、湯ノ湖畔に湧く乳白色の名湯。濃厚な硫黄泉と静寂な環境が魅力。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "湯畑（源泉地）と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 湯ノ湖 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "湯畑（源泉地） を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "湯ノ湖",
+      "type": "highlight",
+      "description": "日光湯元温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%20%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "湯畑（源泉地）",
+      "type": "highlight",
+      "description": "日光湯元温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E7%95%91%EF%BC%88%E6%BA%90%E6%B3%89%E5%9C%B0%EF%BC%89%20%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "戦場ヶ原ハイキング",
+      "type": "highlight",
+      "description": "日光湯元温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%A6%E5%A0%B4%E3%83%B6%E5%8E%9F%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%20%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "日光湯元温泉",
+    "栃木県",
+    "硫黄泉",
+    "濁り湯",
+    "奥日光"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "湯畑-源泉地",
+      "name": "湯畑（源泉地）",
+      "type": "onsen-landmark",
+      "description": "日光湯元温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E7%95%91%EF%BC%88%E6%BA%90%E6%B3%89%E5%9C%B0%EF%BC%89%20%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "湯畑（源泉地） 日光湯元温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJx_qUewCzH2ARZ-ssg3ITVmY",
+      "googleMapsUri": "https://maps.google.com/?cid=7374102822413724519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJx_qUewCzH2ARZ-ssg3ITVmY/photos/ATCDNfVUcFgjlJCTLZXM02GG1Wliwp6Q0nox__4ygOXfMAgkv1NzWgoQ_qU_TahrgpB77u_r3ifIqHMCfD3s0YGMyCmMmh6BKesWBHv0H-KEYrt_GARlK457YL3NttZvDpz8VvA7om2RtaKCb3gd-aUZJYV4SPSihbUarQZD3GrkudNW3H5rVtNffaM5BUTDot86XRvOakqYVXgLJ3GzCp6Uh47wBLktCU0VNDq9wxkWamk4qlcwtuRu4mz0TQbR9wK2MpgcWeKLv6Tigc0hGRdYetC8pM_EV71Yw-BaWGxZB47yaxOR5BYWZCoZkRhYFmOhoT4fi-QCXZIkz30sttGoNdbJR3o5aKqFKUj7LCmiLL-QU1sXaJqfbYkC6j_TkkDWsfc5uVLmj6uAcjuLj7oSr5v1uj5h0-59GBN5FOCvf7F07xT2MS8017LQPJpHeOEN",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nikko-yumoto/湯畑-源泉地.jpg"
+    },
+    {
+      "slug": "薬師湯",
+      "name": "薬師湯",
+      "type": "onsen-landmark",
+      "description": "日光湯元温泉 の中でも 薬師湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=8546395396868797704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "薬師湯 栃木県",
+      "placeId": "ChIJK_X6sdWzH2ARCPVlLFXlmnY",
+      "googleMapsUri": "https://maps.google.com/?cid=8546395396868797704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.rinnoji.or.jp/history/temple/onsenji.html",
+      "officialUrl": "https://www.rinnoji.or.jp/history/temple/onsenji.html",
+      "placePhotoName": "places/ChIJK_X6sdWzH2ARCPVlLFXlmnY/photos/ATCDNfXQ6vTJBYz_2efiTch0fbJH28s-CwBRYDrLmlzpdlDGUJRe9ZPJltTjd08ZRT2GcuQqkP3FiMTYynGrtgQcvVbB2EJItqEV9PK9dNsZqxlRvKH9v_koqa44i5L42H1Eossgi5WZ7WXqHQ0UOLDAHhnI1kiuh7UFAtczUFBMmAnGTdWuXgkfg2I7OOi4yloBiHHevOiTq3_yv6WiOI116J5BVB6bzvY255a_sGeLc4Cn4hwbYtZDeQZYnszqKck8gCYXXKUJs8pgmRoLsoe4vKaeJzkX5pYBCz3hUEsbEXruCm5AaWg0OGqR_-z2mifEEzWU6cuTvp5hVMeBH3CjcNGTq_gK1AQOJuc0A5I_rwf1wQMx3ew1Lipd0IwtqSA51hpWPQK_WOV_FBieW9My_4wfU4hxz1n32DPM_nOCfxDZxmvBwBT1phbvYH8D-foa",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nikko-yumoto/薬師湯.jpg"
+    },
+    {
+      "slug": "ゆ処山月五識の湯",
+      "name": "ゆ処山月五識の湯",
+      "type": "day-trip",
+      "description": "日光湯元温泉 の中でも ゆ処山月五識の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=9805433410395610901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "ゆ処山月五識の湯 栃木県",
+      "placeId": "ChIJMbocikCyH2ARFZ9gP7zlE4g",
+      "googleMapsUri": "https://maps.google.com/?cid=9805433410395610901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.hotel-sangetsu.co.jp/f-yudokoro.htm",
+      "officialUrl": "http://www.hotel-sangetsu.co.jp/f-yudokoro.htm",
+      "placePhotoName": "places/ChIJMbocikCyH2ARFZ9gP7zlE4g/photos/ATCDNfVTuAEsaN14j5Negkb_BAYhBYNxicKBztz6JNsXewuNCpiQu--kqoMvG968Ow3uZMZKcZft8glZdL9WTxpBNPfAjZlAlHtcvFJw8QNDsFoDfYrhOUEp2zYwpOg8j-R04fAmvgh2eoYCkrBCQQO22trheNHEn3hnSmZ628mooEAaisNw2ll98vTKdlgXitGsoKnm_jc1-Fw360JA6nmcsG-7-PdazjKHQY2qgiUfVRleE7F4mx8IUgOxYuVjSg_CliL-8PPp_Xs3Dm8BLIfKz_xW0vrrYUNzY3J9oOYAXvltag",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nikko-yumoto/ゆ処山月五識の湯.jpg"
+    }
+  ]
+}

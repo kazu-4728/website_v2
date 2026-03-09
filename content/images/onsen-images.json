@@ -1,0 +1,1107 @@
+{
+  "assets": [
+    {
+      "id": "kusatsu-hero",
+      "type": "photo",
+      "alt": "草津温泉 湯畑",
+      "remoteUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen/kusatsu/hero.jpg",
+      "source": "wikimedia",
+      "credit": "PekePON",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+      "capturedSubject": "草津温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "kusatsu-gallery-1",
+      "type": "photo",
+      "alt": "kusatsu温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/800px-Kusatsu-yubatake_2004.JPG",
+      "source": "wikimedia",
+      "credit": "PekePON",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/800px-Kusatsu-yubatake_2004.JPG",
+      "capturedSubject": "草津温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "kusatsu-townscape",
+      "type": "photo",
+      "alt": "kusatsu温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/800px-Kusatsu-yubatake_2004.JPG",
+      "source": "wikimedia",
+      "credit": "PekePON",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/800px-Kusatsu-yubatake_2004.JPG",
+      "capturedSubject": "草津温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "hakone-hero",
+      "type": "photo",
+      "alt": "箱根湯の花温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "source": "wikimedia",
+      "credit": "Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "capturedSubject": "箱根温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "hakone-gallery-1",
+      "type": "photo",
+      "alt": "hakone温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/800px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/800px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "capturedSubject": "箱根温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "hakone-townscape",
+      "type": "photo",
+      "alt": "hakone温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/800px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/800px-Hakone_Yunohana_Onsen_20220810.jpg",
+      "capturedSubject": "箱根温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "kinugawa-hero",
+      "type": "photo",
+      "alt": "鬼怒川渓谷沿いの温泉街",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kinugawa_Onsen_01.jpg",
+      "source": "wikimedia",
+      "credit": "Gene Jackson from Brooklyn, United States",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kinugawa_Onsen_01.jpg",
+      "capturedSubject": "鬼怒川温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "kinugawa-gallery-1",
+      "type": "photo",
+      "alt": "鬼怒川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/800px-Kinugawa_Onsen_01.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/800px-Kinugawa_Onsen_01.jpg",
+      "capturedSubject": "鬼怒川温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "kinugawa-townscape",
+      "type": "photo",
+      "alt": "鬼怒川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/800px-Kinugawa_Onsen_01.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/800px-Kinugawa_Onsen_01.jpg",
+      "capturedSubject": "鬼怒川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "ikaho-hero",
+      "type": "photo",
+      "alt": "伊香保温泉 石段街",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+      "source": "wikimedia",
+      "credit": "ぴかきぃ",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+      "capturedSubject": "伊香保温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "ikaho-gallery-1",
+      "type": "photo",
+      "alt": "ikaho温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/800px-Ikaho_Onsen_04.JPG",
+      "source": "wikimedia",
+      "credit": "ぴかきぃ",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/800px-Ikaho_Onsen_04.JPG",
+      "capturedSubject": "伊香保温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "ikaho-townscape",
+      "type": "photo",
+      "alt": "ikaho温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/800px-Ikaho_Onsen_04.JPG",
+      "source": "wikimedia",
+      "credit": "ぴかきぃ",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/800px-Ikaho_Onsen_04.JPG",
+      "capturedSubject": "伊香保温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "manza-hero",
+      "type": "photo",
+      "alt": "万座温泉の白濁した湯船",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/1920px-Manza_Onsen_20120127.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/1920px-Manza_Onsen_20120127.jpg",
+      "capturedSubject": "万座温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "manza-gallery-1",
+      "type": "photo",
+      "alt": "万座温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/800px-Manza_Onsen_20120127.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/800px-Manza_Onsen_20120127.jpg",
+      "capturedSubject": "万座温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "manza-townscape",
+      "type": "photo",
+      "alt": "万座温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/800px-Manza_Onsen_20120127.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/800px-Manza_Onsen_20120127.jpg",
+      "capturedSubject": "万座温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "shima-hero",
+      "type": "photo",
+      "alt": "四万温泉の積善館",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yamagutirotenburo.jpg",
+      "source": "wikimedia",
+      "credit": "houzyouhideyosi",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yamagutirotenburo.jpg",
+      "capturedSubject": "四万温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "shima-gallery-1",
+      "type": "photo",
+      "alt": "四万温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/800px-Yamagutirotenburo.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/800px-Yamagutirotenburo.jpg",
+      "capturedSubject": "四万温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "shima-townscape",
+      "type": "photo",
+      "alt": "四万温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/800px-Yamagutirotenburo.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/800px-Yamagutirotenburo.jpg",
+      "capturedSubject": "四万温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "nasu-hero",
+      "type": "photo",
+      "alt": "nasu温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/800px-%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/800px-%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+      "capturedSubject": "那須温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "kamogawa-hero",
+      "type": "photo",
+      "alt": "鴨川の海",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kamogawa_Sea_World_2008.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kamogawa_Sea_World_2008.jpg",
+      "capturedSubject": "鴨川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "kamogawa-townscape",
+      "type": "photo",
+      "alt": "鴨川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/800px-Kamogawa_Sea_World_2008.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/800px-Kamogawa_Sea_World_2008.jpg",
+      "capturedSubject": "鴨川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "chichibu-hero",
+      "type": "photo",
+      "alt": "秩父神社",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chichibu-Shrine.JPG",
+      "source": "wikimedia",
+      "credit": "NY066",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chichibu-Shrine.JPG",
+      "capturedSubject": "秩父温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "chichibu-townscape",
+      "type": "photo",
+      "alt": "秩父温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/800px-Chichibu-Shrine.JPG",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/800px-Chichibu-Shrine.JPG",
+      "capturedSubject": "秩父温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "yugawara-hero",
+      "type": "photo",
+      "alt": "湯河原の風景",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yugawara_view_of_downtown.jpg",
+      "source": "wikimedia",
+      "credit": "BsBsBs",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yugawara_view_of_downtown.jpg",
+      "capturedSubject": "湯河原温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "yugawara-townscape",
+      "type": "photo",
+      "alt": "湯河原温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/800px-Yugawara_view_of_downtown.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/800px-Yugawara_view_of_downtown.jpg",
+      "capturedSubject": "湯河原温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "takaragawa-hero",
+      "type": "photo",
+      "alt": "宝川温泉の露天風呂",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Takaragawa_Onsen_2011.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Takaragawa_Onsen_2011.jpg",
+      "capturedSubject": "宝川温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "takaragawa-gallery-1",
+      "type": "photo",
+      "alt": "宝川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Takaragawa_Onsen_2011.jpg/800px-Takaragawa_Onsen_2011.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Takaragawa_Onsen_2011.jpg/800px-Takaragawa_Onsen_2011.jpg",
+      "capturedSubject": "宝川温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "takaragawa-townscape",
+      "type": "photo",
+      "alt": "宝川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Takaragawa_Onsen_2011.jpg/800px-Takaragawa_Onsen_2011.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Takaragawa_Onsen_2011.jpg/800px-Takaragawa_Onsen_2011.jpg",
+      "capturedSubject": "宝川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "nikko-yumoto-hero",
+      "type": "photo",
+      "alt": "nikko-yumoto温泉の露天風呂",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "source": "wikimedia",
+      "credit": "Oden1215",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "capturedSubject": "日光湯元温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "nikko-yumoto-gallery-1",
+      "type": "photo",
+      "alt": "日光湯元温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/800px-%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "source": "wikimedia",
+      "credit": "Oden1215",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/800px-%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "capturedSubject": "日光湯元温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "nikko-yumoto-townscape",
+      "type": "photo",
+      "alt": "日光湯元温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/800px-%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "source": "wikimedia",
+      "credit": "Oden1215",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/800px-%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "capturedSubject": "日光湯元温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "yorokeikoku-hero",
+      "type": "photo",
+      "alt": "養老渓谷温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/800px-Yoro_Ravine_2008.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/800px-Yoro_Ravine_2008.jpg",
+      "capturedSubject": "養老渓谷温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "seotonoyu-hero",
+      "type": "photo",
+      "alt": "秋川渓谷 瀬音の湯のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/800px-LakeOkutama0050.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/800px-LakeOkutama0050.jpg",
+      "capturedSubject": "秋川渓谷 瀬音の湯",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "fukuroda-hero",
+      "type": "photo",
+      "alt": "袋田の滝",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fukuroda_Falls_2011.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fukuroda_Falls_2011.jpg",
+      "capturedSubject": "袋田温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "fukuroda-townscape",
+      "type": "photo",
+      "alt": "袋田温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/800px-Fukuroda_Falls_2011.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/800px-Fukuroda_Falls_2011.jpg",
+      "capturedSubject": "袋田温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "shiriyaki-hero",
+      "type": "photo",
+      "alt": "尻焼温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shiriyaki_Onsen_2006.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shiriyaki_Onsen_2006.jpg",
+      "capturedSubject": "尻焼温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "shiriyaki-gallery-1",
+      "type": "photo",
+      "alt": "尻焼温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Shiriyaki_Onsen_2006.jpg/800px-Shiriyaki_Onsen_2006.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Shiriyaki_Onsen_2006.jpg/800px-Shiriyaki_Onsen_2006.jpg",
+      "capturedSubject": "尻焼温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "shiriyaki-townscape",
+      "type": "photo",
+      "alt": "尻焼温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Shiriyaki_Onsen_2006.jpg/800px-Shiriyaki_Onsen_2006.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Shiriyaki_Onsen_2006.jpg/800px-Shiriyaki_Onsen_2006.jpg",
+      "capturedSubject": "尻焼温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "shiobara-hero",
+      "type": "photo",
+      "alt": "塩原温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hokigawa_river_and_Shiobara_valley_001.jpg",
+      "source": "wikimedia",
+      "credit": "Kanohara (talk)",
+      "license": "Public domain",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hokigawa_river_and_Shiobara_valley_001.jpg",
+      "capturedSubject": "塩原温泉郷",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "shiobara-gallery-1",
+      "type": "photo",
+      "alt": "塩原温泉郷のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/800px-Hokigawa_river_and_Shiobara_valley_001.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/800px-Hokigawa_river_and_Shiobara_valley_001.jpg",
+      "capturedSubject": "塩原温泉郷",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "shiobara-townscape",
+      "type": "photo",
+      "alt": "塩原温泉郷のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/800px-Hokigawa_river_and_Shiobara_valley_001.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/800px-Hokigawa_river_and_Shiobara_valley_001.jpg",
+      "capturedSubject": "塩原温泉郷",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "gora-hero",
+      "type": "photo",
+      "alt": "強羅公園",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C5%8Dra_Park_20090818_10.jpg",
+      "source": "wikimedia",
+      "credit": "掬茶",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C5%8Dra_Park_20090818_10.jpg",
+      "capturedSubject": "強羅温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "gora-townscape",
+      "type": "photo",
+      "alt": "強羅温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/G%C5%8Dra_Park_20090818_10.jpg/800px-G%C5%8Dra_Park_20090818_10.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/G%C5%8Dra_Park_20090818_10.jpg/800px-G%C5%8Dra_Park_20090818_10.jpg",
+      "capturedSubject": "強羅温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "chuzenji-hero",
+      "type": "photo",
+      "alt": "chuzenji温泉の露天風呂",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "source": "wikimedia",
+      "credit": "Oden1215",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "capturedSubject": "中禅寺温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "chuzenji-townscape",
+      "type": "photo",
+      "alt": "中禅寺温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/800px-%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "source": "wikimedia",
+      "credit": "Oden1215",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/800px-%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+      "capturedSubject": "中禅寺温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "katsuura-hero",
+      "type": "photo",
+      "alt": "勝浦温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/800px-Katsuura_Chiba_2011.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/800px-Katsuura_Chiba_2011.jpg",
+      "capturedSubject": "勝浦温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "yunishigawa-hero",
+      "type": "photo",
+      "alt": "湯西川温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yunishigawa_Onsen_2013.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yunishigawa_Onsen_2013.jpg",
+      "capturedSubject": "湯西川温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "yunishigawa-gallery-1",
+      "type": "photo",
+      "alt": "湯西川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yunishigawa_Onsen_2013.jpg/800px-Yunishigawa_Onsen_2013.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yunishigawa_Onsen_2013.jpg/800px-Yunishigawa_Onsen_2013.jpg",
+      "capturedSubject": "湯西川温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "yunishigawa-townscape",
+      "type": "photo",
+      "alt": "湯西川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yunishigawa_Onsen_2013.jpg/800px-Yunishigawa_Onsen_2013.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Yunishigawa_Onsen_2013.jpg/800px-Yunishigawa_Onsen_2013.jpg",
+      "capturedSubject": "湯西川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "nanasawa-hero",
+      "type": "photo",
+      "alt": "七沢温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanasawa_Onsen_2008.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanasawa_Onsen_2008.jpg",
+      "capturedSubject": "七沢温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "nanasawa-gallery-1",
+      "type": "photo",
+      "alt": "七沢温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanasawa_Onsen_2008.jpg/800px-Nanasawa_Onsen_2008.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanasawa_Onsen_2008.jpg/800px-Nanasawa_Onsen_2008.jpg",
+      "capturedSubject": "七沢温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "nanasawa-townscape",
+      "type": "photo",
+      "alt": "七沢温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanasawa_Onsen_2008.jpg/800px-Nanasawa_Onsen_2008.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nanasawa_Onsen_2008.jpg/800px-Nanasawa_Onsen_2008.jpg",
+      "capturedSubject": "七沢温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "oarai-hero",
+      "type": "photo",
+      "alt": "大洗の鳥居",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+      "capturedSubject": "大洗温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "oarai-townscape",
+      "type": "photo",
+      "alt": "大洗温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/800px-Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/800px-Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+      "capturedSubject": "大洗温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "kamikawa-hero",
+      "type": "photo",
+      "alt": "神川の自然",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/1280px-Kami-izumi_Dam_02.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/1280px-Kami-izumi_Dam_02.jpg",
+      "capturedSubject": "神川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "kamikawa-townscape",
+      "type": "photo",
+      "alt": "神川温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/800px-Kami-izumi_Dam_02.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/800px-Kami-izumi_Dam_02.jpg",
+      "capturedSubject": "神川温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "okutama-hero",
+      "type": "photo",
+      "alt": "奥多摩湖",
+      "remoteUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen/okutama/hero.jpg",
+      "source": "wikimedia",
+      "credit": "Fg2",
+      "license": "Public domain",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/LakeOkutama0050.jpg",
+      "capturedSubject": "奥多摩温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "okutama-townscape",
+      "type": "photo",
+      "alt": "奥多摩温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/800px-LakeOkutama0050.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/800px-LakeOkutama0050.jpg",
+      "capturedSubject": "奥多摩温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "kawaji-hero",
+      "type": "photo",
+      "alt": "川治温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kawaji_Onsen_2007.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kawaji_Onsen_2007.jpg",
+      "capturedSubject": "川治温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "kawaji-gallery-1",
+      "type": "photo",
+      "alt": "川治温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kawaji_Onsen_2007.jpg/800px-Kawaji_Onsen_2007.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kawaji_Onsen_2007.jpg/800px-Kawaji_Onsen_2007.jpg",
+      "capturedSubject": "川治温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "kawaji-townscape",
+      "type": "photo",
+      "alt": "川治温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kawaji_Onsen_2007.jpg/800px-Kawaji_Onsen_2007.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kawaji_Onsen_2007.jpg/800px-Kawaji_Onsen_2007.jpg",
+      "capturedSubject": "川治温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "sengokuhara-hero",
+      "type": "photo",
+      "alt": "仙石原温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/800px-230910_Sengokuhara_Hakone_Japan06s3.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/800px-230910_Sengokuhara_Hakone_Japan06s3.jpg",
+      "capturedSubject": "仙石原温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "oigami-hero",
+      "type": "photo",
+      "alt": "老神温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Oigami_Onsen_2010.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Oigami_Onsen_2010.jpg",
+      "capturedSubject": "老神温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "oigami-gallery-1",
+      "type": "photo",
+      "alt": "老神温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oigami_Onsen_2010.jpg/800px-Oigami_Onsen_2010.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oigami_Onsen_2010.jpg/800px-Oigami_Onsen_2010.jpg",
+      "capturedSubject": "老神温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "oigami-townscape",
+      "type": "photo",
+      "alt": "老神温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oigami_Onsen_2010.jpg/800px-Oigami_Onsen_2010.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oigami_Onsen_2010.jpg/800px-Oigami_Onsen_2010.jpg",
+      "capturedSubject": "老神温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    },
+    {
+      "id": "shirahama-hero",
+      "type": "photo",
+      "alt": "白浜温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/800px-Nojimazaki_Lighthouse_2011.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/800px-Nojimazaki_Lighthouse_2011.jpg",
+      "capturedSubject": "白浜温泉",
+      "verifiedRealWorld": true,
+      "focus": "onsen-area"
+    },
+    {
+      "id": "kawarayu-hero",
+      "type": "photo",
+      "alt": "川原湯温泉",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/1280px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "source": "wikimedia",
+      "credit": "663highland",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/1280px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "capturedSubject": "川原湯温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "kawarayu-gallery-1",
+      "type": "photo",
+      "alt": "川原湯温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/800px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/800px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "capturedSubject": "川原湯温泉",
+      "verifiedRealWorld": true,
+      "focus": "bath"
+    },
+    {
+      "id": "kawarayu-townscape",
+      "type": "photo",
+      "alt": "川原湯温泉のサムネイル",
+      "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/800px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "source": "wikimedia",
+      "credit": "Unknown",
+      "license": "Unknown",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/800px-Kawarayu_Onsen_Yubatake_2015.jpg",
+      "capturedSubject": "川原湯温泉",
+      "verifiedRealWorld": true,
+      "focus": "area"
+    }
+  ],
+  "onsens": {
+    "kusatsu": {
+      "hero": "kusatsu-hero",
+      "gallery": [
+        "kusatsu-gallery-1"
+      ],
+      "townscape": "kusatsu-townscape"
+    },
+    "hakone": {
+      "hero": "hakone-hero",
+      "gallery": [
+        "hakone-gallery-1"
+      ],
+      "townscape": "hakone-townscape"
+    },
+    "kinugawa": {
+      "hero": "kinugawa-hero",
+      "gallery": [
+        "kinugawa-gallery-1"
+      ],
+      "townscape": "kinugawa-townscape"
+    },
+    "ikaho": {
+      "hero": "ikaho-hero",
+      "gallery": [
+        "ikaho-gallery-1"
+      ],
+      "townscape": "ikaho-townscape"
+    },
+    "manza": {
+      "hero": "manza-hero",
+      "gallery": [
+        "manza-gallery-1"
+      ],
+      "townscape": "manza-townscape"
+    },
+    "shima": {
+      "hero": "shima-hero",
+      "gallery": [
+        "shima-gallery-1"
+      ],
+      "townscape": "shima-townscape"
+    },
+    "nasu": {
+      "hero": "nasu-hero",
+      "gallery": [
+        "nasu-hero"
+      ]
+    },
+    "kamogawa": {
+      "hero": "kamogawa-hero",
+      "gallery": [
+        "kamogawa-hero"
+      ],
+      "townscape": "kamogawa-townscape"
+    },
+    "chichibu": {
+      "hero": "chichibu-hero",
+      "gallery": [
+        "chichibu-hero"
+      ],
+      "townscape": "chichibu-townscape"
+    },
+    "yugawara": {
+      "hero": "yugawara-hero",
+      "gallery": [
+        "yugawara-hero"
+      ],
+      "townscape": "yugawara-townscape"
+    },
+    "takaragawa": {
+      "hero": "takaragawa-hero",
+      "gallery": [
+        "takaragawa-gallery-1"
+      ],
+      "townscape": "takaragawa-townscape"
+    },
+    "nikko-yumoto": {
+      "hero": "nikko-yumoto-hero",
+      "gallery": [
+        "nikko-yumoto-gallery-1"
+      ],
+      "townscape": "nikko-yumoto-townscape"
+    },
+    "yorokeikoku": {
+      "hero": "yorokeikoku-hero",
+      "gallery": [
+        "yorokeikoku-hero"
+      ]
+    },
+    "seotonoyu": {
+      "hero": "seotonoyu-hero",
+      "gallery": [
+        "seotonoyu-hero"
+      ]
+    },
+    "fukuroda": {
+      "hero": "fukuroda-hero",
+      "gallery": [
+        "fukuroda-hero"
+      ],
+      "townscape": "fukuroda-townscape"
+    },
+    "shiriyaki": {
+      "hero": "shiriyaki-hero",
+      "gallery": [
+        "shiriyaki-gallery-1"
+      ],
+      "townscape": "shiriyaki-townscape"
+    },
+    "shiobara": {
+      "hero": "shiobara-hero",
+      "gallery": [
+        "shiobara-gallery-1"
+      ],
+      "townscape": "shiobara-townscape"
+    },
+    "gora": {
+      "hero": "gora-hero",
+      "gallery": [
+        "gora-hero"
+      ],
+      "townscape": "gora-townscape"
+    },
+    "chuzenji": {
+      "hero": "chuzenji-hero",
+      "gallery": [
+        "chuzenji-hero"
+      ],
+      "townscape": "chuzenji-townscape"
+    },
+    "katsuura": {
+      "hero": "katsuura-hero",
+      "gallery": [
+        "katsuura-hero"
+      ]
+    },
+    "yunishigawa": {
+      "hero": "yunishigawa-hero",
+      "gallery": [
+        "yunishigawa-gallery-1"
+      ],
+      "townscape": "yunishigawa-townscape"
+    },
+    "nanasawa": {
+      "hero": "nanasawa-hero",
+      "gallery": [
+        "nanasawa-gallery-1"
+      ],
+      "townscape": "nanasawa-townscape"
+    },
+    "oarai": {
+      "hero": "oarai-hero",
+      "gallery": [
+        "oarai-hero"
+      ],
+      "townscape": "oarai-townscape"
+    },
+    "kamikawa": {
+      "hero": "kamikawa-hero",
+      "gallery": [
+        "kamikawa-hero"
+      ],
+      "townscape": "kamikawa-townscape"
+    },
+    "okutama": {
+      "hero": "okutama-hero",
+      "gallery": [
+        "okutama-hero"
+      ],
+      "townscape": "okutama-townscape"
+    },
+    "kawaji": {
+      "hero": "kawaji-hero",
+      "gallery": [
+        "kawaji-gallery-1"
+      ],
+      "townscape": "kawaji-townscape"
+    },
+    "sengokuhara": {
+      "hero": "sengokuhara-hero",
+      "gallery": [
+        "sengokuhara-hero"
+      ]
+    },
+    "oigami": {
+      "hero": "oigami-hero",
+      "gallery": [
+        "oigami-gallery-1"
+      ],
+      "townscape": "oigami-townscape"
+    },
+    "shirahama": {
+      "hero": "shirahama-hero",
+      "gallery": [
+        "shirahama-hero"
+      ]
+    },
+    "kawarayu": {
+      "hero": "kawarayu-hero",
+      "gallery": [
+        "kawarayu-gallery-1"
+      ],
+      "townscape": "kawarayu-townscape"
+    }
+  }
+}

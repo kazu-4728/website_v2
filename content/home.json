@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "eyebrow": "Curated Kanto Hot Springs",
+    "title": "写真から、次に浸かりたい湯を選ぶ。",
+    "description": "関東の温泉地を、実写写真と比較情報で再編集。景色、泉質、東京からの行きやすさ、日帰り可否までひと目でわかるように設計しました。",
+    "primaryCta": {
+      "label": "温泉を探す",
+      "href": "/onsen"
+    },
+    "secondaryCta": {
+      "label": "今週の特集を読む",
+      "href": "/journal"
+    },
+    "slides": [
+      {
+        "slug": "hakone",
+        "kicker": "Resort Escape",
+        "heading": "箱根で、景色も滞在も妥協しない。",
+        "description": "東京から約85分。絶景、美術館、宿の選択肢まで揃う万能リゾート。"
+      },
+      {
+        "slug": "kusatsu",
+        "kicker": "Iconic Steam",
+        "heading": "草津で、湯の力そのものを味わう。",
+        "description": "湯畑の湯けむり、強い泉質、夜の街歩き。名湯らしさを凝縮した一湯。"
+      },
+      {
+        "slug": "manza",
+        "kicker": "Highland Detox",
+        "heading": "万座で、空に近い白濁湯へ。",
+        "description": "標高1,800m。高原の風と硫黄の香りが、体感ごと切り替えてくれる。"
+      }
+    ]
+  },
+  "quickFilters": [
+    { "label": "東京から90分前後", "href": "/onsen?travel=90" },
+    { "label": "日帰りで楽しみたい", "href": "/onsen?dayTrip=yes" },
+    { "label": "白濁・硫黄泉を探す", "href": "/onsen?spring=%E7%A1%AB%E9%BB%84%E6%B3%89" },
+    { "label": "美肌系の湯を見たい", "href": "/onsen?effect=%E7%BE%8E%E8%82%8C" }
+  ],
+  "areaHighlights": [
+    {
+      "name": "箱根",
+      "description": "景色、宿、観光のバランスが良く、最初の一湯にも向く定番エリア。",
+      "slug": "hakone"
+    },
+    {
+      "name": "草津",
+      "description": "湯の個性が強く、温泉街の高揚感まで含めて記憶に残る名所。",
+      "slug": "kusatsu"
+    },
+    {
+      "name": "日光・鬼怒川",
+      "description": "渓谷と大きな宿がつくるスケール感。家族旅や周遊にも合わせやすい。",
+      "slug": "kinugawa"
+    }
+  ],
+  "comparison": {
+    "eyebrow": "Compare at a glance",
+    "title": "迷ったら、写真と条件を横並びで。",
+    "description": "景色優先か、泉質優先か、近さ優先か。好みの判断軸で選びやすいよう、主要データを同じ粒度で見せます。"
+  },
+  "journal": {
+    "eyebrow": "Journal",
+    "title": "湯けむりの向こう側を読む。",
+    "description": "季節の視点、週末の使い方、写真で惹かれた湯の楽しみ方を掘り下げる特集。"
+  },
+  "contactCta": {
+    "eyebrow": "Need a recommendation?",
+    "title": "条件が決まっていれば、候補はもっと絞れる。",
+    "description": "移動時間、宿の雰囲気、泉質、日帰り可否。希望の優先順位から、次の温泉地選びを手伝います。",
+    "action": {
+      "label": "旅の相談をする",
+      "href": "/contact"
+    }
+  }
+}

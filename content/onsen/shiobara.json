@@ -1,0 +1,203 @@
+{
+  "identity": {
+    "slug": "shiobara",
+    "name": "塩原温泉郷",
+    "nameEn": "Shiobara",
+    "prefecture": "栃木県",
+    "area": "那須・塩原"
+  },
+  "summary": {
+    "catchcopy": "1200年の歴史と、6種類もの泉質が湧く「温泉の宝石箱」。渓谷美と共に湯めぐりを。",
+    "lead": "箒川の渓谷沿いに11の温泉地が連なる、日本有数の温泉郷。泉質や効能、湯の色が多種多様で、自分に合ったお湯を探す湯めぐりが楽しめます。",
+    "shortDescription": "箒川の渓谷沿いに11の温泉地が連なる、日本有数の温泉郷。泉質や効能、湯の色が多種多様で、自分に合ったお湯を探す湯めぐりが楽しめます。"
+  },
+  "highlights": [
+    "もみじ谷大吊橋",
+    "竜化の滝",
+    "塩原もの語り館"
+  ],
+  "spring": {
+    "springTypes": [
+      "塩化物泉",
+      "炭酸水素塩泉",
+      "硫黄泉",
+      "硫酸塩泉など多彩"
+    ],
+    "effects": [
+      "美肌効果（メタケイ酸豊富）",
+      "切り傷",
+      "慢性皮膚病",
+      "胃腸病"
+    ],
+    "characteristics": [
+      "塩原十一湯",
+      "7色の湯",
+      "飲泉可能（一部）"
+    ],
+    "waterQuality": "乳白色、茶褐色、黒色、黄金色など多彩"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "JR那須塩原駅または西那須野駅からバス",
+      "line": "要確認"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR那須塩原駅または西那須野駅からバス"
+      },
+      "byCar": {
+        "time": 20,
+        "description": "東北自動車道 西那須野塩原ICから約20分"
+      },
+      "byBus": {
+        "time": 120,
+        "description": "新宿から高速直行バスあり"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E9%82%A3%E9%A0%88%E3%83%BB%E5%A1%A9%E5%8E%9F%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "塩原温泉郷 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E9%82%A3%E9%A0%88%E3%83%BB%E5%A1%A9%E5%8E%9F%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "大型ホテル",
+      "老舗旅館",
+      "渓谷沿いの露天風呂"
+    ],
+    "style": "塩原温泉郷は、1200年の歴史と、6種類もの泉質が湧く「温泉の宝石箱」。渓谷美と共に湯めぐりを。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "大型ホテル",
+      "老舗旅館",
+      "渓谷沿いの露天風呂"
+    ]
+  },
+  "story": {
+    "intro": "箒川の渓谷沿いに11の温泉地が連なる、日本有数の温泉郷。泉質や効能、湯の色が多種多様で、自分に合ったお湯を探す湯めぐりが楽しめます。",
+    "sections": [
+      {
+        "title": "渓谷美と名湯の競演",
+        "body": [
+          "塩原温泉郷は、大網、福渡、塩釜など11の温泉地の総称で「塩原十一湯」と呼ばれます。「温泉の宝石箱」と称されるほど泉質が豊かで、特にメタケイ酸を多く含む「美肌の湯」が多いのも特徴です。紅葉の名所としても名高く、秋には渓谷が錦秋に染まります。\n### 文人墨客の足跡\n尾崎紅葉の「金色夜叉」をはじめ、多くの文学作品の舞台となりました。温泉街には文学碑が点在し、歴史の深さを感じさせます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "もみじ谷大吊橋を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "1200年の歴史と、6種類もの泉質が湧く「温泉の宝石箱」。渓谷美と共に湯めぐりを。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "竜化の滝と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は もみじ谷大吊橋 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "竜化の滝 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "もみじ谷大吊橋",
+      "type": "highlight",
+      "description": "塩原温泉郷と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%BF%E3%81%98%E8%B0%B7%E5%A4%A7%E5%90%8A%E6%A9%8B%20%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "竜化の滝",
+      "type": "highlight",
+      "description": "塩原温泉郷と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%9C%E5%8C%96%E3%81%AE%E6%BB%9D%20%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "塩原もの語り館",
+      "type": "highlight",
+      "description": "塩原温泉郷と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E3%82%82%E3%81%AE%E8%AA%9E%E3%82%8A%E9%A4%A8%20%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "塩原温泉",
+    "栃木県",
+    "湯めぐり",
+    "紅葉",
+    "美肌"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "塩原温泉郷-温泉街中心部",
+      "name": "塩原温泉郷 温泉街中心部",
+      "type": "area-core",
+      "description": "塩原温泉郷全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E9%82%A3%E9%A0%88%E3%83%BB%E5%A1%A9%E5%8E%9F%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "塩原温泉郷 那須・塩原 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJaeYHi86QH2AR7wgy7hcMdvo",
+      "googleMapsUri": "https://maps.google.com/?cid=18047625853653879023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.keiunkaku.com/",
+      "officialUrl": "https://www.keiunkaku.com/",
+      "placePhotoName": "places/ChIJaeYHi86QH2AR7wgy7hcMdvo/photos/ATCDNfWQnxObenaTi2QX2MugEnf5tbmfKplwa_JXScks7ygy-1QA24w3GfES3tm_q-dglTbsV7Ho99aiJVYE2IzAjpyP5wIXOkQW-Y3x6BdaurJXlsP5hfzNaXyCvxEXBF-fQnU97bv4hOiAmgZT2Ztfe9tcVSTUYN_jJtavaJrtLX6YaNA6yro5WAiLaH6gMHLdCgJI6Jl8OUPrIcjnFurd8UFpQBtS1GFx_KoIY_GyVaPCnvuCfnh4pTmfsmdAvvLPI6u0e93ew9ZIzs3b3tAhziyON66NvLkS3MNMl-QLBFaSgw",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiobara/塩原温泉郷-温泉街中心部.jpg"
+    },
+    {
+      "slug": "日帰り温泉-塩原あかつきの湯",
+      "name": "日帰り温泉 塩原あかつきの湯",
+      "type": "day-trip",
+      "description": "塩原温泉郷 の中でも 日帰り温泉 塩原あかつきの湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=12800768721452759178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "日帰り温泉 塩原あかつきの湯 栃木県",
+      "placeId": "ChIJzX8S9c6FH2ARingfrlR3pbE",
+      "googleMapsUri": "https://maps.google.com/?cid=12800768721452759178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.acatsuki.co.jp/shiobara/",
+      "officialUrl": "http://www.acatsuki.co.jp/shiobara/",
+      "placePhotoName": "places/ChIJzX8S9c6FH2ARingfrlR3pbE/photos/ATCDNfXimAJHXhE8RxPYPs4mn5eUij4d9stBm9ucNfssxPGFdgVZ2g1kYXGKmMNTd749Qb2HHLic_tClJUeCiEGdu1Z5z-vC22746hgw4p1sVp0Wmk8ielqikc_6Olfo8MK-vwKbxFjFvlHMmKPPnl7LnJncfVp0EuOiSpmRQIWpEZmML7DpAH82S4_ebOumBegiKHJp5qaVsQiw8rLn0kkqgTxAM53qbHKRqBmytgoTaX8ABD8mgqbgXoD21sbpp6rZzoWvCg_Pdh96Mfuvt2uUO3Lr7x8gkJYuFNgOk8x9Us-RzQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiobara/日帰り温泉-塩原あかつきの湯.jpg"
+    },
+    {
+      "slug": "塩原元湯温泉-大出館",
+      "name": "塩原元湯温泉 大出館",
+      "type": "day-trip",
+      "description": "塩原温泉郷 の中でも 塩原元湯温泉 大出館 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=10367808722954814237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "塩原元湯温泉 大出館 栃木県",
+      "placeId": "ChIJN9pnMUeKH2ARHQPrPhrb4Y8",
+      "googleMapsUri": "https://maps.google.com/?cid=10367808722954814237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.ooidekan.com/",
+      "officialUrl": "https://www.ooidekan.com/",
+      "placePhotoName": "places/ChIJN9pnMUeKH2ARHQPrPhrb4Y8/photos/ATCDNfXtBXUDZ8FXgOxVc81LfmCSV2TQ-i6shashQMzg9Ft1NkjVTHF_rhV8Rl0Mnie8ly-JAedJEqMrw4d6YyqFWvAoxRNse7z4PfRPVL3RDn3rtSFMBgP_dXlSx0sRUsEFjgWQsXKjWqlNeDYG8_E-uzxxOZrRz4xLF6hhzBD3jJTZvU_sA0lZjSKok3vfvo56PYIBdEJw7-afDOC338qhSZuvbWtGgvrfG3Oz_EsvjOWByulQqscHlVg4MGQ4lIFGwUISnb9kFThMcl3lFXpXIVzp9_E5jkH3PswDLpeLKc-0StliUb1yaoxl0d53_XaNCPnPOVB-Am2wMSJMdNLMdU7jF9hJq6XyTM9tVXgDHZTyj8LVvsW1kxhiPVB19qfB3xStGYbbXqguDkCyVvc2DRVUduTieR1SiSLoz9_y77OK",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiobara/塩原元湯温泉-大出館.jpg"
+    }
+  ]
+}

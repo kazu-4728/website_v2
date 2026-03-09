@@ -1,0 +1,194 @@
+{
+  "identity": {
+    "slug": "kawaji",
+    "name": "川治温泉",
+    "nameEn": "Kawaji",
+    "prefecture": "栃木県",
+    "area": "日光・鬼怒川"
+  },
+  "summary": {
+    "catchcopy": "男鹿川と鬼怒川の合流点に佇む静かな温泉郷。「傷は川治、火傷は滝」と称される名湯。",
+    "lead": "江戸時代に発見された歴史ある温泉。鬼怒川温泉より上流にあり、より落ち着いた素朴な雰囲気が魅力です。",
+    "shortDescription": "江戸時代に発見された歴史ある温泉。鬼怒川温泉より上流にあり、より落ち着いた素朴な雰囲気が魅力です。"
+  },
+  "highlights": [
+    "龍王峡",
+    "薬師の湯（共同浴場）",
+    "五十里ダム"
+  ],
+  "spring": {
+    "springTypes": [
+      "アルカリ性単純温泉"
+    ],
+    "effects": [
+      "切り傷",
+      "火傷",
+      "皮膚病",
+      "神経痛"
+    ],
+    "characteristics": [
+      "ぬるめの湯",
+      "長湯向け",
+      "渓谷美"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "川治温泉駅または川治湯元駅",
+      "line": "野岩鉄道"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "野岩鉄道 川治温泉駅または川治湯元駅"
+      },
+      "byCar": {
+        "time": 40,
+        "description": "日光宇都宮道路 今市ICから約40分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "川治温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "老舗旅館",
+      "露天風呂自慢",
+      "静養向き"
+    ],
+    "style": "川治温泉は、男鹿川と鬼怒川の合流点に佇む静かな温泉郷。「傷は川治、火傷は滝」と称される名湯。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "老舗旅館",
+      "露天風呂自慢",
+      "静養向き"
+    ]
+  },
+  "story": {
+    "intro": "江戸時代に発見された歴史ある温泉。鬼怒川温泉より上流にあり、より落ち着いた素朴な雰囲気が魅力です。",
+    "sections": [
+      {
+        "title": "山峡の閑静な湯治場",
+        "body": [
+          "川治温泉は、古くから湯治場として栄えました。特に外傷に対する効能が高いとされ、多くの人々を癒やしてきました。男鹿川の渓流沿いには遊歩道が整備されており、四季折々の自然を感じながら散策を楽しめます。\n### 薬師の湯と伝統\n共同浴場「薬師の湯」は、川治温泉のシンボル的存在。地元の人々とのふれあいも旅の醍醐味です。また、伝統的な「イタム（イタチ）の湯伝説」も残っています。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "龍王峡を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "男鹿川と鬼怒川の合流点に佇む静かな温泉郷。「傷は川治、火傷は滝」と称される名湯。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "薬師の湯（共同浴場）と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 龍王峡 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "薬師の湯（共同浴場） を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "龍王峡",
+      "type": "highlight",
+      "description": "川治温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BE%8D%E7%8E%8B%E5%B3%A1%20%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "薬師の湯（共同浴場）",
+      "type": "highlight",
+      "description": "川治温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%AC%E5%B8%AB%E3%81%AE%E6%B9%AF%EF%BC%88%E5%85%B1%E5%90%8C%E6%B5%B4%E5%A0%B4%EF%BC%89%20%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "五十里ダム",
+      "type": "highlight",
+      "description": "川治温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E5%8D%81%E9%87%8C%E3%83%80%E3%83%A0%20%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "川治温泉",
+    "栃木県",
+    "湯治",
+    "渓谷",
+    "静養"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "薬師の湯-共同浴場",
+      "name": "薬師の湯（共同浴場）",
+      "type": "onsen-landmark",
+      "description": "川治温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%AC%E5%B8%AB%E3%81%AE%E6%B9%AF%EF%BC%88%E5%85%B1%E5%90%8C%E6%B5%B4%E5%A0%B4%EF%BC%89%20%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "薬師の湯（共同浴場） 川治温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJDWaHSBqYH2ARkdn2gLDhsFs",
+      "googleMapsUri": "https://maps.google.com/?cid=6607028801546672529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.city.nikko.lg.jp/soshiki/6/1026/8/1040.html",
+      "officialUrl": "https://www.city.nikko.lg.jp/soshiki/6/1026/8/1040.html",
+      "placePhotoName": "places/ChIJDWaHSBqYH2ARkdn2gLDhsFs/photos/ATCDNfXF81JZHsoj1tBWrLYt6DCQj07GnIgb3eFqfGKA_4ldcFiFgzZv-d5TMUA6meEuPPxofWxqwe7LIn8NyK5BmYF2kEfOywNXkfrCYjETNiXlTMCPq34l8kDiL3rFKZVp0smRzkW1-rI_l6wjjArYt9cHfHefJqgw3uoLyNU82g0awMNC7N_cKw8elRiIep6fdzhoPlEP1Jk_wYqfIocfCuBnx0W3Yy_0o8_sp9wxKB42EgnuIwLbmnEXPCpOuA-AzNMYaN2YHxgoXHEkNi5dDmMSZYGggQtsjZ2zJSAwNevcP4u_q7mssUCBoGdGrXQPux8cDFbmFURN8_daSfVbm6GmRWB6LxMu9egEr1xYgFS5PTo4rx22YN40sNuptvLBWFGD57twNjPAz58A6jXnYFfCIXeadDY9bbjBE0wiVK3wbWJm",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kawaji/薬師の湯-共同浴場.jpg"
+    },
+    {
+      "slug": "日光和の代温泉-やしおの湯",
+      "name": "日光和の代温泉 やしおの湯",
+      "type": "day-trip",
+      "description": "川治温泉 の中でも 日光和の代温泉 やしおの湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=2735568083704209972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "日光和の代温泉 やしおの湯 栃木県",
+      "placeId": "ChIJ1aE1D_ymH2ARNOIVsK2w9iU",
+      "googleMapsUri": "https://maps.google.com/?cid=2735568083704209972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.yashionoyu.com/",
+      "officialUrl": "https://www.yashionoyu.com/",
+      "placePhotoName": "places/ChIJ1aE1D_ymH2ARNOIVsK2w9iU/photos/ATCDNfV0K1XbHvaprYuV326f40wv5co-3r_dQtfSrDhf4KXoY7gAdczQJvoQJaZRerluKAwuyJ67-H0YPrP4hZFZpdUueZaBzfzvcciWMtIzVShP5CTa-sEwpjfvTkfAiK_t_s_4upXAET6ZahV2_LfPBnJNBieU62v_ZLvMTcyUgqhat_M6qIJ5_V52WBwmp-dW3oUVZvZ9AlGRgKb2Z9iEgGy3XvNVzVDQuO3uVxdDwWGXkCct4jD81-guGXiAEq4kqFcqiUFPDepZuqx0bIHdi-k_0h59OT2LzCfZZ1lClD5ELA",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kawaji/日光和の代温泉-やしおの湯.jpg"
+    },
+    {
+      "slug": "湯けむりの里-柏屋",
+      "name": "湯けむりの里 柏屋",
+      "type": "onsen-landmark",
+      "description": "川治温泉 の中でも 湯けむりの里 柏屋 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=7353851381060217076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "湯けむりの里 柏屋 栃木県",
+      "placeId": "ChIJ-VLtFxqYH2AR9CgcY94gDmY",
+      "googleMapsUri": "https://maps.google.com/?cid=7353851381060217076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJ-VLtFxqYH2AR9CgcY94gDmY/photos/ATCDNfWHK6w5By1Z0rQoCpoTSiHpMhtcWf54q5VoNaibp3w9mrhl2VaPoVqI2adRNuluRqRrRvlIhxQ4iTfr-BrM7CZ0swsvjqSBaJh5TxnyABS1FZXLfs0Qm-0GbYj77eqxV43YUi9oggrvINW3s-bPN6tzhEvVIdhAcNFZMBmKnIaD_O1BZhUCYcjlw72sf521XllB9UiH83St1aLjLX9e9QOWjGGoUPZPI870KBpMG_uIYR32idcddfemr2GUJ1_1VFadD3elrH3M0LPd-NrZZOKGFo2jXwoACrhkvMWsQQndVw",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kawaji/湯けむりの里-柏屋.jpg"
+    }
+  ]
+}

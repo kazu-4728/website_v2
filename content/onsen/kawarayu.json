@@ -1,0 +1,196 @@
+{
+  "identity": {
+    "slug": "kawarayu",
+    "name": "川原湯温泉",
+    "nameEn": "Kawarayu",
+    "prefecture": "群馬県",
+    "area": "草津・四万"
+  },
+  "summary": {
+    "catchcopy": "八ッ場ダム建設により高台に移転した、新しくも歴史ある温泉。ダム湖を望む絶景。",
+    "lead": "源頼朝が発見したと伝わる約800年の歴史を持つ温泉。ダム建設に伴い温泉街ごと移転し、きれいな街並みに生まれ変わりました。",
+    "shortDescription": "源頼朝が発見したと伝わる約800年の歴史を持つ温泉。ダム建設に伴い温泉街ごと移転し、きれいな街並みに生まれ変わりました。"
+  },
+  "highlights": [
+    "王湯（共同浴場）",
+    "八ッ場ダム",
+    "湯かけ祭り"
+  ],
+  "spring": {
+    "springTypes": [
+      "含硫黄-カルシウム・ナトリウム-塩化物・硫酸塩温泉"
+    ],
+    "effects": [
+      "リウマチ",
+      "神経痛",
+      "胃腸病",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "新源泉",
+      "ダム湖眺望",
+      "王湯（共同浴場）"
+    ],
+    "waterQuality": "無色透明（硫黄臭あり）"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "川原湯温泉駅",
+      "line": "JR吾妻線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR吾妻線 川原湯温泉駅"
+      },
+      "byCar": {
+        "time": 60,
+        "description": "関越自動車道 渋川伊香保ICから約60分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "川原湯温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "真新しい旅館",
+      "キャンプ場併設",
+      "源泉かけ流し"
+    ],
+    "style": "川原湯温泉は、八ッ場ダム建設により高台に移転した、新しくも歴史ある温泉。ダム湖を望む絶景。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "真新しい旅館",
+      "キャンプ場併設",
+      "源泉かけ流し"
+    ]
+  },
+  "story": {
+    "intro": "源頼朝が発見したと伝わる約800年の歴史を持つ温泉。ダム建設に伴い温泉街ごと移転し、きれいな街並みに生まれ変わりました。",
+    "sections": [
+      {
+        "title": "湖畔に蘇った歴史の名湯",
+        "body": [
+          "新しい川原湯温泉街は八ッ場あがつま湖を見下ろす高台にあります。共同浴場「王湯」は、ヒノキの香りが心地よい内湯と、開放的な露天風呂を備えています。毎年1月20日に行われる奇祭「湯かけ祭り」は、極寒の中でお湯を掛け合う勇壮な祭りとして有名です。\n### 八ッ場ダム観光の拠点\n道の駅「八ッ場ふるさと館」や、水陸両用バスでのダム湖観光など、新しい観光スポットも続々誕生しています。草津温泉へのアクセスも良く、立ち寄り湯としても最適です。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "王湯（共同浴場）を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "八ッ場ダム建設により高台に移転した、新しくも歴史ある温泉。ダム湖を望む絶景。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "八ッ場ダムと紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 王湯（共同浴場） 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "八ッ場ダム を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "王湯（共同浴場）",
+      "type": "highlight",
+      "description": "川原湯温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E6%B9%AF%EF%BC%88%E5%85%B1%E5%90%8C%E6%B5%B4%E5%A0%B4%EF%BC%89%20%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "八ッ場ダム",
+      "type": "highlight",
+      "description": "川原湯温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E3%83%83%E5%A0%B4%E3%83%80%E3%83%A0%20%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "湯かけ祭り",
+      "type": "highlight",
+      "description": "川原湯温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%8B%E3%81%91%E7%A5%AD%E3%82%8A%20%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "川原湯温泉",
+    "群馬県",
+    "八ッ場ダム",
+    "共同浴場",
+    "歴史"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "王湯-共同浴場",
+      "name": "王湯（共同浴場）",
+      "type": "onsen-landmark",
+      "description": "川原湯温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E6%B9%AF%EF%BC%88%E5%85%B1%E5%90%8C%E6%B5%B4%E5%A0%B4%EF%BC%89%20%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "王湯（共同浴場） 川原湯温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJOU86DLrYHWARYXDPyxWjBno",
+      "googleMapsUri": "https://maps.google.com/?cid=8792894636496482401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.kawarayu.jp/ouyu.html",
+      "officialUrl": "http://www.kawarayu.jp/ouyu.html",
+      "placePhotoName": "places/ChIJOU86DLrYHWARYXDPyxWjBno/photos/ATCDNfU4eUVd9G1hSst3GUbZ_V_CBNE1_cGRdZIbRlxLBvhoQwspayjOQ4Iv3UDz3mEhVKgqr23QyjxIqR05zqW0IwJeParF6tjL6BsWdx_JGbzy4Hw0AZkUC1dTrXshEsmObiwkIZAnYtWm1Tq4NmSitCZyTGMIOlVkTbLaNe_oZdFNLXd_JaaYO6qf4veQNAAQv9o39k9VtFD4W8leeDiJmFtt31svXjTNTlhF_XHVXZ-_gm0jkvqlPSBkt-EJSwddvt-yclMyJaMM5Gzpu6FaUjKDx5q_XhaFuSaYHAaambNfh7zNZnU8_33VAykSkHkfOWiHGwbtKl6oMZ2XC9T5oWSzJuiV-9R6ska52yPw-s9r2V3Jipfo9Qw4mJk9VRj7mPUQAOStMzszV_u_cY6wIDwvOPhjVZpDs4In78inPn4kBqm04dX7LhysczY6wql9",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kawarayu/王湯-共同浴場.jpg"
+    },
+    {
+      "slug": "川原湯温泉あそびの基地NOA",
+      "name": "川原湯温泉あそびの基地NOA",
+      "type": "day-trip",
+      "description": "川原湯温泉 の中でも 川原湯温泉あそびの基地NOA は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=308459514319109047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "川原湯温泉あそびの基地NOA 群馬県",
+      "placeId": "ChIJXdX2m7LZHWARt3uUQkveRwQ",
+      "googleMapsUri": "https://maps.google.com/?cid=308459514319109047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://yamba-kawarayu-noa.com/",
+      "officialUrl": "https://yamba-kawarayu-noa.com/",
+      "placePhotoName": "places/ChIJXdX2m7LZHWARt3uUQkveRwQ/photos/ATCDNfW4l0auvk27JAVwP4LLEYvevdP_wcr6SkwXihK7mg0JIsWsFG_hNVUJrM319hMmIn-XSyRyaYuELFVJ20fhR2CT8XVuR-k8SKdfNf90TiPoAOVoXTVCZmwxtWWMOeaiCUIPR-MEvy2GffQJ9xTy2qU5nq39IHA1nh3J8fRFzyJUMjtDQbkgtH-o8gx-GYz2okOx0lK27SnpP5ZCgm0OmDXGW5EJlrwaZSTwlJWVGoSeFOXr_czywHMygCjXGrfChcaxxKcaCQvmV6Jk67WmHD0Yym__Xkoe4ULm9N9uGf8hnII8BQrGXRmfEFGzHR7ptWaJfyPCZR6Zht2_eeKMQ2Y8QDRUXLH_SX2jV4iNx14Ofwhx42o6oUNzDmgYVyyDkYHiATyj_yobrweCPoAEFxmt0MI5DN-YfiIpIKn_LfFiopsAuVTlnQxt0_Y9nHEM",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kawarayu/川原湯温泉あそびの基地NOA.jpg"
+    },
+    {
+      "slug": "吾妻峡温泉天狗の湯",
+      "name": "吾妻峡温泉天狗の湯",
+      "type": "day-trip",
+      "description": "川原湯温泉 の中でも 吾妻峡温泉天狗の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=11382252025061788469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "吾妻峡温泉天狗の湯 群馬県",
+      "placeId": "ChIJ2ckDSAp2HmARNUvHOenh9Z0",
+      "googleMapsUri": "https://maps.google.com/?cid=11382252025061788469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://agatsumakyo.jp/relax/",
+      "officialUrl": "https://agatsumakyo.jp/relax/",
+      "placePhotoName": "places/ChIJ2ckDSAp2HmARNUvHOenh9Z0/photos/ATCDNfWIEAuI2UCf8od3HXA5ILudjZbKvJkNUZlnHfJgg3OUyRqJSCEumoqzV3tT8wqkE592SQtiYPD6DPipqUvsc48gx2Ti-60dUIoBTONcpB7Tk0UzDxWZeQVmRL1Bec3gtrHB4fUorTr_TNQPPTFF36b6rPqDRXSbd51e3XVC627RHcoqE_IiQGslm_Zp3UMe6U25384oXaDJUaD6hNVkS1rAt0DzbsXyiUYAVn0S7gyT-8_ifeuuEzclZ24Sz6ATsQtxq2s0mpfWf8PjWt6_HqQAMsUgdcYUs90S-k-fA12xJoPe6xFZowv7iF9PSqgKP0-zMsgkxT7BUlyrTd9hNaW0R3l2GLuoPAe4EuFjokz8JiguemYB_HAacrwH_Jpxaoc5DBiPla7FXZudxIk-Hi3CR-IvZWxNpCaPv3Ey7v7LgY2Y",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kawarayu/吾妻峡温泉天狗の湯.jpg"
+    }
+  ]
+}

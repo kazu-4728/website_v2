@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "seotonoyu",
+    "name": "秋川渓谷 瀬音の湯",
+    "nameEn": "Seotonoyu",
+    "prefecture": "東京都",
+    "area": "奥多摩"
+  },
+  "summary": {
+    "catchcopy": "都心から約1時間のオアシス。pH10.1の強アルカリ性泉でお肌がつるつるに。",
+    "lead": "秩父多摩甲斐国立公園内に位置する温泉施設。地下1,500mから湧き出るお湯は、驚くほどのぬめりがあり「美肌の湯」として大人気です。",
+    "shortDescription": "秩父多摩甲斐国立公園内に位置する温泉施設。地下1,500mから湧き出るお湯は、驚くほどのぬめりがあり「美肌の湯」として大人気です。"
+  },
+  "highlights": [
+    "秋川渓谷石舟橋",
+    "無料足湯",
+    "コテージ宿泊"
+  ],
+  "spring": {
+    "springTypes": [
+      "アルカリ性単純硫黄温泉"
+    ],
+    "effects": [
+      "美肌効果",
+      "神経痛",
+      "冷え性",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "強アルカリ性（pH10.1）",
+      "森林浴",
+      "足湯（無料）"
+    ],
+    "waterQuality": "微白濁"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "武蔵五日市駅",
+      "line": "JR五日市線",
+      "busTime": 17
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 17,
+        "description": "JR五日市線 武蔵五日市駅からバスで約17分"
+      },
+      "byCar": {
+        "time": 30,
+        "description": "圏央道 あきる野ICから約30分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%20%E7%80%AC%E9%9F%B3%E3%81%AE%E6%B9%AF%20%E5%A5%A5%E5%A4%9A%E6%91%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialLinks": [
+      {
+        "label": "秋川渓谷 瀬音の湯 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%20%E7%80%AC%E9%9F%B3%E3%81%AE%E6%B9%AF%20%E5%A5%A5%E5%A4%9A%E6%91%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "コテージ宿泊",
+      "日帰り専用施設",
+      "レストラン併設"
+    ],
+    "style": "秋川渓谷 瀬音の湯は、都心から約1時間のオアシス。pH10.1の強アルカリ性泉でお肌がつるつるに。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "コテージ宿泊",
+      "日帰り専用施設",
+      "レストラン併設"
+    ]
+  },
+  "story": {
+    "intro": "秩父多摩甲斐国立公園内に位置する温泉施設。地下1,500mから湧き出るお湯は、驚くほどのぬめりがあり「美肌の湯」として大人気です。",
+    "sections": [
+      {
+        "title": "森に抱かれた癒やしの空間",
+        "body": [
+          "「瀬音の湯」はその名の通り、秋川渓谷の川音と木々のざわめきに包まれた場所にあります。pH10.1という高いアルカリ性を持つお湯は、古い角質を落とし肌をスベスベにするクレンジング効果が期待できます。\n### 自然と食のハーモニー\n施設内には地元野菜の直売所やレストランも完備。春の新緑、夏の川遊び、秋の紅葉、冬の静寂と、四季それぞれの自然を満喫できます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "秋川渓谷石舟橋を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "都心から約1時間のオアシス。pH10.1の強アルカリ性泉でお肌がつるつるに。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "無料足湯と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 秋川渓谷石舟橋 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "無料足湯 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "秋川渓谷石舟橋",
+      "type": "highlight",
+      "description": "秋川渓谷 瀬音の湯と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E7%9F%B3%E8%88%9F%E6%A9%8B%20%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%20%E7%80%AC%E9%9F%B3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+    },
+    {
+      "name": "無料足湯",
+      "type": "highlight",
+      "description": "秋川渓谷 瀬音の湯と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E6%96%99%E8%B6%B3%E6%B9%AF%20%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%20%E7%80%AC%E9%9F%B3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+    },
+    {
+      "name": "コテージ宿泊",
+      "type": "highlight",
+      "description": "秋川渓谷 瀬音の湯と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B3%E3%83%86%E3%83%BC%E3%82%B8%E5%AE%BF%E6%B3%8A%20%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%20%E7%80%AC%E9%9F%B3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+    }
+  ],
+  "seoTags": [
+    "秋川渓谷",
+    "瀬音の湯",
+    "東京都",
+    "美肌の湯",
+    "日帰り温泉"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "無料足湯",
+      "name": "無料足湯",
+      "type": "onsen-landmark",
+      "description": "秋川渓谷 瀬音の湯と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E6%96%99%E8%B6%B3%E6%B9%AF%20%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%20%E7%80%AC%E9%9F%B3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "無料足湯 秋川渓谷 瀬音の湯 東京都",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJAUBBNr88GWARdKVVf4Q9yvg",
+      "googleMapsUri": "https://maps.google.com/?cid=17927208905982977396&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.seotonoyu.jp/",
+      "officialUrl": "http://www.seotonoyu.jp/",
+      "placePhotoName": "places/ChIJAUBBNr88GWARdKVVf4Q9yvg/photos/ATCDNfX7DD2u0V07IQxYeWoxlYadQZBcdh8x2Tq254tkeuY43zinCr5agldxw-wGHiB4MQEJ5umcliemmSFJHYS_du3oqVKZuOjjrnBT3Q1h_Vdg3S473alOzNy7Nzj6K-ue1kRWwxZRILcxw6TbI0eeKmW9ipfnICFhzHgnBNJhOTvlCvhTIwY7XtEVNPT2sAF6sv34xE-2EZAzowu_0eYtZMFGSldxiBkLLrefEN0Ls8lNJEw396iUy-HI7LE_JQ9kgvyf_KKl5eiypZdS2w7inNB2hKSwuK0O4fyXsfZP7fA2lmuai5hY_Vtygf1Cudv9pwMQxy8JeefYh1c8J_n00asC_hqk8A1rDkyKZEdcIL8ML2obvLZjM4zEvC3nyKtWIr7VZ2RtTfEoCl2YACjocU8kdERSLLRQqHvZfP4VpsHS7g",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/seotonoyu/無料足湯.jpg"
+    }
+  ]
+}

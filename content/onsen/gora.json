@@ -1,0 +1,167 @@
+{
+  "identity": {
+    "slug": "gora",
+    "name": "強羅温泉",
+    "nameEn": "Gora",
+    "prefecture": "神奈川県",
+    "area": "箱根・湯河原"
+  },
+  "summary": {
+    "catchcopy": "箱根登山鉄道の終着駅に広がる、高級感あふれる高原リゾート。5色の泉質が楽しめます。",
+    "lead": "大正時代に開発された歴史ある別荘地であり温泉地。明星ヶ岳（大文字山）を望む開放的な景観と、美しい公園が魅力です。",
+    "shortDescription": "大正時代に開発された歴史ある別荘地であり温泉地。明星ヶ岳（大文字山）を望む開放的な景観と、美しい公園が魅力です。"
+  },
+  "highlights": [
+    "箱根強羅公園",
+    "箱根美術館",
+    "大文字焼"
+  ],
+  "spring": {
+    "springTypes": [
+      "酸性泉",
+      "塩化物泉など（5色パステルカラー）"
+    ],
+    "effects": [
+      "美肌効果",
+      "神経痛",
+      "冷え性",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "多彩な泉質",
+      "大文字焼き",
+      "高級別荘地"
+    ],
+    "waterQuality": "乳白色、淡黄色など多彩"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "強羅駅",
+      "line": "箱根登山鉄道"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "箱根登山鉄道 強羅駅"
+      },
+      "byCar": {
+        "time": 30,
+        "description": "小田原厚木道路 箱根口ICから約30分"
+      },
+      "byBus": {
+        "time": 120,
+        "description": "新宿から高速バスあり"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "強羅温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "高級旅館",
+      "リゾートホテル",
+      "保養所"
+    ],
+    "style": "強羅温泉は、箱根登山鉄道の終着駅に広がる、高級感あふれる高原リゾート。5色の泉質が楽しめます。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "高級旅館",
+      "リゾートホテル",
+      "保養所"
+    ]
+  },
+  "story": {
+    "intro": "大正時代に開発された歴史ある別荘地であり温泉地。明星ヶ岳（大文字山）を望む開放的な景観と、美しい公園が魅力です。",
+    "sections": [
+      {
+        "title": "五色の湯が湧く高原のいで湯",
+        "body": [
+          "強羅温泉は、透明、濁り湯など、5色もの多彩な泉質（パステルカラー）が湧き出る珍しい温泉地です。「美肌の湯」「胃腸の湯」など、目的に合わせてお湯を選べるのが魅力。箱根登山鉄道のスイッチバックで急勾配を登りきった先に広がる、優雅なリゾート地です。\n### アートと自然の融合\n日本初のフランス式整型庭園「箱根強羅公園」や美術館が点在し、芸術鑑賞と温泉を同時に楽しめます。夏には明星ヶ岳の山肌に火が灯る「大文字焼」が開催され、多くの人で賑わいます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "箱根強羅公園を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "箱根登山鉄道の終着駅に広がる、高級感あふれる高原リゾート。5色の泉質が楽しめます。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "箱根美術館と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 箱根強羅公園 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "箱根美術館 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "箱根強羅公園",
+      "type": "highlight",
+      "description": "強羅温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E5%85%AC%E5%9C%92%20%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "箱根美術館",
+      "type": "highlight",
+      "description": "強羅温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "大文字焼",
+      "type": "highlight",
+      "description": "強羅温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%96%87%E5%AD%97%E7%84%BC%20%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "強羅温泉",
+    "神奈川県",
+    "箱根",
+    "にごり湯",
+    "高級リゾート"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "強羅温泉-温泉街中心部",
+      "name": "強羅温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "強羅温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "強羅温泉 箱根・湯河原 神奈川県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ1cHRRlafGWAR1LDhFXeRnFQ",
+      "googleMapsUri": "https://maps.google.com/?cid=6096907936207057108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.laforet.co.jp/gora/?utm_source=google&utm_medium=maps&utm_campaign=gmb",
+      "officialUrl": "https://www.laforet.co.jp/gora/?utm_source=google&utm_medium=maps&utm_campaign=gmb",
+      "placePhotoName": "places/ChIJ1cHRRlafGWAR1LDhFXeRnFQ/photos/ATCDNfXYsjTFtFMfAg-rNIAguViOoUVlZDgDH4Itl87d9mWdqXQZntpLSIRC7ptCvtzswYvBrZ4BJbIF1obE02fHXR_1ipHCR1Dl0Zyn_c0sjqoIHl-3-6cpaQJ6oqXCnAXwAQnrAtLiOh5IZR4PdCuwoX_FXXowMQamMNzB5wA8R4P-3aosAKpz4sxqeviPUVrBYOLGtn5MBi01szAtdtU0uef6tsxj3id2vaS0-2KZL3xsBD8uQG_bqGW2Tafqa_FkYO1SC-RsY0kWGVuu4_4dbv75ibwEKu8kQ4jmIUrkZ7bf8w",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/gora/強羅温泉-温泉街中心部.jpg"
+    }
+  ]
+}

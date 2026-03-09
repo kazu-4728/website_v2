@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "slug": "okutama",
+    "name": "奥多摩温泉",
+    "nameEn": "Okutama",
+    "prefecture": "東京都",
+    "area": "奥多摩"
+  },
+  "summary": {
+    "catchcopy": "東京の奥座敷、多摩川源流の秘湯。登山やハイキングの疲れを癒やすアルカリ性の湯。",
+    "lead": "日本最古の地層といわれる地層から湧き出る温泉。都心から約2時間でアクセスできる大自然のリゾートです。",
+    "shortDescription": "日本最古の地層といわれる地層から湧き出る温泉。都心から約2時間でアクセスできる大自然のリゾートです。"
+  },
+  "highlights": [
+    "奥多摩湖",
+    "日原鍾乳洞",
+    "奥多摩温泉 もえぎの湯"
+  ],
+  "spring": {
+    "springTypes": [
+      "アルカリ性単純硫黄温泉など"
+    ],
+    "effects": [
+      "筋肉痛",
+      "関節痛",
+      "冷え性",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "源泉かけ流し（一部）",
+      "鶴の湯",
+      "森林浴"
+    ],
+    "waterQuality": "無色透明または微白濁"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "奥多摩駅",
+      "line": "JR青梅線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR青梅線 奥多摩駅"
+      },
+      "byCar": {
+        "time": 60,
+        "description": "圏央道 青梅ICから約60分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E5%A5%A5%E5%A4%9A%E6%91%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialLinks": [
+      {
+        "label": "奥多摩温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E5%A5%A5%E5%A4%9A%E6%91%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "駅近の日帰り温泉",
+      "渓谷沿いの旅館",
+      "ハイカー御用達"
+    ],
+    "style": "奥多摩温泉は、東京の奥座敷、多摩川源流の秘湯。登山やハイキングの疲れを癒やすアルカリ性の湯。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "駅近の日帰り温泉",
+      "渓谷沿いの旅館",
+      "ハイカー御用達"
+    ]
+  },
+  "story": {
+    "intro": "日本最古の地層といわれる地層から湧き出る温泉。都心から約2時間でアクセスできる大自然のリゾートです。",
+    "sections": [
+      {
+        "title": "巨樹と清流の里",
+        "body": [
+          "奥多摩温泉郷は、「もえぎの湯」「麻葉の湯」「松乃温泉」など、複数の源泉を持つ温泉地の総称です。泉質は総じてアルカリ性で、肌がつるつるになる「美肌の湯」。登山やキャンプ、ラフティングなどのアクティビティの拠点としても最適です。\n### 奥多摩の絶景\n奥多摩湖の浮き橋や、日原鍾乳洞など、アドベンチャー心をくすぐるスポットが満載。新緑や紅葉の美しさは格別で、四季を通じて多くの観光客が訪れます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "奥多摩湖を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "東京の奥座敷、多摩川源流の秘湯。登山やハイキングの疲れを癒やすアルカリ性の湯。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "日原鍾乳洞と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 奥多摩湖 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "日原鍾乳洞 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "奥多摩湖",
+      "type": "highlight",
+      "description": "奥多摩温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B9%96%20%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+    },
+    {
+      "name": "日原鍾乳洞",
+      "type": "highlight",
+      "description": "奥多摩温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%8E%9F%E9%8D%BE%E4%B9%B3%E6%B4%9E%20%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+    },
+    {
+      "name": "奥多摩温泉 もえぎの湯",
+      "type": "highlight",
+      "description": "奥多摩温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E3%82%82%E3%81%88%E3%81%8E%E3%81%AE%E6%B9%AF%20%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+    }
+  ],
+  "seoTags": [
+    "奥多摩温泉",
+    "東京都",
+    "日帰り温泉",
+    "登山",
+    "美肌"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "奥多摩温泉-もえぎの湯",
+      "name": "奥多摩温泉 もえぎの湯",
+      "type": "onsen-landmark",
+      "description": "奥多摩温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E3%82%82%E3%81%88%E3%81%8E%E3%81%AE%E6%B9%AF%20%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "奥多摩温泉 もえぎの湯 奥多摩温泉 東京都",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJAdKwED43GWAR0q6nfI5b6mI",
+      "googleMapsUri": "https://maps.google.com/?cid=7127610027802078930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.okutamas.co.jp/moegi/",
+      "officialUrl": "https://www.okutamas.co.jp/moegi/",
+      "placePhotoName": "places/ChIJAdKwED43GWAR0q6nfI5b6mI/photos/ATCDNfXMan73rV1Q9kQNYmUvnudK1QFvFA9E19lG9nBuFr9Pmhc6AEZnszzflzFa2AXq6EwThIM1ITJoIIipWvFb_knaob_GQAOchcE5cSntqUhn5ls1zgsi6g2djU6lNs8UDK0CncjpXOPywtMoMmmZX1c5Mro-PujSvDVQMvfvgrt4prROJLGg3Nm-tUpuSvOYyIPaVP2cn_pB25j2AgdkB-JfvQaDOIYBWKdNc_ndPuMhLxMw5aht3EeRNNpLOZbmNGmmZX9bIS3H0k5B5S5f17vTnle7Y5RV7jWaEBT2IvP5rrlINPeSAWBhf6qIr3R8-OOdecqUe-16OFAJuiNCWYCH-KXKax5ph9pDHhZDQDU745UrCX9dh6anZfjR1ZfvG3Eq2V5BD1mMKi7b0MWz0ul0RudT5c1MFhEdSFWGr1T1YscU",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/okutama/奥多摩温泉-もえぎの湯.jpg"
+    }
+  ]
+}

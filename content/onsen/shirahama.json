@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "slug": "shirahama",
+    "name": "白浜温泉",
+    "nameEn": "Shirahama",
+    "prefecture": "千葉県",
+    "area": "南房総"
+  },
+  "summary": {
+    "catchcopy": "房総半島最南端、太平洋を望む絶景温泉。温暖な気候と花畑、新鮮な魚介類が魅力。",
+    "lead": "黒潮の影響で一年を通じて温暖な南房総の温泉地。野島埼灯台の周辺にホテルや旅館が点在し、どこからでも海を感じられます。",
+    "shortDescription": "黒潮の影響で一年を通じて温暖な南房総の温泉地。野島埼灯台の周辺にホテルや旅館が点在し、どこからでも海を感じられます。"
+  },
+  "highlights": [
+    "野島埼灯台",
+    "道の駅 白浜野島崎",
+    "フラワーパーク"
+  ],
+  "spring": {
+    "springTypes": [
+      "塩化物泉",
+      "炭酸水素塩泉"
+    ],
+    "effects": [
+      "冷え性",
+      "神経痛",
+      "疲労回復",
+      "関節痛"
+    ],
+    "characteristics": [
+      "オーシャンビュー",
+      "花摘み",
+      "リゾート"
+    ],
+    "waterQuality": "無色透明または微黄色"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "館山駅",
+      "line": "JR内房線",
+      "busTime": 40
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 40,
+        "description": "JR内房線 館山駅からバスで約40分"
+      },
+      "byCar": {
+        "time": 30,
+        "description": "富津館山道路 富浦ICから約30分"
+      },
+      "byBus": {
+        "time": 120,
+        "description": "東京駅・新宿駅から高速バス直行"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "白浜温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "リゾートホテル",
+      "オーシャンビュー客室",
+      "海鮮バイキング"
+    ],
+    "style": "白浜温泉は、房総半島最南端、太平洋を望む絶景温泉。温暖な気候と花畑、新鮮な魚介類が魅力。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "リゾートホテル",
+      "オーシャンビュー客室",
+      "海鮮バイキング"
+    ]
+  },
+  "story": {
+    "intro": "黒潮の影響で一年を通じて温暖な南房総の温泉地。野島埼灯台の周辺にホテルや旅館が点在し、どこからでも海を感じられます。",
+    "sections": [
+      {
+        "title": "花と海と温泉のリゾート",
+        "body": [
+          "白浜温泉は、早春の花畑（ポピーやストックなど）で有名です。海を眺めながら入る展望露天風呂は開放感抜群。夕暮れ時には太平洋を染める美しい夕日が望めます。\n### 南房総の食の宝庫\nアワビ、伊勢海老、サザエなど、房総の海の幸をふんだんに使った料理も大きな楽しみの一つ。道の駅でのショッピングや、海岸散策もおすすめです。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "野島埼灯台を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "房総半島最南端、太平洋を望む絶景温泉。温暖な気候と花畑、新鮮な魚介類が魅力。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "道の駅 白浜野島崎と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 野島埼灯台 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "道の駅 白浜野島崎 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "野島埼灯台",
+      "type": "highlight",
+      "description": "白浜温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E5%B3%B6%E5%9F%BC%E7%81%AF%E5%8F%B0%20%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "道の駅 白浜野島崎",
+      "type": "highlight",
+      "description": "白浜温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E7%99%BD%E6%B5%9C%E9%87%8E%E5%B3%B6%E5%B4%8E%20%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "フラワーパーク",
+      "type": "highlight",
+      "description": "白浜温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF%20%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "白浜温泉",
+    "千葉県",
+    "南房総",
+    "海",
+    "花"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "白浜温泉-温泉街中心部",
+      "name": "白浜温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "白浜温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "白浜温泉 南房総 千葉県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJbWvVhgvlF2ARyl4UCkb5UKk",
+      "googleMapsUri": "https://maps.google.com/?cid=12200525469758807754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://shirahama-ocean-resort.com/?utm_source=google&utm_medium=GBP&utm_campaign=ShirahamaOR",
+      "officialUrl": "https://shirahama-ocean-resort.com/?utm_source=google&utm_medium=GBP&utm_campaign=ShirahamaOR",
+      "placePhotoName": "places/ChIJbWvVhgvlF2ARyl4UCkb5UKk/photos/ATCDNfX8eF1dA7aXR1q1izFKimeTMV0UmtaRZig-e7zPZ97RvhqadIKKlxNi6-AHfxCOoZkjOjZ2Ma9v-f4_fY7llFhSgXTwvR2Ev6I2QurnUcNxTSDHogYyPcsnPQeILzS0Kclv_8Xe2NkfX-xrTAJlouq8HpFrxqxyq1rW0jgGQymM9MdpHY4O9J66t0KWXfKluLQ-qvaUBgwztYd_T10oA9oZV-6OnXPGTO8aGmIRy7ZhSEkOT0zXiw0HKKmUrrHSMHXLqh8ILCq34If2jUXBFikcQxsPrwbK4lYtB9wXAhmpOg",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shirahama/白浜温泉-温泉街中心部.png"
+    }
+  ]
+}

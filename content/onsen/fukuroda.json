@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "fukuroda",
+    "name": "袋田温泉",
+    "nameEn": "Fukuroda",
+    "prefecture": "茨城県",
+    "area": "茨城"
+  },
+  "summary": {
+    "catchcopy": "日本三名瀑「袋田の滝」のお膝元。平安時代から続く歴史ある美肌の湯。",
+    "lead": "大子町の豊かな自然に囲まれた温泉地。近くには高さ120m、幅73mの壮大な「袋田の滝」があり、観光の拠点として最適です。",
+    "shortDescription": "大子町の豊かな自然に囲まれた温泉地。近くには高さ120m、幅73mの壮大な「袋田の滝」があり、観光の拠点として最適です。"
+  },
+  "highlights": [
+    "袋田の滝（日本三名瀑）",
+    "月待の滝",
+    "奥久慈りんご狩り"
+  ],
+  "spring": {
+    "springTypes": [
+      "アルカリ性単純温泉",
+      "ナトリウム-硫酸塩・塩化物泉"
+    ],
+    "effects": [
+      "神経痛",
+      "関節痛",
+      "美肌効果",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "美人の湯",
+      "飲泉（一部）",
+      "田毎の湯（古称）"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "袋田駅",
+      "line": "JR水郡線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR水郡線 袋田駅"
+      },
+      "byCar": {
+        "time": 50,
+        "description": "常磐自動車道 那珂ICから約50分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "袋田温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "渓流沿いの宿",
+      "観光ホテル",
+      "地元の食材（奥久慈軍鶏・鮎）"
+    ],
+    "style": "袋田温泉は、日本三名瀑「袋田の滝」のお膝元。平安時代から続く歴史ある美肌の湯。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "渓流沿いの宿",
+      "観光ホテル",
+      "地元の食材（奥久慈軍鶏・鮎）"
+    ]
+  },
+  "story": {
+    "intro": "大子町の豊かな自然に囲まれた温泉地。近くには高さ120m、幅73mの壮大な「袋田の滝」があり、観光の拠点として最適です。",
+    "sections": [
+      {
+        "title": "滝の轟音と共に楽しむ名湯",
+        "body": [
+          "袋田温泉は、かつて田んぼの中から湧き出ていたことから「田毎（たごと）の湯」とも呼ばれていました。アルカリ性のお湯は肌触りが柔らかく、湯上がりはさっぱりとしながらも保湿効果が持続します。\n### 四季の絶景：袋田の滝\n新緑、紅葉はもちろん、冬には滝全体が凍結する「氷瀑」が見られることも。四季折々の表情を見せる名瀑と共に、奥久慈の味覚も堪能してください。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "袋田の滝（日本三名瀑）を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "日本三名瀑「袋田の滝」のお膝元。平安時代から続く歴史ある美肌の湯。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "月待の滝と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 袋田の滝（日本三名瀑） 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "月待の滝 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "袋田の滝（日本三名瀑）",
+      "type": "highlight",
+      "description": "袋田温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E3%81%AE%E6%BB%9D%EF%BC%88%E6%97%A5%E6%9C%AC%E4%B8%89%E5%90%8D%E7%80%91%EF%BC%89%20%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+    },
+    {
+      "name": "月待の滝",
+      "type": "highlight",
+      "description": "袋田温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%88%E5%BE%85%E3%81%AE%E6%BB%9D%20%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+    },
+    {
+      "name": "奥久慈りんご狩り",
+      "type": "highlight",
+      "description": "袋田温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E4%B9%85%E6%85%88%E3%82%8A%E3%82%93%E3%81%94%E7%8B%A9%E3%82%8A%20%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "袋田温泉",
+    "茨城県",
+    "袋田の滝",
+    "美肌",
+    "奥久慈"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "袋田温泉-温泉街中心部",
+      "name": "袋田温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "袋田温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "袋田温泉 茨城 茨城県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJp_rZvkq-IWARvjs_gB7B_Do",
+      "googleMapsUri": "https://maps.google.com/?cid=4250484485075712958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.roman-kan.jp/",
+      "officialUrl": "https://www.roman-kan.jp/",
+      "placePhotoName": "places/ChIJp_rZvkq-IWARvjs_gB7B_Do/photos/ATCDNfUvZxaaihvCmz3TuEXIh52sogdYlS5BM96LUCmVQpVGi8uPckIgFZ7K_Tzcc8645zHQEdl4Z9spNLhKB3_zLsenhnsy3sUUy0J1zYFiuKFZhyjqk3SLUDrkf56sRWmExcBFx6rsXtMDNefRwxEfh4NG5zo2AhV7QxOk-Mb57jtd3zTESXNPYPBpLSRara6PUSDqSF9ZJaX_cneix2eUDaDLLNQkLD3ZK88RNKso7y7pUwPrk8YToM9ePTZnqhKjRnVOXKiRGsxT-daESQbK32EY-9y0H8YMRkZjs5y-00BtMQjSOWQL8dUrjZM0w8hgqw11wV1PDo-RRdDXp64yDAXwWwHHRRe4V-9CtDhaDmouPp8IeE5eiG8H3FOtISabRJBjiPq28pZMwYU5wP_ugGByThdHsM-h3SXKDjBG3tAJrybV",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/fukuroda/袋田温泉-温泉街中心部.jpg"
+    }
+  ]
+}

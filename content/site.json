@@ -1,0 +1,32 @@
+{
+  "name": "関東温泉紀行",
+  "tagline": "Photo-led hot spring journeys across Kanto",
+  "description": "関東の名湯を、実写写真と滞在情報で深く選べる温泉メディア。",
+  "metadata": {
+    "title": "関東温泉紀行 | 実写で選ぶ温泉旅",
+    "description": "実写写真で温泉地の空気まで伝える、関東温泉の比較・発見メディア。"
+  },
+  "navigation": [
+    { "label": "ホーム", "href": "/" },
+    { "label": "温泉を探す", "href": "/onsen" },
+    { "label": "特集", "href": "/journal" },
+    { "label": "旅の相談", "href": "/contact" }
+  ],
+  "footer": {
+    "headline": "次の週末は、写真で惹かれた湯へ。",
+    "description": "泉質、所要時間、日帰り可否、滞在の雰囲気まで。写真と文章で、自分に合う温泉地を見つけられるよう設計しています。",
+    "note": "All photography credits are shown per image or in the image manifest."
+  },
+  "contactPage": {
+    "eyebrow": "Travel Concierge",
+    "title": "旅の条件から、合う温泉地を一緒に絞り込む。",
+    "description": "週末の短い旅、雪見露天、日帰り重視、静かな高原ステイ。希望に合わせて関東の温泉地候補を提案するための相談窓口です。",
+    "email": "hello@onsen-journey.jp",
+    "office": "Tokyo / Remote",
+    "highlights": [
+      "東京発で移動しやすい温泉地の絞り込み",
+      "泉質や過ごし方の好みに応じた提案",
+      "初めてでも比較しやすい旅の組み立て"
+    ]
+  }
+}

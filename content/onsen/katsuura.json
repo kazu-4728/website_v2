@@ -1,0 +1,167 @@
+{
+  "identity": {
+    "slug": "katsuura",
+    "name": "勝浦温泉",
+    "nameEn": "Katsuura",
+    "prefecture": "千葉県",
+    "area": "南房総"
+  },
+  "summary": {
+    "catchcopy": "「つるんつるん温泉」の愛称で親しまれる名湯。太平洋の絶景と共に。",
+    "lead": "千葉県勝浦市に湧く温泉。茶褐色のお湯は重曹成分を含み、入浴後のお肌が驚くほどつるつるになることから評判を呼んでいます。",
+    "shortDescription": "千葉県勝浦市に湧く温泉。茶褐色のお湯は重曹成分を含み、入浴後のお肌が驚くほどつるつるになることから評判を呼んでいます。"
+  },
+  "highlights": [
+    "勝浦朝市",
+    "勝浦スパホテル三日月",
+    "遠見岬神社"
+  ],
+  "spring": {
+    "springTypes": [
+      "塩化物泉",
+      "炭酸水素塩泉"
+    ],
+    "effects": [
+      "神経痛",
+      "慢性皮膚病",
+      "虚弱体質",
+      "切り傷"
+    ],
+    "characteristics": [
+      "茶褐色の湯",
+      "美肌効果抜群",
+      "湯冷めしにくい"
+    ],
+    "waterQuality": "茶褐色（琥珀色）"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "勝浦駅",
+      "line": "JR外房線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR外房線 勝浦駅"
+      },
+      "byCar": {
+        "time": 40,
+        "description": "圏央道 市原鶴舞ICから約40分"
+      },
+      "byBus": {
+        "time": 120,
+        "description": "東京駅から高速バスあり"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "勝浦温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "スパホテル",
+      "オーシャンビュー",
+      "勝浦タンタンメン取扱店"
+    ],
+    "style": "勝浦温泉は、「つるんつるん温泉」の愛称で親しまれる名湯。太平洋の絶景と共に。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "スパホテル",
+      "オーシャンビュー",
+      "勝浦タンタンメン取扱店"
+    ]
+  },
+  "story": {
+    "intro": "千葉県勝浦市に湧く温泉。茶褐色のお湯は重曹成分を含み、入浴後のお肌が驚くほどつるつるになることから評判を呼んでいます。",
+    "sections": [
+      {
+        "title": "港町グルメと温泉の旅",
+        "body": [
+          "勝浦漁港は日本有数のカツオの水揚げ量を誇り、新鮮な魚介類が味わえます。日本三大朝市の一つ「勝浦朝市」で活気ある雰囲気を楽しんだ後は、絶景温泉でリラックス。ご当地グルメ「勝浦タンタンメン」で温まるのもおすすめです。\n### 太平洋を望む開放感\n海岸線に位置する宿や施設からは、広大な太平洋を一望できます。潮騒を聞きながらの入浴は、心身の疲れを洗い流してくれます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "勝浦朝市を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "「つるんつるん温泉」の愛称で親しまれる名湯。太平洋の絶景と共に。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "勝浦スパホテル三日月と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 勝浦朝市 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "勝浦スパホテル三日月 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "勝浦朝市",
+      "type": "highlight",
+      "description": "勝浦温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%9C%9D%E5%B8%82%20%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "勝浦スパホテル三日月",
+      "type": "highlight",
+      "description": "勝浦温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E3%82%B9%E3%83%91%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%89%E6%97%A5%E6%9C%88%20%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "遠見岬神社",
+      "type": "highlight",
+      "description": "勝浦温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%A0%E8%A6%8B%E5%B2%AC%E7%A5%9E%E7%A4%BE%20%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "勝浦温泉",
+    "千葉県",
+    "美肌の湯",
+    "勝浦タンタンメン",
+    "朝市"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "勝浦スパホテル三日月",
+      "name": "勝浦スパホテル三日月",
+      "type": "onsen-landmark",
+      "description": "勝浦温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E3%82%B9%E3%83%91%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%89%E6%97%A5%E6%9C%88%20%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "勝浦スパホテル三日月 勝浦温泉 千葉県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ6c7WSpxJPWAR5cKbRww1Xaw",
+      "googleMapsUri": "https://maps.google.com/?cid=12420141674214965989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://hmihotelgroup.com/mikazukikatsuura/",
+      "officialUrl": "https://hmihotelgroup.com/mikazukikatsuura/",
+      "placePhotoName": "places/ChIJ6c7WSpxJPWAR5cKbRww1Xaw/photos/ATCDNfW7RV7hytd7j-HuI9hLBYONBIO1SewtQD_Eu7sy5Ra1VgQopLv8oTT5JBn6Wx7D_utIgzMIS2BXoIwMipTbW8PT2pc73kp0bB3tPTfQKDa_UQf8PCsIVuxUyE3TcuszjW4EZZHLXW-s6qPus-7_R-U7_yIGvtmmH00e6PXJKTIBTWXpCoPkelbAzlOIhlr39St9d1oU3_QLdU9lQiCW77Mec6qZC_hzwuYGfzITke11sNINBDW8N_755InV_nIJ86_L3mGvSP0mtGfF1jfwMu7GAQVJbQ_DEKCYQaqgyRdTpA",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/katsuura/勝浦スパホテル三日月.jpg"
+    }
+  ]
+}

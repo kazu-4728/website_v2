@@ -1,0 +1,165 @@
+{
+  "identity": {
+    "slug": "sengokuhara",
+    "name": "仙石原温泉",
+    "nameEn": "Sengokuhara",
+    "prefecture": "神奈川県",
+    "area": "箱根・湯河原"
+  },
+  "summary": {
+    "catchcopy": "ススキの草原と美術館が点在する高原リゾート。大涌谷から引く白濁の硫黄泉。",
+    "lead": "標高約700mの高原に位置する箱根屈指のリゾートエリア。秋には一面黄金色に輝くススキの草原が見事です。",
+    "shortDescription": "標高約700mの高原に位置する箱根屈指のリゾートエリア。秋には一面黄金色に輝くススキの草原が見事です。"
+  },
+  "highlights": [
+    "仙石原ススキ草原",
+    "大涌谷",
+    "箱根ガラスの森美術館"
+  ],
+  "spring": {
+    "springTypes": [
+      "酸性-カルシウム-硫酸塩・塩化物温泉（大涌谷源泉）など"
+    ],
+    "effects": [
+      "美肌効果",
+      "神経痛",
+      "筋肉痛",
+      "切り傷"
+    ],
+    "characteristics": [
+      "白濁の湯（にごり湯）",
+      "高原リゾート",
+      "美術館多数"
+    ],
+    "waterQuality": "白濁（乳白色）"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "強羅駅",
+      "line": "箱根登山鉄道",
+      "busTime": 20
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 20,
+        "description": "箱根登山鉄道 強羅駅からバスで約20分 / 小田急線 箱根湯本駅からバスで約30分"
+      },
+      "byCar": {
+        "time": 20,
+        "description": "東名高速道路 御殿場ICから約20分"
+      },
+      "byBus": {
+        "time": 120,
+        "description": "新宿から高速バス直行"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "仙石原温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "高級リゾートホテル",
+      "オーベルジュ",
+      "デザイナーズ旅館"
+    ],
+    "style": "仙石原温泉は、ススキの草原と美術館が点在する高原リゾート。大涌谷から引く白濁の硫黄泉。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "高級リゾートホテル",
+      "オーベルジュ",
+      "デザイナーズ旅館"
+    ]
+  },
+  "story": {
+    "intro": "標高約700mの高原に位置する箱根屈指のリゾートエリア。秋には一面黄金色に輝くススキの草原が見事です。",
+    "sections": [
+      {
+        "title": "アートと自然と白濁湯",
+        "body": [
+          "仙石原温泉は、大涌谷からの引湯を利用した宿が多く、成分の濃い白濁した硫黄泉（にごり湯）を楽しめるのが最大の特徴です。肌を滑らかにする美肌効果も期待できます。\n### 文化的な休日\n「箱根ガラスの森美術館」や「ポーラ美術館」など、個性的な美術館が集まるエリアでもあります。温泉で身体を癒やし、アートで心を潤す、優雅な休日を過ごせます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "仙石原ススキ草原を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "ススキの草原と美術館が点在する高原リゾート。大涌谷から引く白濁の硫黄泉。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "大涌谷と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 仙石原ススキ草原 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "大涌谷 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "仙石原ススキ草原",
+      "type": "highlight",
+      "description": "仙石原温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E3%82%B9%E3%82%B9%E3%82%AD%E8%8D%89%E5%8E%9F%20%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "大涌谷",
+      "type": "highlight",
+      "description": "仙石原温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B6%8C%E8%B0%B7%20%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "箱根ガラスの森美術館",
+      "type": "highlight",
+      "description": "仙石原温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E3%82%AC%E3%83%A9%E3%82%B9%E3%81%AE%E6%A3%AE%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "仙石原温泉",
+    "神奈川県",
+    "箱根",
+    "にごり湯",
+    "美術館"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "仙石原温泉-温泉街中心部",
+      "name": "仙石原温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "仙石原温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%AE%B1%E6%A0%B9%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "仙石原温泉 箱根・湯河原 神奈川県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJz99TEw6fGWARU35G9M1fYxM",
+      "googleMapsUri": "https://maps.google.com/?cid=1397065647586180691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJz99TEw6fGWARU35G9M1fYxM/photos/ATCDNfWd0DB4608mceNsr-WfMb-yod5rJRnu8hyF2-SZNo_ASRH1MszcJo_HtJRk62C5vPeT9VCSdPDGFqH7G-22KY3GxVQXIco4vh39yluKRvkzdeKkTxwHYKjKaTjDTlwx693YZuQ_z-NfsHUqsJmUWcO7zd8tV5dLJO0F8sghXOeWRLacrvqfwPLnQu55H744OoSPaKrXmXiWhTsj_VP-MJ3DuN8u8GQnMhhTKt5WDQqGEmJVP9cVEQHSjqCWwjBQvGh5lo2t3dGltSv69vWzzNUL5jYZbHiWKsT5ILsj2XUz9Cx-LS-QX_vkSOq94-f05CiJ7T8X_UFPh_nVScM5LYDuYAX_nRBPue-KoKzRZ5rbSYnygI9DN37FwLieKBAXMZLMRY0pQ7Uvdc1w0_XbG_1ofAxOV8vAD3y2sRKPgHGgTRGy",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/sengokuhara/仙石原温泉-温泉街中心部.jpg"
+    }
+  ]
+}

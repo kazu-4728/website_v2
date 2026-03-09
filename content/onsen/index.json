@@ -1,0 +1,64 @@
+{
+  "publishedSlugs": [
+    "kusatsu",
+    "hakone",
+    "kinugawa",
+    "ikaho",
+    "manza",
+    "shima",
+    "nasu",
+    "kamogawa",
+    "chichibu",
+    "yugawara",
+    "takaragawa",
+    "nikko-yumoto",
+    "yorokeikoku",
+    "seotonoyu",
+    "fukuroda",
+    "shiriyaki",
+    "shiobara",
+    "gora",
+    "chuzenji",
+    "katsuura",
+    "yunishigawa",
+    "nanasawa",
+    "oarai",
+    "kamikawa",
+    "okutama",
+    "kawaji",
+    "sengokuhara",
+    "oigami",
+    "shirahama",
+    "kawarayu"
+  ],
+  "featuredSlugs": [
+    "hakone",
+    "kusatsu",
+    "kinugawa",
+    "ikaho",
+    "nasu",
+    "manza"
+  ],
+  "comparisonSlugs": [
+    "hakone",
+    "kusatsu",
+    "kinugawa",
+    "ikaho",
+    "shima",
+    "manza"
+  ],
+  "highlights": [
+    {
+      "title": "関東の温泉地を広く掲載",
+      "description": "主要温泉地から日帰りで立ち寄りやすい温泉地まで、関東圏の温泉地を一覧でたどれる構成に拡張しています。"
+    },
+    {
+      "title": "温泉地ごとの実写画像を優先",
+      "description": "プレースホルダーではなく、その温泉地や周辺景観を写した再利用可能画像を優先して紐づける構成です。"
+    },
+    {
+      "title": "R2 配信へ移行可能",
+      "description": "画像 manifest は外部 URL と R2 公開 URL の両方に対応し、配信基盤を段階的に切り替えられます。"
+    }
+  ]
+}

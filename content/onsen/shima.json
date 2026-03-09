@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "slug": "shima",
+    "name": "四万温泉",
+    "nameEn": "Shima",
+    "prefecture": "群馬県",
+    "area": "草津・四万"
+  },
+  "summary": {
+    "catchcopy": "四万の病を癒すと言われる名湯。レトロな建築が残る静かな温泉街が魅力です。",
+    "lead": "四万の病を癒すと言われる名湯。四万川沿いに広がる静かな温泉街には、レトロな建築が残り、情緒ある雰囲気が魅力です。",
+    "shortDescription": "四万の病を癒すと言われる名湯。四万川沿いに広がる静かな温泉街には、レトロな建築が残り、情緒ある雰囲気が魅力です。"
+  },
+  "highlights": [
+    "レトロな街並み",
+    "四万川の清流",
+    "湯治場の歴史"
+  ],
+  "spring": {
+    "springTypes": [
+      "単純温泉",
+      "硫黄泉"
+    ],
+    "ph": 7,
+    "temperature": 42,
+    "effects": [
+      "神経痛",
+      "リウマチ",
+      "皮膚病",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "四万の湯",
+      "湯治場",
+      "レトロな街並み"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "長野原草津口駅",
+      "line": "JR吾妻線",
+      "busTime": 50,
+      "busName": "JRバス関東"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 180,
+        "route": [
+          "上野駅",
+          "長野原草津口駅"
+        ],
+        "description": "特急草津・四万号で直通"
+      },
+      "byCar": {
+        "time": 190,
+        "distance": 170,
+        "icName": "渋川伊香保IC",
+        "description": "関越自動車道経由"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "四万温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "温泉旅館",
+      "湯治場",
+      "レトロな建築"
+    ],
+    "style": "四万温泉は、四万の病を癒すと言われる名湯。レトロな建築が残る静かな温泉街が魅力です。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "温泉旅館",
+      "湯治場",
+      "レトロな建築"
+    ]
+  },
+  "story": {
+    "intro": "四万の病を癒すと言われる名湯。四万川沿いに広がる静かな温泉街には、レトロな建築が残り、情緒ある雰囲気が魅力です。",
+    "sections": [
+      {
+        "title": "四万の病を癒す名湯",
+        "body": [
+          "四万温泉は、古くから「四万の病を癒す」と言われてきた名湯です。四万川沿いに広がる温泉街には、明治・大正時代のレトロな建築が残り、タイムスリップしたような雰囲気を楽しめます。\n### 湯治場としての歴史\n湯治場として長い歴史を持ち、多くの人々が健康を求めて訪れてきました。静かな環境の中で、ゆったりと温泉を楽しめる、心身を癒やすのに最適な場所です。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "レトロな街並みを軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "四万の病を癒すと言われる名湯。レトロな建築が残る静かな温泉街が魅力です。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "四万川の清流と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は レトロな街並み 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "四万川の清流 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "レトロな街並み",
+      "type": "highlight",
+      "description": "四万温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%83%88%E3%83%AD%E3%81%AA%E8%A1%97%E4%B8%A6%E3%81%BF%20%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "四万川の清流",
+      "type": "highlight",
+      "description": "四万温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E5%B7%9D%E3%81%AE%E6%B8%85%E6%B5%81%20%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "湯治場の歴史",
+      "type": "highlight",
+      "description": "四万温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%BB%E5%A0%B4%E3%81%AE%E6%AD%B4%E5%8F%B2%20%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "四万温泉",
+    "群馬県"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "四万温泉-温泉街中心部",
+      "name": "四万温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "四万温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "四万温泉 草津・四万 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ7fPYIxILHmARtMSSs99Lv1E",
+      "googleMapsUri": "https://maps.google.com/?cid=5890510261786428596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.sekizenkan.co.jp/",
+      "officialUrl": "https://www.sekizenkan.co.jp/",
+      "placePhotoName": "places/ChIJ7fPYIxILHmARtMSSs99Lv1E/photos/ATCDNfWtV2Jsf4Eqyg5YzRoUB1Wp3moGQQflkvVZyXPKgotRZNq_1Cc-4LFIzAhfsRrcl4uYOjkv_XLNUJLSVZUvnmxlkBs16m8DDZVA_taLxyFyIyPeAdzTZpPbx311FVNR-g5b-8m4cG5shHDVjxKU51j2elpNJlpA43CyJc5-juT595xgS4VYwFRblW3NffxlpiZO_MRbIjyTU2npZ0zlEKJqReyMls1q7fuzDrldwlCQ-hQAh5ogIzMw_vzAKlJ9P-9jOa0wgiLGwqwUWE_kXXN89LwJ8QQvbdZvwjyjlUmykg",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shima/四万温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "四万清流の湯",
+      "name": "四万清流の湯",
+      "type": "day-trip",
+      "description": "四万温泉 の中でも 四万清流の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=3750506042751803849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "四万清流の湯 群馬県",
+      "placeId": "ChIJb-qGC0YLHmARyWEt9l95DDQ",
+      "googleMapsUri": "https://maps.google.com/?cid=3750506042751803849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://nakanojo-kanko.jp/shima/hotsprings/seiryu/",
+      "officialUrl": "https://nakanojo-kanko.jp/shima/hotsprings/seiryu/",
+      "placePhotoName": "places/ChIJb-qGC0YLHmARyWEt9l95DDQ/photos/ATCDNfXHebqleAraP1MYSXSFV6p8-JkxMh-FlOfPtpsx5u937XamEXHJ4x9qIVCU9i97sBn5mH5npiYQhkzEKOsmPe3pvkjVH4jD2uDbKyzzM0lA3qTxnyslXLkvvF0u_zZPudanVSWaXF6xrYnIFnYPdpNEWXBDuaNS23T_k2Rq8pjT-IEXP_u1HyHeOxZASIiVNoz3MWKz-ZS9zGgXeTxYjS6B6GxYhKeoap9YtwC1umarsfHO1kJCk35P2LTqd9PZLY1bjd9oDC8PmNee6aGKQYSw_0_cS3cj9H9Gv7maR4zUzg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shima/四万清流の湯.jpg"
+    },
+    {
+      "slug": "御夢想の湯",
+      "name": "御夢想の湯",
+      "type": "day-trip",
+      "description": "四万温泉 の中でも 御夢想の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=3267076775376251908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "御夢想の湯 群馬県",
+      "placeId": "ChIJR7GiTKcLHmARBOw6egT9Vi0",
+      "googleMapsUri": "https://maps.google.com/?cid=3267076775376251908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://nakanojo-kanko.jp/shima/hotsprings/gomusounoyu/",
+      "officialUrl": "https://nakanojo-kanko.jp/shima/hotsprings/gomusounoyu/",
+      "placePhotoName": "places/ChIJR7GiTKcLHmARBOw6egT9Vi0/photos/ATCDNfW25xK01DLsvjO2L9ZLGGds2TuvUtaKcDNNEezN1YwtICqI2MQZxFZKc_3VS8TjycxdWI3Ytwxa0GwD0Bynkv1GHQyqcPMbEyGJg8VjiVcYbm0sFS16-rLyEjL0rIPtXWr3Ufi7mODJvxsRKgBpmJ1Jb9zd-b83j0CENbzg2zuFfb_5fuPZ5Ab3xst2w2HhpFKTqYqJZAFpcXNzPa4fQ4D7Gd515CWnT318ZmZRu2P8Ptts8N3ETlrqi9EAVVAELsaRKto_k7zrmFgyp5y8IKXNaNWs_NQLgXJ-jKjD2YMlBLbD7gw6RszRpp8VV9Pwpney8KyFagnpjZpPyDxcysrkXQkPltKXM-83ywrFleBZUJwgGv778i-2YxTUBDB6w8G-m-J7O_W2Yr1Egu9tueh4LQvjjt4D8zivKM0DROgJmS7-JXPJnbqvwRQSqw",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shima/御夢想の湯.jpg"
+    }
+  ]
+}

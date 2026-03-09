@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "nanasawa",
+    "name": "七沢温泉",
+    "nameEn": "Nanasawa",
+    "prefecture": "神奈川県",
+    "area": "厚木・丹沢"
+  },
+  "summary": {
+    "catchcopy": "東丹沢の麓、強アルカリ性の「美人の湯」。都心から近い隠れ家的温泉地。",
+    "lead": "「美肌の湯」として名高い、pH値の高い強アルカリ泉が特徴。入浴すると肌がツルツルになるのを実感できます。",
+    "shortDescription": "「美肌の湯」として名高い、pH値の高い強アルカリ泉が特徴。入浴すると肌がツルツルになるのを実感できます。"
+  },
+  "highlights": [
+    "神奈川県立七沢森林公園",
+    "広沢寺温泉",
+    "飯山観音"
+  ],
+  "spring": {
+    "springTypes": [
+      "強アルカリ性単純温泉"
+    ],
+    "effects": [
+      "美肌効果",
+      "神経痛",
+      "胃腸病",
+      "リウマチ"
+    ],
+    "characteristics": [
+      "強アルカリ性（pH9.0以上）",
+      "とろとろの湯",
+      "名物猪鍋"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "本厚木駅",
+      "line": "小田急線",
+      "busTime": 30
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 30,
+        "description": "小田急線 本厚木駅からバスで約30分"
+      },
+      "byCar": {
+        "time": 10,
+        "description": "新東名高速道路 伊勢原大山ICから約10分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E5%8E%9A%E6%9C%A8%E3%83%BB%E4%B8%B9%E6%B2%A2%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "七沢温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E5%8E%9A%E6%9C%A8%E3%83%BB%E4%B8%B9%E6%B2%A2%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "老舗旅館",
+      "里山の宿",
+      "猪鍋料理"
+    ],
+    "style": "七沢温泉は、東丹沢の麓、強アルカリ性の「美人の湯」。都心から近い隠れ家的温泉地。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "老舗旅館",
+      "里山の宿",
+      "猪鍋料理"
+    ]
+  },
+  "story": {
+    "intro": "「美肌の湯」として名高い、pH値の高い強アルカリ泉が特徴。入浴すると肌がツルツルになるのを実感できます。",
+    "sections": [
+      {
+        "title": "都心に一番近い秘湯",
+        "body": [
+          "丹沢大山の東山麓に位置し、豊かな自然に囲まれた静かな温泉地です。その歴史は古く、江戸時代から湯治場として親しまれてきました。名物の「猪鍋（ししなべ）」は、味噌仕立てのスープと滋味深い猪肉が絶品で、温泉と共に冬の楽しみの一つです。\n### パワースポットとハイキング\n近くには「七沢森林公園」や、ゼロ磁場スポットとして話題の「ゼロ磁場」などがあり、ハイキングや森林浴の後に温泉で汗を流すのに最適です。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "神奈川県立七沢森林公園を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "東丹沢の麓、強アルカリ性の「美人の湯」。都心から近い隠れ家的温泉地。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "広沢寺温泉と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 神奈川県立七沢森林公園 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "広沢寺温泉 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "神奈川県立七沢森林公園",
+      "type": "highlight",
+      "description": "七沢温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E7%AB%8B%E4%B8%83%E6%B2%A2%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92%20%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "広沢寺温泉",
+      "type": "highlight",
+      "description": "七沢温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%83%E6%B2%A2%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    },
+    {
+      "name": "飯山観音",
+      "type": "highlight",
+      "description": "七沢温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%AF%E5%B1%B1%E8%A6%B3%E9%9F%B3%20%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "七沢温泉",
+    "神奈川県",
+    "厚木",
+    "美肌の湯",
+    "猪鍋"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "広沢寺温泉",
+      "name": "広沢寺温泉",
+      "type": "onsen-landmark",
+      "description": "七沢温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%83%E6%B2%A2%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "広沢寺温泉 七沢温泉 神奈川県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJHXlVVtAAGWARcGbSjmQu1Eg",
+      "googleMapsUri": "https://maps.google.com/?cid=5247870475221231216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.nanasawasou.jp/",
+      "officialUrl": "http://www.nanasawasou.jp/",
+      "placePhotoName": "places/ChIJHXlVVtAAGWARcGbSjmQu1Eg/photos/ATCDNfWXSKZkRFGbi6YlHcaNNyWVFXg6MLnVO1r1x4eFvmUIJ7dvXncEpscVtwVSQ_XRmgMnI3ID6UNTGoIORomDFIKcM5gN87IYxJWjGBE92bZRJdbN50r98jH8Jdh3hp3bzoD-jfAm-dlXs5dv0D_zPwUBeuPjK7g0948LGku8gza3E3FMie7gCNo2pM4OoTP7PaHAKs2FN5Rg_XWXt0XQ6_n_vgfj7eqlakUbeQjaPS4m0WQM9mf_zIJA4eDC7eeB0HPue7f0RkQbaKh-hN7jRWXYBNwRIDk5z4Ezw4w-I1hqyw",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nanasawa/広沢寺温泉.jpg"
+    }
+  ]
+}

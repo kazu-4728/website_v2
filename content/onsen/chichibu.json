@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "chichibu",
+    "name": "秩父温泉",
+    "nameEn": "Chichibu",
+    "prefecture": "埼玉県",
+    "area": "秩父・長瀞"
+  },
+  "summary": {
+    "catchcopy": "都心から近い歴史ある湯治場。秩父連山の自然に抱かれた「美肌の湯」。",
+    "lead": "古くから「秩父七湯」として親しまれてきた温泉郷。美肌効果の高いお湯と、秩父神社などのパワースポット巡りが楽しめます。",
+    "shortDescription": "古くから「秩父七湯」として親しまれてきた温泉郷。美肌効果の高いお湯と、秩父神社などのパワースポット巡りが楽しめます。"
+  },
+  "highlights": [
+    "秩父神社",
+    "長瀞ライン下り",
+    "羊山公園（芝桜）"
+  ],
+  "spring": {
+    "springTypes": [
+      "単純硫黄泉",
+      "塩化物泉"
+    ],
+    "effects": [
+      "神経痛",
+      "美肌効果",
+      "疲労回復",
+      "アトピー"
+    ],
+    "characteristics": [
+      "秩父七湯",
+      "鉱泉",
+      "とろとろの湯"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "西武秩父駅",
+      "line": "西武鉄道"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "西武鉄道 西武秩父駅 / 秩父鉄道 秩父駅"
+      },
+      "byCar": {
+        "time": 50,
+        "description": "関越自動車道 花園ICから約50分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E7%A7%A9%E7%88%B6%E3%83%BB%E9%95%B7%E7%80%9E%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "秩父温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E7%A7%A9%E7%88%B6%E3%83%BB%E9%95%B7%E7%80%9E%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "歴史ある宿",
+      "自然に囲まれた宿",
+      "日帰り入浴施設充実"
+    ],
+    "style": "秩父温泉は、都心から近い歴史ある湯治場。秩父連山の自然に抱かれた「美肌の湯」。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "歴史ある宿",
+      "自然に囲まれた宿",
+      "日帰り入浴施設充実"
+    ]
+  },
+  "story": {
+    "intro": "古くから「秩父七湯」として親しまれてきた温泉郷。美肌効果の高いお湯と、秩父神社などのパワースポット巡りが楽しめます。",
+    "sections": [
+      {
+        "title": "歴史と信仰の里のいで湯",
+        "body": [
+          "秩父温泉は、江戸時代から秩父札所巡りの巡礼者たちを癒やしてきた歴史ある温泉地です。源泉温度が低い鉱泉が多く、沸かして入ることで一層温まり効果が高いとされています。肌触りが滑らかで、入浴後はお肌がすべすべになると評判です。\n### 四季折々の自然美\n春の芝桜、夏のライン下り、秋の紅葉、冬の夜祭と、一年を通して魅力が尽きません。長瀞渓谷の自然美と共に、心身を癒やす旅へ。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "秩父神社を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "都心から近い歴史ある湯治場。秩父連山の自然に抱かれた「美肌の湯」。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "長瀞ライン下りと紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 秩父神社 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "長瀞ライン下り を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "秩父神社",
+      "type": "highlight",
+      "description": "秩父温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E7%A5%9E%E7%A4%BE%20%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+    },
+    {
+      "name": "長瀞ライン下り",
+      "type": "highlight",
+      "description": "秩父温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%80%9E%E3%83%A9%E3%82%A4%E3%83%B3%E4%B8%8B%E3%82%8A%20%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+    },
+    {
+      "name": "羊山公園（芝桜）",
+      "type": "highlight",
+      "description": "秩父温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8A%E5%B1%B1%E5%85%AC%E5%9C%92%EF%BC%88%E8%8A%9D%E6%A1%9C%EF%BC%89%20%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "秩父温泉",
+    "埼玉県",
+    "美肌の湯",
+    "パワースポット",
+    "日帰り温泉"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "秩父温泉-温泉街中心部",
+      "name": "秩父温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "秩父温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E7%A7%A9%E7%88%B6%E3%83%BB%E9%95%B7%E7%80%9E%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "秩父温泉 秩父・長瀞 埼玉県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJgRIGZbfHHmARjnzLM6HJs8s",
+      "googleMapsUri": "https://maps.google.com/?cid=14678297304726469774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.chichibuonsen.co.jp/",
+      "officialUrl": "https://www.chichibuonsen.co.jp/",
+      "placePhotoName": "places/ChIJgRIGZbfHHmARjnzLM6HJs8s/photos/ATCDNfW1Tc-tFYrlaNqWQrjKZLoQFp1Z8lUB5uOajYqDq-LP4HpCJKFf45MBp_WYRd5yvjQ4qzY4NKU0YJbD-BnCct9Qb4AnUfn3J6UbBAkAWCc7e6Euvn_VPFKNoF-tMCt_F3uSL5hmxNsWND8sH30b521AZSzVTZ9DxPaOAHMYbWQOUFYMTEkOGfhrP4jPsMcunv3JtD1mk8JJnOqFmL4DYb2QMpCKGeilz9O6dd-vOlmWM24mnxmtUK7BIdIXTBe9CTh6_ajI7iWeBbnBEG4pVJhWmWee_fHhZEJoZo39NE9czt_wO-GhleEqgjjaFeTg5ot_P2u_hdOe-3HWLJwrAmvi_SpvxE4zjSi30UefmqMVvPJHp4qjDzyTdYxSivy6hHdf-Y4Z3Gjv0rch20QVdFLT93hwzYetVcdxUOLwLo06lA",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chichibu/秩父温泉-温泉街中心部.jpg"
+    }
+  ]
+}

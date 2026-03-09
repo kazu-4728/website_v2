@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "slug": "takaragawa",
+    "name": "宝川温泉",
+    "nameEn": "Takaragawa",
+    "prefecture": "群馬県",
+    "area": "水上・奥利根"
+  },
+  "summary": {
+    "catchcopy": "世界が注目する巨大露天風呂。手つかずの大自然に囲まれた、まさに秘境の温泉。",
+    "lead": "利根川の支流、宝川の渓流沿いに広がる一軒宿。延べ470畳にも及ぶ4つの大露天風呂は圧巻の一言です。",
+    "shortDescription": "利根川の支流、宝川の渓流沿いに広がる一軒宿。延べ470畳にも及ぶ4つの大露天風呂は圧巻の一言です。"
+  },
+  "highlights": [
+    "大露天風呂「子宝の湯」",
+    "渓流の絶景",
+    "一軒宿の風情"
+  ],
+  "spring": {
+    "springTypes": [
+      "単純温泉（弱アルカリ性）"
+    ],
+    "effects": [
+      "神経痛",
+      "関節痛",
+      "疲労回復",
+      "冷え性"
+    ],
+    "characteristics": [
+      "大露天風呂",
+      "混浴（湯浴み着あり）",
+      "源泉かけ流し"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "上毛高原駅",
+      "line": "JR上越新幹線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR上越新幹線 上毛高原駅からバス / JR上越線 水上駅からバス"
+      },
+      "byCar": {
+        "time": 30,
+        "description": "関越自動車道 水上ICから約30分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B0%B4%E4%B8%8A%E3%83%BB%E5%A5%A5%E5%88%A9%E6%A0%B9%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "宝川温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%B0%B4%E4%B8%8A%E3%83%BB%E5%A5%A5%E5%88%A9%E6%A0%B9%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "一軒宿",
+      "秘湯の宿",
+      "歴史的建築"
+    ],
+    "style": "宝川温泉は、世界が注目する巨大露天風呂。手つかずの大自然に囲まれた、まさに秘境の温泉。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "一軒宿",
+      "秘湯の宿",
+      "歴史的建築"
+    ]
+  },
+  "story": {
+    "intro": "利根川の支流、宝川の渓流沿いに広がる一軒宿。延べ470畳にも及ぶ4つの大露天風呂は圧巻の一言です。",
+    "sections": [
+      {
+        "title": "天下無双の大露天風呂",
+        "body": [
+          "宝川温泉の代名詞といえば、なんといってもそのスケール規格外の露天風呂です。自然のまた中、巨石をふんだんに使って組まれた湯船は野趣満点。四季折々の自然の変化を肌で感じながらの入浴は、他では味わえない開放感があります。\n### 世界が認めた景観\n映画のロケ地や海外のガイドブックでも紹介され、その日本原風景的な美しさは国際的にも高く評価されています。混浴が基本ですが、女性専用風呂や湯浴み着の着用により、どなたでも安心して楽しめます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "大露天風呂「子宝の湯」を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "世界が注目する巨大露天風呂。手つかずの大自然に囲まれた、まさに秘境の温泉。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "渓流の絶景と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 大露天風呂「子宝の湯」 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "渓流の絶景 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "大露天風呂「子宝の湯」",
+      "type": "highlight",
+      "description": "宝川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%E3%80%8C%E5%AD%90%E5%AE%9D%E3%81%AE%E6%B9%AF%E3%80%8D%20%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "渓流の絶景",
+      "type": "highlight",
+      "description": "宝川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%93%E6%B5%81%E3%81%AE%E7%B5%B6%E6%99%AF%20%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "一軒宿の風情",
+      "type": "highlight",
+      "description": "宝川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%BB%92%E5%AE%BF%E3%81%AE%E9%A2%A8%E6%83%85%20%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "宝川温泉",
+    "群馬県",
+    "露天風呂",
+    "秘湯",
+    "混浴"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "大露天風呂-子宝の湯",
+      "name": "大露天風呂「子宝の湯」",
+      "type": "onsen-landmark",
+      "description": "宝川温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%E3%80%8C%E5%AD%90%E5%AE%9D%E3%81%AE%E6%B9%AF%E3%80%8D%20%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "大露天風呂「子宝の湯」 宝川温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ9VINZwc-HmAR5Z4NFIUP3pY",
+      "googleMapsUri": "https://maps.google.com/?cid=10871143614760460005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.takaragawa.com/huro04.html",
+      "officialUrl": "https://www.takaragawa.com/huro04.html",
+      "placePhotoName": "places/ChIJ9VINZwc-HmAR5Z4NFIUP3pY/photos/ATCDNfX2UsrUGzZ7CQil4fJyjkg_1eC9Krh2dbQ0606BG_710Cpb_vmwR3bDVr_6BnbYsgKDbTaUZwA0AXqizqpDE_8TKZpx8nBHAPwNM94cQPNgzlv_EsFcUMRsJk0HEPAXj67PjgJO003hvXx4FZ8ASpWn2SvnBPgYwLTC3CKmqmvqX4xt_KPp95hMwBcyeZe-vEdk4ZrGHCY_3cMkh1eHkeY9XQWYB4JLgu9HeY6DqMvbNSu-ta9A4C5iT921JXAlgKNavmKJcrySZlDZpsfKldE5kS3XdA6_s3tj4EQbz7Slaawe0UNtHW4YFussWFvj4oktv5lyQQtPiKHFU0Q9ukKugW8C_tuEWLpbi-tYcnAd3lHhuaWDOJvzwOkTQfArgl14DrTGRgUPoU3quVchoF0FLobUhdQwCCo_Iqm0Hs95tPrXx7XyXlCKac6U2Q",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/takaragawa/大露天風呂-子宝の湯.jpg"
+    }
+  ]
+}

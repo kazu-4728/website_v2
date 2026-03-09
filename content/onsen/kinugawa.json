@@ -1,0 +1,178 @@
+{
+  "identity": {
+    "slug": "kinugawa",
+    "name": "鬼怒川温泉",
+    "nameEn": "Kinugawa",
+    "prefecture": "栃木県",
+    "area": "日光・鬼怒川"
+  },
+  "summary": {
+    "catchcopy": "渓谷のスケール感で選ぶ、家族旅にも強い温泉地。",
+    "lead": "鬼怒川は大きな宿と渓谷景観の相性が良く、写真に広がりが出る温泉地です。アクセスも比較的わかりやすく、周辺観光を含めて動きやすいのが魅力です。",
+    "shortDescription": "鬼怒川渓谷沿いに広がる、関東でも有数の大型温泉地。アルカリ性単純温泉が特徴です。"
+  },
+  "highlights": [
+    "渓谷沿いの客室や露天風呂が絵になる",
+    "東京から2時間前後で行ける大規模温泉地",
+    "日光方面の周遊と組み合わせやすい"
+  ],
+  "spring": {
+    "springTypes": [
+      "アルカリ性単純温泉"
+    ],
+    "ph": 8.6,
+    "temperature": 41,
+    "effects": [
+      "神経痛",
+      "五十肩",
+      "疲労回復",
+      "健康増進"
+    ],
+    "characteristics": [
+      "渓谷美",
+      "美肌の湯",
+      "大型ホテル"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "鬼怒川温泉駅",
+      "line": "東武鬼怒川線",
+      "walkingTime": 5
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "route": [
+          "浅草駅/新宿駅",
+          "鬼怒川温泉駅"
+        ],
+        "description": "特急スペーシア・リバティ"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "周辺観光を含めるなら車でも動きやすい。"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "鬼怒川温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [
+      "鬼怒川公園岩風呂",
+      "日光きぬ川ホテル三日月"
+    ],
+    "features": [
+      "渓谷沿いの客室",
+      "大型温泉ホテル"
+    ],
+    "style": "大浴場のスケール感や、家族・グループでの過ごしやすさを重視する旅向け。",
+    "bestFor": [
+      "家族旅行",
+      "日光観光との組み合わせ",
+      "渓谷ビュー"
+    ]
+  },
+  "story": {
+    "intro": "鬼怒川は、宿そのもののボリューム感と渓谷のダイナミズムを楽しむ温泉地です。細い路地の情緒というより、開放感と見晴らしで満足度を作ります。",
+    "sections": [
+      {
+        "title": "大きな宿と渓谷景観の相性がいい",
+        "body": [
+          "川沿いに連なる宿の窓から見える緑や岩肌は、鬼怒川らしいスケール感を生みます。",
+          "旅館の静けさよりも、視界の広さや館内施設の充実を求める人に向きます。"
+        ]
+      },
+      {
+        "title": "温泉旅をアクティブに組み立てやすい",
+        "body": [
+          "ライン下り、テーマパーク、日光方面への足の伸ばしやすさがあり、温泉だけで終わらない旅程を組みやすいのが特徴です。",
+          "子ども連れや複数人旅でも選びやすい、間口の広さがあります。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "夏",
+        "title": "川風が心地よく、外遊びとの相性が良い",
+        "description": "昼にアクティブ、夜に温泉という流れが作りやすい。"
+      },
+      {
+        "season": "秋",
+        "title": "渓谷の紅葉が映える",
+        "description": "橋や車窓から見る色づきが温泉旅の主役になる。"
+      }
+    ],
+    "modelCourse": [
+      "午前中に移動し、昼は渓谷散策かライン下りへ",
+      "早めに宿へ入り、大浴場と客室景観を味わう",
+      "翌日は日光方面へ寄り道して帰る"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "鬼怒楯岩大吊橋",
+      "type": "view",
+      "description": "渓谷の奥行きを感じやすい代表的なビューポイント。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E6%A5%AF%E5%B2%A9%E5%A4%A7%E5%90%8A%E6%A9%8B%20%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "東武ワールドスクウェア",
+      "type": "activity",
+      "description": "家族連れでも立ち寄りやすい周辺スポット。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%AD%A6%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A6%E3%82%A7%E3%82%A2%20%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "SL大樹",
+      "type": "culture",
+      "description": "移動そのものを旅の体験に変えてくれる人気列車。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=SL%E5%A4%A7%E6%A8%B9%20%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "鬼怒川温泉",
+    "栃木県",
+    "川"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "鬼怒川公園岩風呂",
+      "name": "鬼怒川公園岩風呂",
+      "type": "day-trip",
+      "description": "鬼怒川温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E5%85%AC%E5%9C%92%E5%B2%A9%E9%A2%A8%E5%91%82%20%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "鬼怒川公園岩風呂 鬼怒川温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJh3MHv9GYH2ARNUC-frWEmkE",
+      "googleMapsUri": "https://maps.google.com/?cid=4727236673929101365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJh3MHv9GYH2ARNUC-frWEmkE/photos/ATCDNfW_pwLbm9Rs1M_Q4elzs8S-eDeXsahqsC-cxB2DCfK9GKKtVxCtC3XOJlVpq_FKD4HvVTxrwdSxUQix3XLofLaS4OCiHOHN9ul1AsJuzBW4aAHofJP9BGctyPC8CyKcnMajeou9mCra_z2jOhkk_THipHmLCM208b1eMGQUVQsaTCWoHaYE0kNev8JJ9iEE6EhfUpT_Fk4BHjSucLH25_f_llJefDoIBiZ4gLWE6_BDiGbNyfVEaCGWfJxj043m2oPAhYS8E5Fugj5PZoxRmeAc6PxBi0PwKrTBrkJ8n3JnpMyqBvy1Oz9j4Pp1uXEKzNPflP2-V7bZzdSZTQtZTJy4Zyi09NAV8TrWFcflNVwRhhzU8POVAZ7zDEm71F_PM6gTpp77td-mpxDfcDqazAH_tSMrL-MIjkTP1ou4es3dSz6H",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kinugawa/鬼怒川公園岩風呂.jpg"
+    },
+    {
+      "slug": "日光きぬ川ホテル三日月",
+      "name": "日光きぬ川ホテル三日月",
+      "type": "day-trip",
+      "description": "鬼怒川温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E3%81%8D%E3%81%AC%E5%B7%9D%E3%83%9B%E3%83%86%E3%83%AB%E4%B8%89%E6%97%A5%E6%9C%88%20%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "日光きぬ川ホテル三日月 鬼怒川温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJm34EEDefH2ARYQhIWSXYfE8",
+      "googleMapsUri": "https://maps.google.com/?cid=5727690481031710817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.mikazuki.co.jp/kinugawa/",
+      "officialUrl": "https://www.mikazuki.co.jp/kinugawa/",
+      "placePhotoName": "places/ChIJm34EEDefH2ARYQhIWSXYfE8/photos/ATCDNfU86Dp3aWY9ojUO1ZnmTXBydtE3knCRHUdqPUNQiWnhrtxDS8R8nYwfOx0lsj9glISvsKX1xORmeeuh_nbCB2ZrnZ0Rd2efeo0h6HKbAdMHLegYTgKEISi4juYLoMpW9nYRuv4DXRAC-K0Qf_nVPbf0ERuEOGS0_JRT2fSsuvGhuMflUBW35hRj_rdGavL3wav13-QotSoxPxbSbMeBLWr8vlbs9WoXAVXZZx21mdkyK_MFqqmf1Atyu_70D75RMfcoE9XdaXhd14ue0z8g99KEffFYnn8gSdo7mgpFprjW3g",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kinugawa/日光きぬ川ホテル三日月.jpg"
+    }
+  ]
+}

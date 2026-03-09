@@ -1,0 +1,196 @@
+{
+  "identity": {
+    "slug": "oigami",
+    "name": "老神温泉",
+    "nameEn": "Oigami",
+    "prefecture": "群馬県",
+    "area": "沼田・老神"
+  },
+  "summary": {
+    "catchcopy": "片品川の渓谷に湧く歴史ある温泉。伝統の朝市と、赤城山の神が開いたという伝説の湯。",
+    "lead": "「老神（おいがみ）」という名は、赤城山の神（蛇）が男体山の神との戦いで傷ついた際、ここのお湯で治して神を追い返したことに由来します。",
+    "shortDescription": "「老神（おいがみ）」という名は、赤城山の神（蛇）が男体山の神との戦いで傷ついた際、ここのお湯で治して神を追い返したことに由来します。"
+  },
+  "highlights": [
+    "老神温泉朝市",
+    "吹割の滝",
+    "大蛇まつり"
+  ],
+  "spring": {
+    "springTypes": [
+      "単純温泉",
+      "単純硫黄温泉"
+    ],
+    "effects": [
+      "皮膚病",
+      "リウマチ",
+      "神経痛",
+      "胃腸病"
+    ],
+    "characteristics": [
+      "朝市",
+      "美肌の湯",
+      "伝説の湯"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "上毛高原駅",
+      "line": "JR上越新幹線",
+      "busTime": 60
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 60,
+        "description": "JR上越新幹線 上毛高原駅からバスで約60分"
+      },
+      "byCar": {
+        "time": 20,
+        "description": "関越自動車道 沼田ICから約20分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E6%B2%BC%E7%94%B0%E3%83%BB%E8%80%81%E7%A5%9E%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "老神温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E6%B2%BC%E7%94%B0%E3%83%BB%E8%80%81%E7%A5%9E%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "渓谷沿いの宿",
+      "人情味ある旅館",
+      "湯治対応"
+    ],
+    "style": "老神温泉は、片品川の渓谷に湧く歴史ある温泉。伝統の朝市と、赤城山の神が開いたという伝説の湯。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "渓谷沿いの宿",
+      "人情味ある旅館",
+      "湯治対応"
+    ]
+  },
+  "story": {
+    "intro": "「老神（おいがみ）」という名は、赤城山の神（蛇）が男体山の神との戦いで傷ついた際、ここのお湯で治して神を追い返したことに由来します。",
+    "sections": [
+      {
+        "title": "伝説の残る関東の秘湯",
+        "body": [
+          "片品川がつくる美しい渓谷美と共に、豊富な湯量を誇る温泉です。春から秋にかけて開かれる名物「老神温泉朝市」は、地元の人々と観光客の触れ合いの場として賑わいます。\n### 東洋のナイアガラ「吹割の滝」\n車で約10分の距離には、国の天然記念物「吹割の滝」があります。ダイナミックな滝の景観は必見です。伝説にちなんだ「大蛇まつり」も迫力満点です。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "老神温泉朝市を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "片品川の渓谷に湧く歴史ある温泉。伝統の朝市と、赤城山の神が開いたという伝説の湯。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "吹割の滝と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 老神温泉朝市 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "吹割の滝 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "老神温泉朝市",
+      "type": "highlight",
+      "description": "老神温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%E6%9C%9D%E5%B8%82%20%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "吹割の滝",
+      "type": "highlight",
+      "description": "老神温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E5%89%B2%E3%81%AE%E6%BB%9D%20%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "大蛇まつり",
+      "type": "highlight",
+      "description": "老神温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%9B%87%E3%81%BE%E3%81%A4%E3%82%8A%20%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "老神温泉",
+    "群馬県",
+    "朝市",
+    "伝説",
+    "渓谷"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "老神温泉朝市",
+      "name": "老神温泉朝市",
+      "type": "onsen-landmark",
+      "description": "老神温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%E6%9C%9D%E5%B8%82%20%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "老神温泉朝市 老神温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJewveEnpQHmAROrEDPRo7F44",
+      "googleMapsUri": "https://maps.google.com/?cid=10238717261728952634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJewveEnpQHmAROrEDPRo7F44/photos/ATCDNfX8cE9GK4l_iJ9SOXPjVjNjKH8rhWjM3UncfX7x_WxMurWvmD6-SLK85QqNJaZg8CoHctRlzRbhQQh2tMTrmJWdWdfcoXJWMHfT3fhXTZ0qtLt5WhZ9ks-Mwuyc3YaIr-wXqm8i7lH-S1vdTdqnjs242sDcHSgFeoINLvQbayNsuwbqrEYQueceG1ElKAOmven2MI4M5_Rcb6W-f03Le3cYFso2R1SiUQoCbPqU7hA2pofrUm2D8Umof9XXrX4fFmK6ymGGTKkydfQyBliLBESLtrCTZePjUZ-8jlzNbeCbrRNRGIi2OV7dUCHXfwxC5G0UDe_lGuwfyjKqc0S5-sTjCx_HL-DUBYloODe6wo9vHPVyTYx-MoDiL-Hm7zPC2XzVSW8pslgBlf2Yg2oUG0eqmD4INh0xIKbv2xWi7rTSSw",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oigami/老神温泉朝市.jpg"
+    },
+    {
+      "slug": "老神温泉-日帰り天然温泉-湯元華亭",
+      "name": "老神温泉 日帰り天然温泉 湯元華亭",
+      "type": "day-trip",
+      "description": "老神温泉 の中でも 老神温泉 日帰り天然温泉 湯元華亭 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4461898199820227327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "老神温泉 日帰り天然温泉 湯元華亭 群馬県",
+      "placeId": "ChIJkxHiy3tQHmAR_1I9yMXY6z0",
+      "googleMapsUri": "https://maps.google.com/?cid=4461898199820227327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hanatei.info/",
+      "officialUrl": "https://www.hanatei.info/",
+      "placePhotoName": "places/ChIJkxHiy3tQHmAR_1I9yMXY6z0/photos/ATCDNfWMrA9giYxFgdiXSRocKw3mHJ1hdGvMQbaUoM5rwEeioumGQDyLEVc4m6UQgz-u_dqpfVN0sWX_B8DCYvmRLbKLFozJiCM1G9UfoOwxbLdc1RoYO_UaJ9fSte4NU39taYJ6ePhJ-RI5vBpyqp-gelC3q1iXdJDsbsttHI6w_8pbUtK6Z4G6fuDq8IQ8lKd5AaQjqTTDAvok6nXlFiD2HuQHBvLprVbswXYf8CTXLdmWnaEHArlOsiTyVaWh1LSffkEwSGaaj3-KZboKrnXpiMLIASTRjFxfDCEC_3n2EirCrg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oigami/老神温泉-日帰り天然温泉-湯元華亭.jpg"
+    },
+    {
+      "slug": "老神温泉-伍楼閣",
+      "name": "老神温泉 伍楼閣",
+      "type": "day-trip",
+      "description": "老神温泉 の中でも 老神温泉 伍楼閣 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=17215624090555543308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "老神温泉 伍楼閣 群馬県",
+      "placeId": "ChIJ81KGhHBQHmARDG846OUu6u4",
+      "googleMapsUri": "https://maps.google.com/?cid=17215624090555543308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.gorokaku.com/",
+      "officialUrl": "https://www.gorokaku.com/",
+      "placePhotoName": "places/ChIJ81KGhHBQHmARDG846OUu6u4/photos/ATCDNfUQBdBrRMf6POE3H3O6G2WwNPQapeTqqNb44UWnSgXL9F007ZU5LymSTjKL1PKelxcm2hA4U1_MpbKXoU7YsNQk6iiOlIyj4J6OSdNvdIR29n7xcNsYeRhQUKC6A0tySmP6MquwCVnZwBp6u-H1k2i3mDkJRzJnNSsEc43KsoFUNV5zNPdfDQRBhRLZoxyYdtoPQNi_AgzNHhBKMkxD0_WQfb96vWsCqTHgEx9aMl6JHz1VW2mQtEnHehLbHRANcR0yi2nYPYlqmOV88pQ2oHlDqfzq_MxcV4OROf0OjjskgQkEqFmUQq2EW5aihzBiNsTKcOiqcmSL70AdlaciZjpn0SLy1JElbtatImHMpnT8h0GH5NqeCULwMbn7UyXy_OLdH8kYvgL1tSg12vx2COYziHKkJPiK_fmNSw1rBXL-0A",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oigami/老神温泉-伍楼閣.jpg"
+    }
+  ]
+}

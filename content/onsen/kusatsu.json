@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "slug": "kusatsu",
+    "name": "草津温泉",
+    "nameEn": "Kusatsu",
+    "prefecture": "群馬県",
+    "area": "草津"
+  },
+  "summary": {
+    "catchcopy": "湯の個性と温泉街の熱量を、両方持つ名湯。",
+    "lead": "草津は、写真で見た瞬間に『温泉らしさ』が伝わる稀有な場所です。湯畑の湯けむり、夜の灯り、強い泉質。街を歩く時間まで含めて体験が濃い温泉地です。",
+    "shortDescription": "日本三名泉の一つ。自然湧出量日本一を誇り、湯畑を中心とした情緒ある街並みが魅力です。"
+  },
+  "highlights": [
+    "湯畑のスケール感と夜のライトアップが圧倒的",
+    "強酸性の湯で『湯の強さ』を体感しやすい",
+    "歩いて楽しめる温泉街として完成度が高い"
+  ],
+  "spring": {
+    "springTypes": [
+      "酸性泉",
+      "硫黄泉"
+    ],
+    "ph": 2.1,
+    "temperature": 51,
+    "flowRate": "32,300L/分（日本一）",
+    "effects": [
+      "皮膚病",
+      "神経痛",
+      "糖尿病",
+      "高血圧症"
+    ],
+    "characteristics": [
+      "日本三名泉",
+      "湯もみ",
+      "時間湯",
+      "強酸性"
+    ],
+    "waterQuality": "無色透明または白濁"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "長野原草津口駅",
+      "line": "JR吾妻線",
+      "busTime": 25,
+      "busName": "JRバス関東"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 150,
+        "route": [
+          "上野駅",
+          "長野原草津口駅"
+        ],
+        "description": "特急草津・四万号で直通"
+      },
+      "byCar": {
+        "time": 180,
+        "distance": 160,
+        "icName": "渋川伊香保IC",
+        "description": "関越自動車道経由"
+      },
+      "byBus": {
+        "time": 240,
+        "terminal": "バスタ新宿",
+        "description": "上州ゆめぐり号"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "街歩き中心なら、到着後は駐車して徒歩で動くのが快適。"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "草津温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [
+      "大滝乃湯",
+      "西の河原露天風呂",
+      "御座之湯"
+    ],
+    "features": [
+      "湯畑周辺",
+      "ベルツ通り",
+      "西の河原公園"
+    ],
+    "style": "温泉街の熱気も含めて楽しみたい、名湯らしさ優先の旅向け。",
+    "bestFor": [
+      "温泉街散策",
+      "雪見露天",
+      "湯そのものを味わいたい旅"
+    ]
+  },
+  "story": {
+    "intro": "草津の魅力は、宿に入る前から始まっていることです。湯畑の蒸気が立ち上る風景と独特の硫黄の気配が、到着直後から非日常へ切り替えてくれます。",
+    "sections": [
+      {
+        "title": "湯畑の存在が街全体の体温を決めている",
+        "body": [
+          "草津は中心に湯畑があり、街歩きの導線そのものが温泉体験になっています。",
+          "宿にこもるだけでなく、外を歩く時間が満足度に直結する数少ない温泉地です。"
+        ]
+      },
+      {
+        "title": "お湯の強さが記憶に残る",
+        "body": [
+          "強酸性の泉質は、肌あたりの時点で個性がわかりやすく、温泉好きほど印象に残りやすいタイプです。",
+          "湯もみや時間湯など、文化としての厚みもあるので、見て学ぶ楽しさもあります。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "冬",
+        "title": "雪と湯けむりの相性が抜群",
+        "description": "白い景色に湯けむりが立つ夜景は、草津らしさが最も強く出る。"
+      },
+      {
+        "season": "秋",
+        "title": "空気が締まり、街歩きしやすい",
+        "description": "昼は散策、夜は湯畑周辺の光景を楽しみやすい。"
+      }
+    ],
+    "modelCourse": [
+      "昼過ぎに到着して湯畑周辺を散策",
+      "夕方は西の河原露天風呂や日帰り湯で一浴",
+      "夜はライトアップを見てから宿の湯へ"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "湯畑",
+      "type": "view",
+      "description": "草津の象徴。昼と夜で見え方が大きく変わる。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E7%95%91%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "西の河原公園",
+      "type": "activity",
+      "description": "湯けむりと自然が一体化する、歩いて楽しい露天エリア。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E3%81%AE%E6%B2%B3%E5%8E%9F%E5%85%AC%E5%9C%92%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "熱乃湯",
+      "type": "culture",
+      "description": "湯もみの文化を体感しやすい定番スポット。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E4%B9%83%E6%B9%AF%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "草津温泉",
+    "群馬県"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "大滝乃湯",
+      "name": "大滝乃湯",
+      "type": "day-trip",
+      "description": "草津温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "大滝乃湯 草津温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ0xp0zwHnHWARs1NmvnQ4u1c",
+      "googleMapsUri": "https://maps.google.com/?cid=6321708576006362035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://onsen-kusatsu.com/ohtakinoyu/",
+      "officialUrl": "https://onsen-kusatsu.com/ohtakinoyu/",
+      "placePhotoName": "places/ChIJ0xp0zwHnHWARs1NmvnQ4u1c/photos/ATCDNfVbp6kvb1HHSKEFJ-ElOU8EJLZL90bGlHldQ70vqvD8H13CRUTNFamk7CHBxaEOVEPPDfkHOnTT-ksx6hMIacFe44l_hP1Hjve2xj6tD4ENMR4Mz1gxJrZ8wDg55RgfIs6-fIX5SELzDHMURFABNW2LzMOXAVYY9g9izucqrLDg2TPYmGI2OsIuQ_8OOl0tL5IZ7m68NGYkPORhMtoWMlSDVCRYE1syhYX5w1DFcp5iYtz6Gekw-XguAcp5Q_Z3vng3dgPYrwa6_j3Yg2N7fDzvl04S8ikWQqQTM8-NAhGylyCPdkFHx0oRN4PFqKz5Wrdr7eSW11VSar90h9yQ6Iasb7qYo_v3ZE1biJRKkOtoW6niMV1AJwELURl0kElg0CV41F-fgpyiSMyO3-88i5cn-S_sk2TVwog5BmtS0pU",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kusatsu/大滝乃湯.jpg"
+    },
+    {
+      "slug": "西の河原露天風呂",
+      "name": "西の河原露天風呂",
+      "type": "day-trip",
+      "description": "草津温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E3%81%AE%E6%B2%B3%E5%8E%9F%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "西の河原露天風呂 草津温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJ3xELpQ69AWAR1lv3GJzY44k",
+      "googleMapsUri": "https://maps.google.com/?cid=9936023367854808022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://onsen-kusatsu.com/sainokawara/",
+      "officialUrl": "https://onsen-kusatsu.com/sainokawara/",
+      "placePhotoName": "places/ChIJ3xELpQ69AWAR1lv3GJzY44k/photos/ATCDNfWDZt8wHsspiyBY2El2PcJfFzGMKqwxukgTZ_4Kg2Gaf-93VnRCZYAROxpju_lJGilg0UspBQLughwOFwheXIhrJ8CVbvklOZsTmsKAWT-hjTD6ygn3mGmYNNXpaIPVJDWh71rUTRFftHrErhfE73BAyLM-LGAGR1dRdE4iJtWkVQU68Ry9BQiq9H-Lb5ia6khXnNndfmCkAv_3iX6MXhZ_yJlyx3y_QhnJhGjz1kOwYOCzbUXGDgOBWfZfRQ6LZ_BzKnzTXJRL1yf8CSx04wEcC6hCefRdFliMcXLHBPDuCR7Ymg7WnQaBDFkXDc73xdNUpU3v2_0gfoiOUYJgChnRiQ0IfOqIjYHjIbm04xxVfeQHs5NP2uyOfk2D5j8piu7hjs6unBMcMPQfOgFNqRv4eG4IP-gD-SokkN-0OI2gFq-1",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kusatsu/西の河原露天風呂.jpg"
+    },
+    {
+      "slug": "御座之湯",
+      "name": "御座之湯",
+      "type": "day-trip",
+      "description": "草津温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%BA%A7%E4%B9%8B%E6%B9%AF%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "御座之湯 草津温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJkxZF51TmHWARhGWDY3aquk4",
+      "googleMapsUri": "https://maps.google.com/?cid=5673034106078979460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://onsen-kusatsu.com/gozanoyu/",
+      "officialUrl": "https://onsen-kusatsu.com/gozanoyu/",
+      "placePhotoName": "places/ChIJkxZF51TmHWARhGWDY3aquk4/photos/ATCDNfV5PM77jSn7nR4RxBCCK2Rz22OUWS8c2G1KP2JULh3ONKAndqQGbSsT1UOvvkH8XR17j9RwusojqSaV3QZHLdV38TkRKY3O2o19e6Dz54tUB7UqGyDzkML6KdUxmkAa43Hqx2p3ttB3g29OIYG1i71gWTVdB8TroH_70JZ3KDo9LzOt-5GtjcqP4JQ1J067oXRaXQP_CkGCqfl4uU4ZI2RW48NT0ORgsyJqRmYZS78VOQrg_qLy5JU2g5wxuCbrsy4X27pgPoq5CdU15PD2L_GX-bEDsGpCt7ee8gY5c2_OI-NsQX8QpYC7B96ZyYNcJt7j-V8tz85l7UrZdLZg0xV26N_KS9cXe0SNoPy_JwM6zlgHDZX0dasLeTCZwQcE5PvpcCk2aMB9lNy8G7TMfGnX8tjg0-hFIZUBhkm2oLCMbUxa",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kusatsu/御座之湯.jpg"
+    },
+    {
+      "slug": "西の河原公園",
+      "name": "西の河原公園",
+      "type": "onsen-landmark",
+      "description": "湯けむりと自然が一体化する、歩いて楽しい露天エリア。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E3%81%AE%E6%B2%B3%E5%8E%9F%E5%85%AC%E5%9C%92%20%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "西の河原公園 草津温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJuwR8LE7mHWAR7FsvN1H2xMk",
+      "googleMapsUri": "https://maps.google.com/?cid=14539016325737438188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.town.kusatsu.gunma.jp/www/contents/1485304883583/index.html",
+      "officialUrl": "https://www.town.kusatsu.gunma.jp/www/contents/1485304883583/index.html",
+      "placePhotoName": "places/ChIJuwR8LE7mHWAR7FsvN1H2xMk/photos/ATCDNfX2MTSjjsTU4urO3esWvrGJg5taZvR5gkZhsymyzicaU8sX-rraKz1Jo88IzdqZhuYVD_YiJMS6hBWs5Hv4IRGTwlTDe4zugACuAlRDIqJR0rl69ES2B4Sb1sJa2p-J21cb5B4x0hriZjINh3NlZArOliKwfzdaQAfIqS8eYFdSz_CRhNgPBVdhS-VfxGN10thEeViVrN8NoaBnngA2a3PunhAJ80Ct_uXt7QNNbPhRiuTx4yzXzktjsJpMkIv-jusHrI6ApLHG6tTPO677Gapjnw15Hr2t83C1wkbl9ZSSSrT-huSlhi565c1q4tUzjaMQnRYm5UjlfZ6MaXfEaxgDlqlwWjPxpQTfRIUdeObwBle-ie-WUb_aw4AxWiHw8WBIHt2xznSfUC2dMqnC9FNGVqrK3iaxujIJXBMf2JQTbdHG",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kusatsu/西の河原公園.jpg"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "identity": {
+    "slug": "shiriyaki",
+    "name": "尻焼温泉",
+    "nameEn": "Shiriyaki",
+    "prefecture": "群馬県",
+    "area": "草津・四万"
+  },
+  "summary": {
+    "catchcopy": "川底からお湯が湧く、正真正銘の天然露天風呂。野趣あふれる秘湯体験を。",
+    "lead": "長笹沢川の川底から温泉が自噴しており、川そのものが巨大な露天風呂になっています。川原の石に腰掛けて痔を治したことが名前の由来です。",
+    "shortDescription": "長笹沢川の川底から温泉が自噴しており、川そのものが巨大な露天風呂になっています。川原の石に腰掛けて痔を治したことが名前の由来です。"
+  },
+  "highlights": [
+    "川の湯（巨大露天風呂）",
+    "チャツボミゴケ公園",
+    "野反湖"
+  ],
+  "spring": {
+    "springTypes": [
+      "カルシウム・ナトリウム-硫酸塩・塩化物泉"
+    ],
+    "effects": [
+      "痔疾",
+      "婦人病",
+      "リウマチ",
+      "皮膚病"
+    ],
+    "characteristics": [
+      "川の湯（天然露天）",
+      "足元湧出",
+      "24時間無料（川の湯）"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "長野原草津口駅",
+      "line": "JR吾妻線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "JR吾妻線 長野原草津口駅からバス"
+      },
+      "byCar": {
+        "time": 110,
+        "description": "関越自動車道 渋川伊香保ICから約1時間50分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "尻焼温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89%20%E8%8D%89%E6%B4%A5%E3%83%BB%E5%9B%9B%E4%B8%87%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "秘湯の宿",
+      "湯治場",
+      "自炊可能な宿あり"
+    ],
+    "style": "尻焼温泉は、川底からお湯が湧く、正真正銘の天然露天風呂。野趣あふれる秘湯体験を。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "秘湯の宿",
+      "湯治場",
+      "自炊可能な宿あり"
+    ]
+  },
+  "story": {
+    "intro": "長笹沢川の川底から温泉が自噴しており、川そのものが巨大な露天風呂になっています。川原の石に腰掛けて痔を治したことが名前の由来です。",
+    "sections": [
+      {
+        "title": "大自然と一体化する究極の野湯",
+        "body": [
+          "川の一部をせき止めて作られた「川の湯」は、更衣室もない大自然そのままの温泉です（水着着用推奨）。川遊びと温泉浴を同時に楽しめる、全国でも珍しいスポットです。大雨の後などは増水で入れないこともありますが、それもまた自然のなせる業。\n### 秘境の静寂\n周囲には数軒の宿があり、夜には川のせせらぎと満天の星空に包まれます。都会の喧騒を離れ、自然のエネルギーをダイレクトに感じられます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "川の湯（巨大露天風呂）を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "川底からお湯が湧く、正真正銘の天然露天風呂。野趣あふれる秘湯体験を。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "チャツボミゴケ公園と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 川の湯（巨大露天風呂） 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "チャツボミゴケ公園 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "川の湯（巨大露天風呂）",
+      "type": "highlight",
+      "description": "尻焼温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E3%81%AE%E6%B9%AF%EF%BC%88%E5%B7%A8%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%EF%BC%89%20%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "チャツボミゴケ公園",
+      "type": "highlight",
+      "description": "尻焼温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%81%E3%83%A3%E3%83%84%E3%83%9C%E3%83%9F%E3%82%B4%E3%82%B1%E5%85%AC%E5%9C%92%20%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    },
+    {
+      "name": "野反湖",
+      "type": "highlight",
+      "description": "尻焼温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E5%8F%8D%E6%B9%96%20%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "尻焼温泉",
+    "群馬県",
+    "野湯",
+    "川",
+    "秘湯"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "川の湯-巨大露天風呂",
+      "name": "川の湯（巨大露天風呂）",
+      "type": "onsen-landmark",
+      "description": "尻焼温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E3%81%AE%E6%B9%AF%EF%BC%88%E5%B7%A8%E5%A4%A7%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%EF%BC%89%20%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "川の湯（巨大露天風呂） 尻焼温泉 群馬県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJe0ML0anhHWARdkrubHPE6c8",
+      "googleMapsUri": "https://maps.google.com/?cid=14981721635452504694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJe0ML0anhHWARdkrubHPE6c8/photos/ATCDNfVbe45xFpgtW6hfSf7qNkd-M4VbMnslstbeu_fKVx9IdSNDJuVEeT6quDsdyE29YuMKyGMaiGqLalwkNQl4Yunzv4fKlGDIsfyAqvM2XlbyGiAraYAXfLuhUDdCXaLGBVEQf4Ya6B2IfnON8BEkCtAkyEMvMA5aGdv_5DBd0BCB-KQlMB2dt908y4IlPgvGnsyagggopypfA9hZ7Qa7SUdk9uyDgDobnY0ORr7Ketq3Y1b5c8ZNWEqg42cPVrRlMcR5j3cyJI0atQCJkAUuXjfB5td7AAoce9GlClxiUFUCuNsJJQUxcD30XnH4UCHOuUt5NxbbHAQuBijWvJiAu2KYAXCXHPfvE42ncmc0iGCHq9Nw_aVF45aVuS2IRltmkGC5ZFmPKD5EGuKScUfhpeiwmnd66lIMLJ_EuU7aoV4",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiriyaki/川の湯-巨大露天風呂.jpg"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "identity": {
+    "slug": "nasu",
+    "name": "那須温泉",
+    "nameEn": "Nasu",
+    "prefecture": "栃木県",
+    "area": "那須"
+  },
+  "summary": {
+    "catchcopy": "高原の空気と、歴史ある湯を一緒に味わう。",
+    "lead": "那須は、古湯の歴史と高原リゾートの軽やかさが同居する温泉地です。鹿の湯の力強い印象と、広い空のある避暑地らしさが共存しています。",
+    "shortDescription": "1300年以上の歴史を誇る鹿の湯が有名な温泉地。高原のリゾートエリアとしても人気。"
+  },
+  "highlights": [
+    "鹿の湯を中心とした歴史の厚みがある",
+    "高原の開放感があり、夏でも過ごしやすい",
+    "新幹線利用で東京からの移動が読みやすい"
+  ],
+  "spring": {
+    "springTypes": [
+      "硫黄泉",
+      "単純酸性泉",
+      "弱アルカリ性単純泉"
+    ],
+    "effects": [
+      "皮膚病",
+      "胃腸病",
+      "婦人病",
+      "疲労回復"
+    ],
+    "characteristics": [
+      "那須七湯",
+      "高原リゾート",
+      "歴史ある鹿の湯"
+    ],
+    "waterQuality": "白濁（鹿の湯）など多彩"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "那須塩原駅",
+      "line": "東北新幹線",
+      "busTime": 40
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 75,
+        "route": [
+          "東京駅",
+          "那須塩原駅"
+        ],
+        "description": "東北新幹線 なすの"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "温泉街周辺と周遊観光を両立するならレンタカーが便利。"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E9%82%A3%E9%A0%88%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "那須温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E9%82%A3%E9%A0%88%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [
+      "鹿の湯",
+      "休暇村那須"
+    ],
+    "features": [
+      "高原ペンション",
+      "リゾートホテル",
+      "貸別荘"
+    ],
+    "style": "自然の中でゆったり過ごしたい、温泉と高原散策の両立向け。",
+    "bestFor": [
+      "避暑旅",
+      "親子旅",
+      "静かな高原ステイ"
+    ]
+  },
+  "story": {
+    "intro": "那須温泉は、古い湯治文化と軽やかな高原リゾート感が共存する珍しいエリアです。ひとつの温泉地に閉じず、点在する湯を旅しながら回る感覚があります。",
+    "sections": [
+      {
+        "title": "鹿の湯が旅全体の背骨になる",
+        "body": [
+          "鹿の湯は、湯に入る所作そのものに歴史があり、旅の冒頭に置くと印象が強く残ります。",
+          "温度の違う浴槽を選ぶ体験も、那須らしさの一部です。"
+        ]
+      },
+      {
+        "title": "高原の抜け感が温泉旅を軽やかにする",
+        "body": [
+          "牧場、ロープウェイ、自然道など、温泉以外の外気を感じる時間が多く、高原旅としての満足度が高いのが那須です。",
+          "重たい温泉街というより、開放的な滞在を望む人に向きます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "夏",
+        "title": "避暑地として最も気持ちいい",
+        "description": "高原の風と温泉の温度差が心地よく、移動疲れが残りにくい。"
+      },
+      {
+        "season": "秋",
+        "title": "山の色づきが奥行きをつくる",
+        "description": "ドライブしながら湯を巡る旅に向く。"
+      }
+    ],
+    "modelCourse": [
+      "東京から新幹線で那須塩原へ",
+      "昼は高原エリアを回って空気の良さを感じる",
+      "夕方は鹿の湯か宿の湯で締める"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "鹿の湯",
+      "type": "culture",
+      "description": "那須の歴史と湯治文化を体感できる象徴的な外湯。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B9%BF%E3%81%AE%E6%B9%AF%20%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "那須ロープウェイ",
+      "type": "activity",
+      "description": "高原のスケール感を短時間で味わえる。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4%20%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "殺生石",
+      "type": "view",
+      "description": "荒涼とした地形が、那須の火山性を感じさせる。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AE%BA%E7%94%9F%E7%9F%B3%20%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "那須温泉",
+    "栃木県",
+    "歴史"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "鹿の湯",
+      "name": "鹿の湯",
+      "type": "day-trip",
+      "description": "那須温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B9%BF%E3%81%AE%E6%B9%AF%20%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "鹿の湯 那須温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJL26YcR6KH2ARg69TXLH2t0U",
+      "googleMapsUri": "https://maps.google.com/?cid=5023755150973710211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.shikanoyu.jp/",
+      "officialUrl": "https://www.shikanoyu.jp/",
+      "placePhotoName": "places/ChIJL26YcR6KH2ARg69TXLH2t0U/photos/ATCDNfWhFkGqP1TQsPEmz9s1jprYLt50Wz1lcbGSXMP6vL5JEUu3v69t1aeoWLloAZ9M4q5Aq8HXjM5s6moEgbq0DFuOMG10VBGaR7QeUdW0Cx32QSDkz3ZV_j1XNa-n0ap2Xc6IQ71YXzwbB5kA-R6f1LLrOv9frvtcZPnLXaElle0YkVl9qdEvnHXTZhV7ttDYTH5p49a2hBB3DJAMgv0IG47_DjPo92inR0GSE1IVlSCPJVKAtPEZZQpE4K-lu5YPzJcEl3JrjetsKASQxukXnbwVtFmrHszT-yOftXYsTlJY6A",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nasu/鹿の湯.jpg"
+    },
+    {
+      "slug": "休暇村那須",
+      "name": "休暇村那須",
+      "type": "day-trip",
+      "description": "那須温泉の中でも立ち寄りやすい日帰り入浴候補です。最初の一湯として検討しやすい施設です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%91%E6%9A%87%E6%9D%91%E9%82%A3%E9%A0%88%20%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "訪問前に営業時間、立ち寄り可否、タオル有無を確認しておくと回遊しやすくなります。",
+      "placeQuery": "休暇村那須 那須温泉 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJKY1lhVCKH2ARhDxVbciaJVk",
+      "googleMapsUri": "https://maps.google.com/?cid=6423710629132319876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.qkamura.or.jp/campaign/renewal_nasu/",
+      "officialUrl": "https://www.qkamura.or.jp/campaign/renewal_nasu/",
+      "placePhotoName": "places/ChIJKY1lhVCKH2ARhDxVbciaJVk/photos/ATCDNfW_woVWkCcy8zufhnD6mlC9iYTPiYOBO-GTP6GXOEhkeic5B4Nat18idlvxbI2WcBed0-O7yfb_1cbA3Ho8_3v6x7HDN4GWaKblP4yy5HVxACtYaWoVprm2jsGBwWyCxiFp-7e4bcKdR2qtNii0AoBBjmOzS0N315vWMSfBRyUlU4Rbr1rXJCigPzP3Ncu2yHj39m_Z-I-IOvq2lzZQ59RnUXpbVIsiHoBBvOQo4X_jFS1LKQsAFb-uZDn9tFv3wgullHPFQ25N6fOqPH9R2TOeUW496GQtYVrfnb_eYnl27w",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nasu/休暇村那須.jpg"
+    }
+  ]
+}

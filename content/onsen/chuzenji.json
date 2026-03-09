@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "chuzenji",
+    "name": "中禅寺温泉",
+    "nameEn": "Chuzenji",
+    "prefecture": "栃木県",
+    "area": "日光・鬼怒川"
+  },
+  "summary": {
+    "catchcopy": "中禅寺湖畔に湧く、日光の奥座敷。男体山を望む絶景と濃厚な硫黄泉。",
+    "lead": "標高1,269m、日本一標高の高い場所にある湖「中禅寺湖」の北岸に位置する温泉地。日光湯元から引湯した約12kmの間に適温になり、肌あたりが柔らかくなります。",
+    "shortDescription": "標高1,269m、日本一標高の高い場所にある湖「中禅寺湖」の北岸に位置する温泉地。日光湯元から引湯した約12kmの間に適温になり、肌あたりが柔らかくなります。"
+  },
+  "highlights": [
+    "中禅寺湖",
+    "華厳の滝",
+    "二荒山神社中宮祠"
+  ],
+  "spring": {
+    "springTypes": [
+      "硫黄泉（硫化水素型）"
+    ],
+    "effects": [
+      "リウマチ",
+      "糖尿病",
+      "高血圧症",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "源泉かけ流し",
+      "高温（加水調整）",
+      "湖畔の温泉"
+    ],
+    "waterQuality": "無色または白濁"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "日光駅",
+      "line": "JR/東武",
+      "busTime": 50
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 50,
+        "description": "JR/東武 日光駅からバスで約50分"
+      },
+      "byCar": {
+        "time": 120,
+        "description": "日光宇都宮道路 清滝ICからいろは坂経由"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "中禅寺温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "レイクビューの宿",
+      "高原リゾート",
+      "フレンチの名店あり"
+    ],
+    "style": "中禅寺温泉は、中禅寺湖畔に湧く、日光の奥座敷。男体山を望む絶景と濃厚な硫黄泉。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "レイクビューの宿",
+      "高原リゾート",
+      "フレンチの名店あり"
+    ]
+  },
+  "story": {
+    "intro": "標高1,269m、日本一標高の高い場所にある湖「中禅寺湖」の北岸に位置する温泉地。日光湯元から引湯した約12kmの間に適温になり、肌あたりが柔らかくなります。",
+    "sections": [
+      {
+        "title": "天空の湖畔リゾート",
+        "body": [
+          "明治時代から国際的な避暑地として栄え、各国の大使館別荘が立ち並んだ歴史を持ちます。硫黄の香りが漂う濃厚な温泉に浸かりながら、男体山や中禅寺湖の雄大な景色を眺める贅沢は格別です。\n### 華厳の滝とパワースポット\n日本三名瀑の一つ「華厳の滝」や、縁結びのご利益で知られる「二荒山神社中宮祠」など、パワースポットへのアクセスも抜群です。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "中禅寺湖を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "中禅寺湖畔に湧く、日光の奥座敷。男体山を望む絶景と濃厚な硫黄泉。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "華厳の滝と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 中禅寺湖 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "華厳の滝 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "中禅寺湖",
+      "type": "highlight",
+      "description": "中禅寺温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B9%96%20%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "華厳の滝",
+      "type": "highlight",
+      "description": "中禅寺温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%E5%8E%B3%E3%81%AE%E6%BB%9D%20%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    },
+    {
+      "name": "二荒山神社中宮祠",
+      "type": "highlight",
+      "description": "中禅寺温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E8%8D%92%E5%B1%B1%E7%A5%9E%E7%A4%BE%E4%B8%AD%E5%AE%AE%E7%A5%A0%20%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "中禅寺温泉",
+    "栃木県",
+    "中禅寺湖",
+    "華厳の滝",
+    "避暑地"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "中禅寺温泉-温泉街中心部",
+      "name": "中禅寺温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "中禅寺温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%97%A5%E5%85%89%E3%83%BB%E9%AC%BC%E6%80%92%E5%B7%9D%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "中禅寺温泉 日光・鬼怒川 栃木県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJdzXriwivH2ARRX_JL7-lc8M",
+      "googleMapsUri": "https://maps.google.com/?cid=14083782700276744005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.ritzcarlton.com/en/hotels/tyonz-the-ritz-carlton-nikko/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "officialUrl": "https://www.ritzcarlton.com/en/hotels/tyonz-the-ritz-carlton-nikko/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "placePhotoName": "places/ChIJdzXriwivH2ARRX_JL7-lc8M/photos/ATCDNfWJzzuoz_3B5VHorFxqL_OzyYepPW1Dpx8ct2e8YHw3wPTahq0EkaTTugn0UGkTLzq9GzG_7PpWxuURPkmiiXV4U7lyN5_eG0ksPLNPNTXwBddqhDbUKHN3uoK7H4NhxAMVCYDuFzg72hojy3pKQ0JehOc3y01lk6kABRQAWTY93JPcqMD0iCsMrEnBVhNCowHW7GVq7mF_8iPY_8vVEhdm2ou0jpJF0Eieo1wvCFsqbvgdLyUSCp2_My3CCtGXlHyIp4SLOzTmeVbTzPntWNAB2W8wlqdK7Ep9MDPvhKe6lA",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chuzenji/中禅寺温泉-温泉街中心部.jpg"
+    }
+  ]
+}

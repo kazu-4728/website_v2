@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "slug": "oarai",
+    "name": "大洗温泉",
+    "nameEn": "Oarai",
+    "prefecture": "茨城県",
+    "area": "茨城"
+  },
+  "summary": {
+    "catchcopy": "太平洋を一望する海辺の温泉。潮騒を聞きながら、保温効果抜群の塩化物泉を。",
+    "lead": "大洗海岸の波打ち際に湧く温泉。塩分を含んだお湯は保温効果が高く、「温まりの湯」として知られています。",
+    "shortDescription": "大洗海岸の波打ち際に湧く温泉。塩分を含んだお湯は保温効果が高く、「温まりの湯」として知られています。"
+  },
+  "highlights": [
+    "大洗磯前神社（神磯の鳥居）",
+    "アクアワールド茨城県大洗水族館",
+    "大洗サンビーチ"
+  ],
+  "spring": {
+    "springTypes": [
+      "ナトリウム-塩化物泉"
+    ],
+    "effects": [
+      "切り傷",
+      "火傷",
+      "慢性皮膚病",
+      "虚弱児童"
+    ],
+    "characteristics": [
+      "美人の仕上げの湯",
+      "殺菌効果",
+      "オーシャンビュー"
+    ],
+    "waterQuality": "無色透明"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "大洗駅",
+      "line": "鹿島臨海鉄道大洗鹿島線"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "鹿島臨海鉄道大洗鹿島線 大洗駅"
+      },
+      "byCar": {
+        "time": 15,
+        "description": "北関東自動車道 水戸大洗ICから約15分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "大洗温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "オーシャンビューホテル",
+      "あんこう鍋が食べられる宿",
+      "リゾートホテル"
+    ],
+    "style": "大洗温泉は、太平洋を一望する海辺の温泉。潮騒を聞きながら、保温効果抜群の塩化物泉を。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "オーシャンビューホテル",
+      "あんこう鍋が食べられる宿",
+      "リゾートホテル"
+    ]
+  },
+  "story": {
+    "intro": "大洗海岸の波打ち際に湧く温泉。塩分を含んだお湯は保温効果が高く、「温まりの湯」として知られています。",
+    "sections": [
+      {
+        "title": "太平洋のパノラマと海の幸",
+        "body": [
+          "大洗温泉の魅力は、何と言ってもそのロケーション。多くの宿や日帰り入浴施設から、雄大な太平洋を眺めることができます。特に初日の出のスポットとしても有名です。冬には名物「あんこう鍋」を目当てに多くの観光客が訪れます。\n### 聖地巡礼と水族館\n大洗磯前神社の「神磯の鳥居」は、岩礁に立つ鳥居越しに昇る朝日や月が神秘的な絶景スポット。また、関東最大級の水族館「アクアワールド茨城県大洗水族館」も近く、一日中楽しめます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "大洗磯前神社（神磯の鳥居）を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "太平洋を一望する海辺の温泉。潮騒を聞きながら、保温効果抜群の塩化物泉を。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "アクアワールド茨城県大洗水族館と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 大洗磯前神社（神磯の鳥居） 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "アクアワールド茨城県大洗水族館 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "大洗磯前神社（神磯の鳥居）",
+      "type": "highlight",
+      "description": "大洗温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E7%A3%AF%E5%89%8D%E7%A5%9E%E7%A4%BE%EF%BC%88%E7%A5%9E%E7%A3%AF%E3%81%AE%E9%B3%A5%E5%B1%85%EF%BC%89%20%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+    },
+    {
+      "name": "アクアワールド茨城県大洗水族館",
+      "type": "highlight",
+      "description": "大洗温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E8%8C%A8%E5%9F%8E%E7%9C%8C%E5%A4%A7%E6%B4%97%E6%B0%B4%E6%97%8F%E9%A4%A8%20%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+    },
+    {
+      "name": "大洗サンビーチ",
+      "type": "highlight",
+      "description": "大洗温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E3%82%B5%E3%83%B3%E3%83%93%E3%83%BC%E3%83%81%20%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "大洗温泉",
+    "茨城県",
+    "海",
+    "あんこう鍋",
+    "絶景"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "大洗温泉-温泉街中心部",
+      "name": "大洗温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "大洗温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "大洗温泉 茨城 茨城県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJeaHK2TYxImARhPMpdotVojk",
+      "googleMapsUri": "https://maps.google.com/?cid=4152975863860294532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://siosai.jp/",
+      "officialUrl": "https://siosai.jp/",
+      "placePhotoName": "places/ChIJeaHK2TYxImARhPMpdotVojk/photos/ATCDNfUb9r6IYHgIao6cu05nCB9Z939BLSeXCfoWsXL47Z3dEUjG1EGoj_GD6GrtVX30opAegeymH7PgCYMSJfOw3xB-1Ru1P7BS_DsguvjGiTiTmfpRd3iuX44cr5x_KfqTCCwzC-mszalnEW27tnZARCQwAzyhMQTCuYG5cds6191Q7xsFRr9prFCKM7bWiShz-0eJw6vJX3c5EzJm3ZDro-udqO7evbFvYMM6SQW_w5jlpN2CY2U5zjB4p7Cos0JSZy4MdWMzoAzNMVngFYnFpLz37QqxhdbEyUVWZ6PMRyXlV1iouD4rybVioeNeCGN-G46ePnm97MYYBoVYtNCpgdYNvLH9p7X5hSAWKAw_ucS1wcemb2GMMZAhRrbq2DqEaOlYxj2tsFvD41cCSilz4MLKG3RAYTZDp6Nl5oebZpsgFE6FsDB7eYRqiAGW5DTj",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oarai/大洗温泉-温泉街中心部.jpg"
+    }
+  ]
+}

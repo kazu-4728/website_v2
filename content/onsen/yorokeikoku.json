@@ -1,0 +1,194 @@
+{
+  "identity": {
+    "slug": "yorokeikoku",
+    "name": "養老渓谷温泉",
+    "nameEn": "Yorokeikoku",
+    "prefecture": "千葉県",
+    "area": "南房総"
+  },
+  "summary": {
+    "catchcopy": "独特の「黒湯」が自慢の温泉郷。渓谷の自然美と共に楽しむ美肌の湯。",
+    "lead": "房総半島のへそにあたる位置にある温泉郷。茶褐色のとろみのある「黒湯」は、美肌効果が高いと評判です。",
+    "shortDescription": "房総半島のへそにあたる位置にある温泉郷。茶褐色のとろみのある「黒湯」は、美肌効果が高いと評判です。"
+  },
+  "highlights": [
+    "粟又の滝",
+    "養老渓谷の紅葉",
+    "弘文洞跡"
+  ],
+  "spring": {
+    "springTypes": [
+      "ナトリウム-塩化物・炭酸水素塩泉（黒湯）"
+    ],
+    "effects": [
+      "神経痛",
+      "冷え性",
+      "疲労回復",
+      "美肌効果"
+    ],
+    "characteristics": [
+      "黒湯（コーヒー色）",
+      "渓谷沿い",
+      "房総の奥座敷"
+    ],
+    "waterQuality": "黒色（褐色）"
+  },
+  "access": {
+    "nearestStation": {
+      "name": "養老渓谷駅",
+      "line": "小湊鐵道"
+    },
+    "fromTokyo": {
+      "byTrain": {
+        "time": 120,
+        "description": "小湊鐵道 養老渓谷駅"
+      },
+      "byCar": {
+        "time": 20,
+        "description": "圏央道 市原鶴舞ICから約20分"
+      }
+    },
+    "parking": {
+      "available": true,
+      "notes": "現地施設ごとに要確認"
+    },
+    "areaMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialLinks": [
+      {
+        "label": "養老渓谷温泉 を Google マップで開く",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C"
+      }
+    ]
+  },
+  "stay": {
+    "dayTripAvailable": true,
+    "dayTripFacilities": [],
+    "features": [
+      "渓谷沿いの宿",
+      "アットホームな旅館",
+      "オートキャンプ場あり"
+    ],
+    "style": "養老渓谷温泉は、独特の「黒湯」が自慢の温泉郷。渓谷の自然美と共に楽しむ美肌の湯。を楽しみたい旅に向いています。",
+    "bestFor": [
+      "渓谷沿いの宿",
+      "アットホームな旅館",
+      "オートキャンプ場あり"
+    ]
+  },
+  "story": {
+    "intro": "房総半島のへそにあたる位置にある温泉郷。茶褐色のとろみのある「黒湯」は、美肌効果が高いと評判です。",
+    "sections": [
+      {
+        "title": "幻想的な「黒湯」の魅力",
+        "body": [
+          "ヨード分を含んだ独特の黒いお湯は、肌触りがなめらかで保湿効果抜群。入浴後は肌がスベスベになると好評です。渓谷のせせらぎを聞きながら、非日常のひとときを過ごせます。\n### 養老渓谷の絶景\n日本一遅い紅葉と言われる養老渓谷の紅葉や、落差30mの「粟又の滝」、弘文洞跡など、ハイキングコースも充実しており、自然散策と温泉をセットで楽しめます。"
+        ]
+      }
+    ],
+    "seasonalNotes": [
+      {
+        "season": "春",
+        "title": "新緑の季節",
+        "description": "粟又の滝を軸に、軽やかな散策と湯浴みを組み合わせやすい季節です。"
+      },
+      {
+        "season": "夏",
+        "title": "高原や渓谷が気持ちいい時期",
+        "description": "独特の「黒湯」が自慢の温泉郷。渓谷の自然美と共に楽しむ美肌の湯。"
+      },
+      {
+        "season": "秋",
+        "title": "紅葉と湯けむりの相性",
+        "description": "養老渓谷の紅葉と紅葉を合わせて楽しみたい時期です。"
+      },
+      {
+        "season": "冬",
+        "title": "湯の力を感じやすい季節",
+        "description": "外気とのコントラストで温泉の心地よさがより強く感じられ、写真映えもしやすくなります。"
+      }
+    ],
+    "modelCourse": [
+      "到着後は 粟又の滝 周辺を歩いて、温泉地全体の空気感をつかむ。",
+      "湯上がりは 日帰り入浴施設 や街歩きで、その土地らしい過ごし方を味わう。",
+      "養老渓谷の紅葉 を組み合わせて、写真と温泉の両方が印象に残る一日に仕上げる。"
+    ]
+  },
+  "nearby": [
+    {
+      "name": "粟又の滝",
+      "type": "highlight",
+      "description": "養老渓谷温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B2%9F%E5%8F%88%E3%81%AE%E6%BB%9D%20%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "養老渓谷の紅葉",
+      "type": "highlight",
+      "description": "養老渓谷温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E3%81%AE%E7%B4%85%E8%91%89%20%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    },
+    {
+      "name": "弘文洞跡",
+      "type": "highlight",
+      "description": "養老渓谷温泉と合わせて体験価値を高めやすい立ち寄りポイントです。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%98%E6%96%87%E6%B4%9E%E8%B7%A1%20%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+    }
+  ],
+  "seoTags": [
+    "養老渓谷温泉",
+    "千葉県",
+    "黒湯",
+    "渓谷",
+    "紅葉"
+  ],
+  "onsenSpots": [
+    {
+      "slug": "養老渓谷温泉-温泉街中心部",
+      "name": "養老渓谷温泉 温泉街中心部",
+      "type": "area-core",
+      "description": "養老渓谷温泉全体の位置関係と、周辺の入浴施設を確認するための基点です。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%8D%97%E6%88%BF%E7%B7%8F%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "bookingHint": "現地で日帰り湯や共同浴場を追加で探す際の起点として使えます。",
+      "placeQuery": "養老渓谷温泉 南房総 千葉県",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "placeId": "ChIJEUF6aOCtImARgpsEJv9BQeQ",
+      "googleMapsUri": "https://maps.google.com/?cid=16447499878244064130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placePhotoName": "places/ChIJEUF6aOCtImARgpsEJv9BQeQ/photos/ATCDNfUo3H3KlVG9tV_L5ZMd2cZev6e1UR60tV725APrpHP15jeRYjBGUvwZ_gWY-15x0BbBniF9l9YN7_Rg1h2Xs7fKRUqbRauYJc49y0WmeFQLJF5paFIE7W1plLoZNIU7bBJWe9zkSDB8rbG9dwN1Uz8PrKURvEtO0jEVf6fFQDTdT0MkrsRA0IQPDazzCZYwr3w7KtTtHcvPd3AWD_uEolhaznZwx45NQO6efQqdw0AxCLe526jxdE9HRzp-tccMASDVfU89Ngo8KQrSXsHTZopnUq5d0euSZLtCPCCF4w58lg",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yorokeikoku/養老渓谷温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "滝見苑けんこう村-ごりやくの湯",
+      "name": "滝見苑けんこう村 ごりやくの湯",
+      "type": "day-trip",
+      "description": "養老渓谷温泉 の中でも 滝見苑けんこう村 ごりやくの湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=11861531093586831185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "滝見苑けんこう村 ごりやくの湯 千葉県",
+      "placeId": "ChIJcY_jA52yImARUWd-Pa-fnKQ",
+      "googleMapsUri": "https://maps.google.com/?cid=11861531093586831185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.goriyakunoyu.jp/",
+      "officialUrl": "https://www.goriyakunoyu.jp/",
+      "placePhotoName": "places/ChIJcY_jA52yImARUWd-Pa-fnKQ/photos/ATCDNfX_2ADAFqoChLVT_zJ0buaeVqX3ltLgmrZ3CcivLt3h_ucnKsjIn9SVNVJGL2bBqiz-Lt1SyTEyuZ45HlECJJzua-zz0OEXHSFDoid4mPbLplpdOLfWGZ6KqHscReBbF8W5OOltrC_VVrKfBSN40HEzfRmU2i3GkQ2kU8bd1q4vUdlheWzdj7mIOnXm6Xdxvnf4Xbq75r9HS2hZpld9SeTvVDe-EytkyIdbKzhid_8xDCAyCPCUeGAUH8idESe1FfycCGWmuqH2cl6Cos66iZU0zawrImuyqXJGsYliOnFu6Q",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yorokeikoku/滝見苑けんこう村-ごりやくの湯.jpg"
+    },
+    {
+      "slug": "養老温泉の源泉",
+      "name": "養老温泉の源泉",
+      "type": "day-trip",
+      "description": "養老渓谷温泉 の中でも 養老温泉の源泉 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=12050597302147171562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "養老温泉の源泉 千葉県",
+      "placeId": "ChIJJ_VpqAquImAR6kTDRWZSPKc",
+      "googleMapsUri": "https://maps.google.com/?cid=12050597302147171562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.youroukeikoku.com/spot/gensen",
+      "officialUrl": "https://www.youroukeikoku.com/spot/gensen",
+      "placePhotoName": "places/ChIJJ_VpqAquImAR6kTDRWZSPKc/photos/ATCDNfW4rZqC7MxWAvLE_oZpPAKA1HWtGx7ZOJ3npvMnU20UZ14gQkOLU3pQy4ZgvYo_IHmpRWo54OL1mKjS9OVUKOzGc1859f6EIGSa_GaDjWvHDfZbSjpK1Lt8EFGj_cWt83B0ZEdzR3gZ2OrS1Q8dZA1gkS5wzOO4gZLdrXc1EPfPy8RVZo1ztuaTYmoXRkQJ0gaE_H-FPN1hPdZZCvwOlpjK0WBX0ILB30uLU9rLQa_rN2ouFplOpz3cmArEFUBsqx0tPRZ0W8og6YO8UOX9wJT6lqe7M3_d4KIw8GAFnsN2xFB6i6QTF8qwEp43gFH5tnxSaoqIo-e8s8y3LJHX-yGiNWCQIrpMMH7SfhHZ_euNEIQx0mHaiOQ_ndxIqpsZAYcPllhX74Wc-ZIlC9qXvResInggcEWuiZsC-5S20qI",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yorokeikoku/養老温泉の源泉.jpg"
+    }
+  ]
+}

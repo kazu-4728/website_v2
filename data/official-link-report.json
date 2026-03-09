@@ -1,0 +1,509 @@
+{
+  "summary": {
+    "total": 50,
+    "ok": 48,
+    "broken": 2
+  },
+  "entries": [
+    {
+      "type": "spot",
+      "slug": "chichibu",
+      "spot": "秩父温泉-温泉街中心部",
+      "label": "秩父温泉 温泉街中心部",
+      "url": "https://www.chichibuonsen.co.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.chichibuonsen.co.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "chuzenji",
+      "spot": "中禅寺温泉-温泉街中心部",
+      "label": "中禅寺温泉 温泉街中心部",
+      "url": "https://www.ritzcarlton.com/en/hotels/tyonz-the-ritz-carlton-nikko/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.ritzcarlton.com/en/hotels/tyonz-the-ritz-carlton-nikko/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    {
+      "type": "spot",
+      "slug": "fukuroda",
+      "spot": "袋田温泉-温泉街中心部",
+      "label": "袋田温泉 温泉街中心部",
+      "url": "https://www.roman-kan.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.roman-kan.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "gora",
+      "spot": "強羅温泉-温泉街中心部",
+      "label": "強羅温泉 温泉街中心部",
+      "url": "https://www.laforet.co.jp/gora/?utm_source=google&utm_medium=maps&utm_campaign=gmb",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.laforet.co.jp/gora/?utm_source=google&utm_medium=maps&utm_campaign=gmb"
+    },
+    {
+      "type": "spot",
+      "slug": "hakone",
+      "spot": "箱根湯寮",
+      "label": "箱根湯寮",
+      "url": "https://www.hakoneyuryo.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.hakoneyuryo.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+    },
+    {
+      "type": "spot",
+      "slug": "hakone",
+      "spot": "天成園",
+      "label": "天成園",
+      "url": "https://www.tenseien.co.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.tenseien.co.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "hakone",
+      "spot": "湯の里おかだ",
+      "label": "湯の里おかだ",
+      "url": "https://www.yunosato-y.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.yunosato-y.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "ikaho",
+      "spot": "伊香保露天風呂",
+      "label": "伊香保露天風呂",
+      "url": "https://www.ikaho-kankou.com/spring/spa1/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.ikaho-kankou.com/spring/spa1/"
+    },
+    {
+      "type": "spot",
+      "slug": "ikaho",
+      "spot": "石段の湯",
+      "label": "石段の湯",
+      "url": "https://www.city.shibukawa.lg.jp/kankou/000357/000361/p003077.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.city.shibukawa.lg.jp/kankou/000357/000361/p003077.html"
+    },
+    {
+      "type": "spot",
+      "slug": "kamikawa",
+      "spot": "かんなの湯",
+      "label": "かんなの湯",
+      "url": "http://www.kannanoyu.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://www.kannanoyu.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "kamogawa",
+      "spot": "鴨川温泉-温泉街中心部",
+      "label": "鴨川温泉 温泉街中心部",
+      "url": "https://zekuu.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://zekuu.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "katsuura",
+      "spot": "勝浦スパホテル三日月",
+      "label": "勝浦スパホテル三日月",
+      "url": "https://hmihotelgroup.com/mikazukikatsuura/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://hmihotelgroup.com/mikazukikatsuura/"
+    },
+    {
+      "type": "spot",
+      "slug": "kawaji",
+      "spot": "薬師の湯-共同浴場",
+      "label": "薬師の湯（共同浴場）",
+      "url": "https://www.city.nikko.lg.jp/soshiki/6/1026/8/1040.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.city.nikko.lg.jp/soshiki/6/1026/8/1040.html"
+    },
+    {
+      "type": "spot",
+      "slug": "kawaji",
+      "spot": "日光和の代温泉-やしおの湯",
+      "label": "日光和の代温泉 やしおの湯",
+      "url": "https://www.yashionoyu.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.yashionoyu.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "kawaji",
+      "spot": "湯けむりの里-柏屋",
+      "label": "湯けむりの里 柏屋",
+      "url": "http://www.kashiwaya-kawaji.jp/",
+      "ok": false,
+      "status": 403,
+      "finalUrl": "http://www.kashiwaya-kawaji.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "kawarayu",
+      "spot": "王湯-共同浴場",
+      "label": "王湯（共同浴場）",
+      "url": "http://www.kawarayu.jp/ouyu.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://www.kawarayu.jp/ouyu.html"
+    },
+    {
+      "type": "spot",
+      "slug": "kawarayu",
+      "spot": "川原湯温泉あそびの基地NOA",
+      "label": "川原湯温泉あそびの基地NOA",
+      "url": "https://yamba-kawarayu-noa.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://yamba-kawarayu-noa.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "kawarayu",
+      "spot": "吾妻峡温泉天狗の湯",
+      "label": "吾妻峡温泉天狗の湯",
+      "url": "https://agatsumakyo.jp/relax/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://agatsumakyo.jp/relax/"
+    },
+    {
+      "type": "spot",
+      "slug": "kinugawa",
+      "spot": "日光きぬ川ホテル三日月",
+      "label": "日光きぬ川ホテル三日月",
+      "url": "https://www.mikazuki.co.jp/kinugawa/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.mikazuki.co.jp/kinugawa/"
+    },
+    {
+      "type": "spot",
+      "slug": "kusatsu",
+      "spot": "大滝乃湯",
+      "label": "大滝乃湯",
+      "url": "https://onsen-kusatsu.com/ohtakinoyu/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://onsen-kusatsu.com/ohtakinoyu/"
+    },
+    {
+      "type": "spot",
+      "slug": "kusatsu",
+      "spot": "西の河原露天風呂",
+      "label": "西の河原露天風呂",
+      "url": "https://onsen-kusatsu.com/sainokawara/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://onsen-kusatsu.com/sainokawara/"
+    },
+    {
+      "type": "spot",
+      "slug": "kusatsu",
+      "spot": "御座之湯",
+      "label": "御座之湯",
+      "url": "https://onsen-kusatsu.com/gozanoyu/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://onsen-kusatsu.com/gozanoyu/"
+    },
+    {
+      "type": "spot",
+      "slug": "kusatsu",
+      "spot": "西の河原公園",
+      "label": "西の河原公園",
+      "url": "https://www.town.kusatsu.gunma.jp/www/contents/1485304883583/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.town.kusatsu.gunma.jp/www/contents/1485304883583/index.html"
+    },
+    {
+      "type": "spot",
+      "slug": "manza",
+      "spot": "万座プリンスホテル日帰り湯",
+      "label": "万座プリンスホテル日帰り湯",
+      "url": "https://www.manza.co.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.manza.co.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "manza",
+      "spot": "万座高原ホテル",
+      "label": "万座高原ホテル",
+      "url": "https://www.princehotels.co.jp/manza-kogen/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.princehotels.co.jp/manza-kogen/"
+    },
+    {
+      "type": "spot",
+      "slug": "manza",
+      "spot": "万座温泉スキー場",
+      "label": "万座温泉スキー場",
+      "url": "https://www.princehotels.co.jp/ski/manza/winter/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.princehotels.co.jp/ski/manza/winter/"
+    },
+    {
+      "type": "spot",
+      "slug": "nanasawa",
+      "spot": "広沢寺温泉",
+      "label": "広沢寺温泉",
+      "url": "http://www.nanasawasou.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://www.nanasawasou.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "nasu",
+      "spot": "鹿の湯",
+      "label": "鹿の湯",
+      "url": "https://www.shikanoyu.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.shikanoyu.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "nasu",
+      "spot": "休暇村那須",
+      "label": "休暇村那須",
+      "url": "https://www.qkamura.or.jp/campaign/renewal_nasu/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.qkamura.or.jp/campaign/renewal_nasu/"
+    },
+    {
+      "type": "spot",
+      "slug": "nikko-yumoto",
+      "spot": "薬師湯",
+      "label": "薬師湯",
+      "url": "https://www.rinnoji.or.jp/history/temple/onsenji.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.rinnoji.or.jp/history/temple/onsenji.html"
+    },
+    {
+      "type": "spot",
+      "slug": "nikko-yumoto",
+      "spot": "ゆ処山月五識の湯",
+      "label": "ゆ処山月五識の湯",
+      "url": "http://www.hotel-sangetsu.co.jp/f-yudokoro.htm",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://www.hotel-sangetsu.co.jp/f-yudokoro.htm"
+    },
+    {
+      "type": "spot",
+      "slug": "oarai",
+      "spot": "大洗温泉-温泉街中心部",
+      "label": "大洗温泉 温泉街中心部",
+      "url": "https://siosai.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://siosai.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "oigami",
+      "spot": "老神温泉-日帰り天然温泉-湯元華亭",
+      "label": "老神温泉 日帰り天然温泉 湯元華亭",
+      "url": "http://www.hanatei.info/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.hanatei.info/"
+    },
+    {
+      "type": "spot",
+      "slug": "oigami",
+      "spot": "老神温泉-伍楼閣",
+      "label": "老神温泉 伍楼閣",
+      "url": "http://www.gorokaku.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.gorokaku.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "okutama",
+      "spot": "奥多摩温泉-もえぎの湯",
+      "label": "奥多摩温泉 もえぎの湯",
+      "url": "https://www.okutamas.co.jp/moegi/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.okutamas.co.jp/moegi/"
+    },
+    {
+      "type": "spot",
+      "slug": "seotonoyu",
+      "spot": "無料足湯",
+      "label": "無料足湯",
+      "url": "http://www.seotonoyu.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://www.seotonoyu.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "shima",
+      "spot": "四万温泉-温泉街中心部",
+      "label": "四万温泉 温泉街中心部",
+      "url": "https://www.sekizenkan.co.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.sekizenkan.co.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "shima",
+      "spot": "四万清流の湯",
+      "label": "四万清流の湯",
+      "url": "https://nakanojo-kanko.jp/shima/hotsprings/seiryu/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://nakanojo-kanko.jp/shima/hotsprings/seiryu/"
+    },
+    {
+      "type": "spot",
+      "slug": "shima",
+      "spot": "御夢想の湯",
+      "label": "御夢想の湯",
+      "url": "https://nakanojo-kanko.jp/shima/hotsprings/gomusounoyu/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://nakanojo-kanko.jp/shima/hotsprings/gomusounoyu/"
+    },
+    {
+      "type": "spot",
+      "slug": "shiobara",
+      "spot": "塩原温泉郷-温泉街中心部",
+      "label": "塩原温泉郷 温泉街中心部",
+      "url": "https://www.keiunkaku.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.keiunkaku.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "shiobara",
+      "spot": "日帰り温泉-塩原あかつきの湯",
+      "label": "日帰り温泉 塩原あかつきの湯",
+      "url": "http://www.acatsuki.co.jp/shiobara/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://www.acatsuki.co.jp/shiobara/"
+    },
+    {
+      "type": "spot",
+      "slug": "shiobara",
+      "spot": "塩原元湯温泉-大出館",
+      "label": "塩原元湯温泉 大出館",
+      "url": "http://ooidekan.com/spa.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.ooidekan.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "shirahama",
+      "spot": "白浜温泉-温泉街中心部",
+      "label": "白浜温泉 温泉街中心部",
+      "url": "https://shirahama-ocean-resort.com/?utm_source=google&utm_medium=GBP&utm_campaign=ShirahamaOR",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://shirahama-ocean-resort.com/?utm_source=google&utm_medium=GBP&utm_campaign=ShirahamaOR"
+    },
+    {
+      "type": "spot",
+      "slug": "takaragawa",
+      "spot": "大露天風呂-子宝の湯",
+      "label": "大露天風呂「子宝の湯」",
+      "url": "https://www.takaragawa.com/huro04.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.takaragawa.com/huro04.html"
+    },
+    {
+      "type": "spot",
+      "slug": "yorokeikoku",
+      "spot": "滝見苑けんこう村-ごりやくの湯",
+      "label": "滝見苑けんこう村 ごりやくの湯",
+      "url": "https://www.goriyakunoyu.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.goriyakunoyu.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "yorokeikoku",
+      "spot": "養老温泉の源泉",
+      "label": "養老温泉の源泉",
+      "url": "http://www.youroukeikoku.com/spot/gensen/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.youroukeikoku.com/spot/gensen"
+    },
+    {
+      "type": "spot",
+      "slug": "yugawara",
+      "spot": "こごめの湯",
+      "label": "こごめの湯",
+      "url": "http://kogomenoyu.com/hpgen/HPB/entries/9.html",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "http://kogomenoyu.com/hpgen/HPB/entries/9.html"
+    },
+    {
+      "type": "spot",
+      "slug": "yugawara",
+      "spot": "独歩の湯",
+      "label": "独歩の湯",
+      "url": "http://doppo555.blog108.fc2.com/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "http://doppo555.blog108.fc2.com/"
+    },
+    {
+      "type": "spot",
+      "slug": "yunishigawa",
+      "spot": "湯西川水の郷",
+      "label": "湯西川水の郷",
+      "url": "https://yunishigawa-mizunosato.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://yunishigawa-mizunosato.jp/"
+    },
+    {
+      "type": "spot",
+      "slug": "yunishigawa",
+      "spot": "湯西川温泉-上屋敷-平の高房",
+      "label": "湯西川温泉 上屋敷 平の高房",
+      "url": "https://www.takafusa.jp/",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.takafusa.jp/"
+    }
+  ]
+}
