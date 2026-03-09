@@ -31,7 +31,8 @@
     "sync:google-place-photos": ".\\.venv\\Scripts\\python.exe scripts\\sync-google-place-photos.py",
     "check:official-links": "node scripts/check-official-links.mjs",
     "apply:official-links": "node scripts/apply-official-link-report.mjs",
-    "discover:google-onsen-spots": "node scripts/discover-google-onsen-spots.mjs"
+    "discover:google-onsen-spots": "node scripts/discover-google-onsen-spots.mjs",
+    "preview:3002": "cross-env PORT=3002 node scripts/preview-static.mjs"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
