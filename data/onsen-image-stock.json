@@ -1,9 +1,647 @@
 {
-    "kusatsu": [],
-    "hakone": [],
-    "kinugawa": [],
-    "nasu": [],
-    "ikaho": [],
-    "manza": [],
-    "atami": []
+  "_comment": "温泉画像ストック - ヒーローセクションと温泉紹介ページ用",
+  "_requirements": {
+    "hero": "ヒーローセクションには温泉が写っている画像が絶対条件",
+    "onsenPage": "温泉紹介ページには温泉自体が写っている画像が絶対条件",
+    "selection": "複数の画像候補から選択可能"
+  },
+  "hero": {
+    "primary": [
+      {
+        "id": "kusatsu-yubatake",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+        "title": "草津温泉 湯畑",
+        "description": "草津温泉のシンボル・湯畑の湯けむり",
+        "hasOnsen": true,
+        "features": [
+          "湯畑",
+          "湯けむり",
+          "夜景"
+        ],
+        "author": "PekePON",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "wikimedia"
+      },
+      {
+        "id": "nasu-yumoto",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+        "title": "那須湯本温泉",
+        "description": "那須湯本温泉の源泉と湯けむり",
+        "hasOnsen": true,
+        "features": [
+          "源泉",
+          "湯けむり",
+          "自然"
+        ],
+        "author": "くろふね",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "wikimedia"
+      },
+      {
+        "id": "ikaho-stone-steps",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+        "title": "伊香保温泉 石段街",
+        "description": "伊香保温泉の石段街と温泉街の風景",
+        "hasOnsen": true,
+        "features": [
+          "石段街",
+          "温泉街",
+          "レトロ"
+        ],
+        "author": "ぴかきぃ",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "wikimedia"
+      }
+    ],
+    "alternative": [
+      {
+        "id": "atami-onsen",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
+        "title": "熱海温泉",
+        "description": "熱海温泉街の夕景",
+        "hasOnsen": true,
+        "features": [
+          "温泉街",
+          "夕景",
+          "海"
+        ],
+        "author": "663highland",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "wikimedia"
+      }
+    ]
+  },
+  "onsenPages": {
+    "kusatsu": [
+      {
+        "id": "kusatsu-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Kusatsu-yubatake_2004.JPG",
+        "title": "草津温泉",
+        "description": "日本三名泉の一つ。自然湧出量日本一を誇り、湯畑を中心とした情緒ある街並みが魅力です。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      },
+      {
+        "id": "kusatsu-yubatake-panorama",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%28%E7%BE%A4%E9%A6%AC%E7%9C%8C%29_%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%E3%81%AE%E6%B9%AF%E7%95%91%E3%81%AB%E3%81%A6%E3%80%82%E5%B7%A6%E3%82%92%E5%90%91%E3%81%8F%E3%81%A8%E8%A6%B3%E5%85%89%E5%AE%A2%E5%90%91%E3%81%91%E3%81%AE%E7%84%A1%E6%96%99%E3%81%AE%E6%BA%90%E6%B3%89%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E7%86%B1%E3%81%8F%E3%81%A6%E9%9B%A3%E3%81%97%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82_-_panoramio.jpg",
+        "title": "草津温泉 湯畑パノラマ",
+        "description": "草津温泉の湯畑と源泉のパノラマビュー",
+        "hasOnsen": true,
+        "features": [
+          "湯畑",
+          "源泉",
+          "パノラマ"
+        ],
+        "author": "Shift",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "wikimedia"
+      }
+    ],
+    "ikaho": [
+      {
+        "id": "ikaho-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ikaho_Onsen_04.JPG",
+        "title": "伊香保温泉",
+        "description": "365段の石段街がシンボルの歴史ある温泉地。黄金の湯と白銀の湯が楽しめます。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "nasu": [
+      {
+        "id": "nasu-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/800px-%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+        "title": "那須温泉",
+        "description": "1300年以上の歴史を誇る鹿の湯が有名な温泉地。高原のリゾートエリアとしても人気。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      },
+      {
+        "id": "nasu-yumoto-main",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%E9%82%A3%E9%A0%88%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+        "title": "那須湯本温泉",
+        "description": "那須高原の中腹に位置する那須湯本温泉",
+        "hasOnsen": true,
+        "features": [
+          "源泉",
+          "湯けむり",
+          "自然"
+        ],
+        "author": "くろふね",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "atami": [
+      {
+        "id": "atami-onsen-main",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/181122_Atami_Onsen_Shizuoka_pref_Japan01s.jpg",
+        "title": "熱海温泉",
+        "description": "海を望む熱海温泉街の夕景",
+        "hasOnsen": true,
+        "features": [
+          "温泉街",
+          "夕景",
+          "海"
+        ],
+        "author": "663highland",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "hakone": [
+      {
+        "id": "hakone-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hakone_Yunohana_Onsen_20220810.jpg/1920px-Hakone_Yunohana_Onsen_20220810.jpg",
+        "title": "箱根温泉",
+        "description": "都心から近く、多彩な泉質と絶景を楽しめる日本屈指の温泉リゾート。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "kinugawa": [
+      {
+        "id": "kinugawa-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kinugawa_Onsen_01.jpg",
+        "title": "鬼怒川温泉",
+        "description": "鬼怒川渓谷沿いに広がる、関東でも有数の大型温泉地。アルカリ性単純温泉が特徴です。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "manza": [
+      {
+        "id": "manza-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manza_Onsen_20120127.jpg/1920px-Manza_Onsen_20120127.jpg",
+        "title": "万座温泉",
+        "description": "標高1,800mに位置する空に近い温泉。硫黄含有量日本有数の白濁したお湯が特徴。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "shima": [
+      {
+        "id": "shima-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Yamagutirotenburo.jpg",
+        "title": "四万温泉",
+        "description": "四万の病を癒すと言われる名湯。レトロな建築が残る静かな温泉街が魅力です。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "kamogawa": [
+      {
+        "id": "kamogawa-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kamogawa_Sea_World_2008.jpg",
+        "title": "鴨川温泉",
+        "description": "房総半島のオーシャンビューが楽しめる温泉地。海の幸と共に温泉を堪能できます。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "chichibu": [
+      {
+        "id": "chichibu-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chichibu-Shrine.JPG",
+        "title": "秩父温泉",
+        "description": "豊かな自然と古い歴史を持つ秩父エリアの温泉。パワースポット巡りと共に。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "yugawara": [
+      {
+        "id": "yugawara-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yugawara_view_of_downtown.jpg",
+        "title": "湯河原温泉",
+        "description": "万葉集にも詠まれた歴史ある古湯。文豪たちに愛された静かな雰囲気が魅力。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "takaragawa": [
+      {
+        "id": "takaragawa-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Takaragawa_Onsen_2011.jpg",
+        "title": "宝川温泉",
+        "description": "広大な露天風呂が有名な秘湯。巨石を配した野趣あふれる湯船が特徴です。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "nikko-yumoto": [
+      {
+        "id": "nikko-yumoto-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+        "title": "日光湯元温泉",
+        "description": "奥日光の最奥部に位置する硫黄泉の温泉地。静かな湖畔と雪見風呂が楽しめます。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "yorokeikoku": [
+      {
+        "id": "yorokeikoku-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/800px-Yoro_Ravine_2008.jpg",
+        "title": "養老渓谷温泉",
+        "description": "植物由来の成分を含む黒湯が特徴。渓谷散策の後のリフレッシュに最適。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "seotonoyu": [
+      {
+        "id": "seotonoyu-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/800px-LakeOkutama0050.jpg",
+        "title": "秋川渓谷 瀬音の湯",
+        "description": "都心からすぐの秘境。アルカリ度の高い美肌の湯が、森林浴と共に楽しめます。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "fukuroda": [
+      {
+        "id": "fukuroda-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fukuroda_Falls_2011.jpg",
+        "title": "袋田温泉",
+        "description": "名瀑・袋田の滝の近くに位置する温泉。落ち着いた岩造りの湯船が癒やしてくれます。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "shiriyaki": [
+      {
+        "id": "shiriyaki-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shiriyaki_Onsen_2006.jpg",
+        "title": "尻焼温泉",
+        "description": "川の底からお湯が湧き出し、川全体が巨大な露天風呂となっている天然の温泉。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "shiobara": [
+      {
+        "id": "shiobara-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hokigawa_river_and_Shiobara_valley_001.jpg",
+        "title": "塩原温泉郷",
+        "description": "11もの泉質があり、箒川の渓谷美を間近に感じる情緒溢れる温泉郷。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "gora": [
+      {
+        "id": "gora-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/G%C5%8Dra_Park_20090818_10.jpg",
+        "title": "強羅温泉",
+        "description": "箱根登山鉄道の終着駅近く。大文字山を望む開放的な展望が魅力の温泉地。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "chuzenji": [
+      {
+        "id": "chuzenji-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%E3%81%AB%E3%81%94%E3%82%8A%E6%B9%AF%E6%BA%90%E6%B3%89%E3%81%8B%E3%81%91%E6%B5%81%E3%81%97%E7%A1%AB%E9%BB%84%E6%B3%89.jpg",
+        "title": "中禅寺温泉",
+        "description": "日光・中禅寺湖畔。男体山の麓で硫黄の香りに包まれる高原の温泉。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "katsuura": [
+      {
+        "id": "katsuura-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/800px-Katsuura_Chiba_2011.jpg",
+        "title": "勝浦温泉",
+        "description": "太平洋を望む絶景の展望風呂が自慢。海の幸と共にお楽しみください。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "yunishigawa": [
+      {
+        "id": "yunishigawa-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yunishigawa_Onsen_2013.jpg",
+        "title": "湯西川温泉",
+        "description": "平家落人伝説の里。冬には「かまくら」祭りと雪見風呂が幻想的です。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "nanasawa": [
+      {
+        "id": "nanasawa-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nanasawa_Onsen_2008.jpg",
+        "title": "七沢温泉",
+        "description": "東丹沢の麓。強アルカリ性のとろとろした肌触りが特徴の美肌の湯。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "oarai": [
+      {
+        "id": "oarai-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Oarai_Isosaki_Shrine_Kamiiso_no_Torii_2015.jpg",
+        "title": "大洗温泉",
+        "description": "太平洋の潮騒を聞きながら、温かい塩化物泉で心身ともにリラックス。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "kamikawa": [
+      {
+        "id": "kamikawa-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kami-izumi_Dam_02.jpg/1280px-Kami-izumi_Dam_02.jpg",
+        "title": "神川温泉",
+        "description": "県北部の静かな温泉地。檜の香りと柔らかなお湯が心地よい癒しの場。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "okutama": [
+      {
+        "id": "okutama-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/LakeOkutama0050.jpg",
+        "title": "奥多摩温泉",
+        "description": "多摩川の源流に近く、登山の疲れを癒す森林浴気分の露天風呂が人気。",
+        "hasOnsen": true,
+        "features": [
+          "area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "kawaji": [
+      {
+        "id": "kawaji-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kawaji_Onsen_2007.jpg",
+        "title": "川治温泉",
+        "description": "男鹿川と鬼怒川の合流点。川音をBGMに入浴する情緒ある岩風呂。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "sengokuhara": [
+      {
+        "id": "sengokuhara-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/800px-230910_Sengokuhara_Hakone_Japan06s3.jpg",
+        "title": "仙石原温泉",
+        "description": "箱根・ススキの原野に近く、大涌谷の引き湯による白濁の湯が楽しめます。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "oigami": [
+      {
+        "id": "oigami-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Oigami_Onsen_2010.jpg",
+        "title": "老神温泉",
+        "description": "深い渓谷を眼下に望む、素朴で力強い石造りの湯船が特徴の温泉地。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "shirahama": [
+      {
+        "id": "shirahama-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/800px-Nojimazaki_Lighthouse_2011.jpg",
+        "title": "白浜温泉",
+        "description": "房総半島最南端。太平洋と灯台を望む開放感抜群の露天風呂が自慢。",
+        "hasOnsen": true,
+        "features": [
+          "onsen-area"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ],
+    "kawarayu": [
+      {
+        "id": "kawarayu-primary",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kawarayu_Onsen_Yubatake_2015.jpg/1280px-Kawarayu_Onsen_Yubatake_2015.jpg",
+        "title": "川原湯温泉",
+        "description": "ダムを望む高台に移転した新しい温泉街。清々しい檜造りの湯船が魅力。",
+        "hasOnsen": true,
+        "features": [
+          "bath"
+        ],
+        "author": "Wikimedia Commons",
+        "license": "See source",
+        "licenseUrl": "",
+        "source": "wikimedia",
+        "recommended": true
+      }
+    ]
+  },
+  "usage": {
+    "hero": "hero.primary から温泉が写っている画像（hasOnsen: true）を選択",
+    "onsenPage": "onsenPages[温泉地名] から recommended: true または hasOnsen: true の画像を選択",
+    "selection": "複数の候補から視覚的に最適な画像を選択可能"
+  }
 }

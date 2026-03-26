@@ -1,17 +1,9 @@
-/**
- * @deprecated This component is defined in content.json but not currently rendered.
- * It may be used in the future if content.json sections are rendered dynamically.
- */
-
 'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { CategoryBadge } from '../ui/CategoryBadge';
-import { SpecialBadge } from '../ui/SpecialBadge';
-import { CardContent } from '../ui/CardContent';
-import { SectionHeader } from '../ui/SectionHeader';
+import { ArrowUpRight } from 'lucide-react';
 
 interface PremiumGridSectionProps {
   title: string;
@@ -48,7 +40,6 @@ interface PremiumGridSectionProps {
       scroll: string;
     };
   }>;
-  learnMoreText?: string;
 }
 
 export function PremiumGridSection({
@@ -56,153 +47,79 @@ export function PremiumGridSection({
   subtitle,
   description,
   layout,
-  variant,
-  overlay,
   items,
-  learnMoreText = '詳しく見る',
 }: PremiumGridSectionProps) {
-
-  const variantStyles = {
-    ocean: {
-      bg: 'from-cloud-white via-mist to-cloud-white',
-      accent: 'text-ocean-blue',
-      badge: 'bg-ocean-blue/10 text-ocean-blue',
-      categoryBg: 'bg-sky-blue/90',
-    },
-    sky: {
-      bg: 'from-sky-50 via-blue-50 to-sky-50',
-      accent: 'text-sky-blue',
-      badge: 'bg-sky-blue/10 text-sky-blue',
-      categoryBg: 'bg-ocean-blue/90',
-    },
-    sunset: {
-      bg: 'from-amber-50 via-orange-50 to-amber-50',
-      accent: 'text-amber-600',
-      badge: 'bg-amber-500/10 text-amber-700',
-      categoryBg: 'bg-gradient-to-r from-amber-500 to-orange-500',
-    },
-  };
-
-  const styles = variantStyles[variant];
-
   return (
-    <section className={`bg-gradient-to-b ${styles.bg} py-16 md:py-24 lg:py-32 xl:py-48 relative`}>
-      {/* セクションヘッダー */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mb-12 md:mb-16 lg:mb-20">
-        <SectionHeader
-          title={title}
-          subtitle={subtitle}
-          description={description}
-          variant={variant}
-          titleSize="large"
-        />
-      </div>
+    <section className="px-6 py-24 sm:px-8 md:py-32">
+      <div className="mx-auto max-w-7xl">
+        <motion.div
+          className="mb-14 max-w-3xl"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          {subtitle && <p className="section-kicker mb-4">{subtitle}</p>}
+          <h2 className="text-4xl leading-[1.12] text-[#2f241c] sm:text-5xl lg:text-6xl">
+            {title.split('\n').map((line, i) => (
+              <span key={i} className="block">
+                {line}
+              </span>
+            ))}
+          </h2>
+          {description && <p className="mt-6 max-w-2xl text-base leading-8 text-[#68564a] sm:text-lg">{description}</p>}
+        </motion.div>
 
-      {/* カードグリッド - マイクロインタラクション強化 */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         <div
           className={`grid grid-cols-1 md:grid-cols-2 ${
             layout.columns === 3 ? 'lg:grid-cols-3' : layout.columns === 4 ? 'lg:grid-cols-4' : 'lg:grid-cols-2'
-          } ${layout.gap === 'large' ? 'gap-4 sm:gap-6 md:gap-8' : 'gap-4 sm:gap-6 md:gap-8'}`}
+          } ${layout.gap === 'large' ? 'gap-8' : 'gap-6'}`}
         >
           {items.map((item, index) => (
             <motion.div
               key={item.link}
-              initial={{ opacity: 0, y: 60 }}
+              initial={{ opacity: 0, y: 28 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: index * 0.15 }}
+              transition={{ duration: 0.6, delay: index * 0.08 }}
             >
-              <Link href={item.link} className="group block min-h-[44px]">
-                <motion.div
-                  className="relative h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-xl"
-                  whileHover={{ scale: 1.03, rotateY: 2 }}
-                  transition={{ duration: 0.4 }}
-                >
-                  {/* 画像 - ズーム＆回転効果 + フォーカス位置制御 */}
-                  <motion.div
-                    className="absolute inset-0"
-                    style={{
-                      objectPosition: item.image.focus || 'center center',
-                    }}
-                    whileHover={{ scale: 1.15, rotate: 1 }}
-                    transition={{ duration: 0.6 }}
-                  >
+              <Link href={item.link} className="group block h-full">
+                <article className="overflow-hidden rounded-[32px] border border-[#dac7b1] bg-[#fcf8f1] shadow-[0_20px_60px_rgba(53,37,27,0.08)] transition-transform duration-300 group-hover:-translate-y-1">
+                  <div className="relative aspect-[4/5] overflow-hidden">
                     <Image
                       src={item.image.url}
                       alt={item.image.alt}
                       fill
-                      className="object-cover"
-                      style={{
-                        objectPosition: item.image.focus || 'center center',
-                      }}
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      style={{ objectPosition: item.image.focus || 'center center' }}
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      loading="lazy"
-                      quality={85}
-                      unoptimized={false}
                     />
-                  </motion.div>
+                    <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,12,9,0.04),rgba(17,12,9,0.42))]" />
 
-                  {/* オーバーレイ - JSON制御の質感（霧、湯気、光の反射） */}
-                  {item.image.overlay && (
-                    <motion.div
-                      className={`absolute inset-0 ${
-                        item.image.overlay.type === 'steam'
-                          ? 'bg-gradient-to-t from-white/60 via-blue-100/30 to-transparent'
-                          : item.image.overlay.type === 'mist'
-                          ? 'bg-gradient-to-b from-sky-200/40 via-transparent to-transparent'
-                          : item.image.overlay.type === 'light-reflection'
-                          ? 'bg-gradient-to-br from-amber-200/30 via-transparent to-transparent'
-                          : 'bg-gradient-to-t from-gray-200/30 via-transparent to-transparent'
-                      }`}
-                      style={{
-                        opacity: item.image.overlay.opacity || 0.3,
-                      }}
-                      whileHover={{ opacity: (item.image.overlay.opacity || 0.3) * 0.7 }}
-                      transition={{ duration: 0.3 }}
-                    />
-                  )}
+                    <div className="absolute left-5 top-5 flex flex-wrap gap-2">
+                      {item.category && (
+                        <span className="rounded-full border border-white/25 bg-[#2b1c14]/55 px-3 py-1 text-[0.65rem] uppercase tracking-[0.22em] text-white backdrop-blur-sm">
+                          {item.category}
+                        </span>
+                      )}
+                      {item.badge && (
+                        <span className="rounded-full border border-[#f0d1a6]/35 bg-[#c8914f]/82 px-3 py-1 text-[0.65rem] uppercase tracking-[0.22em] text-[#fff8ef]">
+                          {item.badge}
+                        </span>
+                      )}
+                    </div>
+                  </div>
 
-                  {/* グラデーションオーバーレイ - ホバーで変化 */}
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent"
-                    whileHover={{ opacity: 0.7 }}
-                    transition={{ duration: 0.3 }}
-                  />
-
-                  {/* カテゴリバッジ */}
-                  {item.category && (
-                    <CategoryBadge
-                      label={item.category}
-                      variant={variant}
-                      position="top-left"
-                    />
-                  )}
-
-                  {/* 特別バッジ */}
-                  {item.badge && (
-                    <SpecialBadge
-                      label={item.badge}
-                      variant={variant}
-                      position="top-right"
-                      delay={index * 0.1 + 0.5}
-                    />
-                  )}
-
-                  {/* コンテンツ */}
-                  <CardContent
-                    title={item.title}
-                    description={item.description}
-                    learnMoreText={learnMoreText}
-                  />
-
-                  {/* 金色のボーダー - ホバー時に表示 */}
-                  <motion.div
-                    className="absolute inset-0 border-4 border-amber-400 rounded-3xl opacity-0"
-                    whileHover={{ opacity: 1 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </motion.div>
+                  <div className="p-6 sm:p-7">
+                    <div className="mb-4 flex items-center justify-between gap-4">
+                      <h3 className="text-2xl leading-tight text-[#2f241c] sm:text-[1.9rem]">{item.title}</h3>
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#d6bea1] bg-white text-[#8e6231] transition-colors group-hover:bg-[#8e6231] group-hover:text-white">
+                        <ArrowUpRight className="h-4 w-4" />
+                      </div>
+                    </div>
+                    <p className="text-[15px] leading-7 text-[#68564a]">{item.description}</p>
+                  </div>
+                </article>
               </Link>
             </motion.div>
           ))}
