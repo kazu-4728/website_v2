@@ -5,6 +5,7 @@ import site
 import sys
 import tempfile
 import time
+import urllib.error
 import urllib.request
 from urllib.parse import urlencode
 
@@ -92,6 +93,8 @@ def main():
     )
 
     updated = 0
+    skipped = 0
+    failures = []
 
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_dir_path = pathlib.Path(temp_dir)
@@ -101,24 +104,50 @@ def main():
             for spot in content.get('onsenSpots', []):
                 if spot.get('imageSourceType') != 'google-place' or not spot.get('placeId'):
                     continue
+                if spot.get('photoStatus') == 'verified' and spot.get('photoUrl'):
+                    skipped += 1
+                    continue
                 photo_name = spot.get('placePhotoName')
                 if not photo_name:
                     continue
                 media_url = build_photo_media_url(spot['placeId'], photo_name, api_key)
-                image_bytes, content_type = fetch_bytes(media_url, headers={'X-Goog-Api-Key': api_key})
-                extension = guess_extension(content_type)
-                local_path = temp_dir_path / f"{content['identity']['slug']}-{spot['slug']}{extension}"
-                local_path.write_bytes(image_bytes)
-                object_key = f"onsen-spots/{content['identity']['slug']}/{spot['slug']}{extension}"
-                spot['photoUrl'] = upload_to_r2(local_path, object_key, s3, bucket_name, public_url_base)
-                spot['photoStatus'] = 'verified'
-                changed = True
-                updated += 1
-                time.sleep(0.4)
+                try:
+                    image_bytes, content_type = fetch_bytes(media_url, headers={'X-Goog-Api-Key': api_key})
+                    extension = guess_extension(content_type)
+                    local_path = temp_dir_path / f"{content['identity']['slug']}-{spot['slug']}{extension}"
+                    local_path.write_bytes(image_bytes)
+                    object_key = f"onsen-spots/{content['identity']['slug']}/{spot['slug']}{extension}"
+                    spot['photoUrl'] = upload_to_r2(local_path, object_key, s3, bucket_name, public_url_base)
+                    spot['photoStatus'] = 'verified'
+                    changed = True
+                    updated += 1
+                    time.sleep(0.4)
+                except urllib.error.HTTPError as error:
+                    failures.append({
+                        'slug': content['identity']['slug'],
+                        'spot': spot['slug'],
+                        'status': error.code,
+                    })
+                    if spot.get('photoStatus') != 'verified':
+                        spot['photoStatus'] = 'pending'
+                    changed = True
+                    continue
+                except Exception:
+                    failures.append({
+                        'slug': content['identity']['slug'],
+                        'spot': spot['slug'],
+                        'status': 'unknown',
+                    })
+                    if spot.get('photoStatus') != 'verified':
+                        spot['photoStatus'] = 'pending'
+                    changed = True
+                    continue
             if changed:
                 file_path.write_text(json.dumps(content, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-    print(f'Uploaded {updated} spot photos to R2.')
+    print(f'Uploaded {updated} spot photos to R2. Skipped {skipped} already-verified spots.')
+    if failures:
+        print(json.dumps({'failures': failures}, ensure_ascii=False))
 
 
 if __name__ == '__main__':

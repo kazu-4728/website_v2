@@ -157,6 +157,40 @@
       "officialUrl": "http://www.kannanoyu.com/",
       "placePhotoName": "places/ChIJPSA5YynAHmARRP96wnSsGTc/photos/ATCDNfVPxEseAJQ6Fi_nxC37RWyRgE82-ubsjsUbXGvHxaA8trIpse9Ikvq-vf2KBjz_dFLKbh1Kp5iOpokqqlDrbBSuB1SAq-rUOeddNkC_S9-Y-ZWAkxO9M5YnwNdOI1EirD_CqteBZf-ZJVhiFEiElHCmv_ApOcYqCtp2WEfeyo4flz1WWPC8vUcnEMNLVVRIdxBY1_zd9QADt_NiLDO62HS6y9tRUIQoBkqKmKF46LTwc2d0ekBcAqKGZXPrx7v9BdbTcvn6A94BAW_MB3WwaoumvgeYQan4KOKDref_5MvAHFR41yX7bt307zUI0TGQdOQmqJmGBT4pxhGytKmjOWrCvtlqqbbXOuT9qTZddN9Fokqyw_myru9kERdhRJPh1wu7hAEdJQv3zpSzI1So1x8Q_yxtLwf3Kt2VSJOapHk",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamikawa/かんなの湯.jpg"
+    },
+    {
+      "slug": "温泉と発酵-おふろcafé-白寿の湯",
+      "name": "温泉と発酵 おふろcafé 白寿の湯",
+      "type": "day-trip",
+      "description": "神川温泉 の中でも 温泉と発酵 おふろcafé 白寿の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=6013201935564711548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "温泉と発酵 おふろcafé 白寿の湯 埼玉県",
+      "placeId": "ChIJcevxxWnAHmARfKYGFE0vc1M",
+      "googleMapsUri": "https://maps.google.com/?cid=6013201935564711548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://ofurocafe-hakujyu.com/",
+      "officialUrl": "http://ofurocafe-hakujyu.com/",
+      "placePhotoName": "places/ChIJcevxxWnAHmARfKYGFE0vc1M/photos/AU_ZVEGqVuaHo-n4Fgx9_ZhmwrQiedHVqwiJhD3_OEwBPUT5O58eCS_HsjPDjrPgvh6PXm4yevA5XcnAAALnxoawjq96ns-W8vFeSXEXrh0ifdGKrEAdIfeGa1ps1m5L_TA9RUPABGsjmsmi3aQu9hHXIGiDBocBMHZAM194TCL-GNSB6dmBcP7zGPGVAEC0QdpjyKbkzSxfUrjD5cTbTtdMj8kSps51ZFRfdTYNFArOsLP14XnGbDaUBrYd8efO8a83d3V-9VOhb-ZXgH24RuyW0-xFYZn2f9C7vEHK6Dy-Af_KEg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamikawa/温泉と発酵-おふろcafé-白寿の湯.jpg"
+    },
+    {
+      "slug": "天然自家源泉-星音の湯",
+      "name": "天然自家源泉 星音の湯",
+      "type": "day-trip",
+      "description": "神川温泉 の中でも 天然自家源泉 星音の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4823808987742876626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "天然自家源泉 星音の湯 埼玉県",
+      "placeId": "ChIJZwfeRB3IHmAR0jPAerec8UI",
+      "googleMapsUri": "https://maps.google.com/?cid=4823808987742876626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.beyer.jp/",
+      "officialUrl": "http://www.beyer.jp/",
+      "placePhotoName": "places/ChIJZwfeRB3IHmAR0jPAerec8UI/photos/AU_ZVEEf8bxkKPiyZE00BpjHXFa0IwzQ6kkWGAaTleZnVbP76WVQDLCg1zHiHQdPAipHR3WhmStioqz_VQOrv4lUM7ExY8KNXHDXAPoD64OEMqVOx2vk9tF2JP8LaK78TPHTTwLDmaxeZRZgqQeJ9ZEvVCGw6jH42gnGfBVpWkSKG7JkBM5lNikTrLjGb7ou-j3NUiVTO2VNzN2B9HzDuFoWJegekNaJB-8bN3pma_o44vK6lYlXt8Tm8JKxzlsgohr6dizGHIxkPw6gfCWXQ6n7d81En1gDlkOIqNXPQhNiRmoIGQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamikawa/天然自家源泉-星音の湯.jpg"
     }
   ]
 }

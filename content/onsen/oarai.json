@@ -157,6 +157,40 @@
       "officialUrl": "https://siosai.jp/",
       "placePhotoName": "places/ChIJeaHK2TYxImARhPMpdotVojk/photos/ATCDNfUb9r6IYHgIao6cu05nCB9Z939BLSeXCfoWsXL47Z3dEUjG1EGoj_GD6GrtVX30opAegeymH7PgCYMSJfOw3xB-1Ru1P7BS_DsguvjGiTiTmfpRd3iuX44cr5x_KfqTCCwzC-mszalnEW27tnZARCQwAzyhMQTCuYG5cds6191Q7xsFRr9prFCKM7bWiShz-0eJw6vJX3c5EzJm3ZDro-udqO7evbFvYMM6SQW_w5jlpN2CY2U5zjB4p7Cos0JSZy4MdWMzoAzNMVngFYnFpLz37QqxhdbEyUVWZ6PMRyXlV1iouD4rybVioeNeCGN-G46ePnm97MYYBoVYtNCpgdYNvLH9p7X5hSAWKAw_ucS1wcemb2GMMZAhRrbq2DqEaOlYxj2tsFvD41cCSilz4MLKG3RAYTZDp6Nl5oebZpsgFE6FsDB7eYRqiAGW5DTj",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oarai/大洗温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "ひたちなか温泉-喜楽里別邸",
+      "name": "ひたちなか温泉 喜楽里別邸",
+      "type": "day-trip",
+      "description": "大洗温泉 の中でも ひたちなか温泉 喜楽里別邸 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=8444381631334916011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "ひたちなか温泉 喜楽里別邸 茨城県",
+      "placeId": "ChIJZcn4lpElImARqx-Ne1p4MHU",
+      "googleMapsUri": "https://maps.google.com/?cid=8444381631334916011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.yurakirari.com/kirari/hitachinaka/",
+      "officialUrl": "http://www.yurakirari.com/kirari/hitachinaka/",
+      "placePhotoName": "places/ChIJZcn4lpElImARqx-Ne1p4MHU/photos/AU_ZVEGbcr_8M_bgsmuJFiqBQhS-OARMWjaxAZ6jcoc9l2YOpbypIHLvQ7eThMH-MHtqI8vMzFIDhj-YHzhlkiN1UzABq2iMzmHhZY52TcUDDODOlEQQm_XN5RUqFOx2V-tpdCrUAzslMNvshSVFic4JHVVojcbqI_hjmEK2kMwBzoA-9Sxm3AwL75RRaPkDP5zXhloodCFxLUZ50MRpadLemXVlOTeHIAKofWsItg1uZ-CNCp9hTISec2w2fxZJcN3IAwfoIYU4tVRCehQfmp9YP-RjGx67wrt5rlfzLtqvmHRwrg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oarai/ひたちなか温泉-喜楽里別邸.jpg"
+    },
+    {
+      "slug": "阿字ヶ浦-温泉のぞみ",
+      "name": "阿字ヶ浦 温泉のぞみ",
+      "type": "day-trip",
+      "description": "大洗温泉 の中でも 阿字ヶ浦 温泉のぞみ は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=2679289418821007436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "阿字ヶ浦 温泉のぞみ 茨城県",
+      "placeId": "ChIJ9ycOxY4lImARTPhJ64e_LiU",
+      "googleMapsUri": "https://maps.google.com/?cid=2679289418821007436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.ajigauraonsen.jp/",
+      "officialUrl": "http://www.ajigauraonsen.jp/",
+      "placePhotoName": "places/ChIJ9ycOxY4lImARTPhJ64e_LiU/photos/AU_ZVEGLbkEAxJgOrgi-fDZgp2X0LPuuoW5PUFL8W_NPtAU0HqmKOIGDcuc2sgVnCmXEFO2keDLwOgYOpEk7t5TlewwxysWvBnQgQpVWO6sC1zSjxLrsAFoJ_v8BUWqgG3HCyhE9k52jKw7e2_BePRmUWKvf9VZUZRNTMVS_ZzA_Bo43fM83pwCGWkOi36xNP-YOJEC_HG5D1PmKUOuKQ_ZEdlYNoUx2dZDYABUWC9u_1e4jrqbj6DP9UUPCe8OfsrSiJ8KlBuR0DI3LQkaj427rI8p35iJrt1C-bE8mMytiN5R62NY1_2qK0ybRCg5Oz0NNtRLC6lz3dPImdfqq7AKCwCbtObyf8vs-BKnHdsDxJQw7NFUEcNcMd9y-B0mWEYs9S_qdd7KgSnYRG_wkG_TTWLJifz7u7PG9YWlGcBj9wQGZkRLKKtixyJWmSvTR_rCz",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/oarai/阿字ヶ浦-温泉のぞみ.jpg"
     }
   ]
 }

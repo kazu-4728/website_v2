@@ -173,6 +173,40 @@
       "officialUrl": "https://www.mikazuki.co.jp/kinugawa/",
       "placePhotoName": "places/ChIJm34EEDefH2ARYQhIWSXYfE8/photos/ATCDNfU86Dp3aWY9ojUO1ZnmTXBydtE3knCRHUdqPUNQiWnhrtxDS8R8nYwfOx0lsj9glISvsKX1xORmeeuh_nbCB2ZrnZ0Rd2efeo0h6HKbAdMHLegYTgKEISi4juYLoMpW9nYRuv4DXRAC-K0Qf_nVPbf0ERuEOGS0_JRT2fSsuvGhuMflUBW35hRj_rdGavL3wav13-QotSoxPxbSbMeBLWr8vlbs9WoXAVXZZx21mdkyK_MFqqmf1Atyu_70D75RMfcoE9XdaXhd14ue0z8g99KEffFYnn8gSdo7mgpFprjW3g",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kinugawa/日光きぬ川ホテル三日月.jpg"
+    },
+    {
+      "slug": "離れの湯-あけび",
+      "name": "離れの湯 あけび",
+      "type": "day-trip",
+      "description": "鬼怒川温泉 の中でも 離れの湯 あけび は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=11134232330404771743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "離れの湯 あけび 栃木県",
+      "placeId": "ChIJmbZSB26fH2ARnzdyFFC9hJo",
+      "googleMapsUri": "https://maps.google.com/?cid=11134232330404771743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.akebi-onsen.com/index.html",
+      "officialUrl": "http://www.akebi-onsen.com/index.html",
+      "placePhotoName": "places/ChIJmbZSB26fH2ARnzdyFFC9hJo/photos/AU_ZVEGbF40ObLprMDJm50MjMXHi0NYVO87xLA5-nlgVHignLlnzJJVwK53CQV_UGRYol9eEClrRscyQFBOdSwfWfnonpSXsVfrU7w0ywyFx96Y1Q46QBGgh2fuVjqyfVAM29xm1Ll8OZdwbQYsbR3TyPuCKshNBckRiGxWYwejNIo9HFok8hsrsW-xxH1qWYkPepo1VR84eJSh_-tYA4kvPnlkXaxEzoKcvdAh_WRenGQ6rKkD68xoe-6YTMCR5o2wbIKqyWFz03kBA9lTlpLg47xsCDOoM1bVLrb4tdALDeUBWx4Il8U1qKgOXYy9MM9RvqJB4uh-blk4Ni_Flpco2SpCCy-Lf_ZFuErDdylh7voGTNGV1Ny8VRjnCNpeH33gfHoiSU1PLLcLi3Qzm7ma8FCFezqnpC0Qt1iDjnAZawQHY6LF3",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kinugawa/離れの湯-あけび.jpg"
+    },
+    {
+      "slug": "日光和の代温泉-やしおの湯",
+      "name": "日光和の代温泉 やしおの湯",
+      "type": "day-trip",
+      "description": "鬼怒川温泉 の中でも 日光和の代温泉 やしおの湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=2735568083704209972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "日光和の代温泉 やしおの湯 栃木県",
+      "placeId": "ChIJ1aE1D_ymH2ARNOIVsK2w9iU",
+      "googleMapsUri": "https://maps.google.com/?cid=2735568083704209972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.yashionoyu.com/",
+      "officialUrl": "https://www.yashionoyu.com/",
+      "placePhotoName": "places/ChIJ1aE1D_ymH2ARNOIVsK2w9iU/photos/AU_ZVEFrUn6To6uxPVlhlG-lirhPOSrs1kxCsA-EWGZpuCAPmBTen6ZFM2HACkSfiBpOyn0WyCBrjer2llgzMAS1hYl8eZi_6xSG7-hMpyrUVqN2_64dxqXj25wi6PDvix63uRA7yXi-BQhVr-9AvO7cVZ-DnBPXjF3wrPW0AfwhGxcN6lWpF7NlDQUcWJwnO5JFpmYbRo4S_rNgRbWfxK5orxWThnlov9MgxO1sMhA4XWQvdVezNP7LV9T_vsGn3g60zH2tk438mL8iBvBNaGjXxdmSTEQDvgo5cYvvbcigBg82WA",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kinugawa/日光和の代温泉-やしおの湯.jpg"
     }
   ]
 }

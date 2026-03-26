@@ -157,6 +157,40 @@
       "officialUrl": "https://www.okutamas.co.jp/moegi/",
       "placePhotoName": "places/ChIJAdKwED43GWAR0q6nfI5b6mI/photos/ATCDNfXMan73rV1Q9kQNYmUvnudK1QFvFA9E19lG9nBuFr9Pmhc6AEZnszzflzFa2AXq6EwThIM1ITJoIIipWvFb_knaob_GQAOchcE5cSntqUhn5ls1zgsi6g2djU6lNs8UDK0CncjpXOPywtMoMmmZX1c5Mro-PujSvDVQMvfvgrt4prROJLGg3Nm-tUpuSvOYyIPaVP2cn_pB25j2AgdkB-JfvQaDOIYBWKdNc_ndPuMhLxMw5aht3EeRNNpLOZbmNGmmZX9bIS3H0k5B5S5f17vTnle7Y5RV7jWaEBT2IvP5rrlINPeSAWBhf6qIr3R8-OOdecqUe-16OFAJuiNCWYCH-KXKax5ph9pDHhZDQDU745UrCX9dh6anZfjR1ZfvG3Eq2V5BD1mMKi7b0MWz0ul0RudT5c1MFhEdSFWGr1T1YscU",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/okutama/奥多摩温泉-もえぎの湯.jpg"
+    },
+    {
+      "slug": "生涯青春の湯-つるつる温泉",
+      "name": "生涯青春の湯 つるつる温泉",
+      "type": "day-trip",
+      "description": "奥多摩温泉 の中でも 生涯青春の湯 つるつる温泉 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=11756418460910999641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "生涯青春の湯 つるつる温泉 東京都",
+      "placeId": "ChIJE2eLPSY7GWARWdhxUU0wJ6M",
+      "googleMapsUri": "https://maps.google.com/?cid=11756418460910999641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.tsurutsuru-onsen.com/",
+      "officialUrl": "http://www.tsurutsuru-onsen.com/",
+      "placePhotoName": "places/ChIJE2eLPSY7GWARWdhxUU0wJ6M/photos/AU_ZVEGz66wDLpCijoVxT3qa3r_cLojRiobTc6q6QECcI7fyGRA4g71aKtcCMhT1-Qkaw4fHsMgfuuXhHLE0WcLXVpi5fZhrfR-8Or-iMHOG2MeDZp-9g8DS9GF0T-ibE14Dtvsu50Xglvgo7f7wVCrHmdl3VgUQV1hCP7fHXGfLxY2hMFlX-tlUlZpzJCsQtnUIVWUtM2-OavEenjPgIJi3-6r5Mxr01tiOdx0iJC2y2kdh4HtY5b4bDFZvbwyPAubX4TxYW4ZQDvPYyCCm_BmK2cC5jiLsx1RNJV9ixOjQ8ziIl5C6-SvF_FkrZ_IJCpovc22hgUt_yGGJIf-wVHQxipymomwhlzPdtjNm3zkNkTxLBQyFgtDyHDt_fD8xPpPBftmmoEt618g1dDArxJEDsOWUf4Ace2zuUul6O-VNGnlP8w",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/okutama/生涯青春の湯-つるつる温泉.jpg"
+    },
+    {
+      "slug": "秋川渓谷-瀬音の湯",
+      "name": "秋川渓谷 瀬音の湯",
+      "type": "day-trip",
+      "description": "奥多摩温泉 の中でも 秋川渓谷 瀬音の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=8829494565668089897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "秋川渓谷 瀬音の湯 東京都",
+      "placeId": "ChIJF99j5g89GWARKXDj3IaqiHo",
+      "googleMapsUri": "https://maps.google.com/?cid=8829494565668089897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.seotonoyu.jp/",
+      "officialUrl": "http://www.seotonoyu.jp/",
+      "placePhotoName": "places/ChIJF99j5g89GWARKXDj3IaqiHo/photos/AU_ZVEHtSFLLvYj-whik9-pa0xL2qfqxAPhJPdoqx0WHfYNJrWx1JppmlsN4dhNSDMFLeuVY-rwI55JqofWySIoWO5UxrHCgznY1cLUYIZaenc39jrYxJR1NKHo3dES5kY2InIAl7UJYIoyjdrnQ8DhQrEheF0yFNR15dRUZAfdb8f9QY98wvFF3SaID_16Erby7BLRW8lB3lVW51gNoQaDvGFqklGXBSZzqGyAKCky8WV7flJxVA--MqgXCMmkhYnb4ZMfd-jbjTUCG_KKN_wp53gV1OGngavG1FKYwvfC1FPIXkQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/okutama/秋川渓谷-瀬音の湯.jpg"
     }
   ]
 }

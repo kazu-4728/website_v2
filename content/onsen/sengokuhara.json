@@ -160,6 +160,40 @@
       "googleMapsUri": "https://maps.google.com/?cid=1397065647586180691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "placePhotoName": "places/ChIJz99TEw6fGWARU35G9M1fYxM/photos/ATCDNfWd0DB4608mceNsr-WfMb-yod5rJRnu8hyF2-SZNo_ASRH1MszcJo_HtJRk62C5vPeT9VCSdPDGFqH7G-22KY3GxVQXIco4vh39yluKRvkzdeKkTxwHYKjKaTjDTlwx693YZuQ_z-NfsHUqsJmUWcO7zd8tV5dLJO0F8sghXOeWRLacrvqfwPLnQu55H744OoSPaKrXmXiWhTsj_VP-MJ3DuN8u8GQnMhhTKt5WDQqGEmJVP9cVEQHSjqCWwjBQvGh5lo2t3dGltSv69vWzzNUL5jYZbHiWKsT5ILsj2XUz9Cx-LS-QX_vkSOq94-f05CiJ7T8X_UFPh_nVScM5LYDuYAX_nRBPue-KoKzRZ5rbSYnygI9DN37FwLieKBAXMZLMRY0pQ7Uvdc1w0_XbG_1ofAxOV8vAD3y2sRKPgHGgTRGy",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/sengokuhara/仙石原温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "仙石原品の木一の湯",
+      "name": "仙石原品の木一の湯",
+      "type": "day-trip",
+      "description": "仙石原温泉 の中でも 仙石原品の木一の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4763024055696174390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "仙石原品の木一の湯 神奈川県",
+      "placeId": "ChIJLa_UCwyfGWARNi1poCSpGUI",
+      "googleMapsUri": "https://maps.google.com/?cid=4763024055696174390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.ichinoyu.co.jp/shinanoki/",
+      "officialUrl": "https://www.ichinoyu.co.jp/shinanoki/",
+      "placePhotoName": "places/ChIJLa_UCwyfGWARNi1poCSpGUI/photos/AU_ZVEEskZ0OmZip2PaqnE7tQ_olk3MY0-BCGhUoFQRB6sL95xqvKo5wgQZ8yySRhxZd9-dQpoHFKKnRoemdv8jOCB2s5z7kaU5Y0om9GeaKdGstJG-Qxtrf6bHuuvJgVAj-8CKQoFsSs5Pdfh2ntmUUzw9ynx2XGkJZbzVM4mCjhnk7i7kXWMUTaSR_T1plYHhMw8OJy4SDsmfdtpfIm0i0ouLbgOUmXbRFNgEe3M97OHMH0Jw0JR6WygiR3Y6-9d5BUwfGpAmhfdA9vgmEKNc91ChnJt9y3BMO3nbJR2prlLXMwQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/sengokuhara/仙石原品の木一の湯.jpg"
+    },
+    {
+      "slug": "仙石原温泉-仙郷楼",
+      "name": "仙石原温泉 仙郷楼",
+      "type": "day-trip",
+      "description": "仙石原温泉 の中でも 仙石原温泉 仙郷楼 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=6815604340763727193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "仙石原温泉 仙郷楼 神奈川県",
+      "placeId": "ChIJJaGTlQifGWARWRXVjAnklV4",
+      "googleMapsUri": "https://maps.google.com/?cid=6815604340763727193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.senkyoro.co.jp/",
+      "officialUrl": "https://www.senkyoro.co.jp/",
+      "placePhotoName": "places/ChIJJaGTlQifGWARWRXVjAnklV4/photos/AU_ZVEGkc48JKeJfwQJWSdWxG__Cr3HUNM9tX84nC8Fm1FJE2fhV8ZTBGxHRzxsDT5BVEb1hOFkfqgf9Ud4oa48SPiT_hLpgIybBnsyGTVQJQdfYTSmyeCl9w1kqxoS6q87YweAF3u1Mn5YuqxSpqkomW4Ccm4OMfCtqCDf_5No9kaG6r2TcOe4Z3c0iYc9pe29k8ZtIA2fLj7AYLYHqEdvMWq_2duPYX9eNxFhL_tzuu7vwBnx_3CK0xt4KKqTUJch6QZKgtfKFoCli3L5qUuiJq9SNcI7enJyPkFMf3Bmjxk-aPQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/sengokuhara/仙石原温泉-仙郷楼.jpg"
     }
   ]
 }

@@ -172,6 +172,23 @@
       "officialUrl": "https://www.city.shibukawa.lg.jp/kankou/000357/000361/p003077.html",
       "placePhotoName": "places/ChIJLYBrR3ljHmARQeMlVxm9WSk/photos/ATCDNfXnYC1fkTUcZilmBza0xW6cpce8dEX9xNSYjjsp3O_g8mIBrcDDFsyCV2p3SLe73Frh0pAvqjkYRrQLYq8X66UZiUHWabXaiIPlQxMeV2qxUG5U7Oyh-E3Qe-wzM8zGOVOb88_fq-DqcadM67L2pUu88gLd-fH2rNgv1MhkliusQejfi1crBsqnTw1XuH6QoSgm3WxqzzjItT7h91snIXfSbwP6nVBB-aXzbFl7QSDnozkPmoJFxSBJP92KY0x1hrpZ12lf0ff8Rfw5EWjuPrzmTajk6PRpcYyAXTRpDdh6TkEwAUh4PwcyY7YRZdjm4LzO_At46DwuTt8KY0hB4cvTCoaDBfjYkz7s8T_0sY9B5ushyYZcO2ruGWtyzSbCiuvRZthwh2T2_N4AY0OjlM_A-063sP8jC_Vtgl0IlNRO4fJm",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/ikaho/石段の湯.jpg"
+    },
+    {
+      "slug": "花湯スカイテルメリゾート",
+      "name": "花湯スカイテルメリゾート",
+      "type": "onsen-landmark",
+      "description": "伊香保温泉 の中でも 花湯スカイテルメリゾート は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=1791747580200811543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "花湯スカイテルメリゾート 群馬県",
+      "placeId": "ChIJ994nAaKKHmARF_wIXe6Q3Rg",
+      "googleMapsUri": "https://maps.google.com/?cid=1791747580200811543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://skyterme.com/",
+      "officialUrl": "https://skyterme.com/",
+      "placePhotoName": "places/ChIJ994nAaKKHmARF_wIXe6Q3Rg/photos/AU_ZVEHr3DqKxqqG16NyLztIpR59rJ5YkkrU_tET7tLcbJ3EXYB_g4Sa21su8poASFvSQNewLQLqSzx76hdl0H5opMfb0GUpAbsXFBFKy0GVjObDCkvmLmPpyZmR5TlrdtREP57XvghE74tao_pEKtW-tOyRrT3SHE6B5SpOIFVQo992kHdHZX1qkmgsB7FrqlS--LYTX1BtaGBF8dv5DcC50oGNH2r5M4iB6c_-v-pCip_p83n2NW5bqoAc6OI4tQKENBiKOyUmofnbEkpS6rSO7k4lw2bpq963399AIVsK6lHCbQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/ikaho/花湯スカイテルメリゾート.jpg"
     }
   ]
 }

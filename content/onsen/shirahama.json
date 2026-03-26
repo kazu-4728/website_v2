@@ -163,6 +163,40 @@
       "officialUrl": "https://shirahama-ocean-resort.com/?utm_source=google&utm_medium=GBP&utm_campaign=ShirahamaOR",
       "placePhotoName": "places/ChIJbWvVhgvlF2ARyl4UCkb5UKk/photos/ATCDNfX8eF1dA7aXR1q1izFKimeTMV0UmtaRZig-e7zPZ97RvhqadIKKlxNi6-AHfxCOoZkjOjZ2Ma9v-f4_fY7llFhSgXTwvR2Ev6I2QurnUcNxTSDHogYyPcsnPQeILzS0Kclv_8Xe2NkfX-xrTAJlouq8HpFrxqxyq1rW0jgGQymM9MdpHY4O9J66t0KWXfKluLQ-qvaUBgwztYd_T10oA9oZV-6OnXPGTO8aGmIRy7ZhSEkOT0zXiw0HKKmUrrHSMHXLqh8ILCq34If2jUXBFikcQxsPrwbK4lYtB9wXAhmpOg",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shirahama/白浜温泉-温泉街中心部.png"
+    },
+    {
+      "slug": "ホテル南海荘",
+      "name": "ホテル南海荘",
+      "type": "onsen-landmark",
+      "description": "白浜温泉 の中でも ホテル南海荘 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=8784182764907863328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "ホテル南海荘 千葉県",
+      "placeId": "ChIJkxG8uiLlF2ARIB1xIK-v53k",
+      "googleMapsUri": "https://maps.google.com/?cid=8784182764907863328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://hmihotelgroup.com/ryokan-nankaiso/?utm_medium=maps&utm_source=google",
+      "officialUrl": "https://hmihotelgroup.com/ryokan-nankaiso/?utm_medium=maps&utm_source=google",
+      "placePhotoName": "places/ChIJkxG8uiLlF2ARIB1xIK-v53k/photos/AU_ZVEHVCIHYGN3mhgubsjQ4vVV7xaLrApGJcvIgCvFeu2CVOj5gsQ6isE4PNDhFACEKkfCVOeBgRCtRDl6-vSVDOJpwMSVU1GWh23YY1Hwr7J87RQFXofOwDYjnnT-VwWiCBlpUdgkyYyF10iLI6LYKD84yVpwhyQyxV_kMNUgWboM78Om-gzfuBpjmEV_uXPwXmSPAskiI38LQZrepOg6iyZGhrgoQ7q0h-8-mApCnaa-UM6Rf5-X4jhaNIBplII0KSmWHjZ9MhtWwaqzlsx8kMlhSEqiqcYnRoaZdZFlu9ZhTbg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shirahama/ホテル南海荘.jpg"
+    },
+    {
+      "slug": "天然温泉-長生の湯",
+      "name": "天然温泉 長生の湯",
+      "type": "day-trip",
+      "description": "白浜温泉 の中でも 天然温泉 長生の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=7426589380844719639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "天然温泉 長生の湯 千葉県",
+      "placeId": "ChIJswhLICOhB2ARFw7wsbGLEGc",
+      "googleMapsUri": "https://maps.google.com/?cid=7426589380844719639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://choseinoyu.info/",
+      "officialUrl": "https://choseinoyu.info/",
+      "placePhotoName": "places/ChIJswhLICOhB2ARFw7wsbGLEGc/photos/AU_ZVEFC88SPNveyXprEfsO8q2NH8Upo7TBlZ8Jyji5YovnqxK_CYZOTwADQ36CdJrBF2Su5yO5F8Da1ClpGFPaYL2Ij3PFmNPd-Usq3QMlgp_rjPLXz-Q-Xe5c8JvVaY9Iwmqan1UATNXCQp1YI9in92WovHVYf45Ub0XsFdYtHp3WFG_jVqFLwdG0SIFj2Z0ql7TBRX2AZli23ouNyW67zYKvWYXoUqdswpfRQ4g3D8oa04RZSWoVTwWfrTdfnxhTMEgWPELkp7yjkaQETUsmCgYVt9yhYMSeHxgEqKwe1Gk0nkQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shirahama/天然温泉-長生の湯.jpg"
     }
   ]
 }

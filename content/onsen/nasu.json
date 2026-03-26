@@ -176,6 +176,40 @@
       "officialUrl": "https://www.qkamura.or.jp/campaign/renewal_nasu/",
       "placePhotoName": "places/ChIJKY1lhVCKH2ARhDxVbciaJVk/photos/ATCDNfW_woVWkCcy8zufhnD6mlC9iYTPiYOBO-GTP6GXOEhkeic5B4Nat18idlvxbI2WcBed0-O7yfb_1cbA3Ho8_3v6x7HDN4GWaKblP4yy5HVxACtYaWoVprm2jsGBwWyCxiFp-7e4bcKdR2qtNii0AoBBjmOzS0N315vWMSfBRyUlU4Rbr1rXJCigPzP3Ncu2yHj39m_Z-I-IOvq2lzZQ59RnUXpbVIsiHoBBvOQo4X_jFS1LKQsAFb-uZDn9tFv3wgullHPFQ25N6fOqPH9R2TOeUW496GQtYVrfnb_eYnl27w",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nasu/休暇村那須.jpg"
+    },
+    {
+      "slug": "源泉-那須山-令和の湯",
+      "name": "源泉 那須山 令和の湯",
+      "type": "day-trip",
+      "description": "那須温泉 の中でも 源泉 那須山 令和の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=9985133993351274544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "源泉 那須山 令和の湯 栃木県",
+      "placeId": "ChIJjbdk4RYoIGARMGBhpHZSkoo",
+      "googleMapsUri": "https://maps.google.com/?cid=9985133993351274544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.okashinoshiro.co.jp/facilities/onsen/",
+      "officialUrl": "http://www.okashinoshiro.co.jp/facilities/onsen/",
+      "placePhotoName": "places/ChIJjbdk4RYoIGARMGBhpHZSkoo/photos/AU_ZVEHenfR7QocI2f0habYgFje6ZCmy8xVAuWnzrNjKqo-H9j2Ia5-I9tQgzySU178yV9YZE_D8aCkdfVKcAPr7aItjYh-CmJoJcUe-FsTpQgO_dK-9YK0wSlyXjv0TJkDi0-6qjineuVjPq6U2UwysHA-IRWn1ya5mVXKGwCqpdxOCa10ehucW3pXbPYQg1X2B7u8Gqr3wp_tOgCrDCT-RipMrynYf5PNjDrTkEo5SJAO8Bsx2toJ--pu5Gee5eUWIq_XnNCoNa16LjHH2eGJD4xJPWc7xv-_GFDfvZPYXibmBwdgCdntFOP3gHTP8cloi5IDLuHRNLOfe3zou_tyd9Dvi822LGoMepiyKo2_TGNslLr9KTvRvnWndFq6IXzAw2xmKRVuf6OuIzOsXiQauYEgP5qPcltx36MLTeq9HeL9mVQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nasu/源泉-那須山-令和の湯.jpg"
+    },
+    {
+      "slug": "森の天空サウナ&露天風呂",
+      "name": "森の天空サウナ&露天風呂",
+      "type": "day-trip",
+      "description": "那須温泉 の中でも 森の天空サウナ&露天風呂 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=360162294509119587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "森の天空サウナ&露天風呂 栃木県",
+      "placeId": "ChIJW233fteJH2ARY6i02bKN_wQ",
+      "googleMapsUri": "https://maps.google.com/?cid=360162294509119587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://lbcg.net/sauna/",
+      "officialUrl": "https://lbcg.net/sauna/",
+      "placePhotoName": "places/ChIJW233fteJH2ARY6i02bKN_wQ/photos/AU_ZVEFJ9j3yOiCfUmVKJJhyIoYgtn9PNn6m1BXmjI3NEgkX7dNjAlQsnxI1j2h6eUh4QZJQUrXZ-PfOuRocdZuNdYiOmV6ITPjRXC9VmGCISeTul8oBsQL7pGTFqXwyAaRr_5byitGukotMDmgRjowncj_ghxDx2Ets3nzXgbAta3w_d8F6sbC6I5Ax2kgqjRe4LzqRmDBZhANJrnR0jpnG9WREUcU4nx0qrwh7IpO0mPo4ymGdjP-xNs63SfPoCK2Sk8JVlUczZp_0ajt1IjHx4tW-ltmweJkWHxW23CYGqZ4PoQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nasu/森の天空サウナ&露天風呂.jpg"
     }
   ]
 }

@@ -5,9 +5,9 @@ const ROOT = process.cwd();
 const ENV_FILES = ['.env', '.env.local', '.env.production'].map((file) => path.join(ROOT, file));
 const CONTENT_DIR = path.join(ROOT, 'content', 'onsen');
 const API_KEY = loadEnv('GOOGLE_MAPS_API_KEY') || loadEnv('GOOGLE_PLACES_API_KEY');
-const PRIORITY_SLUGS = ['shima', 'shiobara', 'yunishigawa', 'nikko-yumoto', 'kawaji', 'kawarayu', 'oigami', 'yorokeikoku'];
-const MAX_PARENTS = 8;
-const TARGET_SPOTS_PER_PARENT = 3;
+const MAX_PARENTS = Number(process.env.DISCOVER_MAX_PARENTS ?? 8);
+const TARGET_SPOTS_PER_PARENT = Number(process.env.DISCOVER_TARGET_SPOTS ?? 4);
+const PRIORITY_SLUGS = (process.env.DISCOVER_ONSEN_SLUGS ?? '').split(',').map((value) => value.trim()).filter(Boolean);
 
 function loadEnv(target) {
   if (process.env[target]) return process.env[target];
@@ -107,12 +107,27 @@ async function main() {
   }
 
   const files = listContentFiles();
-  const priorityFiles = PRIORITY_SLUGS.map((slug) => files.find((file) => path.basename(file, '.json') === slug)).filter(Boolean);
-  const targets = priorityFiles.slice(0, MAX_PARENTS);
+  const rankedTargets = files
+    .map((filePath) => ({ filePath, content: JSON.parse(fs.readFileSync(filePath, 'utf8')) }))
+    .filter(({ content }) => (content.onsenSpots || []).length < TARGET_SPOTS_PER_PARENT)
+    .sort((a, b) => {
+      const aSpots = (a.content.onsenSpots || []).length;
+      const bSpots = (b.content.onsenSpots || []).length;
+      if (aSpots !== bSpots) return aSpots - bSpots;
+      const aVerified = (a.content.onsenSpots || []).filter((spot) => spot.photoStatus === 'verified').length;
+      const bVerified = (b.content.onsenSpots || []).filter((spot) => spot.photoStatus === 'verified').length;
+      if (aVerified !== bVerified) return aVerified - bVerified;
+      return a.content.identity.slug.localeCompare(b.content.identity.slug);
+    });
+  const targets = (PRIORITY_SLUGS.length > 0
+    ? rankedTargets.filter(({ content }) => PRIORITY_SLUGS.includes(content.identity.slug))
+    : rankedTargets
+  ).slice(0, MAX_PARENTS);
   let added = 0;
   let touched = 0;
 
-  for (const filePath of targets) {
+  for (const target of targets) {
+    const { filePath } = target;
     const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     const spots = content.onsenSpots || [];
     if (spots.length >= TARGET_SPOTS_PER_PARENT) continue;

@@ -28,6 +28,10 @@
     "discover:onsen-images": "node scripts/discover-onsen-api-images.mjs",
     "collect:free-images": "python scripts/collect-free-images-to-r2.py",
     "resolve:google-places": "node scripts/resolve-google-place-data.mjs",
+    "photos:select": "node scripts/select-onsen-photos.mjs",
+    "photos:select:force": "node scripts/select-onsen-photos.mjs --force",
+    "photos:sync": "python scripts/sync-google-place-photos.py",
+    "photos:pipeline": "npm run photos:select && npm run photos:sync",
     "sync:google-place-photos": ".\\.venv\\Scripts\\python.exe scripts\\sync-google-place-photos.py",
     "check:official-links": "node scripts/check-official-links.mjs",
     "apply:official-links": "node scripts/apply-official-link-report.mjs",
@@ -69,3 +73,4 @@
     "typescript-eslint": "^8.51.0"
   }
 }
+

@@ -158,6 +158,57 @@
       "officialUrl": "https://www.chichibuonsen.co.jp/",
       "placePhotoName": "places/ChIJgRIGZbfHHmARjnzLM6HJs8s/photos/ATCDNfW1Tc-tFYrlaNqWQrjKZLoQFp1Z8lUB5uOajYqDq-LP4HpCJKFf45MBp_WYRd5yvjQ4qzY4NKU0YJbD-BnCct9Qb4AnUfn3J6UbBAkAWCc7e6Euvn_VPFKNoF-tMCt_F3uSL5hmxNsWND8sH30b521AZSzVTZ9DxPaOAHMYbWQOUFYMTEkOGfhrP4jPsMcunv3JtD1mk8JJnOqFmL4DYb2QMpCKGeilz9O6dd-vOlmWM24mnxmtUK7BIdIXTBe9CTh6_ajI7iWeBbnBEG4pVJhWmWee_fHhZEJoZo39NE9czt_wO-GhleEqgjjaFeTg5ot_P2u_hdOe-3HWLJwrAmvi_SpvxE4zjSi30UefmqMVvPJHp4qjDzyTdYxSivy6hHdf-Y4Z3Gjv0rch20QVdFLT93hwzYetVcdxUOLwLo06lA",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chichibu/秩父温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "天然自家源泉-星音の湯",
+      "name": "天然自家源泉 星音の湯",
+      "type": "day-trip",
+      "description": "秩父温泉 の中でも 天然自家源泉 星音の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4823808987742876626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "天然自家源泉 星音の湯 埼玉県",
+      "placeId": "ChIJZwfeRB3IHmAR0jPAerec8UI",
+      "googleMapsUri": "https://maps.google.com/?cid=4823808987742876626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.beyer.jp/",
+      "officialUrl": "http://www.beyer.jp/",
+      "placePhotoName": "places/ChIJZwfeRB3IHmAR0jPAerec8UI/photos/AU_ZVEHshzuxGyg4egpSTo92NVXhNnJu0H4iX4y31j4Su7H_QVRdJFDzeZ4Q4GK761NtKmbBhf7n008HXvfT8h4XuHWxYRuUO1fnnpKLaMiQnvFbSlbZhy2LuyNY1MH5MJCUl_IAIe0v2Z1y--K1FGTfpY-mkoOYgD-mSifLCUOZRha7BM4cx3WWQ7VHelwwImMHw0w_6e2nidf1zu78cjJXxXVV0iv4KRv0ttENmGvqk62fjw3CbtgVG8fFMSawJFJz09C_COMLqYbxq0LLAyLQ1dJOHAZ5fZ-s2mJ-V2GZI8Ytmg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chichibu/天然自家源泉-星音の湯.jpg"
+    },
+    {
+      "slug": "秩父川端温泉梵の湯",
+      "name": "秩父川端温泉梵の湯",
+      "type": "day-trip",
+      "description": "秩父温泉 の中でも 秩父川端温泉梵の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=1156326575661442578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "秩父川端温泉梵の湯 埼玉県",
+      "placeId": "ChIJy-6ffITIHmAREuak4uQYDBA",
+      "googleMapsUri": "https://maps.google.com/?cid=1156326575661442578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.bon-chichibu.jp/",
+      "officialUrl": "http://www.bon-chichibu.jp/",
+      "placePhotoName": "places/ChIJy-6ffITIHmAREuak4uQYDBA/photos/AU_ZVEFbyhfiVDnZBYQAH1ZCBVyHF9fA3WndUx1BCcq93KuLKJg422DkVOrZRMQJkcgQBLqfPlAZIZqesvC7l4nd7TXCITFcjlIbljBQZeRwAdj2CneMtkMchTcP7QzRUJk3Xq7EMtvlisHREn1Lf9o6_pKUsrWOsjJSn1hrWayHaoK4h0hRCgN0X3ChRvsngGmMtN6SiKZexI_t72rJe4dX7IeoPp8B3Qj_W0ddAa3iUfP1OvLgNGdyWMw8c9er6S3WtZfLVaK94mPYeOyYT5FG8QtoxF-MuOcVHan3OlZMzZ5l4xOo7Nq-H9Sm6YTkrerqKFu_IDwYsgJlqQZyQAkyTCCYGuWhDQL7h75he2zekxhymoMCNLNPovLB8wMm-wGa2kYzk-hkkcfbiFY4fuclpWISXZ5clzGuCwb3poPRwbdDAa8",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chichibu/秩父川端温泉梵の湯.jpg"
+    },
+    {
+      "slug": "秩父湯元-武甲温泉",
+      "name": "秩父湯元 武甲温泉",
+      "type": "day-trip",
+      "description": "秩父温泉 の中でも 秩父湯元 武甲温泉 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=269519664458861509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "秩父湯元 武甲温泉 埼玉県",
+      "placeId": "ChIJF0a1IOjLHmARxYsN9LSGvQM",
+      "googleMapsUri": "https://maps.google.com/?cid=269519664458861509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.buko-onsen.co.jp/",
+      "officialUrl": "http://www.buko-onsen.co.jp/",
+      "placePhotoName": "places/ChIJF0a1IOjLHmARxYsN9LSGvQM/photos/AU_ZVEHRsdbyolO5YswLvA0LaJ0bckIAoHldwFJPXGH-Zx-mL9tQPQSR52MR2n-r77Gy4EusKotDbteT9vPfRgbMhX02O9jq8sufAnVJFRiO2Ej1SpTNOof92fJX88YyoVGBBt5aM2PNcPDuQhQhsk5o4abnjBXBetQ4rfHz8gUpq7w-jZWU1zJOWh--m7GXpRuCId1p7uIfZR2Xy1Gi1lAoIem5ZkIp_82n36z-VyqXE2RBmr7UgZWoMLN42laQwbhMYBDCbwqf9wX2wCUCdyjzMqkYMBWhRnp3BQJVD0CjzRLOJg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chichibu/秩父湯元-武甲温泉.jpg"
     }
   ]
 }

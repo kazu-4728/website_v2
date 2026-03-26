@@ -162,6 +162,40 @@
       "officialUrl": "https://hmihotelgroup.com/mikazukikatsuura/",
       "placePhotoName": "places/ChIJ6c7WSpxJPWAR5cKbRww1Xaw/photos/ATCDNfW7RV7hytd7j-HuI9hLBYONBIO1SewtQD_Eu7sy5Ra1VgQopLv8oTT5JBn6Wx7D_utIgzMIS2BXoIwMipTbW8PT2pc73kp0bB3tPTfQKDa_UQf8PCsIVuxUyE3TcuszjW4EZZHLXW-s6qPus-7_R-U7_yIGvtmmH00e6PXJKTIBTWXpCoPkelbAzlOIhlr39St9d1oU3_QLdU9lQiCW77Mec6qZC_hzwuYGfzITke11sNINBDW8N_755InV_nIJ86_L3mGvSP0mtGfF1jfwMu7GAQVJbQ_DEKCYQaqgyRdTpA",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/katsuura/勝浦スパホテル三日月.jpg"
+    },
+    {
+      "slug": "勝浦つるんつるん温泉",
+      "name": "勝浦つるんつるん温泉",
+      "type": "day-trip",
+      "description": "勝浦温泉 の中でも 勝浦つるんつるん温泉 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=8936885818315426289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "勝浦つるんつるん温泉 千葉県",
+      "placeId": "ChIJv5F9zmtLPWAR8cnqVk0yBnw",
+      "googleMapsUri": "https://maps.google.com/?cid=8936885818315426289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://katuuraonsen.com/",
+      "officialUrl": "http://katuuraonsen.com/",
+      "placePhotoName": "places/ChIJv5F9zmtLPWAR8cnqVk0yBnw/photos/AU_ZVEF22KaWFI7lK3GaijcP6YcnlSisQtcDVGfqei6d6lojYN2lrel_3-T49s23jnBUn2-8jgClGI2rifNIRrJRzNzNE7WFzAJ9xPMryZxeweLyjouKpUiQ64PIGhdr2k-9q4w0MZGACvnfhluH4nxrPeWgtFpeAYIei7Gu6kFHGaHl_6KqTCSfdizDW_r3HUwOAgTbQWzPDatC2OUnNFBHwzTL9HjbOYmJL3tAgxzLmUu0lnwDfnVj7VD5uAk2Rh_11MJGUjz4db8Cszh8gwsyQetMQ6obvPEeX_5aVZ0tTEQGGqKKcfGbgmN2ITbCCOwr8yIcefROIkwmCKAlRC3Y9Z0-5PeQXtgwZNFSJMIrzBK5jW2B5UtLuj7TEDnJ0vgtTUB2nueR2_iLW6FuIsRudIqTUeGOZP_lUHbHjWGTsx7yDYg4",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/katsuura/勝浦つるんつるん温泉.jpg"
+    },
+    {
+      "slug": "御宿の湯-クアライフ御宿",
+      "name": "御宿の湯 クアライフ御宿",
+      "type": "day-trip",
+      "description": "勝浦温泉 の中でも 御宿の湯 クアライフ御宿 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=15570643384993006906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "御宿の湯 クアライフ御宿 千葉県",
+      "placeId": "ChIJX2bUd_w1PWAROkXLbqkJFtg",
+      "googleMapsUri": "https://maps.google.com/?cid=15570643384993006906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.onjukunoyu.com/",
+      "officialUrl": "http://www.onjukunoyu.com/",
+      "placePhotoName": "places/ChIJX2bUd_w1PWAROkXLbqkJFtg/photos/AU_ZVEE_sy74MbWCYiNYD1573RG7IiBhmK3Me9NB4eT-QnBal0NYGDht7fXMdmpv1cj0UaZFeOlyb-yEQnjDhwija0jZHLiZA4M65eqJyT45fZPsIYaKNmVjeq2gD0WSjDRIkHLKmb_Zoxfy1e6pliN8lXxWon16uMEpLH1xwbmjUPGGPS0wjMSLgA8KpsKsCoFoKi3c2DTip-LhxdboBjn8aeFUZJZaOvifjBrlJyZQQc0qCZcWVN2FiImWCGBd3t2nWm92kNM64kDzG6ckymzYCfjp3FI6zKCfcSUYXZz-q4fX-g",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/katsuura/御宿の湯-クアライフ御宿.jpg"
     }
   ]
 }

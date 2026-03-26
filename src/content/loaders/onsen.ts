@@ -119,11 +119,11 @@ function attachImages(detail: OnsenDetail, manifest: ImageManifest): LoadedOnsen
   }
 
   const spotPhotoAssets = buildSpotPhotoAssets(detail);
-  const hero = manifestHero.focus === 'area' && spotPhotoAssets.length > 0 ? spotPhotoAssets[0] : manifestHero;
+  const hero = manifestHero.focus !== 'bath' && spotPhotoAssets.length > 0 ? spotPhotoAssets[0] : manifestHero;
   const gallery = uniqueAssets([
-    ...imageRefs.gallery.map((assetId) => getAssetById(manifest, assetId)),
-    ...spotPhotoAssets,
     hero,
+    ...spotPhotoAssets,
+    ...imageRefs.gallery.map((assetId) => getAssetById(manifest, assetId)),
   ]);
   const bestTravelTime = getBestTravelTime(detail);
 

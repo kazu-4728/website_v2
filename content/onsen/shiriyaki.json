@@ -155,6 +155,40 @@
       "googleMapsUri": "https://maps.google.com/?cid=14981721635452504694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "placePhotoName": "places/ChIJe0ML0anhHWARdkrubHPE6c8/photos/ATCDNfVbe45xFpgtW6hfSf7qNkd-M4VbMnslstbeu_fKVx9IdSNDJuVEeT6quDsdyE29YuMKyGMaiGqLalwkNQl4Yunzv4fKlGDIsfyAqvM2XlbyGiAraYAXfLuhUDdCXaLGBVEQf4Ya6B2IfnON8BEkCtAkyEMvMA5aGdv_5DBd0BCB-KQlMB2dt908y4IlPgvGnsyagggopypfA9hZ7Qa7SUdk9uyDgDobnY0ORr7Ketq3Y1b5c8ZNWEqg42cPVrRlMcR5j3cyJI0atQCJkAUuXjfB5td7AAoce9GlClxiUFUCuNsJJQUxcD30XnH4UCHOuUt5NxbbHAQuBijWvJiAu2KYAXCXHPfvE42ncmc0iGCHq9Nw_aVF45aVuS2IRltmkGC5ZFmPKD5EGuKScUfhpeiwmnd66lIMLJ_EuU7aoV4",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiriyaki/川の湯-巨大露天風呂.jpg"
+    },
+    {
+      "slug": "日帰り温泉施設「尻焼温泉-弁天の湯」",
+      "name": "日帰り温泉施設「尻焼温泉 弁天の湯」",
+      "type": "day-trip",
+      "description": "尻焼温泉 の中でも 日帰り温泉施設「尻焼温泉 弁天の湯」 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=10073152436472206594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "日帰り温泉施設「尻焼温泉 弁天の湯」 群馬県",
+      "placeId": "ChIJt3yNcgDhHWARAlVJaMUGy4s",
+      "googleMapsUri": "https://maps.google.com/?cid=10073152436472206594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.town.nakanojo.gunma.jp/soshiki/12/7682.html",
+      "officialUrl": "https://www.town.nakanojo.gunma.jp/soshiki/12/7682.html",
+      "placePhotoName": "places/ChIJt3yNcgDhHWARAlVJaMUGy4s/photos/AU_ZVEEo45XxV9VNKzv3Yt2jLUf9py5IoSVMsfFrmVg0f2KkDraNLNPthsrWzKw3AwUIahnEdM7_DmTTvNvQIRo-mCw2V_wogPre2pQOsoZ20-q6KGG2eZvIGqSJHDYOIMQn12yiL8Hq0Caa0Y01c9RvWrWnPH1JOxSb4tFZLXuFoO9MYmiqKkePVfpbUixoVmN0Hx9_tYRRh_98i-S34ebXv2dml-A1TfApyGt_BiwZV-8bIZ18F_BsDVAYOw8LbqugzdnUMVAuy0K6NzKarS1AR2u7vkBIh56D2bF2mfR3wA2qclt_Fnb-QmT-GslxDOB0Afx-897YWm3qCIkGb6jwj_e_fwIDLKvHea1sGWxNbbipHA1736SygBMJqHPmtdb0U7O3CzWiDeMbqEZ78QCTkJCjqC1bXHeHTIpmp3nTGN1sDIrvu3W0zZIvc0J3fp0r",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiriyaki/日帰り温泉施設「尻焼温泉-弁天の湯」.jpg"
+    },
+    {
+      "slug": "尻焼温泉駐車場",
+      "name": "尻焼温泉駐車場",
+      "type": "day-trip",
+      "description": "尻焼温泉 の中でも 尻焼温泉駐車場 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=12957670788999526509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "尻焼温泉駐車場 群馬県",
+      "placeId": "ChIJf9qqPizhHWARbbjFDu7k0rM",
+      "googleMapsUri": "https://maps.google.com/?cid=12957670788999526509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.nakanojo-kanko.jp/onsen/shiriyaki.shtml",
+      "officialUrl": "http://www.nakanojo-kanko.jp/onsen/shiriyaki.shtml",
+      "placePhotoName": "places/ChIJf9qqPizhHWARbbjFDu7k0rM/photos/AU_ZVEHqXlRBfgj5x0DAsYe_PcNV3qhGKmRP2_kg-uJJ7whjD1wsWNHpRWJbibDbNfLsI8dQB52Kp2QKonSi2zfeA5-6blKz1x9bpbQfhs_qIFqLGXJl0iwEO3LRNe06jrbCtBnQYdPXKfg_z--oAojQuz9F91W3s8s__evvT-6BW6cMZ_LH4EQpgtf5oqNqZlHi1SyT1uozc0q0sfW9CuqrWU4UiMLufqM2vbuIigbJPtPoJVwm_pXP4omJxXZcD4Ifn_BcwwMGuwgGPOCM-Ks-JbdxKB-5Jf2AJICJLEVhbNWrCq1GgXtRm9WJlfuaxjVSpsiqSjggfsZxOp_3spVCjXoEsuKQ2a-nAgYt-qaaZTy5g7PhXy8TZbELRfK8AZ_OX5CuyEJxk7rUpJWKtDxhM3cGAmcVdgBfeAvO-JDfDW3H9w",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/shiriyaki/尻焼温泉駐車場.jpg"
     }
   ]
 }

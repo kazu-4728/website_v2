@@ -5,8 +5,8 @@
 - Google Places based spot enrichment is working.
 - Spot-level real-photo coverage has improved significantly:
   - 30 parent onsen areas
-  - 58 spot pages
-  - 57 `verified` spot photos in R2
+  - 97 spot pages
+  - 96 `verified` spot photos in R2
   - 1 `area-only` spot
   - 0 `missing`
 - Parent pages can now fall back to verified spot photos when the parent hero is only an area image.
@@ -18,7 +18,7 @@
    - The current fallback improves this, but it does not fully solve the "onsen photo first" requirement.
 
 2. Spot density is still too low on many pages.
-   - Several parent onsen areas still have only 1 spot.
+   - Only 1 parent onsen area is still below 3 spots, and 29 parents now have at least 3 spots.
    - The current site is better than before, but still not dense enough to feel like a comprehensive Kanto onsen guide.
 
 3. Preview workflow is unreliable in the local environment.
@@ -47,18 +47,9 @@
 - Add 2 more real facilities per parent through Google Places discovery.
 - Re-run photo sync and official link audit after each batch.
 - Recommended next target group:
-  - `chichibu`
-  - `chuzenji`
-  - `fukuroda`
-  - `gora`
-  - `kamikawa`
-  - `kamogawa`
-  - `katsuura`
-  - `nanasawa`
-  - `oarai`
-  - `okutama`
-  - `sengokuhara`
   - `seotonoyu`
+  - parent pages whose editorial copy is still thin
+  - parent pages whose hero source should be manually curated despite spot-photo fallback
 
 ### P1: Stabilize preview
 - Ensure the repo preview is served from this project's `out` output, not an unrelated process on `3000`.
@@ -69,7 +60,7 @@
   - starts a static server
 
 ### P2: Continue link cleanup
-- Re-run official link checks after every new Places batch.
+- Re-run official link checks after every new Places batch. Current audit: 87 checked / 0 broken.
 - Remove or downgrade untrusted `officialUrl` values that return `403`/`404`.
 - Consider showing `Google Maps` only when a site link is questionable.
 
@@ -83,7 +74,7 @@
 
 ## Suggested Next Session Workflow
 1. Confirm preview is serving the current repo output.
-2. Expand low-density parents by one batch of 6 to 8 areas.
+2. Finish the last low-density parents and then shift focus to parent hero quality and editorial depth.
 3. Run Google photo sync to R2.
 4. Run official link audit and apply cleanup.
 5. Review 3 to 5 parent pages visually and adjust hero selection.

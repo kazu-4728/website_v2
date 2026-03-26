@@ -189,6 +189,23 @@
       "officialUrl": "http://doppo555.blog108.fc2.com/",
       "placePhotoName": "places/ChIJ-Ubxkai9GWARXdP-wR24QTE/photos/ATCDNfVgiArm7WLA70MLJQsKT5xEyHjgjZVm6sYwFdBE3-hoTR6V1UOyfHgJdRI083_PYyzp7hJk3KF_TEeFd2OJcXlc0lkfqdriCEFTOPdTC2wTRpQMPYvtNTJzpEjYwio-1cMaq05o3SFXOUNPp19EmLMPpylaxMSry2DSNnDnZ6Sx1suVxXyNf4LB1Ty1pPUl0S6cwBYm5xPj00pVwGY3Z7sEITJ8agl0HZIkfsyr2sLxOYkdLmD7T7Xo50dYkqUZDfE7S7gyVilKj7kpG8BsE2GPicsYZGCWlmiOomd6oOh7dVaIzE8JRNqtdQJ4IUK6sRQMWwMJkLkWwSX6A3vBkvzrtSjdA_0ypRlctJI1EGq-PGkI5pThs-HYV8RPhUO6gdP_U80SyXSGdVJCyV5EKDN9xDmTXy5NcH1PXLDOVhk",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yugawara/独歩の湯.jpg"
+    },
+    {
+      "slug": "みやかみの湯",
+      "name": "みやかみの湯",
+      "type": "day-trip",
+      "description": "湯河原温泉 の中でも みやかみの湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4507949099887242724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "みやかみの湯 神奈川県",
+      "placeId": "ChIJJwqSIw69GWAR5C1SfNJzjz4",
+      "googleMapsUri": "https://maps.google.com/?cid=4507949099887242724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://miyakaminoyu.jp/",
+      "officialUrl": "https://miyakaminoyu.jp/",
+      "placePhotoName": "places/ChIJJwqSIw69GWAR5C1SfNJzjz4/photos/AU_ZVEGlNLGLmFdAV4XhE0_gVUWRbXrDU1D4y99AOp3mTe0BI41FRlFRJzEYUxObz1Q35863NjhOVAO6POYuKBOGJLXEapB8T9S-mUZ8eVYXazkHHQMbMB_iWGgjFJ8iRp2efW5wA6aKv5IO10MSZ1bD42T-e6dHHWjZ1e4uoYRrBKQ2IM_34fwbnQ5G7THlN2YWcOicoqyQLm9_V1ZBphr0ESWAkQxQKIMEzVh2cVNhdDVoyrJ-Ow-zCoGsd4DNLYSo4NmEShN1dVyQxLQzVW7h2Kc3jEWQCCT9FtMr6kUfVq2kXuse-UfOmwr9kxLvf6ecEy9BQk9zixJGLH3JZYmSHUDH9GMELDs6hSrI793gbHo9VZU8bXyYmXnB2EilkbMtyNvnTzvD27dDoM7_b1DSAl_p_K1RR_an7SAPmvjIh5hMOuY",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/yugawara/みやかみの湯.jpg"
     }
   ]
 }

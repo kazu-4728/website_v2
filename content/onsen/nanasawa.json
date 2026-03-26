@@ -158,6 +158,40 @@
       "officialUrl": "http://www.nanasawasou.jp/",
       "placePhotoName": "places/ChIJHXlVVtAAGWARcGbSjmQu1Eg/photos/ATCDNfWXSKZkRFGbi6YlHcaNNyWVFXg6MLnVO1r1x4eFvmUIJ7dvXncEpscVtwVSQ_XRmgMnI3ID6UNTGoIORomDFIKcM5gN87IYxJWjGBE92bZRJdbN50r98jH8Jdh3hp3bzoD-jfAm-dlXs5dv0D_zPwUBeuPjK7g0948LGku8gza3E3FMie7gCNo2pM4OoTP7PaHAKs2FN5Rg_XWXt0XQ6_n_vgfj7eqlakUbeQjaPS4m0WQM9mf_zIJA4eDC7eeB0HPue7f0RkQbaKh-hN7jRWXYBNwRIDk5z4Ezw4w-I1hqyw",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nanasawa/広沢寺温泉.jpg"
+    },
+    {
+      "slug": "七沢の湯",
+      "name": "七沢の湯",
+      "type": "day-trip",
+      "description": "七沢温泉 の中でも 七沢の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=2179682861944971147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "七沢の湯 神奈川県",
+      "placeId": "ChIJYz_oWAABGWARi588tQPKPx4",
+      "googleMapsUri": "https://maps.google.com/?cid=2179682861944971147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.nanasawasou.jp/",
+      "officialUrl": "https://www.nanasawasou.jp/",
+      "placePhotoName": "places/ChIJYz_oWAABGWARi588tQPKPx4/photos/AU_ZVEH3dG7fFvxMiAP7GA0czSZwosAlwHxNnQ1NevdW3noCxRvHhmfyaYWvrLGV2owiSo4Qy8xu4IsKVlAReRzxoZ6HvuqDh5toQCFmQf6liQp8pjNJO8RW4RYC0-_0qiuHhyWFAyc_aIkXaLVlTT9xEgHYM6m2wNvcOeF1IBLHBST3dEMgVKrgmXXVk-Be-VRAF6yo-06ANtcsgviuwwkb2svDsT7ihz2Dhp-OF-tYfLAOuP_VAeWA19g05vXWXLnyQSjyEf3EDht3Ijlvbl8uzNcLzqBK3MFIbbvffGK8rUL5GH8vpvCLnfM9i84SS1HI8Ict7iqXvvRMLQFxSnNnIUQsZP6_zDbGBEjjctghu6vUQoKEdp5zAny-7BHh9jbibw7MdoGKCZ9eFNSHywofFGBMcg781sC30DG0XFZ9lhf4PuKG",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nanasawa/七沢の湯.jpg"
+    },
+    {
+      "slug": "廣澤寺温泉-玉翠楼",
+      "name": "廣澤寺温泉 玉翠楼",
+      "type": "day-trip",
+      "description": "七沢温泉 の中でも 廣澤寺温泉 玉翠楼 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4173418694562702712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "廣澤寺温泉 玉翠楼 神奈川県",
+      "placeId": "ChIJcV_tyCoHGWAReGVi5DD26jk",
+      "googleMapsUri": "https://maps.google.com/?cid=4173418694562702712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.gyokusuiro.com/",
+      "officialUrl": "http://www.gyokusuiro.com/",
+      "placePhotoName": "places/ChIJcV_tyCoHGWAReGVi5DD26jk/photos/AU_ZVEF0fZcCvnr2SMZdk0gF89g2KVBpAHtN0G791mJYT0sn9K3pmVjZIM8QJk2RZbq2WA39F5H41wmA2LMzxoKInR7OIlFmkJFb4DNsw4epnni82OBiUdJVK64obpQB6osA8J8kSKF9x_4HsCFKhbv1xqoCGQJk1Qfy1sFyIpYf2L85yFVRST9VxwLJNggCbVvSTaQFNYRakVDaNb6MLEgMRsfSqI8yMG6a7brsEpZhbhfRNlWRQG1jpQABJQXFRuBT7IIKr2loyCGJ3NXVmzsM33cy1l6-_2KSFQv4OMbKq7YrSLlhluxRIObabPDnC_gaxiMuUeq0Wsc8iIJoAOeEMH5PSNWz73oiisbTAnRPL5wszK0GlQyxrVK4LFMrUoYlJt6pIG49x7F-cIwOalca_YzmjIfr-O9177qhpWtxA1bymH21",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/nanasawa/廣澤寺温泉-玉翠楼.jpg"
     }
   ]
 }

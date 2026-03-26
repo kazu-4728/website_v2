@@ -163,6 +163,40 @@
       "officialUrl": "https://zekuu.jp/",
       "placePhotoName": "places/ChIJK7AQnalWPWARy09nB7CDEYk/photos/ATCDNfUX1mSDQVaImRL7jRvOV3JQ4Z9oBSkcjj779XPzDQ_DXD0bDn5qlfp1ODIspYJUDUmby2O4oFGz-62xDXZMYQUH1qrcci5kNHkbCGYO9XXtmXzvEspQ9Pf4uf5z0vwx_u4BEJzNU0i5HJJudXKsmS3voDM35u6HRYdz0lInb8gAXB9hX3HjUrRa2f5oNCnIDZJVmuxJbCfRMiS8VxWH-f4UqxDeek5LMVJA3WhafT9fk_cSHbG2gpI3uZoZXVQNKXSM67kYk7scPDQAk3fzI6P2dKsPRh4KNxB6jnMKRLhdLg",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamogawa/鴨川温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "鴨川グランドホテル",
+      "name": "鴨川グランドホテル",
+      "type": "onsen-landmark",
+      "description": "鴨川温泉 の中でも 鴨川グランドホテル は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=7770605838508744414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "鴨川グランドホテル 千葉県",
+      "placeId": "ChIJk59wWpBTPWAR3t7j9da81ms",
+      "googleMapsUri": "https://maps.google.com/?cid=7770605838508744414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.kgh.ne.jp/04/",
+      "officialUrl": "https://www.kgh.ne.jp/04/",
+      "placePhotoName": "places/ChIJk59wWpBTPWAR3t7j9da81ms/photos/AU_ZVEG_lQgG_oiuOcjMN0RhBB6aQi2zlqgVEoimAY5lSfhYNGD5LZnAD0Wu_XpAA3idyPcoJz-jzo4Vnw2Qhlkfp3r3EawoPdGVtYWR_6ePfRysadSB37ZxxuyLZLs2qlvnbgO9Ec__V58ezaVTzp29d7fMueC4glUpLe161jr7ZZTAS_SP-nsmCpAQG7hDDpPslJubRjwIpiwkQ3Np_92rdyfK0P49duQhYl-syFZY1xhEz_nhQyf2Jhl62zt-a0LYBvd7vzmClCwC-MDIpw5d21zc5lqm7quhmeTHDJoFw9f5BA",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamogawa/鴨川グランドホテル.jpg"
+    },
+    {
+      "slug": "粟斗温泉",
+      "name": "粟斗温泉",
+      "type": "day-trip",
+      "description": "鴨川温泉 の中でも 粟斗温泉 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=13920534477065571561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "粟斗温泉 千葉県",
+      "placeId": "ChIJbTrxrKBUPWAR6UwSTVqsL8E",
+      "googleMapsUri": "https://maps.google.com/?cid=13920534477065571561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://bosotown.com/archives/45197",
+      "officialUrl": "https://bosotown.com/archives/45197",
+      "placePhotoName": "places/ChIJbTrxrKBUPWAR6UwSTVqsL8E/photos/AU_ZVEHdI4oBSoLXpKYyno33yFujuCABvz7P3r1TCXpwMUdYOIUS3aQgnP5p4Nx8VkFWL8yr_ZUX7ptj_OmN-ugCJjqzfjrdPFfy1i1x_1REbaP48d5mxaUsyjXrDg7uG6ze337utZQQ359r53nm4X2d_YRzOsLZr2Rx-ZA4mbrUXSSWQnMJfdTP6yljkZnEAMrqkperc3DRL7D1Oc2SjDsqd0ITNf1XZIPcPJl1GLlwnINi84OtFifSmbsxlmBfS_x0nCpB2k9VasznbhLkEt2ZU2hWuQjGyvVwHrEaazLQXp9tCkMhVVq5NcwqYjEC7tNGCS7q2fPpd49VJzFABkpRPskKZABsPw96FYoUgTGblrmCRgsSDej1NAgtIIVOPBe0gqJP8EoIsf9awCCVcPRapJtQcC2Txkca44gfwNUwRcjw1g",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/kamogawa/粟斗温泉.jpg"
     }
   ]
 }

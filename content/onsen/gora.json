@@ -162,6 +162,40 @@
       "officialUrl": "https://www.laforet.co.jp/gora/?utm_source=google&utm_medium=maps&utm_campaign=gmb",
       "placePhotoName": "places/ChIJ1cHRRlafGWAR1LDhFXeRnFQ/photos/ATCDNfXYsjTFtFMfAg-rNIAguViOoUVlZDgDH4Itl87d9mWdqXQZntpLSIRC7ptCvtzswYvBrZ4BJbIF1obE02fHXR_1ipHCR1Dl0Zyn_c0sjqoIHl-3-6cpaQJ6oqXCnAXwAQnrAtLiOh5IZR4PdCuwoX_FXXowMQamMNzB5wA8R4P-3aosAKpz4sxqeviPUVrBYOLGtn5MBi01szAtdtU0uef6tsxj3id2vaS0-2KZL3xsBD8uQG_bqGW2Tafqa_FkYO1SC-RsY0kWGVuu4_4dbv75ibwEKu8kQ4jmIUrkZ7bf8w",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/gora/強羅温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "箱根湯寮",
+      "name": "箱根湯寮",
+      "type": "onsen-landmark",
+      "description": "強羅温泉 の中でも 箱根湯寮 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=12357299807494625188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "箱根湯寮 神奈川県",
+      "placeId": "ChIJAdpH56ajGWARpFe4ALTyfas",
+      "googleMapsUri": "https://maps.google.com/?cid=12357299807494625188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hakoneyuryo.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+      "officialUrl": "https://www.hakoneyuryo.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+      "placePhotoName": "places/ChIJAdpH56ajGWARpFe4ALTyfas/photos/AU_ZVEFDM5snrA2aAfXTlVV4H4XACUr0jlLvZuG3ewlSAZClpZxv8prXzMg4n1K_xFEp17Eieh5-GgYtrlCwFr_Fc0qrhzgI4rlwtv9VvK_8FoIR-Tq3BCnvjI7JplH__8jeBkFf6qMpWEm7U7Kw-ZGLoRQa8mpJhgnsDk_uZKf7qG79EgHfYYBMGJ6_jV6ehNMEOaKIWOfdOwZeJJafpl-CiAplfPaU0bg5zmUbgjMY393K94IVjfKSrfIyAeRDL_L0orEK0_cfHXkUrKGtQUfYmdOmmcwvOAj_YeUGRoriysVvGQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/gora/箱根湯寮.jpg"
+    },
+    {
+      "slug": "絶景日帰り温泉-龍宮殿本館",
+      "name": "絶景日帰り温泉 龍宮殿本館",
+      "type": "day-trip",
+      "description": "強羅温泉 の中でも 絶景日帰り温泉 龍宮殿本館 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=13379094571248999189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "絶景日帰り温泉 龍宮殿本館 神奈川県",
+      "placeId": "ChIJGYVfVO-YGWARFVunh6AXrLk",
+      "googleMapsUri": "https://maps.google.com/?cid=13379094571248999189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.princehotels.co.jp/ryuguden/honkan/",
+      "officialUrl": "http://www.princehotels.co.jp/ryuguden/honkan/",
+      "placePhotoName": "places/ChIJGYVfVO-YGWARFVunh6AXrLk/photos/AU_ZVEGzGIRdVSTP5NFiegxQjBVG3790BAkqgFDeRzKVl8twxv8ciwru8e8-6h039-FMBNe81552YP7T-vVwTuoynvlyfTxiAggyTvud6PXI_DZBhPzFQof_uCyL9Na8rD30R8GMdoBZOUH2Il24kVeYWkOoxauOqo4d8lLqg9VIwI1p1HmXkrXDajkgqK3KA3HvbkfkaqEf8-QV5N7quUSpggEkZ8UFYeFgK_4gG3iwa2wqme7tus1sOuCxSU5ssVvpgz76DBAmghefxICuchaL-cNgNGQzDUY6E0ZpVFneQ7PvEQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/gora/絶景日帰り温泉-龍宮殿本館.jpg"
     }
   ]
 }

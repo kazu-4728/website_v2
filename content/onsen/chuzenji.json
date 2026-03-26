@@ -158,6 +158,57 @@
       "officialUrl": "https://www.ritzcarlton.com/en/hotels/tyonz-the-ritz-carlton-nikko/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
       "placePhotoName": "places/ChIJdzXriwivH2ARRX_JL7-lc8M/photos/ATCDNfWJzzuoz_3B5VHorFxqL_OzyYepPW1Dpx8ct2e8YHw3wPTahq0EkaTTugn0UGkTLzq9GzG_7PpWxuURPkmiiXV4U7lyN5_eG0ksPLNPNTXwBddqhDbUKHN3uoK7H4NhxAMVCYDuFzg72hojy3pKQ0JehOc3y01lk6kABRQAWTY93JPcqMD0iCsMrEnBVhNCowHW7GVq7mF_8iPY_8vVEhdm2ou0jpJF0Eieo1wvCFsqbvgdLyUSCp2_My3CCtGXlHyIp4SLOzTmeVbTzPntWNAB2W8wlqdK7Ep9MDPvhKe6lA",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chuzenji/中禅寺温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "温泉露天風呂-空ぶろ",
+      "name": "温泉露天風呂 空ぶろ",
+      "type": "day-trip",
+      "description": "中禅寺温泉 の中でも 温泉露天風呂 空ぶろ は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=8443182941677447388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "温泉露天風呂 空ぶろ 栃木県",
+      "placeId": "ChIJR_v1m8ivH2AR3GhSzCY2LHU",
+      "googleMapsUri": "https://maps.google.com/?cid=8443182941677447388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.kanayahotel.co.jp/ckh/hotspring/?utm_source=google&utm_medium=gbp&utm_campaign=gbp_open_air_bath_soraburo",
+      "officialUrl": "https://www.kanayahotel.co.jp/ckh/hotspring/?utm_source=google&utm_medium=gbp&utm_campaign=gbp_open_air_bath_soraburo",
+      "placePhotoName": "places/ChIJR_v1m8ivH2AR3GhSzCY2LHU/photos/AU_ZVEHAaxt1wBVA_ivSmfu7OPnyUjtp47E0UFnRDmO0F3VeBLYbkKlXfXSsMzJbiQQIv5kShr-_7LiyxmK7kATPg-Jp7PkyuiKC03KguEza5RmstxIRM2Z8LwwIudPjMGry-J7kTlqpXSd9KWq_YEoWsgNNuZW8szlrjmulBaPc128_IK3K9SpCUMBzEXOw4jcy8fqqxCZvH647G4eEatwEuE76X1I5ryj7YxpzIxY5dCkGnm1Xdre71BEnvWOCJYBNekMAEtDO4NC9A1fWCMxs0XASjm411q9d8WoRsCJJIzxdxQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chuzenji/温泉露天風呂-空ぶろ.jpg"
+    },
+    {
+      "slug": "ザ・リッツ・カールトンスパ-日光",
+      "name": "ザ・リッツ・カールトンスパ 日光",
+      "type": "onsen-landmark",
+      "description": "中禅寺温泉 の中でも ザ・リッツ・カールトンスパ 日光 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=13478389673331676660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "ザ・リッツ・カールトンスパ 日光 栃木県",
+      "placeId": "ChIJo8sIeOipH2AR9FU6D__bDLs",
+      "googleMapsUri": "https://maps.google.com/?cid=13478389673331676660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.ritzcarlton.com/jp/hotels/japan/nikko/spa#",
+      "officialUrl": "https://www.ritzcarlton.com/jp/hotels/japan/nikko/spa#",
+      "placePhotoName": "places/ChIJo8sIeOipH2AR9FU6D__bDLs/photos/AU_ZVEEv6xCsWxJn2YFzBZvG_ASNMQzB8oGPeYh2y9spHuFGGuRdpYJOORHRZptmBIyrbigEeVYMl0H3VZkW3SKSCKS-cLwvC-3dA1et9hGViTjEjOGG82M_MHMJ6lLkvKosfDiAed6wCiFHFpdQrmlDEQ-brz9FMpkG79HXhzTkvDD98zl3yYSUDzhJZhsglPQnyEkxG-d_l6-WrS31Fsh-cKGdweVkWSf9dUeFFe11KKGJbqDS55PSBMIWEFl1-bT_a2ZyimzNO95gEBeUNEndwqnyIFXjSmojzna4ja9DhlzkCQ",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chuzenji/ザ・リッツ・カールトンスパ-日光.jpg"
+    },
+    {
+      "slug": "日光和の代温泉-やしおの湯",
+      "name": "日光和の代温泉 やしおの湯",
+      "type": "day-trip",
+      "description": "中禅寺温泉 の中でも 日光和の代温泉 やしおの湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=2735568083704209972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "日光和の代温泉 やしおの湯 栃木県",
+      "placeId": "ChIJ1aE1D_ymH2ARNOIVsK2w9iU",
+      "googleMapsUri": "https://maps.google.com/?cid=2735568083704209972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.yashionoyu.com/",
+      "officialUrl": "https://www.yashionoyu.com/",
+      "placePhotoName": "places/ChIJ1aE1D_ymH2ARNOIVsK2w9iU/photos/AU_ZVEEucqVZJlxu6Tb_JxKUCYnI3rIJiAn-V4h6DjM0KyeBlOLRrXyuuskT7eVMga6dvfbtZrfUnWid9Idq2A3wcriEiQ7WWmQCN5GPP1YQKxuiSsWLmzKPSRX23GwFTvX90eJozXLisF9BIo3KtCSXG8rs_bjwTdGsbpAGbAK6E246q_fe3ZHmNhgG117zdhdMU8G_pi77W7xK_ctliR0MPE_XtP2wvZLK3zHxqZcxLM4H15ZGuRtQp8aR7B5GNwWXLyhRkpZZJdqi30PQ96hZ1bJfEqlFqfL6RQf_bbnNc9FfVg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/chuzenji/日光和の代温泉-やしおの湯.jpg"
     }
   ]
 }

@@ -158,6 +158,57 @@
       "officialUrl": "https://www.roman-kan.jp/",
       "placePhotoName": "places/ChIJp_rZvkq-IWARvjs_gB7B_Do/photos/ATCDNfUvZxaaihvCmz3TuEXIh52sogdYlS5BM96LUCmVQpVGi8uPckIgFZ7K_Tzcc8645zHQEdl4Z9spNLhKB3_zLsenhnsy3sUUy0J1zYFiuKFZhyjqk3SLUDrkf56sRWmExcBFx6rsXtMDNefRwxEfh4NG5zo2AhV7QxOk-Mb57jtd3zTESXNPYPBpLSRara6PUSDqSF9ZJaX_cneix2eUDaDLLNQkLD3ZK88RNKso7y7pUwPrk8YToM9ePTZnqhKjRnVOXKiRGsxT-daESQbK32EY-9y0H8YMRkZjs5y-00BtMQjSOWQL8dUrjZM0w8hgqw11wV1PDo-RRdDXp64yDAXwWwHHRRe4V-9CtDhaDmouPp8IeE5eiG8H3FOtISabRJBjiPq28pZMwYU5wP_ugGByThdHsM-h3SXKDjBG3tAJrybV",
       "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/fukuroda/袋田温泉-温泉街中心部.jpg"
+    },
+    {
+      "slug": "大子温泉保養センター-森林の温泉",
+      "name": "大子温泉保養センター 森林の温泉",
+      "type": "day-trip",
+      "description": "袋田温泉 の中でも 大子温泉保養センター 森林の温泉 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=6675506427447795731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "大子温泉保養センター 森林の温泉 茨城県",
+      "placeId": "ChIJIVvx_VS_IWARE-DcN7oppFw",
+      "googleMapsUri": "https://maps.google.com/?cid=6675506427447795731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://morinoideyu.com/",
+      "officialUrl": "http://morinoideyu.com/",
+      "placePhotoName": "places/ChIJIVvx_VS_IWARE-DcN7oppFw/photos/AU_ZVEERWff2Z0FaNuAQJERsXiRfprQmzsvXvm5AmAGN1uOYVsM2_pIQrQ4Sdh0dGufyIqFkhG7OoZ2wCGPUV2TaxjSeXDmHsTTOuSuJM7BdqObd_pJTb1OJoi3boA13R1UBNg_1qhNQWwOAQrzWED5mvZew0cD6x4ASAvOMpQYKPgDtiJhSGDROaeLqkWXmt_LbnI3ZkPyObKW4uNHQfyTbVmnucF820IkMMThowVmRPVs9s8fdLb2ZHN-PKgxYbmLQ3eShEYsEOy8xlO3Hn6yQLIbW-2a8nsRRsk2EjQFO9CCLR5CYKJg4czlXkWNB2DkKufAXX_9-8mGChlRSgKFTC_qeck4G3H0wfftHOWYlINb0Gdb-wSCL4d166Np_jW-jt96crHMPM1q9mP6D9T0lTj99aEBNz-c4zcZoKLWOAQOpxg",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/fukuroda/大子温泉保養センター-森林の温泉.jpg"
+    },
+    {
+      "slug": "やまがたすこやかランド三太の湯",
+      "name": "やまがたすこやかランド三太の湯",
+      "type": "day-trip",
+      "description": "袋田温泉 の中でも やまがたすこやかランド三太の湯 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=17548429193559894642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "やまがたすこやかランド三太の湯 茨城県",
+      "placeId": "ChIJb9KBGfuTIWARcmo7QGCLiPM",
+      "googleMapsUri": "https://maps.google.com/?cid=17548429193559894642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.santanoyu.server-shared.com/",
+      "officialUrl": "http://www.santanoyu.server-shared.com/",
+      "placePhotoName": "places/ChIJb9KBGfuTIWARcmo7QGCLiPM/photos/AU_ZVEGSB0lqUg2fYDi8EEt0niCw84pplvR819733_pEPuaEaE82XH3YB_6TJ9UE_zK77a6QgKkZ1npA6N5Z4jX53nm_qSr7Pg5yXPhL4DM-GCeLq0kO-JcFicOP8BSy8DpjEsgKUSxMScEBF-RtPBDDEhuIV-HYwIGCzoYw0dJAnnjz_TCf_T8to1dUFtMjtLoKoxKpjybfHd1Y50jXpzRbfhwk-VeyGzStDCgYNV8LGiQLLLqnURqAa_uYdoHXmDxa7DXfXTHqz2Oaa1u_xsuNTyqlVuWeoPG--xSxIJi3YuHu-Q",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/fukuroda/やまがたすこやかランド三太の湯.jpg"
+    },
+    {
+      "slug": "月居温泉-白木荘",
+      "name": "月居温泉 白木荘",
+      "type": "day-trip",
+      "description": "袋田温泉 の中でも 月居温泉 白木荘 は、現地で温泉体験の中心になりやすい実在スポットです。写真と地図を頼りに立ち寄り計画を組みやすい候補として追加しています。",
+      "mapUrl": "https://maps.google.com/?cid=4327445686455302995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "bookingHint": "営業時間や立ち寄り可否は変動するため、訪問前に施設案内の確認がおすすめです。",
+      "placeQuery": "月居温泉 白木荘 茨城県",
+      "placeId": "ChIJEZBSHxS-IWARU_v2jewsDjw",
+      "googleMapsUri": "https://maps.google.com/?cid=4327445686455302995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://shirokisou.com/",
+      "officialUrl": "https://shirokisou.com/",
+      "placePhotoName": "places/ChIJEZBSHxS-IWARU_v2jewsDjw/photos/AU_ZVEElF9ZNmwrdk6UcrcEIWApvly5S8jrQ_5I4iQwiwMmifHusrvqbLP4dm9fCXk_loUl_a8EASqockSRBg9S9bAVHFPm2NOuysPEr98k_CZ8gMLiDyg4xSPEP2DYNgyw8pB2uR323PAOv30JR2WuXUjZKKOv77sOE-XR9TcjMVU4kaOC0WJsFAkenqiQAjQcdxiD7wytomuO6Sg37KtbTvT2sQIE6hB10WknzlWM1aC9sjoi87zylfVBerk7hft9POW4lWVq5y4W3-7BFbyRcE5_Qr9KajNuEwgm8rcFDM8gByA",
+      "photoStatus": "verified",
+      "imageSourceType": "google-place",
+      "photoUrl": "https://pub-72216527b14041d8bc0753066eb25b90.r2.dev/onsen-spots/fukuroda/月居温泉-白木荘.jpg"
     }
   ]
 }
