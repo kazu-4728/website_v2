@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MapPinned } from 'lucide-react';
 
 import { Pill } from '@/src/components/shared/Pill';
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import { getOnsenSpot, getOnsens } from '@/src/features/onsen';
 import { getImageSrc } from '@/src/lib/images/resolve';
 import { withBasePath } from '@/src/lib/base-path';
@@ -46,9 +46,9 @@ export default async function OnsenSpotPage({ params }: { params: Promise<{ slug
         ) : null}
         <div className={(entry.photoUrl || showParentImage) ? 'absolute inset-0 bg-[linear-gradient(180deg,rgba(7,9,10,0.22),rgba(7,9,10,0.94))]' : 'absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(210,167,93,0.16),transparent_45%),linear-gradient(180deg,rgba(17,19,20,0.88),rgba(7,9,10,0.98))]'} />
         <div className="relative mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
-          <Link href={`/onsen/${parent.identity.slug}`} className="text-sm text-[var(--color-accent)] hover:text-white">
+          <SiteLink href={`/onsen/${parent.identity.slug}`} className="text-sm text-[var(--color-accent)] hover:text-white">
             ← {parent.identity.name} に戻る
-          </Link>
+          </SiteLink>
           <div className="mt-8 flex flex-wrap gap-2">
             <Pill>{parent.identity.prefecture}</Pill>
             <Pill>{parent.identity.area}</Pill>
@@ -99,13 +99,13 @@ export default async function OnsenSpotPage({ params }: { params: Promise<{ slug
           </div>
           <div className="mt-8 grid gap-3 text-sm text-[var(--color-fog)]">
             {parent.onsenSpots.slice(0, 4).map((spotEntry) => (
-              <Link
+              <SiteLink
                 key={spotEntry.slug}
                 href={`/onsen/${parent.identity.slug}/spots/${spotEntry.slug}`}
                 className="rounded-2xl border border-white/8 bg-white/4 px-4 py-3 transition hover:border-[var(--color-accent)] hover:text-white"
               >
                 {spotEntry.name}
-              </Link>
+              </SiteLink>
             ))}
           </div>
         </section>

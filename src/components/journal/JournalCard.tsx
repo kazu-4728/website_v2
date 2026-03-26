@@ -1,11 +1,10 @@
-import Link from 'next/link';
-
 import { Pill } from '@/src/components/shared/Pill';
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import type { JournalArticle } from '@/src/content/schema/site';
 
 export function JournalCard({ article }: { article: JournalArticle }) {
   return (
-    <Link href={`/journal/${article.slug}`} className="group rounded-[2rem] border border-white/8 bg-[var(--color-panel)] p-6 transition-transform duration-300 hover:-translate-y-1">
+    <SiteLink href={`/journal/${article.slug}`} className="group rounded-[2rem] border border-white/8 bg-[var(--color-panel)] p-6 transition-transform duration-300 hover:-translate-y-1">
       <div className="space-y-4">
         <Pill className="text-[var(--color-accent)]">{article.category}</Pill>
         <div>
@@ -17,6 +16,7 @@ export function JournalCard({ article }: { article: JournalArticle }) {
           <span>{article.publishedAt}</span>
         </div>
       </div>
-    </Link>
+    </SiteLink>
   );
 }
+

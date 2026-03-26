@@ -5,6 +5,7 @@ import { QuickFilterPanel } from '@/src/components/onsen/QuickFilterPanel';
 import { JournalCard } from '@/src/components/journal/JournalCard';
 import { ButtonLink } from '@/src/components/shared/ButtonLink';
 import { SectionHeading } from '@/src/components/shared/SectionHeading';
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import { HomeConfig } from '@/src/content/schema/site';
 import { loadHomeConfig } from '@/src/content/loaders/site';
 import { getJournalEntries } from '@/src/features/journal';
@@ -64,7 +65,7 @@ export default async function HomePage() {
             if (!onsen) return null;
 
             return (
-              <a key={area.slug} href={`/onsen/${area.slug}`} className="group overflow-hidden rounded-[2rem] border border-white/8 bg-[var(--color-panel)]">
+              <SiteLink key={area.slug} href={`/onsen/${area.slug}`} className="group overflow-hidden rounded-[2rem] border border-white/8 bg-[var(--color-panel)]">
                 <div className="relative">
                   <img src={getImageSrc(onsen.images.hero)} alt={onsen.images.hero.alt} className="h-64 w-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[rgba(7,9,10,0.88)] via-transparent to-transparent" />
@@ -73,7 +74,7 @@ export default async function HomePage() {
                   <h3 className="text-3xl font-semibold text-white">{area.name}</h3>
                   <p className="text-sm leading-7 text-[var(--color-muted)]">{area.description}</p>
                 </div>
-              </a>
+              </SiteLink>
             );
           })}
         </div>

@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { cva, type VariantProps } from 'class-variance-authority';
 
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import { cn } from '@/src/lib/utils';
 
 const buttonLinkStyles = cva(
@@ -27,8 +27,9 @@ type ButtonLinkProps = {
 
 export function ButtonLink({ href, children, className, variant }: ButtonLinkProps) {
   return (
-    <Link href={href} className={cn(buttonLinkStyles({ variant }), className)}>
+    <SiteLink href={href} className={cn(buttonLinkStyles({ variant }), className)}>
       {children}
-    </Link>
+    </SiteLink>
   );
 }
+

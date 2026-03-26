@@ -1,11 +1,11 @@
 'use client';
 
-import Link from 'next/link';
 import useEmblaCarousel from 'embla-carousel-react';
 import { useEffect, useState } from 'react';
 
 import { ButtonLink } from '@/src/components/shared/ButtonLink';
 import { Pill } from '@/src/components/shared/Pill';
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import type { ImageAsset } from '@/src/content/schema/site';
 import { getImageSrc } from '@/src/lib/images/resolve';
 import { cn } from '@/src/lib/utils';
@@ -72,9 +72,9 @@ export function HeroCarousel({ eyebrow, title, description, primaryCta, secondar
                     <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--color-accent)]">{slide.kicker}</span>
                     <h2 className="max-w-xl text-3xl font-semibold leading-tight text-white md:text-5xl">{slide.heading}</h2>
                     <p className="max-w-lg text-sm leading-7 text-[var(--color-fog)] md:text-base">{slide.description}</p>
-                    <Link href={`/onsen/${slide.slug}`} className="inline-flex w-fit items-center text-sm font-semibold text-white transition-colors hover:text-[var(--color-accent)]">
+                    <SiteLink href={`/onsen/${slide.slug}`} className="inline-flex w-fit items-center text-sm font-semibold text-white transition-colors hover:text-[var(--color-accent)]">
                       詳細を見る
-                    </Link>
+                    </SiteLink>
                   </div>
                 </article>
               ))}
@@ -99,3 +99,4 @@ export function HeroCarousel({ eyebrow, title, description, primaryCta, secondar
     </section>
   );
 }
+

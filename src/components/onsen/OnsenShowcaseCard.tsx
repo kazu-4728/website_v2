@@ -1,6 +1,5 @@
-import Link from 'next/link';
-
 import { Pill } from '@/src/components/shared/Pill';
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import type { ImageAsset } from '@/src/content/schema/site';
 import { getImageSrc } from '@/src/lib/images/resolve';
 
@@ -35,7 +34,7 @@ export function OnsenShowcaseCard({ onsen, priority = false }: { onsen: OnsenCar
   const showImage = onsen.images.hero.focus !== 'area';
 
   return (
-    <Link href={`/onsen/${onsen.identity.slug}`} className="group overflow-hidden rounded-[2rem] border border-white/8 bg-[var(--color-panel)] transition-transform duration-300 hover:-translate-y-1">
+    <SiteLink href={`/onsen/${onsen.identity.slug}`} className="group overflow-hidden rounded-[2rem] border border-white/8 bg-[var(--color-panel)] transition-transform duration-300 hover:-translate-y-1">
       <div className="relative">
         {showImage ? (
           <img src={getImageSrc(onsen.images.hero)} alt={onsen.images.hero.alt} className="h-72 w-full object-cover transition-transform duration-700 group-hover:scale-105 md:h-80" fetchPriority={priority ? 'high' : 'auto'} />
@@ -63,6 +62,7 @@ export function OnsenShowcaseCard({ onsen, priority = false }: { onsen: OnsenCar
           ))}
         </div>
       </div>
-    </Link>
+    </SiteLink>
   );
 }
+

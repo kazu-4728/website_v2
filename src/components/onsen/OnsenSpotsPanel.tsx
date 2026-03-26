@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { MapPinned } from 'lucide-react';
 
+import { SiteLink } from '@/src/components/shared/SiteLink';
 import type { LoadedOnsen } from '@/src/content/loaders/onsen';
 import { withBasePath } from '@/src/lib/base-path';
 
@@ -36,12 +36,12 @@ export function OnsenSpotsPanel({ onsen }: { onsen: LoadedOnsen }) {
               <p className="mt-3 text-sm leading-7 text-[var(--color-fog)]">{spot.description}</p>
               {spot.bookingHint ? <p className="mt-3 text-xs leading-6 text-[var(--color-muted)]">{spot.bookingHint}</p> : null}
               <div className="mt-5 flex flex-wrap gap-2">
-                <Link
+                <SiteLink
                   href={`/onsen/${onsen.identity.slug}/spots/${spot.slug}`}
                   className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/6 px-3 py-2 text-xs text-white transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
                 >
                   詳細ページ
-                </Link>
+                </SiteLink>
                 <a
                   href={spot.googleMapsUri || spot.mapUrl}
                   target="_blank"
@@ -69,3 +69,4 @@ export function OnsenSpotsPanel({ onsen }: { onsen: LoadedOnsen }) {
     </section>
   );
 }
+
