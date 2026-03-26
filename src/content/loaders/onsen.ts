@@ -180,8 +180,11 @@ export async function loadAllOnsenSpots() {
 export async function loadOnsenSpot(parentSlug: string, spotSlug: string) {
   const onsen = await loadOnsenBySlug(parentSlug);
   if (!onsen) return null;
-  const spot = onsen.onsenSpots.find((entry) => entry.slug === spotSlug);
+
+  const decodedSpotSlug = decodeURIComponent(spotSlug);
+  const spot = onsen.onsenSpots.find((entry) => entry.slug === spotSlug || entry.slug === decodedSpotSlug);
   if (!spot) return null;
+
   return { ...spot, parent: onsen };
 }
 
@@ -198,3 +201,5 @@ export async function loadComparisonOnsens() {
     .map((slug) => onsens.find((onsen) => onsen.identity.slug === slug))
     .filter((onsen): onsen is LoadedOnsen => Boolean(onsen));
 }
+
+

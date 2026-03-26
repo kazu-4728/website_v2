@@ -718,3 +718,257 @@
 127.0.0.1 - - [27/Mar/2026 02:06:58] code 404, message File not found
 127.0.0.1 - - [27/Mar/2026 02:06:58] "GET /website_v2/onsen/kusatsu/spots/%E5%BE%A1%E5%BA%A7%E4%B9%8B%E6%B9%AF/__next.onsen.$d$slug.spots.$d$spot.txt?_rsc=17nev HTTP/1.1" 404 -
 127.0.0.1 - - [27/Mar/2026 02:06:58] "GET /website_v2/onsen/kusatsu/spots/%E5%BE%A1%E5%BA%A7%E4%B9%8B%E6%B9%AF/__next.onsen.$d$slug.spots.$d$spot.__PAGE__.txt?_rsc=1w0tz HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/onsen/kusatsu/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/0fd83d16c0a136d1.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:07] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:19:08] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:19:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:19:28] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:19:28] "GET /onsen/kusatsu/spots/%E5%BE%A1%E5%BA%A7%E4%B9%8B%E6%B9%AF HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:27:15] "GET /website_v2/onsen/kusatsu/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/983af33e6b216b75.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:27:16] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:18] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF HTTP/1.1" 301 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:19] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:29:20] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:29:20] "HEAD /website_v2/kinugawa/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] "HEAD /website_v2/kusatsu/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:29:20] "HEAD /website_v2/hakone/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] "HEAD /website_v2/docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] "GET /website_v2/docs/__next._tree.txt?_rsc=mlepq HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] "GET /website_v2/docs/__next._index.txt?_rsc=dpph4 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] "GET /website_v2/docs/__next._head.txt?_rsc=4ho9y HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] "GET /website_v2/docs/__next.docs.txt?_rsc=1fq71 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:20] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:29:20] "GET /website_v2/docs/__next.docs.__PAGE__.txt?_rsc=1hf2n HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:29:21] "HEAD /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:21] "GET /website_v2/__next._tree.txt?_rsc=mlepq HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:21] "GET /website_v2/__next._head.txt?_rsc=4ho9y HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:21] "GET /website_v2/__next.__PAGE__.txt?_rsc=v1x6p HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:29:21] "GET /website_v2/_next/static/chunks/3d4a90c5924bf438.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/onsen/kusatsu/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/983af33e6b216b75.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:32:01] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:33:03] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:33:03] "HEAD /website_v2/kusatsu/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "HEAD /website_v2/kinugawa/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:33:03] "HEAD /website_v2/hakone/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "HEAD /website_v2/docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/docs/__next._tree.txt?_rsc=mlepq HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/docs/__next._head.txt?_rsc=4ho9y HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/docs/__next.docs.txt?_rsc=1fq71 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/docs/__next._index.txt?_rsc=dpph4 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:03] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:33:03] "GET /website_v2/docs/__next.docs.__PAGE__.txt?_rsc=1hf2n HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:33:04] "HEAD /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:04] "GET /website_v2/__next._tree.txt?_rsc=mlepq HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:04] "GET /website_v2/__next._head.txt?_rsc=4ho9y HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:04] "GET /website_v2/__next.__PAGE__.txt?_rsc=v1x6p HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:04] "GET /website_v2/_next/static/chunks/b457c503337fcc25.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:23] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:33:25] "GET /website_v2/onsen/kusatsu/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF/ HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:12] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:34:13] "HEAD /website_v2/kinugawa/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:34:13] "HEAD /website_v2/kusatsu/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:34:13] "HEAD /website_v2/hakone/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "HEAD /website_v2/docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "HEAD /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/docs/__next._tree.txt?_rsc=mlepq HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/__next._tree.txt?_rsc=mlepq HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/docs/__next._head.txt?_rsc=4ho9y HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/docs/__next._index.txt?_rsc=dpph4 HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/docs/__next.docs.txt?_rsc=1fq71 HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/docs/__next.docs.__PAGE__.txt?_rsc=1hf2n HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/__next._head.txt?_rsc=4ho9y HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/__next.__PAGE__.txt?_rsc=v1x6p HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:34:13] "GET /website_v2/_next/static/chunks/b457c503337fcc25.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:35:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:14] "GET /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:22] "GET /website_v2/onsen/hakone/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:22] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:22] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:22] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:22] "GET /website_v2/_next/static/chunks/983af33e6b216b75.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:22] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:34] "GET /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:38:43] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:38:43] "GET /kusatsu HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:40:04] "GET /website_v2/docs/index.txt?_rsc=1kb6k HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:04] "GET /website_v2/docs HTTP/1.1" 301 -
+127.0.0.1 - - [27/Mar/2026 02:40:04] "HEAD /website_v2/docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:04] "GET /website_v2/docs/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:04] "GET /website_v2/docs/__next._tree.txt?_rsc=mlepq HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53684)
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+127.0.0.1 - - [27/Mar/2026 02:40:05] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 200 -
+  File "C:\Python313\Lib\http\server.py", line 1320, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\http\server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python313\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\http\server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Python313\Lib\http\server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\http\server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] 確立された接続がホスト コンピューターのソウトウェアによって中止されました。
+----------------------------------------
+127.0.0.1 - - [27/Mar/2026 02:40:06] "HEAD /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:06] "GET /website_v2/onsen/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:06] "GET /website_v2/_next/static/chunks/fb6978e2851e81bd.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:12] "GET /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:40:12] "GET /website_v2/_next/static/chunks/b457c503337fcc25.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:18] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:18] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:19] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:41:56] "GET /website_v2/_next/static/chunks/b457c503337fcc25.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:42:07] "GET /website_v2/onsen/hakone/ HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:07] "GET /website_v2/_next/static/chunks/983af33e6b216b75.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/onsen/kusatsu/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:37] "GET /website_v2/_next/static/chunks/983af33e6b216b75.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:42:45] "GET /website_v2/onsen/kusatsu/spots/%E5%A4%A7%E6%BB%9D%E4%B9%83%E6%B9%AF/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/contact/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/448462ebc8c5fe56.css HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/9224d27fa614c766.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/236f7e5abd6f09ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/6f17e1dac12b1b9d.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/cc759f7c2413b7ff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/turbopack-f524c3c509f76cff.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/7340adf74ff47ec0.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/7de5247bbf19e6a6.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:18] "GET /website_v2/_next/static/chunks/796e69ae18b2784c.js HTTP/1.1" 304 -
+127.0.0.1 - - [27/Mar/2026 02:43:22] "GET /website_v2/onsen/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:43:22] "GET /website_v2/_next/static/chunks/fb6978e2851e81bd.js HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:43:48] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:43:48] "GET /onsen?area=%E5%8D%97%E6%88%BF%E7%B7%8F&spring=&effect=&travel= HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 02:44:07] code 404, message File not found
+127.0.0.1 - - [27/Mar/2026 02:44:07] "GET /onsen?area=%E6%B2%BC%E7%94%B0%E3%83%BB%E8%80%81%E7%A5%9E&spring=&effect=&travel= HTTP/1.1" 404 -
