@@ -10,7 +10,7 @@ interface ArticleCardProps {
 export function ArticleCard({ article, image }: ArticleCardProps) {
   return (
     <Link
-      href={`/blog/${article.slug}`}
+      href={`/articles/${article.slug}`}
       className="group grid overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-stone-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl md:grid-cols-[0.85fr_1fr]"
     >
       <div className="relative min-h-64 overflow-hidden">
@@ -28,9 +28,7 @@ export function ArticleCard({ article, image }: ArticleCardProps) {
           <span>{article.category}</span>
           <span>{article.date}</span>
         </div>
-        <h3 className="mt-4 font-serif text-3xl font-bold leading-tight text-stone-950 md:text-4xl">
-          {article.title}
-        </h3>
+        <h3 className="mt-4 font-serif text-3xl font-bold leading-tight text-stone-950 md:text-4xl">{article.title}</h3>
         <p className="mt-4 text-sm leading-7 text-stone-600">{article.excerpt}</p>
         <span className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-stone-950">
           記事を読む <span className="transition-transform group-hover:translate-x-1">→</span>
