@@ -41,6 +41,7 @@
   ],
   "exclude": [
     "node_modules",
+    "app/components/_archive/**",
     "app/components/_legacy/**",
     "app/components/modern/**",
     "app/lib/templates/**",
