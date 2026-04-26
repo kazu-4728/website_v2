@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const areaRoutes: MetadataRoute.Sitemap = getAreas().map((area) => ({
     url: `${baseUrl}/areas/${area.slug}`,
     lastModified: now,
-    changeFrequency: 'weekly',
+    changeFrequency: 'weekly' as const,
     priority: 0.85,
   }));
 
@@ -59,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const purposeRoutes: MetadataRoute.Sitemap = getPurposes().map((purpose) => ({
     url: `${baseUrl}/purposes/${purpose.slug}`,
     lastModified: now,
-    changeFrequency: 'monthly',
+    changeFrequency: 'monthly' as const,
     priority: 0.75,
   }));
 
