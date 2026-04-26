@@ -1,89 +1,76 @@
-import { loadContent } from '../lib/content';
-import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../components/_legacy/ui/Button';
-import { ArrowRightIcon, BookOpenIcon, ArrowLeftIcon } from 'lucide-react';
+import { getOnsenSpots, getSiteData } from '../lib/onsen-site';
+import { OnsenCard } from '../components/site/OnsenCard';
 
-export default async function DocsIndexPage() {
-  const content = await loadContent();
-  const docs = content.pages.docs || [];
-  const texts = content.texts;
+export function generateMetadata() {
+  const data = getSiteData();
+  return {
+    title: '温泉地一覧',
+    description: '関東近郊の温泉地を写真・泉質・アクセス・過ごし方から比較できます。',
+    openGraph: {
+      title: `温泉地一覧 | ${data.site.name}`,
+      description: '関東近郊の温泉地を写真・泉質・アクセス・過ごし方から比較できます。',
+    },
+  };
+}
+
+export default function DocsIndexPage() {
+  const spots = getOnsenSpots();
+  const prefectures = Array.from(new Set(spots.map((spot) => spot.prefecture)));
+  const springTypes = Array.from(new Set(spots.flatMap((spot) => spot.springTypes)));
 
   return (
-    <main className="bg-dark-950 min-h-screen">
-      {/* Back Link */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
-        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
-          <ArrowLeftIcon className="w-4 h-4 mr-2" />
-          {texts.nav.backLinks.home}
-        </Link>
-      </div>
+    <main className="bg-[#f7f3ec]">
+      <section className="border-b border-stone-200 bg-white py-20 md:py-28">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <Link href="/" className="text-sm font-bold text-stone-500 hover:text-stone-950">
+            ← トップへ戻る
+          </Link>
+          <div className="mt-8 grid gap-10 md:grid-cols-[1fr_0.75fr] md:items-end">
+            <div>
+              <p className="text-sm font-bold tracking-[0.24em] text-stone-500">ONSEN DIRECTORY</p>
+              <h1 className="mt-4 font-serif text-5xl font-bold leading-tight text-stone-950 md:text-7xl">
+                写真と条件で選ぶ、関東近郊の温泉地。
+              </h1>
+            </div>
+            <p className="text-base leading-8 text-stone-600 md:text-lg">
+              ここでは、ページ量産の軸になる温泉地データを一覧化しています。今後はこのJSONに温泉地を追加するだけで、一覧・詳細・関連記事の導線を増やせます。
+            </p>
+          </div>
 
-      {/* Header */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-primary-900/20 to-transparent" />
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-            {texts.pages.onsenGuide?.title || '温泉ガイド'}
-          </h1>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            {texts.pages.onsenGuide?.description || '関東エリアの温泉地をご紹介'}
-          </p>
+          <div className="mt-12 grid gap-4 md:grid-cols-3">
+            <div className="rounded-3xl bg-[#f7f3ec] p-6 ring-1 ring-stone-200">
+              <p className="text-sm font-bold text-stone-500">掲載温泉地</p>
+              <p className="mt-2 font-serif text-5xl font-bold text-stone-950">{spots.length}</p>
+            </div>
+            <div className="rounded-3xl bg-[#f7f3ec] p-6 ring-1 ring-stone-200">
+              <p className="text-sm font-bold text-stone-500">都県</p>
+              <p className="mt-2 font-serif text-5xl font-bold text-stone-950">{prefectures.length}</p>
+            </div>
+            <div className="rounded-3xl bg-[#f7f3ec] p-6 ring-1 ring-stone-200">
+              <p className="text-sm font-bold text-stone-500">泉質カテゴリ</p>
+              <p className="mt-2 font-serif text-5xl font-bold text-stone-950">{springTypes.length}</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Docs List */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-32">
-        <div className="grid gap-8 md:gap-12">
-          {docs.map((doc, index) => (
-            <Link 
-              key={doc.slug} 
-              href={`/docs/${doc.slug}`}
-              className="group relative overflow-hidden rounded-2xl bg-dark-900 border border-dark-800 hover:border-primary-500/50 transition-all duration-500"
-            >
-              <div className="flex flex-col md:flex-row">
-                {/* Image */}
-                <div className="md:w-1/3 h-64 md:h-auto relative overflow-hidden">
-                  <Image
-                    src={doc.image}
-                    alt={doc.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors" />
-                </div>
-
-                {/* Content */}
-                <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
-                  <div className="flex items-center gap-3 text-primary-400 mb-4 text-sm font-medium uppercase tracking-wider">
-                    <BookOpenIcon className="w-4 h-4" />
-                    <span>{doc.subtitle || texts.ui.labels.documentation}</span>
-                  </div>
-                  
-                  <h2 className="text-3xl font-bold text-white mb-4 group-hover:text-primary-400 transition-colors">
-                    {doc.title}
-                  </h2>
-                  
-                  <p className="text-gray-400 mb-8 leading-relaxed max-w-2xl">
-                    {doc.description}
-                  </p>
-                  
-                  <div className="flex items-center text-white font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                    {texts.buttons.learnMore}
-                    <ArrowRightIcon className="ml-2 w-5 h-5 text-primary-500" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-
-        {docs.length === 0 && (
-          <div className="text-center text-gray-500 py-12">
-            {texts.messages.notFound.docs}
+      <section className="py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <div className="mb-10 flex flex-wrap gap-2">
+            {prefectures.map((prefecture) => (
+              <span key={prefecture} className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-stone-700 ring-1 ring-stone-200">
+                {prefecture}
+              </span>
+            ))}
           </div>
-        )}
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {spots.map((spot, index) => (
+              <OnsenCard key={spot.slug} spot={spot} priority={index < 3} size="large" />
+            ))}
+          </div>
+        </div>
       </section>
     </main>
   );
