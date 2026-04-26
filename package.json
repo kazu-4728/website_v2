@@ -1,6 +1,6 @@
 {
-  "name": "kanto-onsen-guide",
-  "version": "3.0.0",
+  "name": "code-voyage",
+  "version": "2.0.0",
   "private": true,
   "description": "JSON-driven Kanto onsen guide site with curated image metadata.",
   "engines": {
