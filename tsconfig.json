@@ -34,11 +34,18 @@
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "data/**/*.json",
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "app/components/_legacy/**",
+    "app/components/modern/**",
+    "themes/**",
+    "tests/**",
+    "scripts/**",
+    "docs/**"
   ]
 }
