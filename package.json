@@ -1,8 +1,8 @@
 {
-  "name": "code-voyage",
-  "version": "2.0.0",
+  "name": "kanto-onsen-guide",
+  "version": "3.0.0",
   "private": true,
-  "description": "A high-impact, fully JSON-driven Next.js template for documentation and marketing sites.",
+  "description": "JSON-driven Kanto onsen guide site with curated image metadata.",
   "engines": {
     "node": ">=20.19.0"
   },
@@ -10,18 +10,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:images": "vitest run tests/lib/images.test.ts tests/lib/content.test.ts tests/integration/image-display.test.ts tests/integration/image-quality.test.ts tests/integration/build-validation.test.ts",
-    "test:all": "npm run test && npm run test:images",
     "validate:data": "node scripts/validate-onsen-site-data.mjs",
-    "prebuild": "node -e \"if (process.env.SKIP_CHECK !== 'true') { require('child_process').execSync('npm run validate:data', {stdio: 'inherit'}); }\"",
-    "check": "npm run validate:data && npm run check:images && npm run check:links",
-    "check:images": "node scripts/check-images.js",
-    "check:links": "node scripts/check-links.js",
-    "fetch-images": "node scripts/fetch-wikimedia-images.js",
-    "fetch-images-multi": "node scripts/fetch-onsen-images-multi-api.js"
+    "check": "npm run validate:data",
+    "test": "npm run validate:data",
+    "prebuild": "node -e \"if (process.env.SKIP_CHECK !== 'true') { require('child_process').execSync('npm run validate:data', {stdio: 'inherit'}); }\""
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.1",
