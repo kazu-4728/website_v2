@@ -11,63 +11,30 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    // エラーをログに記録（本番環境ではエラー追跡サービスに送信）
     console.error('Application error:', error);
   }, [error]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950">
-      <div className="max-w-2xl mx-auto px-4 text-center">
-        <div className="space-y-6">
-          {/* エラーアイコン */}
-          <div className="flex justify-center">
-            <div className="w-24 h-24 rounded-full bg-red-500/10 flex items-center justify-center">
-              <svg
-                className="w-12 h-12 text-red-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                />
-              </svg>
-            </div>
-          </div>
-
-          {/* エラーメッセージ */}
-          <div className="space-y-3">
-            <h1 className="text-4xl font-bold text-white">エラーが発生しました</h1>
-            <p className="text-xl text-gray-400">
-              申し訳ございません。予期しないエラーが発生しました。
-            </p>
-            {error.digest && (
-              <p className="text-sm text-gray-500 font-mono">
-                エラーID: {error.digest}
-              </p>
-            )}
-          </div>
-
-          {/* アクション */}
-          <div className="flex gap-4 justify-center">
-            <button
-              onClick={reset}
-              className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors"
-            >
-              もう一度試す
-            </button>
-            <Link
-              href="/"
-              className="px-6 py-3 bg-dark-800 hover:bg-dark-700 text-white rounded-lg font-medium transition-colors border border-dark-700"
-            >
-              トップページへ
-            </Link>
-          </div>
+    <main className="min-h-screen bg-[#f7f3ec] px-5 py-24 text-stone-950 md:px-8">
+      <div className="mx-auto max-w-3xl rounded-[2rem] bg-white p-8 text-center shadow-sm ring-1 ring-stone-200 md:p-12">
+        <p className="text-sm font-bold tracking-[0.24em] text-red-500">ERROR</p>
+        <h1 className="mt-4 font-serif text-5xl font-bold leading-tight md:text-7xl">表示中に問題が発生しました</h1>
+        <p className="mt-6 text-base leading-8 text-stone-600">
+          一時的な問題の可能性があります。再読み込みするか、トップページから温泉候補を探し直してください。
+        </p>
+        {error.digest && <p className="mt-4 font-mono text-xs text-stone-400">エラーID: {error.digest}</p>}
+        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+          <button onClick={reset} className="rounded-full bg-stone-950 px-6 py-3 text-sm font-bold text-white">
+            もう一度試す
+          </button>
+          <Link href="/" className="rounded-full border border-stone-300 px-6 py-3 text-sm font-bold text-stone-900">
+            トップへ戻る
+          </Link>
+          <Link href="/onsens" className="rounded-full border border-stone-300 px-6 py-3 text-sm font-bold text-stone-900">
+            温泉一覧を見る
+          </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
