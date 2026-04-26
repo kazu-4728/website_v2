@@ -1,29 +1,20 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
+import { getSiteData } from './lib/onsen-site';
 
 export const dynamic = 'force-static';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://example.com';
+  const data = getSiteData();
 
   return {
     rules: [
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/private/', '/_next/', '/admin/'],
-      },
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        crawlDelay: 0,
-      },
-      {
-        userAgent: 'Bingbot',
-        allow: '/',
-        crawlDelay: 0,
+        disallow: ['/api/', '/private/', '/admin/'],
       },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
-    host: baseUrl,
+    sitemap: `${data.site.baseUrl}/sitemap.xml`,
+    host: data.site.baseUrl,
   };
 }
