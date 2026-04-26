@@ -1,110 +1,85 @@
-import { loadContent } from '../lib/content';
-import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../components/_legacy/ui/Button';
-import { ZapIcon, ShieldIcon, CpuIcon, ArrowLeftIcon } from 'lucide-react';
+import { getOnsenSpot, getPurposeSpots, getSiteData } from '../lib/onsen-site';
 
-// Icon mapper
-const iconMap: Record<string, React.ReactNode> = {
-  zap: <ZapIcon className="w-8 h-8" />,
-  shield: <ShieldIcon className="w-8 h-8" />,
-  cpu: <CpuIcon className="w-8 h-8" />,
-};
+export function generateMetadata() {
+  const data = getSiteData();
+  return {
+    title: '旅の選び方',
+    description: '温泉地を写真・目的・滞在スタイルから選ぶためのガイドです。',
+    openGraph: {
+      title: `旅の選び方 | ${data.site.name}`,
+      description: '温泉地を写真・目的・滞在スタイルから選ぶためのガイドです。',
+    },
+  };
+}
 
-export default async function FeaturesPage() {
-  const content = await loadContent();
-  const featuresData = content.pages.features;
-
-  const texts = content.texts;
-
-  if (!featuresData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-dark-950 text-white">
-        {texts.messages.notFound.features}
-      </div>
-    );
-  }
+export default function FeaturesPage() {
+  const data = getSiteData();
 
   return (
-    <main className="bg-dark-950 min-h-screen">
-      {/* Back Link */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
-        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
-          <ArrowLeftIcon className="w-4 h-4 mr-2" />
-          {texts.nav.backLinks.home}
-        </Link>
-      </div>
-
-      {/* Cinematic Hero */}
-      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={featuresData.hero.image}
-            alt="Features Hero"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-dark-950" />
-        </div>
-
-        <div className="relative z-10 text-center max-w-5xl mx-auto px-4">
-          <p className="text-primary-400 font-mono mb-6 tracking-widest uppercase animate-fade-in-up">
-            {featuresData.hero.subtitle}
-          </p>
-          <h1 
-            className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter animate-fade-in-up delay-100"
-            dangerouslySetInnerHTML={{ __html: featuresData.hero.title }} // Allow HTML for gradient span
-          />
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-12 animate-fade-in-up delay-200">
-            {featuresData.hero.description}
-          </p>
-        </div>
-      </section>
-
-      {/* Feature Cards */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 -mt-32 relative z-20">
-        <div className="grid md:grid-cols-3 gap-8">
-          {featuresData.items.map((feature, i) => (
-            <div key={i} className="card-glass rounded-2xl p-8 backdrop-blur-xl bg-dark-900/80">
-              <div className="w-16 h-16 rounded-xl bg-primary-500/10 flex items-center justify-center text-primary-500 mb-6 border border-primary-500/20">
-                {iconMap[feature.icon] || <ZapIcon className="w-8 h-8" />}
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4">{feature.title}</h3>
-              <p className="text-gray-400 leading-relaxed mb-8">
-                {feature.description}
-              </p>
-              <div className="relative h-48 rounded-lg overflow-hidden">
-                <Image
-                  src={feature.image}
-                  alt={feature.title}
-                  fill
-                  className="object-cover hover:scale-110 transition-transform duration-700"
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Interactive Demo Section Placeholder */}
-      <section className="py-32 bg-black relative overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary-600/10 rounded-full blur-[120px] pointer-events-none" />
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-16">
-            {texts.ui.labels.readyToDeploy.replace('Deploy', '').trim()} <span className="text-gradient-cyan">Deploy</span>?
-          </h2>
-          
-          <div className="relative mx-auto max-w-4xl aspect-video rounded-xl border border-white/10 bg-dark-900/50 overflow-hidden flex items-center justify-center group">
-             <div className="text-center">
-                <div className="text-6xl mb-4 opacity-50 group-hover:scale-110 transition-transform duration-300">🚀</div>
-                <p className="text-gray-400">{texts.ui.labels.interactiveDemoLoading}</p>
-             </div>
-             
-             {/* Scanline effect */}
-             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary-500/5 to-transparent h-[20%] animate-scan" />
+    <main className="bg-[#f7f3ec]">
+      <section className="border-b border-stone-200 bg-white py-20 md:py-28">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <Link href="/" className="text-sm font-bold text-stone-500 hover:text-stone-950">
+            ← トップへ戻る
+          </Link>
+          <div className="mt-8 max-w-4xl">
+            <p className="text-sm font-bold tracking-[0.24em] text-stone-500">HOW TO CHOOSE</p>
+            <h1 className="mt-4 font-serif text-5xl font-bold leading-tight text-stone-950 md:text-7xl">
+              温泉地は、目的から逆算して選ぶ。
+            </h1>
+            <p className="mt-6 max-w-2xl text-base leading-8 text-stone-600 md:text-lg">
+              写真で惹かれることは大事です。ただし、満足度は「誰と行くか」「何時間滞在するか」「宿で過ごすか街を歩くか」で変わります。
+            </p>
           </div>
+        </div>
+      </section>
+
+      <section className="py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <div className="grid gap-7 md:grid-cols-3">
+            {data.purposes.map((purpose, index) => {
+              const spots = getPurposeSpots(purpose);
+              return (
+                <section key={purpose.id} className="rounded-[2rem] bg-white p-7 shadow-sm ring-1 ring-stone-200 md:p-8">
+                  <p className="text-sm font-bold tracking-[0.2em] text-stone-400">0{index + 1}</p>
+                  <h2 className="mt-4 font-serif text-3xl font-bold leading-tight text-stone-950">{purpose.title}</h2>
+                  <p className="mt-5 text-sm leading-8 text-stone-600">{purpose.description}</p>
+                  <div className="mt-7 space-y-3">
+                    {spots.map((spot) => (
+                      <Link key={spot.slug} href={`/docs/${spot.slug}`} className="block rounded-2xl bg-[#f7f3ec] p-4 transition-colors hover:bg-[#efe7da]">
+                        <p className="text-xs font-bold text-stone-500">{spot.prefecture} / {spot.area}</p>
+                        <p className="mt-1 font-serif text-xl font-bold text-stone-950">{spot.name}</p>
+                        <p className="mt-2 text-xs leading-5 text-stone-600">{spot.catchcopy}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-stone-950 py-16 text-white md:py-24">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-[0.8fr_1.2fr] md:px-8">
+          <div>
+            <p className="text-sm font-bold tracking-[0.24em] text-amber-200">DECISION FLOW</p>
+            <h2 className="mt-4 font-serif text-4xl font-bold leading-tight md:text-6xl">迷った時の判断順</h2>
+          </div>
+          <ol className="grid gap-4">
+            {[
+              ['移動時間を決める', '日帰りなら片道90分前後、宿泊なら片道2〜3時間までを目安にします。'],
+              ['宿時間か街歩きかを決める', '宿で過ごすなら静かな温泉郷、街歩きなら草津・伊香保・熱海のような温泉街が向きます。'],
+              ['写真で最後に絞る', '条件が合った候補の中から、風景や湯の印象で決めると外しにくくなります。'],
+            ].map(([title, body], index) => (
+              <li key={title} className="rounded-[2rem] border border-white/10 bg-white/5 p-6">
+                <p className="text-sm font-bold text-amber-200">STEP {index + 1}</p>
+                <h3 className="mt-2 font-serif text-2xl font-bold">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-stone-300">{body}</p>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
     </main>
