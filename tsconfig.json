@@ -34,15 +34,23 @@
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
     "app/**/*.ts",
     "app/**/*.tsx",
-    "data/**/*.json",
-    ".next/dev/types/**/*.ts"
+    "data/onsen-site.json"
   ],
   "exclude": [
     "node_modules",
     "app/components/_legacy/**",
     "app/components/modern/**",
+    "app/lib/templates/**",
+    "app/lib/images.ts",
+    "app/lib/wikimedia.ts",
+    "app/lib/weekly-rotation.ts",
+    "app/lib/onsen-image-mapper.ts",
+    "app/lib/onsen-image-selector.ts",
+    "app/lib/design-tokens.ts",
+    "app/lib/utils.ts",
     "themes/**",
     "tests/**",
     "scripts/**",
