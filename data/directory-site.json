@@ -1,0 +1,98 @@
+{
+  "site": {
+    "name": "関東湯旅案内",
+    "tagline": "公式情報で選ぶ、関東の温泉候補",
+    "description": "関東近郊の温泉地・温泉施設を、エリア、目的、公式サイト導線、写真クレジット付きで比較できる温泉ディレクトリ。",
+    "baseUrl": "https://kazu-4728.github.io/website_v2",
+    "keywords": ["関東温泉", "日帰り温泉", "温泉旅行", "公式サイト", "温泉施設"]
+  },
+  "navigation": [
+    { "label": "エリア", "href": "/areas" },
+    { "label": "温泉一覧", "href": "/onsens" },
+    { "label": "目的別", "href": "/purposes" },
+    { "label": "記事", "href": "/articles" },
+    { "label": "方針", "href": "/about" }
+  ],
+  "home": {
+    "hero": {
+      "eyebrow": "KANTO ONSEN DIRECTORY",
+      "title": "関東の温泉を、エリアと公式情報から探す。",
+      "description": "日帰り、宿泊、駅近、温泉街、静養向き。条件と公式サイト導線を並べて、次の候補を短時間で絞り込みます。",
+      "primaryAction": { "label": "温泉を探す", "href": "/onsens" },
+      "secondaryAction": { "label": "エリアから探す", "href": "/areas" }
+    },
+    "featuredAreaIds": ["hakone-yugawara", "gunma-meito", "nikko-nasu", "izu-atami"],
+    "featuredOnsenSlugs": ["hakone-yumoto", "kusatsu", "ikaho", "atami", "nikko-yumoto", "chichibu"]
+  },
+  "purposes": [
+    { "id": "day-trip", "slug": "day-trip", "name": "日帰り", "shortLabel": "日帰り", "description": "移動負担を抑え、短時間で温泉気分を得やすい候補。", "recommendedSlugs": ["hakone-yumoto", "atami", "chichibu", "ikaho"] },
+    { "id": "stay", "slug": "stay", "name": "宿泊", "shortLabel": "宿泊", "description": "宿で過ごす時間を長めに取り、食事や朝風呂まで楽しむ候補。", "recommendedSlugs": ["hakone-gora", "kusatsu", "shima", "nikko-yumoto"] },
+    { "id": "onsen-town", "slug": "onsen-town", "name": "温泉街を歩く", "shortLabel": "温泉街", "description": "湯畑、石段、海沿いの街など、入浴以外の散策も楽しめる候補。", "recommendedSlugs": ["kusatsu", "ikaho", "atami", "hakone-yumoto"] },
+    { "id": "quiet", "slug": "quiet", "name": "静かに整える", "shortLabel": "静養", "description": "派手な観光より、自然や宿時間を重視する候補。", "recommendedSlugs": ["shima", "nikko-yumoto", "shiobara"] },
+    { "id": "family", "slug": "family", "name": "家族・グループ", "shortLabel": "家族", "description": "交通や周辺観光の選択肢があり、複数人で計画しやすい候補。", "recommendedSlugs": ["kinugawa", "hakone-yumoto", "atami", "chichibu"] }
+  ],
+  "areas": [
+    {
+      "id": "hakone-yugawara",
+      "slug": "hakone-yugawara",
+      "name": "箱根・湯河原",
+      "prefectures": ["神奈川県"],
+      "summary": "都心から近く、日帰りにも宿泊にも使いやすい関東屈指の温泉エリア。駅近、山の宿、海に近い湯河原まで選択肢が広い。",
+      "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg", "alt": "箱根強羅温泉の露天風呂", "credit": "Michael Casim / Wikimedia Commons", "license": "CC BY 2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg" },
+      "onsenSlugs": ["hakone-yumoto", "hakone-gora", "yugawara"]
+    },
+    {
+      "id": "gunma-meito",
+      "slug": "gunma-meito",
+      "name": "群馬名湯",
+      "prefectures": ["群馬県"],
+      "summary": "草津、伊香保、四万など、温泉街の個性が強い名湯が集まるエリア。街歩き、宿泊、静養の目的で分けやすい。",
+      "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg", "alt": "伊香保温泉の石段街", "credit": "Qurren / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg" },
+      "onsenSlugs": ["kusatsu", "ikaho", "shima"]
+    },
+    {
+      "id": "nikko-nasu",
+      "slug": "nikko-nasu",
+      "name": "栃木・日光那須",
+      "prefectures": ["栃木県"],
+      "summary": "日光観光、奥日光の自然、那須塩原の渓谷など、観光と静養の両方を組み立てやすいエリア。",
+      "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg", "alt": "日光湯元温泉の露天風呂", "credit": "663highland / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg" },
+      "onsenSlugs": ["kinugawa", "nikko-yumoto", "shiobara"]
+    },
+    {
+      "id": "izu-atami",
+      "slug": "izu-atami",
+      "name": "伊豆・熱海",
+      "prefectures": ["静岡県"],
+      "summary": "海の景色、駅近、短期旅行の組み立てやすさが強み。東京方面からの週末旅行の入口として使いやすい。",
+      "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg", "alt": "熱海温泉の街並み", "credit": "663highland / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg" },
+      "onsenSlugs": ["atami", "ito", "shuzenji"]
+    },
+    {
+      "id": "tokyo-saitama",
+      "slug": "tokyo-saitama",
+      "name": "東京近郊・埼玉",
+      "prefectures": ["東京都", "埼玉県"],
+      "summary": "短時間で移動しやすく、日帰り温泉や駅近施設を探しやすい近場エリア。週末のリセット向け。",
+      "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg", "alt": "西武秩父駅前温泉", "credit": "Asturio Cantabrio / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg" },
+      "onsenSlugs": ["chichibu", "okutama"]
+    }
+  ],
+  "onsens": [
+    { "slug": "hakone-yumoto", "name": "箱根湯本温泉", "kind": "温泉地", "areaId": "hakone-yugawara", "prefecture": "神奈川県", "officialName": "箱根湯本観光協会", "officialUrl": "https://www.hakoneyumoto.com/", "verifiedAt": "2026-04-26", "summary": "箱根の玄関口。駅近で日帰り、宿泊、食べ歩きまで組み立てやすい初回向きの温泉地。", "catchcopy": "駅近で失敗しにくい、箱根の入口。", "tags": ["駅近", "日帰り", "宿泊", "初めて向き"], "springTypes": ["単純温泉", "塩化物泉"], "useCases": ["day-trip", "family"], "access": "新宿方面から小田急線・ロマンスカーで箱根湯本駅へ。駅周辺に宿や日帰り施設が集まる。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg", "alt": "箱根周辺の露天風呂", "credit": "David Monniaux / Wikimedia Commons", "license": "CC BY-SA 3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg" } },
+    { "slug": "hakone-gora", "name": "箱根強羅温泉", "kind": "温泉地", "areaId": "hakone-yugawara", "prefecture": "神奈川県", "officialName": "箱根全山", "officialUrl": "https://www.hakone.or.jp/", "verifiedAt": "2026-04-26", "summary": "山のリゾート感、美術館、宿泊施設の幅広さが強み。宿で過ごす時間を重視する旅に向く。", "catchcopy": "宿時間と山の空気を楽しむ箱根の中核。", "tags": ["宿泊", "美術館", "記念日", "静養"], "springTypes": ["塩化物泉", "硫酸塩泉", "単純温泉"], "useCases": ["stay", "quiet"], "access": "箱根登山鉄道の強羅駅周辺を拠点にしやすい。坂道が多いため宿送迎も確認したい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg", "alt": "箱根強羅の露天風呂", "credit": "Chris 73 / Wikimedia Commons", "license": "CC BY-SA 3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorakadan_Onsen_Rotenburo_1.jpg" } },
+    { "slug": "yugawara", "name": "湯河原温泉", "kind": "温泉地", "areaId": "hakone-yugawara", "prefecture": "神奈川県", "officialName": "湯河原温泉観光協会", "officialUrl": "https://www.yugawara.or.jp/", "verifiedAt": "2026-04-26", "summary": "落ち着いた温泉街と海に近い立地が特徴。箱根より静かに過ごしたい旅行に向く。", "catchcopy": "静かに泊まりたい箱根近郊の温泉地。", "tags": ["宿泊", "静養", "海近く", "大人旅"], "springTypes": ["塩化物泉", "硫酸塩泉"], "useCases": ["stay", "quiet"], "access": "東海道線の湯河原駅から温泉街方面へ。宿泊旅との相性が良い。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg", "alt": "湯河原温泉のイメージ", "credit": "David Monniaux / Wikimedia Commons", "license": "CC BY-SA 3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg" } },
+    { "slug": "kusatsu", "name": "草津温泉", "kind": "温泉地", "areaId": "gunma-meito", "prefecture": "群馬県", "officialName": "草津温泉ポータルサイト", "officialUrl": "https://www.kusatsu-onsen.ne.jp/", "verifiedAt": "2026-04-26", "summary": "湯畑を中心に温泉街そのものを楽しめる名湯。夜の散策、外湯、宿泊の満足度が高い。", "catchcopy": "温泉街の体験が濃い、関東屈指の名湯。", "tags": ["温泉街", "宿泊", "外湯", "名湯"], "springTypes": ["酸性泉", "硫黄泉"], "useCases": ["stay", "onsen-town"], "access": "長野原草津口駅からバスで草津温泉へ。1泊以上で組むと満足度が高い。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg", "alt": "草津温泉の湯畑", "credit": "Unknown author / Wikimedia Commons", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg" } },
+    { "slug": "ikaho", "name": "伊香保温泉", "kind": "温泉地", "areaId": "gunma-meito", "prefecture": "群馬県", "officialName": "渋川伊香保温泉観光協会", "officialUrl": "https://www.ikaho-kankou.com/", "verifiedAt": "2026-04-26", "summary": "365段の石段街を中心に、温泉情緒と街歩きを楽しみやすい温泉地。", "catchcopy": "石段街を歩いて楽しむ温泉地。", "tags": ["温泉街", "石段街", "日帰り", "写真"], "springTypes": ["硫酸塩泉", "単純温泉"], "useCases": ["day-trip", "onsen-town"], "access": "渋川駅からバスで伊香保温泉へ。石段街周辺を中心に歩きやすい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg", "alt": "伊香保温泉の石段街", "credit": "Qurren / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg" } },
+    { "slug": "shima", "name": "四万温泉", "kind": "温泉地", "areaId": "gunma-meito", "prefecture": "群馬県", "officialName": "四万温泉協会", "officialUrl": "https://shimaonsen.com/", "verifiedAt": "2026-04-26", "summary": "山あいの静かな温泉地。派手な観光より、宿時間と川沿いの景色を重視する旅に向く。", "catchcopy": "静かに泊まるための山あいの温泉地。", "tags": ["静養", "宿泊", "山あい", "川沿い"], "springTypes": ["硫酸塩泉", "塩化物泉"], "useCases": ["stay", "quiet"], "access": "中之条駅からバスで四万温泉へ。移動時間を見込んで宿泊で組みたい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg", "alt": "四万温泉の風景", "credit": "Komoro no kaze / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg" } },
+    { "slug": "kinugawa", "name": "鬼怒川温泉", "kind": "温泉地", "areaId": "nikko-nasu", "prefecture": "栃木県", "officialName": "日光市観光協会", "officialUrl": "https://www.nikko-kankou.org/", "verifiedAt": "2026-04-26", "summary": "渓谷沿いの宿と日光観光を組み合わせやすい温泉地。家族旅行やグループ旅行にも向く。", "catchcopy": "渓谷と日光観光を組み合わせる温泉地。", "tags": ["家族", "宿泊", "渓谷", "観光"], "springTypes": ["単純温泉"], "useCases": ["family", "stay"], "access": "東武線で鬼怒川温泉駅へ。駅から宿送迎や周辺観光に接続しやすい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg", "alt": "鬼怒川温泉の風景", "credit": "くろふね / Wikimedia Commons", "license": "CC BY 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg" } },
+    { "slug": "nikko-yumoto", "name": "日光湯元温泉", "kind": "温泉地", "areaId": "nikko-nasu", "prefecture": "栃木県", "officialName": "奥日光湯元温泉旅館協同組合", "officialUrl": "https://www.nikkoyumoto.com/", "verifiedAt": "2026-04-26", "summary": "奥日光の自然に囲まれた硫黄泉。静かな宿泊、湖畔散策、避暑や雪景色に向く。", "catchcopy": "自然と白濁湯を静かに楽しむ奥日光の温泉地。", "tags": ["静養", "自然", "宿泊", "硫黄泉"], "springTypes": ["硫黄泉"], "useCases": ["stay", "quiet"], "access": "東武日光駅・JR日光駅から奥日光方面のバスを利用。1泊以上が組みやすい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg", "alt": "日光湯元温泉の露天風呂", "credit": "663highland / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg" } },
+    { "slug": "shiobara", "name": "塩原温泉郷", "kind": "温泉地", "areaId": "nikko-nasu", "prefecture": "栃木県", "officialName": "塩原温泉観光協会", "officialUrl": "https://www.siobara.or.jp/", "verifiedAt": "2026-04-26", "summary": "複数の温泉地が連なる渓谷型の温泉郷。湯巡り、紅葉、自然散策に向く。", "catchcopy": "渓谷と湯巡りを楽しむ温泉郷。", "tags": ["渓谷", "紅葉", "宿泊", "湯巡り"], "springTypes": ["塩化物泉", "炭酸水素塩泉", "硫黄泉"], "useCases": ["stay", "quiet"], "access": "那須塩原駅からバスで塩原温泉方面へ。車移動とも相性が良い。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg", "alt": "塩原温泉の紅葉と露天風呂", "credit": "Raita Futo / Wikimedia Commons", "license": "CC BY 2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Free_Momiji_Onsen_(52510073823).jpg" } },
+    { "slug": "atami", "name": "熱海温泉", "kind": "温泉地", "areaId": "izu-atami", "prefecture": "静岡県", "officialName": "熱海市観光協会", "officialUrl": "https://www.ataminews.gr.jp/", "verifiedAt": "2026-04-26", "summary": "海の景色、駅近、宿泊、食事を短い移動で組みやすい定番リゾート温泉地。", "catchcopy": "海と温泉を短時間で楽しむ定番。", "tags": ["海", "駅近", "日帰り", "宿泊"], "springTypes": ["塩化物泉", "硫酸塩泉"], "useCases": ["day-trip", "onsen-town", "family"], "access": "東京駅から新幹線または東海道線で熱海駅へ。駅周辺から海沿いの宿へ向かいやすい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg", "alt": "熱海温泉の街並み", "credit": "663highland / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg" } },
+    { "slug": "chichibu", "name": "秩父温泉", "kind": "温泉地・施設群", "areaId": "tokyo-saitama", "prefecture": "埼玉県", "officialName": "秩父観光なび", "officialUrl": "https://www.chichibuji.gr.jp/", "verifiedAt": "2026-04-26", "summary": "都心から近く、日帰りや短時間旅行で山里の空気と温泉気分を得やすい。", "catchcopy": "近場で山里の温泉気分を作る。", "tags": ["日帰り", "駅近", "山里", "短時間"], "springTypes": ["単純温泉", "塩化物泉"], "useCases": ["day-trip", "family"], "access": "池袋から西武線で西武秩父方面へ。駅周辺施設と街歩きを組み合わせやすい。", "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg", "alt": "西武秩父駅前温泉", "credit": "Asturio Cantabrio / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg" } }
+  ],
+  "articles": [
+    { "slug": "how-to-choose-onsen", "title": "温泉候補の選び方：公式情報を見る前に決める5つの条件", "excerpt": "温泉地を雰囲気だけで選ばず、移動時間、日帰り可否、宿泊向き、温泉街、公式情報の確認順を整理します。", "date": "2026-04-26", "category": "選び方", "imageSlug": "hakone-yumoto", "sections": [ { "heading": "まず移動時間を決める", "body": "日帰りなら片道90分前後、宿泊なら片道2〜3時間までを目安にすると候補が絞れます。" }, { "heading": "目的タグで絞る", "body": "日帰り、宿泊、温泉街、静養、家族旅行のどれを優先するかで選ぶ温泉は変わります。" }, { "heading": "最後に公式サイトで確認する", "body": "営業時間、休館日、交通、料金、宿泊施設の状況は変わるため、最終判断は公式サイトで確認します。" } ] },
+    { "slug": "official-site-checklist", "title": "公式サイトで確認すべき温泉旅行のチェックリスト", "excerpt": "営業時間、アクセス、日帰り入浴、駐車場、混雑、写真利用の観点で、行く前に見るべき項目を整理します。", "date": "2026-04-26", "category": "実用", "imageSlug": "kusatsu", "sections": [ { "heading": "日帰り入浴の有無", "body": "温泉地名で探しても、施設によって日帰り入浴の条件は異なります。公式サイトで最新情報を確認します。" }, { "heading": "アクセスと最終移動", "body": "駅から歩けるのか、バスが必要なのか、宿送迎があるのかで旅程の組みやすさが変わります。" }, { "heading": "画像は公式リンクに任せる", "body": "公式サイトの画像を無断転載せず、サイト内では利用許諾が確認できる画像だけを使います。" } ] }
+  ]
+}
