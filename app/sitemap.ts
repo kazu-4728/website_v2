@@ -1,41 +1,39 @@
-import { MetadataRoute } from 'next';
-import { loadContent } from './lib/content';
+import type { MetadataRoute } from 'next';
+import { getArticles, getOnsenSpots, getSiteData } from './lib/onsen-site';
 
 export const dynamic = 'force-static';
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://example.com';
+export default function sitemap(): MetadataRoute.Sitemap {
+  const data = getSiteData();
+  const baseUrl = data.site.baseUrl;
+  const now = new Date();
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const content = await loadContent();
-  
-  // 固定ページ
-  const staticRoutes = [
-    '',
-    '/contact',
-    '/blog',
-    '/features',
+  const staticRoutes: MetadataRoute.Sitemap = [
+    { path: '/', priority: 1, changeFrequency: 'weekly' as const },
+    { path: '/docs', priority: 0.95, changeFrequency: 'weekly' as const },
+    { path: '/features', priority: 0.75, changeFrequency: 'monthly' as const },
+    { path: '/blog', priority: 0.75, changeFrequency: 'monthly' as const },
+    { path: '/contact', priority: 0.4, changeFrequency: 'monthly' as const },
   ].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: route === '' ? 1 : 0.8,
+    url: `${baseUrl}${route.path === '/' ? '/' : route.path}`,
+    lastModified: now,
+    changeFrequency: route.changeFrequency,
+    priority: route.priority,
   }));
 
-  // 動的ドキュメントページ（温泉地詳細ページ）
-  const docRoutes = (content.pages.docs || []).map((doc) => ({
-    url: `${baseUrl}/${doc.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
+  const onsenRoutes: MetadataRoute.Sitemap = getOnsenSpots().map((spot) => ({
+    url: `${baseUrl}/docs/${spot.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
     priority: 0.9,
   }));
 
-  // 動的ブログ記事ページ
-  const blogRoutes = (content.pages.home.blog?.posts || []).map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
+  const articleRoutes: MetadataRoute.Sitemap = getArticles().map((article) => ({
+    url: `${baseUrl}/blog/${article.slug}`,
+    lastModified: new Date(article.date),
+    changeFrequency: 'monthly',
+    priority: 0.65,
   }));
 
-  return [...staticRoutes, ...docRoutes, ...blogRoutes];
+  return [...staticRoutes, ...onsenRoutes, ...articleRoutes];
 }
