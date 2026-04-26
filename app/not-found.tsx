@@ -2,66 +2,19 @@ import Link from 'next/link';
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950">
-      <div className="max-w-2xl mx-auto px-4 text-center">
-        <div className="space-y-6">
-          {/* 404 大きく表示 */}
-          <div className="space-y-2">
-            <h1 className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-600">
-              404
-            </h1>
-            <p className="text-2xl font-semibold text-white">
-              ページが見つかりません
-            </p>
-          </div>
-
-          {/* 説明 */}
-          <p className="text-lg text-gray-400">
-            お探しのページは存在しないか、移動または削除された可能性があります。
-          </p>
-
-          {/* アクション */}
-          <div className="flex gap-4 justify-center pt-4">
-            <Link
-              href="/"
-              className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors"
-            >
-              トップページへ
-            </Link>
-            <Link
-              href="/docs"
-              className="px-6 py-3 bg-dark-800 hover:bg-dark-700 text-white rounded-lg font-medium transition-colors border border-dark-700"
-            >
-              温泉ガイドを見る
-            </Link>
-          </div>
-
-          {/* おすすめリンク */}
-          <div className="pt-8 border-t border-dark-800">
-            <p className="text-sm text-gray-500 mb-4">よく見られているページ</p>
-            <div className="flex flex-wrap gap-2 justify-center">
-              <Link
-                href="/hakone"
-                className="px-4 py-2 bg-dark-800/50 hover:bg-dark-800 text-gray-300 rounded-lg text-sm transition-colors"
-              >
-                箱根温泉
-              </Link>
-              <Link
-                href="/kusatsu"
-                className="px-4 py-2 bg-dark-800/50 hover:bg-dark-800 text-gray-300 rounded-lg text-sm transition-colors"
-              >
-                草津温泉
-              </Link>
-              <Link
-                href="/kinugawa"
-                className="px-4 py-2 bg-dark-800/50 hover:bg-dark-800 text-gray-300 rounded-lg text-sm transition-colors"
-              >
-                鬼怒川温泉
-              </Link>
-            </div>
-          </div>
+    <main className="min-h-screen bg-[#f7f3ec] px-5 py-24 text-stone-950 md:px-8">
+      <div className="mx-auto max-w-3xl rounded-[2rem] bg-white p-8 text-center shadow-sm ring-1 ring-stone-200 md:p-12">
+        <p className="text-sm font-bold tracking-[0.24em] text-stone-400">404</p>
+        <h1 className="mt-4 font-serif text-5xl font-bold leading-tight md:text-7xl">ページが見つかりません</h1>
+        <p className="mt-6 text-base leading-8 text-stone-600">
+          URLが変わったか、旧テンプレート時代のページが削除された可能性があります。現在の主導線から探し直してください。
+        </p>
+        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+          <Link href="/" className="rounded-full bg-stone-950 px-6 py-3 text-sm font-bold text-white">トップへ戻る</Link>
+          <Link href="/onsens" className="rounded-full border border-stone-300 px-6 py-3 text-sm font-bold text-stone-900">温泉一覧を見る</Link>
+          <Link href="/areas" className="rounded-full border border-stone-300 px-6 py-3 text-sm font-bold text-stone-900">エリアから探す</Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
