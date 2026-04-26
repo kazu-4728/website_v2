@@ -1,4 +1,4 @@
-import siteDataJson from '../../data/onsen-site.json';
+import directoryDataJson from '../../data/directory-site.json';
 
 export interface SiteImage {
   src: string;
@@ -18,35 +18,41 @@ export interface NavigationItem {
   href: string;
 }
 
-export interface OnsenSpot {
+export interface Area {
+  id: string;
   slug: string;
   name: string;
-  prefecture: string;
-  area: string;
-  catchcopy: string;
+  prefectures: string[];
   summary: string;
   image: SiteImage;
+  onsenSlugs: string[];
+}
+
+export interface Onsen {
+  slug: string;
+  name: string;
+  kind: string;
+  areaId: string;
+  prefecture: string;
+  officialName: string;
+  officialUrl: string;
+  verifiedAt: string;
+  summary: string;
+  catchcopy: string;
   tags: string[];
   springTypes: string[];
-  bestFor: string[];
+  useCases: string[];
   access: string;
-  stayStyle: string;
-  season: string;
+  image: SiteImage;
 }
 
 export interface PurposeGuide {
   id: string;
-  title: string;
+  slug: string;
+  name: string;
+  shortLabel: string;
   description: string;
   recommendedSlugs: string[];
-}
-
-export interface HomeSection {
-  id: string;
-  label: string;
-  title: string;
-  description: string;
-  spotSlugs: string[];
 }
 
 export interface ArticleSection {
@@ -64,7 +70,7 @@ export interface Article {
   sections: ArticleSection[];
 }
 
-export interface OnsenSiteData {
+export interface DirectorySiteData {
   site: {
     name: string;
     tagline: string;
@@ -80,61 +86,89 @@ export interface OnsenSiteData {
       description: string;
       primaryAction: SiteAction;
       secondaryAction: SiteAction;
-      image: SiteImage;
     };
-    editorial: {
-      title: string;
-      description: string;
-      points: string[];
-    };
-    sections: HomeSection[];
+    featuredAreaIds: string[];
+    featuredOnsenSlugs: string[];
   };
   purposes: PurposeGuide[];
-  onsenSpots: OnsenSpot[];
+  areas: Area[];
+  onsens: Onsen[];
   articles: Article[];
 }
 
-const data = siteDataJson as OnsenSiteData;
+const data = directoryDataJson as DirectorySiteData;
 
-export function getSiteData(): OnsenSiteData {
+export function getSiteData(): DirectorySiteData {
   return data;
 }
 
-export function getOnsenSpots(): OnsenSpot[] {
-  return data.onsenSpots;
+export function getAreas(): Area[] {
+  return data.areas;
 }
 
-export function getOnsenSpot(slug: string): OnsenSpot | undefined {
-  return data.onsenSpots.find((spot) => spot.slug === slug);
+export function getArea(slugOrId: string): Area | undefined {
+  return data.areas.find((area) => area.slug === slugOrId || area.id === slugOrId);
 }
 
-export function getRelatedSpots(currentSlug: string, limit = 3): OnsenSpot[] {
-  const current = getOnsenSpot(currentSlug);
-  if (!current) return data.onsenSpots.slice(0, limit);
+export function getFeaturedAreas(): Area[] {
+  return data.home.featuredAreaIds
+    .map((id) => getArea(id))
+    .filter((area): area is Area => Boolean(area));
+}
 
-  return data.onsenSpots
-    .filter((spot) => spot.slug !== currentSlug)
-    .map((spot) => {
-      const sameArea = spot.area === current.area ? 3 : 0;
-      const samePrefecture = spot.prefecture === current.prefecture ? 2 : 0;
-      const tagOverlap = spot.tags.filter((tag) => current.tags.includes(tag)).length;
-      return { spot, score: sameArea + samePrefecture + tagOverlap };
+export function getOnsens(): Onsen[] {
+  return data.onsens;
+}
+
+export function getOnsen(slug: string): Onsen | undefined {
+  return data.onsens.find((onsen) => onsen.slug === slug);
+}
+
+export function getFeaturedOnsens(): Onsen[] {
+  return data.home.featuredOnsenSlugs
+    .map((slug) => getOnsen(slug))
+    .filter((onsen): onsen is Onsen => Boolean(onsen));
+}
+
+export function getOnsensByArea(areaId: string): Onsen[] {
+  return data.onsens.filter((onsen) => onsen.areaId === areaId);
+}
+
+export function getOnsensByPurpose(purposeId: string): Onsen[] {
+  return data.onsens.filter((onsen) => onsen.useCases.includes(purposeId));
+}
+
+export function getRelatedOnsens(currentSlug: string, limit = 3): Onsen[] {
+  const current = getOnsen(currentSlug);
+  if (!current) return data.onsens.slice(0, limit);
+
+  return data.onsens
+    .filter((onsen) => onsen.slug !== currentSlug)
+    .map((onsen) => {
+      const sameArea = onsen.areaId === current.areaId ? 4 : 0;
+      const samePurpose = onsen.useCases.filter((purpose) => current.useCases.includes(purpose)).length * 2;
+      const tagOverlap = onsen.tags.filter((tag) => current.tags.includes(tag)).length;
+      return { onsen, score: sameArea + samePurpose + tagOverlap };
     })
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
-    .map(({ spot }) => spot);
+    .map(({ onsen }) => onsen);
 }
 
-export function getHomeSectionSpots(section: HomeSection): OnsenSpot[] {
-  return section.spotSlugs
-    .map((slug) => getOnsenSpot(slug))
-    .filter((spot): spot is OnsenSpot => Boolean(spot));
+export function getPurposes(): PurposeGuide[] {
+  return data.purposes;
 }
 
-export function getPurposeSpots(purpose: PurposeGuide): OnsenSpot[] {
-  return purpose.recommendedSlugs
-    .map((slug) => getOnsenSpot(slug))
-    .filter((spot): spot is OnsenSpot => Boolean(spot));
+export function getPurpose(slugOrId: string): PurposeGuide | undefined {
+  return data.purposes.find((purpose) => purpose.slug === slugOrId || purpose.id === slugOrId);
+}
+
+export function getPurposeOnsens(purpose: PurposeGuide): Onsen[] {
+  const recommended = purpose.recommendedSlugs
+    .map((slug) => getOnsen(slug))
+    .filter((onsen): onsen is Onsen => Boolean(onsen));
+  const fallback = getOnsensByPurpose(purpose.id).filter((onsen) => !recommended.some((item) => item.slug === onsen.slug));
+  return [...recommended, ...fallback];
 }
 
 export function getArticles(): Article[] {
@@ -146,7 +180,11 @@ export function getArticle(slug: string): Article | undefined {
 }
 
 export function getArticleImage(article: Article): SiteImage {
-  return getOnsenSpot(article.imageSlug)?.image ?? data.home.hero.image;
+  return getOnsen(article.imageSlug)?.image ?? data.areas[0].image;
+}
+
+export function getAreaForOnsen(onsen: Onsen): Area | undefined {
+  return getArea(onsen.areaId);
 }
 
 export function getCanonicalUrl(pathname: string): string {
