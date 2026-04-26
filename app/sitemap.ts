@@ -3,18 +3,26 @@ import { getArticles, getOnsenSpots, getSiteData } from './lib/onsen-site';
 
 export const dynamic = 'force-static';
 
+type StaticRoute = {
+  path: string;
+  priority: number;
+  changeFrequency: 'weekly' | 'monthly';
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const data = getSiteData();
   const baseUrl = data.site.baseUrl;
   const now = new Date();
 
-  const staticRoutes: MetadataRoute.Sitemap = [
-    { path: '/', priority: 1, changeFrequency: 'weekly' as const },
-    { path: '/docs', priority: 0.95, changeFrequency: 'weekly' as const },
-    { path: '/features', priority: 0.75, changeFrequency: 'monthly' as const },
-    { path: '/blog', priority: 0.75, changeFrequency: 'monthly' as const },
-    { path: '/contact', priority: 0.4, changeFrequency: 'monthly' as const },
-  ].map((route) => ({
+  const staticRouteDefinitions: StaticRoute[] = [
+    { path: '/', priority: 1, changeFrequency: 'weekly' },
+    { path: '/docs', priority: 0.95, changeFrequency: 'weekly' },
+    { path: '/features', priority: 0.75, changeFrequency: 'monthly' },
+    { path: '/blog', priority: 0.75, changeFrequency: 'monthly' },
+    { path: '/contact', priority: 0.4, changeFrequency: 'monthly' },
+  ];
+
+  const staticRoutes: MetadataRoute.Sitemap = staticRouteDefinitions.map((route) => ({
     url: `${baseUrl}${route.path === '/' ? '/' : route.path}`,
     lastModified: now,
     changeFrequency: route.changeFrequency,
