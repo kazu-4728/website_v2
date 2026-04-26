@@ -1,10 +1,11 @@
 import './globals.css';
 import type { ReactNode } from 'react';
 import { SiteShell } from './components/site/SiteShell';
-import { getSiteData } from './lib/onsen-site';
+import { getAreas, getSiteData } from './lib/onsen-site';
 
 export function generateMetadata() {
   const data = getSiteData();
+  const heroImage = getAreas()[0].image;
 
   return {
     title: {
@@ -23,10 +24,10 @@ export function generateMetadata() {
       type: 'website',
       images: [
         {
-          url: data.home.hero.image.src,
+          url: heroImage.src,
           width: 1200,
           height: 630,
-          alt: data.home.hero.image.alt,
+          alt: heroImage.alt,
         },
       ],
     },
@@ -39,11 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ja">
       <body>
-        <SiteShell
-          siteName={data.site.name}
-          tagline={data.site.tagline}
-          navigation={data.navigation}
-        >
+        <SiteShell siteName={data.site.name} tagline={data.site.tagline} navigation={data.navigation}>
           {children}
         </SiteShell>
       </body>
