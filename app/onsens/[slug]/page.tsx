@@ -44,7 +44,7 @@ export default async function OnsenDetailPage({ params }: Props) {
   return (
     <main className="bg-[#f7f3ec]">
       <section className="relative min-h-[70vh] overflow-hidden bg-stone-950 text-white">
-        <Image src={onsen.image.src} alt={onsen.image.alt} fill priority sizes="100vw" className="object-cover opacity-78" />
+        <Image src={onsen.image.src} alt={onsen.image.alt} fill priority sizes="100vw" className="object-cover opacity-75" />
         <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/75 to-stone-950/20" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-stone-950 to-transparent" />
         <div className="relative mx-auto flex min-h-[70vh] max-w-7xl flex-col justify-end px-5 pb-14 pt-24 md:px-8 md:pb-20">
