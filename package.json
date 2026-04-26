@@ -1,8 +1,8 @@
 {
-  "name": "kanto-onsen-guide",
-  "version": "2.1.0",
+  "name": "code-voyage",
+  "version": "2.0.0",
   "private": true,
-  "description": "JSON-driven Kanto onsen guide site with curated images and editorial pages.",
+  "description": "A high-impact, fully JSON-driven Next.js template for documentation and marketing sites.",
   "engines": {
     "node": ">=20.19.0"
   },
