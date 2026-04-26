@@ -1,7 +1,10 @@
 name: Build and Attach ZIP
+
 on:
+  workflow_dispatch:
   pull_request:
-  push:
+    branches: [ main ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
