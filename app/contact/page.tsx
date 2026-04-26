@@ -1,77 +1,64 @@
-import { loadContent } from '../lib/content';
-import { Button } from '../components/_legacy/ui/Button';
-import { ContactForm } from '../components/_legacy/forms/ContactForm';
-import { MailIcon, MapPinIcon, ArrowRightIcon, ArrowLeftIcon } from 'lucide-react';
 import Link from 'next/link';
+import { getSiteData } from '../lib/onsen-site';
 
-export default async function ContactPage() {
-  const content = await loadContent();
-  const contactData = content.pages.contact;
+export function generateMetadata() {
+  const data = getSiteData();
+  return {
+    title: '運営方針',
+    description: '関東湯旅案内の運営方針、画像・データ整備方針、今後の拡張方針を掲載しています。',
+    openGraph: {
+      title: `運営方針 | ${data.site.name}`,
+      description: '関東湯旅案内の運営方針、画像・データ整備方針、今後の拡張方針を掲載しています。',
+    },
+  };
+}
 
-  const texts = content.texts;
-
-  if (!contactData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-dark-950 text-white">
-        {texts.messages.notFound.contact}
-      </div>
-    );
-  }
+export default function ContactPage() {
+  const data = getSiteData();
 
   return (
-    <main className="bg-dark-950 min-h-screen flex flex-col">
-      {/* Back Link */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8 w-full">
-        <Link href="/" className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors">
-          <ArrowLeftIcon className="w-4 h-4 mr-2" />
-          {texts.nav.backLinks.home}
-        </Link>
-      </div>
-
-      <div className="flex-1 flex flex-col lg:flex-row">
-        {/* Left: Info */}
-        <div className="lg:w-1/2 bg-dark-900 p-12 lg:p-24 flex flex-col justify-center relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 pointer-events-none" />
-          
-          <div className="relative z-10">
-            <p className="text-primary-500 font-mono mb-4 uppercase tracking-widest">{texts.pages.contact?.title || 'Contact'}</p>
-            <h1 
-              className="text-5xl lg:text-7xl font-bold text-white mb-8 tracking-tighter leading-tight"
-              dangerouslySetInnerHTML={{ __html: contactData.title }}
-            />
-            
-            <div className="space-y-8 mt-12">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-white/5 border border-white/10 text-primary-400">
-                  <MailIcon className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-white font-bold mb-1">{texts.form.fields.email.label}</h3>
-                  <p className="text-gray-400">{contactData.email}</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-lg bg-white/5 border border-white/10 text-primary-400">
-                  <MapPinIcon className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-white font-bold mb-1">{texts.form.fields.office.label}</h3>
-                  <p className="text-gray-400">{contactData.office}</p>
-                </div>
-              </div>
-            </div>
+    <main className="bg-[#f7f3ec]">
+      <section className="border-b border-stone-200 bg-white py-20 md:py-28">
+        <div className="mx-auto max-w-7xl px-5 md:px-8">
+          <Link href="/" className="text-sm font-bold text-stone-500 hover:text-stone-950">
+            ← トップへ戻る
+          </Link>
+          <div className="mt-8 max-w-4xl">
+            <p className="text-sm font-bold tracking-[0.24em] text-stone-500">EDITORIAL POLICY</p>
+            <h1 className="mt-4 font-serif text-5xl font-bold leading-tight text-stone-950 md:text-7xl">
+              まだ問い合わせ窓口より、サイトの核を整える段階です。
+            </h1>
+            <p className="mt-6 max-w-2xl text-base leading-8 text-stone-600 md:text-lg">
+              {data.site.name} は、温泉地データ・画像出典・記事をJSONで管理し、温泉紹介ページを安定して量産するためのサイト基盤として再構築中です。
+            </p>
           </div>
         </div>
+      </section>
 
-        {/* Right: Form */}
-        <div className="lg:w-1/2 bg-black p-12 lg:p-24 flex flex-col justify-center">
-          <ContactForm
-            texts={texts.form}
-            submitLabel={texts.buttons.submit}
-          />
+      <section className="py-16 md:py-24">
+        <div className="mx-auto grid max-w-7xl gap-7 px-5 md:grid-cols-3 md:px-8">
+          {[
+            {
+              title: '画像を重視する',
+              body: '温泉紹介サイトでは写真が入口になります。仮画像で埋めるのではなく、出典・ライセンス・altを持つ画像データをJSONに含めて管理します。',
+            },
+            {
+              title: 'データからページを作る',
+              body: '温泉地を追加するたびにページを手作業で作るのではなく、slug、説明、泉質、アクセス、画像を追加すれば一覧と詳細に反映される構成にします。',
+            },
+            {
+              title: '旧UIに戻らない',
+              body: '既存のlegacyコンポーネントを使い回さず、温泉メディア用のsiteコンポーネントへ統一します。問い合わせ機能は必要になってから実装します。',
+            },
+          ].map((item, index) => (
+            <section key={item.title} className="rounded-[2rem] bg-white p-7 shadow-sm ring-1 ring-stone-200 md:p-8">
+              <p className="text-sm font-bold tracking-[0.2em] text-stone-400">0{index + 1}</p>
+              <h2 className="mt-4 font-serif text-3xl font-bold leading-tight text-stone-950">{item.title}</h2>
+              <p className="mt-5 text-sm leading-8 text-stone-600">{item.body}</p>
+            </section>
+          ))}
         </div>
-      </div>
+      </section>
     </main>
   );
 }
