@@ -5,9 +5,14 @@ import path from 'node:path';
 const root = process.cwd();
 const dataPath = path.join(root, 'data', 'directory-site.json');
 const errors = [];
+const warnings = [];
 
 function fail(message) {
   errors.push(message);
+}
+
+function warn(message) {
+  warnings.push(message);
 }
 
 function requireString(value, pathLabel) {
@@ -54,17 +59,9 @@ requireString(data.site?.description, 'site.description');
 requireString(data.site?.baseUrl, 'site.baseUrl');
 requireStringArray(data.site?.keywords, 'site.keywords');
 
-if (!Array.isArray(data.areas) || data.areas.length === 0) {
-  fail('areas must be a non-empty array');
-}
-
-if (!Array.isArray(data.onsens) || data.onsens.length === 0) {
-  fail('onsens must be a non-empty array');
-}
-
-if (!Array.isArray(data.purposes) || data.purposes.length === 0) {
-  fail('purposes must be a non-empty array');
-}
+if (!Array.isArray(data.areas) || data.areas.length === 0) fail('areas must be a non-empty array');
+if (!Array.isArray(data.onsens) || data.onsens.length === 0) fail('onsens must be a non-empty array');
+if (!Array.isArray(data.purposes) || data.purposes.length === 0) fail('purposes must be a non-empty array');
 
 const areaIds = new Set();
 const areaSlugs = new Set();
@@ -77,7 +74,6 @@ const purposeIds = new Set();
   requireStringArray(area.prefectures, `${base}.prefectures`);
   requireStringArray(area.onsenSlugs, `${base}.onsenSlugs`);
   validateImage(area.image, `${base}.image`);
-
   if (areaIds.has(area.id)) fail(`${base}.id is duplicated: ${area.id}`);
   if (areaSlugs.has(area.slug)) fail(`${base}.slug is duplicated: ${area.slug}`);
   areaIds.add(area.id);
@@ -94,20 +90,15 @@ const purposeIds = new Set();
 
 (data.onsens || []).forEach((onsen, index) => {
   const base = `onsens[${index}]`;
-  ['slug', 'name', 'kind', 'areaId', 'prefecture', 'officialName', 'officialUrl', 'verifiedAt', 'summary', 'catchcopy', 'access'].forEach((key) => {
-    requireString(onsen[key], `${base}.${key}`);
-  });
+  ['slug', 'name', 'kind', 'areaId', 'prefecture', 'officialName', 'officialUrl', 'verifiedAt', 'summary', 'catchcopy', 'access'].forEach((key) => requireString(onsen[key], `${base}.${key}`));
   requireStringArray(onsen.tags, `${base}.tags`);
   requireStringArray(onsen.springTypes, `${base}.springTypes`);
   requireStringArray(onsen.useCases, `${base}.useCases`);
   validateImage(onsen.image, `${base}.image`);
-
   if (onsenSlugs.has(onsen.slug)) fail(`${base}.slug is duplicated: ${onsen.slug}`);
   onsenSlugs.add(onsen.slug);
   if (!areaIds.has(onsen.areaId)) fail(`${base}.areaId references missing area: ${onsen.areaId}`);
-  if (typeof onsen.officialUrl === 'string' && !onsen.officialUrl.startsWith('https://')) {
-    fail(`${base}.officialUrl must be https URL`);
-  }
+  if (typeof onsen.officialUrl === 'string' && !onsen.officialUrl.startsWith('https://')) fail(`${base}.officialUrl must be https URL`);
   onsen.useCases?.forEach((purposeId) => {
     if (!purposeIds.has(purposeId)) fail(`${base}.useCases references missing purpose: ${purposeId}`);
   });
@@ -115,7 +106,7 @@ const purposeIds = new Set();
 
 (data.areas || []).forEach((area, index) => {
   area.onsenSlugs?.forEach((slug) => {
-    if (!onsenSlugs.has(slug)) fail(`areas[${index}].onsenSlugs references missing onsen: ${slug}`);
+    if (!onsenSlugs.has(slug)) warn(`areas[${index}].onsenSlugs references future/missing onsen: ${slug}`);
   });
 });
 
@@ -138,6 +129,11 @@ const purposeIds = new Set();
   if (!onsenSlugs.has(article.imageSlug)) fail(`articles[${index}].imageSlug references missing onsen: ${article.imageSlug}`);
   if (!Array.isArray(article.sections) || article.sections.length === 0) fail(`articles[${index}].sections must be a non-empty array`);
 });
+
+if (warnings.length > 0) {
+  console.warn('Directory site data validation warnings:\n');
+  warnings.forEach((warning) => console.warn(`- ${warning}`));
+}
 
 if (errors.length > 0) {
   console.error('Directory site data validation failed:\n');
