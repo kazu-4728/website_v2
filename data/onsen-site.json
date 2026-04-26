@@ -1,0 +1,316 @@
+{
+  "site": {
+    "name": "関東湯旅案内",
+    "tagline": "写真で選ぶ、週末の温泉旅",
+    "description": "関東近郊の温泉地を、写真・泉質・過ごし方・アクセスから比較できる温泉紹介サイト。",
+    "baseUrl": "https://kazu-4728.github.io/website_v2",
+    "keywords": ["関東温泉", "温泉旅行", "日帰り温泉", "露天風呂", "温泉ガイド"]
+  },
+  "navigation": [
+    { "label": "温泉地", "href": "/docs" },
+    { "label": "旅の選び方", "href": "/features" },
+    { "label": "特集", "href": "/blog" },
+    { "label": "運営方針", "href": "/contact" }
+  ],
+  "home": {
+    "hero": {
+      "eyebrow": "Kanto Onsen Guide",
+      "title": "湯けむりの景色から、次の旅を決める。",
+      "description": "関東近郊の名湯を、写真の印象だけで終わらせず、泉質・アクセス・滞在スタイルまで整理して紹介します。",
+      "primaryAction": { "label": "温泉地を探す", "href": "/docs" },
+      "secondaryAction": { "label": "旅の選び方を見る", "href": "/features" },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
+        "alt": "箱根強羅温泉の夜の露天風呂",
+        "credit": "Michael Casim / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
+      }
+    },
+    "editorial": {
+      "title": "このサイトの使い方",
+      "description": "写真で惹かれた温泉を、条件で絞り込み、詳細ページで旅のイメージを固める。画像・温泉地データ・記事をJSONで管理し、ページを量産できる構成にしています。",
+      "points": [
+        "まずは写真と雰囲気で候補を選ぶ",
+        "泉質・過ごし方・アクセスで比較する",
+        "詳細ページから周辺温泉や特集記事へ回遊する"
+      ]
+    },
+    "sections": [
+      {
+        "id": "popular",
+        "label": "人気の定番",
+        "title": "初めてでも外しにくい温泉地",
+        "description": "アクセス、宿泊数、観光との組み合わせやすさを重視した定番候補です。",
+        "spotSlugs": ["hakone-gora", "kusatsu", "nikko-yumoto", "ikaho"]
+      },
+      {
+        "id": "scenery",
+        "label": "景色で選ぶ",
+        "title": "写真で旅情が伝わる温泉地",
+        "description": "石段街、渓谷、山岳、海沿いなど、滞在中の風景に個性がある温泉地です。",
+        "spotSlugs": ["kinugawa", "shiobara", "atami", "shima"]
+      }
+    ]
+  },
+  "purposes": [
+    {
+      "id": "first-trip",
+      "title": "初めての温泉旅行",
+      "description": "宿・交通・観光の選択肢が多く、失敗しにくい温泉地から選ぶ。",
+      "recommendedSlugs": ["hakone-gora", "ikaho", "atami"]
+    },
+    {
+      "id": "day-trip",
+      "title": "日帰りで整える",
+      "description": "移動負担を抑え、短時間でも温泉らしい体験がしやすい候補。",
+      "recommendedSlugs": ["chichibu", "hakone-yumoto", "atami"]
+    },
+    {
+      "id": "quiet-stay",
+      "title": "静かに泊まる",
+      "description": "派手さより、宿で過ごす時間や自然の余白を重視する旅向け。",
+      "recommendedSlugs": ["shima", "nikko-yumoto", "shiobara"]
+    }
+  ],
+  "onsenSpots": [
+    {
+      "slug": "hakone-gora",
+      "name": "箱根強羅温泉",
+      "prefecture": "神奈川県",
+      "area": "箱根",
+      "catchcopy": "山のリゾート感と多彩な宿が揃う、箱根の中核エリア。",
+      "summary": "箱根登山鉄道や美術館巡りと組み合わせやすく、初めての箱根旅行でも計画しやすい温泉地です。宿の選択肢が広く、露天風呂・貸切風呂・食事重視など目的別に選びやすいのが強みです。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
+        "alt": "箱根強羅の露天風呂",
+        "credit": "Chris 73 / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorakadan_Onsen_Rotenburo_1.jpg"
+      },
+      "tags": ["宿泊向き", "初めて向き", "美術館", "露天風呂"],
+      "springTypes": ["塩化物泉", "硫酸塩泉", "単純温泉"],
+      "bestFor": ["初めての箱根旅行", "記念日旅行", "美術館と温泉を組み合わせたい人"],
+      "access": "新宿から小田急線・箱根登山鉄道を利用。強羅駅周辺を拠点にしやすい。",
+      "stayStyle": "宿で過ごす時間を長めに取り、夕方前に到着する旅程が合います。",
+      "season": "通年。秋の紅葉と冬の澄んだ空気が特に相性良好。"
+    },
+    {
+      "slug": "hakone-yumoto",
+      "name": "箱根湯本温泉",
+      "prefecture": "神奈川県",
+      "area": "箱根",
+      "catchcopy": "都心から近く、日帰りにも宿泊にも使いやすい箱根の玄関口。",
+      "summary": "箱根の入口に位置し、交通の便と宿の多さが魅力です。短い休みでも温泉気分を作りやすく、食べ歩きや土産店巡りも組み込みやすいエリアです。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg",
+        "alt": "箱根周辺の露天風呂",
+        "credit": "David Monniaux / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg"
+      },
+      "tags": ["日帰り", "駅近", "家族旅行", "短時間"],
+      "springTypes": ["単純温泉", "塩化物泉"],
+      "bestFor": ["移動を短くしたい旅", "日帰り温泉", "家族やグループ旅行"],
+      "access": "新宿から小田急ロマンスカーで箱根湯本駅へ。駅周辺から宿や日帰り施設に向かいやすい。",
+      "stayStyle": "午前移動、昼食、午後入浴の流れが組みやすいです。",
+      "season": "通年。雨の日でも駅周辺で過ごしやすい。"
+    },
+    {
+      "slug": "kusatsu",
+      "name": "草津温泉",
+      "prefecture": "群馬県",
+      "area": "吾妻",
+      "catchcopy": "湯畑を中心に、温泉街そのものを楽しむ名湯。",
+      "summary": "湯畑を中心に歩いて楽しめる温泉街があり、温泉旅行らしい体験を濃く味わえるエリアです。強い個性のある湯と、夜の散策、食べ歩き、外湯巡りが魅力です。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
+        "alt": "草津温泉の湯畑",
+        "credit": "Unknown author / Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg"
+      },
+      "tags": ["温泉街", "外湯", "名湯", "散策"],
+      "springTypes": ["酸性泉", "硫黄泉"],
+      "bestFor": ["温泉街を歩きたい人", "名湯感を重視する旅", "夜の散策"],
+      "access": "東京方面から高崎・長野原草津口を経由し、バスで草津温泉へ。",
+      "stayStyle": "1泊して夕方と夜の湯畑を両方楽しむ構成が向きます。",
+      "season": "冬の湯けむり、秋の山景色、夏の避暑に向きます。"
+    },
+    {
+      "slug": "kinugawa",
+      "name": "鬼怒川温泉",
+      "prefecture": "栃木県",
+      "area": "日光・鬼怒川",
+      "catchcopy": "渓谷沿いの宿で、川音と観光を組み合わせる温泉地。",
+      "summary": "鬼怒川渓谷沿いに宿が並ぶ温泉地です。日光観光、テーマパーク、渓谷散策と組み合わせやすく、家族旅行やグループ旅行にも向いています。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg",
+        "alt": "鬼怒川温泉の風景",
+        "credit": "くろふね / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg"
+      },
+      "tags": ["渓谷", "家族旅行", "日光観光", "宿泊"],
+      "springTypes": ["単純温泉"],
+      "bestFor": ["家族旅行", "日光観光との組み合わせ", "川沿いの宿に泊まりたい人"],
+      "access": "浅草方面から東武線で鬼怒川温泉駅へ。駅から宿送迎を利用しやすい。",
+      "stayStyle": "日中は日光・周辺観光、夕方から宿で温泉という流れが合います。",
+      "season": "紅葉時期と新緑時期が特に景観向き。"
+    },
+    {
+      "slug": "ikaho",
+      "name": "伊香保温泉",
+      "prefecture": "群馬県",
+      "area": "渋川・榛名",
+      "catchcopy": "石段街を歩きながら、温泉街の情緒を味わう。",
+      "summary": "365段の石段街を中心にした温泉地です。茶褐色の湯、射的や土産店、階段のある街並みが印象的で、写真映えと温泉情緒の両方を楽しめます。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
+        "alt": "伊香保温泉の石段街",
+        "credit": "Qurren / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
+      },
+      "tags": ["石段街", "散策", "写真", "温泉街"],
+      "springTypes": ["硫酸塩泉", "単純温泉"],
+      "bestFor": ["街歩き", "写真を撮りたい旅", "温泉情緒を重視する人"],
+      "access": "東京方面から高崎・渋川を経由し、バスで伊香保温泉へ。",
+      "stayStyle": "石段街周辺に宿を取り、夕方と朝に歩くと雰囲気が出ます。",
+      "season": "秋の紅葉、冬の落ち着いた街歩きが向きます。"
+    },
+    {
+      "slug": "nikko-yumoto",
+      "name": "日光湯元温泉",
+      "prefecture": "栃木県",
+      "area": "奥日光",
+      "catchcopy": "湖と山に囲まれた、静けさ重視の硫黄泉。",
+      "summary": "奥日光の自然に囲まれた温泉地です。華やかな温泉街よりも、湖畔散策、山の空気、白濁した湯を落ち着いて楽しみたい人に向いています。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
+        "alt": "日光湯元温泉の露天風呂",
+        "credit": "663highland / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
+      },
+      "tags": ["白濁湯", "自然", "静養", "奥日光"],
+      "springTypes": ["硫黄泉"],
+      "bestFor": ["静かな宿泊", "自然散策", "硫黄泉を楽しみたい人"],
+      "access": "東武日光駅・JR日光駅からバスで奥日光方面へ。",
+      "stayStyle": "移動時間を見込み、1泊以上でゆっくり過ごすのが向きます。",
+      "season": "夏の避暑、秋の紅葉、冬の雪景色。"
+    },
+    {
+      "slug": "shiobara",
+      "name": "塩原温泉郷",
+      "prefecture": "栃木県",
+      "area": "那須塩原",
+      "catchcopy": "渓谷と湯宿を巡る、奥行きのある温泉郷。",
+      "summary": "複数の温泉地が連なる温泉郷で、渓谷、滝、吊り橋、宿の個性を組み合わせて楽しめます。派手さよりも、湯巡りと自然の余白を重視する旅に向きます。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg",
+        "alt": "塩原温泉の紅葉と露天風呂",
+        "credit": "Raita Futo / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Free_Momiji_Onsen_(52510073823).jpg"
+      },
+      "tags": ["渓谷", "紅葉", "湯巡り", "静養"],
+      "springTypes": ["塩化物泉", "炭酸水素塩泉", "硫黄泉"],
+      "bestFor": ["自然の中で泊まりたい人", "紅葉旅", "複数の湯を楽しみたい人"],
+      "access": "那須塩原駅からバスで塩原温泉方面へ。車移動との相性も良い。",
+      "stayStyle": "宿を中心に、周辺の滝や渓谷を半日散策する構成が合います。",
+      "season": "秋の紅葉、新緑、冬の雪景色。"
+    },
+    {
+      "slug": "atami",
+      "name": "熱海温泉",
+      "prefecture": "静岡県",
+      "area": "伊豆・相模灘",
+      "catchcopy": "海の景色と温泉を短い移動で楽しむ定番リゾート。",
+      "summary": "東京方面からのアクセスが良く、海辺の景色、宿泊、食事、街歩きをまとめやすい温泉地です。短い休みでも旅行感を出しやすいのが強みです。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
+        "alt": "熱海温泉の風景",
+        "credit": "663highland / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg"
+      },
+      "tags": ["海", "駅近", "短期旅行", "宿泊"],
+      "springTypes": ["塩化物泉", "硫酸塩泉"],
+      "bestFor": ["海を見たい旅", "短い休みの旅行", "食事と温泉を両方楽しみたい人"],
+      "access": "東京駅から東海道新幹線または在来線で熱海駅へ。",
+      "stayStyle": "午後到着でも旅行感を作りやすく、1泊2日に向きます。",
+      "season": "通年。海辺の開放感は春から初夏も良好。"
+    },
+    {
+      "slug": "shima",
+      "name": "四万温泉",
+      "prefecture": "群馬県",
+      "area": "吾妻",
+      "catchcopy": "静かな山あいで、宿と湯に集中する温泉地。",
+      "summary": "落ち着いた山あいの温泉地で、賑やかな観光よりも宿時間と自然の景色を楽しむ旅に向いています。川沿いの風景や古い宿の雰囲気も魅力です。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg",
+        "alt": "四万温泉の風景",
+        "credit": "Komoro no kaze / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg"
+      },
+      "tags": ["静養", "山あい", "宿時間", "川沿い"],
+      "springTypes": ["硫酸塩泉", "塩化物泉"],
+      "bestFor": ["静かに泊まりたい人", "宿の雰囲気を楽しみたい人", "派手すぎない温泉旅"],
+      "access": "中之条駅からバスで四万温泉へ。車の場合は山道の時間を見込む。",
+      "stayStyle": "早めに宿へ入り、夕方以降は外出を詰め込みすぎない構成が合います。",
+      "season": "新緑、秋、冬の静かな滞在。"
+    },
+    {
+      "slug": "chichibu",
+      "name": "秩父温泉",
+      "prefecture": "埼玉県",
+      "area": "秩父",
+      "catchcopy": "都心から近く、山里の空気を日帰りでも味わえる。",
+      "summary": "都心から比較的近く、日帰りや短時間旅行でも山の空気と温泉気分を得やすいエリアです。秩父観光や散策と組み合わせやすいのも魅力です。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
+        "alt": "西武秩父駅前温泉",
+        "credit": "Asturio Cantabrio / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
+      },
+      "tags": ["日帰り", "駅近", "山里", "短時間"],
+      "springTypes": ["単純温泉", "塩化物泉"],
+      "bestFor": ["日帰り温泉", "都心から短く出かけたい人", "秩父観光との組み合わせ"],
+      "access": "池袋から西武線で西武秩父方面へ。駅周辺施設を使いやすい。",
+      "stayStyle": "昼前後に到着し、散策と温泉を半日で組み合わせる構成が合います。",
+      "season": "春の散策、秋の山景色、冬の短時間リセット。"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "how-to-choose-onsen",
+      "title": "温泉地の選び方：写真だけで決めないための5つの軸",
+      "excerpt": "雰囲気、泉質、アクセス、宿時間、周辺観光。温泉旅行の満足度を左右する判断軸を整理します。",
+      "date": "2026-04-01",
+      "category": "旅の設計",
+      "imageSlug": "hakone-gora",
+      "sections": [
+        { "heading": "写真は入口、条件は出口", "body": "温泉地選びでは、写真の印象が最初の動機になります。ただし満足度を決めるのは、移動時間、宿の過ごし方、周辺で何をするかです。" },
+        { "heading": "まずは旅の目的を決める", "body": "日帰りで整えたいのか、宿で長く過ごしたいのか、街歩きを楽しみたいのかで候補は変わります。目的を1つに絞ると迷いが減ります。" },
+        { "heading": "迷ったら定番から外さない", "body": "初めてなら箱根、草津、伊香保、熱海のように情報量と選択肢が多い温泉地が安全です。慣れてから静かな温泉郷に広げると失敗しにくくなります。" }
+      ]
+    },
+    {
+      "slug": "weekend-onsen-plan",
+      "title": "1泊2日の温泉旅を崩さない時間配分",
+      "excerpt": "詰め込みすぎると温泉旅行は疲れます。到着時刻、入浴、夕食、朝時間の配分を見直します。",
+      "date": "2026-04-08",
+      "category": "モデルコース",
+      "imageSlug": "shima",
+      "sections": [
+        { "heading": "到着は15時前後が強い", "body": "宿に入る前に観光を詰め込みすぎると、夕食前の入浴時間が短くなります。温泉宿の価値は到着後に出るため、早めに宿へ入る設計が基本です。" },
+        { "heading": "夜より朝の時間を残す", "body": "朝風呂、朝食、周辺散歩まで含めると、1泊でも満足感が上がります。チェックアウト前の1時間を空けるだけで旅の印象が変わります。" },
+        { "heading": "帰り道に一つだけ寄る", "body": "帰路の観光は一つに絞ります。温泉旅は余白が価値になるため、移動と観光を積みすぎないことが重要です。" }
+      ]
+    }
+  ]
+}
