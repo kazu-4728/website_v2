@@ -170,6 +170,9 @@ npm test             # validate:data のエイリアス
    git remote add temp_push "https://x-access-token:${GITHUB_TOKEN}@github.com/kazu-4728/website_v2.git"
    git push temp_push claude/eager-curie-hnIpC
    git remote remove temp_push
+   # プッシュ後は origin トラッキングを更新すること（stop hook 対策）
+   git fetch origin claude/eager-curie-hnIpC
+   git branch --set-upstream-to=origin/claude/eager-curie-hnIpC claude/eager-curie-hnIpC
    ```
 
 2. **決定事項は必ず理由とともに「決定事項ログ」に記録すること**
