@@ -36,10 +36,10 @@
 /
 ├── app/
 │   ├── components/
-│   │   ├── modern/       # 新コンポーネント（Cards, Footer, Hero, Navigation, Sections）
-│   │   ├── site/         # サイト固有（OnsenCard, AreaCard, SiteShell, ImageCredit）
-│   │   ├── _archive/     # アーカイブ済み旧コンポーネント
-│   │   └── _legacy/      # フェーズアウト中の旧コンポーネント
+│   │   ├── site/         # 現行UI（OnsenCard, AreaCard, SiteShell, ImageCredit）
+│   │   ├── modern/       # 旧資産・互換用（import 非推奨）
+│   │   ├── _archive/     # アーカイブ済み旧コンポーネント（import 禁止）
+│   │   └── _legacy/      # フェーズアウト中の旧コンポーネント（import 非推奨）
 │   ├── lib/              # ユーティリティ（images.ts, onsen-site.ts, wikimedia.ts）
 │   └── [routes]/         # ページ：/, /onsens, /areas, /articles, /blog,
 │                         #          /docs, /about, /contact, /purposes, /features
@@ -80,7 +80,7 @@ npm test             # validate:data のエイリアス
 | ブランチ | 用途 |
 |----------|------|
 | `main` | 本番ブランチ |
-| `claude/eager-curie-hnIpC` | 現在の作業ブランチ（AIセッション用） |
+| `claude/<session-id>` | 現在の作業ブランチ（AIセッションごとに異なる、`git branch --show-current` で確認） |
 
 ### 進行中の作業
 
