@@ -66,7 +66,7 @@
       "prefectures": ["静岡県"],
       "summary": "海の景色、駅近、短期旅行の組み立てやすさが強み。東京方面からの週末旅行の入口として使いやすい。",
       "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg", "alt": "熱海温泉の街並み", "credit": "663highland / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg" },
-      "onsenSlugs": ["atami", "ito", "shuzenji"]
+      "onsenSlugs": ["atami"]
     },
     {
       "id": "tokyo-saitama",
@@ -75,7 +75,7 @@
       "prefectures": ["東京都", "埼玉県"],
       "summary": "短時間で移動しやすく、日帰り温泉や駅近施設を探しやすい近場エリア。週末のリセット向け。",
       "image": { "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg", "alt": "西武秩父駅前温泉", "credit": "Asturio Cantabrio / Wikimedia Commons", "license": "CC BY-SA 4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg" },
-      "onsenSlugs": ["chichibu", "okutama"]
+      "onsenSlugs": ["chichibu"]
     }
   ],
   "onsens": [
