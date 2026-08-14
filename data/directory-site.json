@@ -426,12 +426,33 @@
       ],
       "access": "新宿方面から小田急線・ロマンスカーで箱根湯本駅へ。駅周辺に宿や日帰り施設が集まる。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg",
-        "alt": "箱根周辺の露天風呂",
-        "credit": "David Monniaux / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hakone_yumoto_onsen_2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "箱根湯本温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "箱根湯本観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hakoneyumoto.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "箱根湯本温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "箱根湯本温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "hakone-gora",
@@ -461,12 +482,33 @@
       ],
       "access": "箱根登山鉄道の強羅駅周辺を拠点にしやすい。坂道が多いため宿送迎も確認したい。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg",
-        "alt": "箱根強羅の露天風呂",
-        "credit": "Chris 73 / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorakadan_Onsen_Rotenburo_1.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hakone_yumoto_onsen_2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "箱根強羅温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "箱根全山（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hakone.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "箱根強羅温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "箱根強羅温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "yugawara",
@@ -495,12 +537,33 @@
       ],
       "access": "東海道線の湯河原駅から温泉街方面へ。宿泊旅との相性が良い。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Japanese_bath_dsc05407.jpg",
-        "alt": "湯河原温泉のイメージ",
-        "credit": "David Monniaux / Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_bath_dsc05407.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dopponoyu01.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "湯河原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "湯河原温泉観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.yugawara.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "湯河原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "湯河原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "kusatsu",
@@ -529,12 +592,33 @@
       ],
       "access": "長野原草津口駅からバスで草津温泉へ。1泊以上で組むと満足度が高い。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg",
-        "alt": "草津温泉の湯畑",
-        "credit": "Unknown author / Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kusatsu_Onsen_Yubatake_in_Taisho_era.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "草津温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "草津温泉ポータルサイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kusatsu-onsen.ne.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "草津温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "草津温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "ikaho",
@@ -563,12 +647,33 @@
       ],
       "access": "渋川駅からバスで伊香保温泉へ。石段街周辺を中心に歩きやすい。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-        "alt": "伊香保温泉の石段街",
-        "credit": "Qurren / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ikaho_Onsen_03.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "伊香保温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "渋川伊香保温泉観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ikaho-kankou.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "伊香保温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "伊香保温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "shima",
@@ -597,12 +702,33 @@
       ],
       "access": "中之条駅からバスで四万温泉へ。移動時間を見込んで宿泊で組みたい。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg",
-        "alt": "四万温泉の風景",
-        "credit": "Komoro no kaze / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_%E4%B8%AD%E4%B9%8B%E6%9D%A1_2013_%289993444756%29.jpg/3840px-%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_%E4%B8%AD%E4%B9%8B%E6%9D%A1_2013_%289993444756%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "四万温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "四万温泉協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://shimaonsen.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "四万温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "四万温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "kinugawa",
@@ -630,12 +756,33 @@
       ],
       "access": "東武線で鬼怒川温泉駅へ。駅から宿送迎や周辺観光に接続しやすい。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg",
-        "alt": "鬼怒川温泉の風景",
-        "credit": "くろふね / Wikimedia Commons",
-        "license": "CC BY 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%8920250719-P1070976.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kinugawa_Onsen_Hotel_2020.jpg/3840px-Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "鬼怒川温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "日光市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.nikko-kankou.org/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "鬼怒川温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "鬼怒川温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
     },
     {
       "slug": "nikko-yumoto",
@@ -663,12 +810,33 @@
       ],
       "access": "東武日光駅・JR日光駅から奥日光方面のバスを利用。1泊以上が組みやすい。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "日光湯元温泉の露天風呂",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Yumoto%2C_Nikko_National_Park%2C_Tochigi%2C_Japan.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "日光湯元温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "奥日光湯元温泉旅館協同組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.nikkoyumoto.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "日光湯元温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "日光湯元温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
     },
     {
       "slug": "shiobara",
@@ -698,12 +866,33 @@
       ],
       "access": "那須塩原駅からバスで塩原温泉方面へ。車移動とも相性が良い。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Free_Momiji_Onsen_%2852510073823%29.jpg",
-        "alt": "塩原温泉の紅葉と露天風呂",
-        "credit": "Raita Futo / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Free_Momiji_Onsen_(52510073823).jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Yuppo_no_Sato.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "塩原温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7"
+      },
+      "facilities": [
+        {
+          "name": "塩原温泉観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.siobara.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "塩原温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "塩原温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%A9%E5%8E%9F%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
     },
     {
       "slug": "atami",
@@ -733,12 +922,33 @@
       ],
       "access": "東京駅から新幹線または東海道線で熱海駅へ。駅周辺から海沿いの宿へ向かいやすい。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg",
-        "alt": "熱海温泉の街並み",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:230127_Atami_Onsen_Shizuoka_pref_Japan01s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Japan_Izu_peninsula_topographic_map.webp?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "熱海温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "熱海市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ataminews.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C"
+        },
+        {
+          "name": "熱海温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "熱海温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C"
     },
     {
       "slug": "chichibu",
@@ -772,7 +982,28 @@
         "credit": "Asturio Cantabrio / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "秩父観光なび（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.chichibuji.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "秩父温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "秩父温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "oshima",
@@ -804,7 +1035,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "大島町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.izu-oshima.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "大島温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "大島温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
     },
     {
       "slug": "shikinejima",
@@ -831,12 +1083,33 @@
       ],
       "access": "竹芝桟橋または下田港から船で式根島へ。船便と入浴施設の営業状況を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "式根島温泉郷の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Japan_natural_location_map_with_side_map_of_the_Ryukyu_Islands.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "式根島温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%BC%8F%E6%A0%B9%E5%B3%B6"
+      },
+      "facilities": [
+        {
+          "name": "式根島観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.shikinejima.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "式根島温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "式根島温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
     },
     {
       "slug": "hachijojima",
@@ -863,12 +1136,33 @@
       ],
       "access": "羽田空港から飛行機、または竹芝桟橋から船で八丈島へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "八丈島温泉郷の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Landsat_Hachijojima_Island.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "八丈島温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%85%AB%E4%B8%88%E5%B3%B6"
+      },
+      "facilities": [
+        {
+          "name": "八丈島観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hachijo.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "八丈島温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "八丈島温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
     },
     {
       "slug": "tsurumaki",
@@ -895,12 +1189,33 @@
       ],
       "access": "小田急線鶴巻温泉駅から徒歩圏。周辺の旅館・日帰り施設の公式情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "鶴巻温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Entrance_to_Tsurumaki_Onsen.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "鶴巻温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "神奈川県観光協会（観光かながわNOW）（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "鶴巻温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "鶴巻温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B7%BB%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "nakagawa",
@@ -927,12 +1242,33 @@
       ],
       "access": "JR御殿場線谷峨駅からバス利用。宿泊施設の送迎・営業状況を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "中川温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Nakagawa_Onsen.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "中川温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "神奈川県観光協会（観光かながわNOW）（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "中川温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "中川温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "atsugi-onsen",
@@ -964,7 +1300,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "神奈川県観光協会（観光かながわNOW）（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "あつぎ温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "あつぎ温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "jinba",
@@ -996,7 +1353,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "神奈川県観光協会（観光かながわNOW）（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%A3%E9%A6%AC%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "陣馬の湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%99%A3%E9%A6%AC%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%A3%E9%A6%AC%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "陣馬の湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%99%A3%E9%A6%AC%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%A3%E9%A6%AC%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%A3%E9%A6%AC%E3%81%AE%E6%B9%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "okuyugawara",
@@ -1023,12 +1401,33 @@
       ],
       "access": "湯河原駅からバスで奥湯河原方面へ。宿の送迎と最新の運行情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "奥湯河原温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fujiki_river_-_Yugawara_onsen.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "奥湯河原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E6%B2%B3%E5%8E%9F%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "湯河原温泉観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.yugawara.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "奥湯河原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "奥湯河原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "hakone-sengokuhara",
@@ -1055,12 +1454,33 @@
       ],
       "access": "箱根湯本駅からバス利用。山道があるため、宿の送迎・交通情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "仙石原温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hakone_yumoto_onsen_2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "仙石原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "箱根町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hakone.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "仙石原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "仙石原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
     },
     {
       "slug": "tateyama",
@@ -1087,12 +1507,33 @@
       ],
       "access": "JR館山駅から市内各地へ。宿泊施設ごとのアクセスを確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "たてやま温泉郷の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG/3840px-Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "たてやま温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+      },
+      "facilities": [
+        {
+          "name": "たてやま温泉事業組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://tateyamacity.com/onsen/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "たてやま温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "たてやま温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "shirahama",
@@ -1124,7 +1565,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "南房総市温泉組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://minamiboso-onsen.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "白浜温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "白浜温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%9C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "chikura",
@@ -1151,12 +1613,33 @@
       ],
       "access": "JR千倉駅から温泉宿へ。宿の送迎や海沿いの道路状況を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "千倉温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E5%8D%83%E5%80%89%E6%BC%81%E6%B8%AF.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "千倉温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "南房総市温泉組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://minamiboso-onsen.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "千倉温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "千倉温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E5%80%89%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "iwaionsen",
@@ -1183,12 +1666,33 @@
       ],
       "access": "JR岩井駅から各宿へ。宿泊施設ごとのアクセスを確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "岩井温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Iwaionsen-tottori1200.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "岩井温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "南房総市温泉組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://minamiboso-onsen.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "岩井温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "岩井温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "kamogawa",
@@ -1215,12 +1719,33 @@
       ],
       "access": "JR安房鴨川駅を拠点に市内各地へ。宿の送迎を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "鴨川温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Amatsu-Kamogawa_Grand_Hotel_and_Kamo_River.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "鴨川温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%E9%83%B7"
+      },
+      "facilities": [
+        {
+          "name": "鴨川温泉旅館業協同組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kamogawa-hotel.info/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "鴨川温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "鴨川温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "kominato",
@@ -1252,7 +1777,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "鴨川温泉旅館業協同組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kamonavi.jp/kominatoonsen/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "小湊温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "小湊温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "katsuura",
@@ -1279,12 +1825,33 @@
       ],
       "access": "JR勝浦駅から市内各地へ。宿泊施設のアクセスを確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "勝浦温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Katsuura_Spa_Hotel_Mikazuki.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "勝浦温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "勝浦市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.katsuura-kankou.net/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "勝浦温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "勝浦温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "shirako",
@@ -1311,12 +1878,33 @@
       ],
       "access": "JR茂原駅からバス利用。季節の交通・宿泊情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "白子温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Shirako%2C_Chiba1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "白子温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "白子町温泉ホテル協同組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.shirako-onsen.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "白子温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "白子温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E5%AD%90%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "yoro",
@@ -1343,12 +1931,33 @@
       ],
       "access": "小湊鐵道養老渓谷駅を利用。ハイキングコースと営業状況を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "養老渓谷温泉郷の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Yoro_Keikoku_04.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "養老渓谷温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7"
+      },
+      "facilities": [
+        {
+          "name": "養老渓谷観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.youroukeikoku.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "養老渓谷温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "養老渓谷温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E8%80%81%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "kisarazu",
@@ -1380,7 +1989,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "龍宮城スパホテル三日月（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.mikazuki.co.jp/ryugu/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "木更津温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "木更津温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "kameyama",
@@ -1407,12 +2037,33 @@
       ],
       "access": "JR久留里線上総亀山駅から各施設へ。営業情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "亀山温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/%E4%BA%80%E5%B1%B1%E3%83%80%E3%83%A0_-_panoramio_-_Toshihiro_Matsui.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "亀山温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "君津市観光協会亀山支部（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kazusakameyama.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "亀山温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "亀山温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "inubosaki",
@@ -1439,12 +2090,33 @@
       ],
       "access": "銚子電鉄犬吠駅から徒歩・送迎を利用。宿泊施設の公式情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "犬吠埼温泉郷の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/%E7%8A%AC%E5%90%A0%E5%9F%BC%E7%81%AF%E5%8F%B0_%28Inubozaki_Lighthouse%29_07_Aug%2C_2009_-_panoramio.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "犬吠埼温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%8A%AC%E5%90%A0%E5%9F%BC"
+      },
+      "facilities": [
+        {
+          "name": "銚子市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.choshi-ryokan.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "犬吠埼温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "犬吠埼温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
     },
     {
       "slug": "naguri",
@@ -1471,12 +2143,33 @@
       ],
       "access": "西武池袋線飯能駅からバス利用。宿の送迎を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
-        "alt": "名栗温泉の温泉イメージ",
-        "credit": "Asturio Cantabrio / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Saitama-ken_g%C3%A9olocalisation_relief.svg/langja-1920px-Saitama-ken_g%C3%A9olocalisation_relief.svg.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "名栗温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "名栗温泉 大松閣（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.taishoukaku.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "名栗温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "名栗温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E6%A0%97%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "ryokami",
@@ -1503,12 +2196,33 @@
       ],
       "access": "西武秩父駅・秩父鉄道三峰口駅からバス利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
-        "alt": "両神温泉の温泉イメージ",
-        "credit": "Asturio Cantabrio / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Yakushi_no_yu.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "両神温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "両神温泉 国民宿舎両神荘（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ryokamiso-saitama.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "両神温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "両神温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%A1%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "wado",
@@ -1535,12 +2249,33 @@
       ],
       "access": "秩父鉄道和銅黒谷駅周辺。宿泊施設の送迎を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
-        "alt": "和銅鉱泉の温泉イメージ",
-        "credit": "Asturio Cantabrio / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Saitama-ken_g%C3%A9olocalisation_relief.svg/langja-1920px-Saitama-ken_g%C3%A9olocalisation_relief.svg.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "和銅鉱泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "秩父観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://navi.city.chichibu.lg.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "和銅鉱泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "和銅鉱泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%8A%85%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "ogano",
@@ -1572,7 +2307,28 @@
         "credit": "Asturio Cantabrio / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "小鹿野町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kanko-ogano.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "小鹿野温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "小鹿野温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "shibahara",
@@ -1599,12 +2355,33 @@
       ],
       "access": "秩父鉄道武州日野駅から各宿へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
-        "alt": "柴原温泉の温泉イメージ",
-        "credit": "Asturio Cantabrio / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Shibahara-onsen_Hot_spring.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "柴原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "秩父観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://navi.city.chichibu.lg.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "柴原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "柴原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "arakikosen",
@@ -1631,12 +2408,33 @@
       ],
       "access": "西武秩父駅から送迎・タクシーを利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seibu-Chichibu_Ekimae_Onsen_ac_%284%29.jpg",
-        "alt": "新木鉱泉の温泉イメージ",
-        "credit": "Asturio Cantabrio / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seibu-Chichibu_Ekimae_Onsen_ac_(4).jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/langja-250px-Gthumb.svg.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "新木鉱泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "新木鉱泉 佐久良荘（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.arakikosen.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "新木鉱泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "新木鉱泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%9C%A8%E9%89%B1%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
     },
     {
       "slug": "minakami",
@@ -1663,12 +2461,33 @@
       ],
       "access": "上越新幹線上毛高原駅またはJR水上駅を利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-        "alt": "水上温泉の温泉イメージ",
-        "credit": "Qurren / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Minakami_Onsen_01.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "水上温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "みなかみ町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.enjoy-minakami.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "水上温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "水上温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "sarugakyo",
@@ -1695,12 +2514,33 @@
       ],
       "access": "JR後閑駅・上毛高原駅からバス利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-        "alt": "猿ヶ京温泉の温泉イメージ",
-        "credit": "Qurren / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Lake_Akaya_Sarugakyo_Onsen.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "猿ヶ京温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "猿ヶ京温泉旅館協同組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.sarugakyo.co.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "猿ヶ京温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "猿ヶ京温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8C%BF%E3%83%B6%E4%BA%AC%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "hoshi",
@@ -1727,12 +2567,33 @@
       ],
       "access": "上毛高原駅・水上駅からバスまたは宿の送迎を利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-        "alt": "法師温泉の温泉イメージ",
-        "credit": "Qurren / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%E6%B7%B7%E6%B5%B4%E6%B5%B4%E5%A0%B4Img913.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "法師温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "法師温泉 長寿館（公式案内）",
+          "kind": "公式案内",
+          "url": "https://hoshi-onsen.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "法師温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "法師温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "oigami",
@@ -1759,12 +2620,33 @@
       ],
       "access": "JR沼田駅からバス利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-        "alt": "老神温泉の温泉イメージ",
-        "credit": "Qurren / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Oigami_Onsen_view_from_Nairaku_Bridge.jpg/3840px-Oigami_Onsen_view_from_Nairaku_Bridge.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "老神温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "老神温泉観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.oigami.net/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "老神温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "老神温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A5%9E%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "manza",
@@ -1791,12 +2673,33 @@
       ],
       "access": "長野・軽井沢方面からのバスや車を利用。冬季の道路情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikaho_Onsen_Stone_Steps.jpg",
-        "alt": "万座温泉の温泉イメージ",
-        "credit": "Qurren / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_Stone_Steps.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Manza_Onsen_Tsumagoi_Gunma01bs4272.jpg/3840px-Manza_Onsen_Tsumagoi_Gunma01bs4272.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "万座温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "万座温泉観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.manzaonsen.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "万座温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "万座温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
     },
     {
       "slug": "nasu",
@@ -1823,12 +2726,33 @@
       ],
       "access": "JR那須塩原駅からバス、または那須ICから車で各温泉へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "那須温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Nasuonsen_signboard.gif?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "那須温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7"
+      },
+      "facilities": [
+        {
+          "name": "那須町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.nasukogen.org/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "那須温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "那須温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
     },
     {
       "slug": "itamuro",
@@ -1855,12 +2779,33 @@
       ],
       "access": "那須塩原駅からバスまたは車を利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "板室温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/langja-250px-Gthumb.svg.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "板室温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "黒磯観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kuroiso-kankou.org/itamuro/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "板室温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "板室温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
     },
     {
       "slug": "yunishigawa",
@@ -1887,12 +2832,33 @@
       ],
       "access": "東武鬼怒川線鬼怒川温泉駅からバス利用。冬季の道路情報を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "湯西川温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Heikesyuraku2011-10-23.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "湯西川温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "湯西川温泉旅館協同組合（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.yunishigawa.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "湯西川温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "湯西川温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E8%A5%BF%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
     },
     {
       "slug": "daigo",
@@ -1919,12 +2885,33 @@
       ],
       "access": "JR水郡線常陸大子駅を利用。宿泊施設の送迎を確認する。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "大子温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Japan_Kanto_north_topographic_map.png?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "大子温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "大子町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.daigo-kanko.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "大子温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "大子温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%90%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
     },
     {
       "slug": "fukuroda",
@@ -1951,12 +2938,33 @@
       ],
       "access": "JR袋田駅または常陸大子駅からバス・車を利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "袋田温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "袋田温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "大子町観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.daigo-kanko.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "袋田温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "袋田温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
     },
     {
       "slug": "kitaibaraki",
@@ -1983,12 +2991,33 @@
       ],
       "access": "JR磯原駅・大津港駅周辺の宿を利用。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "北茨城温泉郷の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rokkakudo_seen_from_the_sea_%28Kitaibaraki_City%29_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "北茨城温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%8C%97%E8%8C%A8%E5%9F%8E%E5%B8%82"
+      },
+      "facilities": [
+        {
+          "name": "北茨城市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "北茨城温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "北茨城温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
     },
     {
       "slug": "isohara",
@@ -2015,12 +3044,33 @@
       ],
       "access": "JR磯原駅から市内各地へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "磯原温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%E3%81%A8%E3%81%97%E3%81%BE%E3%82%84%E6%9C%88%E6%B5%9C%E3%81%AE%E6%B9%AF20260725-P1085952.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "磯原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "北茨城市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "磯原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "磯原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
     },
     {
       "slug": "oarai",
@@ -2047,12 +3097,33 @@
       ],
       "access": "鹿島臨海鉄道大洗駅から各施設へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "大洗温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/20100216_acaworld01.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "大洗温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B4%97%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "大洗観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.oarai-info.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "大洗温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "大洗温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
     },
     {
       "slug": "tsukuba",
@@ -2079,12 +3150,33 @@
       ],
       "access": "つくば駅から直行バス、または車で筑波山方面へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg",
-        "alt": "筑波山温泉の温泉イメージ",
-        "credit": "663highland / Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan04s3.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mount_Tsukuba_seen_from_the_WSW_%282006%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "alt": "筑波山温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AD%91%E6%B3%A2%E5%B1%B1"
+      },
+      "facilities": [
+        {
+          "name": "つくば観光コンベンション協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ttca.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "筑波山温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "筑波山温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
     },
     {
       "slug": "okutama",
@@ -2111,12 +3203,33 @@
       ],
       "access": "JR青梅線奥多摩駅から徒歩・バスで各施設へ。",
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg",
-        "alt": "奥多摩温泉の温泉イメージ",
-        "credit": "Michael Casim / Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mts.Okutama_from_Daibosatsu-Pass_01.jpg/3840px-Mts.Okutama_from_Daibosatsu-Pass_01.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "alt": "奥多摩温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E5%A4%9A%E6%91%A9"
+      },
+      "facilities": [
+        {
+          "name": "奥多摩観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.okutama.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "奥多摩温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "奥多摩温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%A5%E5%A4%9A%E6%91%A9%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
     },
     {
       "slug": "akigawa",
@@ -2148,7 +3261,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "あきる野市観光協会（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.akirunokanko.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "秋川渓谷温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "秋川渓谷温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
     },
     {
       "slug": "kazuma",
@@ -2180,7 +3314,28 @@
         "credit": "Michael Casim / Wikimedia Commons",
         "license": "CC BY 2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg"
-      }
+      },
+      "facilities": [
+        {
+          "name": "檜原温泉センター 数馬の湯（公式案内）",
+          "kind": "公式案内",
+          "url": "https://kazumanoyu.net/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AA%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "檜原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%AA%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AA%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "檜原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%AA%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AA%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AA%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
     }
   ],
   "articles": [

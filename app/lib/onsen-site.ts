@@ -28,6 +28,13 @@ export interface Area {
   onsenSlugs: string[];
 }
 
+export interface FacilityLink {
+  name: string;
+  kind: string;
+  url: string;
+  mapUrl: string;
+}
+
 export interface Onsen {
   slug: string;
   name: string;
@@ -36,6 +43,8 @@ export interface Onsen {
   prefecture: string;
   officialName: string;
   officialUrl: string;
+  mapUrl: string;
+  facilities: FacilityLink[];
   verifiedAt: string;
   summary: string;
   catchcopy: string;

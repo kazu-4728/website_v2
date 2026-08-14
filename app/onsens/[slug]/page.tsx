@@ -67,7 +67,10 @@ export default async function OnsenDetailPage({ params }: Props) {
               <p className="text-sm font-bold tracking-[0.2em] text-stone-500">OFFICIAL INFO</p>
               <h2 className="mt-4 font-serif text-3xl font-bold text-stone-950">公式情報</h2>
               <p className="mt-4 text-sm leading-7 text-stone-600">営業時間・料金・休館日・アクセスは変わるため、訪問前に公式サイトで確認してください。</p>
-              <Link href={onsen.officialUrl} target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex w-full justify-center rounded-full bg-stone-950 px-5 py-3 text-sm font-bold text-white hover:bg-stone-800">{onsen.officialName}へ</Link>
+              <div className="mt-6 grid gap-2 sm:grid-cols-2">
+                <Link href={onsen.officialUrl} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center rounded-full bg-[#4b3829] px-5 py-3 text-sm font-bold text-[#fffaf0] hover:bg-[#2f241c]">{onsen.officialName}へ</Link>
+                <Link href={onsen.mapUrl} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center rounded-full border border-[#b99a70] px-5 py-3 text-sm font-bold text-[#4b3829] hover:bg-[#f5ead8]">Googleマップ</Link>
+              </div>
               <p className="mt-3 text-xs text-stone-500">情報確認日: {onsen.verifiedAt}</p>
             </div>
             <div className="rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-stone-200">
@@ -91,6 +94,15 @@ export default async function OnsenDetailPage({ params }: Props) {
               <p className="text-sm font-bold tracking-[0.2em] text-stone-500">ACCESS</p>
               <h2 className="mt-4 font-serif text-3xl font-bold text-stone-950">アクセスの目安</h2>
               <p className="mt-5 text-base leading-8 text-stone-700">{onsen.access}</p>
+              <Link href={onsen.mapUrl} target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex rounded-full border border-[#b99a70] px-5 py-3 text-sm font-bold text-[#4b3829] hover:bg-[#f5ead8]">Googleマップで周辺を見る</Link>
+            </section>
+            <section className="rounded-[2rem] bg-[#fffaf0] p-7 shadow-sm ring-1 ring-[#d8c8ae] md:p-10">
+              <p className="text-sm font-bold tracking-[0.2em] text-[#9a8062]">FACILITIES</p>
+              <h2 className="mt-4 font-serif text-3xl font-bold text-[#33291f]">宿泊・日帰り施設を探す</h2>
+              <p className="mt-4 text-sm leading-7 text-[#66594d]">営業日や入浴条件は施設ごとに異なります。公式案内と地図を開いて、訪問前に最新情報を確認してください。</p>
+              <div className="mt-6 grid gap-3 sm:grid-cols-3">
+                {onsen.facilities.map((facility) => <div key={facility.name} className="rounded-2xl border border-[#eadfce] bg-white p-4"><p className="text-xs font-bold text-[#9a8062]">{facility.kind}</p><p className="mt-2 min-h-10 text-sm font-bold leading-6 text-[#4b4036]">{facility.name}</p><div className="mt-4 flex gap-3 text-xs font-bold"><Link href={facility.url} target="_blank" rel="noopener noreferrer" className="text-[#8a5b2b] underline underline-offset-2">施設案内</Link><Link href={facility.mapUrl} target="_blank" rel="noopener noreferrer" className="text-[#8a5b2b] underline underline-offset-2">地図</Link></div></div>)}
+              </div>
             </section>
           </div>
         </div>

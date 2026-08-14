@@ -90,7 +90,7 @@ const purposeIds = new Set();
 
 (data.onsens || []).forEach((onsen, index) => {
   const base = `onsens[${index}]`;
-  ['slug', 'name', 'kind', 'areaId', 'prefecture', 'officialName', 'officialUrl', 'verifiedAt', 'summary', 'catchcopy', 'access'].forEach((key) => requireString(onsen[key], `${base}.${key}`));
+  ['slug', 'name', 'kind', 'areaId', 'prefecture', 'officialName', 'officialUrl', 'mapUrl', 'verifiedAt', 'summary', 'catchcopy', 'access'].forEach((key) => requireString(onsen[key], `${base}.${key}`));
   requireStringArray(onsen.tags, `${base}.tags`);
   requireStringArray(onsen.springTypes, `${base}.springTypes`);
   requireStringArray(onsen.useCases, `${base}.useCases`);
@@ -99,6 +99,14 @@ const purposeIds = new Set();
   onsenSlugs.add(onsen.slug);
   if (!areaIds.has(onsen.areaId)) fail(`${base}.areaId references missing area: ${onsen.areaId}`);
   if (typeof onsen.officialUrl === 'string' && !onsen.officialUrl.startsWith('https://')) fail(`${base}.officialUrl must be https URL`);
+  if (typeof onsen.mapUrl === 'string' && !onsen.mapUrl.startsWith('https://www.google.com/maps/')) fail(`${base}.mapUrl must be Google Maps URL`);
+  if (!Array.isArray(onsen.facilities) || onsen.facilities.length < 2) fail(`${base}.facilities must contain at least two links`);
+  (onsen.facilities || []).forEach((facility, facilityIndex) => {
+    const facilityBase = `${base}.facilities[${facilityIndex}]`;
+    ['name', 'kind', 'url', 'mapUrl'].forEach((key) => requireString(facility[key], `${facilityBase}.${key}`));
+    if (typeof facility.url === 'string' && !facility.url.startsWith('https://')) fail(`${facilityBase}.url must be https URL`);
+    if (typeof facility.mapUrl === 'string' && !facility.mapUrl.startsWith('https://www.google.com/maps/')) fail(`${facilityBase}.mapUrl must be Google Maps URL`);
+  });
   onsen.useCases?.forEach((purposeId) => {
     if (!purposeIds.has(purposeId)) fail(`${base}.useCases references missing purpose: ${purposeId}`);
   });
