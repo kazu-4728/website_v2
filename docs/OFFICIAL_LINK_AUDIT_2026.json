@@ -1,0 +1,554 @@
+[
+  {
+    "name": "あつぎ温泉郷",
+    "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+    "status": 200,
+    "finalUrl": "https://www.kanagawa-kankou.or.jp/features/onsen"
+  },
+  {
+    "name": "たてやま温泉郷",
+    "url": "https://tateyamacity.com/onsen/",
+    "status": 200,
+    "finalUrl": "https://tateyamacity.com/onsen/"
+  },
+  {
+    "name": "安房鴨川温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "伊香保温泉",
+    "url": "https://www.ikaho-kankou.com/",
+    "status": 200,
+    "finalUrl": "https://www.ikaho-kankou.com/"
+  },
+  {
+    "name": "磯原温泉",
+    "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.kitaibarakishi-kankokyokai.gr.jp/"
+  },
+  {
+    "name": "磯原温泉",
+    "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.kitaibarakishi-kankokyokai.gr.jp/"
+  },
+  {
+    "name": "磯部温泉",
+    "url": "https://yukemuri.gunma-kanko.jp/",
+    "status": 200,
+    "finalUrl": "https://yukemuri.gunma-kanko.jp/"
+  },
+  {
+    "name": "鵜原温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "猿ヶ京温泉",
+    "url": "https://www.sarugakyo.co.jp/",
+    "status": 200,
+    "finalUrl": "https://www.sarugakyo.co.jp/"
+  },
+  {
+    "name": "猿ヶ京温泉",
+    "url": "https://www.enjoy-minakami.jp/",
+    "status": 200,
+    "finalUrl": "https://www.enjoy-minakami.jp/"
+  },
+  {
+    "name": "塩原温泉郷",
+    "url": "https://www.siobara.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.siobara.or.jp/"
+  },
+  {
+    "name": "奥多摩温泉",
+    "url": "https://www.okutama.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.okutama.gr.jp/"
+  },
+  {
+    "name": "奥湯河原温泉",
+    "url": "https://www.yugawara.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.yugawara.or.jp/"
+  },
+  {
+    "name": "皆野温泉",
+    "url": "https://www.minano.gr.jp/catleisure/leisure_spa/",
+    "status": 200,
+    "finalUrl": "https://www.minano.gr.jp/catleisure/leisure_spa/"
+  },
+  {
+    "name": "鴨川温泉",
+    "url": "https://www.city.kamogawa.lg.jp/site/kamogawa-kanko/",
+    "status": 200,
+    "finalUrl": "https://www.city.kamogawa.lg.jp/site/kamogawa-kanko/"
+  },
+  {
+    "name": "鴨川湯元温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "岩井温泉",
+    "url": "https://minamiboso-onsen.com/",
+    "status": 200,
+    "finalUrl": "https://www.minamiboso-onsen.com/"
+  },
+  {
+    "name": "岩井温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "喜連川温泉",
+    "url": "https://www.tochigiji.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.tochigiji.or.jp/"
+  },
+  {
+    "name": "鬼怒川温泉",
+    "url": "https://www.nikko-kankou.org/",
+    "status": 200,
+    "finalUrl": "https://www.nikko-kankou.org/"
+  },
+  {
+    "name": "亀山温泉",
+    "url": "https://www.kazusakameyama.com/",
+    "status": 200,
+    "finalUrl": "https://www.kazusakameyama.com/"
+  },
+  {
+    "name": "犬吠埼温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "犬吠埼温泉郷",
+    "url": "https://www.choshikanko.com/",
+    "status": 200,
+    "finalUrl": "https://www.choshikanko.com/"
+  },
+  {
+    "name": "御前山温泉",
+    "url": "https://www.ibarakiguide.jp/",
+    "status": 200,
+    "finalUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "name": "黒山温泉",
+    "url": "https://chocotabi-saitama.jp/",
+    "status": 200,
+    "finalUrl": "https://chocotabi-saitama.jp/"
+  },
+  {
+    "name": "四万温泉",
+    "url": "https://shimaonsen.com/",
+    "status": 200,
+    "finalUrl": "https://shimaonsen.com/"
+  },
+  {
+    "name": "式根島温泉郷",
+    "url": "https://www.shikinejima.com/",
+    "status": 200,
+    "finalUrl": "https://www.shikinejima.com/"
+  },
+  {
+    "name": "柴原温泉",
+    "url": "https://navi.city.chichibu.lg.jp/",
+    "status": 200,
+    "finalUrl": "https://navi.city.chichibu.lg.jp/"
+  },
+  {
+    "name": "秋川渓谷温泉",
+    "url": "https://www.akirunokanko.com/",
+    "status": 200,
+    "finalUrl": "https://www.akirunokanko.com/"
+  },
+  {
+    "name": "秋川渓谷温泉",
+    "url": "https://www.ohtama.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.ohtama.or.jp/"
+  },
+  {
+    "name": "勝浦温泉",
+    "url": "https://www.katsuura-kankou.net/",
+    "status": 200,
+    "finalUrl": "https://www.katsuura-kankou.net/"
+  },
+  {
+    "name": "小鹿野温泉",
+    "url": "https://www.kanko-ogano.jp/",
+    "status": 200,
+    "finalUrl": "https://kanko-ogano.jp/"
+  },
+  {
+    "name": "小湊温泉",
+    "url": "https://www.kamonavi.jp/kominatoonsen/",
+    "status": 200,
+    "finalUrl": "https://www.kamonavi.jp/kominatoonsen/"
+  },
+  {
+    "name": "新木鉱泉",
+    "url": "https://www.onsen-yado.net/",
+    "status": 200,
+    "finalUrl": "https://www.onsen-yado.net/"
+  },
+  {
+    "name": "陣馬の湯",
+    "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+    "status": 200,
+    "finalUrl": "https://www.kanagawa-kankou.or.jp/features/onsen"
+  },
+  {
+    "name": "水上温泉",
+    "url": "https://www.enjoy-minakami.jp/",
+    "status": 200,
+    "finalUrl": "https://www.enjoy-minakami.jp/"
+  },
+  {
+    "name": "仙石原温泉",
+    "url": "https://www.hakone.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "name": "千倉温泉",
+    "url": "https://minamiboso-onsen.com/",
+    "status": 200,
+    "finalUrl": "https://www.minamiboso-onsen.com/"
+  },
+  {
+    "name": "千倉温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "川原湯温泉",
+    "url": "https://www.nakanojo-kanko.jp/",
+    "status": 200,
+    "finalUrl": "https://nakanojo-kanko.jp/"
+  },
+  {
+    "name": "川治温泉",
+    "url": "https://www.nikko-kankou.org/",
+    "status": 200,
+    "finalUrl": "https://www.nikko-kankou.org/"
+  },
+  {
+    "name": "川俣温泉",
+    "url": "https://www.nikko-kankou.org/",
+    "status": 200,
+    "finalUrl": "https://www.nikko-kankou.org/"
+  },
+  {
+    "name": "草津温泉",
+    "url": "https://www.town.kusatsu.gunma.jp/",
+    "status": 200,
+    "finalUrl": "https://www.town.kusatsu.gunma.jp/www/index.html"
+  },
+  {
+    "name": "足尾温泉",
+    "url": "https://www.nikko-kankou.org/",
+    "status": 200,
+    "finalUrl": "https://www.nikko-kankou.org/"
+  },
+  {
+    "name": "袋田温泉",
+    "url": "https://www.daigo-kanko.jp/",
+    "status": 200,
+    "finalUrl": "https://www.daigo-kanko.jp/"
+  },
+  {
+    "name": "袋田温泉",
+    "url": "https://www.daigo-kanko.jp/",
+    "status": 200,
+    "finalUrl": "https://www.daigo-kanko.jp/"
+  },
+  {
+    "name": "大子温泉",
+    "url": "https://www.daigo-kanko.jp/",
+    "status": 200,
+    "finalUrl": "https://www.daigo-kanko.jp/"
+  },
+  {
+    "name": "大洗温泉",
+    "url": "https://www.oarai-info.jp/",
+    "status": 200,
+    "finalUrl": "https://www.oarai-info.jp/"
+  },
+  {
+    "name": "大滝温泉",
+    "url": "https://www.chichibuji.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.chichibuji.gr.jp/"
+  },
+  {
+    "name": "大島温泉郷",
+    "url": "https://www.izu-oshima.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.izu-oshima.or.jp/"
+  },
+  {
+    "name": "谷川温泉",
+    "url": "https://www.enjoy-minakami.jp/",
+    "status": 200,
+    "finalUrl": "https://www.enjoy-minakami.jp/"
+  },
+  {
+    "name": "筑波山温泉",
+    "url": "https://www.ttca.jp/",
+    "status": 200,
+    "finalUrl": "https://ttca.jp/"
+  },
+  {
+    "name": "筑波山温泉",
+    "url": "https://www.ibarakiguide.jp/",
+    "status": 200,
+    "finalUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "name": "秩父温泉",
+    "url": "https://www.chichibuji.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.chichibuji.gr.jp/"
+  },
+  {
+    "name": "中川温泉",
+    "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+    "status": 200,
+    "finalUrl": "https://www.kanagawa-kankou.or.jp/features/onsen"
+  },
+  {
+    "name": "中川温泉・西丹沢",
+    "url": "https://www.kanagawa-kankou.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.kanagawa-kankou.or.jp/"
+  },
+  {
+    "name": "鶴巻温泉",
+    "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
+    "status": 200,
+    "finalUrl": "https://www.kanagawa-kankou.or.jp/features/onsen"
+  },
+  {
+    "name": "湯河原・幕山温泉",
+    "url": "https://www.yugawara.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.yugawara.or.jp/"
+  },
+  {
+    "name": "湯河原温泉",
+    "url": "https://www.yugawara.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.yugawara.or.jp/"
+  },
+  {
+    "name": "湯西川温泉",
+    "url": "https://yunishigawa-mizunosato.jp/",
+    "status": 200,
+    "finalUrl": "https://yunishigawa-mizunosato.jp/"
+  },
+  {
+    "name": "那須温泉",
+    "url": "https://www.nasukogen.org/",
+    "status": 200,
+    "finalUrl": "https://www.nasukogen.org/"
+  },
+  {
+    "name": "日光湯元温泉",
+    "url": "https://www.nikkoyumoto.com/",
+    "status": 200,
+    "finalUrl": "https://www.nikkoyumoto.com/"
+  },
+  {
+    "name": "熱海温泉",
+    "url": "https://www.ataminews.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.ataminews.gr.jp/"
+  },
+  {
+    "name": "馬頭温泉郷",
+    "url": "https://www.tochigiji.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.tochigiji.or.jp/"
+  },
+  {
+    "name": "白子温泉",
+    "url": "https://www.shirako-onsen.jp/",
+    "status": 200,
+    "finalUrl": "https://www.shirako-onsen.jp/"
+  },
+  {
+    "name": "白子温泉",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "白浜温泉",
+    "url": "https://minamiboso-onsen.com/",
+    "status": 200,
+    "finalUrl": "https://www.minamiboso-onsen.com/"
+  },
+  {
+    "name": "白浜温泉・南房総",
+    "url": "https://maruchiba.jp/",
+    "status": 200,
+    "finalUrl": "https://maruchiba.jp/"
+  },
+  {
+    "name": "箱根芦之湯温泉",
+    "url": "https://www.hakone.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "name": "箱根宮ノ下温泉",
+    "url": "https://www.hakone.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "name": "箱根強羅温泉",
+    "url": "https://www.hakone.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "name": "箱根小涌谷温泉",
+    "url": "https://www.hakone.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "name": "箱根湯本温泉",
+    "url": "https://www.hakone.or.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "name": "八丈島温泉郷",
+    "url": "https://www.hachijo.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.hachijo.gr.jp/"
+  },
+  {
+    "name": "板室温泉",
+    "url": "https://www.kuroiso-kankou.org/itamuro/",
+    "status": 200,
+    "finalUrl": "https://www.kuroiso-kankou.org/itamuro/"
+  },
+  {
+    "name": "平潟港温泉",
+    "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.kitaibarakishi-kankokyokai.gr.jp/"
+  },
+  {
+    "name": "別所温泉・秩父",
+    "url": "https://www.chichibuji.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.chichibuji.gr.jp/"
+  },
+  {
+    "name": "片品・鎌田温泉",
+    "url": "https://oze-katashina.info/",
+    "status": 200,
+    "finalUrl": "https://oze-katashina.info/"
+  },
+  {
+    "name": "宝川温泉",
+    "url": "https://www.enjoy-minakami.jp/",
+    "status": 200,
+    "finalUrl": "https://www.enjoy-minakami.jp/"
+  },
+  {
+    "name": "法師温泉",
+    "url": "https://hoshi-onsen.com/",
+    "status": 200,
+    "finalUrl": "https://hoshi-onsen.com/"
+  },
+  {
+    "name": "北茨城温泉郷",
+    "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.kitaibarakishi-kankokyokai.gr.jp/"
+  },
+  {
+    "name": "万座温泉",
+    "url": "https://www.manzaonsen.gr.jp/",
+    "status": 200,
+    "finalUrl": "https://www.manzaonsen.gr.jp/"
+  },
+  {
+    "name": "名栗温泉",
+    "url": "https://www.taishoukaku.com/",
+    "status": 200,
+    "finalUrl": "https://www.taishoukaku.com/"
+  },
+  {
+    "name": "名栗温泉",
+    "url": "https://hanno-tourism.jp/",
+    "status": 200,
+    "finalUrl": "https://hanno-tourism.jp/"
+  },
+  {
+    "name": "木更津温泉",
+    "url": "https://www.mikazuki.co.jp/ryugu/",
+    "status": 200,
+    "finalUrl": "https://www.mikazuki.co.jp/ryugujo/"
+  },
+  {
+    "name": "養老渓谷温泉郷",
+    "url": "https://www.youroukeikoku.com/",
+    "status": 200,
+    "finalUrl": "https://www.youroukeikoku.com/"
+  },
+  {
+    "name": "両神温泉",
+    "url": "https://www.ryokamiso-saitama.jp/",
+    "status": 200,
+    "finalUrl": "https://www.ryokamiso-saitama.jp/"
+  },
+  {
+    "name": "老神温泉",
+    "url": "https://www.oigami.net/",
+    "status": 200,
+    "finalUrl": "https://www.oigami.net/"
+  },
+  {
+    "name": "和銅鉱泉",
+    "url": "https://navi.city.chichibu.lg.jp/",
+    "status": 200,
+    "finalUrl": "https://navi.city.chichibu.lg.jp/"
+  },
+  {
+    "name": "檜原温泉",
+    "url": "https://kazumanoyu.net/",
+    "status": 200,
+    "finalUrl": "https://kazumanoyu.net/"
+  },
+  {
+    "name": "檜原温泉",
+    "url": "https://www.hinohara-kankou.jp/",
+    "status": 200,
+    "finalUrl": "https://hinohara-kankou.jp/"
+  },
+  {
+    "name": "藪塚温泉",
+    "url": "https://gunma-kanko.jp/",
+    "status": 200,
+    "finalUrl": "https://gunma-kanko.jp/"
+  }
+]

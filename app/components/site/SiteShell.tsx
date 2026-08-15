@@ -40,7 +40,7 @@ export function SiteShell({ children, siteName, tagline, navigation }: SiteShell
           </nav>
 
           <div className="flex shrink-0 items-center gap-2">
-            <Link href="/onsens" className="hidden rounded-full bg-stone-950 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-transform hover:-translate-y-0.5 sm:inline-flex">
+            <Link href="/onsens" className="portal-button-primary hidden sm:inline-flex">
               温泉を探す
             </Link>
             <button
@@ -73,7 +73,7 @@ export function SiteShell({ children, siteName, tagline, navigation }: SiteShell
                 {item.label}
               </Link>
             ))}
-            <Link href="/onsens" onClick={closeMenu} className="mt-2 rounded-xl bg-stone-950 px-4 py-3 text-center text-sm font-semibold text-white">
+            <Link href="/onsens" onClick={closeMenu} className="portal-button-primary mt-2 w-full rounded-xl">
               温泉を探す
             </Link>
           </nav>

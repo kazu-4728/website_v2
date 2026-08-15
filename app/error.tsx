@@ -24,13 +24,13 @@ export default function Error({
         </p>
         {error.digest && <p className="mt-4 font-mono text-xs text-stone-400">エラーID: {error.digest}</p>}
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-          <button onClick={reset} className="rounded-full bg-stone-950 px-6 py-3 text-sm font-bold text-white">
+          <button onClick={reset} className="portal-button-primary">
             もう一度試す
           </button>
-          <Link href="/" className="rounded-full border border-stone-300 px-6 py-3 text-sm font-bold text-stone-900">
+          <Link href="/" className="portal-button-secondary">
             トップへ戻る
           </Link>
-          <Link href="/onsens" className="rounded-full border border-stone-300 px-6 py-3 text-sm font-bold text-stone-900">
+          <Link href="/onsens" className="portal-button-secondary">
             温泉一覧を見る
           </Link>
         </div>

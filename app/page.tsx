@@ -16,6 +16,7 @@ import { AreaCard } from './components/site/AreaCard';
 import { OnsenCard } from './components/site/OnsenCard';
 import { ArticleCard } from './components/site/ArticleCard';
 import { ImageCredit } from './components/site/ImageCredit';
+import { KantoMap } from './components/site/KantoMap';
 
 const prefectures = ['東京都', '神奈川県', '千葉県', '埼玉県', '群馬県', '栃木県', '茨城県'];
 
@@ -67,6 +68,13 @@ export default function Page() {
             <div><p className="font-serif text-3xl font-bold text-[#efd092]">7</p><p className="mt-1 text-xs text-[#d8cbbc]">都県を網羅</p></div>
             <div><p className="font-serif text-3xl font-bold text-[#efd092]">公式</p><p className="mt-1 text-xs text-[#d8cbbc]">サイト・地図へ接続</p></div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-[#f6f0e5] py-16 md:py-24">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-[0.78fr_1.22fr] md:items-center md:px-8">
+          <div><p className="text-sm font-bold tracking-[0.24em] text-[#9a8062]">MAP FIRST</p><h2 className="mt-4 font-serif text-4xl font-bold leading-tight text-[#33291f] md:text-6xl">地図から、<br />行きたい湯を見つける</h2><p className="mt-5 text-base leading-8 text-[#66594d]">関東7都県の温泉を、位置関係と件数から直感的に探せます。気になる都県をクリックして、温泉地・施設・公式情報へ進んでください。</p><div className="mt-7 flex flex-wrap gap-3"><Link href="/onsens" className="portal-button-primary">全温泉を一覧で見る</Link><Link href="/areas" className="portal-button-secondary">エリアガイドを見る</Link></div></div>
+          <KantoMap counts={prefectureCounts} />
         </div>
       </section>
 

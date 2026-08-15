@@ -53,6 +53,11 @@ export interface Onsen {
   useCases: string[];
   access: string;
   image: SiteImage;
+  gallery: SiteImage[];
+  features: string[];
+  benefits: { label: string; text: string }[];
+  seasonal: { season: string; text: string }[];
+  editorialNote: string;
 }
 
 export interface PurposeGuide {
