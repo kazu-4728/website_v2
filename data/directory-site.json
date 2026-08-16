@@ -163,7 +163,11 @@
         "atsugi-onsen",
         "jinba",
         "okuyugawara",
-        "hakone-sengokuhara"
+        "hakone-sengokuhara",
+        "7沢温泉",
+        "伊勢原温泉",
+        "芦ノ湖温泉",
+        "箱根宮城野温泉"
       ]
     },
     {
@@ -186,7 +190,13 @@
         "ikaho",
         "shima",
         "oigami",
-        "manza"
+        "manza",
+        "小野上温泉",
+        "沢渡温泉",
+        "川古温泉",
+        "上牧温泉",
+        "赤城温泉郷",
+        "倉渕温泉"
       ]
     },
     {
@@ -207,7 +217,12 @@
       "onsenSlugs": [
         "kinugawa",
         "nikko-yumoto",
-        "shiobara"
+        "shiobara",
+        "中禅寺温泉",
+        "湯ノ湖温泉",
+        "大田原温泉",
+        "矢板温泉",
+        "佐野やすらぎの湯"
       ]
     },
     {
@@ -227,7 +242,11 @@
         "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
       },
       "onsenSlugs": [
-        "chichibu"
+        "chichibu",
+        "ときがわ温泉",
+        "越生温泉",
+        "嵐山渓谷温泉",
+        "神川温泉"
       ]
     },
     {
@@ -251,7 +270,10 @@
         "hachijojima",
         "okutama",
         "akigawa",
-        "kazuma"
+        "kazuma",
+        "岩蔵温泉",
+        "数馬温泉",
+        "松乃温泉"
       ]
     },
     {
@@ -281,7 +303,11 @@
         "yoro",
         "kisarazu",
         "kameyama",
-        "inubosaki"
+        "inubosaki",
+        "9109里温泉",
+        "御宿温泉",
+        "長生温泉",
+        "亀山温泉郷"
       ]
     },
     {
@@ -371,7 +397,12 @@
         "kitaibaraki",
         "isohara",
         "oarai",
-        "tsukuba"
+        "tsukuba",
+        "5浦温泉",
+        "湯の網温泉",
+        "常陸太田温泉",
+        "城里温泉",
+        "ひたちなか温泉"
       ]
     },
     {
@@ -4710,18 +4741,18 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%87%E5%BA%A7%E3%83%BB%E9%B9%BF%E6%B2%A2%E5%8F%A3%E9%A7%85"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/Manza_Onsen_Tsumagoi_Gunma01bs4272.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-          "alt": "万座温泉の周辺風景",
-          "credit": "Wikipedia contributors / Wikimedia Commons",
-          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89"
-        },
-        {
           "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "万座温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ikaho_Onsen_03.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "万座温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89"
         }
       ],
       "benefits": [
@@ -5118,11 +5149,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "大子温泉の周辺風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
         },
         {
           "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
@@ -5227,11 +5258,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "袋田温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
         }
       ],
       "benefits": [
@@ -5533,11 +5564,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "大洗温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
         }
       ],
       "benefits": [
@@ -9468,11 +9499,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "袋田温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
         }
       ],
       "benefits": [
@@ -9789,11 +9820,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "平潟港温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
         }
       ],
       "benefits": [
@@ -10069,7 +10100,7 @@
       ],
       "facilities": [
         {
-          "name": "湯守の里公式サイト（公式案内）",
+          "name": "調布観光ナビ 湯守の里案内（公式案内）",
           "kind": "公式案内",
           "url": "https://csa.gr.jp/contents/16442",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
@@ -11051,6 +11082,3257 @@
         }
       ],
       "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "岩蔵温泉",
+      "name": "岩蔵温泉",
+      "kind": "温泉郷",
+      "areaId": "tokyo-islands",
+      "prefecture": "東京都",
+      "officialName": "岩蔵温泉 公式案内",
+      "officialUrl": "https://www.gotokyo.org/",
+      "verifiedAt": "2026-08-17",
+      "summary": "青梅・奥多摩の山里で楽しむ都内の温泉旅",
+      "catchcopy": "青梅・奥多摩の山里で楽しむ都内の温泉旅",
+      "tags": [
+        "宿泊",
+        "自然",
+        "島旅",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "quiet"
+      ],
+      "access": "東京都岩蔵温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%E5%B2%A9%E8%94%B5%E9%89%B1%E6%B3%89_-_20100508.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "岩蔵温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "岩蔵温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.gotokyo.org/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "岩蔵温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "岩蔵温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%E5%B2%A9%E8%94%B5%E9%89%B1%E6%B3%89_-_20100508.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "岩蔵温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E8%94%B5%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "岩蔵温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Isoteien-sakurajima2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "岩蔵温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%9C%8C"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "青梅・奥多摩の山里で楽しむ都内の温泉旅",
+        "岩蔵温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "数馬温泉",
+      "name": "数馬温泉",
+      "kind": "温泉郷",
+      "areaId": "tokyo-islands",
+      "prefecture": "東京都",
+      "officialName": "数馬温泉 公式案内",
+      "officialUrl": "https://www.hinohara-kankou.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "檜原の山道と渓谷をめぐる静かな湯旅",
+      "catchcopy": "檜原の山道と渓谷をめぐる静かな湯旅",
+      "tags": [
+        "宿泊",
+        "自然",
+        "島旅",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "quiet"
+      ],
+      "access": "東京都数馬温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Kazuma_hotspring.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "数馬温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "数馬温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hinohara-kankou.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "数馬温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "数馬温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Kazuma_hotspring.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "数馬温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%95%B0%E9%A6%AC%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Kazumano-Yu.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "数馬温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%95%B0%E9%A6%AC_(%E6%AA%9C%E5%8E%9F%E6%9D%91)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "数馬温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "檜原の山道と渓谷をめぐる静かな湯旅",
+        "数馬温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "松乃温泉",
+      "name": "松乃温泉",
+      "kind": "温泉郷",
+      "areaId": "tokyo-islands",
+      "prefecture": "東京都",
+      "officialName": "松乃温泉 公式案内",
+      "officialUrl": "https://www.omekanko.gr.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "多摩川沿いの自然と宿時間を味わう温泉",
+      "catchcopy": "多摩川沿いの自然と宿時間を味わう温泉",
+      "tags": [
+        "宿泊",
+        "自然",
+        "島旅",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "quiet"
+      ],
+      "access": "東京都松乃温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "松乃温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "松乃温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.omekanko.gr.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "松乃温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "松乃温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "松乃温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Isoteien-sakurajima2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "松乃温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%B9%BF%E5%85%90%E5%B3%B6%E7%9C%8C"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/TEPCO_Power_Grid_symbol.svg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "松乃温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%9B%BB%E5%8A%9B%E3%83%91%E3%83%AF%E3%83%BC%E3%82%B0%E3%83%AA%E3%83%83%E3%83%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "多摩川沿いの自然と宿時間を味わう温泉",
+        "松乃温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "7沢温泉",
+      "name": "七沢温泉",
+      "kind": "温泉地",
+      "areaId": "hakone-yugawara",
+      "prefecture": "神奈川県",
+      "officialName": "七沢温泉 公式案内",
+      "officialUrl": "https://www.atsugi-kankou.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "丹沢の森歩きと湯を組み合わせる山あいの温泉",
+      "catchcopy": "丹沢の森歩きと湯を組み合わせる山あいの温泉",
+      "tags": [
+        "駅近",
+        "日帰り",
+        "宿泊",
+        "初めて向き",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "神奈川県七沢温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nanasawa_06e5956sx.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "七沢温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%83%E6%B2%A2%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92"
+      },
+      "facilities": [
+        {
+          "name": "七沢温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.atsugi-kankou.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "七沢温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "七沢温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nanasawa_06e5956sx.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "七沢温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%83%E6%B2%A2%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gate_of_Nanasawa_Onsen-kyo_-_01.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "七沢温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%83%E6%B2%A2%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hakone-Yumoto_Station_20180102.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "七沢温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E9%A7%85"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "丹沢の森歩きと湯を組み合わせる山あいの温泉",
+        "七沢温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "伊勢原温泉",
+      "name": "伊勢原温泉",
+      "kind": "温泉地",
+      "areaId": "hakone-yugawara",
+      "prefecture": "神奈川県",
+      "officialName": "伊勢原温泉 公式案内",
+      "officialUrl": "https://isehara-kanko.com/",
+      "verifiedAt": "2026-08-17",
+      "summary": "大山詣りと里山散策に合わせたい温泉",
+      "catchcopy": "大山詣りと里山散策に合わせたい温泉",
+      "tags": [
+        "駅近",
+        "日帰り",
+        "宿泊",
+        "初めて向き",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "神奈川県伊勢原温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/IseharaSTN_Minami.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "伊勢原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E5%8B%A2%E5%8E%9F%E9%A7%85"
+      },
+      "facilities": [
+        {
+          "name": "伊勢原温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://isehara-kanko.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "伊勢原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "伊勢原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/IseharaSTN_Minami.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "伊勢原温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E5%8B%A2%E5%8E%9F%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kanachu_Isehara_Branch.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "伊勢原温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E5%A5%88%E5%B7%9D%E4%B8%AD%E5%A4%AE%E4%BA%A4%E9%80%9A%E4%BC%8A%E5%8B%A2%E5%8E%9F%E5%96%B6%E6%A5%AD%E6%89%80"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hakone-Yumoto_Station_20180102.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "伊勢原温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E9%A7%85"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "大山詣りと里山散策に合わせたい温泉",
+        "伊勢原温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "芦ノ湖温泉",
+      "name": "芦ノ湖温泉",
+      "kind": "温泉地",
+      "areaId": "hakone-yugawara",
+      "prefecture": "神奈川県",
+      "officialName": "芦ノ湖温泉 公式案内",
+      "officialUrl": "https://www.hakone.or.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "湖畔の景色と箱根の観光を楽しむ温泉地",
+      "catchcopy": "湖畔の景色と箱根の観光を楽しむ温泉地",
+      "tags": [
+        "駅近",
+        "日帰り",
+        "宿泊",
+        "初めて向き",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "神奈川県芦ノ湖温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lake_Ashi_Aerial_photograph.1976.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "芦ノ湖温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8A%A6%E3%83%8E%E6%B9%96"
+      },
+      "facilities": [
+        {
+          "name": "芦ノ湖温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hakone.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "芦ノ湖温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "芦ノ湖温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lake_Ashi_Aerial_photograph.1976.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "芦ノ湖温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8A%A6%E3%83%8E%E6%B9%96"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hakone-Yumoto_Station_20180102.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "芦ノ湖温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/LakeAshi_and_MtFuji_Hakone.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "芦ノ湖温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E7%94%BA"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "湖畔の景色と箱根の観光を楽しむ温泉地",
+        "芦ノ湖温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "箱根宮城野温泉",
+      "name": "箱根宮城野温泉",
+      "kind": "温泉地",
+      "areaId": "hakone-yugawara",
+      "prefecture": "神奈川県",
+      "officialName": "箱根宮城野温泉 公式案内",
+      "officialUrl": "https://www.hakone.or.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "桜と仙石原に近い箱根の落ち着いた湯",
+      "catchcopy": "桜と仙石原に近い箱根の落ち着いた湯",
+      "tags": [
+        "駅近",
+        "日帰り",
+        "宿泊",
+        "初めて向き",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "神奈川県箱根宮城野温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hakone-Yumoto_Station_20180102.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "箱根宮城野温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E9%A7%85"
+      },
+      "facilities": [
+        {
+          "name": "箱根宮城野温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.hakone.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%AE%AE%E5%9F%8E%E9%87%8E%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C"
+        },
+        {
+          "name": "箱根宮城野温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%AE%AE%E5%9F%8E%E9%87%8E%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%AE%AE%E5%9F%8E%E9%87%8E%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "箱根宮城野温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%AE%AE%E5%9F%8E%E9%87%8E%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%AE%AE%E5%9F%8E%E9%87%8E%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E5%AE%AE%E5%9F%8E%E9%87%8E%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hakone-Yumoto_Station_20180102.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "箱根宮城野温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B9%AF%E6%9C%AC%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/LakeAshi_and_MtFuji_Hakone.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "箱根宮城野温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hakone_yumoto_onsen_2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "箱根宮城野温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "桜と仙石原に近い箱根の落ち着いた湯",
+        "箱根宮城野温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "9109里温泉",
+      "name": "九十九里温泉",
+      "kind": "温泉郷",
+      "areaId": "chiba-boso",
+      "prefecture": "千葉県",
+      "officialName": "九十九里温泉 公式案内",
+      "officialUrl": "https://maruchiba.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "海辺の散策と潮風を楽しむ房総の温泉",
+      "catchcopy": "海辺の散策と潮風を楽しむ房総の温泉",
+      "tags": [
+        "宿泊",
+        "海",
+        "夕景",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "千葉県九十九里温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Kujukuri_beach%28%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C%29%2C_Chiba%28Japan%29_from_Airplane%28%E8%88%AA%E7%A9%BA%E5%86%99%E7%9C%9F%29_-_panoramio.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "九十九里温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C"
+      },
+      "facilities": [
+        {
+          "name": "九十九里温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://maruchiba.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "九十九里温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "九十九里温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Kujukuri_beach%28%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C%29%2C_Chiba%28Japan%29_from_Airplane%28%E8%88%AA%E7%A9%BA%E5%86%99%E7%9C%9F%29_-_panoramio.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "九十九里温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Toyoumi_beach_new_year.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "九十九里温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%8D%83%E8%91%89%E7%9C%8C%E7%AB%8B%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "九十九里温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "海辺の散策と潮風を楽しむ房総の温泉",
+        "九十九里温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "花と海風が心地よい季節。海岸線の散策と湯めぐりを組み合わせて。"
+        },
+        {
+          "season": "夏",
+          "text": "海辺の夕景と温泉を楽しむ旅。日差しの強い時間は無理せず休憩を。"
+        },
+        {
+          "season": "冬",
+          "text": "海の幸が豊かな季節。温泉で温まりながら房総・海辺の味覚を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "御宿温泉",
+      "name": "御宿温泉",
+      "kind": "温泉郷",
+      "areaId": "chiba-boso",
+      "prefecture": "千葉県",
+      "officialName": "御宿温泉 公式案内",
+      "officialUrl": "https://onjuku-kankou.com/",
+      "verifiedAt": "2026-08-17",
+      "summary": "砂浜と海の幸を組み合わせる外房の温泉",
+      "catchcopy": "砂浜と海の幸を組み合わせる外房の温泉",
+      "tags": [
+        "宿泊",
+        "海",
+        "夕景",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "千葉県御宿温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Moon-Desert_Onjuku.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "御宿温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%BE%A1%E5%AE%BF%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "御宿温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://onjuku-kankou.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%AE%BF%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "御宿温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%AE%BF%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%AE%BF%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "御宿温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%AE%BF%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%AE%BF%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%AE%BF%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Moon-Desert_Onjuku.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "御宿温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%BE%A1%E5%AE%BF%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/JR_Onjuku_Station_%28Onjuku_Town%2C_Chiba_Prefecture%29_%28cropped%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "御宿温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%BE%A1%E5%AE%BF%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "御宿温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "砂浜と海の幸を組み合わせる外房の温泉",
+        "御宿温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "花と海風が心地よい季節。海岸線の散策と湯めぐりを組み合わせて。"
+        },
+        {
+          "season": "夏",
+          "text": "海辺の夕景と温泉を楽しむ旅。日差しの強い時間は無理せず休憩を。"
+        },
+        {
+          "season": "冬",
+          "text": "海の幸が豊かな季節。温泉で温まりながら房総・海辺の味覚を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "長生温泉",
+      "name": "長生温泉",
+      "kind": "温泉郷",
+      "areaId": "chiba-boso",
+      "prefecture": "千葉県",
+      "officialName": "長生温泉 公式案内",
+      "officialUrl": "https://maruchiba.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "九十九里の海辺でゆっくり過ごす温泉",
+      "catchcopy": "九十九里の海辺でゆっくり過ごす温泉",
+      "tags": [
+        "宿泊",
+        "海",
+        "夕景",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "千葉県長生温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "長生温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+      },
+      "facilities": [
+        {
+          "name": "長生温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://maruchiba.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "長生温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "長生温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "長生温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nojimasakitodai0.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "長生温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%B5%9C%E7%94%BA_(%E5%8D%83%E8%91%89%E7%9C%8C)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shirahama_montages.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "長生温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%B5%9C%E7%94%BA"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "九十九里の海辺でゆっくり過ごす温泉",
+        "長生温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "花と海風が心地よい季節。海岸線の散策と湯めぐりを組み合わせて。"
+        },
+        {
+          "season": "夏",
+          "text": "海辺の夕景と温泉を楽しむ旅。日差しの強い時間は無理せず休憩を。"
+        },
+        {
+          "season": "冬",
+          "text": "海の幸が豊かな季節。温泉で温まりながら房総・海辺の味覚を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "亀山温泉郷",
+      "name": "亀山温泉郷",
+      "kind": "温泉郷",
+      "areaId": "chiba-boso",
+      "prefecture": "千葉県",
+      "officialName": "亀山温泉郷 公式案内",
+      "officialUrl": "https://maruchiba.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "湖畔の黒湯と房総の自然を楽しむ温泉",
+      "catchcopy": "湖畔の黒湯と房総の自然を楽しむ温泉",
+      "tags": [
+        "宿泊",
+        "海",
+        "夕景",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "千葉県亀山温泉郷周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "亀山温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+      },
+      "facilities": [
+        {
+          "name": "亀山温泉郷 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://maruchiba.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C"
+        },
+        {
+          "name": "亀山温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "亀山温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "亀山温泉郷の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nojimasakitodai0.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "亀山温泉郷周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%B5%9C%E7%94%BA_(%E5%8D%83%E8%91%89%E7%9C%8C)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Shirahama_montages.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "亀山温泉郷周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%B5%9C%E7%94%BA"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "湖畔の黒湯と房総の自然を楽しむ温泉",
+        "亀山温泉郷の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "花と海風が心地よい季節。海岸線の散策と湯めぐりを組み合わせて。"
+        },
+        {
+          "season": "夏",
+          "text": "海辺の夕景と温泉を楽しむ旅。日差しの強い時間は無理せず休憩を。"
+        },
+        {
+          "season": "冬",
+          "text": "海の幸が豊かな季節。温泉で温まりながら房総・海辺の味覚を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "ときがわ温泉",
+      "name": "ときがわ温泉",
+      "kind": "温泉地・施設群",
+      "areaId": "tokyo-saitama",
+      "prefecture": "埼玉県",
+      "officialName": "ときがわ温泉 公式案内",
+      "officialUrl": "https://www.tokigawa-kanko.com/",
+      "verifiedAt": "2026-08-17",
+      "summary": "里山の食と木立を感じる日帰り温泉",
+      "catchcopy": "里山の食と木立を感じる日帰り温泉",
+      "tags": [
+        "日帰り",
+        "駅近",
+        "山里",
+        "短時間",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "埼玉県ときがわ温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tokigawa_Jikoji_Kaizando_1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "ときがわ温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "ときがわ温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.tokigawa-kanko.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "ときがわ温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "ときがわ温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tokigawa_Jikoji_Kaizando_1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "ときがわ温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chichibu_Yomatsuri.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "ときがわ温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Seibu_Railway_Seibu-Chichibu_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "ときがわ温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A6%E7%A7%A9%E7%88%B6%E9%A7%85"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "里山の食と木立を感じる日帰り温泉",
+        "ときがわ温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "越生温泉",
+      "name": "越生温泉",
+      "kind": "温泉地・施設群",
+      "areaId": "tokyo-saitama",
+      "prefecture": "埼玉県",
+      "officialName": "越生温泉 公式案内",
+      "officialUrl": "https://ogose-kanko.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "梅林と里山歩きに合わせたい温泉",
+      "catchcopy": "梅林と里山歩きに合わせたい温泉",
+      "tags": [
+        "日帰り",
+        "駅近",
+        "山里",
+        "短時間",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "埼玉県越生温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chichibu_Yomatsuri.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "越生温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
+      },
+      "facilities": [
+        {
+          "name": "越生温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://ogose-kanko.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "越生温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "越生温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chichibu_Yomatsuri.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "越生温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Seibu_Railway_Seibu-Chichibu_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "越生温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A6%E7%A7%A9%E7%88%B6%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Saitamakendo_no_72_in_chichibu_city.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "越生温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%9F%BC%E7%8E%89%E7%9C%8C%E9%81%9372%E5%8F%B7%E7%A7%A9%E7%88%B6%E8%8D%92%E5%B7%9D%E7%B7%9A"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "梅林と里山歩きに合わせたい温泉",
+        "越生温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "嵐山渓谷温泉",
+      "name": "嵐山渓谷温泉",
+      "kind": "温泉地・施設群",
+      "areaId": "tokyo-saitama",
+      "prefecture": "埼玉県",
+      "officialName": "嵐山渓谷温泉 公式案内",
+      "officialUrl": "https://www.ranzan-kanko.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "渓谷散策と静かな湯を組み合わせる温泉",
+      "catchcopy": "渓谷散策と静かな湯を組み合わせる温泉",
+      "tags": [
+        "日帰り",
+        "駅近",
+        "山里",
+        "短時間",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "埼玉県嵐山渓谷温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chichibu_Yomatsuri.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "嵐山渓谷温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
+      },
+      "facilities": [
+        {
+          "name": "嵐山渓谷温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ranzan-kanko.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "嵐山渓谷温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "嵐山渓谷温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chichibu_Yomatsuri.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "嵐山渓谷温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Seibu_Railway_Seibu-Chichibu_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "嵐山渓谷温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A6%E7%A7%A9%E7%88%B6%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Saitamakendo_no_72_in_chichibu_city.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "嵐山渓谷温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%9F%BC%E7%8E%89%E7%9C%8C%E9%81%9372%E5%8F%B7%E7%A7%A9%E7%88%B6%E8%8D%92%E5%B7%9D%E7%B7%9A"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "渓谷散策と静かな湯を組み合わせる温泉",
+        "嵐山渓谷温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "神川温泉",
+      "name": "神川温泉",
+      "kind": "温泉地・施設群",
+      "areaId": "tokyo-saitama",
+      "prefecture": "埼玉県",
+      "officialName": "神川温泉 公式案内",
+      "officialUrl": "https://www.kamikawa-kanko.com/",
+      "verifiedAt": "2026-08-17",
+      "summary": "神流川と山の景色を楽しむ温泉",
+      "catchcopy": "神流川と山の景色を楽しむ温泉",
+      "tags": [
+        "日帰り",
+        "駅近",
+        "山里",
+        "短時間",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉",
+        "塩化物泉"
+      ],
+      "useCases": [
+        "day-trip",
+        "family"
+      ],
+      "access": "埼玉県神川温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kanasana-jinja_keidai.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "神川温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E5%B7%9D%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "神川温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.kamikawa-kanko.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
+        },
+        {
+          "name": "神川温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "神川温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kanasana-jinja_keidai.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "神川温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A5%9E%E5%B7%9D%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chichibu_Yomatsuri.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "神川温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%A9%E7%88%B6%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Seibu_Railway_Seibu-Chichibu_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "神川温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%AD%A6%E7%A7%A9%E7%88%B6%E9%A7%85"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        },
+        {
+          "label": "温まりやすさ",
+          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
+        }
+      ],
+      "features": [
+        "神流川と山の景色を楽しむ温泉",
+        "神川温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
+        },
+        {
+          "season": "秋",
+          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "小野上温泉",
+      "name": "小野上温泉",
+      "kind": "温泉地",
+      "areaId": "gunma-meito",
+      "prefecture": "群馬県",
+      "officialName": "小野上温泉 公式案内",
+      "officialUrl": "https://www.ikaho-kankou.com/",
+      "verifiedAt": "2026-08-17",
+      "summary": "吾妻の山里で肌ざわりのよい湯を楽しむ温泉",
+      "catchcopy": "吾妻の山里で肌ざわりのよい湯を楽しむ温泉",
+      "tags": [
+        "温泉街",
+        "宿泊",
+        "外湯",
+        "名湯",
+        "新着候補"
+      ],
+      "springTypes": [
+        "酸性泉",
+        "硫黄泉"
+      ],
+      "useCases": [
+        "stay",
+        "onsen-town"
+      ],
+      "access": "群馬県小野上温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Sachinoyu-Shibukawa-Gunma.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "小野上温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%9D%91"
+      },
+      "facilities": [
+        {
+          "name": "小野上温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ikaho-kankou.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "小野上温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "小野上温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Sachinoyu-Shibukawa-Gunma.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "小野上温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%9D%91"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/JRAgatsumaLine-OnogamiStation-20260307.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "小野上温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8E%E4%B8%8A%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/JR_Agatsuma_Line_Onogami-Onsen_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "小野上温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%A7%85"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "個性のある湯",
+          "text": "酸性の特徴を持つため、独特の湯ざわりや香りを楽しめます。肌が敏感な方は入浴方法を公式案内で確認してください。"
+        },
+        {
+          "label": "硫黄の香り",
+          "text": "硫黄由来の香りや色が特徴です。アクセサリーなどへの影響と入浴上の注意を公式案内で確認してください。"
+        }
+      ],
+      "features": [
+        "吾妻の山里で肌ざわりのよい湯を楽しむ温泉",
+        "小野上温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "沢渡温泉",
+      "name": "沢渡温泉",
+      "kind": "温泉地",
+      "areaId": "gunma-meito",
+      "prefecture": "群馬県",
+      "officialName": "沢渡温泉 公式案内",
+      "officialUrl": "https://nakanojo-kanko.jp/sawatari/",
+      "verifiedAt": "2026-08-17",
+      "summary": "山あいの共同浴場と湯治文化に出会う温泉",
+      "catchcopy": "山あいの共同浴場と湯治文化に出会う温泉",
+      "tags": [
+        "温泉街",
+        "宿泊",
+        "外湯",
+        "名湯",
+        "新着候補"
+      ],
+      "springTypes": [
+        "酸性泉",
+        "硫黄泉"
+      ],
+      "useCases": [
+        "stay",
+        "onsen-town"
+      ],
+      "access": "群馬県沢渡温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Sawatari_Onsen_1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "沢渡温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89_(%E7%BE%A4%E9%A6%AC%E7%9C%8C)"
+      },
+      "facilities": [
+        {
+          "name": "沢渡温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://nakanojo-kanko.jp/sawatari/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "沢渡温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "沢渡温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Sawatari_Onsen_1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "沢渡温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89_(%E7%BE%A4%E9%A6%AC%E7%9C%8C)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "沢渡温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ikaho_Onsen_03.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "沢渡温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "個性のある湯",
+          "text": "酸性の特徴を持つため、独特の湯ざわりや香りを楽しめます。肌が敏感な方は入浴方法を公式案内で確認してください。"
+        },
+        {
+          "label": "硫黄の香り",
+          "text": "硫黄由来の香りや色が特徴です。アクセサリーなどへの影響と入浴上の注意を公式案内で確認してください。"
+        }
+      ],
+      "features": [
+        "山あいの共同浴場と湯治文化に出会う温泉",
+        "沢渡温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "川古温泉",
+      "name": "川古温泉",
+      "kind": "温泉地",
+      "areaId": "gunma-meito",
+      "prefecture": "群馬県",
+      "officialName": "川古温泉 公式案内",
+      "officialUrl": "https://gunma-kanko.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "川沿いの自然に包まれる静かな温泉",
+      "catchcopy": "川沿いの自然に包まれる静かな温泉",
+      "tags": [
+        "温泉街",
+        "宿泊",
+        "外湯",
+        "名湯",
+        "新着候補"
+      ],
+      "springTypes": [
+        "酸性泉",
+        "硫黄泉"
+      ],
+      "useCases": [
+        "stay",
+        "onsen-town"
+      ],
+      "access": "群馬県川古温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Akaya_River_Kawafuru_Onsen.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "川古温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "川古温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://gunma-kanko.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "川古温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "川古温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Akaya_River_Kawafuru_Onsen.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "川古温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%8F%A4%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "川古温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ikaho_Onsen_03.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "川古温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "個性のある湯",
+          "text": "酸性の特徴を持つため、独特の湯ざわりや香りを楽しめます。肌が敏感な方は入浴方法を公式案内で確認してください。"
+        },
+        {
+          "label": "硫黄の香り",
+          "text": "硫黄由来の香りや色が特徴です。アクセサリーなどへの影響と入浴上の注意を公式案内で確認してください。"
+        }
+      ],
+      "features": [
+        "川沿いの自然に包まれる静かな温泉",
+        "川古温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "上牧温泉",
+      "name": "上牧温泉",
+      "kind": "温泉地",
+      "areaId": "gunma-meito",
+      "prefecture": "群馬県",
+      "officialName": "上牧温泉 公式案内",
+      "officialUrl": "https://minakami-kankou.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "利根川と谷川岳の景色をめぐる温泉",
+      "catchcopy": "利根川と谷川岳の景色をめぐる温泉",
+      "tags": [
+        "温泉街",
+        "宿泊",
+        "外湯",
+        "名湯",
+        "新着候補"
+      ],
+      "springTypes": [
+        "酸性泉",
+        "硫黄泉"
+      ],
+      "useCases": [
+        "stay",
+        "onsen-town"
+      ],
+      "access": "群馬県上牧温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/JR_Joetsu_Line_Kamimoku_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "上牧温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%89%A7%E9%A7%85_(%E7%BE%A4%E9%A6%AC%E7%9C%8C)"
+      },
+      "facilities": [
+        {
+          "name": "上牧温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://minakami-kankou.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "上牧温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "上牧温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/JR_Joetsu_Line_Kamimoku_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "上牧温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%89%A7%E9%A7%85_(%E7%BE%A4%E9%A6%AC%E7%9C%8C)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "上牧温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ikaho_Onsen_03.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "上牧温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "個性のある湯",
+          "text": "酸性の特徴を持つため、独特の湯ざわりや香りを楽しめます。肌が敏感な方は入浴方法を公式案内で確認してください。"
+        },
+        {
+          "label": "硫黄の香り",
+          "text": "硫黄由来の香りや色が特徴です。アクセサリーなどへの影響と入浴上の注意を公式案内で確認してください。"
+        }
+      ],
+      "features": [
+        "利根川と谷川岳の景色をめぐる温泉",
+        "上牧温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "赤城温泉郷",
+      "name": "赤城温泉郷",
+      "kind": "温泉地",
+      "areaId": "gunma-meito",
+      "prefecture": "群馬県",
+      "officialName": "赤城温泉郷 公式案内",
+      "officialUrl": "https://www.akagi-kanko.net/",
+      "verifiedAt": "2026-08-17",
+      "summary": "赤城山の自然と湯を味わう高原の温泉",
+      "catchcopy": "赤城山の自然と湯を味わう高原の温泉",
+      "tags": [
+        "温泉街",
+        "宿泊",
+        "外湯",
+        "名湯",
+        "新着候補"
+      ],
+      "springTypes": [
+        "酸性泉",
+        "硫黄泉"
+      ],
+      "useCases": [
+        "stay",
+        "onsen-town"
+      ],
+      "access": "群馬県赤城温泉郷周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/MountAkagi.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "赤城温泉郷の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E5%9F%8E%E5%B1%B1"
+      },
+      "facilities": [
+        {
+          "name": "赤城温泉郷 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.akagi-kanko.net/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "赤城温泉郷の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "赤城温泉郷の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/MountAkagi.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "赤城温泉郷の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E5%9F%8E%E5%B1%B1"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E5%A4%A7%E6%B2%BC%E3%81%AB%E6%B5%AE%E3%81%8B%E3%81%B6%E8%B5%A4%E5%9F%8E%E7%A5%9E%E7%A4%BE%2C_Island_of_the_Akagi_shrine_-_panoramio.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "赤城温泉郷の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B2%BC_(%E8%B5%A4%E5%9F%8E%E5%B1%B1)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chuji_Onsen_2.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "赤城温泉郷の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "個性のある湯",
+          "text": "酸性の特徴を持つため、独特の湯ざわりや香りを楽しめます。肌が敏感な方は入浴方法を公式案内で確認してください。"
+        },
+        {
+          "label": "硫黄の香り",
+          "text": "硫黄由来の香りや色が特徴です。アクセサリーなどへの影響と入浴上の注意を公式案内で確認してください。"
+        }
+      ],
+      "features": [
+        "赤城山の自然と湯を味わう高原の温泉",
+        "赤城温泉郷の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "倉渕温泉",
+      "name": "倉渕温泉",
+      "kind": "温泉地",
+      "areaId": "gunma-meito",
+      "prefecture": "群馬県",
+      "officialName": "倉渕温泉 公式案内",
+      "officialUrl": "https://www.takasaki-kankou.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "榛名山麓の里山と温泉を楽しむ旅",
+      "catchcopy": "榛名山麓の里山と温泉を楽しむ旅",
+      "tags": [
+        "温泉街",
+        "宿泊",
+        "外湯",
+        "名湯",
+        "新着候補"
+      ],
+      "springTypes": [
+        "酸性泉",
+        "硫黄泉"
+      ],
+      "useCases": [
+        "stay",
+        "onsen-town"
+      ],
+      "access": "群馬県倉渕温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%E5%80%89%E6%B8%95_%E7%9B%B8%E9%96%93%E5%B7%9D%E6%B8%A9%E6%B3%89%E3%80%8C%E3%81%B5%E3%82%8C%E3%81%82%E3%81%84%E9%A4%A8%E3%80%8D_-_panoramio.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "倉渕温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%80%89%E6%B8%95%E6%9D%91"
+      },
+      "facilities": [
+        {
+          "name": "倉渕温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.takasaki-kankou.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
+        },
+        {
+          "name": "倉渕温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "倉渕温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%E5%80%89%E6%B8%95_%E7%9B%B8%E9%96%93%E5%B7%9D%E6%B8%A9%E6%B3%89%E3%80%8C%E3%81%B5%E3%82%8C%E3%81%82%E3%81%84%E9%A4%A8%E3%80%8D_-_panoramio.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "倉渕温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%80%89%E6%B8%95%E6%9D%91"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "倉渕温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ikaho_Onsen_03.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "倉渕温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "個性のある湯",
+          "text": "酸性の特徴を持つため、独特の湯ざわりや香りを楽しめます。肌が敏感な方は入浴方法を公式案内で確認してください。"
+        },
+        {
+          "label": "硫黄の香り",
+          "text": "硫黄由来の香りや色が特徴です。アクセサリーなどへの影響と入浴上の注意を公式案内で確認してください。"
+        }
+      ],
+      "features": [
+        "榛名山麓の里山と温泉を楽しむ旅",
+        "倉渕温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "中禅寺温泉",
+      "name": "中禅寺温泉",
+      "kind": "温泉地",
+      "areaId": "nikko-nasu",
+      "prefecture": "栃木県",
+      "officialName": "中禅寺温泉 公式案内",
+      "officialUrl": "https://www.nikko-kankou.org/",
+      "verifiedAt": "2026-08-17",
+      "summary": "中禅寺湖と男体山を望む奥日光の温泉",
+      "catchcopy": "中禅寺湖と男体山を望む奥日光の温泉",
+      "tags": [
+        "家族",
+        "宿泊",
+        "渓谷",
+        "観光",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉"
+      ],
+      "useCases": [
+        "family",
+        "stay"
+      ],
+      "access": "栃木県中禅寺温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Mount_nantai_and_lake_chuzenji.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "中禅寺温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B9%96"
+      },
+      "facilities": [
+        {
+          "name": "中禅寺温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.nikko-kankou.org/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "中禅寺温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "中禅寺温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Mount_nantai_and_lake_chuzenji.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "中禅寺温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B9%96"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Chuzenji_Onsen_Bus_Terminal.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "中禅寺温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "中禅寺温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        }
+      ],
+      "features": [
+        "中禅寺湖と男体山を望む奥日光の温泉",
+        "中禅寺温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "湯ノ湖温泉",
+      "name": "湯ノ湖温泉",
+      "kind": "温泉地",
+      "areaId": "nikko-nasu",
+      "prefecture": "栃木県",
+      "officialName": "湯ノ湖温泉 公式案内",
+      "officialUrl": "https://www.nikko-kankou.org/",
+      "verifiedAt": "2026-08-17",
+      "summary": "湖畔の散策と硫黄の香りを楽しむ温泉",
+      "catchcopy": "湖畔の散策と硫黄の香りを楽しむ温泉",
+      "tags": [
+        "家族",
+        "宿泊",
+        "渓谷",
+        "観光",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉"
+      ],
+      "useCases": [
+        "family",
+        "stay"
+      ],
+      "access": "栃木県湯ノ湖温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/200731_Yunoko_Nikko_Tochigi_pref_Japan07s3.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "湯ノ湖温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E3%83%8E%E6%B9%96"
+      },
+      "facilities": [
+        {
+          "name": "湯ノ湖温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.nikko-kankou.org/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "湯ノ湖温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "湯ノ湖温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/200731_Yunoko_Nikko_Tochigi_pref_Japan07s3.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "湯ノ湖温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E3%83%8E%E6%B9%96"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "湯ノ湖温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kinu_River_viewing_from_Akutsu_Ohashi_in_Utsunomiya.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "湯ノ湖温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        }
+      ],
+      "features": [
+        "湖畔の散策と硫黄の香りを楽しむ温泉",
+        "湯ノ湖温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "大田原温泉",
+      "name": "大田原温泉",
+      "kind": "温泉地",
+      "areaId": "nikko-nasu",
+      "prefecture": "栃木県",
+      "officialName": "大田原温泉 公式案内",
+      "officialUrl": "https://www.tochigiji.or.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "那須野の里と食を組み合わせる温泉",
+      "catchcopy": "那須野の里と食を組み合わせる温泉",
+      "tags": [
+        "家族",
+        "宿泊",
+        "渓谷",
+        "観光",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉"
+      ],
+      "useCases": [
+        "family",
+        "stay"
+      ],
+      "access": "栃木県大田原温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Otawara_Castle_in_spring.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "大田原温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%94%B0%E5%8E%9F%E5%B8%82"
+      },
+      "facilities": [
+        {
+          "name": "大田原温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.tochigiji.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "大田原温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "大田原温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Otawara_Castle_in_spring.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "大田原温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%94%B0%E5%8E%9F%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "大田原温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kinu_River_viewing_from_Akutsu_Ohashi_in_Utsunomiya.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "大田原温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        }
+      ],
+      "features": [
+        "那須野の里と食を組み合わせる温泉",
+        "大田原温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "矢板温泉",
+      "name": "矢板温泉",
+      "kind": "温泉地",
+      "areaId": "nikko-nasu",
+      "prefecture": "栃木県",
+      "officialName": "矢板温泉 公式案内",
+      "officialUrl": "https://www.tochigiji.or.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "高原の入口で気軽に楽しむ温泉",
+      "catchcopy": "高原の入口で気軽に楽しむ温泉",
+      "tags": [
+        "家族",
+        "宿泊",
+        "渓谷",
+        "観光",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉"
+      ],
+      "useCases": [
+        "family",
+        "stay"
+      ],
+      "access": "栃木県矢板温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/20081004%E5%A1%A9%E7%AB%83%E7%A5%9E%E7%A4%BE.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "矢板温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%9F%A2%E6%9D%BF%E5%B8%82"
+      },
+      "facilities": [
+        {
+          "name": "矢板温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.tochigiji.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E6%9D%BF%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "矢板温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E6%9D%BF%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E6%9D%BF%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "矢板温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E6%9D%BF%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E6%9D%BF%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A2%E6%9D%BF%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/20081004%E5%A1%A9%E7%AB%83%E7%A5%9E%E7%A4%BE.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "矢板温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%9F%A2%E6%9D%BF%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Japan_Tochigi_rail_location_map.svg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "矢板温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%AD%A6%E7%9F%A2%E6%9D%BF%E7%B7%9A"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "矢板温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        }
+      ],
+      "features": [
+        "高原の入口で気軽に楽しむ温泉",
+        "矢板温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "佐野やすらぎの湯",
+      "name": "佐野やすらぎの湯",
+      "kind": "温泉地",
+      "areaId": "nikko-nasu",
+      "prefecture": "栃木県",
+      "officialName": "佐野やすらぎの湯 公式案内",
+      "officialUrl": "https://www.tochigiji.or.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "街歩きと日帰り入浴を組み合わせる湯",
+      "catchcopy": "街歩きと日帰り入浴を組み合わせる湯",
+      "tags": [
+        "家族",
+        "宿泊",
+        "渓谷",
+        "観光",
+        "新着候補"
+      ],
+      "springTypes": [
+        "単純温泉"
+      ],
+      "useCases": [
+        "family",
+        "stay"
+      ],
+      "access": "栃木県佐野やすらぎの湯周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "佐野やすらぎの湯の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+      },
+      "facilities": [
+        {
+          "name": "佐野やすらぎの湯 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.tochigiji.or.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C"
+        },
+        {
+          "name": "佐野やすらぎの湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "佐野やすらぎの湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kinugawa_Onsen_Hotel_2020.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "佐野やすらぎの湯の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kinu_River_viewing_from_Akutsu_Ohashi_in_Utsunomiya.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "佐野やすらぎの湯周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/170826_Kinugawa_Onsen_Station_Nikko_Japan02s3.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "佐野やすらぎの湯周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E6%80%92%E5%B7%9D%E6%B8%A9%E6%B3%89%E9%A7%85"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "やさしい入浴感",
+          "text": "成分の刺激が比較的穏やかで、さらりとした湯ざわりを楽しみやすい泉質です。"
+        }
+      ],
+      "features": [
+        "街歩きと日帰り入浴を組み合わせる湯",
+        "佐野やすらぎの湯の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "5浦温泉",
+      "name": "五浦温泉",
+      "kind": "温泉地",
+      "areaId": "ibaraki-onsen",
+      "prefecture": "茨城県",
+      "officialName": "五浦温泉 公式案内",
+      "officialUrl": "https://www.ibarakiguide.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "海岸美術と太平洋の景色を楽しむ温泉",
+      "catchcopy": "海岸美術と太平洋の景色を楽しむ温泉",
+      "tags": [
+        "宿泊",
+        "自然",
+        "渓谷",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "茨城県五浦温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ibaraki-ken_g%C3%A9olocalisation_relief.svg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "五浦温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%94%E6%B5%A6%E6%B5%B7%E5%B2%B8"
+      },
+      "facilities": [
+        {
+          "name": "五浦温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ibarakiguide.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "五浦温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "五浦温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ibaraki-ken_g%C3%A9olocalisation_relief.svg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "五浦温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%94%E6%B5%A6%E6%B5%B7%E5%B2%B8"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Izura_Beach_with_rebuilt_Rokkakudo_in_2012.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "五浦温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E4%BA%94%E6%B5%A6%E6%B8%A9%E6%B3%89"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "五浦温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "海岸美術と太平洋の景色を楽しむ温泉",
+        "五浦温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "湯の網温泉",
+      "name": "湯の網温泉",
+      "kind": "温泉地",
+      "areaId": "ibaraki-onsen",
+      "prefecture": "茨城県",
+      "officialName": "湯の網温泉 公式案内",
+      "officialUrl": "https://www.ibarakiguide.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "北茨城の海と山の間で静養する温泉",
+      "catchcopy": "北茨城の海と山の間で静養する温泉",
+      "tags": [
+        "宿泊",
+        "自然",
+        "渓谷",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "茨城県湯の網温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "湯の網温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "湯の網温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ibarakiguide.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "湯の網温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "湯の網温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "湯の網温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "湯の網温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "湯の網温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "北茨城の海と山の間で静養する温泉",
+        "湯の網温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "常陸太田温泉",
+      "name": "常陸太田温泉",
+      "kind": "温泉地",
+      "areaId": "ibaraki-onsen",
+      "prefecture": "茨城県",
+      "officialName": "常陸太田温泉 公式案内",
+      "officialUrl": "https://www.ibaraki-kanko.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "里山と古い町並みをめぐる温泉",
+      "catchcopy": "里山と古い町並みをめぐる温泉",
+      "tags": [
+        "宿泊",
+        "自然",
+        "渓谷",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "茨城県常陸太田温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Seizansou1.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "常陸太田温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E5%B8%82"
+      },
+      "facilities": [
+        {
+          "name": "常陸太田温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ibaraki-kanko.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "常陸太田温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "常陸太田温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Seizansou1.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "常陸太田温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E5%B8%82"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "常陸太田温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "常陸太田温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "里山と古い町並みをめぐる温泉",
+        "常陸太田温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "城里温泉",
+      "name": "城里温泉",
+      "kind": "温泉地",
+      "areaId": "ibaraki-onsen",
+      "prefecture": "茨城県",
+      "officialName": "城里温泉 公式案内",
+      "officialUrl": "https://www.ibarakiguide.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "森林と農の風景に包まれる温泉",
+      "catchcopy": "森林と農の風景に包まれる温泉",
+      "tags": [
+        "宿泊",
+        "自然",
+        "渓谷",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "茨城県城里温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "城里温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+      },
+      "facilities": [
+        {
+          "name": "城里温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ibarakiguide.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "城里温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "城里温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "城里温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "城里温泉周辺の温泉地風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "城里温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "森林と農の風景に包まれる温泉",
+        "城里温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "ひたちなか温泉",
+      "name": "ひたちなか温泉",
+      "kind": "温泉地",
+      "areaId": "ibaraki-onsen",
+      "prefecture": "茨城県",
+      "officialName": "ひたちなか温泉 公式案内",
+      "officialUrl": "https://www.ibarakiguide.jp/",
+      "verifiedAt": "2026-08-17",
+      "summary": "海浜公園と海の幸を合わせる温泉",
+      "catchcopy": "海浜公園と海の幸を合わせる温泉",
+      "tags": [
+        "宿泊",
+        "自然",
+        "渓谷",
+        "新着候補"
+      ],
+      "springTypes": [
+        "温泉地の詳細は公式サイトで確認"
+      ],
+      "useCases": [
+        "stay",
+        "family"
+      ],
+      "access": "茨城県ひたちなか温泉周辺。営業日・交通情報は訪問前に公式案内を確認してください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/FASHION_CRUISE_NEWPORT_HITACHINAKA.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "ひたちなか温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%9D%E3%83%BC%E3%83%88%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B"
+      },
+      "facilities": [
+        {
+          "name": "ひたちなか温泉 公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ibarakiguide.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
+        },
+        {
+          "name": "ひたちなか温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "ひたちなか温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/FASHION_CRUISE_NEWPORT_HITACHINAKA.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "ひたちなか温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%9D%E3%83%BC%E3%83%88%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ibaraki_Kotsu_DC3710.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "ひたちなか温泉の周辺風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B5%B7%E6%B5%9C%E9%89%84%E9%81%93%E6%B9%8A%E7%B7%9A"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Fukuroda_Falls_38.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "ひたちなか温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
+        }
+      ],
+      "benefits": [
+        {
+          "label": "現地の分析書を確認",
+          "text": "源泉や施設によって泉質が異なる場合があります。現地の温泉分析書と公式案内を訪問前に確認してください。"
+        }
+      ],
+      "features": [
+        "海浜公園と海の幸を合わせる温泉",
+        "ひたちなか温泉の泉質や営業時間は公式案内で確認してから旅程を組み立てられます。"
+      ],
+      "seasonal": [
+        {
+          "season": "春",
+          "text": "芽吹きの山道と渓流を歩いた後に、ゆっくり湯へ。"
+        },
+        {
+          "season": "秋",
+          "text": "紅葉の見頃は公式観光情報で確認し、景色と湯けむりを楽しんで。"
+        },
+        {
+          "season": "冬",
+          "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
+        }
+      ],
+      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
     }
   ],
   "articles": [

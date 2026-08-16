@@ -20,6 +20,7 @@ import { OnsenCard } from './components/site/OnsenCard';
 import { ArticleCard } from './components/site/ArticleCard';
 import { ImageCredit } from './components/site/ImageCredit';
 import { KantoMap } from './components/site/KantoMap';
+import { HeroCarousel } from './components/site/HeroCarousel';
 
 const prefectures = ['東京都', '神奈川県', '千葉県', '埼玉県', '群馬県', '栃木県', '茨城県'];
 
@@ -31,7 +32,11 @@ export default function Page() {
   const allOnsens = getOnsens();
   const purposes = getPurposes();
   const articles = getArticles();
-  const heroImage = featuredAreas[0].image;
+  const heroImages = allOnsens
+    .filter((onsen) => onsen.gallery?.[0])
+    .slice(0, 6)
+    .map((onsen) => onsen.gallery[0]);
+  const heroImage = heroImages[0] ?? featuredAreas[0].image;
   const prefectureCounts = prefectures.map((prefecture) => ({ prefecture, count: allOnsens.filter((onsen) => onsen.prefecture === prefecture).length }));
   const portalFeatured = allOnsens.filter((onsen) => ['hakone-yumoto', 'kusatsu', 'yugawara', 'nikko-yumoto', 'yoro', 'naguri', 'fukuroda-onsen', 'tsukubasan-onsen', 'inubosaki-onsen'].includes(onsen.slug));
   const spotlightOnsens = portalFeatured.length >= 6 ? portalFeatured : featuredOnsens;
@@ -39,16 +44,13 @@ export default function Page() {
   return (
     <main className="bg-[#f6f0e5] text-[#2e261f]">
       <section className="relative overflow-hidden bg-[#241b15] text-white">
-        <div className="absolute inset-0">
-          <Image src={heroImage.src} alt={heroImage.alt} fill priority sizes="100vw" className="object-cover opacity-60" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_20%,rgba(213,170,97,0.2),transparent_28%),linear-gradient(115deg,#201710_8%,rgba(36,27,21,0.9)_45%,rgba(36,27,21,0.28)_100%)]" />
-        </div>
+        <HeroCarousel images={heroImages} />
         <div className="relative mx-auto max-w-7xl px-5 pb-16 pt-24 md:px-8 md:pb-24 md:pt-32">
           <div className="grid items-end gap-12 lg:grid-cols-[1.1fr_0.9fr]">
             <div>
               <div className="inline-flex items-center gap-3 rounded-full border border-[#d5ad69]/50 bg-[#33251a]/70 px-4 py-2 text-xs font-bold tracking-[0.22em] text-[#efd092] backdrop-blur">関東の湯を、旅の入口に</div>
               <p className="mt-8 text-sm font-bold tracking-[0.32em] text-[#efd092]">{data.home.hero.eyebrow}</p>
-              <h1 className="mt-5 max-w-5xl font-serif text-5xl font-bold leading-[1.04] tracking-tight md:text-7xl lg:text-8xl">関東の温泉を、<br /><span className="text-[#efd092]">もっと深く</span>探す。</h1>
+              <h1 className="mt-5 max-w-5xl font-serif text-5xl font-bold leading-[1.04] tracking-tight md:text-7xl lg:text-8xl">関東の温泉を<br /><span className="text-[#efd092]">もっと深く</span>探す</h1>
               <p className="mt-7 max-w-2xl text-base leading-8 text-[#fff9ee] md:text-lg">{data.home.hero.description} 都県、温泉地、旅の目的から、公式サイトと地図へ迷わず進めます。</p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <Link href="/onsens" className="rounded-full bg-[#efd092] px-7 py-3.5 text-center text-sm font-bold text-[#2e2117] shadow-[0_10px_28px_rgba(0,0,0,0.22)] transition hover:-translate-y-0.5 hover:bg-[#ffe5aa]">温泉を探す</Link>

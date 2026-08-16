@@ -56,3 +56,14 @@
 東京都の追加施設は、各施設公式サイトまたは自治体・観光協会の案内を確認した。深大寺天然温泉 湯守の里は公式サイトがHTTP 403を返すため、調布観光ナビの施設案内 `https://csa.gr.jp/contents/16442` を公式案内導線として採用する。施設の公式URLはデータ上の出典として別途保持し、訪問前の営業確認を促す。[調布観光ナビ 湯守の里](https://csa.gr.jp/contents/16442)
 
 追加した東京都の施設公式情報には、[前野原温泉さやの湯処](https://www.sayanoyudokoro.co.jp/)、[多摩境天然温泉 森乃彩](https://morinoirodori.com/)、[豊島園 庭の湯](https://www.seibu-leisure.co.jp/niwanoyu/index.html)、[天然温泉平和島](https://www.heiwajima-onsen.jp/)、[武蔵小山温泉 清水湯](https://www.shimizuyu.com/)、[Spa LaQua](https://www.laqua.jp/spa/)、[大谷田温泉 明神の湯](https://dormy-hotels.com/spa/myoujin/)、[おふろの王様 大井町店](https://www.ousama2603.com/ooimachi/)、[東京天然温泉 古代の湯](https://kodainoyu.jp/)、[高井戸天然温泉 美しの湯](https://utsukushi-yu.com/)、[戸越銀座温泉の品川浴場組合案内](https://shinagawa1010.jp/list/togoshiginza/) などが含まれる。
+
+
+## 2026年追加調査
+
+今回の再調査では、温泉地数の基準を分けて扱う。環境省の「温泉地数」は宿泊施設のある温泉地を数える公的統計であり、温泉施設数や旅行サイトの検索結果とは一致しない。[環境省 温泉に関するデータ](https://www.env.go.jp/nature/onsen/data/) 日本温泉協会は環境省統計をもとに都道府県別の温泉地数・源泉総数などを整理し、検索画面では温泉地と施設を分けて扱っている。[日本温泉協会](https://www.spa.or.jp/news/general/6076/)
+
+旅行サイトは別の粒度で候補を広げる資料として利用した。じゃらんは関東甲信越の人気温泉地ランキングと日帰り温泉スポットを掲載しているが、ランキングは網羅数ではない。[じゃらん 関東・甲信越温泉地ランキング](https://www.jalan.net/jalan/doc/etc/onsenranking/onsenranking_kanto.html) 楽天トラベルは首都圏の温泉地一覧として岩蔵温泉、大島温泉、湯河原、仙石原、箱根湯本、芦ノ湖、七沢、中川、伊勢原などを案内している。[楽天トラベル 首都圏温泉地](https://travel.rakuten.co.jp/onsen/sem/metropolitan/)
+
+千葉県公式観光サイトでは、南房総温泉郷（白浜・千倉・岩井）、鴨川温泉、小湊温泉、勝浦温泉、犬吠埼温泉郷、白子温泉、養老渓谷温泉郷、亀山温泉を整理している。犬吠埼温泉は複数施設で入浴できる温泉郷として紹介され、温泉地数と施設数を混同しないようにする必要がある。[ちば観光ナビ 千葉でおすすめの温泉10選](https://maruchiba.jp/feature/detail_115.html)
+
+したがってサイト上の説明では「公的な温泉地総数」「当サイトの温泉地掲載数」「施設・日帰りスポット候補」を別々に表示し、旅行予約サイトの検索件数を関東全体の温泉総数とは断定しない。追加候補は、公式観光協会・温泉組合で存在を確認できる温泉地を優先し、旅行サイトは発見と人気傾向の補助資料として使う。

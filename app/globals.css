@@ -117,3 +117,30 @@ img {
 .portal-text-link { color: #77491f; font-size: 0.75rem; font-weight: 800; text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
 .portal-text-link:hover, .portal-text-link:focus-visible { color: #2f241c; }
 .portal-button-primary:focus-visible, .portal-button-secondary:focus-visible, .portal-button-outline:focus-visible, .portal-button-light:focus-visible, .portal-text-link:focus-visible { outline: 3px solid #c28d55; outline-offset: 3px; }
+
+
+.hero-carousel-control {
+  display: inline-flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 249, 238, 0.55);
+  border-radius: 9999px;
+  background: rgba(36, 27, 21, 0.82);
+  color: #fff9ee;
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1;
+  transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.hero-carousel-control:hover,
+.hero-carousel-control:focus-visible {
+  border-color: #efd092;
+  background: #4b3829;
+  color: #fff5dc;
+  transform: translateY(-1px);
+  outline: 2px solid #efd092;
+  outline-offset: 2px;
+}
