@@ -9,6 +9,9 @@ const repairs = {
   '湯西川温泉': ['https://yunishigawa-mizunosato.jp/', '湯西川水の郷公式案内'],
   '箱根湯本温泉': ['https://www.hakone.or.jp/', '箱根町観光協会'],
   '皆野温泉': ['https://www.minano.gr.jp/catleisure/leisure_spa/', '皆野町観光協会'],
+  '東京天然温泉 古代の湯': ['https://kodainoyu.jp/', '東京天然温泉 古代の湯公式サイト'],
+  '高井戸天然温泉 美しの湯': ['https://utsukushi-yu.com/', '高井戸天然温泉 美しの湯公式サイト'],
+  '深大寺天然温泉 湯守の里': ['https://csa.gr.jp/contents/16442', '調布観光ナビ 湯守の里案内'],
 };
 let changed = 0;
 for (const onsen of data.onsens) {

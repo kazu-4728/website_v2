@@ -6,6 +6,12 @@
     "finalUrl": "https://www.kanagawa-kankou.or.jp/features/onsen"
   },
   {
+    "name": "おふろの王様 大井町店",
+    "url": "https://www.ousama2603.com/ooimachi/",
+    "status": 200,
+    "finalUrl": "https://www.ousama2603.com/ooimachi/"
+  },
+  {
     "name": "たてやま温泉郷",
     "url": "https://tateyamacity.com/onsen/",
     "status": 200,
@@ -138,10 +144,22 @@
     "finalUrl": "https://www.choshikanko.com/"
   },
   {
+    "name": "戸越銀座温泉",
+    "url": "https://shinagawa1010.jp/list/togoshiginza/",
+    "status": 200,
+    "finalUrl": "https://shinagawa1010.jp/list/togoshiginza/"
+  },
+  {
     "name": "御前山温泉",
     "url": "https://www.ibarakiguide.jp/",
     "status": 200,
     "finalUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "name": "高井戸天然温泉 美しの湯",
+    "url": "https://utsukushi-yu.com/",
+    "status": "TIMEOUT_OR_NETWORK",
+    "error": "fetch failed"
   },
   {
     "name": "黒山温泉",
@@ -204,6 +222,12 @@
     "finalUrl": "https://www.onsen-yado.net/"
   },
   {
+    "name": "深大寺天然温泉 湯守の里",
+    "url": "https://csa.gr.jp/contents/16442",
+    "status": 200,
+    "finalUrl": "https://csa.gr.jp/contents/16442"
+  },
+  {
     "name": "陣馬の湯",
     "url": "https://www.kanagawa-kankou.or.jp/features/onsen/",
     "status": 200,
@@ -252,6 +276,12 @@
     "finalUrl": "https://www.nikko-kankou.org/"
   },
   {
+    "name": "前野原温泉 さやの湯処",
+    "url": "https://www.sayanoyudokoro.co.jp/",
+    "status": 200,
+    "finalUrl": "https://www.sayanoyudokoro.co.jp/"
+  },
+  {
     "name": "草津温泉",
     "url": "https://www.town.kusatsu.gunma.jp/",
     "status": 200,
@@ -262,6 +292,12 @@
     "url": "https://www.nikko-kankou.org/",
     "status": 200,
     "finalUrl": "https://www.nikko-kankou.org/"
+  },
+  {
+    "name": "多摩境天然温泉 森乃彩",
+    "url": "https://morinoirodori.com/",
+    "status": 200,
+    "finalUrl": "https://morinoirodori.com/"
   },
   {
     "name": "袋田温泉",
@@ -292,6 +328,12 @@
     "url": "https://www.chichibuji.gr.jp/",
     "status": 200,
     "finalUrl": "https://www.chichibuji.gr.jp/"
+  },
+  {
+    "name": "大谷田温泉 明神の湯",
+    "url": "https://dormy-hotels.com/spa/myoujin/",
+    "status": 200,
+    "finalUrl": "https://dormy-hotels.com/spa/myoujin/"
   },
   {
     "name": "大島温泉郷",
@@ -342,6 +384,30 @@
     "finalUrl": "https://www.kanagawa-kankou.or.jp/features/onsen"
   },
   {
+    "name": "天然温泉平和島",
+    "url": "https://www.heiwajima-onsen.jp/",
+    "status": 200,
+    "finalUrl": "https://www.heiwajima-onsen.jp/"
+  },
+  {
+    "name": "東京ドーム天然温泉 Spa LaQua",
+    "url": "https://www.laqua.jp/spa/",
+    "status": 200,
+    "finalUrl": "https://www.laqua.jp/spa/"
+  },
+  {
+    "name": "東京染井温泉 SAKURA",
+    "url": "https://tokyosomeionsensakura.com/",
+    "status": 200,
+    "finalUrl": "https://tokyosomeionsensakura.com/"
+  },
+  {
+    "name": "東京天然温泉 古代の湯",
+    "url": "https://kodainoyu.jp/",
+    "status": "TIMEOUT_OR_NETWORK",
+    "error": "fetch failed"
+  },
+  {
     "name": "湯河原・幕山温泉",
     "url": "https://www.yugawara.or.jp/",
     "status": 200,
@@ -370,12 +436,6 @@
     "url": "https://www.nikkoyumoto.com/",
     "status": 200,
     "finalUrl": "https://www.nikkoyumoto.com/"
-  },
-  {
-    "name": "熱海温泉",
-    "url": "https://www.ataminews.gr.jp/",
-    "status": 200,
-    "finalUrl": "https://www.ataminews.gr.jp/"
   },
   {
     "name": "馬頭温泉郷",
@@ -450,6 +510,12 @@
     "finalUrl": "https://www.kuroiso-kankou.org/itamuro/"
   },
   {
+    "name": "武蔵小山温泉 清水湯",
+    "url": "https://www.shimizuyu.com/",
+    "status": 200,
+    "finalUrl": "https://www.shimizuyu.com/"
+  },
+  {
     "name": "平潟港温泉",
     "url": "https://www.kitaibarakishi-kankokyokai.gr.jp/",
     "status": 200,
@@ -478,6 +544,12 @@
     "url": "https://hoshi-onsen.com/",
     "status": 200,
     "finalUrl": "https://hoshi-onsen.com/"
+  },
+  {
+    "name": "豊島園 庭の湯",
+    "url": "https://www.seibu-leisure.co.jp/niwanoyu/index.html",
+    "status": 200,
+    "finalUrl": "https://www.seibu-leisure.co.jp/niwanoyu/index.html"
   },
   {
     "name": "北茨城温泉郷",

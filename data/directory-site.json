@@ -52,7 +52,6 @@
       "hakone-yugawara",
       "gunma-meito",
       "nikko-nasu",
-      "izu-atami",
       "tokyo-saitama",
       "tokyo-islands",
       "chiba-boso",
@@ -85,7 +84,6 @@
       "description": "移動負担を抑え、短時間で温泉気分を得やすい候補。",
       "recommendedSlugs": [
         "hakone-yumoto",
-        "atami",
         "chichibu",
         "ikaho"
       ]
@@ -112,7 +110,6 @@
       "recommendedSlugs": [
         "kusatsu",
         "ikaho",
-        "atami",
         "hakone-yumoto"
       ]
     },
@@ -137,7 +134,6 @@
       "recommendedSlugs": [
         "kinugawa",
         "hakone-yumoto",
-        "atami",
         "chichibu"
       ]
     }
@@ -212,25 +208,6 @@
         "kinugawa",
         "nikko-yumoto",
         "shiobara"
-      ]
-    },
-    {
-      "id": "izu-atami",
-      "slug": "izu-atami",
-      "name": "伊豆・熱海",
-      "prefectures": [
-        "静岡県"
-      ],
-      "summary": "海の景色、駅近、短期旅行の組み立てやすさが強み。東京方面からの週末旅行の入口として使いやすい。",
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Atami_20170211-1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-        "alt": "伊豆・熱海の温泉風景",
-        "credit": "Wikipedia contributors / Wikimedia Commons",
-        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%86%B1%E6%B5%B7%E5%B8%82"
-      },
-      "onsenSlugs": [
-        "atami"
       ]
     },
     {
@@ -395,6 +372,37 @@
         "isohara",
         "oarai",
         "tsukuba"
+      ]
+    },
+    {
+      "id": "tokyo-urban-onsen",
+      "slug": "tokyo-urban-onsen",
+      "name": "東京23区・多摩の天然温泉",
+      "prefectures": [
+        "東京都"
+      ],
+      "summary": "駅近の日帰り温泉から庭園を望む湯処まで、東京の街なかで天然温泉を楽しめる施設をまとめたエリア。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "東京・奥多摩・島しょの温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "onsenSlugs": [
+        "maeno-hara-onsen",
+        "jindaiji-yumorinosato",
+        "tam境-morinoirodori",
+        "toshimaen-niwanoyu",
+        "heiwajima-onsen",
+        "musashikoyama-shimizuyu",
+        "spa-laqua",
+        "otaniyuta-myogin",
+        "ofuro-no-osama-oimachi",
+        "kodai-no-yu",
+        "tokyo-somei-sakura",
+        "takaido-utsukushinoyu",
+        "togoshiginza-onsen"
       ]
     }
   ],
@@ -1367,115 +1375,6 @@
         {
           "season": "冬",
           "text": "雪見風呂や白い湯けむりが映える季節。道路・運行情報を確認して訪問を。"
-        }
-      ],
-      "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
-    },
-    {
-      "slug": "atami",
-      "name": "熱海温泉",
-      "kind": "温泉地",
-      "areaId": "izu-atami",
-      "prefecture": "静岡県",
-      "officialName": "熱海市観光協会",
-      "officialUrl": "https://www.ataminews.gr.jp/",
-      "verifiedAt": "2026-04-26",
-      "summary": "海の景色、駅近、宿泊、食事を短い移動で組みやすい定番リゾート温泉地。",
-      "catchcopy": "海と温泉を短時間で楽しむ定番。",
-      "tags": [
-        "海",
-        "駅近",
-        "日帰り",
-        "宿泊"
-      ],
-      "springTypes": [
-        "塩化物泉",
-        "硫酸塩泉"
-      ],
-      "useCases": [
-        "day-trip",
-        "onsen-town",
-        "family"
-      ],
-      "access": "東京駅から新幹線または東海道線で熱海駅へ。駅周辺から海沿いの宿へ向かいやすい。",
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Atami_20170211-1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-        "alt": "熱海温泉の温泉風景",
-        "credit": "Wikipedia contributors / Wikimedia Commons",
-        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-        "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%86%B1%E6%B5%B7%E5%B8%82"
-      },
-      "facilities": [
-        {
-          "name": "熱海市観光協会（公式案内）",
-          "kind": "公式案内",
-          "url": "https://www.ataminews.gr.jp/",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C"
-        },
-        {
-          "name": "熱海温泉の宿泊施設",
-          "kind": "宿泊",
-          "url": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
-        },
-        {
-          "name": "熱海温泉の日帰り温泉",
-          "kind": "日帰り",
-          "url": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
-          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
-        }
-      ],
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%20%E9%9D%99%E5%B2%A1%E7%9C%8C",
-      "gallery": [
-        {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Atami_20170211-1.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-          "alt": "熱海温泉の温泉風景",
-          "credit": "Wikipedia contributors / Wikimedia Commons",
-          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%86%B1%E6%B5%B7%E5%B8%82"
-        },
-        {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Atami_Station.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-          "alt": "熱海温泉の周辺風景",
-          "credit": "Wikipedia contributors / Wikimedia Commons",
-          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%86%B1%E6%B5%B7%E9%A7%85"
-        },
-        {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Japan_Izu_peninsula_topographic_map.webp?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-          "alt": "熱海温泉の周辺風景",
-          "credit": "Wikipedia contributors / Wikimedia Commons",
-          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89"
-        }
-      ],
-      "benefits": [
-        {
-          "label": "温まりやすさ",
-          "text": "塩分を含む泉質で、入浴後も温かさを感じやすいとされます。"
-        },
-        {
-          "label": "さっぱりした湯",
-          "text": "硫酸イオンを含む泉質で、湯上がりのさっぱりした感覚を楽しめます。"
-        }
-      ],
-      "features": [
-        "熱海温泉の海と駅近を楽しめる温泉地",
-        "海の景色、駅近、宿泊、食事を短い移動で組みやすい定番リゾート温泉地。",
-        "公式サイト・地図・施設情報を確認して、自分に合う過ごし方を組み立てやすいエリア"
-      ],
-      "seasonal": [
-        {
-          "season": "春",
-          "text": "季節の花や新緑をめぐる、軽やかな湯旅に。"
-        },
-        {
-          "season": "秋",
-          "text": "温泉街や周辺の景色が深まる時期。散策と湯をゆっくり楽しんで。"
-        },
-        {
-          "season": "冬",
-          "text": "温泉の魅力が際立つ季節。営業状況と交通情報を確認して訪問を。"
         }
       ],
       "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
@@ -2947,7 +2846,7 @@
       },
       "facilities": [
         {
-          "name": "鴨川市観光協会（公式案内）",
+          "name": "鴨川市公式観光案内（公式案内）",
           "kind": "公式案内",
           "url": "https://www.city.kamogawa.lg.jp/site/kamogawa-kanko/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C"
@@ -5219,11 +5118,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "大子温泉の周辺風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
         },
         {
           "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
@@ -5328,11 +5227,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "袋田温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
         }
       ],
       "benefits": [
@@ -5634,11 +5533,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "大洗温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
         }
       ],
       "benefits": [
@@ -7636,18 +7535,18 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%8A%AC%E5%90%A0%E5%9F%BC"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/%E7%8A%AC%E5%90%A0%E5%9F%BC%E3%81%8B%E3%82%89%E3%81%AE%E9%A2%A8%E6%99%AF20190613-IMG_4974.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
-          "alt": "犬吠埼温泉の周辺風景",
-          "credit": "Wikipedia contributors / Wikimedia Commons",
-          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%8A%AC%E5%90%A0%E5%9F%BC%E6%B8%A9%E6%B3%89"
-        },
-        {
           "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tateyama_City_viewed_from_Tateyama_Castle.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "犬吠埼温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nojimasakitodai0.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "犬吠埼温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%B5%9C%E7%94%BA_(%E5%8D%83%E8%91%89%E7%9C%8C)"
         }
       ],
       "benefits": [
@@ -8144,7 +8043,7 @@
       },
       "facilities": [
         {
-          "name": "長瀞町観光協会（公式案内）",
+          "name": "皆野町観光協会（公式案内）",
           "kind": "公式案内",
           "url": "https://www.minano.gr.jp/catleisure/leisure_spa/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9A%86%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
@@ -9569,11 +9468,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "袋田温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
         }
       ],
       "benefits": [
@@ -9890,11 +9789,11 @@
           "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AD%90%E7%94%BA"
         },
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ibaraki_prefectural_road_route_28_%28Daigo-Nasu_line%29_in_Kaminomiya%2CDaigo_town.JPG?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JR_Suigun_Line_Hitachi-Daigo_Station_building.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
           "alt": "平潟港温泉周辺の温泉地・自然風景",
           "credit": "Wikipedia contributors / Wikimedia Commons",
           "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
-          "sourceUrl": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E9%81%93%E3%83%BB%E6%A0%83%E6%9C%A8%E7%9C%8C%E9%81%9328%E5%8F%B7%E5%A4%A7%E5%AD%90%E9%82%A3%E9%A0%88%E7%B7%9A"
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E5%A4%A7%E5%AD%90%E9%A7%85"
         }
       ],
       "benefits": [
@@ -10034,6 +9933,1124 @@
         }
       ],
       "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。"
+    },
+    {
+      "slug": "maeno-hara-onsen",
+      "name": "前野原温泉 さやの湯処",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "前野原温泉 さやの湯処公式サイト",
+      "officialUrl": "https://www.sayanoyudokoro.co.jp/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "板橋区で源泉かけ流しのにごり湯と枯山水の庭を楽しめる日帰り温泉。",
+      "catchcopy": "都内で、源泉と日本庭園に浸る。",
+      "tags": [
+        "源泉かけ流し",
+        "庭園",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "前野原温泉 さやの湯処の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "前野原温泉 さやの湯処の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "前野原温泉 さやの湯処周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "前野原温泉 さやの湯処公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.sayanoyudokoro.co.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "前野原温泉 さやの湯処の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "前野原温泉 さやの湯処の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "板橋区で源泉かけ流しのにごり湯と枯山水の庭を楽しめる日帰り温泉。",
+        "都内で、源泉と日本庭園に浸る。",
+        "源泉かけ流し・庭園・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "jindaiji-yumorinosato",
+      "name": "深大寺天然温泉 湯守の里",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "調布観光ナビ 湯守の里案内",
+      "officialUrl": "https://csa.gr.jp/contents/16442",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "深大寺の森と寺社めぐりに近い、調布の黒湯天然温泉。",
+      "catchcopy": "深大寺の森を歩いて、黒湯へ。",
+      "tags": [
+        "黒湯",
+        "深大寺",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "深大寺天然温泉 湯守の里の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "深大寺天然温泉 湯守の里の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "深大寺天然温泉 湯守の里周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "湯守の里公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://csa.gr.jp/contents/16442",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "深大寺天然温泉 湯守の里の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "深大寺天然温泉 湯守の里の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%A4%A7%E5%AF%BA%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B9%AF%E5%AE%88%E3%81%AE%E9%87%8C%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "深大寺の森と寺社めぐりに近い、調布の黒湯天然温泉。",
+        "深大寺の森を歩いて、黒湯へ。",
+        "黒湯・深大寺・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "tam境-morinoirodori",
+      "name": "多摩境天然温泉 森乃彩",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "森乃彩公式サイト",
+      "officialUrl": "https://morinoirodori.com/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "多摩丘陵の緑に囲まれ、源泉かけ流しと露天風呂を楽しめる町田の温泉施設。",
+      "catchcopy": "森の緑と、かけ流しの湯。",
+      "tags": [
+        "源泉かけ流し",
+        "森",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "多摩境天然温泉 森乃彩の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "多摩境天然温泉 森乃彩の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "多摩境天然温泉 森乃彩周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "森乃彩公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://morinoirodori.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "多摩境天然温泉 森乃彩の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "多摩境天然温泉 森乃彩の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "多摩丘陵の緑に囲まれ、源泉かけ流しと露天風呂を楽しめる町田の温泉施設。",
+        "森の緑と、かけ流しの湯。",
+        "源泉かけ流し・森・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "toshimaen-niwanoyu",
+      "name": "豊島園 庭の湯",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "豊島園 庭の湯公式サイト",
+      "officialUrl": "https://www.seibu-leisure.co.jp/niwanoyu/index.html",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E5%B3%B6%E5%9C%92%20%E5%BA%AD%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "1200坪の日本庭園を望む、練馬の天然温泉とスパ施設。",
+      "catchcopy": "庭園を眺めて、都心の湯宿気分。",
+      "tags": [
+        "日本庭園",
+        "スパ",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "豊島園 庭の湯の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "豊島園 庭の湯の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "豊島園 庭の湯周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "豊島園 庭の湯公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.seibu-leisure.co.jp/niwanoyu/index.html",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E5%B3%B6%E5%9C%92%20%E5%BA%AD%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "豊島園 庭の湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E5%B3%B6%E5%9C%92%20%E5%BA%AD%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E5%B3%B6%E5%9C%92%20%E5%BA%AD%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "豊島園 庭の湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E5%B3%B6%E5%9C%92%20%E5%BA%AD%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E5%B3%B6%E5%9C%92%20%E5%BA%AD%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "1200坪の日本庭園を望む、練馬の天然温泉とスパ施設。",
+        "庭園を眺めて、都心の湯宿気分。",
+        "日本庭園・スパ・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "heiwajima-onsen",
+      "name": "天然温泉平和島",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "天然温泉平和島公式サイト",
+      "officialUrl": "https://www.heiwajima-onsen.jp/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%E5%B9%B3%E5%92%8C%E5%B3%B6%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "大田区で地下深くから湧く天然温泉とリラクゼーションを楽しめる施設。",
+      "catchcopy": "羽田からも近い、都市の深い湯。",
+      "tags": [
+        "黒湯",
+        "空港近く",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "天然温泉平和島の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "天然温泉平和島の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "天然温泉平和島周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "天然温泉平和島公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.heiwajima-onsen.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%E5%B9%B3%E5%92%8C%E5%B3%B6%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "天然温泉平和島の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%E5%B9%B3%E5%92%8C%E5%B3%B6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%E5%B9%B3%E5%92%8C%E5%B3%B6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "天然温泉平和島の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%E5%B9%B3%E5%92%8C%E5%B3%B6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%E5%B9%B3%E5%92%8C%E5%B3%B6%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "大田区で地下深くから湧く天然温泉とリラクゼーションを楽しめる施設。",
+        "羽田からも近い、都市の深い湯。",
+        "黒湯・空港近く・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "musashikoyama-shimizuyu",
+      "name": "武蔵小山温泉 清水湯",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "武蔵小山温泉 清水湯公式サイト",
+      "officialUrl": "https://www.shimizuyu.com/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "品川区で黄金の湯と黒湯、岩盤浴を楽しめる駅近の天然温泉。",
+      "catchcopy": "駅から5分、二つの天然温泉。",
+      "tags": [
+        "黒湯",
+        "駅近",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "武蔵小山温泉 清水湯の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "武蔵小山温泉 清水湯の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "武蔵小山温泉 清水湯周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "武蔵小山温泉 清水湯公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.shimizuyu.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "武蔵小山温泉 清水湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "武蔵小山温泉 清水湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "品川区で黄金の湯と黒湯、岩盤浴を楽しめる駅近の天然温泉。",
+        "駅から5分、二つの天然温泉。",
+        "黒湯・駅近・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "spa-laqua",
+      "name": "東京ドーム天然温泉 Spa LaQua",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "Spa LaQua公式サイト",
+      "officialUrl": "https://www.laqua.jp/spa/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "東京ドームシティ内で天然温泉、サウナ、岩盤浴を楽しめる都心のスパ。",
+      "catchcopy": "街の真ん中で、深く休む。",
+      "tags": [
+        "天然温泉",
+        "サウナ",
+        "駅近"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "東京ドーム天然温泉 Spa LaQuaの温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "東京ドーム天然温泉 Spa LaQuaの温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "東京ドーム天然温泉 Spa LaQua周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Spa LaQua公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.laqua.jp/spa/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "東京ドーム天然温泉 Spa LaQuaの宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "東京ドーム天然温泉 Spa LaQuaの日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "東京ドームシティ内で天然温泉、サウナ、岩盤浴を楽しめる都心のスパ。",
+        "街の真ん中で、深く休む。",
+        "天然温泉・サウナ・駅近を楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "otaniyuta-myogin",
+      "name": "大谷田温泉 明神の湯",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "大谷田温泉 明神の湯公式サイト",
+      "officialUrl": "https://dormy-hotels.com/spa/myoujin/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "足立区で趣のある湯場と露天風呂を楽しめる日帰り天然温泉。",
+      "catchcopy": "木の湯場で、東京の休日。",
+      "tags": [
+        "露天風呂",
+        "日帰り",
+        "和の湯場"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "大谷田温泉 明神の湯の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "大谷田温泉 明神の湯の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "大谷田温泉 明神の湯周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "大谷田温泉 明神の湯公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://dormy-hotels.com/spa/myoujin/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "大谷田温泉 明神の湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "大谷田温泉 明神の湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "足立区で趣のある湯場と露天風呂を楽しめる日帰り天然温泉。",
+        "木の湯場で、東京の休日。",
+        "露天風呂・日帰り・和の湯場を楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "ofuro-no-osama-oimachi",
+      "name": "おふろの王様 大井町店",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "おふろの王様 大井町店公式サイト",
+      "officialUrl": "https://www.ousama2603.com/ooimachi/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "大井町駅徒歩1分で露天風呂や岩盤浴を楽しめる都市型温浴施設。",
+      "catchcopy": "駅前で、仕事帰りの湯旅。",
+      "tags": [
+        "駅近",
+        "岩盤浴",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "おふろの王様 大井町店の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "おふろの王様 大井町店の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "おふろの王様 大井町店周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "おふろの王様 大井町店公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://www.ousama2603.com/ooimachi/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "おふろの王様 大井町店の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "おふろの王様 大井町店の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "大井町駅徒歩1分で露天風呂や岩盤浴を楽しめる都市型温浴施設。",
+        "駅前で、仕事帰りの湯旅。",
+        "駅近・岩盤浴・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "kodai-no-yu",
+      "name": "東京天然温泉 古代の湯",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "東京天然温泉 古代の湯公式サイト",
+      "officialUrl": "https://kodainoyu.jp/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "葛飾区で天然温泉と食事、休憩を一日ゆっくり楽しめる施設。",
+      "catchcopy": "下町で、ゆっくり一日湯。",
+      "tags": [
+        "天然温泉",
+        "下町",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "東京天然温泉 古代の湯の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "東京天然温泉 古代の湯の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "東京天然温泉 古代の湯周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "東京天然温泉 古代の湯公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://kodainoyu.jp/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "東京天然温泉 古代の湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "東京天然温泉 古代の湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "葛飾区で天然温泉と食事、休憩を一日ゆっくり楽しめる施設。",
+        "下町で、ゆっくり一日湯。",
+        "天然温泉・下町・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "tokyo-somei-sakura",
+      "name": "東京染井温泉 SAKURA",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "東京染井温泉 SAKURA公式サイト",
+      "officialUrl": "https://tokyosomeionsensakura.com/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "巣鴨の静かな街並みにある、天然温泉とサウナを楽しめる温浴施設。",
+      "catchcopy": "桜の街で、静かな湯浴み。",
+      "tags": [
+        "天然温泉",
+        "サウナ",
+        "駅近"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "東京染井温泉 SAKURAの温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "東京染井温泉 SAKURAの温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "東京染井温泉 SAKURA周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "東京染井温泉 SAKURA公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://tokyosomeionsensakura.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "東京染井温泉 SAKURAの宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "東京染井温泉 SAKURAの日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "巣鴨の静かな街並みにある、天然温泉とサウナを楽しめる温浴施設。",
+        "桜の街で、静かな湯浴み。",
+        "天然温泉・サウナ・駅近を楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "takaido-utsukushinoyu",
+      "name": "高井戸天然温泉 美しの湯",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "高井戸天然温泉 美しの湯公式サイト",
+      "officialUrl": "https://utsukushi-yu.com/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "高井戸駅から徒歩2分、琥珀色の源泉を楽しめる杉並の温泉施設。",
+      "catchcopy": "駅近の琥珀色の湯。",
+      "tags": [
+        "琥珀色の湯",
+        "駅近",
+        "日帰り"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "高井戸天然温泉 美しの湯の温泉案内画像",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "高井戸天然温泉 美しの湯の温泉案内画像",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "高井戸天然温泉 美しの湯周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "高井戸天然温泉 美しの湯公式サイト（公式案内）",
+          "kind": "公式案内",
+          "url": "https://utsukushi-yu.com/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "高井戸天然温泉 美しの湯の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "高井戸天然温泉 美しの湯の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "高井戸駅から徒歩2分、琥珀色の源泉を楽しめる杉並の温泉施設。",
+        "駅近の琥珀色の湯。",
+        "琥珀色の湯・駅近・日帰りを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
+    },
+    {
+      "slug": "togoshiginza-onsen",
+      "name": "戸越銀座温泉",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "品川浴場組合公式案内",
+      "officialUrl": "https://shinagawa1010.jp/list/togoshiginza/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+      "verifiedAt": "2026-08-16",
+      "summary": "戸越銀座商店街の散策と合わせて楽しめる、品川の天然温泉銭湯。",
+      "catchcopy": "商店街を歩いて、黒湯へ。",
+      "tags": [
+        "黒湯",
+        "銭湯",
+        "街歩き"
+      ],
+      "springTypes": [
+        "ナトリウム塩化物泉"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "access": "各施設の公式アクセス案内とGoogleマップで最新情報をご確認ください。",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+        "alt": "戸越銀座温泉の温泉風景",
+        "credit": "Wikipedia contributors / Wikimedia Commons",
+        "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+        "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Togoshi-Ginza_Station%28GotandaGates%29.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "戸越銀座温泉の温泉風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Nasu_chausudake.jpg?utm_source=ja.wikipedia.org&utm_campaign=api&utm_content=original",
+          "alt": "戸越銀座温泉周辺の温泉地・自然風景",
+          "credit": "Wikipedia contributors / Wikimedia Commons",
+          "license": "Wikipedia image (各画像のライセンスを出典ページで確認)",
+          "sourceUrl": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E7%94%BA"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "品川浴場組合公式案内（公式案内）",
+          "kind": "公式案内",
+          "url": "https://shinagawa1010.jp/list/togoshiginza/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
+        },
+        {
+          "name": "戸越銀座温泉の宿泊施設",
+          "kind": "宿泊",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%85%E9%A4%A8%20%E3%83%9B%E3%83%86%E3%83%AB"
+        },
+        {
+          "name": "戸越銀座温泉の日帰り温泉",
+          "kind": "日帰り",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%20%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89"
+        }
+      ],
+      "features": [
+        "戸越銀座商店街の散策と合わせて楽しめる、品川の天然温泉銭湯。",
+        "商店街を歩いて、黒湯へ。",
+        "黒湯・銭湯・街歩きを楽しめる東京の温泉施設"
+      ],
+      "benefits": [
+        {
+          "label": "入浴体験",
+          "text": "泉質や浴槽の特徴、営業時間は公式案内を確認しながら、無理のない入浴を楽しめます。"
+        }
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "季節を問わず立ち寄りやすい施設。営業日・休館日は公式情報で確認してください。"
+        }
+      ],
+      "editorialNote": "施設ごとに泉質・入浴条件が異なるため、訪問前に公式案内を確認してください。"
     }
   ],
   "articles": [

@@ -11,6 +11,9 @@ import {
   getOnsensByArea,
   getPurposes,
   getSiteData,
+  kantoOfficialOnsenAreaTotal,
+  kantoOfficialSourceTotal,
+  kantoOfficialStats,
 } from './lib/onsen-site';
 import { AreaCard } from './components/site/AreaCard';
 import { OnsenCard } from './components/site/OnsenCard';
@@ -62,18 +65,21 @@ export default function Page() {
               <div className="mt-6"><ImageCredit image={heroImage} /></div>
             </div>
           </div>
-          <div className="mt-12 grid grid-cols-2 gap-3 border-t border-[#fff9ee]/20 pt-5 md:grid-cols-4 md:gap-8">
-            <div><p className="font-serif text-3xl font-bold text-[#efd092]">{allOnsens.length}</p><p className="mt-1 text-xs text-[#d8cbbc]">紹介温泉・温泉地</p></div>
-            <div><p className="font-serif text-3xl font-bold text-[#efd092]">{allAreas.length}</p><p className="mt-1 text-xs text-[#d8cbbc]">エリアガイド</p></div>
-            <div><p className="font-serif text-3xl font-bold text-[#efd092]">7</p><p className="mt-1 text-xs text-[#d8cbbc]">都県を網羅</p></div>
-            <div><p className="font-serif text-3xl font-bold text-[#efd092]">公式</p><p className="mt-1 text-xs text-[#d8cbbc]">サイト・地図へ接続</p></div>
+          <div className="mt-12 border-t border-[#fff9ee]/20 pt-5">
+            <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-8">
+              <div><p className="font-serif text-3xl font-bold text-[#efd092]">{kantoOfficialOnsenAreaTotal}</p><p className="mt-1 text-xs text-[#d8cbbc]">関東地方の温泉地総数</p></div>
+              <div><p className="font-serif text-3xl font-bold text-[#efd092]">{allOnsens.length}</p><p className="mt-1 text-xs text-[#d8cbbc]">当サイト掲載数</p></div>
+              <div><p className="font-serif text-3xl font-bold text-[#efd092]">{kantoOfficialSourceTotal.toLocaleString()}</p><p className="mt-1 text-xs text-[#d8cbbc]">関東7都県の源泉総数</p></div>
+              <div><p className="font-serif text-3xl font-bold text-[#efd092]">{allAreas.length}</p><p className="mt-1 text-xs text-[#d8cbbc]">掲載エリアガイド</p></div>
+            </div>
+            <p className="mt-4 max-w-4xl text-xs leading-6 text-[#d8cbbc]">総数は環境省の「{kantoOfficialStats.definition}」を7都県分合算した公的統計です（{kantoOfficialStats.asOf}）。当サイトはこのうち{allOnsens.length}件を個別ページとして掲載しています。<a href={kantoOfficialStats.sourceUrl} target="_blank" rel="noopener noreferrer" className="ml-1 font-bold text-[#f4cf8b] underline underline-offset-2">統計の出典を確認</a></p>
           </div>
         </div>
       </section>
 
       <section className="bg-[#f6f0e5] py-16 md:py-24">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-[0.78fr_1.22fr] md:items-center md:px-8">
-          <div><p className="text-sm font-bold tracking-[0.24em] text-[#9a8062]">MAP FIRST</p><h2 className="mt-4 font-serif text-4xl font-bold leading-tight text-[#33291f] md:text-6xl">地図から、<br />行きたい湯を見つける</h2><p className="mt-5 text-base leading-8 text-[#66594d]">関東7都県の温泉を、位置関係と件数から直感的に探せます。気になる都県をクリックして、温泉地・施設・公式情報へ進んでください。</p><div className="mt-7 flex flex-wrap gap-3"><Link href="/onsens" className="portal-button-primary">全温泉を一覧で見る</Link><Link href="/areas" className="portal-button-secondary">エリアガイドを見る</Link></div></div>
+          <div><p className="text-sm font-bold tracking-[0.24em] text-[#9a8062]">MAP FIRST</p><h2 className="mt-4 font-serif text-4xl font-bold leading-tight text-[#33291f] md:text-6xl">地図から、<br />行きたい湯を見つける</h2><p className="mt-5 text-base leading-8 text-[#66594d]">関東7都県の実際の境界を描いた地図から、都県をクリックして温泉を探せます。数字は公的な温泉地総数ではなく、当サイトが個別ページで紹介している掲載数です。</p><div className="mt-7 flex flex-wrap gap-3"><Link href="/onsens" className="portal-button-primary">全温泉を一覧で見る</Link><Link href="/areas" className="portal-button-secondary">エリアガイドを見る</Link></div></div>
           <KantoMap counts={prefectureCounts} />
         </div>
       </section>

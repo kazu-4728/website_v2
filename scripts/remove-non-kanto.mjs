@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+const dataPath = new URL('../data/directory-site.json', import.meta.url);
+const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+const removedSlugs = new Set(['atami']);
+const before = data.onsens.length;
+data.onsens = data.onsens.filter((onsen) => !removedSlugs.has(onsen.slug) && onsen.prefecture !== '静岡県');
+data.areas = data.areas.filter((area) => area.id !== 'izu-atami');
+data.home.featuredAreaIds = data.home.featuredAreaIds.filter((id) => id !== 'izu-atami');
+data.home.featuredOnsenSlugs = data.home.featuredOnsenSlugs.filter((slug) => !removedSlugs.has(slug));
+for (const purpose of data.purposes) purpose.recommendedSlugs = purpose.recommendedSlugs.filter((slug) => !removedSlugs.has(slug));
+fs.writeFileSync(dataPath, `${JSON.stringify(data, null, 2)}\n`);
+console.log(`Removed ${before - data.onsens.length} non-Kanto records.`);
