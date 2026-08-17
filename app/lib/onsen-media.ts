@@ -1,5 +1,6 @@
 import imageManifestJson from '../../data/onsen-image-manifest.json';
 import type { Onsen, SiteImage } from './onsen-site';
+import { withPublicBasePath } from './public-image';
 
 export type ImageAssetStatus = 'approved' | 'needs-source' | 'permission-requested' | 'rejected' | 'retired';
 export type ImageAssetRole = 'hero' | 'gallery';
@@ -49,7 +50,7 @@ function toSiteImage(asset: Pick<ImageAsset, 'id' | 'localPath' | 'credit' | 'su
   }
 
   return {
-    src: asset.localPath,
+    src: withPublicBasePath(asset.localPath),
     alt: asset.subject,
     credit: asset.credit,
     license: asset.license,

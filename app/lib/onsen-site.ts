@@ -1,4 +1,5 @@
 import directoryDataJson from '../../data/directory-site.json';
+import { withPublicBasePath } from './public-image';
 
 export interface SiteImage {
   src: string;
@@ -124,7 +125,17 @@ export interface DirectorySiteData {
   articles: Article[];
 }
 
-const data = directoryDataJson as DirectorySiteData;
+const rawData = directoryDataJson as DirectorySiteData;
+const normalizeImage = (image: SiteImage): SiteImage => ({ ...image, src: withPublicBasePath(image.src) });
+const data: DirectorySiteData = {
+  ...rawData,
+  areas: rawData.areas.map((area) => ({ ...area, image: normalizeImage(area.image) })),
+  onsens: rawData.onsens.map((onsen) => ({
+    ...onsen,
+    image: normalizeImage(onsen.image),
+    gallery: onsen.gallery.map(normalizeImage),
+  })),
+};
 
 export const kantoOfficialStats = {
   asOf: '令和6年度（2025年3月末）',
