@@ -34,7 +34,7 @@
       "prefecture": "埼玉県",
       "officialOnsenPlaceCount": 31,
       "publishedOnsenPlaceCount": 16,
-      "publishedDayTripFacilityCount": 0,
+      "publishedDayTripFacilityCount": 7,
       "referenceDifference": 15
     },
     {
@@ -62,7 +62,7 @@
   "totals": {
     "officialOnsenPlaceCount": 387,
     "publishedOnsenPlaceCount": 127,
-    "publishedDayTripFacilityCount": 13,
+    "publishedDayTripFacilityCount": 20,
     "referenceDifference": 260
   },
   "entries": [
@@ -268,7 +268,7 @@
       "officialUrl": "https://kitaura-houraionsen.com/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "ikaho",
@@ -364,7 +364,7 @@
       "officialUrl": "https://nakanojo-kanko.jp/kuni/hotsprings/%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "minakami",
@@ -472,7 +472,7 @@
       "officialUrl": "https://gunma-kanko.jp/spots/766",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "katashina-kamata",
@@ -547,6 +547,42 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "ofuro-no-osama-wako",
+      "name": "おふろの王様 和光店",
+      "officialName": "おふろの王様 和光店",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.ousama2603.com/wako/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "saitama-seiganji-onsen",
+      "name": "さいたま清河寺温泉",
+      "officialName": "さいたま清河寺温泉",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.seiganji-onsen.com/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "sawarabi-no-yu",
+      "name": "さわらびの湯",
+      "officialName": "日帰り天然温泉 さわらびの湯",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://sawarabino-yu.jp/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
       "siteSlug": "ときがわ温泉",
       "name": "ときがわ温泉",
       "officialName": "ときがわ温泉 公式案内",
@@ -583,6 +619,18 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "mominoyu",
+      "name": "行田・湯本天然温泉 茂美の湯",
+      "officialName": "行田・湯本天然温泉 茂美の湯",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://mominoyu.com/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
       "siteSlug": "kuroyama-onsen",
       "name": "黒山温泉",
       "officialName": "埼玉県公式観光情報",
@@ -604,6 +652,18 @@
       "officialUrl": "https://navi.city.chichibu.lg.jp/",
       "verifiedAt": "2026-08-14",
       "hasDetailedDayTripGuide": false,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "tokorozawa-yurakunoyu",
+      "name": "所沢温泉 湯楽の里",
+      "officialName": "所沢温泉 湯楽の里",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.yurakirari.com/tokorozawa/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
       "imageStatus": "legacy-review-needed"
     },
     {
@@ -643,6 +703,18 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "sugito-utanoyu",
+      "name": "杉戸天然温泉 雅楽の湯",
+      "officialName": "杉戸天然温泉 雅楽の湯",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://utanoyu.com/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
       "siteSlug": "otaki-chichibu",
       "name": "大滝温泉",
       "officialName": "秩父観光協会",
@@ -664,6 +736,18 @@
       "officialUrl": "https://www.chichibuji.gr.jp/",
       "verifiedAt": "2026-04-26",
       "hasDetailedDayTripGuide": false,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "hyakukannon-onsen",
+      "name": "百観音温泉",
+      "officialName": "百観音温泉",
+      "prefecture": "埼玉県",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://100kannon.com/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
       "imageStatus": "legacy-review-needed"
     },
     {
@@ -1072,7 +1156,7 @@
       "officialUrl": "https://www.spa.or.jp/search_p/detail_p/?F_ID=120780&pg=40",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "9109里温泉",
@@ -1264,7 +1348,7 @@
       "officialUrl": "https://www.ousama2603.com/ooimachi/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "okutama",
@@ -1300,7 +1384,7 @@
       "officialUrl": "https://shinagawa1010.jp/list/togoshiginza/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "takaido-utsukushinoyu",
@@ -1312,7 +1396,7 @@
       "officialUrl": "http://utsukushi-yu.com/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "shikinejima",
@@ -1372,7 +1456,7 @@
       "officialUrl": "https://csa.gr.jp/contents/16442",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "数馬温泉",
@@ -1396,7 +1480,7 @@
       "officialUrl": "https://www.sayanoyudokoro.co.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "tam境-morinoirodori",
@@ -1408,7 +1492,7 @@
       "officialUrl": "https://morinoirodori.com/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "otaniyuta-myogin",
@@ -1420,7 +1504,7 @@
       "officialUrl": "https://dormy-hotels.com/spa/myoujin/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "oshima",
@@ -1444,7 +1528,7 @@
       "officialUrl": "https://www.heiwajima-onsen.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "spa-laqua",
@@ -1456,7 +1540,7 @@
       "officialUrl": "https://www.laqua.jp/spa/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "tokyo-somei-sakura",
@@ -1468,7 +1552,7 @@
       "officialUrl": "https://tokyosomeionsensakura.com/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "kodai-no-yu",
@@ -1480,7 +1564,7 @@
       "officialUrl": "http://kodainoyu.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "hachijojima",
@@ -1504,7 +1588,7 @@
       "officialUrl": "https://www.shimizuyu.com/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "toshimaen-niwanoyu",
@@ -1516,7 +1600,7 @@
       "officialUrl": "https://www.seibu-leisure.co.jp/niwanoyu/index.html",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "kazuma",
@@ -1696,7 +1780,7 @@
       "officialUrl": "https://www.nikko-kankou.org/spot/15",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
-      "imageStatus": "needs-source"
+      "imageStatus": "legacy-review-needed"
     },
     {
       "siteSlug": "nikko-yumoto",

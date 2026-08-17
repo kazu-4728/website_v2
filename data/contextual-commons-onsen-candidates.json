@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-08-17",
+  "source": "curated nearby-context ledger + Japanese Wikipedia coordinates + Wikimedia Commons geosearch",
+  "records": [
+    {
+      "slug": "ofuro-no-osama-wako",
+      "name": "おふろの王様 和光店",
+      "prefecture": "埼玉県",
+      "context": {
+        "place": "和光市",
+        "label": "和光市・おふろの王様周辺"
+      },
+      "location": {
+        "title": "和光市",
+        "coordinate": {
+          "lat": 35.78122,
+          "lon": 139.60569,
+          "primary": true,
+          "globe": "earth"
+        }
+      },
+      "candidates": [
+        {
+          "title": "At Tokyo 2024 140.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905335",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/At_Tokyo_2024_140.jpg/1920px-At_Tokyo_2024_140.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 518.6,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 141.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905337",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/At_Tokyo_2024_141.jpg/1920px-At_Tokyo_2024_141.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 518.9,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 142.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905341",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/At_Tokyo_2024_142.jpg/1920px-At_Tokyo_2024_142.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 528.6,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 122.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905295",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/At_Tokyo_2024_122.jpg/1920px-At_Tokyo_2024_122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 542.3,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 123.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905297",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/At_Tokyo_2024_123.jpg/1920px-At_Tokyo_2024_123.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 544.7,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 124.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905299",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/At_Tokyo_2024_124.jpg/1920px-At_Tokyo_2024_124.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 545.9,
+          "viable": true
+        },
+        {
+          "title": "和光市立本町小学校.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=140572238",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%E5%92%8C%E5%85%89%E5%B8%82%E7%AB%8B%E6%9C%AC%E7%94%BA%E5%B0%8F%E5%AD%A6%E6%A0%A1.jpg/1920px-%E5%92%8C%E5%85%89%E5%B8%82%E7%AB%8B%E6%9C%AC%E7%94%BA%E5%B0%8F%E5%AD%A6%E6%A0%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "credit": "Syced",
+          "distanceMeters": 564.8,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 143.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905343",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/At_Tokyo_2024_143.jpg/1920px-At_Tokyo_2024_143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 567,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 144.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905345",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/At_Tokyo_2024_144.jpg/1920px-At_Tokyo_2024_144.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 567.2,
+          "viable": true
+        },
+        {
+          "title": "埼玉和光教会・小羊幼稚園 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=60391428",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/%E5%9F%BC%E7%8E%89%E5%92%8C%E5%85%89%E6%95%99%E4%BC%9A%E3%83%BB%E5%B0%8F%E7%BE%8A%E5%B9%BC%E7%A8%9A%E5%9C%92_-_panoramio.jpg/1280px-%E5%9F%BC%E7%8E%89%E5%92%8C%E5%85%89%E6%95%99%E4%BC%9A%E3%83%BB%E5%B0%8F%E7%BE%8A%E5%B9%BC%E7%A8%9A%E5%9C%92_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "officeshema",
+          "distanceMeters": 572.3,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 145.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905346",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/At_Tokyo_2024_145.jpg/1920px-At_Tokyo_2024_145.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 573.2,
+          "viable": true
+        },
+        {
+          "title": "At Tokyo 2024 146.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=150905347",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/At_Tokyo_2024_146.jpg/1920px-At_Tokyo_2024_146.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "distanceMeters": 581.1,
+          "viable": true
+        }
+      ]
+    },
+    {
+      "slug": "mominoyu",
+      "name": "行田・湯本天然温泉 茂美の湯",
+      "prefecture": "埼玉県",
+      "context": {
+        "place": "行田市",
+        "label": "行田市・茂美の湯周辺"
+      },
+      "location": {
+        "title": "行田市",
+        "coordinate": {
+          "lat": 36.13889,
+          "lon": 139.45564,
+          "primary": true,
+          "globe": "earth"
+        }
+      },
+      "candidates": [
+        {
+          "title": "忍城の径 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=49381815",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%E5%BF%8D%E5%9F%8E%E3%81%AE%E5%BE%84_-_panoramio.jpg/1920px-%E5%BF%8D%E5%9F%8E%E3%81%AE%E5%BE%84_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "へなもん",
+          "distanceMeters": 110.6,
+          "viable": true
+        },
+        {
+          "title": "忍城 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=49831074",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/%E5%BF%8D%E5%9F%8E_-_panoramio.jpg/1920px-%E5%BF%8D%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "へなもん",
+          "distanceMeters": 154.3,
+          "viable": true
+        },
+        {
+          "title": "忍城 - panoramio (2).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=59061425",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%BF%8D%E5%9F%8E_-_panoramio_%282%29.jpg/1920px-%E5%BF%8D%E5%9F%8E_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "Yoshio Kohara",
+          "distanceMeters": 166.9,
+          "viable": true
+        },
+        {
+          "title": "Oshi Castle 忍城 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=59061444",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Oshi_Castle_%E5%BF%8D%E5%9F%8E_-_panoramio.jpg/1920px-Oshi_Castle_%E5%BF%8D%E5%9F%8E_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "Yoshio Kohara",
+          "distanceMeters": 168.7,
+          "viable": true
+        },
+        {
+          "title": "Oshi Jyo Castle - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=54320240",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Oshi_Jyo_Castle_-_panoramio.jpg/1920px-Oshi_Jyo_Castle_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "credit": "Koichi Shibata",
+          "distanceMeters": 216.4,
+          "viable": true
+        },
+        {
+          "title": "日本キリスト教団行田教会・ホザナ幼稚園 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=59237082",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/%E6%97%A5%E6%9C%AC%E3%82%AD%E3%83%AA%E3%82%B9%E3%83%88%E6%95%99%E5%9B%A3%E8%A1%8C%E7%94%B0%E6%95%99%E4%BC%9A%E3%83%BB%E3%83%9B%E3%82%B6%E3%83%8A%E5%B9%BC%E7%A8%9A%E5%9C%92_-_panoramio.jpg/1920px-%E6%97%A5%E6%9C%AC%E3%82%AD%E3%83%AA%E3%82%B9%E3%83%88%E6%95%99%E5%9B%A3%E8%A1%8C%E7%94%B0%E6%95%99%E4%BC%9A%E3%83%BB%E3%83%9B%E3%82%B6%E3%83%8A%E5%B9%BC%E7%A8%9A%E5%9C%92_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "officeshema",
+          "distanceMeters": 278.7,
+          "viable": true
+        },
+        {
+          "title": "Gyoda city Oshi Elementary School.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=191627150",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gyoda_city_Oshi_Elementary_School.jpg/1920px-Gyoda_city_Oshi_Elementary_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "credit": "Suikotei",
+          "distanceMeters": 318,
+          "viable": true
+        },
+        {
+          "title": "Japanese-national-railways-C57-26-20110729.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=15986760",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Japanese-national-railways-C57-26-20110729.jpg/1920px-Japanese-national-railways-C57-26-20110729.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "credit": "LERK",
+          "distanceMeters": 333.7,
+          "viable": true
+        },
+        {
+          "title": "お休み処 かねつき堂 行田市本丸 Feb 1, 2026.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=183188221",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/%E3%81%8A%E4%BC%91%E3%81%BF%E5%87%A6_%E3%81%8B%E3%81%AD%E3%81%A4%E3%81%8D%E5%A0%82_%E8%A1%8C%E7%94%B0%E5%B8%82%E6%9C%AC%E4%B8%B8_Feb_1%2C_2026.jpg/1920px-%E3%81%8A%E4%BC%91%E3%81%BF%E5%87%A6_%E3%81%8B%E3%81%AD%E3%81%A4%E3%81%8D%E5%A0%82_%E8%A1%8C%E7%94%B0%E5%B8%82%E6%9C%AC%E4%B8%B8_Feb_1%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "credit": "Nori Norisa",
+          "distanceMeters": 340.7,
+          "viable": true
+        },
+        {
+          "title": "Zellyfry 001.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=125146252",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Zellyfry_001.jpg/1920px-Zellyfry_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "credit": "Ocdp",
+          "distanceMeters": 350.7,
+          "viable": true
+        },
+        {
+          "title": "Zellyfry 002.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=125146253",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zellyfry_002.jpg/1920px-Zellyfry_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "credit": "Ocdp",
+          "distanceMeters": 350.7,
+          "viable": true
+        },
+        {
+          "title": "Gyōdashi Station, Chichibu Main Line - Feb 1, 2026.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=182898153",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gy%C5%8Ddashi_Station%2C_Chichibu_Main_Line_-_Feb_1%2C_2026.jpg/1920px-Gy%C5%8Ddashi_Station%2C_Chichibu_Main_Line_-_Feb_1%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "credit": "Nori Norisa",
+          "distanceMeters": 557.9,
+          "viable": true
+        }
+      ]
+    },
+    {
+      "slug": "tokorozawa-yurakunoyu",
+      "name": "所沢温泉 湯楽の里",
+      "prefecture": "埼玉県",
+      "context": {
+        "place": "所沢市",
+        "label": "所沢市・湯楽の里周辺"
+      },
+      "location": {
+        "title": "所沢市",
+        "coordinate": {
+          "lat": 35.7994,
+          "lon": 139.4689,
+          "primary": true,
+          "globe": "earth"
+        }
+      },
+      "candidates": [
+        {
+          "title": "View of Tokorozawa from Hachikokuyama.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=14375850",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/View_of_Tokorozawa_from_Hachikokuyama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "Public domain",
+          "credit": "Bryan MacKinnon ( Bryanmackinnon at en.wikipedia )",
+          "distanceMeters": 5,
+          "viable": true
+        },
+        {
+          "title": "Mobile Recycle Box Tokorozawa.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=12569355",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mobile_Recycle_Box_Tokorozawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "Public domain",
+          "credit": "tokorokoko",
+          "distanceMeters": 27,
+          "viable": true
+        },
+        {
+          "title": "所沢市役所裏 南西向き - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=53410395",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/%E6%89%80%E6%B2%A2%E5%B8%82%E5%BD%B9%E6%89%80%E8%A3%8F_%E5%8D%97%E8%A5%BF%E5%90%91%E3%81%8D_-_panoramio.jpg/1920px-%E6%89%80%E6%B2%A2%E5%B8%82%E5%BD%B9%E6%89%80%E8%A3%8F_%E5%8D%97%E8%A5%BF%E5%90%91%E3%81%8D_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "credit": "panotest001",
+          "distanceMeters": 63.3,
+          "viable": true
+        },
+        {
+          "title": "Tokorozawa City Library entrance.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=8154049",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Tokorozawa_City_Library_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "CC BY-SA 3.0",
+          "credit": "tokoro koko",
+          "distanceMeters": 84.2,
+          "viable": true
+        },
+        {
+          "title": "Tokorozawa City Library 20090722.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=8146291",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Tokorozawa_City_Library_20090722.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "Public domain",
+          "credit": "Tokorokoko",
+          "distanceMeters": 121.2,
+          "viable": true
+        },
+        {
+          "title": "JA8732 (30055220342).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=52170222",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/JA8732_%2830055220342%29.jpg/1920px-JA8732_%2830055220342%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 2.0",
+          "credit": "Alec Wilson from Khon Kaen, Thailand",
+          "distanceMeters": 174.4,
+          "viable": true
+        },
+        {
+          "title": "Retired YS11 Cockpit.JPG",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=201799",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Retired_YS11_Cockpit.JPG/1920px-Retired_YS11_Cockpit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "credit": "Haragayato",
+          "distanceMeters": 178.9,
+          "viable": true
+        },
+        {
+          "title": "Ys-11 2006-9-10-01.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=1211158",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ys-11_2006-9-10-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "Public domain",
+          "credit": "Tokoroten",
+          "distanceMeters": 178.9,
+          "viable": true
+        },
+        {
+          "title": "YS-11 special open day.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=8762609",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/YS-11_special_open_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "CC BY-SA 3.0",
+          "credit": "tokoro koko",
+          "distanceMeters": 178.9,
+          "viable": true
+        },
+        {
+          "title": "YS-11 at Tokorozawa 20260711.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=196713044",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/YS-11_at_Tokorozawa_20260711.jpg/1920px-YS-11_at_Tokorozawa_20260711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "credit": "Suikotei",
+          "distanceMeters": 190.8,
+          "viable": true
+        },
+        {
+          "title": "航空公園・YS-11 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=54350875",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%9C%92%E3%83%BBYS-11_-_panoramio.jpg/1920px-%E8%88%AA%E7%A9%BA%E5%85%AC%E5%9C%92%E3%83%BBYS-11_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "credit": "Adachi Masayuki",
+          "distanceMeters": 194.4,
+          "viable": true
+        },
+        {
+          "title": "Wara-wara fitness club Koku-koen Station.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/?curid=8696787",
+          "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Wara-wara_fitness_club_Koku-koen_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "license": "Public domain",
+          "credit": "tokorokoko",
+          "distanceMeters": 196.1,
+          "viable": true
+        }
+      ]
+    }
+  ]
+}

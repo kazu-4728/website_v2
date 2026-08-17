@@ -26,8 +26,7 @@ for (const asset of manifest.assets ?? []) {
 }
 
 for (const onsen of data.onsens) {
-  const areaImage = fallbackByArea.get(`${onsen.areaId}:${onsen.prefecture}`) ?? fallbackByArea.get(`${onsen.areaId}:*`);
-  if (!directHeroSlugs.has(onsen.slug) && !areaImage) errors.push(`${onsen.slug}: no approved direct or regional contextual image`);
+  if (!directHeroSlugs.has(onsen.slug)) errors.push(`${onsen.slug}: no approved individual or explicitly-nearby direct image`);
   const guide = guides.guides?.[onsen.slug];
   if (!guide) errors.push(`${onsen.slug}: missing detailed guide`);
   else {
@@ -48,4 +47,4 @@ if (errors.length) {
   errors.forEach((error) => console.error(`- ${error}`));
   process.exit(1);
 }
-console.log(`Portal completion validation passed: ${data.onsens.length} pages, ${manifest.areaFallbacks?.length ?? 0} regional fallbacks, ${links.uniqueUrlCount} checked links, 0 broken links.`);
+console.log(`Portal completion validation passed: ${data.onsens.length} pages, ${directHeroSlugs.size} approved individual images, ${links.uniqueUrlCount} checked links, 0 broken links.`);

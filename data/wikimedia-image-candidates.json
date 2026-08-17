@@ -4,114 +4,444 @@
   "source": "https://commons.wikimedia.org/w/api.php",
   "records": [
     {
-      "slug": "hakone-yumoto",
-      "name": "箱根湯本温泉",
-      "prefecture": "神奈川県",
+      "slug": "ひたちなか温泉",
+      "name": "ひたちなか温泉",
+      "prefecture": "茨城県",
+      "candidates": []
+    },
+    {
+      "slug": "isohara",
+      "name": "磯原温泉",
+      "prefecture": "茨城県",
       "candidates": [
         {
-          "title": "File:Yumoto onsen.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yumoto_onsen.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Yumoto_onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 964,
-          "height": 663,
+          "title": "File:NLC403-312001072371-107140 安仁縣誌 清同治8年(1869) 卷三.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001072371-107140_%E5%AE%89%E4%BB%81%E7%B8%A3%E8%AA%8C_%E6%B8%85%E5%90%8C%E6%B2%BB8%E5%B9%B4(1869)_%E5%8D%B7%E4%B8%89.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/NLC403-312001072371-107140_%E5%AE%89%E4%BB%81%E7%B8%A3%E8%AA%8C_%E6%B8%85%E5%90%8C%E6%B2%BB8%E5%B9%B4%281869%29_%E5%8D%B7%E4%B8%89.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
           "license": "Public domain",
           "usageTerms": "Public domain",
-          "credit": "http://www.kinouya.com",
-          "imageDescription": "箱根湯本温泉"
+          "credit": "张景垣",
+          "imageDescription": "卷之二 \n地輿志"
         },
         {
-          "title": "File:Hakone yumoto onsen.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hakone_yumoto_onsen.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hakone_yumoto_onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 3123,
-          "height": 2344,
-          "license": "CC BY-SA 4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "credit": "Quercus acuta",
-          "imageDescription": "箱根湯本温泉（神奈川県箱根町）"
-        },
-        {
-          "title": "File:Hakone yumoto onsen 2.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hakone_yumoto_onsen_2.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hakone_yumoto_onsen_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 3614,
-          "height": 2707,
-          "license": "CC BY-SA 4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "credit": "Quercus acuta",
-          "imageDescription": "桜の季節の箱根湯本温泉（神奈川県箱根町）"
-        },
-        {
-          "title": "File:Hakone Yumoto Onsen Hotel Nanpuso.JPG",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hakone_Yumoto_Onsen_Hotel_Nanpuso.JPG",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hakone_Yumoto_Onsen_Hotel_Nanpuso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2560,
-          "height": 1920,
+          "title": "File:NDL983165 土曜から日曜 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL983165_%E5%9C%9F%E6%9B%9C%E3%81%8B%E3%82%89%E6%97%A5%E6%9B%9C_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/NDL983165_%E5%9C%9F%E6%9B%9C%E3%81%8B%E3%82%89%E6%97%A5%E6%9B%9C_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4512,
+          "height": 4160,
           "license": "Public domain",
           "usageTerms": "Public domain",
-          "credit": "Abasaa",
-          "imageDescription": "Hakone Yumoto Onsen Hotel Nanpuso"
+          "credit": "松川, 二郎, 1887-",
+          "imageDescription": ""
         },
         {
-          "title": "File:Hakone Yumoto Onsen Tenseien.JPG",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hakone_Yumoto_Onsen_Tenseien.JPG",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Hakone_Yumoto_Onsen_Tenseien.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2560,
-          "height": 1920,
+          "title": "File:NDL983173 療養遊覧新海浜案内 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL983173_%E7%99%82%E9%A4%8A%E9%81%8A%E8%A6%A7%E6%96%B0%E6%B5%B7%E6%B5%9C%E6%A1%88%E5%86%85_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/NDL983173_%E7%99%82%E9%A4%8A%E9%81%8A%E8%A6%A7%E6%96%B0%E6%B5%B7%E6%B5%9C%E6%A1%88%E5%86%85_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4456,
+          "height": 4150,
           "license": "Public domain",
           "usageTerms": "Public domain",
-          "credit": "Abasaa",
-          "imageDescription": "Hakone Yumoto Onsen Tenseien"
+          "credit": "松川, 二郎, 1887-",
+          "imageDescription": ""
         },
         {
-          "title": "File:Yumoto (titel op object) De zeven heet water bronnen in Hakone (serietitel) Hakone Shichito zue (serietitel op object), RP-P-1962-372.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yumoto_(titel_op_object)_De_zeven_heet_water_bronnen_in_Hakone_(serietitel)_Hakone_Shichito_zue_(serietitel_op_object),_RP-P-1962-372.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Yumoto_%28titel_op_object%29_De_zeven_heet_water_bronnen_in_Hakone_%28serietitel%29_Hakone_Shichito_zue_%28serietitel_op_object%29%2C_RP-P-1962-372.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 6412,
-          "height": 4408,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Rijksmuseum",
-          "imageDescription": "IdentificatieTitel(s): Yumoto (titel op object) De zeven heetwaterbronnen in Hakone (serietitel) Hakone Shichito zue (serietitel op object)Objecttype: prent Objectnummer: RP-P-1962-372Catalogusreferentie: Jap Cat IV 71Opschriften / Merken: verzamelaarsmerk, linksonder, gestempeld: Lugt 2971Omschrijving: Gezicht op thee- en badhuizen langs een rivier  waarover verschillende loopbruggen; op de voorgrond reizigers; op de achtergrond bergen.VervaardigingVervaardiger: prentmaker: Hiroshige (I), Utagawa (vermeld op object) censor: Kinugasa Fusajiro (vermeld op object) censor: Murata Heiemon (vermeld op object) uitgever: Izumiya Ichibei (Kansendo) (vermeld op object)Plaats vervaardiging: prentmaker: Japan censor: Tokyo censor: Tokyo uitgever: TokyoDatering: 1852Fysieke kenmerken: kleurenhoutsnede; lijnblok in zwart met kleurblokkenMateriaal: papier Techniek: nishiki-e / kleurenhoutsnedeAfmetingen: vlad: h 245 mm, blad: b 370 mmVerwerving en rechtenVerwerving: aankoop 1962Copyright: Publiek domein"
+          "title": "File:NDL1080227 波浮の港 - 詩集 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1080227_%E6%B3%A2%E6%B5%AE%E3%81%AE%E6%B8%AF_-_%E8%A9%A9%E9%9B%86_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/NDL1080227_%E6%B3%A2%E6%B5%AE%E3%81%AE%E6%B8%AF_-_%E8%A9%A9%E9%9B%86_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6143,
+          "height": 4287,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "野口, 雨情, 1882-1945",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:磯原温泉としまや月浜の湯20260725-P1085952.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%E3%81%A8%E3%81%97%E3%81%BE%E3%82%84%E6%9C%88%E6%B5%9C%E3%81%AE%E6%B9%AF20260725-P1085952.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%E3%81%A8%E3%81%97%E3%81%BE%E3%82%84%E6%9C%88%E6%B5%9C%E3%81%AE%E6%B9%AF20260725-P1085952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1600,
+          "height": 1200,
+          "license": "CC BY 4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "credit": "くろふね",
+          "imageDescription": "磯原温泉としまや月浜の湯"
         }
       ]
     },
     {
-      "slug": "hakone-gora",
-      "name": "箱根強羅温泉",
-      "prefecture": "神奈川県",
+      "slug": "isohara-onsen",
+      "name": "磯原温泉",
+      "prefecture": "茨城県",
       "candidates": [
         {
-          "title": "File:早雲山と強羅温泉 - panoramio.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A9%E9%9B%B2%E5%B1%B1%E3%81%A8%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/%E6%97%A9%E9%9B%B2%E5%B1%B1%E3%81%A8%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "title": "File:NLC403-312001072371-107140 安仁縣誌 清同治8年(1869) 卷三.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001072371-107140_%E5%AE%89%E4%BB%81%E7%B8%A3%E8%AA%8C_%E6%B8%85%E5%90%8C%E6%B2%BB8%E5%B9%B4(1869)_%E5%8D%B7%E4%B8%89.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/NLC403-312001072371-107140_%E5%AE%89%E4%BB%81%E7%B8%A3%E8%AA%8C_%E6%B8%85%E5%90%8C%E6%B2%BB8%E5%B9%B4%281869%29_%E5%8D%B7%E4%B8%89.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "张景垣",
+          "imageDescription": "卷之二 \n地輿志"
+        },
+        {
+          "title": "File:NDL983165 土曜から日曜 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL983165_%E5%9C%9F%E6%9B%9C%E3%81%8B%E3%82%89%E6%97%A5%E6%9B%9C_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/NDL983165_%E5%9C%9F%E6%9B%9C%E3%81%8B%E3%82%89%E6%97%A5%E6%9B%9C_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4512,
+          "height": 4160,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "松川, 二郎, 1887-",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL983173 療養遊覧新海浜案内 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL983173_%E7%99%82%E9%A4%8A%E9%81%8A%E8%A6%A7%E6%96%B0%E6%B5%B7%E6%B5%9C%E6%A1%88%E5%86%85_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/NDL983173_%E7%99%82%E9%A4%8A%E9%81%8A%E8%A6%A7%E6%96%B0%E6%B5%B7%E6%B5%9C%E6%A1%88%E5%86%85_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4456,
+          "height": 4150,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "松川, 二郎, 1887-",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL1080227 波浮の港 - 詩集 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1080227_%E6%B3%A2%E6%B5%AE%E3%81%AE%E6%B8%AF_-_%E8%A9%A9%E9%9B%86_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/NDL1080227_%E6%B3%A2%E6%B5%AE%E3%81%AE%E6%B8%AF_-_%E8%A9%A9%E9%9B%86_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6143,
+          "height": 4287,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "野口, 雨情, 1882-1945",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:磯原温泉としまや月浜の湯20260725-P1085952.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%E3%81%A8%E3%81%97%E3%81%BE%E3%82%84%E6%9C%88%E6%B5%9C%E3%81%AE%E6%B9%AF20260725-P1085952.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E7%A3%AF%E5%8E%9F%E6%B8%A9%E6%B3%89%E3%81%A8%E3%81%97%E3%81%BE%E3%82%84%E6%9C%88%E6%B5%9C%E3%81%AE%E6%B9%AF20260725-P1085952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "width": 1600,
           "height": 1200,
+          "license": "CC BY 4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "credit": "くろふね",
+          "imageDescription": "磯原温泉としまや月浜の湯"
+        }
+      ]
+    },
+    {
+      "slug": "5浦温泉",
+      "name": "五浦温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:Izura Beach with rebuilt Rokkakudo in 2012.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Beach_with_rebuilt_Rokkakudo_in_2012.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Izura_Beach_with_rebuilt_Rokkakudo_in_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1600,
+          "height": 1200,
+          "license": "CC BY-SA 3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "credit": "Miyuki Meinaka",
+          "imageDescription": "This is a landscape of Izura Beach in 2012."
+        },
+        {
+          "title": "File:Gujin Tushu Jicheng, Volume 059 (1700-1725).djvu",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gujin_Tushu_Jicheng,_Volume_059_(1700-1725).djvu",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Gujin_Tushu_Jicheng%2C_Volume_059_%281700-1725%29.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3872,
+          "height": 6555,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "Chen Menglei et al.",
+          "imageDescription": "The Gujin Tushu Jicheng (simplified Chinese: 古今图书集成; traditional Chinese: 古今圖書集成; pinyin: Gǔjīn Túshū Jíchéng; Wade–Giles: Ku-chin t'u-shu chi-ch'eng; literally: \"Complete Collection of Illustrations and Writings from the Earliest to Current Times\"), also known as the Imperial Encyclopaedia, is a vast encyclopaedic work written in China during the reigns of the Qing Dynasty emperors Kangxi and Yongzheng. It was begun in 1700 and completed in 1725. The work was headed initially by scholar Chen Menglei (陳夢雷), and later by Jiang Tingxi."
+        },
+        {
+          "title": "File:CADAL06200047 浙江新志.djvu",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CADAL06200047_%E6%B5%99%E6%B1%9F%E6%96%B0%E5%BF%97.djvu",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/CADAL06200047_%E6%B5%99%E6%B1%9F%E6%96%B0%E5%BF%97.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3032,
+          "height": 4296,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "",
+          "imageDescription": ""
+        }
+      ]
+    },
+    {
+      "slug": "gozenyama-onsen",
+      "name": "御前山温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:NDL1120951 北陸・高山線地方.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1120951_%E5%8C%97%E9%99%B8%E3%83%BB%E9%AB%98%E5%B1%B1%E7%B7%9A%E5%9C%B0%E6%96%B9.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/NDL1120951_%E5%8C%97%E9%99%B8%E3%83%BB%E9%AB%98%E5%B1%B1%E7%B7%9A%E5%9C%B0%E6%96%B9.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5287,
+          "height": 4350,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "日本旅行協会",
+          "imageDescription": ""
+        }
+      ]
+    },
+    {
+      "slug": "城里温泉",
+      "name": "城里温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:CADAL04601807 澄城縣志：卷一至卷二.djvu",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CADAL04601807_%E6%BE%84%E5%9F%8E%E7%B8%A3%E5%BF%97%EF%BC%9A%E5%8D%B7%E4%B8%80%E8%87%B3%E5%8D%B7%E4%BA%8C.djvu",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/CADAL04601807_%E6%BE%84%E5%9F%8E%E7%B8%A3%E5%BF%97%EF%BC%9A%E5%8D%B7%E4%B8%80%E8%87%B3%E5%8D%B7%E4%BA%8C.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3648,
+          "height": 5674,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "（清）韓亞熊",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NLC403-312001074374-85985 城步縣誌 清同治6年(1867) 卷一.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001074374-85985_%E5%9F%8E%E6%AD%A5%E7%B8%A3%E8%AA%8C_%E6%B8%85%E5%90%8C%E6%B2%BB6%E5%B9%B4(1867)_%E5%8D%B7%E4%B8%80.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/NLC403-312001074374-85985_%E5%9F%8E%E6%AD%A5%E7%B8%A3%E8%AA%8C_%E6%B8%85%E5%90%8C%E6%B2%BB6%E5%B9%B4%281867%29_%E5%8D%B7%E4%B8%80.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "盛镒源",
+          "imageDescription": "卷之一 \n序 \n首士 \n目錄 \n凡例 \n天文志 \n地理志 \n都圖志 \n山川志 \n疆域 \n圖考 \n沿革表 \n水利"
+        },
+        {
+          "title": "File:NLC403-312001075832-108589 鳳城縣誌 民國10年(1921) 卷一十四.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001075832-108589_%E9%B3%B3%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B0%91%E5%9C%8B10%E5%B9%B4(1921)_%E5%8D%B7%E4%B8%80%E5%8D%81%E5%9B%9B.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/NLC403-312001075832-108589_%E9%B3%B3%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B0%91%E5%9C%8B10%E5%B9%B4%281921%29_%E5%8D%B7%E4%B8%80%E5%8D%81%E5%9B%9B.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "沈国冕",
+          "imageDescription": "第十三卷 \n古蹟 \n古城鎮 \n古驛站 \n古橋梁 \n祠廟 \n浮屠 \n古墓 \n碑額 \n摩崖 \n風景 \n古器"
+        },
+        {
+          "title": "File:NLC403-312001075832-108704 鳳城縣誌 民國10年(1921) 卷一十六.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001075832-108704_%E9%B3%B3%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B0%91%E5%9C%8B10%E5%B9%B4(1921)_%E5%8D%B7%E4%B8%80%E5%8D%81%E5%85%AD.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/NLC403-312001075832-108704_%E9%B3%B3%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B0%91%E5%9C%8B10%E5%B9%B4%281921%29_%E5%8D%B7%E4%B8%80%E5%8D%81%E5%85%AD.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "沈国冕",
+          "imageDescription": "第十五卷 \n雜志 \n變徵 \n物異 \n軼闻"
+        },
+        {
+          "title": "File:NLC403-312001072892-85233 應城縣誌 清雍正4年(1726) 卷七.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001072892-85233_%E6%87%89%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B8%85%E9%9B%8D%E6%AD%A34%E5%B9%B4(1726)_%E5%8D%B7%E4%B8%83.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/NLC403-312001072892-85233_%E6%87%89%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B8%85%E9%9B%8D%E6%AD%A34%E5%B9%B4%281726%29_%E5%8D%B7%E4%B8%83.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "李可寀",
+          "imageDescription": "第七卷 \n古蹟志 \n祠廟志 \n祥異志 \n雜志 \n勝槩 \n塜墓"
+        },
+        {
+          "title": "File:NLC403-312001072892-106942 應城縣誌 清雍正4年(1726) 卷一十一.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NLC403-312001072892-106942_%E6%87%89%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B8%85%E9%9B%8D%E6%AD%A34%E5%B9%B4(1726)_%E5%8D%B7%E4%B8%80%E5%8D%81%E4%B8%80.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/NLC403-312001072892-106942_%E6%87%89%E5%9F%8E%E7%B8%A3%E8%AA%8C_%E6%B8%85%E9%9B%8D%E6%AD%A34%E5%B9%B4%281726%29_%E5%8D%B7%E4%B8%80%E5%8D%81%E4%B8%80.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1754,
+          "height": 1239,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "李可寀",
+          "imageDescription": "第十一卷 \n藝文志上 \n記 \n傳 \n序 \n雜文"
+        }
+      ]
+    },
+    {
+      "slug": "常陸太田温泉",
+      "name": "常陸太田温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:Yokokawa Onsen, Ibaraki 01.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yokokawa_Onsen,_Ibaraki_01.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Yokokawa_Onsen%2C_Ibaraki_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3888,
+          "height": 2592,
           "license": "CC BY 3.0",
           "usageTerms": "Creative Commons Attribution 3.0",
-          "credit": "alonfloc",
-          "imageDescription": "早雲山と強羅温泉"
+          "credit": "Σ64",
+          "imageDescription": "Yokokawa Onsen, Hitachi-Ota City, Ibaraki Pref., Japan"
         },
         {
-          "title": "File:季の湯 雪月花 箱根強羅温泉 Apr 2, 2015.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2,_2015.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%AD%A3%E3%81%AE%E6%B9%AF_%E9%9B%AA%E6%9C%88%E8%8A%B1_%E7%AE%B1%E6%A0%B9%E5%BC%B7%E7%BE%85%E6%B8%A9%E6%B3%89_Apr_2%2C_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 7360,
-          "height": 4912,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Michael Casim",
-          "imageDescription": "Kinoyu Setsugetsuka, Hakone Gora Onsen, Kanagawa pref Japan."
+          "title": "File:Yokokawa Onsen, Ibaraki 02.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yokokawa_Onsen,_Ibaraki_02.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Yokokawa_Onsen%2C_Ibaraki_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3819,
+          "height": 2546,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Yokokawa Onsen, Hitachi-Ota City, Ibaraki Pref., Japan"
         },
         {
-          "title": "File:NDL959232 温泉巡礼記 part2.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL959232_%E6%B8%A9%E6%B3%89%E5%B7%A1%E7%A4%BC%E8%A8%98_part2.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NDL959232_%E6%B8%A9%E6%B3%89%E5%B7%A1%E7%A4%BC%E8%A8%98_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "title": "File:Yokokawa Onsen, Ibaraki 03.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yokokawa_Onsen,_Ibaraki_03.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Yokokawa_Onsen%2C_Ibaraki_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3764,
+          "height": 2510,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Yokokawa Onsen, Hitachi-Ota City, Ibaraki Pref., Japan"
+        },
+        {
+          "title": "File:Yokokawa Onsen, Ibaraki 04.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yokokawa_Onsen,_Ibaraki_04.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Yokokawa_Onsen%2C_Ibaraki_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3820,
+          "height": 2546,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Yokokawa Onsen, Hitachi-Ota City, Ibaraki Pref., Japan"
+        },
+        {
+          "title": "File:Yokokawa Onsen, Ibaraki 05.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yokokawa_Onsen,_Ibaraki_05.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yokokawa_Onsen%2C_Ibaraki_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 3679,
+          "height": 2452,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Yokokawa Onsen, Hitachi-Ota City, Ibaraki Pref., Japan"
+        }
+      ]
+    },
+    {
+      "slug": "fukuroda",
+      "name": "袋田温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:袋田温泉.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 600,
+          "height": 450,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "Ryokou_man",
+          "imageDescription": "渓流露天風呂"
+        },
+        {
+          "title": "File:NDL959086 山水小記 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL959086_%E5%B1%B1%E6%B0%B4%E5%B0%8F%E8%A8%98_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/NDL959086_%E5%B1%B1%E6%B0%B4%E5%B0%8F%E8%A8%98_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6350,
+          "height": 4512,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "田山, 花袋, 1871-1930",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL932388 地質調査所報告 第36号.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL932388_%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%BB%E6%89%80%E5%A0%B1%E5%91%8A_%E7%AC%AC36%E5%8F%B7.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/NDL932388_%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%BB%E6%89%80%E5%A0%B1%E5%91%8A_%E7%AC%AC36%E5%8F%B7.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6439,
+          "height": 4225,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "地質調査所 (商工省)",
+          "imageDescription": "第92号までの出版者: 農商務省"
+        }
+      ]
+    },
+    {
+      "slug": "fukuroda-onsen",
+      "name": "袋田温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:袋田温泉.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/%E8%A2%8B%E7%94%B0%E6%B8%A9%E6%B3%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 600,
+          "height": 450,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "Ryokou_man",
+          "imageDescription": "渓流露天風呂"
+        },
+        {
+          "title": "File:NDL959086 山水小記 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL959086_%E5%B1%B1%E6%B0%B4%E5%B0%8F%E8%A8%98_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/NDL959086_%E5%B1%B1%E6%B0%B4%E5%B0%8F%E8%A8%98_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6350,
+          "height": 4512,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "田山, 花袋, 1871-1930",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL932388 地質調査所報告 第36号.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL932388_%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%BB%E6%89%80%E5%A0%B1%E5%91%8A_%E7%AC%AC36%E5%8F%B7.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/NDL932388_%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%BB%E6%89%80%E5%A0%B1%E5%91%8A_%E7%AC%AC36%E5%8F%B7.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6439,
+          "height": 4225,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "地質調査所 (商工省)",
+          "imageDescription": "第92号までの出版者: 農商務省"
+        }
+      ]
+    },
+    {
+      "slug": "daigo",
+      "name": "大子温泉",
+      "prefecture": "茨城県",
+      "candidates": [
+        {
+          "title": "File:CADAL09008544 近世大發明家小傳.djvu",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CADAL09008544_%E8%BF%91%E4%B8%96%E5%A4%A7%E7%99%BC%E6%98%8E%E5%AE%B6%E5%B0%8F%E5%82%B3.djvu",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CADAL09008544_%E8%BF%91%E4%B8%96%E5%A4%A7%E7%99%BC%E6%98%8E%E5%AE%B6%E5%B0%8F%E5%82%B3.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 2700,
+          "height": 4140,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "Great inventors in modern age；北畠利男（著）；弹指居士",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL959232 温泉巡礼記 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL959232_%E6%B8%A9%E6%B3%89%E5%B7%A1%E7%A4%BC%E8%A8%98_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/NDL959232_%E6%B8%A9%E6%B3%89%E5%B7%A1%E7%A4%BC%E8%A8%98_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "width": 5712,
           "height": 4060,
           "license": "Public domain",
           "usageTerms": "Public domain",
           "credit": "松崎, 天民, 1878-1934",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL764346 箱根温泉案内 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL764346_%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E6%A1%88%E5%86%85_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/NDL764346_%E7%AE%B1%E6%A0%B9%E6%B8%A9%E6%B3%89%E6%A1%88%E5%86%85_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 7529,
+          "height": 4637,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "森田, 富太郎",
           "imageDescription": ""
         },
         {
@@ -137,455 +467,851 @@
           "imageDescription": ""
         },
         {
-          "title": "File:NDL764345 箱根案内 part1.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL764345_%E7%AE%B1%E6%A0%B9%E6%A1%88%E5%86%85_part1.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/NDL764345_%E7%AE%B1%E6%A0%B9%E6%A1%88%E5%86%85_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4658,
-          "height": 4314,
+          "title": "File:NDL763674 大筥根山 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763674_%E5%A4%A7%E7%AD%A5%E6%A0%B9%E5%B1%B1_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/NDL763674_%E5%A4%A7%E7%AD%A5%E6%A0%B9%E5%B1%B1_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4693,
+          "height": 4439,
           "license": "Public domain",
           "usageTerms": "Public domain",
-          "credit": "佐藤, 春平",
+          "credit": "井土, 霊山, 1855-1935",
           "imageDescription": ""
         }
       ]
     },
     {
-      "slug": "yugawara",
-      "name": "湯河原温泉",
-      "prefecture": "神奈川県",
-      "candidates": [
-        {
-          "title": "File:Dopponoyu01.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dopponoyu01.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dopponoyu01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2337,
-          "height": 1415,
-          "license": "CC BY-SA 3.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
-          "credit": "日:Muramasa,Muramasa",
-          "imageDescription": "神奈川県湯河原町にある「湯河原温泉万葉公園足湯施設独歩の湯」。"
-        },
-        {
-          "title": "File:NDL900340 湯河原温泉療養誌.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL900340_%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E7%99%82%E9%A4%8A%E8%AA%8C.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/NDL900340_%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E7%99%82%E9%A4%8A%E8%AA%8C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5656,
-          "height": 4331,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "牛山, 幽泉",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL11897828 癸卯三月 湯河原温泉客舎雑咏 其一.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL11897828_%E7%99%B8%E5%8D%AF%E4%B8%89%E6%9C%88_%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E5%AE%A2%E8%88%8E%E9%9B%91%E5%92%8F_%E5%85%B6%E4%B8%80.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/NDL11897828_%E7%99%B8%E5%8D%AF%E4%B8%89%E6%9C%88_%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E5%AE%A2%E8%88%8E%E9%9B%91%E5%92%8F_%E5%85%B6%E4%B8%80.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 14910,
-          "height": 8610,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "宮島誠一郎",
-          "imageDescription": "記述法: 墨書"
-        },
-        {
-          "title": "File:NDL925317 湯河原温泉療養法 - 附・湯河原温泉案内誌.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL925317_%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E7%99%82%E9%A4%8A%E6%B3%95_-_%E9%99%84%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E6%A1%88%E5%86%85%E8%AA%8C.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/NDL925317_%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E7%99%82%E9%A4%8A%E6%B3%95_-_%E9%99%84%E3%83%BB%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E6%A1%88%E5%86%85%E8%AA%8C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5537,
-          "height": 4387,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "井坂, 金衡",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL764344 箱根熱海温泉道案内.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL764344_%E7%AE%B1%E6%A0%B9%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%E9%81%93%E6%A1%88%E5%86%85.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/NDL764344_%E7%AE%B1%E6%A0%B9%E7%86%B1%E6%B5%B7%E6%B8%A9%E6%B3%89%E9%81%93%E6%A1%88%E5%86%85.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 6404,
-          "height": 3902,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "橋爪, 貫一, 1820-1884\n\n加藤, 清人",
-          "imageDescription": "装丁 : 和装"
-        },
-        {
-          "title": "File:NDL764438 相州土肥湯河原温泉誌.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL764438_%E7%9B%B8%E5%B7%9E%E5%9C%9F%E8%82%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E8%AA%8C.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/NDL764438_%E7%9B%B8%E5%B7%9E%E5%9C%9F%E8%82%A5%E6%B9%AF%E6%B2%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%E8%AA%8C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5933,
-          "height": 4475,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "加藤, 留蔵",
-          "imageDescription": ""
-        }
-      ]
+      "slug": "oarai",
+      "name": "大洗温泉",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "oarai: Commons API returned 429"
     },
     {
-      "slug": "kusatsu",
-      "name": "草津温泉",
-      "prefecture": "群馬県",
-      "candidates": [
-        {
-          "title": "File:251128 Onsen Tamago at Kusatsu Onsen.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:251128_Onsen_Tamago_at_Kusatsu_Onsen.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/251128_Onsen_Tamago_at_Kusatsu_Onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4032,
-          "height": 2268,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Aspere",
-          "imageDescription": "Onsen Tamago (Hot Spring Egg), in Kusatsu Onsen, Gunma, Japan"
-        },
-        {
-          "title": "File:251128 Onsen Town in Kusatsu 04.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:251128_Onsen_Town_in_Kusatsu_04.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/251128_Onsen_Town_in_Kusatsu_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4032,
-          "height": 2268,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Aspere",
-          "imageDescription": "Onsen Town in Kusatsu, Gunma, Japan"
-        },
-        {
-          "title": "File:251128 Onsen Town in Kusatsu 06.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:251128_Onsen_Town_in_Kusatsu_06.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/251128_Onsen_Town_in_Kusatsu_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4032,
-          "height": 2268,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Aspere",
-          "imageDescription": "Onsen Town in Kusatsu, Gunma, Japan"
-        },
-        {
-          "title": "File:251129 Onsen Town in Kusatsu 02.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:251129_Onsen_Town_in_Kusatsu_02.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/251129_Onsen_Town_in_Kusatsu_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2268,
-          "height": 4032,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Aspere",
-          "imageDescription": "Onsen Town in Kusatsu, Gunma, Japan"
-        },
-        {
-          "title": "File:251129 Onsen Town in Kusatsu 08.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:251129_Onsen_Town_in_Kusatsu_08.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/251129_Onsen_Town_in_Kusatsu_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4032,
-          "height": 2268,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Aspere",
-          "imageDescription": "Onsen Town in Kusatsu, Gunma, Japan"
-        },
-        {
-          "title": "File:251129 Onsen Town in Kusatsu 11.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:251129_Onsen_Town_in_Kusatsu_11.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/251129_Onsen_Town_in_Kusatsu_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4032,
-          "height": 2268,
-          "license": "CC0",
-          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
-          "credit": "Aspere",
-          "imageDescription": "Onsen Town in Kusatsu, Gunma, Japan"
-        }
-      ]
+      "slug": "tsukuba",
+      "name": "筑波山温泉",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "tsukuba: Commons API returned 429"
+    },
+    {
+      "slug": "tsukubasan-onsen",
+      "name": "筑波山温泉",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "tsukubasan-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "湯の網温泉",
+      "name": "湯の網温泉",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "湯の網温泉: Commons API returned 429"
+    },
+    {
+      "slug": "hirakata-onsen",
+      "name": "平潟港温泉",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "hirakata-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "kitaibaraki",
+      "name": "北茨城温泉郷",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "kitaibaraki: Commons API returned 429"
+    },
+    {
+      "slug": "kitaura-horai",
+      "name": "北浦宝来温泉",
+      "prefecture": "茨城県",
+      "candidates": [],
+      "error": "kitaura-horai: Commons API returned 429"
     },
     {
       "slug": "ikaho",
       "name": "伊香保温泉",
       "prefecture": "群馬県",
-      "candidates": [
-        {
-          "title": "File:Ikaho Onsen 01.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ikaho_Onsen_01.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ikaho_Onsen_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 1848,
-          "height": 1854,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Tomo",
-          "imageDescription": "伊香保温泉・千明仁泉亭からの眺望。"
-        },
-        {
-          "title": "File:NDL763587 伊香保温泉略説.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763587_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E7%95%A5%E8%AA%AC.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/NDL763587_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E7%95%A5%E8%AA%AC.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5277,
-          "height": 4750,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "吾妻, 健三郎, 1856-1912",
-          "imageDescription": "装丁 : 和装"
-        },
-        {
-          "title": "File:NDL763583 伊香保温泉場名所案内.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763583_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E5%A0%B4%E5%90%8D%E6%89%80%E6%A1%88%E5%86%85.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/NDL763583_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E5%A0%B4%E5%90%8D%E6%89%80%E6%A1%88%E5%86%85.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5462,
-          "height": 4222,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "江原, 熊太郎",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL763592 伊香保の温泉.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763592_%E4%BC%8A%E9%A6%99%E4%BF%9D%E3%81%AE%E6%B8%A9%E6%B3%89.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/NDL763592_%E4%BC%8A%E9%A6%99%E4%BF%9D%E3%81%AE%E6%B8%A9%E6%B3%89.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4727,
-          "height": 3487,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "木暮, 三郎",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL763585 伊香保温泉遊覧記.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763585_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E9%81%8A%E8%A6%A7%E8%A8%98.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/NDL763585_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E9%81%8A%E8%A6%A7%E8%A8%98.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5162,
-          "height": 3945,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "正田, 治兵",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL763588 伊香保温泉略説.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763588_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E7%95%A5%E8%AA%AC.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/NDL763588_%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89%E7%95%A5%E8%AA%AC.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 5725,
-          "height": 4062,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "吾妻, 健三郎, 1856-1912",
-          "imageDescription": ""
-        }
-      ]
+      "candidates": [],
+      "error": "ikaho: Commons API returned 429"
+    },
+    {
+      "slug": "isobe-onsen",
+      "name": "磯部温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "isobe-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "sarugakyo",
+      "name": "猿ヶ京温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "sarugakyo: Commons API returned 429"
+    },
+    {
+      "slug": "sarugakyo-onsen",
+      "name": "猿ヶ京温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "sarugakyo-onsen: Commons API returned 429"
     },
     {
       "slug": "shima",
       "name": "四万温泉",
       "prefecture": "群馬県",
+      "candidates": [],
+      "error": "shima: Commons API returned 429"
+    },
+    {
+      "slug": "小野上温泉",
+      "name": "小野上温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "小野上温泉: Commons API returned 429"
+    },
+    {
+      "slug": "上牧温泉",
+      "name": "上牧温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "上牧温泉: Commons API returned 429"
+    },
+    {
+      "slug": "shiriyaki",
+      "name": "尻焼温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "shiriyaki: Commons API returned 429"
+    },
+    {
+      "slug": "minakami",
+      "name": "水上温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "minakami: Commons API returned 429"
+    },
+    {
+      "slug": "赤城温泉郷",
+      "name": "赤城温泉郷",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "赤城温泉郷: Commons API returned 429"
+    },
+    {
+      "slug": "kawarayu-onsen",
+      "name": "川原湯温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "kawarayu-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "川古温泉",
+      "name": "川古温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "川古温泉: Commons API returned 429"
+    },
+    {
+      "slug": "倉渕温泉",
+      "name": "倉渕温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "倉渕温泉: Commons API returned 429"
+    },
+    {
+      "slug": "kusatsu",
+      "name": "草津温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "kusatsu: Commons API returned 429"
+    },
+    {
+      "slug": "沢渡温泉",
+      "name": "沢渡温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "沢渡温泉: Commons API returned 429"
+    },
+    {
+      "slug": "tanigawa-onsen",
+      "name": "谷川温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "tanigawa-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "yunokoya",
+      "name": "湯の小屋温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "yunokoya: Commons API returned 429"
+    },
+    {
+      "slug": "katashina-kamata",
+      "name": "片品・鎌田温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "katashina-kamata: Commons API returned 429"
+    },
+    {
+      "slug": "takaragawa-onsen",
+      "name": "宝川温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "takaragawa-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "hoshi",
+      "name": "法師温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "hoshi: Commons API returned 429"
+    },
+    {
+      "slug": "manza",
+      "name": "万座温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "manza: Commons API returned 429"
+    },
+    {
+      "slug": "oigami",
+      "name": "老神温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "oigami: Commons API returned 429"
+    },
+    {
+      "slug": "yabuzuka-onsen",
+      "name": "藪塚温泉",
+      "prefecture": "群馬県",
+      "candidates": [],
+      "error": "yabuzuka-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "ときがわ温泉",
+      "name": "ときがわ温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "ときがわ温泉: Commons API returned 429"
+    },
+    {
+      "slug": "越生温泉",
+      "name": "越生温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "越生温泉: Commons API returned 429"
+    },
+    {
+      "slug": "minano-onsen",
+      "name": "皆野温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "minano-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "kuroyama-onsen",
+      "name": "黒山温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "kuroyama-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "shibahara",
+      "name": "柴原温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "shibahara: Commons API returned 429"
+    },
+    {
+      "slug": "ogano",
+      "name": "小鹿野温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "ogano: Commons API returned 429"
+    },
+    {
+      "slug": "arakikosen",
+      "name": "新木鉱泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "arakikosen: Commons API returned 429"
+    },
+    {
+      "slug": "神川温泉",
+      "name": "神川温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "神川温泉: Commons API returned 429"
+    },
+    {
+      "slug": "otaki-chichibu",
+      "name": "大滝温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "otaki-chichibu: Commons API returned 429"
+    },
+    {
+      "slug": "chichibu",
+      "name": "秩父温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "chichibu: Commons API returned 429"
+    },
+    {
+      "slug": "bessho-chichibu",
+      "name": "別所温泉・秩父",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "bessho-chichibu: Commons API returned 429"
+    },
+    {
+      "slug": "naguri",
+      "name": "名栗温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "naguri: Commons API returned 429"
+    },
+    {
+      "slug": "naguri-onsen",
+      "name": "名栗温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "naguri-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "嵐山渓谷温泉",
+      "name": "嵐山渓谷温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "嵐山渓谷温泉: Commons API returned 429"
+    },
+    {
+      "slug": "ryokami",
+      "name": "両神温泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "ryokami: Commons API returned 429"
+    },
+    {
+      "slug": "wado",
+      "name": "和銅鉱泉",
+      "prefecture": "埼玉県",
+      "candidates": [],
+      "error": "wado: Commons API returned 429"
+    },
+    {
+      "slug": "atsugi-onsen",
+      "name": "あつぎ温泉郷",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "atsugi-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "芦ノ湖温泉",
+      "name": "芦ノ湖温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "芦ノ湖温泉: Commons API returned 429"
+    },
+    {
+      "slug": "伊勢原温泉",
+      "name": "伊勢原温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "伊勢原温泉: Commons API returned 429"
+    },
+    {
+      "slug": "okuyugawara",
+      "name": "奥湯河原温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "okuyugawara: Commons API returned 429"
+    },
+    {
+      "slug": "7沢温泉",
+      "name": "七沢温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "7沢温泉: Commons API returned 429"
+    },
+    {
+      "slug": "jinba",
+      "name": "陣馬の湯",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "jinba: Commons API returned 429"
+    },
+    {
+      "slug": "hakone-sengokuhara",
+      "name": "仙石原温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "hakone-sengokuhara: Commons API returned 429"
+    },
+    {
+      "slug": "nakagawa",
+      "name": "中川温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "nakagawa: Commons API returned 429"
+    },
+    {
+      "slug": "nakagawa-nishitanzawa",
+      "name": "中川温泉・西丹沢",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "nakagawa-nishitanzawa: Commons API returned 429"
+    },
+    {
+      "slug": "tsurumaki",
+      "name": "鶴巻温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "tsurumaki: Commons API returned 429"
+    },
+    {
+      "slug": "yugawara-makuyama",
+      "name": "湯河原・幕山温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "yugawara-makuyama: Commons API returned 429"
+    },
+    {
+      "slug": "yugawara",
+      "name": "湯河原温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "yugawara: Commons API returned 429"
+    },
+    {
+      "slug": "hakone-motohakone",
+      "name": "箱根芦之湯温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "hakone-motohakone: Commons API returned 429"
+    },
+    {
+      "slug": "hakone-miyanoshita",
+      "name": "箱根宮ノ下温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "hakone-miyanoshita: Commons API returned 429"
+    },
+    {
+      "slug": "箱根宮城野温泉",
+      "name": "箱根宮城野温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "箱根宮城野温泉: Commons API returned 429"
+    },
+    {
+      "slug": "hakone-gora",
+      "name": "箱根強羅温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "hakone-gora: Commons API returned 429"
+    },
+    {
+      "slug": "hakone-kowakudani",
+      "name": "箱根小涌谷温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "hakone-kowakudani: Commons API returned 429"
+    },
+    {
+      "slug": "hakone-yumoto",
+      "name": "箱根湯本温泉",
+      "prefecture": "神奈川県",
+      "candidates": [],
+      "error": "hakone-yumoto: Commons API returned 429"
+    },
+    {
+      "slug": "tateyama",
+      "name": "たてやま温泉郷",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "tateyama: Commons API returned 429"
+    },
+    {
+      "slug": "awa-kamogawa",
+      "name": "安房鴨川温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "awa-kamogawa: Commons API returned 429"
+    },
+    {
+      "slug": "uhrara-onsen",
+      "name": "鵜原温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "uhrara-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "kamogawa",
+      "name": "鴨川温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "kamogawa: Commons API returned 429"
+    },
+    {
+      "slug": "kamogawa-yumoto",
+      "name": "鴨川湯元温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "kamogawa-yumoto: Commons API returned 429"
+    },
+    {
+      "slug": "iwaionsen",
+      "name": "岩井温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "iwaionsen: Commons API returned 429"
+    },
+    {
+      "slug": "iwai-onsen",
+      "name": "岩井温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "iwai-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "kameyama",
+      "name": "亀山温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "kameyama: Commons API returned 429"
+    },
+    {
+      "slug": "亀山温泉郷",
+      "name": "亀山温泉郷",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "亀山温泉郷: Commons API returned 429"
+    },
+    {
+      "slug": "nokogiriyama-kanaya",
+      "name": "鋸山金谷温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "nokogiriyama-kanaya: Commons API returned 429"
+    },
+    {
+      "slug": "9109里温泉",
+      "name": "九十九里温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "9109里温泉: Commons API returned 429"
+    },
+    {
+      "slug": "inubosaki-onsen",
+      "name": "犬吠埼温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "inubosaki-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "inubosaki",
+      "name": "犬吠埼温泉郷",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "inubosaki: Commons API returned 429"
+    },
+    {
+      "slug": "御宿温泉",
+      "name": "御宿温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "御宿温泉: Commons API returned 429"
+    },
+    {
+      "slug": "katsuura",
+      "name": "勝浦温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "katsuura: Commons API returned 429"
+    },
+    {
+      "slug": "kominato",
+      "name": "小湊温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "kominato: Commons API returned 429"
+    },
+    {
+      "slug": "chikura",
+      "name": "千倉温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "chikura: Commons API returned 429"
+    },
+    {
+      "slug": "chikura-onsen",
+      "name": "千倉温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "chikura-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "長生温泉",
+      "name": "長生温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "長生温泉: Commons API returned 429"
+    },
+    {
+      "slug": "shirako",
+      "name": "白子温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "shirako: Commons API returned 429"
+    },
+    {
+      "slug": "shirasato-onsen",
+      "name": "白子温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "shirasato-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "shirahama",
+      "name": "白浜温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "shirahama: Commons API returned 429"
+    },
+    {
+      "slug": "shirahama-chiba",
+      "name": "白浜温泉・南房総",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "shirahama-chiba: Commons API returned 429"
+    },
+    {
+      "slug": "kisarazu",
+      "name": "木更津温泉",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "kisarazu: Commons API returned 429"
+    },
+    {
+      "slug": "yoro",
+      "name": "養老渓谷温泉郷",
+      "prefecture": "千葉県",
+      "candidates": [],
+      "error": "yoro: Commons API returned 429"
+    },
+    {
+      "slug": "ofuro-no-osama-oimachi",
+      "name": "おふろの王様 大井町店",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "ofuro-no-osama-oimachi: Commons API returned 429"
+    },
+    {
+      "slug": "okutama",
+      "name": "奥多摩温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "okutama: Commons API returned 429"
+    },
+    {
+      "slug": "岩蔵温泉",
+      "name": "岩蔵温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "岩蔵温泉: Commons API returned 429"
+    },
+    {
+      "slug": "togoshiginza-onsen",
+      "name": "戸越銀座温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "togoshiginza-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "takaido-utsukushinoyu",
+      "name": "高井戸天然温泉 美しの湯",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "takaido-utsukushinoyu: Commons API returned 429"
+    },
+    {
+      "slug": "shikinejima",
+      "name": "式根島温泉郷",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "shikinejima: Commons API returned 429"
+    },
+    {
+      "slug": "akigawa",
+      "name": "秋川渓谷温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "akigawa: Commons API returned 429"
+    },
+    {
+      "slug": "aki-gawa-keikoku",
+      "name": "秋川渓谷温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "aki-gawa-keikoku: Commons API returned 429"
+    },
+    {
+      "slug": "松乃温泉",
+      "name": "松乃温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "松乃温泉: Commons API returned 429"
+    },
+    {
+      "slug": "jindaiji-yumorinosato",
+      "name": "深大寺天然温泉 湯守の里",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "jindaiji-yumorinosato: Commons API returned 429"
+    },
+    {
+      "slug": "数馬温泉",
+      "name": "数馬温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "数馬温泉: Commons API returned 429"
+    },
+    {
+      "slug": "maeno-hara-onsen",
+      "name": "前野原温泉 さやの湯処",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "maeno-hara-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "tam境-morinoirodori",
+      "name": "多摩境天然温泉 森乃彩",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "tam境-morinoirodori: Commons API returned 429"
+    },
+    {
+      "slug": "otaniyuta-myogin",
+      "name": "大谷田温泉 明神の湯",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "otaniyuta-myogin: Commons API returned 429"
+    },
+    {
+      "slug": "oshima",
+      "name": "大島温泉郷",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "oshima: Commons API returned 429"
+    },
+    {
+      "slug": "heiwajima-onsen",
+      "name": "天然温泉平和島",
+      "prefecture": "東京都",
       "candidates": [
         {
-          "title": "File:中之条 四万温泉 2013 (9993471876).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E4%B9%8B%E6%9D%A1_%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_2013_(9993471876).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/%E4%B8%AD%E4%B9%8B%E6%9D%A1_%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_2013_%289993471876%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4000,
-          "height": 6000,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Kentaro Ohno from Tokyo, Japan",
-          "imageDescription": "Japan : Shima onsen, Nakanojō (Gunma prefecture)."
+          "title": "File:Heiwajima-Tokyo---2025-06-15 057.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Heiwajima-Tokyo---2025-06-15_057.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Heiwajima-Tokyo---2025-06-15_057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4096,
+          "height": 3072,
+          "license": "CC BY 4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "credit": "RuinDig/Yuki Uchida",
+          "imageDescription": "東京都大田区の平和島にあるBIGFUN平和島の2階にあるスーパー銭湯の「天然温泉平和島」のエントランス。自動受付機や注意事項の看板が並ぶ。"
         },
         {
-          "title": "File:四万温泉 中之条 2013 (9993444756).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_%E4%B8%AD%E4%B9%8B%E6%9D%A1_2013_(9993444756).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_%E4%B8%AD%E4%B9%8B%E6%9D%A1_2013_%289993444756%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 6000,
-          "height": 4000,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Kentaro Ohno from Tokyo, Japan",
-          "imageDescription": "Japan : Shima onsen, Nakanojō (Gunma prefecture)."
+          "title": "File:Heiwajima-Tokyo---2025-06-15 056.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Heiwajima-Tokyo---2025-06-15_056.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Heiwajima-Tokyo---2025-06-15_056.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4096,
+          "height": 3072,
+          "license": "CC BY 4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "credit": "RuinDig/Yuki Uchida",
+          "imageDescription": "東京都大田区の平和島にあるBIGFUN平和島の2階にあるスーパー銭湯の「天然温泉平和島」の入口"
         },
         {
-          "title": "File:四万温泉 中之条 2013 (9993494075).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_%E4%B8%AD%E4%B9%8B%E6%9D%A1_2013_(9993494075).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89_%E4%B8%AD%E4%B9%8B%E6%9D%A1_2013_%289993494075%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 6000,
-          "height": 4000,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Kentaro Ohno from Tokyo, Japan",
-          "imageDescription": "Japan : Shima onsen, Nakanojō (Gunma prefecture)."
-        },
+          "title": "File:Heiwajima-Tokyo---2025-06-15 058.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Heiwajima-Tokyo---2025-06-15_058.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Heiwajima-Tokyo---2025-06-15_058.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4096,
+          "height": 3072,
+          "license": "CC0",
+          "usageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "credit": "RuinDig/Yuki Uchida",
+          "imageDescription": "東京都大田区の平和島にある天然温泉平和島の入場料金の案内"
+        }
+      ]
+    },
+    {
+      "slug": "spa-laqua",
+      "name": "東京ドーム天然温泉 Spa LaQua",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "spa-laqua: Commons API returned 429"
+    },
+    {
+      "slug": "tokyo-somei-sakura",
+      "name": "東京染井温泉 SAKURA",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "tokyo-somei-sakura: Commons API returned 429"
+    },
+    {
+      "slug": "kodai-no-yu",
+      "name": "東京天然温泉 古代の湯",
+      "prefecture": "東京都",
+      "candidates": []
+    },
+    {
+      "slug": "hachijojima",
+      "name": "八丈島温泉郷",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "hachijojima: Commons API returned 429"
+    },
+    {
+      "slug": "musashikoyama-shimizuyu",
+      "name": "武蔵小山温泉 清水湯",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "musashikoyama-shimizuyu: Commons API returned 429"
+    },
+    {
+      "slug": "toshimaen-niwanoyu",
+      "name": "豊島園 庭の湯",
+      "prefecture": "東京都",
+      "candidates": [
         {
-          "title": "File:Shima Onsen Gunma 01.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shima_Onsen_Gunma_01.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shima_Onsen_Gunma_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 480,
-          "height": 640,
-          "license": "CC BY-SA 3.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
-          "credit": "Own work",
-          "imageDescription": "群馬県 ja:四万温泉 飲泉場 '05年07月17日 投稿者撮影"
-        },
-        {
-          "title": "File:NDL763894 四万温泉誌.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL763894_%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E8%AA%8C.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/NDL763894_%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E8%AA%8C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 7618,
-          "height": 4600,
+          "title": "File:Toshimaen Niwa-no-yu.JPG",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Toshimaen_Niwa-no-yu.JPG",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Toshimaen_Niwa-no-yu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 2048,
+          "height": 1536,
           "license": "Public domain",
           "usageTerms": "Public domain",
-          "credit": "石倉, 重継, 1875-1938",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:四万温泉積善館のトンネル.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/%E5%9B%9B%E4%B8%87%E6%B8%A9%E6%B3%89%E7%A9%8D%E5%96%84%E9%A4%A8%E3%81%AE%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 3072,
-          "height": 4080,
-          "license": "CC BY-SA 4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "credit": "Komoro no kaze",
-          "imageDescription": "四万温泉積善館の本館と新館をつなぐトンネル"
+          "credit": "Abasaa",
+          "imageDescription": "Toshimaen Niwa-no-yu"
         }
       ]
     },
     {
-      "slug": "kinugawa",
-      "name": "鬼怒川温泉",
-      "prefecture": "栃木県",
-      "candidates": [
-        {
-          "title": "File:Kinugawa Onsen 03.JPG",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kinugawa_Onsen_03.JPG",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Kinugawa_Onsen_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 3072,
-          "height": 2304,
-          "license": "CC BY-SA 3.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
-          "credit": "掬茶",
-          "imageDescription": "鬼怒川温泉、鬼怒川ふれあい橋より上流方"
-        },
-        {
-          "title": "File:Asaya Hotel Oct. 2020 01.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Asaya_Hotel_Oct._2020_01.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Asaya_Hotel_Oct._2020_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4608,
-          "height": 3456,
-          "license": "CC BY-SA 4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "credit": "Miyuki Meinaka",
-          "imageDescription": "This is Asaya hotel in Kinugawa spa, Nikko, Tochigi, Japan."
-        },
-        {
-          "title": "File:Asaya Hotel Oct. 2020 02.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Asaya_Hotel_Oct._2020_02.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Asaya_Hotel_Oct._2020_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4608,
-          "height": 3456,
-          "license": "CC BY-SA 4.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
-          "credit": "Miyuki Meinaka",
-          "imageDescription": "This is Asaya hotel in Kinugawa spa, Nikko, Tochigi, Japan."
-        },
-        {
-          "title": "File:Kinugawa Onsen, Nikko - Nov 5, 2016 (1).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kinugawa_Onsen,_Nikko_-_Nov_5,_2016_(1).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Kinugawa_Onsen%2C_Nikko_-_Nov_5%2C_2016_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2560,
-          "height": 1920,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Kzaral",
-          "imageDescription": "Kinugawa Onsen, Nikko, Tochigi prefecture, Japan"
-        },
-        {
-          "title": "File:Kinugawa Onsen, Nikko - Nov 5, 2016 (2).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kinugawa_Onsen,_Nikko_-_Nov_5,_2016_(2).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kinugawa_Onsen%2C_Nikko_-_Nov_5%2C_2016_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2560,
-          "height": 1920,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Kzaral",
-          "imageDescription": "Kinugawa Onsen, Nikko, Tochigi prefecture, Japan"
-        },
-        {
-          "title": "File:Kinugawa Onsen, Nikko - Nov 5, 2016 (3).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kinugawa_Onsen,_Nikko_-_Nov_5,_2016_(3).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kinugawa_Onsen%2C_Nikko_-_Nov_5%2C_2016_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 2560,
-          "height": 1920,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Kzaral",
-          "imageDescription": "Kinugawa Onsen, Nikko, Tochigi prefecture, Japan"
-        }
-      ]
+      "slug": "kazuma",
+      "name": "檜原温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "kazuma: Commons API returned 429"
     },
     {
-      "slug": "nikko-yumoto",
-      "name": "日光湯元温泉",
-      "prefecture": "栃木県",
-      "candidates": [
-        {
-          "title": "File:Nikkō Yumoto Onsen 03.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nikk%C5%8D_Yumoto_Onsen_03.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Nikk%C5%8D_Yumoto_Onsen_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4000,
-          "height": 3000,
-          "license": "CC BY-SA 2.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 2.0",
-          "credit": "Hardo Müller from Southampton, United Kingdom",
-          "imageDescription": "Hot springs in Nikkō Yumoto Onsen"
-        },
-        {
-          "title": "File:日光湯元温泉 - panoramio.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4752,
-          "height": 3168,
-          "license": "CC BY 3.0",
-          "usageTerms": "Creative Commons Attribution 3.0",
-          "credit": "くろふね",
-          "imageDescription": "日光湯元温泉"
-        },
-        {
-          "title": "File:日光湯元温泉 - panoramio - くろふね.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4752,
-          "height": 3168,
-          "license": "CC BY 3.0",
-          "usageTerms": "Creative Commons Attribution 3.0",
-          "credit": "くろふね",
-          "imageDescription": "日光湯元温泉"
-        },
-        {
-          "title": "File:日光湯元温泉 - panoramio - くろふね (2).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD_(2).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4752,
-          "height": 3168,
-          "license": "CC BY 3.0",
-          "usageTerms": "Creative Commons Attribution 3.0",
-          "credit": "くろふね",
-          "imageDescription": "日光湯元温泉"
-        },
-        {
-          "title": "File:日光湯元温泉 - panoramio - くろふね (3).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD_(3).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4752,
-          "height": 3168,
-          "license": "CC BY 3.0",
-          "usageTerms": "Creative Commons Attribution 3.0",
-          "credit": "くろふね",
-          "imageDescription": "日光湯元温泉"
-        },
-        {
-          "title": "File:日光湯元温泉 - panoramio - くろふね (6).jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD_(6).jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/%E6%97%A5%E5%85%89%E6%B9%AF%E5%85%83%E6%B8%A9%E6%B3%89_-_panoramio_-_%E3%81%8F%E3%82%8D%E3%81%B5%E3%81%AD_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 4752,
-          "height": 3168,
-          "license": "CC BY 3.0",
-          "usageTerms": "Creative Commons Attribution 3.0",
-          "credit": "くろふね",
-          "imageDescription": "日光湯元温泉"
-        }
-      ]
+      "slug": "hinohara-onsen",
+      "name": "檜原温泉",
+      "prefecture": "東京都",
+      "candidates": [],
+      "error": "hinohara-onsen: Commons API returned 429"
     },
     {
       "slug": "shiobara",
@@ -661,31 +1387,135 @@
       ]
     },
     {
-      "slug": "chichibu",
-      "name": "秩父温泉",
-      "prefecture": "埼玉県",
+      "slug": "kitsuregawa-onsen",
+      "name": "喜連川温泉",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "kitsuregawa-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "kinugawa",
+      "name": "鬼怒川温泉",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "kinugawa: Commons API returned 429"
+    },
+    {
+      "slug": "佐野やすらぎの湯",
+      "name": "佐野やすらぎの湯",
+      "prefecture": "栃木県",
+      "candidates": []
+    },
+    {
+      "slug": "kawaji-onsen",
+      "name": "川治温泉",
+      "prefecture": "栃木県",
       "candidates": [
         {
-          "title": "File:赤谷温泉・秩父夜祭を模った宿泊施設小鹿荘 - panoramio.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E8%B5%A4%E8%B0%B7%E6%B8%A9%E6%B3%89%E3%83%BB%E7%A7%A9%E7%88%B6%E5%A4%9C%E7%A5%AD%E3%82%92%E6%A8%A1%E3%81%A3%E3%81%9F%E5%AE%BF%E6%B3%8A%E6%96%BD%E8%A8%AD%E5%B0%8F%E9%B9%BF%E8%8D%98_-_panoramio.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%E8%B5%A4%E8%B0%B7%E6%B8%A9%E6%B3%89%E3%83%BB%E7%A7%A9%E7%88%B6%E5%A4%9C%E7%A5%AD%E3%82%92%E6%A8%A1%E3%81%A3%E3%81%9F%E5%AE%BF%E6%B3%8A%E6%96%BD%E8%A8%AD%E5%B0%8F%E9%B9%BF%E8%8D%98_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 1133,
-          "height": 850,
-          "license": "CC BY-SA 3.0",
-          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
-          "credit": "mapplefan8",
-          "imageDescription": "赤谷温泉・秩父夜祭を模った宿泊施設小鹿荘"
+          "title": "File:Kawaji Onsen -Kashiwaya.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kawaji_Onsen_-Kashiwaya.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Kawaji_Onsen_-Kashiwaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1766,
+          "height": 1172,
+          "license": "CC BY-SA 2.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 2.0",
+          "credit": "Gene Jackson from Brooklyn, United States",
+          "imageDescription": "Kashiwaya ryokan of Kawaji Onsen."
         },
         {
-          "title": "File:秩父温泉 満願の湯 埼玉県秩父郡皆野町 Oct 15, 2005.jpg",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89_%E6%BA%80%E9%A1%98%E3%81%AE%E6%B9%AF_%E5%9F%BC%E7%8E%89%E7%9C%8C%E7%A7%A9%E7%88%B6%E9%83%A1%E7%9A%86%E9%87%8E%E7%94%BA_Oct_15,_2005.jpg",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/%E7%A7%A9%E7%88%B6%E6%B8%A9%E6%B3%89_%E6%BA%80%E9%A1%98%E3%81%AE%E6%B9%AF_%E5%9F%BC%E7%8E%89%E7%9C%8C%E7%A7%A9%E7%88%B6%E9%83%A1%E7%9A%86%E9%87%8E%E7%94%BA_Oct_15%2C_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 1600,
-          "height": 1200,
-          "license": "CC BY 2.0",
-          "usageTerms": "Creative Commons Attribution 2.0",
-          "credit": "Puffy  Cameron",
-          "imageDescription": "Mangan-no-yu, Chihibu Hot spring, Minano, Sairama pref Japan."
+          "title": "File:Kawaji Hotspring01.JPG",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kawaji_Hotspring01.JPG",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kawaji_Hotspring01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 2048,
+          "height": 1536,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "妖精書士 (talk)",
+          "imageDescription": "Kawaji_Hotspring (Nikko, Tochigi, Japan)"
+        },
+        {
+          "title": "File:川治温泉 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 2560,
+          "height": 1920,
+          "license": "CC BY-SA 3.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 3.0",
+          "credit": "ヨー",
+          "imageDescription": "川治温泉"
+        },
+        {
+          "title": "File:Stroke stone, Kawaji Onsen.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Stroke_stone,_Kawaji_Onsen.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Stroke_stone%2C_Kawaji_Onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4608,
+          "height": 3456,
+          "license": "CC BY-SA 4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "credit": "Miyuki Meinaka",
+          "imageDescription": "This is Onade-Ishi or Stroke Stone in Kawaji Onsen, Nikko, Tochigi, Japan."
+        },
+        {
+          "title": "File:Kanagata Kawaji So.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kanagata_Kawaji_So.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Kanagata_Kawaji_So.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4608,
+          "height": 3456,
+          "license": "CC BY-SA 4.0",
+          "usageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "credit": "Miyuki Meinaka",
+          "imageDescription": "This is Kanagata Kawaji So, a hotel in Kawaji Onsen, Nikko, Tochigi, Japan."
+        },
+        {
+          "title": "File:NDL1105654 泉源問題を通じ川治温泉の観念及価値を論ず.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1105654_%E6%B3%89%E6%BA%90%E5%95%8F%E9%A1%8C%E3%82%92%E9%80%9A%E3%81%98%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%E3%81%AE%E8%A6%B3%E5%BF%B5%E5%8F%8A%E4%BE%A1%E5%80%A4%E3%82%92%E8%AB%96%E3%81%9A.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/NDL1105654_%E6%B3%89%E6%BA%90%E5%95%8F%E9%A1%8C%E3%82%92%E9%80%9A%E3%81%98%E5%B7%9D%E6%B2%BB%E6%B8%A9%E6%B3%89%E3%81%AE%E8%A6%B3%E5%BF%B5%E5%8F%8A%E4%BE%A1%E5%80%A4%E3%82%92%E8%AB%96%E3%81%9A.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5791,
+          "height": 4147,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "川治温泉研究所",
+          "imageDescription": "謄写版"
+        }
+      ]
+    },
+    {
+      "slug": "kawamata-onsen",
+      "name": "川俣温泉",
+      "prefecture": "栃木県",
+      "candidates": [
+        {
+          "title": "File:Kawamata Onsen Geyser 2003.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kawamata_Onsen_Geyser_2003.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Kawamata_Onsen_Geyser_2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1920,
+          "height": 1440,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "(関西地方)",
+          "imageDescription": "川俣温泉間欠泉。間欠泉展望台より。"
+        },
+        {
+          "title": "File:Kawamata Onsen Geyser 2003 2.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kawamata_Onsen_Geyser_2003_2.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kawamata_Onsen_Geyser_2003_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1488,
+          "height": 1984,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "(関西地方)",
+          "imageDescription": "川俣温泉間欠泉"
+        },
+        {
+          "title": "File:鬼怒川(川俣温泉付近) 20130522 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E9%AC%BC%E6%80%92%E5%B7%9D(%E5%B7%9D%E4%BF%A3%E6%B8%A9%E6%B3%89%E4%BB%98%E8%BF%91)_20130522_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%E9%AC%BC%E6%80%92%E5%B7%9D%28%E5%B7%9D%E4%BF%A3%E6%B8%A9%E6%B3%89%E4%BB%98%E8%BF%91%29_20130522_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 2736,
+          "height": 1824,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "690 Noda",
+          "imageDescription": "鬼怒川(川俣温泉付近) 20130522"
         },
         {
           "title": "File:NDL964454 温泉周遊 東の巻 part2.pdf",
@@ -699,848 +1529,192 @@
           "imageDescription": ""
         },
         {
-          "title": "File:NDL977512 療養遊覧山へ海へ温泉へ part1.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL977512_%E7%99%82%E9%A4%8A%E9%81%8A%E8%A6%A7%E5%B1%B1%E3%81%B8%E6%B5%B7%E3%81%B8%E6%B8%A9%E6%B3%89%E3%81%B8_part1.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/NDL977512_%E7%99%82%E9%A4%8A%E9%81%8A%E8%A6%A7%E5%B1%B1%E3%81%B8%E6%B5%B7%E3%81%B8%E6%B8%A9%E6%B3%89%E3%81%B8_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 6227,
-          "height": 4020,
+          "title": "File:NDL1026623 自然及文化上より観たる岩船郡 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1026623_%E8%87%AA%E7%84%B6%E5%8F%8A%E6%96%87%E5%8C%96%E4%B8%8A%E3%82%88%E3%82%8A%E8%A6%B3%E3%81%9F%E3%82%8B%E5%B2%A9%E8%88%B9%E9%83%A1_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/NDL1026623_%E8%87%AA%E7%84%B6%E5%8F%8A%E6%96%87%E5%8C%96%E4%B8%8A%E3%82%88%E3%82%8A%E8%A6%B3%E3%81%9F%E3%82%8B%E5%B2%A9%E8%88%B9%E9%83%A1_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6345,
+          "height": 4316,
           "license": "Public domain",
           "usageTerms": "Public domain",
-          "credit": "松川, 二郎, 1887-",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL1171545 峡谷と温泉 part1.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1171545_%E5%B3%A1%E8%B0%B7%E3%81%A8%E6%B8%A9%E6%B3%89_part1.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/NDL1171545_%E5%B3%A1%E8%B0%B7%E3%81%A8%E6%B8%A9%E6%B3%89_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 7289,
-          "height": 5168,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "大泉, 黒石, 1893-1957",
-          "imageDescription": ""
-        },
-        {
-          "title": "File:NDL1178872 山と峡谷 - 附・温泉 part1.pdf",
-          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1178872_%E5%B1%B1%E3%81%A8%E5%B3%A1%E8%B0%B7_-_%E9%99%84%E3%83%BB%E6%B8%A9%E6%B3%89_part1.pdf",
-          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/NDL1178872_%E5%B1%B1%E3%81%A8%E5%B3%A1%E8%B0%B7_-_%E9%99%84%E3%83%BB%E6%B8%A9%E6%B3%89_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "width": 7202,
-          "height": 5218,
-          "license": "Public domain",
-          "usageTerms": "Public domain",
-          "credit": "大泉, 黒石, 1893-1957",
+          "credit": "池上, 鋼他郎",
           "imageDescription": ""
         }
       ]
     },
     {
-      "slug": "oshima",
-      "name": "大島温泉郷",
-      "prefecture": "東京都",
-      "candidates": []
-    },
-    {
-      "slug": "shikinejima",
-      "name": "式根島温泉郷",
-      "prefecture": "東京都",
-      "candidates": []
-    },
-    {
-      "slug": "hachijojima",
-      "name": "八丈島温泉郷",
-      "prefecture": "東京都",
-      "candidates": []
-    },
-    {
-      "slug": "tsurumaki",
-      "name": "鶴巻温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "tsurumaki: Commons API returned 429"
-    },
-    {
-      "slug": "nakagawa",
-      "name": "中川温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "nakagawa: Commons API returned 429"
-    },
-    {
-      "slug": "atsugi-onsen",
-      "name": "あつぎ温泉郷",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "atsugi-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "jinba",
-      "name": "陣馬の湯",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "jinba: Commons API returned 429"
-    },
-    {
-      "slug": "okuyugawara",
-      "name": "奥湯河原温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "okuyugawara: Commons API returned 429"
-    },
-    {
-      "slug": "hakone-sengokuhara",
-      "name": "仙石原温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "hakone-sengokuhara: Commons API returned 429"
-    },
-    {
-      "slug": "tateyama",
-      "name": "たてやま温泉郷",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "tateyama: Commons API returned 429"
-    },
-    {
-      "slug": "shirahama",
-      "name": "白浜温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "shirahama: Commons API returned 429"
-    },
-    {
-      "slug": "chikura",
-      "name": "千倉温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "chikura: Commons API returned 429"
-    },
-    {
-      "slug": "iwaionsen",
-      "name": "岩井温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "iwaionsen: Commons API returned 429"
-    },
-    {
-      "slug": "kamogawa",
-      "name": "鴨川温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "kamogawa: Commons API returned 429"
-    },
-    {
-      "slug": "kominato",
-      "name": "小湊温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "kominato: Commons API returned 429"
-    },
-    {
-      "slug": "katsuura",
-      "name": "勝浦温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "katsuura: Commons API returned 429"
-    },
-    {
-      "slug": "shirako",
-      "name": "白子温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "shirako: Commons API returned 429"
-    },
-    {
-      "slug": "yoro",
-      "name": "養老渓谷温泉郷",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "yoro: Commons API returned 429"
-    },
-    {
-      "slug": "kisarazu",
-      "name": "木更津温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "kisarazu: Commons API returned 429"
-    },
-    {
-      "slug": "kameyama",
-      "name": "亀山温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "kameyama: Commons API returned 429"
-    },
-    {
-      "slug": "inubosaki",
-      "name": "犬吠埼温泉郷",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "inubosaki: Commons API returned 429"
-    },
-    {
-      "slug": "naguri",
-      "name": "名栗温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "naguri: Commons API returned 429"
-    },
-    {
-      "slug": "ryokami",
-      "name": "両神温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "ryokami: Commons API returned 429"
-    },
-    {
-      "slug": "wado",
-      "name": "和銅鉱泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "wado: Commons API returned 429"
-    },
-    {
-      "slug": "ogano",
-      "name": "小鹿野温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "ogano: Commons API returned 429"
-    },
-    {
-      "slug": "shibahara",
-      "name": "柴原温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "shibahara: Commons API returned 429"
-    },
-    {
-      "slug": "arakikosen",
-      "name": "新木鉱泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "arakikosen: Commons API returned 429"
-    },
-    {
-      "slug": "minakami",
-      "name": "水上温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "minakami: Commons API returned 429"
-    },
-    {
-      "slug": "sarugakyo",
-      "name": "猿ヶ京温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "sarugakyo: Commons API returned 429"
-    },
-    {
-      "slug": "hoshi",
-      "name": "法師温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "hoshi: Commons API returned 429"
-    },
-    {
-      "slug": "oigami",
-      "name": "老神温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "oigami: Commons API returned 429"
-    },
-    {
-      "slug": "manza",
-      "name": "万座温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "manza: Commons API returned 429"
-    },
-    {
-      "slug": "nasu",
-      "name": "那須温泉",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "nasu: Commons API returned 429"
-    },
-    {
-      "slug": "itamuro",
-      "name": "板室温泉",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "itamuro: Commons API returned 429"
-    },
-    {
-      "slug": "yunishigawa",
-      "name": "湯西川温泉",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "yunishigawa: Commons API returned 429"
-    },
-    {
-      "slug": "daigo",
-      "name": "大子温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "daigo: Commons API returned 429"
-    },
-    {
-      "slug": "fukuroda",
-      "name": "袋田温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "fukuroda: Commons API returned 429"
-    },
-    {
-      "slug": "kitaibaraki",
-      "name": "北茨城温泉郷",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "kitaibaraki: Commons API returned 429"
-    },
-    {
-      "slug": "isohara",
-      "name": "磯原温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "isohara: Commons API returned 429"
-    },
-    {
-      "slug": "oarai",
-      "name": "大洗温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "oarai: Commons API returned 429"
-    },
-    {
-      "slug": "tsukuba",
-      "name": "筑波山温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "tsukuba: Commons API returned 429"
-    },
-    {
-      "slug": "okutama",
-      "name": "奥多摩温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "okutama: Commons API returned 429"
-    },
-    {
-      "slug": "akigawa",
-      "name": "秋川渓谷温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "akigawa: Commons API returned 429"
-    },
-    {
-      "slug": "kazuma",
-      "name": "檜原温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "kazuma: Commons API returned 429"
-    },
-    {
-      "slug": "aki-gawa-keikoku",
-      "name": "秋川渓谷温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "aki-gawa-keikoku: Commons API returned 429"
-    },
-    {
-      "slug": "hinohara-onsen",
-      "name": "檜原温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "hinohara-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "hakone-miyanoshita",
-      "name": "箱根宮ノ下温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "hakone-miyanoshita: Commons API returned 429"
-    },
-    {
-      "slug": "hakone-kowakudani",
-      "name": "箱根小涌谷温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "hakone-kowakudani: Commons API returned 429"
-    },
-    {
-      "slug": "hakone-motohakone",
-      "name": "箱根芦之湯温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "hakone-motohakone: Commons API returned 429"
-    },
-    {
-      "slug": "yugawara-makuyama",
-      "name": "湯河原・幕山温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "yugawara-makuyama: Commons API returned 429"
-    },
-    {
-      "slug": "nakagawa-nishitanzawa",
-      "name": "中川温泉・西丹沢",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "nakagawa-nishitanzawa: Commons API returned 429"
-    },
-    {
-      "slug": "iwai-onsen",
-      "name": "岩井温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "iwai-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "awa-kamogawa",
-      "name": "安房鴨川温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "awa-kamogawa: Commons API returned 429"
-    },
-    {
-      "slug": "kamogawa-yumoto",
-      "name": "鴨川湯元温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "kamogawa-yumoto: Commons API returned 429"
-    },
-    {
-      "slug": "uhrara-onsen",
-      "name": "鵜原温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "uhrara-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "shirahama-chiba",
-      "name": "白浜温泉・南房総",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "shirahama-chiba: Commons API returned 429"
-    },
-    {
-      "slug": "chikura-onsen",
-      "name": "千倉温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "chikura-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "shirasato-onsen",
-      "name": "白子温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "shirasato-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "inubosaki-onsen",
-      "name": "犬吠埼温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "inubosaki-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "naguri-onsen",
-      "name": "名栗温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "naguri-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "kuroyama-onsen",
-      "name": "黒山温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "kuroyama-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "otaki-chichibu",
-      "name": "大滝温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "otaki-chichibu: Commons API returned 429"
-    },
-    {
-      "slug": "bessho-chichibu",
-      "name": "別所温泉・秩父",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "bessho-chichibu: Commons API returned 429"
-    },
-    {
-      "slug": "minano-onsen",
-      "name": "皆野温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "minano-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "sarugakyo-onsen",
-      "name": "猿ヶ京温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "sarugakyo-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "takaragawa-onsen",
-      "name": "宝川温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "takaragawa-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "tanigawa-onsen",
-      "name": "谷川温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "tanigawa-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "kawarayu-onsen",
-      "name": "川原湯温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "kawarayu-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "isobe-onsen",
-      "name": "磯部温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "isobe-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "yabuzuka-onsen",
-      "name": "藪塚温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "yabuzuka-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "katashina-kamata",
-      "name": "片品・鎌田温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "katashina-kamata: Commons API returned 429"
-    },
-    {
-      "slug": "kawaji-onsen",
-      "name": "川治温泉",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "kawaji-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "kawamata-onsen",
-      "name": "川俣温泉",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "kawamata-onsen: Commons API returned 429"
-    },
-    {
       "slug": "ashio-onsen",
       "name": "足尾温泉",
       "prefecture": "栃木県",
-      "candidates": [],
-      "error": "ashio-onsen: Commons API returned 429"
+      "candidates": [
+        {
+          "title": "File:NDL959134 一日の行楽 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL959134_%E4%B8%80%E6%97%A5%E3%81%AE%E8%A1%8C%E6%A5%BD_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/NDL959134_%E4%B8%80%E6%97%A5%E3%81%AE%E8%A1%8C%E6%A5%BD_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6350,
+          "height": 4512,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "田山, 花袋, 1871-1930",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL812254 尋常小学国語教授細案 - 毎時配当 巻10 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL812254_%E5%B0%8B%E5%B8%B8%E5%B0%8F%E5%AD%A6%E5%9B%BD%E8%AA%9E%E6%95%99%E6%8E%88%E7%B4%B0%E6%A1%88_-_%E6%AF%8E%E6%99%82%E9%85%8D%E5%BD%93_%E5%B7%BB10_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/NDL812254_%E5%B0%8B%E5%B8%B8%E5%B0%8F%E5%AD%A6%E5%9B%BD%E8%AA%9E%E6%95%99%E6%8E%88%E7%B4%B0%E6%A1%88_-_%E6%AF%8E%E6%99%82%E9%85%8D%E5%BD%93_%E5%B7%BB10_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 6958,
+          "height": 5968,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "普通教育研究会",
+          "imageDescription": "各学年前後期, ただし第1学年後期を欠く"
+        },
+        {
+          "title": "File:NDL813925 尋常小学読本字解 巻10.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL813925_%E5%B0%8B%E5%B8%B8%E5%B0%8F%E5%AD%A6%E8%AA%AD%E6%9C%AC%E5%AD%97%E8%A7%A3_%E5%B7%BB10.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NDL813925_%E5%B0%8B%E5%B8%B8%E5%B0%8F%E5%AD%A6%E8%AA%AD%E6%9C%AC%E5%AD%97%E8%A7%A3_%E5%B7%BB10.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 7229,
+          "height": 5725,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "普通学研究会",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL764312 日光案内.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL764312_%E6%97%A5%E5%85%89%E6%A1%88%E5%86%85.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/NDL764312_%E6%97%A5%E5%85%89%E6%A1%88%E5%86%85.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 7712,
+          "height": 4706,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "三浦, 不二尾",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL867139 国語綴り方文例 第5年後期用 part1.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL867139_%E5%9B%BD%E8%AA%9E%E7%B6%B4%E3%82%8A%E6%96%B9%E6%96%87%E4%BE%8B_%E7%AC%AC5%E5%B9%B4%E5%BE%8C%E6%9C%9F%E7%94%A8_part1.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/NDL867139_%E5%9B%BD%E8%AA%9E%E7%B6%B4%E3%82%8A%E6%96%B9%E6%96%87%E4%BE%8B_%E7%AC%AC5%E5%B9%B4%E5%BE%8C%E6%9C%9F%E7%94%A8_part1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5602,
+          "height": 4564,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "普通教育会",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL762809 日本之名勝 part2.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL762809_%E6%97%A5%E6%9C%AC%E4%B9%8B%E5%90%8D%E5%8B%9D_part2.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/NDL762809_%E6%97%A5%E6%9C%AC%E4%B9%8B%E5%90%8D%E5%8B%9D_part2.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 7750,
+          "height": 5481,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "瀬川, 光行, 1868-1933",
+          "imageDescription": "英文併記"
+        }
+      ]
     },
     {
-      "slug": "kitsuregawa-onsen",
-      "name": "喜連川温泉",
+      "slug": "大田原温泉",
+      "name": "大田原温泉",
       "prefecture": "栃木県",
-      "candidates": [],
-      "error": "kitsuregawa-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "nakagawa-tochigi",
-      "name": "馬頭温泉郷",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "nakagawa-tochigi: Commons API returned 429"
-    },
-    {
-      "slug": "fukuroda-onsen",
-      "name": "袋田温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "fukuroda-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "tsukubasan-onsen",
-      "name": "筑波山温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "tsukubasan-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "isohara-onsen",
-      "name": "磯原温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "isohara-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "hirakata-onsen",
-      "name": "平潟港温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "hirakata-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "gozenyama-onsen",
-      "name": "御前山温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "gozenyama-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "maeno-hara-onsen",
-      "name": "前野原温泉 さやの湯処",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "maeno-hara-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "jindaiji-yumorinosato",
-      "name": "深大寺天然温泉 湯守の里",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "jindaiji-yumorinosato: Commons API returned 429"
-    },
-    {
-      "slug": "tam境-morinoirodori",
-      "name": "多摩境天然温泉 森乃彩",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "tam境-morinoirodori: Commons API returned 429"
-    },
-    {
-      "slug": "toshimaen-niwanoyu",
-      "name": "豊島園 庭の湯",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "toshimaen-niwanoyu: Commons API returned 429"
-    },
-    {
-      "slug": "heiwajima-onsen",
-      "name": "天然温泉平和島",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "heiwajima-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "musashikoyama-shimizuyu",
-      "name": "武蔵小山温泉 清水湯",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "musashikoyama-shimizuyu: Commons API returned 429"
-    },
-    {
-      "slug": "spa-laqua",
-      "name": "東京ドーム天然温泉 Spa LaQua",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "spa-laqua: Commons API returned 429"
-    },
-    {
-      "slug": "otaniyuta-myogin",
-      "name": "大谷田温泉 明神の湯",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "otaniyuta-myogin: Commons API returned 429"
-    },
-    {
-      "slug": "ofuro-no-osama-oimachi",
-      "name": "おふろの王様 大井町店",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "ofuro-no-osama-oimachi: Commons API returned 429"
-    },
-    {
-      "slug": "kodai-no-yu",
-      "name": "東京天然温泉 古代の湯",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "kodai-no-yu: Commons API returned 429"
-    },
-    {
-      "slug": "tokyo-somei-sakura",
-      "name": "東京染井温泉 SAKURA",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "tokyo-somei-sakura: Commons API returned 429"
-    },
-    {
-      "slug": "takaido-utsukushinoyu",
-      "name": "高井戸天然温泉 美しの湯",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "takaido-utsukushinoyu: Commons API returned 429"
-    },
-    {
-      "slug": "togoshiginza-onsen",
-      "name": "戸越銀座温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "togoshiginza-onsen: Commons API returned 429"
-    },
-    {
-      "slug": "岩蔵温泉",
-      "name": "岩蔵温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "岩蔵温泉: Commons API returned 429"
-    },
-    {
-      "slug": "数馬温泉",
-      "name": "数馬温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "数馬温泉: Commons API returned 429"
-    },
-    {
-      "slug": "松乃温泉",
-      "name": "松乃温泉",
-      "prefecture": "東京都",
-      "candidates": [],
-      "error": "松乃温泉: Commons API returned 429"
-    },
-    {
-      "slug": "7沢温泉",
-      "name": "七沢温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "7沢温泉: Commons API returned 429"
-    },
-    {
-      "slug": "伊勢原温泉",
-      "name": "伊勢原温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "伊勢原温泉: Commons API returned 429"
-    },
-    {
-      "slug": "芦ノ湖温泉",
-      "name": "芦ノ湖温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "芦ノ湖温泉: Commons API returned 429"
-    },
-    {
-      "slug": "箱根宮城野温泉",
-      "name": "箱根宮城野温泉",
-      "prefecture": "神奈川県",
-      "candidates": [],
-      "error": "箱根宮城野温泉: Commons API returned 429"
-    },
-    {
-      "slug": "9109里温泉",
-      "name": "九十九里温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "9109里温泉: Commons API returned 429"
-    },
-    {
-      "slug": "御宿温泉",
-      "name": "御宿温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "御宿温泉: Commons API returned 429"
-    },
-    {
-      "slug": "長生温泉",
-      "name": "長生温泉",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "長生温泉: Commons API returned 429"
-    },
-    {
-      "slug": "亀山温泉郷",
-      "name": "亀山温泉郷",
-      "prefecture": "千葉県",
-      "candidates": [],
-      "error": "亀山温泉郷: Commons API returned 429"
-    },
-    {
-      "slug": "ときがわ温泉",
-      "name": "ときがわ温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "ときがわ温泉: Commons API returned 429"
-    },
-    {
-      "slug": "越生温泉",
-      "name": "越生温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "越生温泉: Commons API returned 429"
-    },
-    {
-      "slug": "嵐山渓谷温泉",
-      "name": "嵐山渓谷温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "嵐山渓谷温泉: Commons API returned 429"
-    },
-    {
-      "slug": "神川温泉",
-      "name": "神川温泉",
-      "prefecture": "埼玉県",
-      "candidates": [],
-      "error": "神川温泉: Commons API returned 429"
-    },
-    {
-      "slug": "小野上温泉",
-      "name": "小野上温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "小野上温泉: Commons API returned 429"
-    },
-    {
-      "slug": "沢渡温泉",
-      "name": "沢渡温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "沢渡温泉: Commons API returned 429"
-    },
-    {
-      "slug": "川古温泉",
-      "name": "川古温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "川古温泉: Commons API returned 429"
-    },
-    {
-      "slug": "上牧温泉",
-      "name": "上牧温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "上牧温泉: Commons API returned 429"
-    },
-    {
-      "slug": "赤城温泉郷",
-      "name": "赤城温泉郷",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "赤城温泉郷: Commons API returned 429"
-    },
-    {
-      "slug": "倉渕温泉",
-      "name": "倉渕温泉",
-      "prefecture": "群馬県",
-      "candidates": [],
-      "error": "倉渕温泉: Commons API returned 429"
+      "candidates": [
+        {
+          "title": "File:NDL1019451 那須の史蹟と名勝.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL1019451_%E9%82%A3%E9%A0%88%E3%81%AE%E5%8F%B2%E8%B9%9F%E3%81%A8%E5%90%8D%E5%8B%9D.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/NDL1019451_%E9%82%A3%E9%A0%88%E3%81%AE%E5%8F%B2%E8%B9%9F%E3%81%A8%E5%90%8D%E5%8B%9D.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5600,
+          "height": 4100,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "栃木県",
+          "imageDescription": ""
+        },
+        {
+          "title": "File:NDL764289 那須郷土誌.pdf",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NDL764289_%E9%82%A3%E9%A0%88%E9%83%B7%E5%9C%9F%E8%AA%8C.pdf",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/NDL764289_%E9%82%A3%E9%A0%88%E9%83%B7%E5%9C%9F%E8%AA%8C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5668,
+          "height": 4429,
+          "license": "Public domain",
+          "usageTerms": "Public domain",
+          "credit": "渡辺, 金助",
+          "imageDescription": ""
+        }
+      ]
     },
     {
       "slug": "中禅寺温泉",
       "name": "中禅寺温泉",
       "prefecture": "栃木県",
-      "candidates": [],
-      "error": "中禅寺温泉: Commons API returned 429"
+      "candidates": [
+        {
+          "title": "File:中禅寺温泉バスターミナル - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4386,
+          "height": 2920,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "くろふね",
+          "imageDescription": "中禅寺温泉バスターミナル"
+        },
+        {
+          "title": "File:中禅寺温泉街 - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E8%A1%97_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E8%A1%97_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4386,
+          "height": 2920,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "くろふね",
+          "imageDescription": "中禅寺温泉街"
+        },
+        {
+          "title": "File:中禅寺温泉バスターミナル - panoramio (1).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio_(1).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 4386,
+          "height": 2920,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "くろふね",
+          "imageDescription": "中禅寺温泉バスターミナル"
+        },
+        {
+          "title": "File:中禅寺温泉バスターミナル - panoramio (2).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio_(2).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5184,
+          "height": 3456,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "くろふね",
+          "imageDescription": "中禅寺温泉バスターミナル"
+        },
+        {
+          "title": "File:中禅寺温泉バスターミナル - panoramio (3).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio_(3).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 5184,
+          "height": 3456,
+          "license": "CC BY 3.0",
+          "usageTerms": "Creative Commons Attribution 3.0",
+          "credit": "くろふね",
+          "imageDescription": "中禅寺温泉バスターミナル"
+        },
+        {
+          "title": "File:中禅寺温泉バスターミナル20240203-IMG 9115.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB20240203-IMG_9115.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB20240203-IMG_9115.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "width": 1600,
+          "height": 1067,
+          "license": "CC BY 4.0",
+          "usageTerms": "Creative Commons Attribution 4.0",
+          "credit": "くろふね",
+          "imageDescription": "中禅寺温泉バスターミナル"
+        }
+      ]
     },
     {
       "slug": "湯ノ湖温泉",
@@ -1550,11 +1724,46 @@
       "error": "湯ノ湖温泉: Commons API returned 429"
     },
     {
-      "slug": "大田原温泉",
-      "name": "大田原温泉",
+      "slug": "yunishigawa",
+      "name": "湯西川温泉",
       "prefecture": "栃木県",
       "candidates": [],
-      "error": "大田原温泉: Commons API returned 429"
+      "error": "yunishigawa: Commons API returned 429"
+    },
+    {
+      "slug": "nasu",
+      "name": "那須温泉",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "nasu: Commons API returned 429"
+    },
+    {
+      "slug": "nikko-onsen",
+      "name": "日光温泉",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "nikko-onsen: Commons API returned 429"
+    },
+    {
+      "slug": "nikko-yumoto",
+      "name": "日光湯元温泉",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "nikko-yumoto: Commons API returned 429"
+    },
+    {
+      "slug": "nakagawa-tochigi",
+      "name": "馬頭温泉郷",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "nakagawa-tochigi: Commons API returned 429"
+    },
+    {
+      "slug": "itamuro",
+      "name": "板室温泉",
+      "prefecture": "栃木県",
+      "candidates": [],
+      "error": "itamuro: Commons API returned 429"
     },
     {
       "slug": "矢板温泉",
@@ -1562,48 +1771,6 @@
       "prefecture": "栃木県",
       "candidates": [],
       "error": "矢板温泉: Commons API returned 429"
-    },
-    {
-      "slug": "佐野やすらぎの湯",
-      "name": "佐野やすらぎの湯",
-      "prefecture": "栃木県",
-      "candidates": [],
-      "error": "佐野やすらぎの湯: Commons API returned 429"
-    },
-    {
-      "slug": "5浦温泉",
-      "name": "五浦温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "5浦温泉: Commons API returned 429"
-    },
-    {
-      "slug": "湯の網温泉",
-      "name": "湯の網温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "湯の網温泉: Commons API returned 429"
-    },
-    {
-      "slug": "常陸太田温泉",
-      "name": "常陸太田温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "常陸太田温泉: Commons API returned 429"
-    },
-    {
-      "slug": "城里温泉",
-      "name": "城里温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "城里温泉: Commons API returned 429"
-    },
-    {
-      "slug": "ひたちなか温泉",
-      "name": "ひたちなか温泉",
-      "prefecture": "茨城県",
-      "candidates": [],
-      "error": "ひたちなか温泉: Commons API returned 429"
     }
   ]
 }

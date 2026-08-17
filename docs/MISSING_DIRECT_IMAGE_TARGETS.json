@@ -1,0 +1,418 @@
+[
+  {
+    "slug": "ひたちなか温泉",
+    "name": "ひたちなか温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%81%9F%E3%81%A1%E3%81%AA%E3%81%8B%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "slug": "gozenyama-onsen",
+    "name": "御前山温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E5%89%8D%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "slug": "城里温泉",
+    "name": "城里温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E9%87%8C%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "slug": "oarai",
+    "name": "大洗温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B4%97%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.oarai-info.jp/"
+  },
+  {
+    "slug": "tsukuba",
+    "name": "筑波山温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.ttca.jp/"
+  },
+  {
+    "slug": "tsukubasan-onsen",
+    "name": "筑波山温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E6%B3%A2%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "slug": "湯の網温泉",
+    "name": "湯の網温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E7%B6%B2%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.ibarakiguide.jp/"
+  },
+  {
+    "slug": "hirakata-onsen",
+    "name": "平潟港温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E6%BD%9F%E6%B8%AF%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.kitaibarakishi-kankokyokai.gr.jp/"
+  },
+  {
+    "slug": "kitaibaraki",
+    "name": "北茨城温泉郷",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%8C%A8%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E8%8C%A8%E5%9F%8E%E7%9C%8C",
+    "officialUrl": "https://www.kitaibarakishi-kankokyokai.gr.jp/"
+  },
+  {
+    "slug": "kitaura-horai",
+    "name": "北浦宝来温泉",
+    "prefecture": "茨城県",
+    "areaId": "ibaraki-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%A6%E5%AE%9D%E6%9D%A5%E6%B8%A9%E6%B3%89%20%E3%81%A4%E3%82%8B%E3%82%8B%E3%82%93%E3%81%AE%E6%B9%AF%E5%AE%BF%20%E5%8C%97%E6%B5%A6%E6%B9%96%E7%95%94%E8%8D%98%20%E8%8C%A8%E5%9F%8E%E7%9C%8C%E8%A1%8C%E6%96%B9%E5%B8%82%E5%B1%B1%E7%94%B03969",
+    "officialUrl": "https://kitaura-houraionsen.com/"
+  },
+  {
+    "slug": "沢渡温泉",
+    "name": "沢渡温泉",
+    "prefecture": "群馬県",
+    "areaId": "gunma-meito",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%A2%E6%B8%A1%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialUrl": "https://nakanojo-kanko.jp/sawatari/"
+  },
+  {
+    "slug": "yunokoya",
+    "name": "湯の小屋温泉",
+    "prefecture": "群馬県",
+    "areaId": "gunma-minakami",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E3%81%AE%E5%B0%8F%E5%B1%8B%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C%E5%88%A9%E6%A0%B9%E9%83%A1%E3%81%BF%E3%81%AA%E3%81%8B%E3%81%BF%E7%94%BA%E8%97%A4%E5%8E%9F",
+    "officialUrl": "https://gunma-kanko.jp/spots/766"
+  },
+  {
+    "slug": "takaragawa-onsen",
+    "name": "宝川温泉",
+    "prefecture": "群馬県",
+    "areaId": "gunma-minakami",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9D%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C",
+    "officialUrl": "https://www.enjoy-minakami.jp/"
+  },
+  {
+    "slug": "越生温泉",
+    "name": "越生温泉",
+    "prefecture": "埼玉県",
+    "areaId": "tokyo-saitama",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialUrl": "https://ogose-kanko.jp/"
+  },
+  {
+    "slug": "kuroyama-onsen",
+    "name": "黒山温泉",
+    "prefecture": "埼玉県",
+    "areaId": "saitama-west",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%92%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialUrl": "https://chocotabi-saitama.jp/"
+  },
+  {
+    "slug": "shibahara",
+    "name": "柴原温泉",
+    "prefecture": "埼玉県",
+    "areaId": "saitama-west",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialUrl": "https://navi.city.chichibu.lg.jp/"
+  },
+  {
+    "slug": "ogano",
+    "name": "小鹿野温泉",
+    "prefecture": "埼玉県",
+    "areaId": "saitama-west",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%B9%BF%E9%87%8E%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialUrl": "https://www.kanko-ogano.jp/"
+  },
+  {
+    "slug": "嵐山渓谷温泉",
+    "name": "嵐山渓谷温泉",
+    "prefecture": "埼玉県",
+    "areaId": "tokyo-saitama",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B5%90%E5%B1%B1%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C",
+    "officialUrl": "https://www.ranzan-kanko.jp/"
+  },
+  {
+    "slug": "atsugi-onsen",
+    "name": "あつぎ温泉郷",
+    "prefecture": "神奈川県",
+    "areaId": "hakone-yugawara",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialUrl": "https://www.kanagawa-kankou.or.jp/features/onsen/"
+  },
+  {
+    "slug": "芦ノ湖温泉",
+    "name": "芦ノ湖温泉",
+    "prefecture": "神奈川県",
+    "areaId": "hakone-yugawara",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B9%96%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "slug": "hakone-sengokuhara",
+    "name": "仙石原温泉",
+    "prefecture": "神奈川県",
+    "areaId": "hakone-yugawara",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%99%E7%9F%B3%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+    "officialUrl": "https://www.hakone.or.jp/"
+  },
+  {
+    "slug": "tateyama",
+    "name": "たてやま温泉郷",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%A6%E3%82%84%E3%81%BE%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://tateyamacity.com/onsen/"
+  },
+  {
+    "slug": "awa-kamogawa",
+    "name": "安房鴨川温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E6%88%BF%E9%B4%A8%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://maruchiba.jp/"
+  },
+  {
+    "slug": "uhrara-onsen",
+    "name": "鵜原温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B5%9C%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://maruchiba.jp/"
+  },
+  {
+    "slug": "iwaionsen",
+    "name": "岩井温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://minamiboso-onsen.com/"
+  },
+  {
+    "slug": "iwai-onsen",
+    "name": "岩井温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B2%A9%E4%BA%95%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://maruchiba.jp/"
+  },
+  {
+    "slug": "亀山温泉郷",
+    "name": "亀山温泉郷",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%E6%B8%A9%E6%B3%89%E9%83%B7%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://maruchiba.jp/"
+  },
+  {
+    "slug": "9109里温泉",
+    "name": "九十九里温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://maruchiba.jp/"
+  },
+  {
+    "slug": "kominato",
+    "name": "小湊温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%B9%8A%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://www.kamonavi.jp/kominatoonsen/"
+  },
+  {
+    "slug": "長生温泉",
+    "name": "長生温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E7%94%9F%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://maruchiba.jp/"
+  },
+  {
+    "slug": "kisarazu",
+    "name": "木更津温泉",
+    "prefecture": "千葉県",
+    "areaId": "chiba-boso",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9B%B4%E6%B4%A5%E6%B8%A9%E6%B3%89%20%E5%8D%83%E8%91%89%E7%9C%8C",
+    "officialUrl": "https://www.mikazuki.co.jp/ryugu/"
+  },
+  {
+    "slug": "ofuro-no-osama-oimachi",
+    "name": "おふろの王様 大井町店",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%A7%E4%BA%95%E7%94%BA%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.ousama2603.com/ooimachi/"
+  },
+  {
+    "slug": "shikinejima",
+    "name": "式根島温泉郷",
+    "prefecture": "東京都",
+    "areaId": "tokyo-islands",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%8F%E6%A0%B9%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.shikinejima.com/"
+  },
+  {
+    "slug": "akigawa",
+    "name": "秋川渓谷温泉",
+    "prefecture": "東京都",
+    "areaId": "tokyo-islands",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.akirunokanko.com/"
+  },
+  {
+    "slug": "aki-gawa-keikoku",
+    "name": "秋川渓谷温泉",
+    "prefecture": "東京都",
+    "areaId": "tokyo-islands",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%8B%E5%B7%9D%E6%B8%93%E8%B0%B7%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.ohtama.or.jp/"
+  },
+  {
+    "slug": "松乃温泉",
+    "name": "松乃温泉",
+    "prefecture": "東京都",
+    "areaId": "tokyo-islands",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%B9%83%E6%B8%A9%E6%B3%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.omekanko.gr.jp/"
+  },
+  {
+    "slug": "maeno-hara-onsen",
+    "name": "前野原温泉 さやの湯処",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E9%87%8E%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.sayanoyudokoro.co.jp/"
+  },
+  {
+    "slug": "tam境-morinoirodori",
+    "name": "多摩境天然温泉 森乃彩",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E6%91%A9%E5%A2%83%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%A3%AE%E4%B9%83%E5%BD%A9%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://morinoirodori.com/"
+  },
+  {
+    "slug": "otaniyuta-myogin",
+    "name": "大谷田温泉 明神の湯",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%B0%B7%E7%94%B0%E6%B8%A9%E6%B3%89%20%E6%98%8E%E7%A5%9E%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://dormy-hotels.com/spa/myoujin/"
+  },
+  {
+    "slug": "oshima",
+    "name": "大島温泉郷",
+    "prefecture": "東京都",
+    "areaId": "tokyo-islands",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.izu-oshima.or.jp/"
+  },
+  {
+    "slug": "spa-laqua",
+    "name": "東京ドーム天然温泉 Spa LaQua",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%83%89%E3%83%BC%E3%83%A0%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20Spa%20LaQua%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.laqua.jp/spa/"
+  },
+  {
+    "slug": "tokyo-somei-sakura",
+    "name": "東京染井温泉 SAKURA",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E6%9F%93%E4%BA%95%E6%B8%A9%E6%B3%89%20SAKURA%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://tokyosomeionsensakura.com/"
+  },
+  {
+    "slug": "hachijojima",
+    "name": "八丈島温泉郷",
+    "prefecture": "東京都",
+    "areaId": "tokyo-islands",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%88%E5%B3%B6%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.hachijo.gr.jp/"
+  },
+  {
+    "slug": "musashikoyama-shimizuyu",
+    "name": "武蔵小山温泉 清水湯",
+    "prefecture": "東京都",
+    "areaId": "tokyo-urban-onsen",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E6%B8%A9%E6%B3%89%20%E6%B8%85%E6%B0%B4%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
+    "officialUrl": "https://www.shimizuyu.com/"
+  },
+  {
+    "slug": "kitsuregawa-onsen",
+    "name": "喜連川温泉",
+    "prefecture": "栃木県",
+    "areaId": "tochigi-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E9%80%A3%E5%B7%9D%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.tochigiji.or.jp/"
+  },
+  {
+    "slug": "佐野やすらぎの湯",
+    "name": "佐野やすらぎの湯",
+    "prefecture": "栃木県",
+    "areaId": "nikko-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E9%87%8E%E3%82%84%E3%81%99%E3%82%89%E3%81%8E%E3%81%AE%E6%B9%AF%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.tochigiji.or.jp/"
+  },
+  {
+    "slug": "ashio-onsen",
+    "name": "足尾温泉",
+    "prefecture": "栃木県",
+    "areaId": "nikko-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%B3%E5%B0%BE%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.nikko-kankou.org/"
+  },
+  {
+    "slug": "大田原温泉",
+    "name": "大田原温泉",
+    "prefecture": "栃木県",
+    "areaId": "nikko-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%94%B0%E5%8E%9F%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.tochigiji.or.jp/"
+  },
+  {
+    "slug": "nasu",
+    "name": "那須温泉",
+    "prefecture": "栃木県",
+    "areaId": "tochigi-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.nasukogen.org/"
+  },
+  {
+    "slug": "nikko-onsen",
+    "name": "日光温泉",
+    "prefecture": "栃木県",
+    "areaId": "nikko-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C%E6%97%A5%E5%85%89%E5%B8%82",
+    "officialUrl": "https://www.nikko-kankou.org/spot/15"
+  },
+  {
+    "slug": "nakagawa-tochigi",
+    "name": "馬頭温泉郷",
+    "prefecture": "栃木県",
+    "areaId": "tochigi-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E9%A0%AD%E6%B8%A9%E6%B3%89%E9%83%B7%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.tochigiji.or.jp/"
+  },
+  {
+    "slug": "itamuro",
+    "name": "板室温泉",
+    "prefecture": "栃木県",
+    "areaId": "tochigi-nasu",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BF%E5%AE%A4%E6%B8%A9%E6%B3%89%20%E6%A0%83%E6%9C%A8%E7%9C%8C",
+    "officialUrl": "https://www.kuroiso-kankou.org/itamuro/"
+  }
+]
