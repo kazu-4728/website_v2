@@ -115,3 +115,6 @@ docs/old-*/
 # AI context optimization
 *.tsbuildinfo
 tsconfig.tsbuildinfo
+
+# Licensed media binaries are delivered from external providers, never committed to Git
+/public/images/

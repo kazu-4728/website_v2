@@ -15,6 +15,7 @@ interface ImageAsset {
   license: string;
   credit?: string;
   localPath?: string;
+  deliveryUrl?: string;
   reviewedAt: string;
   note: string;
 }
@@ -31,6 +32,7 @@ interface AreaFallbackAsset {
   license: string;
   credit?: string;
   localPath?: string;
+  deliveryUrl?: string;
   reviewedAt: string;
   note: string;
 }
@@ -44,13 +46,13 @@ interface ImageManifest {
 
 const imageManifest = imageManifestJson as ImageManifest;
 
-function toSiteImage(asset: Pick<ImageAsset, 'id' | 'localPath' | 'credit' | 'subject' | 'license' | 'sourceUrl'>): SiteImage {
-  if (!asset.localPath || !asset.credit) {
-    throw new Error(`Approved image asset ${asset.id} requires localPath and credit.`);
+function toSiteImage(asset: Pick<ImageAsset, 'id' | 'localPath' | 'deliveryUrl' | 'credit' | 'subject' | 'license' | 'sourceUrl'>): SiteImage {
+  if ((!asset.deliveryUrl && !asset.localPath) || !asset.credit) {
+    throw new Error(`Approved image asset ${asset.id} requires deliveryUrl or localPath, plus credit.`);
   }
 
   return {
-    src: withPublicBasePath(asset.localPath),
+    src: asset.deliveryUrl ?? withPublicBasePath(asset.localPath!),
     alt: asset.subject,
     credit: asset.credit,
     license: asset.license,

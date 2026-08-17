@@ -16,12 +16,14 @@ for (const asset of manifest.areaFallbacks ?? []) {
   if (asset.status !== 'approved' || asset.role !== 'hero') continue;
   const key = `${asset.areaId}:${asset.prefecture ?? '*'}`;
   fallbackByArea.set(key, asset);
-  if (!asset.localPath || !fs.existsSync(path.join(root, 'public', asset.localPath.replace(/^\//, '')))) errors.push(`${asset.id}: approved regional image file is missing`);
+  if (!asset.deliveryUrl || !asset.deliveryUrl.startsWith('https://')) errors.push(`${asset.id}: approved regional image delivery URL is missing`);
+  if (asset.localPath) errors.push(`${asset.id}: approved regional image must not retain a repository localPath`);
   if (!asset.subject || !asset.credit || !asset.license || !asset.sourceUrl) errors.push(`${asset.id}: regional image attribution is incomplete`);
 }
 for (const asset of manifest.assets ?? []) {
   if (asset.status !== 'approved') continue;
-  if (!asset.localPath || !fs.existsSync(path.join(root, 'public', asset.localPath.replace(/^\//, '')))) errors.push(`${asset.id}: approved direct image file is missing`);
+  if (!asset.deliveryUrl || !asset.deliveryUrl.startsWith('https://')) errors.push(`${asset.id}: approved direct image delivery URL is missing`);
+  if (asset.localPath) errors.push(`${asset.id}: approved direct image must not retain a repository localPath`);
   if (!asset.subject || !asset.credit || !asset.license || !asset.sourceUrl) errors.push(`${asset.id}: direct image attribution is incomplete`);
 }
 

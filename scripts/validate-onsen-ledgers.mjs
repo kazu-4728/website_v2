@@ -36,16 +36,15 @@ for (const asset of imageManifest.assets ?? []) {
   if (!String(asset.sourceUrl).startsWith('https://')) fail(`${base}: sourceUrl must use HTTPS`);
   if (asset.status === 'approved') {
     if (typeof asset.credit !== 'string' || !asset.credit.trim()) fail(`${base}: approved assets require credit`);
-    if (typeof asset.localPath !== 'string' || !asset.localPath.startsWith('/images/onsens/')) fail(`${base}: approved assets require localPath under /images/onsens/`);
-    const filePath = path.join(root, 'public', asset.localPath.replace(/^\//, ''));
-    if (!fs.existsSync(filePath)) fail(`${base}: local asset file does not exist`);
+    if (typeof asset.deliveryUrl !== 'string' || !asset.deliveryUrl.startsWith('https://')) fail(`${base}: approved assets require an HTTPS deliveryUrl`);
+    if (asset.localPath) fail(`${base}: approved assets must not retain localPath after external delivery migration`);
     if (asset.role === 'hero') {
       const heroKey = `${asset.onsenSlug}:${asset.role}`;
       if (approvedHeroes.has(heroKey)) fail(`${base}: only one approved hero is allowed per onsen`);
       approvedHeroes.add(heroKey);
     }
-  } else if (asset.localPath) {
-    fail(`${base}: only approved assets may define localPath`);
+  } else if (asset.localPath || asset.deliveryUrl) {
+    fail(`${base}: only approved assets may define localPath or deliveryUrl`);
   }
 }
 
