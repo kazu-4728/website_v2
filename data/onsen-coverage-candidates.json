@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "lastReviewed": "2026-08-17",
+  "candidates": [
+    {
+      "id": "ibaraki-kitaura-horai",
+      "name": "北浦宝来温泉",
+      "prefecture": "茨城県",
+      "classification": "onsen-place",
+      "status": "candidate",
+      "sourceName": "関東温泉ぐるり旅",
+      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
+      "sourcePublishedName": "北浦宝来温泉",
+      "reviewNote": "既存の掲載温泉地との同一性、所在地、宿泊施設を伴う温泉地としての扱いを一次・公的情報で照合する。"
+    },
+    {
+      "id": "chiba-nokogiriyama-kanaya",
+      "name": "鋸山金谷温泉",
+      "prefecture": "千葉県",
+      "classification": "onsen-place",
+      "status": "candidate",
+      "sourceName": "関東温泉ぐるり旅",
+      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
+      "sourcePublishedName": "鋸山金谷温泉",
+      "reviewNote": "既存の掲載温泉地との同一性、所在地、公式導線を確認してから追加する。"
+    },
+    {
+      "id": "gunma-shiriyaki",
+      "name": "尻焼温泉",
+      "prefecture": "群馬県",
+      "classification": "onsen-place",
+      "status": "candidate",
+      "sourceName": "関東温泉ぐるり旅",
+      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
+      "sourcePublishedName": "尻焼温泉",
+      "reviewNote": "既存の掲載温泉地との重複、日帰り入浴可否、公式または自治体の根拠を確認する。"
+    },
+    {
+      "id": "gunma-yunokoya",
+      "name": "湯の小屋温泉",
+      "prefecture": "群馬県",
+      "classification": "onsen-place",
+      "status": "candidate",
+      "sourceName": "関東温泉ぐるり旅",
+      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
+      "sourcePublishedName": "湯の小屋温泉",
+      "reviewNote": "既存の掲載温泉地との重複、所在地、公式導線を確認してから追加する。"
+    },
+    {
+      "id": "tochigi-nikko-onsen",
+      "name": "日光温泉",
+      "prefecture": "栃木県",
+      "classification": "onsen-place",
+      "status": "candidate",
+      "sourceName": "関東温泉ぐるり旅",
+      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
+      "sourcePublishedName": "日光温泉",
+      "reviewNote": "日光湯元温泉・中禅寺温泉等との関係を公式観光情報で照合する。"
+    }
+  ]
+}

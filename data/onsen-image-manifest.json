@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "lastReviewed": "2026-08-17",
+  "assets": [
+    {
+      "id": "maeno-hara-onsen-hero",
+      "onsenSlug": "maeno-hara-onsen",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "前野原温泉 さやの湯処の外観または温泉施設",
+      "sourceUrl": "https://www.sayanoyudokoro.co.jp/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "jindaiji-yumorinosato-hero",
+      "onsenSlug": "jindaiji-yumorinosato",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "深大寺天然温泉 湯守の里の施設外観または黒湯の案内",
+      "sourceUrl": "https://yumorinosato.com/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "tam境-morinoirodori-hero",
+      "onsenSlug": "tam境-morinoirodori",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "多摩境天然温泉 森乃彩の露天風呂または外観",
+      "sourceUrl": "https://morinoirodori.com/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "toshimaen-niwanoyu-hero",
+      "onsenSlug": "toshimaen-niwanoyu",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "豊島園 庭の湯の日本庭園または温浴施設",
+      "sourceUrl": "https://www.seibu-leisure.co.jp/niwanoyu/index.html",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "heiwajima-onsen-hero",
+      "onsenSlug": "heiwajima-onsen",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "天然温泉平和島の施設外観または温浴エリア",
+      "sourceUrl": "https://www.heiwajima-onsen.jp/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "musashikoyama-shimizuyu-hero",
+      "onsenSlug": "musashikoyama-shimizuyu",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "武蔵小山温泉 清水湯の外観または黄金の湯・黒湯の案内",
+      "sourceUrl": "https://www.shimizuyu.com/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "spa-laqua-hero",
+      "onsenSlug": "spa-laqua",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "東京ドーム天然温泉 Spa LaQuaの施設外観または温浴エリア",
+      "sourceUrl": "https://www.laqua.jp/spa/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "otaniyuta-myogin-hero",
+      "onsenSlug": "otaniyuta-myogin",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "大谷田温泉 明神の湯の露天風呂または施設外観",
+      "sourceUrl": "https://dormy-hotels.com/spa/myoujin/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "ofuro-no-osama-oimachi-hero",
+      "onsenSlug": "ofuro-no-osama-oimachi",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "おふろの王様 大井町店の施設外観または温浴設備",
+      "sourceUrl": "https://www.ousama2603.com/ooimachi/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "kodai-no-yu-hero",
+      "onsenSlug": "kodai-no-yu",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "東京天然温泉 古代の湯の施設外観または館内",
+      "sourceUrl": "https://kodainoyu.jp/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "tokyo-somei-sakura-hero",
+      "onsenSlug": "tokyo-somei-sakura",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "東京染井温泉 SAKURAの外観または温浴施設",
+      "sourceUrl": "https://tokyosomeionsensakura.com/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "takaido-utsukushinoyu-hero",
+      "onsenSlug": "takaido-utsukushinoyu",
+      "role": "hero",
+      "status": "needs-source",
+      "subject": "高井戸天然温泉 美しの湯の露天風呂または施設外観",
+      "sourceUrl": "https://utsukushi-yu.com/",
+      "license": "未確認",
+      "reviewedAt": "2026-08-17",
+      "note": "既存の那須茶臼岳画像は施設と無関係のため使用しない。"
+    },
+    {
+      "id": "togoshiginza-onsen-hero",
+      "onsenSlug": "togoshiginza-onsen",
+      "role": "hero",
+      "status": "approved",
+      "subject": "戸越銀座温泉周辺にある戸越銀座商店街の夜景",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Togoshi_Ginza_at_Night.jpg",
+      "license": "CC BY 2.0",
+      "credit": "OiMax / Wikimedia Commons",
+      "localPath": "/images/onsens/togoshiginza-onsen/togoshi-ginza-at-night.jpg",
+      "reviewedAt": "2026-08-17",
+      "note": "施設の浴室・外観ではなく、戸越銀座温泉の訪問体験と結び付く周辺商店街の写真として掲載する。"
+    }
+  ]
+}

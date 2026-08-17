@@ -10,7 +10,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "validate:data": "node scripts/validate-onsen-site-data.mjs",
+    "sync:ledgers": "node scripts/sync-onsen-coverage-ledger.mjs",
+    "validate:ledgers": "node scripts/validate-onsen-ledgers.mjs",
+    "validate:data": "node scripts/validate-onsen-site-data.mjs && npm run validate:ledgers",
     "check": "npm run validate:data",
     "test": "npm run validate:data",
     "prebuild": "node -e \"if (process.env.SKIP_CHECK !== 'true') { require('child_process').execSync('npm run validate:data', {stdio: 'inherit'}); }\""

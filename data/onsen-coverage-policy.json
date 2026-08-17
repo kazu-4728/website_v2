@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-17",
+  "source": {
+    "name": "環境省 温泉に関するデータ",
+    "url": "https://www.env.go.jp/nature/onsen/data/",
+    "asOf": "令和6年度（2025年3月末）"
+  },
+  "definition": "温泉地数（宿泊施設のある場所）",
+  "matchingPolicy": {
+    "name": "温泉地の名称・所在地・公的または公式の根拠を照合してから掲載する",
+    "treatFacilitySeparately": true,
+    "doNotInferMissingNamesFromCountOnly": true
+  },
+  "prefectures": {
+    "茨城県": { "officialOnsenPlaceCount": 39 },
+    "栃木県": { "officialOnsenPlaceCount": 66 },
+    "群馬県": { "officialOnsenPlaceCount": 98 },
+    "埼玉県": { "officialOnsenPlaceCount": 31 },
+    "千葉県": { "officialOnsenPlaceCount": 95 },
+    "東京都": { "officialOnsenPlaceCount": 22 },
+    "神奈川県": { "officialOnsenPlaceCount": 36 }
+  }
+}
