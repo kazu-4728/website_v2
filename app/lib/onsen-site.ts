@@ -35,6 +35,18 @@ export interface FacilityLink {
   mapUrl: string;
 }
 
+export interface DayTripInfo {
+  summary: string;
+  hours: string;
+  closingNote: string;
+  feeNote: string;
+  accessNote: string;
+  bookingNote: string;
+  highlights: string[];
+  officialInfoUrl: string;
+  verifiedAt: string;
+}
+
 export interface Onsen {
   slug: string;
   name: string;
@@ -45,6 +57,7 @@ export interface Onsen {
   officialUrl: string;
   mapUrl: string;
   facilities: FacilityLink[];
+  dayTrip?: DayTripInfo;
   verifiedAt: string;
   summary: string;
   catchcopy: string;
@@ -53,6 +66,7 @@ export interface Onsen {
   useCases: string[];
   access: string;
   image: SiteImage;
+  imageVerified?: boolean;
   gallery: SiteImage[];
   features: string[];
   benefits: { label: string; text: string }[];
@@ -113,17 +127,17 @@ export interface DirectorySiteData {
 const data = directoryDataJson as DirectorySiteData;
 
 export const kantoOfficialStats = {
-  asOf: '令和6年度（2024年3月末）',
+  asOf: '令和6年度（2025年3月末）',
   definition: '温泉地数（宿泊施設のある場所）',
   sourceUrl: 'https://www.env.go.jp/nature/onsen/data/',
   prefectures: {
-    茨城県: { onsenAreas: 10, sources: 157 },
-    栃木県: { onsenAreas: 6, sources: 633 },
-    群馬県: { onsenAreas: 12, sources: 459 },
-    埼玉県: { onsenAreas: 17, sources: 117 },
-    千葉県: { onsenAreas: 16, sources: 144 },
-    東京都: { onsenAreas: 30, sources: 168 },
-    神奈川県: { onsenAreas: 14, sources: 602 },
+    茨城県: { onsenAreas: 39, sources: 157 },
+    栃木県: { onsenAreas: 66, sources: 633 },
+    群馬県: { onsenAreas: 98, sources: 459 },
+    埼玉県: { onsenAreas: 31, sources: 117 },
+    千葉県: { onsenAreas: 95, sources: 144 },
+    東京都: { onsenAreas: 22, sources: 168 },
+    神奈川県: { onsenAreas: 36, sources: 602 },
   },
 } as const;
 
