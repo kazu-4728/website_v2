@@ -12,23 +12,23 @@
     {
       "prefecture": "茨城県",
       "officialOnsenPlaceCount": 39,
-      "publishedOnsenPlaceCount": 16,
+      "publishedOnsenPlaceCount": 17,
       "publishedDayTripFacilityCount": 0,
-      "referenceDifference": 23
+      "referenceDifference": 22
     },
     {
       "prefecture": "栃木県",
       "officialOnsenPlaceCount": 66,
-      "publishedOnsenPlaceCount": 16,
+      "publishedOnsenPlaceCount": 17,
       "publishedDayTripFacilityCount": 0,
-      "referenceDifference": 50
+      "referenceDifference": 49
     },
     {
       "prefecture": "群馬県",
       "officialOnsenPlaceCount": 98,
-      "publishedOnsenPlaceCount": 21,
+      "publishedOnsenPlaceCount": 23,
       "publishedDayTripFacilityCount": 0,
-      "referenceDifference": 77
+      "referenceDifference": 75
     },
     {
       "prefecture": "埼玉県",
@@ -40,9 +40,9 @@
     {
       "prefecture": "千葉県",
       "officialOnsenPlaceCount": 95,
-      "publishedOnsenPlaceCount": 24,
+      "publishedOnsenPlaceCount": 25,
       "publishedDayTripFacilityCount": 0,
-      "referenceDifference": 71
+      "referenceDifference": 70
     },
     {
       "prefecture": "東京都",
@@ -61,9 +61,9 @@
   ],
   "totals": {
     "officialOnsenPlaceCount": 387,
-    "publishedOnsenPlaceCount": 122,
+    "publishedOnsenPlaceCount": 127,
     "publishedDayTripFacilityCount": 13,
-    "referenceDifference": 265
+    "referenceDifference": 260
   },
   "entries": [
     {
@@ -259,6 +259,18 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "kitaura-horai",
+      "name": "北浦宝来温泉",
+      "officialName": "北浦宝来温泉 つるるんの湯宿 北浦湖畔荘",
+      "prefecture": "茨城県",
+      "classification": "onsen-place",
+      "publicationStatus": "published",
+      "officialUrl": "https://kitaura-houraionsen.com/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "needs-source"
+    },
+    {
       "siteSlug": "ikaho",
       "name": "伊香保温泉",
       "officialName": "渋川伊香保温泉観光協会",
@@ -341,6 +353,18 @@
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "shiriyaki",
+      "name": "尻焼温泉",
+      "officialName": "六合の里温泉郷組合・尻焼温泉",
+      "prefecture": "群馬県",
+      "classification": "onsen-place",
+      "publicationStatus": "published",
+      "officialUrl": "https://nakanojo-kanko.jp/kuni/hotsprings/%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89/",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "needs-source"
     },
     {
       "siteSlug": "minakami",
@@ -437,6 +461,18 @@
       "verifiedAt": "2026-08-15",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "yunokoya",
+      "name": "湯の小屋温泉",
+      "officialName": "みなかみ町観光協会・湯ノ小屋温泉",
+      "prefecture": "群馬県",
+      "classification": "onsen-place",
+      "publicationStatus": "published",
+      "officialUrl": "https://gunma-kanko.jp/spots/766",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "needs-source"
     },
     {
       "siteSlug": "katashina-kamata",
@@ -1025,6 +1061,18 @@
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "nokogiriyama-kanaya",
+      "name": "鋸山金谷温泉",
+      "officialName": "富津市観光協会・鋸山金谷温泉",
+      "prefecture": "千葉県",
+      "classification": "onsen-place",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.spa.or.jp/search_p/detail_p/?F_ID=120780&pg=40",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "needs-source"
     },
     {
       "siteSlug": "9109里温泉",
@@ -1639,6 +1687,18 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "nikko-onsen",
+      "name": "日光温泉",
+      "officialName": "日光温泉旅館協同組合",
+      "prefecture": "栃木県",
+      "classification": "onsen-place",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.nikko-kankou.org/spot/15",
+      "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "needs-source"
+    },
+    {
       "siteSlug": "nikko-yumoto",
       "name": "日光湯元温泉",
       "officialName": "奥日光湯元温泉旅館協同組合",
@@ -1687,61 +1747,5 @@
       "imageStatus": "legacy-review-needed"
     }
   ],
-  "candidates": [
-    {
-      "id": "ibaraki-kitaura-horai",
-      "name": "北浦宝来温泉",
-      "prefecture": "茨城県",
-      "classification": "onsen-place",
-      "status": "candidate",
-      "sourceName": "関東温泉ぐるり旅",
-      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
-      "sourcePublishedName": "北浦宝来温泉",
-      "reviewNote": "既存の掲載温泉地との同一性、所在地、宿泊施設を伴う温泉地としての扱いを一次・公的情報で照合する。"
-    },
-    {
-      "id": "chiba-nokogiriyama-kanaya",
-      "name": "鋸山金谷温泉",
-      "prefecture": "千葉県",
-      "classification": "onsen-place",
-      "status": "candidate",
-      "sourceName": "関東温泉ぐるり旅",
-      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
-      "sourcePublishedName": "鋸山金谷温泉",
-      "reviewNote": "既存の掲載温泉地との同一性、所在地、公式導線を確認してから追加する。"
-    },
-    {
-      "id": "gunma-shiriyaki",
-      "name": "尻焼温泉",
-      "prefecture": "群馬県",
-      "classification": "onsen-place",
-      "status": "candidate",
-      "sourceName": "関東温泉ぐるり旅",
-      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
-      "sourcePublishedName": "尻焼温泉",
-      "reviewNote": "既存の掲載温泉地との重複、日帰り入浴可否、公式または自治体の根拠を確認する。"
-    },
-    {
-      "id": "gunma-yunokoya",
-      "name": "湯の小屋温泉",
-      "prefecture": "群馬県",
-      "classification": "onsen-place",
-      "status": "candidate",
-      "sourceName": "関東温泉ぐるり旅",
-      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
-      "sourcePublishedName": "湯の小屋温泉",
-      "reviewNote": "既存の掲載温泉地との重複、所在地、公式導線を確認してから追加する。"
-    },
-    {
-      "id": "tochigi-nikko-onsen",
-      "name": "日光温泉",
-      "prefecture": "栃木県",
-      "classification": "onsen-place",
-      "status": "candidate",
-      "sourceName": "関東温泉ぐるり旅",
-      "sourceUrl": "https://www.welcome-kanto.jp/gururi/",
-      "sourcePublishedName": "日光温泉",
-      "reviewNote": "日光湯元温泉・中禅寺温泉等との関係を公式観光情報で照合する。"
-    }
-  ]
+  "candidates": []
 }

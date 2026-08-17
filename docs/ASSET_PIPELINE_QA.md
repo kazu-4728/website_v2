@@ -26,3 +26,12 @@
 ## 参考文献
 
 [1] [Wikimedia Commons: File:Togoshi Ginza at Night.jpg](https://commons.wikimedia.org/wiki/File:Togoshi_Ginza_at_Night.jpg)
+
+## 2026年8月17日：全体拡充後の表示確認
+
+| 確認ページ | 確認結果 |
+|---|---|
+| `/onsens/shiriyaki/` | 新規ページが生成され、自然河川の注意事項、弁天の湯の施設導線、画像確認待ち状態を確認した。未確認画像は表示していない。 |
+| `/onsens/ikaho/` | 承認済みローカルアセット `/images/onsens/ikaho/primary.jpg` がヒーロー・ギャラリーに表示され、Tomo氏とCC BY 2.0へのリンクが表示された。 |
+
+ローカル開発サーバーで確認。画像の対象・ライセンスが確認できない温泉地は、誤写真の代わりに確認待ちの状態を維持する。
