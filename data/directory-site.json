@@ -1067,7 +1067,7 @@
       "areaId": "ibaraki-onsen",
       "prefecture": "茨城県",
       "officialName": "常陸太田温泉 公式案内",
-      "officialUrl": "https://www.ibaraki-kanko.jp/",
+      "officialUrl": "https://www.ibarakiguide.jp/",
       "verifiedAt": "2026-08-17",
       "summary": "里山と古い町並みをめぐる温泉",
       "catchcopy": "里山と古い町並みをめぐる温泉",
@@ -1096,7 +1096,7 @@
         {
           "name": "常陸太田温泉 公式案内（公式案内）",
           "kind": "公式案内",
-          "url": "https://www.ibaraki-kanko.jp/",
+          "url": "https://www.ibarakiguide.jp/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%B8%E9%99%B8%E5%A4%AA%E7%94%B0%E6%B8%A9%E6%B3%89%20%E8%8C%A8%E5%9F%8E%E7%9C%8C"
         },
         {
@@ -2845,7 +2845,7 @@
       "areaId": "gunma-meito",
       "prefecture": "群馬県",
       "officialName": "上牧温泉 公式案内",
-      "officialUrl": "https://minakami-kankou.jp/",
+      "officialUrl": "https://www.enjoy-minakami.jp/",
       "verifiedAt": "2026-08-17",
       "summary": "利根川と谷川岳の景色をめぐる温泉",
       "catchcopy": "利根川と谷川岳の景色をめぐる温泉",
@@ -2876,7 +2876,7 @@
         {
           "name": "上牧温泉 公式案内（公式案内）",
           "kind": "公式案内",
-          "url": "https://minakami-kankou.jp/",
+          "url": "https://www.enjoy-minakami.jp/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%89%A7%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
         },
         {
@@ -3159,7 +3159,7 @@
       "areaId": "gunma-meito",
       "prefecture": "群馬県",
       "officialName": "赤城温泉郷 公式案内",
-      "officialUrl": "https://www.akagi-kanko.net/",
+      "officialUrl": "https://gunma-kanko.jp/spots/1359",
       "verifiedAt": "2026-08-17",
       "summary": "赤城山の自然と湯を味わう高原の温泉",
       "catchcopy": "赤城山の自然と湯を味わう高原の温泉",
@@ -3190,7 +3190,7 @@
         {
           "name": "赤城温泉郷 公式案内（公式案内）",
           "kind": "公式案内",
-          "url": "https://www.akagi-kanko.net/",
+          "url": "https://gunma-kanko.jp/spots/1359",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%9F%8E%E6%B8%A9%E6%B3%89%E9%83%B7%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
         },
         {
@@ -3482,7 +3482,7 @@
       "areaId": "gunma-meito",
       "prefecture": "群馬県",
       "officialName": "倉渕温泉 公式案内",
-      "officialUrl": "https://www.takasaki-kankou.jp/",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/",
       "verifiedAt": "2026-08-17",
       "summary": "榛名山麓の里山と温泉を楽しむ旅",
       "catchcopy": "榛名山麓の里山と温泉を楽しむ旅",
@@ -3513,7 +3513,7 @@
         {
           "name": "倉渕温泉 公式案内（公式案内）",
           "kind": "公式案内",
-          "url": "https://www.takasaki-kankou.jp/",
+          "url": "https://www.city.takasaki.gunma.jp/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%89%E6%B8%95%E6%B8%A9%E6%B3%89%20%E7%BE%A4%E9%A6%AC%E7%9C%8C"
         },
         {
@@ -4649,7 +4649,7 @@
       "areaId": "tokyo-saitama",
       "prefecture": "埼玉県",
       "officialName": "ときがわ温泉 公式案内",
-      "officialUrl": "https://www.tokigawa-kanko.com/",
+      "officialUrl": "https://www.town.tokigawa.lg.jp/",
       "verifiedAt": "2026-08-17",
       "summary": "里山の食と木立を感じる日帰り温泉",
       "catchcopy": "里山の食と木立を感じる日帰り温泉",
@@ -4680,7 +4680,7 @@
         {
           "name": "ときがわ温泉 公式案内（公式案内）",
           "kind": "公式案内",
-          "url": "https://www.tokigawa-kanko.com/",
+          "url": "https://www.town.tokigawa.lg.jp/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%8D%E3%81%8C%E3%82%8F%E6%B8%A9%E6%B3%89%20%E5%9F%BC%E7%8E%89%E7%9C%8C"
         },
         {
@@ -9234,7 +9234,7 @@
         {
           "name": "天然温泉 海辺の湯金谷",
           "kind": "宿泊・温泉",
-          "url": "https://www.umibe-4126.com/",
+          "url": "https://www.futtsu-kanko.info/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E6%B5%B7%E8%BE%BA%E3%81%AE%E6%B9%AF%20%E9%87%91%E8%B0%B7%20%E5%8D%83%E8%91%89%E7%9C%8C%E5%AF%8C%E6%B4%A5%E5%B8%82%E9%87%91%E8%B0%B7525-17"
         },
         {
@@ -11240,7 +11240,7 @@
       "areaId": "tokyo-urban-onsen",
       "prefecture": "東京都",
       "officialName": "高井戸天然温泉 美しの湯公式サイト",
-      "officialUrl": "https://utsukushi-yu.com/",
+      "officialUrl": "http://utsukushi-yu.com/",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "verifiedAt": "2026-08-17",
       "summary": "高井戸駅から徒歩2分、琥珀色の源泉を楽しめる杉並の温泉施設。",
@@ -11284,13 +11284,13 @@
         {
           "name": "高井戸天然温泉 美しの湯の料金・営業案内",
           "kind": "日帰り利用",
-          "url": "https://utsukushi-yu.com/price.html",
+          "url": "http://utsukushi-yu.com/price.html",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
         },
         {
           "name": "高井戸天然温泉 美しの湯の公式サイト",
           "kind": "公式案内",
-          "url": "https://utsukushi-yu.com/",
+          "url": "http://utsukushi-yu.com/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E4%BA%95%E6%88%B8%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E7%BE%8E%E3%81%97%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
         }
       ],
@@ -11325,7 +11325,7 @@
           "土日祝プール利用可",
           "深夜料金設定"
         ],
-        "officialInfoUrl": "https://utsukushi-yu.com/price.html",
+        "officialInfoUrl": "http://utsukushi-yu.com/price.html",
         "verifiedAt": "2026-08-17"
       },
       "imageVerified": false
@@ -12635,7 +12635,7 @@
       "areaId": "tokyo-urban-onsen",
       "prefecture": "東京都",
       "officialName": "東京天然温泉 古代の湯公式サイト",
-      "officialUrl": "https://kodainoyu.jp/",
+      "officialUrl": "http://kodainoyu.jp/",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "verifiedAt": "2026-08-17",
       "summary": "葛飾区で天然温泉と食事、休憩を一日ゆっくり楽しめる施設。",
@@ -12679,13 +12679,13 @@
         {
           "name": "東京天然温泉 古代の湯の料金・営業案内",
           "kind": "日帰り利用",
-          "url": "https://kodainoyu.jp/",
+          "url": "http://kodainoyu.jp/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
         },
         {
           "name": "東京天然温泉 古代の湯の公式サイト",
           "kind": "公式案内",
-          "url": "https://kodainoyu.jp/",
+          "url": "http://kodainoyu.jp/",
           "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E5%A4%A9%E7%84%B6%E6%B8%A9%E6%B3%89%20%E5%8F%A4%E4%BB%A3%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD"
         }
       ],
@@ -12720,7 +12720,7 @@
           "日帰り温浴",
           "年中無休"
         ],
-        "officialInfoUrl": "https://kodainoyu.jp/",
+        "officialInfoUrl": "http://kodainoyu.jp/",
         "verifiedAt": "2026-08-17"
       },
       "imageVerified": false

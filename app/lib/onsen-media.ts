@@ -18,15 +18,32 @@ interface ImageAsset {
   note: string;
 }
 
+interface AreaFallbackAsset {
+  id: string;
+  areaId: string;
+  prefecture?: string;
+  status: ImageAssetStatus;
+  role: ImageAssetRole;
+  label: string;
+  subject: string;
+  sourceUrl: string;
+  license: string;
+  credit?: string;
+  localPath?: string;
+  reviewedAt: string;
+  note: string;
+}
+
 interface ImageManifest {
   schemaVersion: number;
   lastReviewed: string;
   assets: ImageAsset[];
+  areaFallbacks?: AreaFallbackAsset[];
 }
 
 const imageManifest = imageManifestJson as ImageManifest;
 
-function toSiteImage(asset: ImageAsset): SiteImage {
+function toSiteImage(asset: Pick<ImageAsset, 'id' | 'localPath' | 'credit' | 'subject' | 'license' | 'sourceUrl'>): SiteImage {
   if (!asset.localPath || !asset.credit) {
     throw new Error(`Approved image asset ${asset.id} requires localPath and credit.`);
   }
@@ -47,7 +64,7 @@ export function getApprovedImageAssets(onsenSlug: string): ImageAsset[] {
 export function getOnsenMedia(onsen: Onsen): {
   hero?: SiteImage;
   gallery: SiteImage[];
-  status: 'verified-local' | 'legacy-review-needed' | 'source-pending';
+  status: 'verified-local' | 'contextual-local';
   reviewedAt?: string;
 } {
   const approved = getApprovedImageAssets(onsen.slug);
@@ -64,17 +81,15 @@ export function getOnsenMedia(onsen: Onsen): {
     };
   }
 
-  if (onsen.imageVerified !== false) {
+  const areaFallback = (imageManifest.areaFallbacks ?? []).find((asset) => asset.status === 'approved' && asset.areaId === onsen.areaId && (!asset.prefecture || asset.prefecture === onsen.prefecture));
+  if (areaFallback) {
     return {
-      hero: onsen.image,
-      gallery: onsen.gallery,
-      status: 'legacy-review-needed',
+      hero: toSiteImage(areaFallback),
+      gallery: [toSiteImage(areaFallback)],
+      status: 'contextual-local',
+      reviewedAt: areaFallback.reviewedAt,
     };
   }
 
-  return {
-    gallery: [],
-    status: 'source-pending',
-    reviewedAt: imageManifest.assets.find((asset) => asset.onsenSlug === onsen.slug && asset.role === 'hero')?.reviewedAt,
-  };
+  throw new Error(`No approved direct or regional contextual image is registered for ${onsen.slug}.`);
 }

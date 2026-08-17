@@ -145,7 +145,7 @@
       "prefecture": "茨城県",
       "classification": "onsen-place",
       "publicationStatus": "published",
-      "officialUrl": "https://www.ibaraki-kanko.jp/",
+      "officialUrl": "https://www.ibarakiguide.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
@@ -349,7 +349,7 @@
       "prefecture": "群馬県",
       "classification": "onsen-place",
       "publicationStatus": "published",
-      "officialUrl": "https://minakami-kankou.jp/",
+      "officialUrl": "https://www.enjoy-minakami.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
@@ -385,7 +385,7 @@
       "prefecture": "群馬県",
       "classification": "onsen-place",
       "publicationStatus": "published",
-      "officialUrl": "https://www.akagi-kanko.net/",
+      "officialUrl": "https://gunma-kanko.jp/spots/1359",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
@@ -421,7 +421,7 @@
       "prefecture": "群馬県",
       "classification": "onsen-place",
       "publicationStatus": "published",
-      "officialUrl": "https://www.takasaki-kankou.jp/",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
@@ -553,7 +553,7 @@
       "prefecture": "埼玉県",
       "classification": "onsen-place",
       "publicationStatus": "published",
-      "officialUrl": "https://www.tokigawa-kanko.com/",
+      "officialUrl": "https://www.town.tokigawa.lg.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": false,
       "imageStatus": "legacy-review-needed"
@@ -1309,7 +1309,7 @@
       "prefecture": "東京都",
       "classification": "day-trip-facility",
       "publicationStatus": "published",
-      "officialUrl": "https://utsukushi-yu.com/",
+      "officialUrl": "http://utsukushi-yu.com/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
       "imageStatus": "needs-source"
@@ -1477,7 +1477,7 @@
       "prefecture": "東京都",
       "classification": "day-trip-facility",
       "publicationStatus": "published",
-      "officialUrl": "https://kodainoyu.jp/",
+      "officialUrl": "http://kodainoyu.jp/",
       "verifiedAt": "2026-08-17",
       "hasDetailedDayTripGuide": true,
       "imageStatus": "needs-source"

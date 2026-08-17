@@ -7,6 +7,8 @@ import { OnsenCard } from '../../components/site/OnsenCard';
 import { OnsenGallery } from '../../components/site/OnsenGallery';
 import { DayTripInfo } from '../../components/site/DayTripInfo';
 import { getOnsenMedia } from '../../lib/onsen-media';
+import { getOnsenDetailedGuide } from '../../lib/onsen-guides';
+import { OnsenDetailedGuide } from '../../components/site/OnsenDetailedGuide';
 
 interface Props { params: Promise<{ slug: string }> }
 export function generateStaticParams() { return getOnsens().map((onsen) => ({ slug: onsen.slug })); }
@@ -14,7 +16,7 @@ export async function generateMetadata({ params }: Props) { const { slug } = awa
 
 export default async function OnsenDetailPage({ params }: Props) {
   const { slug } = await params; const onsen = getOnsen(slug); if (!onsen) notFound();
-  const area = getAreaForOnsen(onsen); const purposes = getPurposes(); const related = getRelatedOnsens(onsen.slug, 3); const matchedPurposes = purposes.filter((purpose) => onsen.useCases.includes(purpose.id)); const media = getOnsenMedia(onsen); const hasDisplayImage = Boolean(media.hero);
+  const area = getAreaForOnsen(onsen); const purposes = getPurposes(); const related = getRelatedOnsens(onsen.slug, 3); const matchedPurposes = purposes.filter((purpose) => onsen.useCases.includes(purpose.id)); const media = getOnsenMedia(onsen); const detailedGuide = getOnsenDetailedGuide(onsen.slug); const hasDisplayImage = Boolean(media.hero);
   return (
     <main className="bg-[#f6f0e5] text-[#2e261f]">
       <section className="relative overflow-hidden bg-[#241b15] text-white"><div className="absolute inset-0">{media.hero ? <Image src={media.hero.src} alt={media.hero.alt} fill priority sizes="100vw" className="object-cover opacity-60" /> : <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(239,208,146,0.28),transparent_28%),linear-gradient(135deg,#31565a,#1f302e_55%,#4b3829)]" aria-hidden="true" />}<div className="absolute inset-0 bg-[linear-gradient(115deg,#201710_5%,rgba(36,27,21,0.88)_45%,rgba(36,27,21,0.3)_100%)]" /></div><div className="relative mx-auto flex min-h-[70vh] max-w-7xl flex-col justify-end px-5 pb-14 pt-24 md:px-8 md:pb-20"><Link href="/onsens" className="portal-button-light mb-10 w-fit">← 温泉一覧へ戻る</Link><p className="text-sm font-bold tracking-[0.28em] text-[#f2d596]">{onsen.prefecture}{area ? ` / ${area.name}` : ''}</p><h1 className="mt-5 max-w-4xl font-serif text-5xl font-bold leading-tight md:text-7xl">{onsen.name}</h1><p className="mt-6 max-w-2xl text-xl font-semibold leading-9 text-[#fffaf0]">{onsen.catchcopy}</p><div className="mt-8 flex flex-wrap gap-2">{matchedPurposes.map((purpose) => <span key={purpose.id} className="rounded-full bg-[#f2d596] px-4 py-2 text-sm font-bold text-[#2e2117]">{purpose.shortLabel}</span>)}{onsen.tags.map((tag) => <span key={tag} className="rounded-full border border-white/35 bg-white/10 px-4 py-2 text-sm font-semibold text-white">{tag}</span>)}</div><div className="mt-8">{media.hero ? <ImageCredit image={media.hero} /> : <p className="text-xs font-semibold text-[#f2d596]">この施設の写真は、対象とライセンスを確認したうえで掲載します。</p>}</div></div></section>
@@ -27,6 +29,7 @@ export default async function OnsenDetailPage({ params }: Props) {
 
       <section className="bg-[#f6f0e5] py-16 md:py-24"><div className="mx-auto max-w-7xl px-5 md:px-8"><div className="mb-10"><p className="eyebrow">SEASONAL GUIDE</p><h2 className="mt-4 font-serif text-4xl font-bold text-[#33291f] md:text-5xl">季節で変わる、行きたい理由</h2></div><div className="grid gap-4 md:grid-cols-3">{onsen.seasonal.map((item) => <div key={item.season} className="rounded-[1.5rem] border border-[#d8c8ae] bg-[#fffaf0] p-6"><p className="font-serif text-3xl font-bold text-[#8a5b2b]">{item.season}</p><p className="mt-4 text-sm leading-7 text-[#4b4036]">{item.text}</p></div>)}</div></div></section>
 
+      <OnsenDetailedGuide guide={detailedGuide} />
       <DayTripInfo info={onsen.dayTrip} />
       <section className="bg-white py-16 md:py-24"><div className="mx-auto max-w-7xl px-5 md:px-8"><div className="mb-10"><p className="eyebrow">STAY & DAY TRIP</p><h2 className="mt-4 font-serif text-4xl font-bold text-[#33291f] md:text-5xl">宿泊・日帰り施設を探す</h2><p className="mt-4 max-w-2xl text-sm leading-7 text-[#66594d]">施設ごとに営業日・入浴条件が異なります。公式案内と地図を開き、最新情報を確認してください。</p></div><div className="grid gap-4 md:grid-cols-3">{onsen.facilities.map((facility) => <div key={facility.name} className="rounded-[1.5rem] border border-[#d8c8ae] bg-[#fffaf0] p-5"><p className="text-xs font-bold tracking-[0.14em] text-[#8c6846]">{facility.kind}</p><h3 className="mt-3 min-h-12 text-base font-bold leading-6 text-[#33291f]">{facility.name}</h3><div className="mt-5 grid gap-2"><Link href={facility.url} target="_blank" rel="noopener noreferrer" className="portal-button-secondary">施設案内を開く</Link><Link href={facility.mapUrl} target="_blank" rel="noopener noreferrer" className="portal-button-outline">地図で見る</Link></div></div>)}</div></div></section>
 

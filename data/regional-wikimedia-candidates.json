@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-08-17",
+  "source": "Wikimedia Commons",
+  "regions": [
+    {
+      "id": "chiba-boso",
+      "query": "Nokogiri Chiba",
+      "label": "房総・九十九里",
+      "candidates": [
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (08).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(08).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2808%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Vista desde el monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (10).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(10).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (11).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(11).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (12).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(12).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (16).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(16).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2816%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (17).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(17).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (19).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(19).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (21).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(21).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (28).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(28).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        },
+        {
+          "title": "File:Mount Nokogiri (Chiba) - Nihon-ji 2023-08-24 (27).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nokogiri_(Chiba)_-_Nihon-ji_2023-08-24_(27).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mount_Nokogiri_%28Chiba%29_-_Nihon-ji_2023-08-24_%2827%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Mauricio V. Genta",
+          "imageDescription": "Camino dentro del Monte Nokogiri",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "id": "saitama-west",
+      "query": "Chichibu Saitama",
+      "label": "埼玉・奥武蔵秩父",
+      "candidates": [
+        {
+          "title": "File:Chichibu Railway 1000 yellow.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chichibu_Railway_1000_yellow.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Chichibu_Railway_1000_yellow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Sui-setz",
+          "imageDescription": "Chichibu Railway 1000 series EMU 3-car set 1012 in \"canary yellow\" livery on the Chichibu Main Line between Bushu-Araki and Higashi-Gyoda stations",
+          "reusable": true
+        },
+        {
+          "title": "File:Chichibu ED38 1 Mitsumineguchi 20111114.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chichibu_ED38_1_Mitsumineguchi_20111114.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Chichibu_ED38_1_Mitsumineguchi_20111114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "DAJF",
+          "imageDescription": "Preserved Chichibu Railway Class ED38 electric locomotive number ED38 1 at the Chichibu Railway Park next to Mitsumineguchi Station in Saitama Prefecture, Japan",
+          "reusable": true
+        },
+        {
+          "title": "File:Saitama Prefectural Chichibu High School.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Saitama_Prefectural_Chichibu_High_School.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Saitama_Prefectural_Chichibu_High_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "M yanagisawa",
+          "imageDescription": "View from main gate of Chichibu High School",
+          "reusable": true
+        },
+        {
+          "title": "File:Central Chichibu view from Hitsujiyama Park.JPG",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Central_Chichibu_view_from_Hitsujiyama_Park.JPG",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Central_Chichibu_view_from_Hitsujiyama_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Abasaa",
+          "imageDescription": "Central Chichibu view from Hitsujiyama Park",
+          "reusable": true
+        },
+        {
+          "title": "File:Otaki, Chichibu, Saitama Prefecture 369-1901, Japan - panoramio (3).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Otaki,_Chichibu,_Saitama_Prefecture_369-1901,_Japan_-_panoramio_(3).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Otaki%2C_Chichibu%2C_Saitama_Prefecture_369-1901%2C_Japan_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "kiwa dokokano",
+          "imageDescription": "Otaki, Chichibu, Saitama Prefecture 369-1901, Japan",
+          "reusable": true
+        },
+        {
+          "title": "File:Route140 Minano Chichibu Bypass Saitama prefecture Chichibu City 1.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Route140_Minano_Chichibu_Bypass_Saitama_prefecture_Chichibu_City_1.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Route140_Minano_Chichibu_Bypass_Saitama_prefecture_Chichibu_City_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Ebiebi2",
+          "imageDescription": "国道140号皆野秩父バイパス埼玉県秩父市小柱付近（寄居方面を撮影）",
+          "reusable": true
+        },
+        {
+          "title": "File:Chichibu Night Festival. Passing the floats of Nakamachi and Kamimachi. Chichibu city,Japan.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chichibu_Night_Festival._Passing_the_floats_of_Nakamachi_and_Kamimachi._Chichibu_city,Japan.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Chichibu_Night_Festival._Passing_the_floats_of_Nakamachi_and_Kamimachi._Chichibu_city%2CJapan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 4.0",
+          "credit": "Katorisi",
+          "imageDescription": "Chichibu Night Festival. Passing the floats of Nakamachi and Kamimachi. Chichibu city,Japan",
+          "reusable": true
+        },
+        {
+          "title": "File:Yaohonten, Chichibu, Saitama-20240330.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yaohonten,_Chichibu,_Saitama-20240330.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Yaohonten%2C_Chichibu%2C_Saitama-20240330.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC0",
+          "credit": "山田晴通",
+          "imageDescription": "Yaohonten, a sake brewery since 1749, opened the present location facilities in 1994.",
+          "reusable": true
+        },
+        {
+          "title": "File:Chichibu FM, Chichibu, Saitama-20240331.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chichibu_FM,_Chichibu,_Saitama-20240331.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Chichibu_FM%2C_Chichibu%2C_Saitama-20240331.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC0",
+          "credit": "山田晴通",
+          "imageDescription": "Chichibu FM, 79.0MHz, a community radio in Chichibu, Saitama, Japan is on the air since 2019.",
+          "reusable": true
+        },
+        {
+          "title": "File:Yao departmentstore, Chichibu, Saitama-20240331.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yao_departmentstore,_Chichibu,_Saitama-20240331.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yao_departmentstore%2C_Chichibu%2C_Saitama-20240331.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC0",
+          "credit": "山田晴通",
+          "imageDescription": "Yao departmentstore, Chichibu, Saitama, Japan has a long history in sake brewery and retail business since 1749, and started modern department store business in 1970.",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "id": "ibaraki-onsen",
+      "query": "五浦 海岸",
+      "label": "茨城・奥久慈",
+      "candidates": [
+        {
+          "title": "File:Izura-beach2011.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura-beach2011.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Izura-beach2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "On-chan",
+          "imageDescription": "Izura(Itsuura) beach in Kitaibaraki city, Ibaraki prefecture, Japan. This picture was taken in Izura-Misaki park.",
+          "reusable": true
+        },
+        {
+          "title": "File:Flickr - IbaGeo - 五浦海岸 六角堂.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_IbaGeo_-_%E4%BA%94%E6%B5%A6%E6%B5%B7%E5%B2%B8_%E5%85%AD%E8%A7%92%E5%A0%82.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flickr_-_IbaGeo_-_%E4%BA%94%E6%B5%A6%E6%B5%B7%E5%B2%B8_%E5%85%AD%E8%A7%92%E5%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 2.0",
+          "credit": "IbaGeo",
+          "imageDescription": "2011年東日本大震災で流される前の六角堂。",
+          "reusable": true
+        },
+        {
+          "title": "File:Izura Coast Line, Ibaraki pref. Road No.354 at Hirakata-cho.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Coast_Line,_Ibaraki_pref._Road_No.354_at_Hirakata-cho.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Izura_Coast_Line%2C_Ibaraki_pref._Road_No.354_at_Hirakata-cho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Miyuki Meinaka",
+          "imageDescription": "This is one scene of the Ibaraki prefectural road No.354 Izura Kaigan Line in Hirakata-cho, Kitaibaraki, Ibaraki, Japan.",
+          "reusable": true
+        },
+        {
+          "title": "File:Izura Beach with rebuilt Rokkakudo in 2012.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Beach_with_rebuilt_Rokkakudo_in_2012.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Izura_Beach_with_rebuilt_Rokkakudo_in_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Miyuki Meinaka",
+          "imageDescription": "This is a landscape of Izura Beach in 2012.",
+          "reusable": true
+        },
+        {
+          "title": "File:Ibaraki-ken géolocalisation relief.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ibaraki-ken_g%C3%A9olocalisation_relief.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ibaraki-ken_g%C3%A9olocalisation_relief.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 2.0 fr",
+          "credit": "© Bourrichon (talk) - fr:Bourrichon",
+          "imageDescription": "Topographic blank map of the Ibaraki Prefecture, for geolocalisation purpose.",
+          "reusable": true
+        },
+        {
+          "title": "File:Ibaraki prefectural road route 354 (Izura coast line) in Otsu-cho,Kitaibaraki city.JPG",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ibaraki_prefectural_road_route_354_(Izura_coast_line)_in_Otsu-cho,Kitaibaraki_city.JPG",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ibaraki_prefectural_road_route_354_%28Izura_coast_line%29_in_Otsu-cho%2CKitaibaraki_city.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "小石川人晃",
+          "imageDescription": "茨城県道354号五浦海岸線（北茨城市大津町）",
+          "reusable": true
+        },
+        {
+          "title": "File:Izura Beach 01.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Beach_01.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Izura_Beach_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Izura Beach, Kita-Ibaraki City, Ibaraki Prefecture, Japan.",
+          "reusable": true
+        },
+        {
+          "title": "File:Izura Beach 02.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Beach_02.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Izura_Beach_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Izura Beach, Kita-Ibaraki City, Ibaraki Prefecture, Japan.",
+          "reusable": true
+        },
+        {
+          "title": "File:Izura Beach 03.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Beach_03.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Izura_Beach_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Izura Beach, Kita-Ibaraki City, Ibaraki Prefecture, Japan.",
+          "reusable": true
+        },
+        {
+          "title": "File:Izura Beach 04.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Izura_Beach_04.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Izura_Beach_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Σ64",
+          "imageDescription": "Izura Beach, Kita-Ibaraki City, Ibaraki Prefecture, Japan.",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "id": "tokyo-islands",
+      "query": "Okutama Tokyo",
+      "label": "東京・奥多摩・島しょ",
+      "candidates": [
+        {
+          "title": "File:Flag of Okutama, Tokyo.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Okutama,_Tokyo.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Okutama%2C_Tokyo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Kzaral (original raster), Ch1902",
+          "imageDescription": "Flag of Okutama, Tokyo",
+          "reusable": true
+        },
+        {
+          "title": "File:Population distribution of Okutama, Tokyo, Japan.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Population_distribution_of_Okutama,_Tokyo,_Japan.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Population_distribution_of_Okutama%2C_Tokyo%2C_Japan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Lincun at ja.wikipedia",
+          "imageDescription": "Population distribution of Okutama. Source: 2005 Census.",
+          "reusable": true
+        },
+        {
+          "title": "File:Emblem of Okutama, Tokyo.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Okutama,_Tokyo.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Emblem_of_Okutama%2C_Tokyo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Kzaral (original raster), Ch1902, Jkr2255",
+          "imageDescription": "Emblem of Okutama, Tokyo",
+          "reusable": true
+        },
+        {
+          "title": "File:Okutama , Tokyo - panoramio (3).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Okutama_,_Tokyo_-_panoramio_(3).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Okutama_%2C_Tokyo_-_panoramio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Kaz Ish",
+          "imageDescription": "Okutama , Tokyo",
+          "reusable": true
+        },
+        {
+          "title": "File:Okutama , Tokyo - panoramio (5).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Okutama_,_Tokyo_-_panoramio_(5).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Okutama_%2C_Tokyo_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Kaz Ish",
+          "imageDescription": "Okutama , Tokyo",
+          "reusable": true
+        },
+        {
+          "title": "File:Okutama , Tokyo - panoramio (6).jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Okutama_,_Tokyo_-_panoramio_(6).jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Okutama_%2C_Tokyo_-_panoramio_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Kaz Ish",
+          "imageDescription": "Okutama , Tokyo",
+          "reusable": true
+        },
+        {
+          "title": "File:Map tokyo Okutama town p01-01.png",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Map_tokyo_Okutama_town_p01-01.png",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Map_tokyo_Okutama_town_p01-01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "改変元：著作権・使用制限テンプレート参照 改変部分：アップロード者",
+          "imageDescription": "東京都奥多摩町の位置",
+          "reusable": true
+        },
+        {
+          "title": "File:Okutama in Tokyo Prefecture Ja.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Okutama_in_Tokyo_Prefecture_Ja.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Okutama_in_Tokyo_Prefecture_Ja.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Lincun",
+          "imageDescription": "Location of Okutama in Tokyo",
+          "reusable": true
+        },
+        {
+          "title": "File:Rackcar at a private residence in Okutama town.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rackcar_at_a_private_residence_in_Okutama_town.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rackcar_at_a_private_residence_in_Okutama_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "ブルーノ・プラス",
+          "imageDescription": "奥多摩町の個人邸で用いられるガソリンエンジン駆動のラックカー（モノレール）。町からの助成金があり、急斜面にあって設置を希望した個人宅の人荷運搬に用いられている。",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "id": "gunma-minakami",
+      "query": "Minakami Gunma",
+      "label": "群馬・みなかみ",
+      "candidates": [
+        {
+          "title": "File:Minakami in Gunma Prefecture Ja.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Minakami_in_Gunma_Prefecture_Ja.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Minakami_in_Gunma_Prefecture_Ja.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "ja: 利用者:Lincun",
+          "imageDescription": "Location of Minakami in Gunma Prefecture",
+          "reusable": true
+        },
+        {
+          "title": "File:Population distribution of Minakami, Gunma, Japan.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Population_distribution_of_Minakami,_Gunma,_Japan.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Population_distribution_of_Minakami%2C_Gunma%2C_Japan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Lincun at Japanese Wikipedia",
+          "imageDescription": "Population distribution of Minakami. Source: 2005 Census.",
+          "reusable": true
+        },
+        {
+          "title": "File:Emblem of Minakami, Gunma.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Minakami,_Gunma.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Emblem_of_Minakami%2C_Gunma.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "vectorized by Los688, 2014",
+          "imageDescription": "Emblem of Minakami",
+          "reusable": true
+        },
+        {
+          "title": "File:MinakamiTownOffice.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MinakamiTownOffice.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/MinakamiTownOffice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "Asasa198",
+          "imageDescription": "群馬県利根郡みなかみ町役場",
+          "reusable": true
+        },
+        {
+          "title": "File:Yubiso, Minakami, Tone District, Gunma Prefecture 379-1728, Japan - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yubiso,_Minakami,_Tone_District,_Gunma_Prefecture_379-1728,_Japan_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Yubiso%2C_Minakami%2C_Tone_District%2C_Gunma_Prefecture_379-1728%2C_Japan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "kiwa dokokano",
+          "imageDescription": "Yubiso, Minakami, Tone District, Gunma Prefecture 379-1728, Japan",
+          "reusable": true
+        },
+        {
+          "title": "File:Minakami map.gif",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Minakami_map.gif",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Minakami_map.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Masa.sohara",
+          "imageDescription": "access map",
+          "reusable": true
+        },
+        {
+          "title": "File:Flag of Minakami, Gunma.svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minakami,_Gunma.svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Minakami%2C_Gunma.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Mike Rohsopht",
+          "imageDescription": "Flag of Minakami, Gunma",
+          "reusable": true
+        },
+        {
+          "title": "File:Route17 Shin-Mikuni Tunnel＆Mikuni Tunnel Gunma Prefecture Minakami Town 1.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Route17_Shin-Mikuni_Tunnel%EF%BC%86Mikuni_Tunnel_Gunma_Prefecture_Minakami_Town_1.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Route17_Shin-Mikuni_Tunnel%EF%BC%86Mikuni_Tunnel_Gunma_Prefecture_Minakami_Town_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 4.0",
+          "credit": "Ebiebi2",
+          "imageDescription": "国道17号三国トンネル（右側）と新三国トンネル（左側）（群馬県利根郡みなかみ町側から撮影）",
+          "reusable": true
+        },
+        {
+          "title": "File:Emblem of Minakami, Gunma (1964–2005).svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Minakami,_Gunma_(1964%E2%80%932005).svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Emblem_of_Minakami%2C_Gunma_%281964%E2%80%932005%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Original: Unknown Vector: ReneeWrites",
+          "imageDescription": "Emblem of Minakami, Gunma (1964–2005)",
+          "reusable": true
+        },
+        {
+          "title": "File:Flag of Minakami, Gunma (1964–2005).svg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minakami,_Gunma_(1964%E2%80%932005).svg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Minakami%2C_Gunma_%281964%E2%80%932005%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "Public domain",
+          "credit": "Original: Unknown Vector: ReneeWrites",
+          "imageDescription": "Flag of Minakami, Gunma (1964–2005)",
+          "reusable": true
+        }
+      ]
+    },
+    {
+      "id": "tochigi-nasu",
+      "query": "Nasu Tochigi landscape",
+      "label": "那須・板室",
+      "candidates": [
+        {
+          "title": "File:The Sunset at Iouno - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:The_Sunset_at_Iouno_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/The_Sunset_at_Iouno_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Ryusuke Seto",
+          "imageDescription": "The Sunset at Iouno",
+          "reusable": true
+        },
+        {
+          "title": "File:Nasu A Spring Day - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nasu_A_Spring_Day_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Nasu_A_Spring_Day_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "河田鷹介",
+          "imageDescription": "Nasu A Spring Day",
+          "reusable": true
+        },
+        {
+          "title": "File:Nasu A Spring Day(2) - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nasu_A_Spring_Day(2)_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Nasu_A_Spring_Day%282%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY-SA 3.0",
+          "credit": "河田鷹介",
+          "imageDescription": "Nasu A Spring Day(2)",
+          "reusable": true
+        },
+        {
+          "title": "File:Windmills in Nasu - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Windmills_in_Nasu_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Windmills_in_Nasu_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Ryusuke Seto",
+          "imageDescription": "Windmills in Nasu",
+          "reusable": true
+        },
+        {
+          "title": "File:Nasu Highland Bridge - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nasu_Highland_Bridge_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Nasu_Highland_Bridge_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Ryusuke Seto",
+          "imageDescription": "Nasu Highland Bridge",
+          "reusable": true
+        },
+        {
+          "title": "File:Oshima, Nasu, Nasu District, Tochigi Prefecture 329-3223, Japan - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oshima,_Nasu,_Nasu_District,_Tochigi_Prefecture_329-3223,_Japan_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Oshima%2C_Nasu%2C_Nasu_District%2C_Tochigi_Prefecture_329-3223%2C_Japan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Ryusuke Seto",
+          "imageDescription": "Oshima, Nasu, Nasu District, Tochigi Prefecture 329-3223, Japan",
+          "reusable": true
+        },
+        {
+          "title": "File:Koyui, Nasushiobara, Tochigi Prefecture 325-0035, Japan - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Koyui,_Nasushiobara,_Tochigi_Prefecture_325-0035,_Japan_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Koyui%2C_Nasushiobara%2C_Tochigi_Prefecture_325-0035%2C_Japan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Ryusuke Seto",
+          "imageDescription": "Koyui, Nasushiobara, Tochigi Prefecture 325-0035, Japan",
+          "reusable": true
+        },
+        {
+          "title": "File:Nasukogen - panoramio.jpg",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nasukogen_-_panoramio.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Nasukogen_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "license": "CC BY 3.0",
+          "credit": "Ryusuke Seto",
+          "imageDescription": "Nasukogen",
+          "reusable": true
+        }
+      ]
+    }
+  ]
+}

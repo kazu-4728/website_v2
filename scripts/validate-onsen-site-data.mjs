@@ -6,6 +6,19 @@ const root = process.cwd();
 const dataPath = path.join(root, 'data', 'directory-site.json');
 const errors = [];
 const warnings = [];
+// 2026-08-17にHTTP 200を確認した、HTTPS未対応の既存公式サイトのみを許可する。
+const verifiedHttpOnlyHosts = new Set(['utsukushi-yu.com', 'kodainoyu.jp']);
+
+function isAllowedPublicUrl(value) {
+  if (typeof value !== 'string') return false;
+  if (value.startsWith('https://')) return true;
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === 'http:' && verifiedHttpOnlyHosts.has(parsed.hostname);
+  } catch {
+    return false;
+  }
+}
 
 function fail(message) {
   errors.push(message);
@@ -104,13 +117,13 @@ const purposeIds = new Set();
   if (onsenSlugs.has(onsen.slug)) fail(`${base}.slug is duplicated: ${onsen.slug}`);
   onsenSlugs.add(onsen.slug);
   if (!areaIds.has(onsen.areaId)) fail(`${base}.areaId references missing area: ${onsen.areaId}`);
-  if (typeof onsen.officialUrl === 'string' && !onsen.officialUrl.startsWith('https://')) fail(`${base}.officialUrl must be https URL`);
+  if (!isAllowedPublicUrl(onsen.officialUrl)) fail(`${base}.officialUrl must be https URL or a verified HTTP-only official URL`);
   if (typeof onsen.mapUrl === 'string' && !onsen.mapUrl.startsWith('https://www.google.com/maps/')) fail(`${base}.mapUrl must be Google Maps URL`);
   if (!Array.isArray(onsen.facilities) || onsen.facilities.length < 2) fail(`${base}.facilities must contain at least two links`);
   (onsen.facilities || []).forEach((facility, facilityIndex) => {
     const facilityBase = `${base}.facilities[${facilityIndex}]`;
     ['name', 'kind', 'url', 'mapUrl'].forEach((key) => requireString(facility[key], `${facilityBase}.${key}`));
-    if (typeof facility.url === 'string' && !facility.url.startsWith('https://')) fail(`${facilityBase}.url must be https URL`);
+    if (!isAllowedPublicUrl(facility.url)) fail(`${facilityBase}.url must be https URL or a verified HTTP-only official URL`);
     if (typeof facility.mapUrl === 'string' && !facility.mapUrl.startsWith('https://www.google.com/maps/')) fail(`${facilityBase}.mapUrl must be Google Maps URL`);
   });
   onsen.useCases?.forEach((purposeId) => {
