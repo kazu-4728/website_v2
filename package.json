@@ -12,7 +12,8 @@
     "start": "next start",
     "sync:ledgers": "node scripts/sync-onsen-coverage-ledger.mjs",
     "validate:ledgers": "node scripts/validate-onsen-ledgers.mjs",
-    "validate:data": "node scripts/validate-onsen-site-data.mjs && npm run validate:ledgers && node scripts/validate-external-image-policy.mjs",
+    "audit:links": "node scripts/audit-onsen-links.mjs",
+    "validate:data": "node scripts/validate-onsen-site-data.mjs && npm run validate:ledgers && node scripts/validate-external-image-policy.mjs && node scripts/validate-onsen-link-audit.mjs",
     "check": "npm run validate:data",
     "test": "npm run validate:data",
     "prebuild": "node -e \"if (process.env.SKIP_CHECK !== 'true') { require('child_process').execSync('npm run validate:data', {stdio: 'inherit'}); }\""
