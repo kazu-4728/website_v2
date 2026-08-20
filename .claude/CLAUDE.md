@@ -3,6 +3,15 @@
 > このファイルはAIセッションをまたいで文脈を引き継ぐための記録です。
 > セッション終了時に必ず更新してください。
 
+## 現在の最優先上書き方針（2026-08-17）
+
+> **温泉画像のバイナリをローカル、`public/images/`、Gitリポジトリ、またはGitHub Pages成果物へ保存してはならない。** 画像は `data/onsen-image-manifest.json` の承認済みHTTPS `deliveryUrl` だけで外部配信する。
+
+- `localPath` の追加・復活、画像ダウンロード、画像最適化、`public/images/` の作成・復活は禁止。
+- レートリミットまたはAPIエラー中は、画像検索API・画像ダウンロード・バッチ再試行を実行しない。
+- 画像台帳を変更したら `npm run validate:data` と `npm run build` を実行する。検証はローカル画像と `localPath` を拒否する。
+- 画像外部配信への移行履歴と既存クローンの復旧は `docs/KANTO_ONSEN_PORTAL_HANDOVER_2026-08-17.md` を参照する。
+
 ---
 
 ## プロジェクト概要

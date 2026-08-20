@@ -1,6 +1,5 @@
 import imageManifestJson from '../../data/onsen-image-manifest.json';
 import type { Onsen, SiteImage } from './onsen-site';
-import { withPublicBasePath } from './public-image';
 
 export type ImageAssetStatus = 'approved' | 'needs-source' | 'permission-requested' | 'rejected' | 'retired';
 export type ImageAssetRole = 'hero' | 'gallery';
@@ -14,7 +13,6 @@ interface ImageAsset {
   sourceUrl: string;
   license: string;
   credit?: string;
-  localPath?: string;
   deliveryUrl?: string;
   reviewedAt: string;
   note: string;
@@ -31,7 +29,6 @@ interface AreaFallbackAsset {
   sourceUrl: string;
   license: string;
   credit?: string;
-  localPath?: string;
   deliveryUrl?: string;
   reviewedAt: string;
   note: string;
@@ -46,13 +43,13 @@ interface ImageManifest {
 
 const imageManifest = imageManifestJson as ImageManifest;
 
-function toSiteImage(asset: Pick<ImageAsset, 'id' | 'localPath' | 'deliveryUrl' | 'credit' | 'subject' | 'license' | 'sourceUrl'>): SiteImage {
-  if ((!asset.deliveryUrl && !asset.localPath) || !asset.credit) {
-    throw new Error(`Approved image asset ${asset.id} requires deliveryUrl or localPath, plus credit.`);
+function toSiteImage(asset: Pick<ImageAsset, 'id' | 'deliveryUrl' | 'credit' | 'subject' | 'license' | 'sourceUrl'>): SiteImage {
+  if (!asset.deliveryUrl?.startsWith('https://') || !asset.credit) {
+    throw new Error(`Approved image asset ${asset.id} requires an HTTPS deliveryUrl and credit.`);
   }
 
   return {
-    src: asset.deliveryUrl ?? withPublicBasePath(asset.localPath!),
+    src: asset.deliveryUrl,
     alt: asset.subject,
     credit: asset.credit,
     license: asset.license,
@@ -67,7 +64,7 @@ export function getApprovedImageAssets(onsenSlug: string): ImageAsset[] {
 export function getOnsenMedia(onsen: Onsen): {
   hero?: SiteImage;
   gallery: SiteImage[];
-  status: 'verified-local' | 'contextual-local';
+  status: 'verified-external' | 'contextual-external';
   reviewedAt?: string;
 } {
   const approved = getApprovedImageAssets(onsen.slug);
@@ -79,7 +76,7 @@ export function getOnsenMedia(onsen: Onsen): {
     return {
       hero,
       gallery,
-      status: 'verified-local',
+      status: 'verified-external',
       reviewedAt: approvedHero.reviewedAt,
     };
   }
@@ -89,7 +86,7 @@ export function getOnsenMedia(onsen: Onsen): {
     return {
       hero: toSiteImage(areaFallback),
       gallery: [toSiteImage(areaFallback)],
-      status: 'contextual-local',
+      status: 'contextual-external',
       reviewedAt: areaFallback.reviewedAt,
     };
   }

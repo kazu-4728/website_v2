@@ -147,11 +147,11 @@ npm list next eslint react
 - `docs/design/UI_DESIGN_V3.md` - UI設計書
 - `docs/design/REVIEW_SITE_CURRENT.md` - 現状分析レポート
 
-### 画像システム
-- `docs/images/MULTI_API_IMAGE_FETCH.md` - **画像取得システムガイド**
-- `docs/images/IMAGE_FETCH_RECOMMENDATIONS.md` - 画像取得推奨事項
-- `data/wikimedia-images.json` - **取得した画像のリスト（ユーザー確認用）**
-- `scripts/fetch-onsen-images-multi-api.js` - **画像取得スクリプト**
+### 画像システム（最優先）
+- `AGENTS.md` - **画像外部配信専用の強制ルール（必読）**
+- `data/onsen-image-manifest.json` - 出典・ライセンス・著作者・外部配信URLの台帳
+- `scripts/validate-external-image-policy.mjs` - ローカル画像と`localPath`を拒否する検証
+- 画像取得・ダウンロード・ローカル最適化スクリプトは廃止済み。画像ファイルを取得・保存しない。
 
 ### アーキテクチャ
 - `docs/architecture/MASTER_ARCHITECTURE.md` - アーキテクチャの詳細
@@ -189,23 +189,16 @@ npm list next eslint react
 
 ## ⚠️ 注意事項
 
-1. **画像の取得と使用について（最重要）**
-   - 画像取得スクリプトで取得した画像は、**自動的にサイトに反映しません**
-   - 取得した画像は`data/wikimedia-images.json`に保存されますが、**ユーザーが確認して使用を判断します**
-   - エージェントは画像を取得するだけで、**勝手にサイトに反映しないでください**
-   - 取得した画像のURLをリストアップし、ユーザーに報告してください
-   - ユーザーの承認を得てから、サイトに反映してください
-   - 詳細は `docs/AGENT_GUIDE.md` を参照
+1. **画像の外部配信専用方針（最重要）**
+   - 温泉画像のバイナリを`public/images/`、Gitリポジトリ、GitHub Pages成果物に保存してはならない。
+   - 承認済みのHTTPS `deliveryUrl`、出典、ライセンス、著作者、対象説明だけを`data/onsen-image-manifest.json`で管理する。
+   - `localPath`の追加・復活、画像ダウンロード、ローカル最適化、画像収集バッチはすべて禁止する。
+   - レートリミットまたはAPIエラー中は、画像関連の外部アクセスを実行しない。
+   - 詳細は`AGENTS.md`と`docs/KANTO_ONSEN_PORTAL_HANDOVER_2026-08-17.md`を参照する。
 
-2. **画像の最適化**: GitHub Pagesの静的エクスポートでは画像最適化が無効（`unoptimized: true`）
-3. **テスト**: 一部のテストが失敗している可能性がある（`SKIP_CHECK=true`でスキップ可能）
-4. **画像取得システム**: 
-   - 複数の無料画像APIを統合した画像取得システムを実装済み（`scripts/fetch-onsen-images-multi-api.js`）
-   - Wikimedia Commons APIはAPIキー不要だが、レート制限に注意
-   - Pixabay、Pexels、UnsplashはAPIキーが必要（環境変数で設定）
-   - 詳細は `docs/images/MULTI_API_IMAGE_FETCH.md` を参照
-5. **ビルド**: 静的エクスポートを使用しているため、サーバーサイド機能は使用できない
-6. **APIキーの管理**: APIキーは環境変数で管理し、絶対にコミット・ログ出力しないこと
+2. **検証**: `npm run validate:data` はローカル画像、`localPath`、非HTTPS配信URLを拒否する。`SKIP_CHECK=true`での回避は禁止する。
+3. **ビルド**: 静的エクスポートを使用しているため、サーバーサイド機能は使用できない。
+4. **APIキーの管理**: APIキーは環境変数で管理し、絶対にコミット・ログ出力しないこと。
 
 ## 🔒 編集可能なレイヤー / 編集禁止レイヤー
 

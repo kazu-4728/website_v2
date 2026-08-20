@@ -32,7 +32,7 @@
 | 温泉画像の表示解決 | `app/lib/onsen-media.ts` | `deliveryUrl` を優先して画面へ返す |
 | サイトデータへの画像同期 | `scripts/sync-onsen-images-from-manifest.mjs` | 台帳から全温泉レコードへ外部URLを反映 |
 | 画像バイナリの禁止 | `.gitignore` の `/public/images/` | 画像ファイルをGit管理しない |
-| 画像移行補助 | `scripts/migrate-onsen-images-to-external-cdn.mjs` と `scripts/migrate-regional-fallbacks-to-external-cdn.mjs` | Commons/Flickrの出典に基づき外部URLを記録 |
+| 画像収集・移行スクリプト | 廃止済み | レートリミットとローカル保存の再発を防ぐため、画像取得・移行の自動化は実行しない |
 
 現在の外部配信先は `upload.wikimedia.org` が156件、`live.staticflickr.com` が3件である。温泉ページは画像バイナリをGitHub Pagesから配信せず、台帳に記録された外部URLを直接参照する。
 
@@ -105,7 +105,7 @@ git push origin main
 2. `main` の履歴を再度書き換える必要がある場合は、事前にユーザーの明示承認を得て、既存クローン用の復旧手順を更新する。
 3. 既存クローンの非fast-forwardエラーを解消するために、安易な `git pull --allow-unrelated-histories`、通常マージ、または古いブランチのmainへのマージを行わない。
 4. 画像台帳を変更したときは `node scripts/sync-onsen-images-from-manifest.mjs`、`npm run validate:data`、`node scripts/validate-complete-onsen-portal.mjs`、`npm run build` を実行する。
-5. 外部配信先で画像が取得不能になった場合は、対象画像を別の再利用可能な出典へ差し替え、ライセンスと対象説明を台帳に更新する。
+5. 外部配信先で画像が取得不能になった場合は、ダウンロードや収集バッチを実行せず、出典・ライセンス・外部配信URLを人手で確認したうえで台帳だけを更新する。レートリミットまたはAPIエラー中は画像関連の外部アクセスを停止する。
 
 ## 8. 関連ファイル
 
@@ -115,8 +115,8 @@ git push origin main
 | `scripts/recover-after-history-rewrite.sh` | 既存クローンを現在のmainへ安全に揃えるスクリプト |
 | `docs/ACTIONS_CODEQL_INCIDENT_2026-08-17.md` | CodeQL一時失敗の根拠ログ |
 | `data/onsen-image-manifest.json` | 画像の出典・ライセンス・外部配信URLの台帳 |
-| `scripts/migrate-onsen-images-to-external-cdn.mjs` | 個別画像の外部URL移行処理 |
-| `scripts/migrate-regional-fallbacks-to-external-cdn.mjs` | 地域景観画像の外部URL移行処理 |
+| `AGENTS.md` | 全エージェント向けの外部画像配信専用ルールと禁止事項 |
+| `scripts/validate-external-image-policy.mjs` | `localPath`、ローカル画像ファイル、ローカル画像URLを拒否する検証 |
 
 ## 9. 結論
 

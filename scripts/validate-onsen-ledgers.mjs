@@ -34,17 +34,17 @@ for (const asset of imageManifest.assets ?? []) {
     if (typeof asset[key] !== 'string' || !asset[key].trim()) fail(`${base}: ${key} is required`);
   }
   if (!String(asset.sourceUrl).startsWith('https://')) fail(`${base}: sourceUrl must use HTTPS`);
+  if (Object.hasOwn(asset, 'localPath')) fail(`${base}: localPath is prohibited; images must be externally delivered`);
   if (asset.status === 'approved') {
     if (typeof asset.credit !== 'string' || !asset.credit.trim()) fail(`${base}: approved assets require credit`);
     if (typeof asset.deliveryUrl !== 'string' || !asset.deliveryUrl.startsWith('https://')) fail(`${base}: approved assets require an HTTPS deliveryUrl`);
-    if (asset.localPath) fail(`${base}: approved assets must not retain localPath after external delivery migration`);
     if (asset.role === 'hero') {
       const heroKey = `${asset.onsenSlug}:${asset.role}`;
       if (approvedHeroes.has(heroKey)) fail(`${base}: only one approved hero is allowed per onsen`);
       approvedHeroes.add(heroKey);
     }
-  } else if (asset.localPath || asset.deliveryUrl) {
-    fail(`${base}: only approved assets may define localPath or deliveryUrl`);
+  } else if (asset.deliveryUrl) {
+    fail(`${base}: only approved assets may define deliveryUrl`);
   }
 }
 

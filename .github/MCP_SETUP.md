@@ -10,13 +10,12 @@
 **アクセス可能なディレクトリ**:
 - `docs/` - ドキュメント
 - `themes/` - テーマ設定
-- `data/` - データファイル（画像メタデータなど）
-- `public/images/` - 画像ファイル
+- `data/` - データファイル（画像出典・ライセンス・外部配信URLを含む台帳）
 
 **使用例**:
 - ドキュメントの検索・参照
 - テーマファイルの編集
-- 画像メタデータの確認
+- 画像台帳（出典・ライセンス・外部配信URL）の確認
 
 ---
 
@@ -51,9 +50,11 @@ BRAVE_API_KEY=your_api_key_here
 **用途**: HTTP リクエストの実行
 
 **機能**:
-- Wikimedia Commons API からの画像取得
+- 画像の出典ページ・ライセンス情報の確認
 - 外部APIの呼び出し
 - Web ページの取得
+
+> **画像バイナリは取得・保存しないこと。** 温泉画像は台帳のHTTPS `deliveryUrl` で外部配信する。レートリミットまたはAPIエラー中は画像収集・再試行を実行しない。
 
 **使用例**:
 - Wikimedia Commons から温泉画像を取得
@@ -88,14 +89,13 @@ BRAVE_API_KEY=your_brave_api_key_here
 
 ```
 Copilot に依頼:
-「Wikimedia Commons から箱根温泉の露天風呂画像を検索して、
-data/wikimedia-images.json に追加してください」
+「箱根温泉向けの再利用可能な画像候補について、出典ページ・ライセンス・外部配信URLを確認し、承認基準を満たす場合のみ画像台帳の候補として記録してください。画像ファイルはダウンロードしないでください」
 ```
 
 MCPサーバーの動作:
-1. **Fetch Server**: Wikimedia Commons API を呼び出し
-2. **Filesystem Server**: `data/wikimedia-images.json` を読み込み
-3. **Filesystem Server**: 新しい画像情報を追加して保存
+1. **Fetch Server**: 出典ページまたはAPIからライセンスと外部配信URLを確認
+2. **Filesystem Server**: `data/onsen-image-manifest.json` を読み込み
+3. **Filesystem Server**: 承認済みの出典・ライセンス・HTTPS配信URLだけを台帳へ記録
 
 ---
 
