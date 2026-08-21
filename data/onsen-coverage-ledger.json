@@ -48,7 +48,7 @@
       "prefecture": "東京都",
       "officialOnsenPlaceCount": 22,
       "publishedOnsenPlaceCount": 11,
-      "publishedDayTripFacilityCount": 13,
+      "publishedDayTripFacilityCount": 17,
       "referenceDifference": 11
     },
     {
@@ -62,7 +62,7 @@
   "totals": {
     "officialOnsenPlaceCount": 387,
     "publishedOnsenPlaceCount": 127,
-    "publishedDayTripFacilityCount": 20,
+    "publishedDayTripFacilityCount": 24,
     "referenceDifference": 260
   },
   "entries": [
@@ -1339,6 +1339,18 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "ofuro-no-osama-tamamogusa",
+      "name": "おふろの王様 多摩百草店",
+      "officialName": "おふろの王様 多摩百草店",
+      "prefecture": "東京都",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.ousama2603.com/tamamogusa/",
+      "verifiedAt": "2026-08-21",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
       "siteSlug": "ofuro-no-osama-oimachi",
       "name": "おふろの王様 大井町店",
       "officialName": "おふろの王様 大井町店公式サイト",
@@ -1360,6 +1372,18 @@
       "officialUrl": "https://www.okutama.gr.jp/",
       "verifiedAt": "2026-08-14",
       "hasDetailedDayTripGuide": false,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "ogikubo-nagominoyu",
+      "name": "荻窪なごみの湯",
+      "officialName": "荻窪なごみの湯",
+      "prefecture": "東京都",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.nagomino-yu.com/",
+      "verifiedAt": "2026-08-21",
+      "hasDetailedDayTripGuide": true,
       "imageStatus": "legacy-review-needed"
     },
     {
@@ -1471,6 +1495,18 @@
       "imageStatus": "legacy-review-needed"
     },
     {
+      "siteSlug": "izumi-tenku-ariake-garden",
+      "name": "泉天空の湯 有明ガーデン",
+      "officialName": "泉天空の湯 有明ガーデン",
+      "prefecture": "東京都",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://www.shopping-sumitomo-rd.com/ariake/spa-izumi/",
+      "verifiedAt": "2026-08-21",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
       "siteSlug": "maeno-hara-onsen",
       "name": "前野原温泉 さやの湯処",
       "officialName": "前野原温泉 さやの湯処公式サイト",
@@ -1563,6 +1599,18 @@
       "publicationStatus": "published",
       "officialUrl": "http://kodainoyu.jp/",
       "verifiedAt": "2026-08-17",
+      "hasDetailedDayTripGuide": true,
+      "imageStatus": "legacy-review-needed"
+    },
+    {
+      "siteSlug": "tokyo-toyosu-manyo-club",
+      "name": "東京豊洲 万葉倶楽部",
+      "officialName": "東京豊洲 万葉倶楽部",
+      "prefecture": "東京都",
+      "classification": "day-trip-facility",
+      "publicationStatus": "published",
+      "officialUrl": "https://tokyo-toyosu.manyo.co.jp/",
+      "verifiedAt": "2026-08-21",
       "hasDetailedDayTripGuide": true,
       "imageStatus": "legacy-review-needed"
     },

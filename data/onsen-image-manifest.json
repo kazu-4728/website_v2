@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastReviewed": "2026-08-17",
+  "lastReviewed": "2026-08-21",
   "assets": [
     {
       "id": "maeno-hara-onsen-hero",
@@ -1912,6 +1912,58 @@
       "reviewedAt": "2026-08-17",
       "note": "温泉施設そのものではない場合があるため、所沢市・湯楽の里周辺の周辺写真として明示して掲載。日本語Wikipediaで埼玉県内の所沢市を座標照合し、Wikimedia Commonsで距離5mの再利用可能ライセンス写真を確認した。 外部配信URLへ移行: upload.wikimedia.org。画像バイナリはGitリポジトリに保存しない。",
       "deliveryUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/View_of_Tokorozawa_from_Hachikokuyama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "tokyo-toyosu-manyo-club-hero",
+      "onsenSlug": "tokyo-toyosu-manyo-club",
+      "role": "hero",
+      "status": "approved",
+      "subject": "「Toyosu fish market-2d2.jpg」— 豊洲市場水産仲卸売場棟。東京豊洲 万葉倶楽部が隣接する豊洲市場の近隣景観であり、施設そのものを写す写真ではありません。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyosu_fish_market-2d2.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "江戸村のとくぞう",
+      "reviewedAt": "2026-08-21",
+      "note": "豊洲市場水産仲卸売場棟の周辺景観として明示。Commonsの説明ページで著作者・CC BY-SA 4.0・出典を確認。画像バイナリはGitリポジトリに保存しない。",
+      "deliveryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Toyosu_fish_market-2d2.jpg/1280px-Toyosu_fish_market-2d2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    {
+      "id": "ogikubo-nagominoyu-hero",
+      "onsenSlug": "ogikubo-nagominoyu",
+      "role": "hero",
+      "status": "approved",
+      "subject": "「Ogikubo sta west north.jpg」— 荻窪駅西口北側（東京都杉並区）。荻窪なごみの湯へのアクセスに関わる近隣・駅前景観であり、施設そのものを写す写真ではありません。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogikubo_sta_west_north.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Oggi",
+      "reviewedAt": "2026-08-21",
+      "note": "荻窪駅西口北側の近隣・アクセス景観として明示。Commonsの説明ページで著作者・CC BY-SA 4.0・出典を確認。画像バイナリはGitリポジトリに保存しない。",
+      "deliveryUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ogikubo_sta_west_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "izumi-tenku-ariake-garden-hero",
+      "onsenSlug": "izumi-tenku-ariake-garden",
+      "role": "hero",
+      "status": "approved",
+      "subject": "「Ariake Garden 1.jpg」— 東京都江東区有明の有明ガーデン正面。有明ガーデン内にある泉天空の湯 有明ガーデンの近隣・複合施設景観であり、浴場そのものを写す写真ではありません。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariake_Garden_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "NickeldimeC",
+      "reviewedAt": "2026-08-21",
+      "note": "有明ガーデン正面の複合施設景観として明示。Commonsの説明ページで著作者・CC BY-SA 4.0・出典を確認。画像バイナリはGitリポジトリに保存しない。",
+      "deliveryUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ariake_Garden_1.jpg/1280px-Ariake_Garden_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    {
+      "id": "ofuro-no-osama-tamamogusa-hero",
+      "onsenSlug": "ofuro-no-osama-tamamogusa",
+      "role": "hero",
+      "status": "approved",
+      "subject": "「Mogusaen st.jpg」— 京王線百草園駅。多摩百草店の周辺・アクセス圏の鉄道景観であり、施設そのものを写す写真ではありません。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogusaen_st.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Chabata_k(Japan)",
+      "reviewedAt": "2026-08-21",
+      "note": "百草園駅の周辺・アクセス景観として明示。Commonsの説明ページで著作者・CC BY-SA 3.0・出典を確認。画像バイナリはGitリポジトリに保存しない。",
+      "deliveryUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mogusaen_st.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
     }
   ],
   "areaFallbacks": [

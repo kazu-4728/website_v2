@@ -10967,6 +10967,105 @@
       "imageVerified": true
     },
     {
+      "slug": "ofuro-no-osama-tamamogusa",
+      "name": "おふろの王様 多摩百草店",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "おふろの王様 多摩百草店",
+      "officialUrl": "https://www.ousama2603.com/tamamogusa/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%9A%E6%91%A9%E7%99%BE%E8%8D%89%E5%BA%97%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A4%9A%E6%91%A9%E5%B8%82%E5%92%8C%E7%94%B01352-1",
+      "verifiedAt": "2026-08-21",
+      "catchcopy": "多摩の住宅地で、岩盤浴と日帰り入浴を一日ゆっくり楽しむ。",
+      "summary": "東京都多摩市和田にある日帰り温浴施設です。公式サイトでは入浴、サウナ、岩盤浴、食事、リラクゼーションを案内しています。天然温泉の供給方式・泉質、営業内容、送迎・駐車場の条件は変動し得るため、出発前に公式情報を確認してください。",
+      "access": "東京都多摩市和田1352-1。公式は高幡不動駅・多摩センター駅・聖蹟桜ヶ丘駅方面から百草団地南バス停を利用する経路を案内しています。",
+      "tags": [
+        "多摩市",
+        "日帰り温浴",
+        "岩盤浴",
+        "サウナ",
+        "送迎案内"
+      ],
+      "springTypes": [
+        "温浴施設（温泉の供給方式・泉質は公式案内を確認）"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "features": [
+        "入浴・サウナに加えて4種の岩盤浴を公式が案内しています。",
+        "9:00〜24:00、最終受付23:00の案内です。",
+        "高幡不動駅、多摩センター駅、聖蹟桜ヶ丘駅方面からのバス経路を公式が案内しています。"
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "屋内の入浴・岩盤浴を中心に計画できます。営業時間、送迎時刻、特定料金日、館内サービスは公式の最新案内を確認してください。"
+        }
+      ],
+      "editorialNote": "入館料、岩盤浴料金、送迎・バス時刻、年齢条件、館内サービスの営業時間は変更される場合があります。公式案内で確認してください。",
+      "benefits": [
+        {
+          "label": "多摩で一日休む",
+          "text": "多摩市周辺で入浴、サウナ、岩盤浴、食事をまとめて楽しむ日帰り計画に向きます。"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "おふろの王様 多摩百草店 料金・アクセス",
+          "kind": "公式案内",
+          "url": "https://www.ousama2603.com/tamamogusa/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%9A%E6%91%A9%E7%99%BE%E8%8D%89%E5%BA%97"
+        },
+        {
+          "name": "おふろの王様 多摩百草店 おふろ・サウナ",
+          "kind": "公式案内",
+          "url": "https://www.ousama2603.com/tamamogusa/ofuro/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B5%E3%82%8D%E3%81%AE%E7%8E%8B%E6%A7%98%20%E5%A4%9A%E6%91%A9%E7%99%BE%E8%8D%89%E5%BA%97"
+        }
+      ],
+      "dayTrip": {
+        "summary": "入浴・サウナ・岩盤浴・食事を日帰りで利用できます。",
+        "hours": "9:00〜24:00、最終受付23:00。",
+        "closingNote": "年中無休の案内ですが、メンテナンスや館内サービスの変更は公式で確認。",
+        "feeNote": "一般大人は平日880円、土日祝1,030円。小学生は平日350円、土日祝400円。岩盤浴は別料金。",
+        "accessNote": "東京都多摩市和田1352-1。百草団地南バス停から徒歩約2分の案内。",
+        "bookingNote": "送迎・バス時刻、岩盤浴、食事、混雑、利用条件は公式で確認。",
+        "highlights": [
+          "日帰り入浴",
+          "サウナ",
+          "4種の岩盤浴",
+          "多摩市"
+        ],
+        "officialInfoUrl": "https://www.ousama2603.com/tamamogusa/",
+        "verifiedAt": "2026-08-21"
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mogusaen_st.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+        "alt": "「Mogusaen st.jpg」— 京王線百草園駅。多摩百草店の周辺・アクセス圏の鉄道景観であり、施設そのものを写す写真ではありません。",
+        "credit": "Chabata_k(Japan)",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogusaen_st.jpg"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mogusaen_st.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+          "alt": "「Mogusaen st.jpg」— 京王線百草園駅。多摩百草店の周辺・アクセス圏の鉄道景観であり、施設そのものを写す写真ではありません。",
+          "credit": "Chabata_k(Japan)",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogusaen_st.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mogusaen_st.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+          "alt": "「Mogusaen st.jpg」— 京王線百草園駅。多摩百草店の周辺・アクセス圏の鉄道景観であり、施設そのものを写す写真ではありません。",
+          "credit": "Chabata_k(Japan)",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mogusaen_st.jpg"
+        }
+      ],
+      "imageVerified": true
+    },
+    {
       "slug": "ofuro-no-osama-oimachi",
       "name": "おふろの王様 大井町店",
       "kind": "温泉施設",
@@ -11157,6 +11256,105 @@
         }
       ],
       "editorialNote": "泉質の特徴や入浴体験は一般的な目安です。体調、年齢、持病、妊娠中などの条件により注意点が異なるため、現地の掲示と公式案内を確認してください。",
+      "imageVerified": true
+    },
+    {
+      "slug": "ogikubo-nagominoyu",
+      "name": "荻窪なごみの湯",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "荻窪なごみの湯",
+      "officialUrl": "https://www.nagomino-yu.com/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%BB%E7%AA%AA%E3%81%AA%E3%81%94%E3%81%BF%E3%81%AE%E6%B9%AF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%9D%89%E4%B8%A6%E5%8C%BA%E4%B8%8A%E8%8D%BB1-10-10",
+      "verifiedAt": "2026-08-21",
+      "catchcopy": "荻窪駅西口から徒歩2分、終電後まで休める駅前の湯。",
+      "summary": "東京都杉並区上荻にある日帰り温浴施設です。公式案内では入浴・サウナ、岩盤浴、食事処、リラクゼーションを案内しています。営業時間、深夜の利用条件、年齢条件、料金は変動し得るため訪問前に公式の料金・注意事項を確認してください。",
+      "access": "東京都杉並区上荻1-10-10。JR・東京メトロ荻窪駅西口から徒歩約2分と公式が案内しています。",
+      "tags": [
+        "荻窪",
+        "駅近",
+        "日帰り温浴",
+        "サウナ",
+        "岩盤浴"
+      ],
+      "springTypes": [
+        "温浴施設（温泉の供給方式・泉質は公式案内を確認）"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "features": [
+        "JR・東京メトロ荻窪駅西口から徒歩約2分と公式アクセス案内があります。",
+        "入浴・サウナに加え、岩盤浴ラウンジ、食事処、リラクゼーションを案内しています。",
+        "店舗営業時間は10時30分から翌朝9時まで、最終受付は8時の案内です。"
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "駅近の屋内施設として計画しやすい一方、深夜清掃時間、岩盤浴・食事処の営業時間、工事点検による変更は公式で確認してください。"
+        }
+      ],
+      "editorialNote": "深夜1時から翌朝5時は入館できない案内があります。年齢条件、深夜追加料金、営業時間・休館は変更される場合があるため、公式ページで確認してください。",
+      "benefits": [
+        {
+          "label": "駅前で日帰り休憩",
+          "text": "荻窪駅から短時間でアクセスし、入浴・サウナ・岩盤浴・食事を組み合わせる休憩に向きます。"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "荻窪なごみの湯 料金・営業時間",
+          "kind": "公式案内",
+          "url": "https://www.nagomino-yu.com/guide/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%BB%E7%AA%AA%E3%81%AA%E3%81%94%E3%81%BF%E3%81%AE%E6%B9%AF"
+        },
+        {
+          "name": "荻窪なごみの湯 アクセス",
+          "kind": "公式案内",
+          "url": "https://www.nagomino-yu.com/access/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8D%BB%E7%AA%AA%E3%81%AA%E3%81%94%E3%81%BF%E3%81%AE%E6%B9%AF"
+        }
+      ],
+      "dayTrip": {
+        "summary": "荻窪駅近くで、入浴・サウナと岩盤浴、食事を日帰りで利用できます。",
+        "hours": "店舗10:30〜翌9:00、最終受付8:00。深夜1:00〜翌5:00は入館不可。",
+        "closingNote": "年中無休の案内ですが、工事点検などにより営業時間変更・休館となる場合あり。",
+        "feeNote": "大人一般は平日2,300円。土日祝は400円、特定日は500円の割増案内があります。岩盤浴は別料金。",
+        "accessNote": "東京都杉並区上荻1-10-10。JR・東京メトロ荻窪駅西口から徒歩約2分。",
+        "bookingNote": "深夜滞在の追加料金、未就学児の利用条件、岩盤浴ラウンジ・食事処の時間は公式で確認。",
+        "highlights": [
+          "荻窪駅徒歩約2分",
+          "入浴・サウナ",
+          "岩盤浴ラウンジ",
+          "翌朝までの営業時間案内"
+        ],
+        "officialInfoUrl": "https://www.nagomino-yu.com/guide/",
+        "verifiedAt": "2026-08-21"
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ogikubo_sta_west_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+        "alt": "「Ogikubo sta west north.jpg」— 荻窪駅西口北側（東京都杉並区）。荻窪なごみの湯へのアクセスに関わる近隣・駅前景観であり、施設そのものを写す写真ではありません。",
+        "credit": "Oggi",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogikubo_sta_west_north.jpg"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ogikubo_sta_west_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+          "alt": "「Ogikubo sta west north.jpg」— 荻窪駅西口北側（東京都杉並区）。荻窪なごみの湯へのアクセスに関わる近隣・駅前景観であり、施設そのものを写す写真ではありません。",
+          "credit": "Oggi",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogikubo_sta_west_north.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ogikubo_sta_west_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+          "alt": "「Ogikubo sta west north.jpg」— 荻窪駅西口北側（東京都杉並区）。荻窪なごみの湯へのアクセスに関わる近隣・駅前景観であり、施設そのものを写す写真ではありません。",
+          "credit": "Oggi",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogikubo_sta_west_north.jpg"
+        }
+      ],
       "imageVerified": true
     },
     {
@@ -12032,6 +12230,105 @@
       "imageVerified": true
     },
     {
+      "slug": "izumi-tenku-ariake-garden",
+      "name": "泉天空の湯 有明ガーデン",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "泉天空の湯 有明ガーデン",
+      "officialUrl": "https://www.shopping-sumitomo-rd.com/ariake/spa-izumi/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%89%E5%A4%A9%E7%A9%BA%E3%81%AE%E6%B9%AF%20%E6%9C%89%E6%98%8E%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E6%9C%89%E6%98%8E2-1-7",
+      "verifiedAt": "2026-08-21",
+      "catchcopy": "有明ガーデンで、買い物・観劇と湯休みをつなぐ24時間の温浴拠点。",
+      "summary": "東京都江東区有明の有明ガーデン内にある温浴施設です。公式案内では大浴場・サウナ、岩盤浴、ボディケア、食事を案内しています。設備点検、深夜滞在、年齢・入館条件、料金は変更されるため、訪問前に公式の利用案内を確認してください。",
+      "access": "東京都江東区有明2丁目の有明ガーデン内。公共交通・車の経路および駐車場条件は有明ガーデンの公式アクセス案内と地図で確認してください。",
+      "tags": [
+        "有明",
+        "日帰り温浴",
+        "24時間営業",
+        "サウナ",
+        "岩盤浴"
+      ],
+      "springTypes": [
+        "温浴施設（温泉の供給方式・泉質は公式案内を確認）"
+      ],
+      "useCases": [
+        "day-trip"
+      ],
+      "features": [
+        "有明ガーデン内の温浴施設として、大浴場・サウナ・岩盤浴を公式が案内しています。",
+        "施設は24時間営業、入館受付は5:00〜翌1:00の案内です。",
+        "大浴場・サウナは5:00〜翌1:30、清掃のため1:30〜5:00は浴場閉鎖の案内があります。"
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "屋内施設として計画しやすい一方、月1回程度の設備点検、深夜料金、館内サービスの時間は公式の最新情報を確認してください。"
+        }
+      ],
+      "editorialNote": "深夜1:00〜5:00に館内滞在する場合は深夜料金が自動加算される案内があります。年齢・おむつ利用・岩盤浴の条件も含め、公式の利用案内で確認してください。",
+      "benefits": [
+        {
+          "label": "湾岸の一日休憩",
+          "text": "有明周辺で買い物、イベント、食事と入浴・サウナを組み合わせたい日帰り計画に向きます。"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "泉天空の湯 有明ガーデン 営業時間・料金",
+          "kind": "公式案内",
+          "url": "https://www.shopping-sumitomo-rd.com/ariake/spa-izumi/userguide.html",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%89%E5%A4%A9%E7%A9%BA%E3%81%AE%E6%B9%AF%20%E6%9C%89%E6%98%8E%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3"
+        },
+        {
+          "name": "有明ガーデン アクセス",
+          "kind": "公式案内",
+          "url": "https://www.shopping-sumitomo-rd.com/ariake/gaikumap/access/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%89%E5%A4%A9%E7%A9%BA%E3%81%AE%E6%B9%AF%20%E6%9C%89%E6%98%8E%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3"
+        }
+      ],
+      "dayTrip": {
+        "summary": "有明ガーデン内で、大浴場・サウナ・岩盤浴を日帰り利用できます。",
+        "hours": "施設24時間営業、入館受付5:00〜翌1:00。大浴場・サウナ5:00〜翌1:30。",
+        "closingNote": "年中無休の案内ですが、月1回程度の設備点検で休館する場合があるため公式を確認。",
+        "feeNote": "大人は平日2,600円、土日祝3,800円。館内着200円、岩盤浴800円。深夜は別料金。",
+        "accessNote": "有明ガーデン内。公共交通・車・駐車場の条件は公式アクセス案内で確認。",
+        "bookingNote": "深夜料金、年齢・おむつ利用、岩盤浴、混雑時の利用条件は公式で確認。",
+        "highlights": [
+          "有明ガーデン内",
+          "24時間営業案内",
+          "大浴場・サウナ",
+          "岩盤浴"
+        ],
+        "officialInfoUrl": "https://www.shopping-sumitomo-rd.com/ariake/spa-izumi/userguide.html",
+        "verifiedAt": "2026-08-21"
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ariake_Garden_1.jpg/1280px-Ariake_Garden_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+        "alt": "「Ariake Garden 1.jpg」— 東京都江東区有明の有明ガーデン正面。有明ガーデン内にある泉天空の湯 有明ガーデンの近隣・複合施設景観であり、浴場そのものを写す写真ではありません。",
+        "credit": "NickeldimeC",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariake_Garden_1.jpg"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ariake_Garden_1.jpg/1280px-Ariake_Garden_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+          "alt": "「Ariake Garden 1.jpg」— 東京都江東区有明の有明ガーデン正面。有明ガーデン内にある泉天空の湯 有明ガーデンの近隣・複合施設景観であり、浴場そのものを写す写真ではありません。",
+          "credit": "NickeldimeC",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariake_Garden_1.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ariake_Garden_1.jpg/1280px-Ariake_Garden_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+          "alt": "「Ariake Garden 1.jpg」— 東京都江東区有明の有明ガーデン正面。有明ガーデン内にある泉天空の湯 有明ガーデンの近隣・複合施設景観であり、浴場そのものを写す写真ではありません。",
+          "credit": "NickeldimeC",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariake_Garden_1.jpg"
+        }
+      ],
+      "imageVerified": true
+    },
+    {
       "slug": "maeno-hara-onsen",
       "name": "前野原温泉 さやの湯処",
       "kind": "温泉施設",
@@ -12806,6 +13103,106 @@
         "officialInfoUrl": "http://kodainoyu.jp/",
         "verifiedAt": "2026-08-17"
       },
+      "imageVerified": true
+    },
+    {
+      "slug": "tokyo-toyosu-manyo-club",
+      "name": "東京豊洲 万葉倶楽部",
+      "kind": "温泉施設",
+      "areaId": "tokyo-urban-onsen",
+      "prefecture": "東京都",
+      "officialName": "東京豊洲 万葉倶楽部",
+      "officialUrl": "https://tokyo-toyosu.manyo.co.jp/",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E8%B1%8A%E6%B4%B2%20%E4%B8%87%E8%91%89%E5%80%B6%E6%A5%BD%E9%83%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E8%B1%8A%E6%B4%B26%E4%B8%81%E7%9B%AE5-1",
+      "verifiedAt": "2026-08-21",
+      "catchcopy": "豊洲市場に隣接し、都心で長時間の湯休みを組み立てる。",
+      "summary": "東京都江東区豊洲の「豊洲 千客万来」内にある日帰り・宿泊対応の温浴施設です。豊洲市場に隣接する立地で、入館条件、温泉の供給方式、館内サービスは公式案内で確認してから訪問してください。",
+      "access": "東京都江東区豊洲6丁目5番1号、豊洲市場に隣接。最寄り駅からの経路、送迎・駐車場の利用条件は公式アクセス案内と地図で確認してください。",
+      "tags": [
+        "豊洲",
+        "日帰り温浴",
+        "24時間営業",
+        "江東区",
+        "市場周辺"
+      ],
+      "springTypes": [
+        "温浴施設（温泉の供給方式・泉質は公式案内を確認）"
+      ],
+      "useCases": [
+        "day-trip",
+        "stay"
+      ],
+      "features": [
+        "豊洲市場に隣接する「豊洲 千客万来」内の温浴施設です。",
+        "公式サイトで日帰り入浴と宿泊の両方を案内しています。",
+        "24時間営業の案内がありますが、受付・利用条件・館内サービスは訪問前に公式情報を確認してください。"
+      ],
+      "seasonal": [
+        {
+          "season": "通年",
+          "text": "屋内施設を中心に計画しやすい一方、料金、混雑、深夜滞在、送迎・駐車場の条件は公式案内で確認してください。"
+        }
+      ],
+      "editorialNote": "料金、深夜追加料金、年齢・入館条件、温浴設備の利用条件は変更される場合があります。掲載内容だけで判断せず、公式の料金・注意事項・アクセス案内を確認してください。",
+      "benefits": [
+        {
+          "label": "都心で長時間休む",
+          "text": "豊洲周辺で食事・散策と入浴を組み合わせ、日帰りまたは宿泊を含む滞在を計画したい場合に向きます。"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "東京豊洲 万葉倶楽部 料金・営業時間",
+          "kind": "公式案内",
+          "url": "https://tokyo-toyosu.manyo.co.jp/price/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E8%B1%8A%E6%B4%B2%20%E4%B8%87%E8%91%89%E5%80%B6%E6%A5%BD%E9%83%A8"
+        },
+        {
+          "name": "東京豊洲 万葉倶楽部 アクセス",
+          "kind": "公式案内",
+          "url": "https://tokyo-toyosu.manyo.co.jp/access/",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E8%B1%8A%E6%B4%B2%20%E4%B8%87%E8%91%89%E5%80%B6%E6%A5%BD%E9%83%A8"
+        }
+      ],
+      "dayTrip": {
+        "summary": "豊洲市場に隣接する温浴施設を日帰りで利用できます。利用時間、深夜滞在、年齢・入館条件は公式案内を確認してください。",
+        "hours": "24時間営業と公式が案内。受付・浴場・館内サービスの時間は公式の最新案内を確認。",
+        "closingNote": "年中無休の案内ですが、設備点検・混雑時の利用条件などは公式の告知を確認。",
+        "feeNote": "大人（中学生以上）3,850円の案内があります。深夜3時以降の追加料金など、料金体系は公式価格表で確認。",
+        "accessNote": "東京都江東区豊洲6丁目5番1号。豊洲市場に隣接。公共交通・車の経路は公式アクセス案内で確認。",
+        "bookingNote": "日帰り・宿泊・貸切風呂・年齢および入館条件は公式案内で確認。",
+        "highlights": [
+          "豊洲市場隣接",
+          "日帰り入浴",
+          "24時間営業案内",
+          "宿泊対応"
+        ],
+        "officialInfoUrl": "https://tokyo-toyosu.manyo.co.jp/price/",
+        "verifiedAt": "2026-08-21"
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Toyosu_fish_market-2d2.jpg/1280px-Toyosu_fish_market-2d2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+        "alt": "「Toyosu fish market-2d2.jpg」— 豊洲市場水産仲卸売場棟。東京豊洲 万葉倶楽部が隣接する豊洲市場の近隣景観であり、施設そのものを写す写真ではありません。",
+        "credit": "江戸村のとくぞう",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyosu_fish_market-2d2.jpg"
+      },
+      "gallery": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Toyosu_fish_market-2d2.jpg/1280px-Toyosu_fish_market-2d2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+          "alt": "「Toyosu fish market-2d2.jpg」— 豊洲市場水産仲卸売場棟。東京豊洲 万葉倶楽部が隣接する豊洲市場の近隣景観であり、施設そのものを写す写真ではありません。",
+          "credit": "江戸村のとくぞう",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyosu_fish_market-2d2.jpg"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Toyosu_fish_market-2d2.jpg/1280px-Toyosu_fish_market-2d2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+          "alt": "「Toyosu fish market-2d2.jpg」— 豊洲市場水産仲卸売場棟。東京豊洲 万葉倶楽部が隣接する豊洲市場の近隣景観であり、施設そのものを写す写真ではありません。",
+          "credit": "江戸村のとくぞう",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyosu_fish_market-2d2.jpg"
+        }
+      ],
       "imageVerified": true
     },
     {
